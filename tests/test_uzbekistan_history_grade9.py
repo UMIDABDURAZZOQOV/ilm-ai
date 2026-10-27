@@ -54,6 +54,31 @@ ORDER.update(
     }
 )
 
+MCQ.update(
+    {
+        11: ["Po‘latxon", "Nasriddinbek", "Farg‘ona viloyati"],
+        12: ["Duma", "Volost", "Samarqand viloyati"],
+        13: ["General-gubernator", "Kredit", "Madrasa", "Avliyoota"],
+        14: [
+            "Biy sudlari",
+            "Apellatsiya",
+            "Toshkent sud palatasi",
+            "Uchastka mirovoy sudyalari",
+        ],
+        15: ["Samarqand", "Andijon", "Paxta tozalash"],
+    }
+)
+FRQ.update(
+    {
+        11: ["Skobelev", "Go'ktepa"],
+        12: ["Toshkent uyezdi", "Uyezd"],
+        13: ["Bo'zsuv", "Ma’muriyat ruxsati"],
+        14: ["Ispravnik", "Okrug sudlari"],
+        15: ["Sirdaryo magistral kanali", "Samarqand"],
+    }
+)
+ORDER.update({11: ["e1", "e2", "e3"], 12: ["e1", "e2"], 15: ["e1", "e2"]})
+
 
 def lessons():
     return [l for d in load_course() if d["grade"] == 9 for l in d["lessons"]]
@@ -82,7 +107,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("sequence", range(1, 11))
+@pytest.mark.parametrize("sequence", range(1, 16))
 def test_literal_original_page_answer_keys_and_wrong_answers(sequence):
     lesson = lessons()[sequence - 1]
     for q, value in zip(lesson["assessments"], answers(lesson)):
@@ -157,7 +182,12 @@ def test_grade9_original_numbering_independent_progress_replay_and_old_grades(pr
     assert client.get(P + "/catalog?grade=8").json() == before8
     done = client.get(P + "/catalog?grade=9").json()
     assert done["chapters"][0]["checkpoint_state"] == "completed"
-    assert done["chapters"][1]["checkpoint_state"] == "locked"
+    assert done["chapters"][1]["checkpoint_state"] == (
+        "completed" if len(lessons()) >= 11 else "locked"
+    )
+    assert done["chapters"][2]["checkpoint_state"] == (
+        "completed" if len(lessons()) >= 15 else "locked"
+    )
     with factory() as db:
         assert db.get(User, 1).xp_total == 147 + 10 * len(lessons())
         assert db.get(HistoryProgress, (1, "uzh-7-1-r1")).completed_at is not None

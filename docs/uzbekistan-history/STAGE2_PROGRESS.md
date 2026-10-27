@@ -1,16 +1,16 @@
 # Davom checkpointi
 
-2026-10-27. **Kurs tugallanmagan: 93/172 o‘quv birligi lokal/test preview’da.** Jami 730 karta, 585 topshiriq (342 MCQ / 185 qisqa FRQ / 58 xronologiya), 93 original misol va 93 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 98/172 o‘quv birligi lokal/test preview’da.** Jami 770 karta, 615 topshiriq (359 MCQ / 195 qisqa FRQ / 61 xronologiya), 98 original misol va 98 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 | 325 | 280 | 83 |
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
-| 9 | 9 | 39 | 10 | 29 | 86 | 60 | 20 |
+| 9 | 9 | 39 | 15 | 24 | 126 | 90 | 30 |
 | 10 | 6 | 28 | 0 | 28 | 0 | 0 | 0 |
 | 11 | 9 | 22 | 0 | 22 | 0 | 0 | 0 |
 
-**Keyingi: 9-sinf §12, PDF 39, bosma 39 — Qo‘qon xonligining bosib olinishi.**
+**Keyingi: 9-sinf §17, PDF 61, bosma 61 — Turkistonda milliy-ozodlik harakatlarining boshlanishi va uning sabablari.**
 
 | Joriy sinf mavzusi | Fakt manba sahifalari | Karta | Savol |
 |---|---|---:|---:|
@@ -24,11 +24,16 @@
 | §9 Buxoro amirligiga qarshi harbiy harakatlarning boshlanishi | 29–31 | 7 | 6 |
 | §10 Buxoro amirligi ustidan Rossiya imperiyasi protektoratining o‘rnatilishi | 31–35 | 9 | 6 |
 | §11 Xiva xonligi ustidan Rossiya imperiyasi protektoratining o‘rnatilishi | 36–38 | 9 | 6 |
+| §12 Qo‘qon xonligining bosib olinishi | 39–44 | 8 | 6 |
+| §13 Turkiston general-gubernatorligining siyosiy-ma’muriy boshqaruv tizimi | 45–49 | 8 | 6 |
+| §14 Turkiston o‘lkasida Rossiya imperiyasining yer-suv siyosati | 50–52 | 8 | 6 |
+| §15 Turkistonda sud tizimi va harbiy politsiya tartibotining o‘rnatilishi | 52–56 | 8 | 6 |
+| §16 XIX asrning ikkinchi yarmi – XX asrning boshlarida Turkistonda ijtimoiy- iqtisodiy ahvol | 57–60 | 8 | 6 |
 
-- backend: `204 passed, 3 skipped in 123.75s (0:02:03)`.
-- postgres: `3 passed, 142 deselected in 41.48s`.
-- flutter: `01:20 +288: All tests passed!`.
-- flutter_history: `00:15 +134: All tests passed!`.
-- analyze: `No issues found! (ran in 1.6s)`.
+- backend: `209 passed, 3 skipped in 131.19s (0:02:11)`.
+- postgres: `3 passed, 147 deselected in 41.91s`.
+- flutter: `01:21 +293: All tests passed!`.
+- flutter_history: `00:14 +139: All tests passed!`.
+- analyze: `No issues found! (ran in 1.4s)`.
 
 [8-sinf frozen full-regression](checkpoints/grade8_validation.json).
