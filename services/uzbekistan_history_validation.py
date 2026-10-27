@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import itertools
 import json
+import re
 
 from services.uzbekistan_history_grading import grade_answer
 from services.uzbekistan_history_sources import (
@@ -29,9 +30,24 @@ BATCHES = {
     "grade8_batch1": (8, 1, 5),
     "grade8_batch2": (8, 6, 10),
     "grade8_batch3": (8, 11, 15),
+    "grade8_batch4": (8, 16, 20),
 }
 
 fingerprint = digest
+
+
+def reviewed_text_scripts(value):
+    """Catch OCR/lookalike corruption without prohibiting whole Cyrillic words."""
+    if isinstance(value, dict):
+        return all(reviewed_text_scripts(item) for item in value.values())
+    if isinstance(value, list):
+        return all(reviewed_text_scripts(item) for item in value)
+    if not isinstance(value, str) or not re.search(r"[\u0400-\u04ff]", value):
+        return True
+    return not any(
+        re.search(r"[A-Za-z]", word) and re.search(r"[\u0400-\u04ff]", word)
+        for word in re.findall(r"[^\W\d_]+", value)
+    )
 
 
 def chronology_bounds(time):
@@ -128,6 +144,7 @@ def validate_ref(ref, book, topic, facts=None):
 
 
 def validate_batch(doc):
+    require(reviewed_text_scripts(doc), "mixed_script_word_requires_review")
     catalog = load_catalog()
     validate_catalog(catalog)
     require(
@@ -434,4 +451,7 @@ def load_course():
             l["sequence"] for d in result if d["grade"] == grade for l in d["lessons"]
         ]
         require(seq == list(range(1, max(seq) + 1)), "cross_batch_source_gap")
+    from services.uzbekistan_history_spelling import validate_reviews
+
+    validate_reviews(result)
     return result

@@ -91,3 +91,12 @@ Asl19–34tasvirlari o‘qildi, kartalar19–33dagi o‘z paragraf bandlariga bo
 ## 8-sinf §11–15 — 2026-10-27
 
 Asl34–57to‘liq tasvirlari ko‘rildi; yerning huquqi,daromad va soliq bazasi farqlangan. Xiroj stavkalari universal yoki bugungi soliq qoidasi sifatida berilmadi. Elchi sanasi bilan muallifning xalqaro manfaatlar haqidagi talqini ajratildi. Bir xil «Shayboniynoma» sarlavhasi uchun Binoiy va Muhammad Solih asarlari farqlanib, savolda til aniqlashtirildi. Yalangto‘sh bilan bog‘liq47-sahifadagi asr iborasi mustaqil me’morchilik tarixi ekspertizasiga qoldirildi; bino davri uchun bahsli asr avtomatik kalit emas. Mang‘itlar unvonini barcha hukmdor/davr uchun «xon emas amir» deb umumlashtirish ham kalitga kiritilmadi.1756hokimiyat almashishi alohida tekshirilgan qayd bo‘lib qoladi.153dagi nashr davri maqsadlari bajarilgan zamonaviy faktga aylantirilmaydi. Keyingi§16–20uchun asl57–75ko‘rildi, kontent hali validatorga ro‘yxatlanmagan.
+
+
+## 8-sinf §16–20 — 2026-10-27
+
+Asl57–75tasvirlari ko‘rildi; Buxoro amirligi lavozimlari oldingi xonlikdagi bir xil nomlar bilan aynan tenglashtirilmagan. Xizmat turi,mansab,qism va yashash joyi farqlanadi. Aholi va savdo statistikasi bugungi ko‘rsatkich emas; siyosiy motivlar bitta mutlaq avtomatik kalit emas.19va20-mavzulardagi takroriy bir xil savol variantlari boshqa o‘tilgan bilimlarni tekshiradigan topshiriqlarga almashtirildi, bu ishlar yangi partiya muzlatilishidan oldin bajarildi.39sahifadagiAshtarxon va72sahifadagiAstraxon yozuvlari prior-context ref bilan bir joyning tasdiqlangan muqobillari sifatida qabul qilinadi.
+
+Skanerlashga aloqador real yozuv muammolari ham tekshirildi: native matnning watermark bo‘lishi,159imprint varag‘ining raqamsizligi va Latin/Cyrillic o‘xshash belgilar. Aralash alifboli bitta so‘z validator tomonidan rad etiladi; alohida to‘liq Cyrillic so‘zlar noto‘g‘ri «aralash» deb belgilanmaydi.
+
+55–56asl tasvirida **Dinnosirbek** birga yozilgan, muzlatilgan§15r1kartasi/javobi esa **Din Nosirbek** bo‘shliq bilan berilgan edi. R1JSON yoki eski sessiyalar qayta yozilmadi. `spelling_reviews.json` aniq savol,lesson content SHA va original pixel ref bilan bog‘langan tor imlo review’ni saqlaydi. Yangi snapshotga faqat ayni harflarning manbada tekshirilgan bo‘shliq/chiziqcha muqobili qo‘shiladi. Yangi shaxs,sana yoki fuzzy moslikka ruxsat yo‘q. Eski noto‘g‘ri javob/replay5/6holicha qolishi,yangiDinnosirbek6/6bo‘lishi vaXPfaqatbir marta hisoblanishi real API testida tasdiqlandi. Kalit yoki alias mijoz DTOsiga chiqarilmaydi.

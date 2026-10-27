@@ -125,6 +125,7 @@ def test_parallel_source_baseline_is_unchanged():
         "printed",
         "unsplit",
         "footer",
+        "imprint",
     ],
 )
 def test_scanned_segment_mapping_is_not_approved_by_ocr(case):
@@ -146,6 +147,8 @@ def test_scanned_segment_mapping_is_not_approved_by_ocr(case):
         manifest["pages"][40]["image_sha256"] = manifest["pages"][39]["image_sha256"]
     elif case == "printed":
         manifest["pages"][40]["printed_page"] = 40
+    elif case == "imprint":
+        manifest["pages"][158]["printed_page"] = 159
     elif case == "unsplit":
         manifest["original_unsplit_sha256"] = manifest["derived_pdf_sha256"]
     else:

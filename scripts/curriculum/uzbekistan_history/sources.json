@@ -4355,7 +4355,7 @@
       "source_kind": "reassembled_uploaded_segments",
       "original_unsplit_sha256": null,
       "source_manifest_file": "grade8_segments.json",
-      "source_manifest_sha256": "bc101f373bef66e04ebbce1ec2a728a6de881a6176c2479593861bfa8745a4e8",
+      "source_manifest_sha256": "46259123fa7703e5553ece8260ac653d196eb9afb2556ad993b771fddf29c8e3",
       "toc_pdf_pages": [
         157,
         158
@@ -4383,7 +4383,7 @@
       ],
       "source_notes": [
         "Four uploaded original segments, 40 pages each; reconstructed file SHA is not the untransferred whole-original SHA.",
-        "Every original printed footer 3–159 visually checked; leaves1,2,160 unnumbered.",
+        "Every original printed footer 3–158 visually checked; leaves1,2,159,160 unnumbered.",
         "Forty numbered paragraphs plus one explicitly labelled final independent lesson; no duplicated headers counted.",
         "OCR is private locator only. Native text is watermark, not textbook teaching text."
       ],
@@ -9229,8 +9229,8 @@
         },
         {
           "pdf_page": 159,
-          "printed_page": 159,
-          "printed_page_verification": "original_footer_image_checked",
+          "printed_page": null,
+          "printed_page_verification": "unnumbered_leaf_original_image_checked",
           "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
           "native_text_role": "watermark_only_not_teaching_text",
           "image_sha256": "302540eacb90ff225d13a6a0e31ea667057d022ce53edeea2fabd4ea4225a6f0",

@@ -1,6 +1,6 @@
 # 8-sinf — original segmentlar va manba review
 
-2026-10-27. To‘rtta yuklangan PDF haqiqatan ochildi: har birida40sahifa,jami160. Barcha sahifa tasvirlari render qilindi va xeshlandi. Aynan bir xil to‘liq sahifa tasviri takrorlanmadi; bu takrorlanmaganini pixel darajasida tekshiradi, tarixiy faktlarning mustaqil ekspertizasi emas. Barcha bosilgan3–159sahifa raqamlari original footer tasvirlarida o‘qildi.1,2va160raqamsiz varaqlar sifatida saqlanadi. PDF/bosma raqamlar3–159uchun teng; taxminiy offset qo‘llanmagan.
+2026-10-27. To‘rtta yuklangan PDF haqiqatan ochildi: har birida40sahifa,jami160. Barcha sahifa tasvirlari render qilindi va xeshlandi. Aynan bir xil to‘liq sahifa tasviri takrorlanmadi; bu takrorlanmaganini pixel darajasida tekshiradi, tarixiy faktlarning mustaqil ekspertizasi emas. Barcha bosilgan3–158sahifa raqamlari original footer tasvirlarida o‘qildi.1,2,159va160raqamsiz varaqlar sifatida saqlanadi. PDF/bosma raqamlar3–158uchun teng; taxminiy offset qo‘llanmagan.
 
 Chegaralar40→41,80→81,120→121asl to‘liq tasvirlardan ko‘rildi; matn davomlari va raqamlar uzluksiz. Har original segmentning fayl nomi, SHA, lokal sahifasi va global PDF indekslari [manifestda](../../scripts/curriculum/uzbekistan_history/grade8_segments.json) bor.
 
@@ -36,3 +36,6 @@ Etnik shakllanishning yakuniy sanasi,tashqi qiyofadan millat yoki shaxs xususiya
 153dagi2035maqsad va nashr davridagi siyosiy bayonlar keyingi voqealar ro‘yobga chiqdi degan fakt sifatida berilmasin. Bular kelajak mavzusi uchun oldindan review eslatmasi; bu mavzu hali tayyor dars hisoblanmaydi.
 
 2026–2027rasmiy dastur auditi va mustaqil tarix o‘qituvchisi tasdig‘i hamon ochiq. Production/publication-ready emas.
+
+
+Mapping qayta auditida159imprint varag‘ida bosma159raqami yo‘qligi aniqlanib, `printed_page=null`ga tuzatildi. PDF fizik indeksi159o‘zgarishsiz. Dars faktlari bu varaqdan olinmagan; avvalgi r1 darslari, source_topic xeshlari va foydalanuvchi progressi qayta yozilmadi.

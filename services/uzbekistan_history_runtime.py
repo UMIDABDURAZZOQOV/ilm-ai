@@ -24,6 +24,7 @@ from services.uzbekistan_history_models import (
 )
 from services.uzbekistan_history_sources import digest as fingerprint
 from services.uzbekistan_history_sources import load_catalog
+from services.uzbekistan_history_spelling import new_attempt_spec
 
 KIND = "uz_history_assessment_v2"
 SOURCE_SECTIONS = {b["grade"]: len(b["topics"]) for b in load_catalog()["books"]}
@@ -276,10 +277,7 @@ def start(db, uid, key, request_id):
                     "public": deepcopy(q.public_prompt),
                     # Freeze normalization with each new attempt. Previously
                     # saved snapshots omit this and retain revision 1 replay.
-                    "grading_spec": {
-                        **deepcopy(q.grading_spec),
-                        **({"normalization_revision": 2} if q.response_kind == "short_text" else {}),
-                    },
+                    "grading_spec": new_attempt_spec(lesson.key, lesson.content_sha256, q.key, q.grading_spec, q.source_refs),
                     "source_refs": q.source_refs,
                 }
                 for q in questions

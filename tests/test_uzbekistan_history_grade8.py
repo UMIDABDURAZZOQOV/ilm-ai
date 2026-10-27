@@ -35,13 +35,74 @@ ORDER = {
     5: ["e1", "e2", "e3"],
 }
 
-MCQ.update({6:['Muhammad Islom','Abdulmo‘min','Boqi Muhammad'],7:['Boqi Muhammad','Balx','Subhonqulixon'],8:['Farg‘ona vodiysi','Abulfayzxon','Parokandalik'],9:['Devonbegi','Parvonachi','Amlok','Qozikalon'],10:['Qalb','Jevachi','Sadoq','Yalovbardor']})
-FRQ.update({6:['1583','Iskandar Sulton'],7:['Zuhrabegim','Toshkent'],8:['1708','Muhammad Hakimbiy'],9:['Dodxoh','Mirob'],10:['Tavochi',"To'fandoz"]})
-ORDER.update({6:['e1','e2','e3','e4'],7:['e1','e2','e3','e4'],8:['e1','e2','e3']})
+MCQ.update(
+    {
+        6: ["Muhammad Islom", "Abdulmo‘min", "Boqi Muhammad"],
+        7: ["Boqi Muhammad", "Balx", "Subhonqulixon"],
+        8: ["Farg‘ona vodiysi", "Abulfayzxon", "Parokandalik"],
+        9: ["Devonbegi", "Parvonachi", "Amlok", "Qozikalon"],
+        10: ["Qalb", "Jevachi", "Sadoq", "Yalovbardor"],
+    }
+)
+FRQ.update(
+    {
+        6: ["1583", "Iskandar Sulton"],
+        7: ["Zuhrabegim", "Toshkent"],
+        8: ["1708", "Muhammad Hakimbiy"],
+        9: ["Dodxoh", "Mirob"],
+        10: ["Tavochi", "To'fandoz"],
+    }
+)
+ORDER.update(
+    {6: ["e1", "e2", "e3", "e4"], 7: ["e1", "e2", "e3", "e4"], 8: ["e1", "e2", "e3"]}
+)
 
-MCQ.update({11:['Mulki xos','Tanho','Tim'],12:['Antoniy Jenkinson','Xuroson','Beneveni'],13:['Muhammad Solih','Subhonqulixon','Sayido Nasafiy','Samarqand'],14:['Nodirshoh','Mang‘itlar','Muhammad Rahim'],15:['Amir Haydar','Miyonqol','Qo‘qon']})
-FRQ.update({11:['Xiroj','Yasoq'],12:['Xoxlov','Akbarshoh'],13:['Qul Ubaydiy','Otinoyi'],14:['Shohmurod','Doniyolbiy'],15:['Din Nosirbek','Nasrullo']})
-ORDER.update({11:['e1','e2'],12:['e1','e2','e3'],14:['e1','e2','e3'],15:['e1','e2','e3','e4']})
+MCQ.update(
+    {
+        11: ["Mulki xos", "Tanho", "Tim"],
+        12: ["Antoniy Jenkinson", "Xuroson", "Beneveni"],
+        13: ["Muhammad Solih", "Subhonqulixon", "Sayido Nasafiy", "Samarqand"],
+        14: ["Nodirshoh", "Mang‘itlar", "Muhammad Rahim"],
+        15: ["Amir Haydar", "Miyonqol", "Qo‘qon"],
+    }
+)
+FRQ.update(
+    {
+        11: ["Xiroj", "Yasoq"],
+        12: ["Xoxlov", "Akbarshoh"],
+        13: ["Qul Ubaydiy", "Otinoyi"],
+        14: ["Shohmurod", "Doniyolbiy"],
+        15: ["Din Nosirbek", "Nasrullo"],
+    }
+)
+ORDER.update(
+    {
+        11: ["e1", "e2"],
+        12: ["e1", "e2", "e3"],
+        14: ["e1", "e2", "e3"],
+        15: ["e1", "e2", "e3", "e4"],
+    }
+)
+
+MCQ.update(
+    {
+        16: ["Qo‘shbegi", "Kitobdor", "Sadr", "Tanob"],
+        17: ["Qora cherik", "Sarboz", "Vaziri harb", "Navkariya"],
+        18: ["Chig‘ir", "Mutavalli", "Tanobona", "Qishloq xo‘jaligi"],
+        19: ["Karvonboshi", "Orenburg", "To‘qimachilik", "Tashqi savdo davom etgan"],
+        20: ["Ignatyev", "Aleksandr Byorns", "Ernazarbiy"],
+    }
+)
+FRQ.update(
+    {
+        16: ["Mirob", "Kichik inoq"],
+        17: ["1837", "Sarbozxona"],
+        18: ["Xiroj", "Zakot"],
+        19: ["Samarqand", "Buxoro olachasi"],
+        20: ["Murkford", "Ashtarxon"],
+    }
+)
+ORDER[20] = ["e2", "e3", "e1"]
 
 
 def lessons():
@@ -72,7 +133,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("seq", range(1, 16))
+@pytest.mark.parametrize("seq", range(1, 21))
 def test_image_checked_independent_keys_wrong_choices_and_aliases(seq):
     lesson = lessons()[seq - 1]
     for q, answer in zip(lesson["assessments"], answers(lesson)):
@@ -277,3 +338,113 @@ def test_postgres_grade8_owned_schema_replay_parallel_and_grade7_preserved(monke
         with admin.begin() as connection:
             connection.execute(text(f'DROP SCHEMA "{schema}" CASCADE'))
         admin.dispose()
+
+
+def test_mixed_script_ocr_lookalike_is_blocked_but_cyrillic_word_is_not_mislabelled():
+    from services.uzbekistan_history_validation import reviewed_text_scripts
+
+    assert reviewed_text_scripts("O‘zbekiston Кирилл")
+    assert not reviewed_text_scripts(
+        "Florо"
+    )  # Last character is Cyrillic, not Latin o.
+    d = deepcopy(next(d for d in load_course() if d["grade"] == 8))
+    d["lessons"][0]["cards"][0]["body"] += " Florо"
+    with pytest.raises(ValueError, match="mixed_script_word_requires_review"):
+        validate_batch(d)
+
+
+@pytest.mark.parametrize(
+    "case", ["content", "different_person", "source", "unverified"]
+)
+def test_spelling_reviews_cannot_add_new_historical_keys(case):
+    from services.uzbekistan_history_spelling import load_reviews, validate_reviews
+
+    reviews = deepcopy(load_reviews())
+    validate_reviews(load_course(), reviews)
+    if case == "content":
+        reviews[0]["lesson_content_sha256"] = "0" * 64
+    elif case == "different_person":
+        reviews[0]["aliases"] = ["Amir Haydar"]
+    elif case == "source":
+        reviews[0]["source_refs"] = []
+    else:
+        reviews[0]["verification"] = "ocr_only"
+    with pytest.raises(ValueError):
+        validate_reviews(load_course(), reviews)
+
+
+def test_original_joined_name_is_accepted_only_in_new_reviewed_snapshots(
+    history_preview,
+):
+    from services.models import StudySession
+
+    client, factory = history_preview
+    for lesson in lessons()[:14]:
+        finish(client, lesson)
+    lesson = lessons()[14]
+    old = start(client, 15).json()
+    with factory.begin() as db:
+        row = db.get(StudySession, old["attempt_id"])
+        snapshot = deepcopy(row.questions)
+        for q in snapshot["assessments"]:
+            if q["key"] == lesson["assessments"][3]["key"]:
+                q["grading_spec"]["aliases"] = ["Din Nosirbek"]
+                q["grading_spec"].pop("spelling_review_sha256", None)
+        row.questions = snapshot
+    old_response = None
+    for q, answer in zip(lesson["assessments"], answers(lesson)):
+        if q == lesson["assessments"][3]:
+            answer = {"value": "Dinnosirbek"}
+        response = client.post(
+            f"{P}/attempts/{old['attempt_id']}/answers",
+            json={
+                "assessment_version": 2,
+                "assessment_key": q["key"],
+                "answer": answer,
+            },
+        )
+        assert response.status_code == 200
+        if q == lesson["assessments"][3]:
+            old_response = response.json()
+            assert not old_response["is_correct"]
+    r = client.post(
+        f"{P}/attempts/{old['attempt_id']}/complete", json={"assessment_version": 2}
+    ).json()
+    assert r["score"] == 5 and r["xp_awarded"] == 10
+    fresh = start(client, 15).json()
+    for q, answer in zip(lesson["assessments"], answers(lesson)):
+        if q == lesson["assessments"][3]:
+            answer = {"value": "Dinnosirbek"}
+        response = client.post(
+            f"{P}/attempts/{fresh['attempt_id']}/answers",
+            json={
+                "assessment_version": 2,
+                "assessment_key": q["key"],
+                "answer": answer,
+            },
+        )
+        assert response.status_code == 200 and response.json()["is_correct"]
+    r = client.post(
+        f"{P}/attempts/{fresh['attempt_id']}/complete", json={"assessment_version": 2}
+    ).json()
+    assert r["score"] == 6 and r["xp_awarded"] == 0
+    replay = client.post(
+        f"{P}/attempts/{old['attempt_id']}/answers",
+        json={
+            "assessment_version": 2,
+            "assessment_key": lesson["assessments"][3]["key"],
+            "answer": {"value": "Dinnosirbek"},
+        },
+    )
+    assert replay.json() == old_response
+    with factory() as db:
+        assert db.get(User, 1).xp_total == 287
+
+
+@pytest.mark.parametrize('case',['content','source'])
+def test_new_snapshot_spelling_review_is_bound_to_imported_question(case):
+    from services.uzbekistan_history_sources import digest
+    from services.uzbekistan_history_spelling import new_attempt_spec
+    lesson=lessons()[14];question=lesson['assessments'][3]
+    with pytest.raises(ValueError):
+        new_attempt_spec(lesson['key'],'0'*64 if case=='content' else digest(lesson),question['key'],question['grading_spec'],[] if case=='source' else question['source_refs'])

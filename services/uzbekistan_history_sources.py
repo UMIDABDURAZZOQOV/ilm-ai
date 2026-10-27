@@ -73,7 +73,7 @@ def validate_segment_manifest(manifest):
         seen.add(page["image_sha256"])
         n = page["pdf_page"]
         require(
-            page["printed_page"] == (n if 3 <= n <= 159 else None),
+            page["printed_page"] == (n if 3 <= n <= 158 else None),
             "segment_printed_mapping",
         )
         require(page["image_matrix"] == [1.4, 1.4], "segment_image_render")
