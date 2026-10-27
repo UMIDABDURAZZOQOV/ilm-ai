@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph30.json",
+  "lesson_sha256": "af8c4bf7ea513c9b92d9494b3ff9d17d1fdb4d16c13c7bbea554eba5f54c0dea",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh7-p30-page110",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic30",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 110,
+      "printed_page": 110,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "e175efecdaf7ff4be8ce869c611e854d34f40c2930527bccec7285cce1f0cf59",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh7-p30-page111",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic30",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 111,
+      "printed_page": 111,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "2b848019c8c0f1aa0865c511b02678e1f8c695893e36c9f7de2862ab13c9180f",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh7-p30-page112",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic30",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 112,
+      "printed_page": 112,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "8adce824b448e2a8e9cf58447b766150c9611c9ebe2e21af95b5e8881306ce5c",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original110 below§30 through112 above§31 read;91conquestpainting and92AleksandrYaroslavich portrait captions,three source tasks across111–112 inspected.",
+    "1223 andBotu1237–1242campaign range,Kyiv1240,OltinOrda/SaroyBotu/lowerVolga,AlexanderNovgorod/Neva1240/Nevskiy/PskovSuzdal/Chud1242Muzustidajang checked. No exact absent foundation date, Kalka name, ice-breaking/drowning legend or current boundary inserted.",
+    "Yaroslav unresolved identity not linked to earlier YaroslavWise or outside patronymic. 2017 current-Astrakhan context not approved as2026 exact site. Wider campaign geography/tactical detail and universal ethnic/religious blame not automatically taught.",
+    "Complex fragmentation/conquest consequences and religious goals attributed/ungraded. Map prompt receives guided review, no invented route. Nevskiy nickname and AleksandrYaroslavich full name are distinct question-specific targets."
+  ],
+  "approved_fact_sha256": {
+    "first_campaign": "ea0192537acc5f0c6026a101d4deda2a78a940777bbc31b8f4f52071eaa17a11",
+    "batu": "bdca152b3255f966f57336a81126db1fab91eb79d8c5b8fd2395187244adf6f9",
+    "kyiv": "b8aa4a0d7b528caa8e52e27a450b11d570b47a30ccb28d8af2472ce84a756ebd",
+    "horde": "fee8dca1a352cbe66bd4a0f8beb5696fd5ee0d344c5991157153e231974e78c4",
+    "capital": "5ccbb14e7e718acb71d471f52300b88d4295bc5c3da5944cae8de949b80a9748",
+    "tribute": "94572283728416733ae0b2511ceb2828fee74d706402e36daac20565b0eb1a71",
+    "consequences": "21d302c91b491ccd181f42d9dab5ebf1a8779608f0b0afbd4f31d84730629f69",
+    "baltic": "928d284b002797ee1a9bdaea14d56f0a3431dafec5fb70d0ba740d33efc9cf79",
+    "alexander": "af0b7419c33163c94a2cb2ffe1960e47b2035a2e9c9ece97802f3807719f3888",
+    "neva": "b2c0757566509446d420f3a2806fb9fc87269ca800551541b352c038795d03ea",
+    "nevsky": "44a41a99c7cd738384aecd976badbd93e448472ebdd06e2c5795c1c1c4998199",
+    "pskov": "1bd21aa5118bd75849e4288f035c12cec6ae7bb11ab6992589b82779035749e6",
+    "ice_battle": "13a2ae3cd27aba54bfaab31bbbbaaa32607b648646c40ed9ab3e7730ff2d85ef"
+  },
+  "approved_content_sha256": "502ffcd7b8e15f5a95baa1db0cda1af9ac638b6ae91182a77e2c4e2b9629c732",
+  "approved_assessments_sha256": "a070941a26693321197c356b36b72ea0cf11b04e26799373ef4c70afcad2157d",
+  "approved_answer_targets": {
+    "world-history-7-p30-r1-q01": {
+      "fact_ids": [
+        "batu"
+      ],
+      "verified_answer": "Botuxon",
+      "aliases": []
+    },
+    "world-history-7-p30-r1-q02": {
+      "fact_ids": [
+        "kyiv"
+      ],
+      "verified_answer": "1240-yil",
+      "aliases": []
+    },
+    "world-history-7-p30-r1-q03": {
+      "fact_ids": [
+        "horde"
+      ],
+      "verified_answer": "Oltin O‘rda",
+      "aliases": []
+    },
+    "world-history-7-p30-r1-q04": {
+      "fact_ids": [
+        "capital"
+      ],
+      "verified_answer": "Volga",
+      "aliases": []
+    },
+    "world-history-7-p30-r1-q05": {
+      "fact_ids": [
+        "neva"
+      ],
+      "verified_answer": "Neva",
+      "aliases": []
+    },
+    "world-history-7-p30-r1-q06": {
+      "fact_ids": [
+        "ice_battle"
+      ],
+      "verified_answer": "Chud ko‘li",
+      "aliases": []
+    },
+    "world-history-7-p30-r1-q07": {
+      "fact_ids": [
+        "capital"
+      ],
+      "verified_answer": "Saroy Botu",
+      "aliases": [
+        "Saroy Botu"
+      ]
+    },
+    "world-history-7-p30-r1-q08": {
+      "fact_ids": [
+        "nevsky"
+      ],
+      "verified_answer": "Nevskiy",
+      "aliases": [
+        "Nevskiy"
+      ]
+    },
+    "world-history-7-p30-r1-q09": {
+      "fact_ids": [
+        "ice_battle"
+      ],
+      "verified_answer": "Chud ko‘li",
+      "aliases": [
+        "Chud ko‘li"
+      ]
+    },
+    "world-history-7-p30-r1-q10": {
+      "fact_ids": [
+        "alexander"
+      ],
+      "verified_answer": "Aleksandr Yaroslavich",
+      "aliases": [
+        "Aleksandr Yaroslavich"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 110,
+      "activity": "caption91_and_conquest_dates_horde_capital",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q07",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 111,
+      "activity": "caption92_alexander_neva_chud_and_map_task1",
+      "covered_by": [
+        "card3",
+        "card4",
+        "card5",
+        "card6",
+        "q05",
+        "q06",
+        "q08",
+        "q09",
+        "q10",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 112,
+      "activity": "tasks2_3_above_next_heading",
+      "covered_by": [
+        "card1",
+        "card5",
+        "card6",
+        "q01",
+        "q05",
+        "q06",
+        "reflection"
+      ]
+    }
+  ]
+}

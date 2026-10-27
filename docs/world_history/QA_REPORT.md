@@ -536,3 +536,37 @@ unperformed. Earlier2569-pass full backend is baseline evidence, not full rerun.
 No PDF/full source text/OCR/page images, keys or real-user data in Git; only two
 history feature branches. Next:§26–30; original98–108 read, private§26–28 written,
 next original109 for§29 and110 for§30.
+
+## Batch15 — grade7§26–30, 2026-10-27
+
+Five additional lessons:33 cards,72 fact records,32 MCQ and20 objective FRQ.
+Total **76/219 local-preview units**,574 cards,1148 fact records,463 MCQ,295 objective
+FRQ and76 ungraded activities. Grade6 remains46/46; grade7 is30/44,14 remaining.
+There are143 units left across grades7–11. Counts include reused final-review facts.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| All history backend |241 passed,830.56s wall | All17 modules/four independent shards;50/47/87/57 passes,724.09/697.26/616.47/825.06s; none omitted |
+| Actual PostgreSQL |1 passed in108.59s | Dedicated fresh staging schema; parallel completion and all76 units/1520XP once, previous synthetic user retained |
+| Actual loopback HTTP |6 catalogues,758 answers,1520XP | Fresh learner900156; prerequisites/replay, no old learner reset |
+| Targeted Flutter/captures |168 passed in07:18 | All76 API fixtures,200% theory/MCQ,typed FRQ and prior safeguards |
+| Full Flutter |777 passed in08:35 | Entire worktree suite, no-pub with unchanged dependencies |
+| Full analysis |0 issues in109.5s | Entire Flutter worktree, no-pub |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime plus142 previous history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | History Python only and Git diff checks |
+
+Exact shared-page regions preserve adjacent topics;102 and108 are excluded from
+the preceding lessons. Roles, king ordinals, names and question-specific aliases
+are tested. In particular, Nevskiy is the other-name target, whereas Aleksandr
+Yaroslavich is the full-name target. Historical interpretations remain ungraded.
+
+The first HTTP-helper command lacked PYTHONPATH and stopped before loading the
+database or creating its learner. With PYTHONPATH set, the actual fresh-user flow
+passed all758 answers. No progress reset or failed-run-as-pass claim.
+
+Actual renders inspected: grade7§26 theory200%,§28 feedback200%,§30 resumed FRQ
+with its own§30/110 source. Native Android/IME/TalkBack/independent teacher checks
+remain unperformed. The earlier2569-pass full backend is baseline evidence,
+not a full backend rerun. No PDF/full source text/OCR/page images, keys or real-user
+data in Git. Only two history feature branches. Next:§31–35; original112–118
+read, private§31–32 drafted, next119 for§33 then121–125 for§34–35.

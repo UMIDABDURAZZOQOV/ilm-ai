@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 71; remaining: 148.** Source pages are candidate spans;
+**Reviewed preview lessons: 76; remaining: 143.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -120,11 +120,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 23 | wh7-topic23 | General shtatlar | 91–93 | reviewed_preview_ready |
 | 24 | wh7-topic24 | Yuz yillik urushning boshlanishi va uning dastlabki davri | 93–95 | reviewed_preview_ready |
 | 25 | wh7-topic25 | Fransiyada mutlaq monarxiya | 95–98 | reviewed_preview_ready |
-| 26 | wh7-topic26 | Angliyada markazlashgan davlatning tashkil topishi | 98–102 | not_implemented |
-| 27 | wh7-topic27 | Angliya o‘rta asrlar so‘ngida | 102–104 | not_implemented |
-| 28 | wh7-topic28 | Germaniya | 104–108 | not_implemented |
-| 29 | wh7-topic29 | Rus knyazliklari | 108–110 | not_implemented |
-| 30 | wh7-topic30 | Ruslarning bosqinchilarga qarshi kurashi | 110–112 | not_implemented |
+| 26 | wh7-topic26 | Angliyada markazlashgan davlatning tashkil topishi | 98–102 | reviewed_preview_ready |
+| 27 | wh7-topic27 | Angliya o‘rta asrlar so‘ngida | 102–104 | reviewed_preview_ready |
+| 28 | wh7-topic28 | Germaniya | 104–108 | reviewed_preview_ready |
+| 29 | wh7-topic29 | Rus knyazliklari | 108–110 | reviewed_preview_ready |
+| 30 | wh7-topic30 | Ruslarning bosqinchilarga qarshi kurashi | 110–112 | reviewed_preview_ready |
 | 31 | wh7-topic31 | Rus knyazliklarida markazlashish jarayonlari | 112–113 | not_implemented |
 | 32 | wh7-topic32 | Yevropa madaniyati | 113–117 | not_implemented |
 | 33 | wh7-topic33 | Yevropada me’morchilik, san’at va adabiyot | 117–121 | not_implemented |

@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch14 has71 local-preview units: all grade6 plus grade7§1–25,
-541 cards,431 MCQ,275 objective FRQ;
-148 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade7§26–30, original98–112; private§26–28 written, next original109 for§29.
+Batch15 has76 local-preview units: all grade6 plus grade7§1–30,
+574 cards,463 MCQ,295 objective FRQ;
+143 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade7§31–35, original112–125; private§31–32 written, next original119 for§33.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2877,3 +2877,8 @@ Urban promises/motives ungraded; Ioanniy other-name target finite.
 Batch14 source limits: 1269/lastcrusade, instantFrenchcentralization/Tuluza,
 firstchurchtax, PhilipIVnoheirs/Crecycounts,1420heir/1453formaltreaty and
 1491instantlegalunion held. Kingordinals/places/sourcedeventorder tested.
+
+Batch15 source limits: charter/signature/firstcensus, Tylerprofession/warcounts,
+Habsburg1437/369years/universitypriority, Monomakhfather/Novgorodfoundation/
+Yuriallcityfoundation1147 and unresolvedYaroslavidentity held. No outside
+repair or ice-breakinglegend; objective name/ordinal/role targets remain finite.
