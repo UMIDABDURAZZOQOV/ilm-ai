@@ -1,5 +1,26 @@
 # Ilm AI — Project Context (for Claude)
 
+**2026-10-27 — O‘zbekiston tarixi, yakuniy kontent 172/172.**
+7/8/9/10/11-sinflar: 42/41/39/28/22; 34 bob, 1 280 karta, 1 027 topshiriq
+(597 MCQ / 342 qisqa FRQ / 88 xronologiya), 172 misol va 172 self/teacher refleksiya.
+Mualliflik uchun qolgan mavzu: 0. Barcha partiyalar feature branchlarga commit/push qilindi.
+Yakuniy backend: `2524 passed, 9 skipped, 2 deselected, 13 warnings in 829.05s (0:13:49)`; alohida PG: `5 passed, 223 deselected in 100.80s (0:01:40)`;
+Flutter: `01:27 +369: All tests passed!`, `No issues found! (ran in 1.6s)`.
+Bitta akkauntda 172 dars/1 027 javob, 137→1857 XP, 3 same-day streak, 34 bob,
+qayta ochish/replay 0 XP: `3 passed in 35.72s`.
+Debug JS build 41.7 s, application hashlar bir xil, haqiqiy token ishlatilmadi.
+Source audit: 769 PDF, 172 sarlavha, 746 partiya-sahifa tasviri.
+7/8 frozen JSONlari, 552 old backend fayli, Ilmo/brend/normal API/Google login saqlandi.
+`course_content_complete` haqiqiy import qamrovi; `course_ready=false`,
+`publication=local_test_preview_only` saqlangan.
+Teacher, rasmiy dastur (proxy403), real Android SDK, normal mobil integratsiya va
+alohida checkpoint quiz ochiq. Veb/main/production DB/deploy/AI Explain/PDF upload yo‘q.
+Tekshirilgan backend `1409236526e5e5e2609125bfe72f668a99caa643`, Flutter `fa6c305c4a56b16f397aa5d73f40b8040f016ed3`.
+[To‘liq hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),
+[dalil](docs/uzbekistan-history/checkpoints/final_validation.json),
+[davom](docs/uzbekistan-history/RESUME_CHECKPOINT.md).
+
+
 **2026-10-27 — O‘zbekiston tarixi172/172 uchun butun kurs QA:** yangi
 `tests/test_uzbekistan_history_completion.py` **3 passed in35.72s**. Bitta
 lokal test akkaunti barcha172dars/1027topshiriqni tugatdi;eski137XPga1720XP
