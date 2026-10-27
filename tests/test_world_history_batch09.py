@@ -29,7 +29,7 @@ def refresh(d,r):
 
 
 def test_grade6_complete_exact_counts_and_ancillary_source_identity():
-    documents=load_lessons();assert len(documents)==46
+    documents=[d for d in load_lessons() if d['grade']==6];assert len(documents)==46
     batch=documents[41:46]
     assert [len(d['facts']) for d in batch]==[14,12,20,10,14]
     assert [len(d['content']['cards']) for d in batch]==[6,6,8,5,7]
@@ -112,7 +112,7 @@ def test_catalog_finalizer_preserves_only_explicit_ancillary_readiness(tmp_path,
         (data/name).write_text(json.dumps(value),encoding='utf8')
     monkeypatch.setattr(module,'DATA',data);monkeypatch.setattr(module,'ROOT',tmp_path)
     module.main();result=read_json(data/'world_history_sources.json')
-    assert result['implemented_lessons']==46 and result['remaining_lessons']==173
+    assert result['implemented_lessons']==51 and result['remaining_lessons']==168
     assert all(u['interactive_status']=='reviewed_preview_ready' for u in result['books'][0]['teaching_units'])
     ancillary={a['id']:a for a in result['books'][0]['ancillary_records']}
     for identifier in ['wh6-conclusion','wh6-final-review']:
@@ -123,7 +123,7 @@ def test_catalog_finalizer_preserves_only_explicit_ancillary_readiness(tmp_path,
 
 
 def test_all_forty_six_ordered_units_and920_xp_once_preserve_old_accounts(history):
-    client,factory,_=history;documents=load_lessons()
+    client,factory,_=history;documents=[d for d in load_lessons() if d['grade']==6]
     initial=client.get(PREFIX+'/catalog').json()
     assert initial['grade_content_complete'] and not initial['course_complete']
     assert not initial['source_review_pending']
@@ -144,6 +144,7 @@ def test_all_forty_six_ordered_units_and920_xp_once_preserve_old_accounts(histor
     assert completed['implemented_sections']==completed['source_sections']==46
     assert all(r['state']=='completed' for r in completed['lessons'])
     next_grade=client.get(PREFIX+'/catalog',params={'grade':7}).json()
-    assert next_grade['grade']==7 and next_grade['implemented_sections']==0 and next_grade['source_sections']==44
+    assert next_grade['grade']==7 and next_grade['implemented_sections']==5 and next_grade['source_sections']==44
     assert not next_grade['grade_content_complete'] and not next_grade['course_complete']
+    assert next_grade['lessons'][0]['state']=='available' and all(r['state']=='locked' for r in next_grade['lessons'][1:])
     assert len(next_grade['source_units'])==44 and next_grade['bibliography']['year']==2017

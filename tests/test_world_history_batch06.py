@@ -80,7 +80,7 @@ def test_all_thirty_one_prerequisites_and620_xp_once(history):
         assert db.query(WorldHistoryProgress).filter_by(user_id=1).count()==31
         assert db.get(User,42).xp_total==137
     catalog=client.get(PREFIX+'/catalog').json()
-    assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
+    assert catalog['implemented_sections']==sum(d['grade']==6 for d in load_lessons()) and catalog['source_sections']==46
     assert all(r['state']=='completed' for r in catalog['lessons'][:31])
     assert all(r['state']!='completed' for r in catalog['lessons'][31:])
     assert catalog['grade_content_complete'] and not catalog['course_complete']

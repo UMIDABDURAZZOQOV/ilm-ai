@@ -7215,8 +7215,8 @@
           ],
           "page_mapping_verification": "contents_and_body_heading_cross_checked_shared_boundaries_retained",
           "heading_verification": "contents_image_and_body_text_heading_checked",
-          "fact_review": "not_reviewed",
-          "interactive_status": "not_implemented",
+          "fact_review": "reviewed_with_scope_limits",
+          "interactive_status": "reviewed_preview_ready",
           "prerequisite_ids": [],
           "chapter_id": "wh7-chapter01",
           "boundary_note": "Last candidate page is shared with the following heading; cite the exact reviewed fact region, not the whole candidate span."
@@ -7248,8 +7248,8 @@
           ],
           "page_mapping_verification": "contents_and_body_heading_cross_checked_shared_boundaries_retained",
           "heading_verification": "contents_image_and_body_text_heading_checked",
-          "fact_review": "not_reviewed",
-          "interactive_status": "not_implemented",
+          "fact_review": "reviewed_with_scope_limits",
+          "interactive_status": "reviewed_preview_ready",
           "prerequisite_ids": [
             "wh7-topic01"
           ],
@@ -7281,8 +7281,8 @@
           ],
           "page_mapping_verification": "contents_and_body_heading_cross_checked_shared_boundaries_retained",
           "heading_verification": "contents_image_and_body_text_heading_checked",
-          "fact_review": "not_reviewed",
-          "interactive_status": "not_implemented",
+          "fact_review": "reviewed_with_scope_limits",
+          "interactive_status": "reviewed_preview_ready",
           "prerequisite_ids": [
             "wh7-topic02"
           ],
@@ -7316,8 +7316,8 @@
           ],
           "page_mapping_verification": "contents_and_body_heading_cross_checked_shared_boundaries_retained",
           "heading_verification": "contents_image_and_body_text_heading_checked",
-          "fact_review": "not_reviewed",
-          "interactive_status": "not_implemented",
+          "fact_review": "reviewed_with_scope_limits",
+          "interactive_status": "reviewed_preview_ready",
           "prerequisite_ids": [
             "wh7-topic03"
           ],
@@ -7347,8 +7347,8 @@
           ],
           "page_mapping_verification": "contents_and_body_heading_cross_checked_shared_boundaries_retained",
           "heading_verification": "contents_image_and_body_text_heading_checked",
-          "fact_review": "not_reviewed",
-          "interactive_status": "not_implemented",
+          "fact_review": "reviewed_with_scope_limits",
+          "interactive_status": "reviewed_preview_ready",
           "prerequisite_ids": [
             "wh7-topic04"
           ],
@@ -10376,7 +10376,7 @@
             12
           ],
           "chapter_id": "wh7-chapter01",
-          "interactive_status": "not_implemented",
+          "interactive_status": "reviewed_preview_ready",
           "sequence": 1,
           "prerequisite_ids": []
         },
@@ -10402,7 +10402,7 @@
             17
           ],
           "chapter_id": "wh7-chapter01",
-          "interactive_status": "not_implemented",
+          "interactive_status": "reviewed_preview_ready",
           "sequence": 2,
           "prerequisite_ids": [
             "wh7-topic01"
@@ -10428,7 +10428,7 @@
             21
           ],
           "chapter_id": "wh7-chapter01",
-          "interactive_status": "not_implemented",
+          "interactive_status": "reviewed_preview_ready",
           "sequence": 3,
           "prerequisite_ids": [
             "wh7-topic02"
@@ -10456,7 +10456,7 @@
             26
           ],
           "chapter_id": "wh7-chapter01",
-          "interactive_status": "not_implemented",
+          "interactive_status": "reviewed_preview_ready",
           "sequence": 4,
           "prerequisite_ids": [
             "wh7-topic03"
@@ -10480,7 +10480,7 @@
             29
           ],
           "chapter_id": "wh7-chapter01",
-          "interactive_status": "not_implemented",
+          "interactive_status": "reviewed_preview_ready",
           "sequence": 5,
           "prerequisite_ids": [
             "wh7-topic04"
@@ -34652,8 +34652,8 @@
   ],
   "numbered_topic_units": 216,
   "total_teaching_topics": 219,
-  "implemented_lessons": 46,
-  "remaining_lessons": 173,
+  "implemented_lessons": 51,
+  "remaining_lessons": 168,
   "catalogue_complete": true,
   "note": "Source/activity catalogue complete; no lesson or fact approved by this inventory. 216 numbered blocks plus grade6 conclusion/final review and grade8 conclusion = 219 teaching units. Introductions/prefaces embed in first numbered unit; glossaries/indices/timelines/maps remain linked references. Shared pages require exact region review; open creative activities are not automatically graded.",
   "numbered_source_labels": 219,

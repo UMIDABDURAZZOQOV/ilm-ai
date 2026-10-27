@@ -65,7 +65,7 @@ chapter/topic order and separate bibliography once the reviewed UI adapter exist
 - Source and schema checks remain mandatory. No production certification is
   inherited from the unfinished Physics prototype.
 
-The batch09 checkpoint has46 explicitly allowed units (all grade6). Content additions do not
+The batch10 checkpoint has51 explicitly allowed units (all grade6 and grade7§1–5). Content additions do not
 change the common runtime/schema or ordinary release routes. Each next batch must
 retain prior manifest bytes and validate exact page regions and finite per-question
 answer targets before immutable local import. See CHECKPOINT.md and QA_REPORT.md.
@@ -84,7 +84,9 @@ approval. Neither a held fact nor a broader alias can be promoted by review.
 Grade6 `grade_content_complete=true` means all46 local-preview units exist, not
 that a learner completed them or the six-grade course/independent acceptance is
 complete. `course_complete` and all source-book `course_ready` flags remain false.
-The catalogue finalizer preserves explicit ancillary readiness and review fields;
+Grade selection/progress are independent: grade7 first lesson has no cross-grade
+prerequisite. Completing grade7 does not mark grade6 complete; account XP remains
+shared, awarded once per immutable lesson. The catalogue finalizer preserves explicit ancillary readiness and review fields;
 its original-page presence inventory cannot approve new facts or content.
 
 ## Mandatory continuation and acceptance

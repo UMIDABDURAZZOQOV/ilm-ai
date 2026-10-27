@@ -1,16 +1,18 @@
-# Jahon tarixi continuation checkpoint — batch09
+# Jahon tarixi continuation checkpoint — batch10
 
 2026-10-27. **Task incomplete. Continue autonomously through grade11.**
 
 ## Exact progress
 
-- 219 teaching units; **46 reviewed local-preview lessons;173 remain**.
-- Last ready: grade6 “Yakuniy takrorlash”,184 (unit46; not numbered§46).
-- Keys: `world-history-6-p01-r1` through `world-history-6-p46-r1`.
-- 361 cards,672 reviewed fact records,271 MCQ,175 objective FRQ,46 self/teacher activities.
+- 219 teaching units; **51 reviewed local-preview lessons;168 remain**.
+- Last ready: grade7§5 “Muqaddas Rim imperiyasi”,26–29 above§6.
+- Keys: `world-history-6-p01-r1` through `world-history-6-p46-r1`, plus grade7
+  `world-history-7-p01-r1` through `world-history-7-p05-r1`.
+- 400 cards,755 reviewed fact records,303 MCQ,195 objective FRQ,51 self/teacher activities.
 - Grade6 has46/46 units ready:44 numbered paragraphs plus conclusion/final review.
   Twelve fact records in the final review reuse exact previously reviewed knowledge;
   total records are not a count of unique historical facts.
+- Grade7 has5/44 units ready;39 remain in this grade. Grades8–11 remain unimplemented.
 - 961 pages decoded/rendered; every original image inspected for feature presence.
   Bibliography/contents and216 body headings cross-checked. No blanket fact approval.
 - 219 units =216 numbered blocks plus grade6 conclusion/final review and grade8
@@ -41,12 +43,12 @@
   source sheets, Ilmo, theory, MCQ, typed FRQ, shared feedback/results and resume.
 - Full backend first-lesson baseline: **2569 passed,4 skipped**, all71 files,
   four isolated UTF-8 subprocess shards; frozen inputs preserved.
-- Current forty-six-unit targeted suite: **169 passed in691.12s**.
-- Real isolated PostgreSQL: **1 passed in50.03s**, parallel completion and46
-  sequential units/920XP once only. Broad-suite opt-in skips are not passes.
-- Actual loopback HTTP:6 catalogues,446 answers, prerequisites/replay and once-only
-  920XP; fresh synthetic account only. No existing learner reset.
-- Current Flutter: **106 history widgets passed in01:19**, **715 full tests passed in04:05**, full analysis **0 issues in90.6s**. Exact scope: QA_REPORT.md.
+- Current fifty-one-unit targeted suite: **178 passed in792.00s**.
+- Real isolated PostgreSQL: **1 passed in51.22s**, parallel completion and51
+  sequential units/1020XP once only. Broad-suite opt-in skips are not passes.
+- Actual loopback HTTP:6 catalogues,498 answers, prerequisites/replay and once-only
+  1020XP; fresh synthetic account only. No existing learner reset.
+- Current Flutter: **118 history widgets passed in01:32**, **727 full tests passed in04:21**, full analysis **0 issues in85.4s**. Exact scope: QA_REPORT.md.
 - Windows subprocess Unicode failures were fixed with `PYTHONUTF8=1`, without
   Biology edits. Use that setting in later backend QA.
 - Screenshots are real Flutter widget renders, not native Android. Independent
@@ -119,18 +121,25 @@
   automatic facts;313 permission distinct from sole state religion.
 - Conclusion values self/teacher-only. Final-review184 is a locator, not meanings;
   nine exact earlier units/twelve facts supply independently pinned definitions.
+- Grade7§1 broad Europe/Asia land/climate models attributed; no invented map.
+- Grade7§2 Allod16 Greek versus17 Latin question unresolved; no etymology key
+  or invented warrior-execution story. §3 dynasty-founder/epic details held.
+- Grade7§4 Ambrosiy/Artur not interchangeable identity; Alfred reign/peace date
+  precision and whole-island partition not keys.
+- Grade7§5 Gerbert/SilvestrIII(999–1003) ordinal/date unresolved and not taught
+  as a verified identity; no outside correction. OttonI distinct fromOttonIII.
 - Grade11 UN body109/111 remains unresolved; no accepted key. “Today” claims keep
  2018 publication scope. Preserve all open review records.
 
 ## Next exact work
 
-1. Finish/persist batch09 QA/Git checkpoint if not already in latest branch log.
+1. Finish/persist batch10 QA/Git checkpoint if not already in latest branch log.
    Commit/push only the two history feature branches.
-2. Continue batch10 **grade7§1–5**, starting§1 on original8.
-   Grade7 authors3, introduction4–7 and§1 originals8–12 have been image-read;
-   private grade7§1 draft validated (21 facts/12 cards/12 questions);
-   next source review13 onward for§2. No grade7 lesson indexed/imported yet.
-   Keep grade7 first prerequisite empty and grade6 progress intact.
+2. Continue batch11 **grade7§6–10**, starting§6 on original29 below its heading.
+   Original3–33 read;§1–5 authored/published, private§6 draft validated
+   (15 facts/6 cards/10 questions). Next image34 for§7.
+   No§6+ indexed/imported. Keep grade selection and progress independent;
+   author in book order through grade11.
 3. Reuse common-v2 and mandatory source/fact/per-question-target validators.
    Inspect each original image/map legend, not merely OCR/embedded text.
 4. Shared pages require `below_topic_heading` or `above_next_heading`; no adjacent
@@ -141,7 +150,7 @@
 
 Private authoring helpers: `.local/`. **Do not rerun** one-time
 `author_history_first.py`, `integrate_history_batch01.py`, `integrate_history_batch02.py`,
-`integrate_history_batch03.py`, `integrate_history_batch04.py`, `integrate_history_batch05.py`, `integrate_history_batch06.py`, `integrate_history_batch07.py`, `integrate_history_batch08.py`, `integrate_history_batch09.py`,
+`integrate_history_batch03.py`, `integrate_history_batch04.py`, `integrate_history_batch05.py`, `integrate_history_batch06.py`, `integrate_history_batch07.py`, `integrate_history_batch08.py`, `integrate_history_batch09.py`, `integrate_history_batch10.py`,
 `finalize_unpublished_history14.py`, or old initial catalogue
 builders: they could reset the current allowlist. Update future helper review
 output to include `approved_answer_targets` and checked activity targets.

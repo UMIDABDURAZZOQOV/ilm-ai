@@ -70,7 +70,7 @@ def test_all_eleven_real_lessons_unlock_in_order_and_award220_once(history):
         assert db.query(WorldHistoryProgress).filter_by(user_id=1).count()==11
         assert db.get(User,42).xp_total==137
     catalog=client.get(PREFIX+'/catalog').json()
-    assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
+    assert catalog['implemented_sections']==sum(d['grade']==6 for d in load_lessons()) and catalog['source_sections']==46
     assert all(row['state']=='completed' for row in catalog['lessons'][:11])
     assert all(row['state']!='completed' for row in catalog['lessons'][11:])
     assert not catalog['course_complete'] and catalog['grade_content_complete']

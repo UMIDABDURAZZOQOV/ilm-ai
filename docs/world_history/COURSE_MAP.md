@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 46; remaining: 173.** Source pages are candidate spans;
+**Reviewed preview lessons: 51; remaining: 168.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -95,11 +95,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 
 | Order | ID | Source title | Printed/PDF pages | Status |
 | ---: | --- | --- | --- | --- |
-| 1 | wh7-topic01 | German qabilalari va Rim imperiyasi | 8–12 | not_implemented |
-| 2 | wh7-topic02 | Franklar. Franklar davlatining tashkil topishi | 12–17 | not_implemented |
-| 3 | wh7-topic03 | Franklar imperiyasi | 17–21 | not_implemented |
-| 4 | wh7-topic04 | Britaniyadan Angliyaga | 21–26 | not_implemented |
-| 5 | wh7-topic05 | Muqaddas Rim imperiyasi | 26–29 | not_implemented |
+| 1 | wh7-topic01 | German qabilalari va Rim imperiyasi | 8–12 | reviewed_preview_ready |
+| 2 | wh7-topic02 | Franklar. Franklar davlatining tashkil topishi | 12–17 | reviewed_preview_ready |
+| 3 | wh7-topic03 | Franklar imperiyasi | 17–21 | reviewed_preview_ready |
+| 4 | wh7-topic04 | Britaniyadan Angliyaga | 21–26 | reviewed_preview_ready |
+| 5 | wh7-topic05 | Muqaddas Rim imperiyasi | 26–29 | reviewed_preview_ready |
 | 6 | wh7-topic06 | Vizantiya: G‘arb va Sharq orasida | 29–33 | not_implemented |
 | 7 | wh7-topic07 | Slavyanlar va ularda davlatlarning tashkil topishi | 33–37 | not_implemented |
 | 8 | wh7-topic08 | Sharqiy slavyanlar. Kiyev Rusi | 37–41 | not_implemented |

@@ -340,3 +340,46 @@ full backend snapshot remains historical baseline evidence, not a rerun here.
 Only history feature branches are committed/pushed. No production/main, real-user,
 raw PDF/full-text/OCR/page-image publication or AI operation occurred. Next batch
 is grade7§1–5; its opening source3–12 read and§1 draft validated privately.
+
+## Batch10 — grade7§1–5, 2026-10-27
+
+Five additional lessons:39 cards,83 fact records,32 MCQ and20 objective FRQ.
+Total **51/219 local-preview units**,400 cards,755 fact records,303 MCQ,195 objective
+FRQ and51 ungraded activities. Grade6 remains46/46; grade7 is5/44,39 remaining.
+There are168 units left across grades7–11. Record totals include exact repeated
+final-review facts and are not a unique historical-fact count.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| All history backend/source/preservation |178 passed in792.00s | Twelve history modules, all51 manifests, exact page/region/alias/source review, earlier regressions and6→7 transition |
+| Actual PostgreSQL |1 passed in51.22s | Dedicated staging fresh schema; parallel first completion, all51 units/1020XP once, previous synthetic account retained |
+| Actual loopback HTTP |6 catalogues,498 answers,1020XP | Fresh learner900106; grade6 then7, prerequisites/replay and no previous learner reset |
+| Targeted Flutter |118 passed in01:32 | API fixtures for51 units, grade7 theory/MCQ200%, typed FRQ/source identity and local draft remount, prior safeguards |
+| Full Flutter regression |727 passed in04:21 | Entire current worktree suite, shared and other subjects included |
+| Full Flutter analysis |0 issues in85.4s | Entire current Flutter worktree |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime and92 prior grade6 lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | Python-only history files and staged diff checks |
+
+Grade7 first lesson has no cross-grade prerequisite. A new learner can start it
+without marking any grade6 lesson completed; grade7 second lesson remains locked
+until its own prerequisite. Tests complete all51 units once, retain grade6 history
+and check shared1020XP. Earlier grade6 tests now count their own grade rather than
+mistaking all imported grades for grade6. The runtime/schema and release routes
+are unchanged. Grade7's first5 lessons are complete for the synthetic learner but
+`grade_content_complete=false` because39 source units remain; course completion
+and source-book acceptance flags stay false.
+
+Original3–29 reviewed: author/introduction contexts belong to§1; shared12/17/21/26/
+29 regions explicit. Allod16/17 language conflict, dynasty-founder/epic certainty,
+Ambrosiy/Artur identity, Alfred reign/peace precision and Gerbert/Silvestr ordinal
+are withheld rather than silently corrected externally. Source details appear in
+SOURCE_REVIEW.md. No absent map route, present border or unprovided comparison
+fact was invented. Objective names/terms and chronology are source-checked.
+
+Actual widget renders inspected: grade7§2 feedback200%,§5 resumed FRQ and opening
+source sheet200% with Salimov/Sultonov's own book. Sources/content are scrollable.
+No actual Android/IME/TalkBack or independent teacher sign-off claimed. Earlier
+2569-pass full backend snapshot remains baseline evidence, not a full rerun here.
+No original PDF/full text/OCR/page images, private keys or real-user data in Git.
+Only the two history feature branches are committed/pushed. Next: grade7§6–10;
+§6 original29–33 read and its private draft validated, next original34 for§7.
