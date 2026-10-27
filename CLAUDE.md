@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch18 has90 local-preview units: all grade6 and all44 grade7 units,
-675 cards,569 MCQ,351 objective FRQ;
-129 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade8§1–5; original3–13 read and private§1 drafted, next14–34 for§2–5.
+Batch19 has95 local-preview units: all grade6/7 plus grade8§1–5,
+720 cards,615 MCQ,371 objective FRQ;
+124 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade8§6–10; original3–37 read, private§6 written, next38 onward.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2904,3 +2904,10 @@ Test helpers resolve lessons by lesson_key→sequence→chapter, not duplicate t
 (Hindiston occurs twice), and expand bibliography before checking its text.
 Earlier tests preserve frozen learner/XP prefixes while catalogue availability
 is computed from current content presence. No runtime/auth/other-subject edit.
+
+Batch19 starts grade8 from its own2019 book/intro3–6; empty first prerequisite
+and independent grade8 learner progress tested without completing grade6/7.
+Source holds: Genoabankfirst/priceuniversals,1526peasantsending,indulgence
+simplification,Galileoheliocentricpriority/Brunoeternalcosmos,GeorgeIancestry/
+lastOrange1714 and unsupportedLilbernprompt. No outside correction, AI feature
+or production claim. Counts95/219,124left; currentQA in QA_REPORT.

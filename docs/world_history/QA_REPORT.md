@@ -679,3 +679,40 @@ teacher checks remain unperformed. Earlier2569-pass full backend is baseline
 evidence, not full rerun. No rawbook/OCR/images, keys or real-user data in Git.
 Only two history feature branches. Next:grade8§1–5; original3–13 read, first private
 draft23facts/11cards/14questions, then original14–34 for§2–5.
+
+## Batch19 — grade8§1–5, 2026-10-27
+
+Five lessons add45 cards,85 fact records,46 MCQ and20 objective FRQ. Total
+**95/219 local-preview lessons**,720 cards,1459 fact records,615 MCQ,371 FRQ,
+95 self/teacher activities. Grade6/7 complete content presence46/44; grade8 has5/33.
+**124 remain:** grade8=28,grade9=41,grade10=26,grade11=29. All acceptance flags false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |290 passed,905.50s wall | All21 modules,four isolated shards62/58/101/69;614.82/593.40/551.48/897.51s |
+| Dedicated PostgreSQL |1 passed in96.82s | Fresh schema,parallel completion/all95 units1900XP/replay,old synthetic retained |
+| Actual loopback HTTP |6 catalogues,986 answers,1900XP | Fresh synthetic900196,prerequisites/replay,not real users |
+| Targeted Flutter |209 passed in04:05 | Own grade8 API snapshots,all95 lessons,320×568/200% theory/MCQ,typed FRQ,source and draftremount |
+| Full Flutter |818 passed in05:54 | Sequential no-pub after targeted suite,allworktree tests |
+| Final full analysis |0 issues in160.7s | Final test helper version |
+| Preservation |687 baseline pins,180 previous history files unchanged | No refresh of baseline or rewrite of published lesson/review pairs |
+| Ruff/diff/staged audit |Passed | History Python criticalerrors,whitespace and history-only text artifacts |
+
+Grade8 starts independently: its first lesson can finish while grades6/7 remain
+unstarted. Source identity remains2019Farmonov/Jo‘rayev/Ergashev, including linked
+intro3–6. Bothgrades6/7 remaincomplete in the95-unit learnerflow; XP once perlesson.
+The old grade7 implemented-grades assertion now derives available grades from
+current lesson presence while retaining its grade7-only learner/XP assertions.
+
+Private authoring initially omitted PYTHONPATH before any draft mutation; corrected.
+Strict pre-import validation rejected two incomplete shared-boundary region tags;
+private drafts were corrected to below_topic_heading/above_next_heading, then all
+five validated before immutable import. Validator/runtime were not loosened.
+Actual Flutter renders inspected: grade8§1 theory200%,§3 sharedfeedback200%,§5 FRQ
+with its own31–33 source. Native Android/IME/TalkBack and independent teacher review
+remain unperformed.2569 fullbackend passes are the earlier baseline, not this
+targeted rerun. No PDFs/rawOCR/images/keys/realuser data in Git. Only twohistory
+featurebranches; no mainmerge,deploy,other-subject runtime or production database.
+
+Next batch20:grade8§6–10. Original3–37 read;§6 private draft not indexed. Read38
+onward for§7–10. All ambiguous source details stay in SOURCE_REVIEW, not keys.

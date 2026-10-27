@@ -68,7 +68,7 @@ def test_grade7_first_lesson_is_independent_and_does_not_complete_grade6(history
     client,factory,_=history;batch=[d for d in load_lessons() if d['grade']==7]
     catalogue=client.get(PREFIX+'/catalog',params={'grade':7}).json()
     assert catalogue['implemented_sections']==len(batch) and catalogue['source_sections']==44
-    assert catalogue['implemented_grades']==[6,7]
+    assert catalogue['implemented_grades']==sorted({d['grade'] for d in load_lessons()})
     assert catalogue['lessons'][0]['state']=='available'
     assert all(r['state']=='locked' for r in catalogue['lessons'][1:])
     assert client.post(f"{PREFIX}/lessons/{batch[1]['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())}).status_code==403

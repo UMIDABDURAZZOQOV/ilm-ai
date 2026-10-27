@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 90; remaining: 129.** Source pages are candidate spans;
+**Reviewed preview lessons: 95; remaining: 124.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -150,11 +150,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 
 | Order | ID | Source title | Printed/PDF pages | Status |
 | ---: | --- | --- | --- | --- |
-| 1 | wh8-topic01 | Buyuk geografik kashfiyotlar va ularning tarixiy ahamiyati | 7–13 | not_implemented |
-| 2 | wh8-topic02 | Yangi davr boshlarida G‘arbiy Yevropa mamlakatlarida industrial jamiyatning shakllanishi | 13–18 | not_implemented |
-| 3 | wh8-topic03 | Yevropada Reformatsiya | 18–22 | not_implemented |
-| 4 | wh8-topic04 | G‘arbiy Yevropada Yangi davr madaniyatining shakllanishi | 22–28 | not_implemented |
-| 5 | wh8-topic05 | Angliyada qirol hokimiyatining kuchayishi. XVII asrdagi Angliya burjua inqilobi | 28–34 | not_implemented |
+| 1 | wh8-topic01 | Buyuk geografik kashfiyotlar va ularning tarixiy ahamiyati | 7–13 | reviewed_preview_ready |
+| 2 | wh8-topic02 | Yangi davr boshlarida G‘arbiy Yevropa mamlakatlarida industrial jamiyatning shakllanishi | 13–18 | reviewed_preview_ready |
+| 3 | wh8-topic03 | Yevropada Reformatsiya | 18–22 | reviewed_preview_ready |
+| 4 | wh8-topic04 | G‘arbiy Yevropada Yangi davr madaniyatining shakllanishi | 22–28 | reviewed_preview_ready |
+| 5 | wh8-topic05 | Angliyada qirol hokimiyatining kuchayishi. XVII asrdagi Angliya burjua inqilobi | 28–34 | reviewed_preview_ready |
 | 6 | wh8-topic06 | XVI–XVIII asrlarda xalqaro munosabatlar | 34–37 | not_implemented |
 | 7 | wh8-topic07 | Fransiyada mutlaq monarxiya. Buyuk fransuz burjua inqilobi | 37–42 | not_implemented |
 | 8 | wh8-topic08 | Buyuk fransuz burjua inqilobining yakunlanishi va tarixiy ahamiyati | 42–45 | not_implemented |
