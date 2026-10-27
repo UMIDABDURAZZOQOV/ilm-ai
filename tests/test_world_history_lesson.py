@@ -199,7 +199,7 @@ def test_once_only_xp_and_existing_biology_progress_preserved(history):
         assert db.query(UserLessonProgress).filter_by(user_id=42).one().stars == 2
         assert db.query(StudyEvent).filter_by(user_id=1, kind=runtime.KIND).count() == 1
     catalog = client.get(PREFIX + '/catalog').json()
-    assert catalog['source_sections'] == 46 and not catalog['grade_content_complete']
+    assert catalog['source_sections'] == 46 and catalog['grade_content_complete']
     assert catalog['available_grades'] == list(range(6, 12))
     assert len(catalog['chapters']) == 5 and len(catalog['source_units']) == 46
     assert catalog['lessons'][0]['state'] == 'completed'

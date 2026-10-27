@@ -13,7 +13,47 @@ from services.world_history_validation import (
 )
 
 
-def validate_lesson(catalog, lesson, review):
+def _read_indexed_pair(item):
+    require(all(type(item.get(k)) is str and Path(item[k]).name == item[k]
+                and '/' not in item[k] and '\\' not in item[k] for k in ('file', 'review_file')),
+            'manifest_path_escape')
+    lesson = read_json(DIRECTORY / item['file'])
+    review = read_json(DIRECTORY / item['review_file'])
+    require(fingerprint(lesson) == item.get('sha256') == review.get('lesson_sha256')
+            and review.get('lesson_file') == item['file'], 'changed_content_requires_new_review')
+    return lesson, review
+
+
+def _prior_context(catalog, identifier, book_id, sequence, validated_prior):
+    """Only already reviewed, earlier numbered units of this exact book.
+
+    The normal ordered importer supplies its already validated prefix. Standalone
+    validation resolves the same explicit index, never a filename inferred from
+    a requested topic or an unreviewed catalogue presence record.
+    """
+    if validated_prior is not None:
+        previous = validated_prior.get(identifier)
+        require(previous is not None, 'context_requires_reviewed_predecessor')
+    else:
+        index = read_json(DIRECTORY / 'world_history_lessons.json')
+        require(index.get('schema_version') == 1 and index.get('subject') == 'jahon_tarixi',
+                'reviewed_index_required')
+        matches = []
+        for item in index.get('lessons', []):
+            previous, prior_review = _read_indexed_pair(item)
+            if previous.get('topic_id') == identifier:
+                matches.append((previous, prior_review))
+        require(len(matches) == 1, 'context_requires_unique_indexed_predecessor')
+        previous, prior_review = matches[0]
+        require(previous.get('book_id') == book_id and previous.get('sequence', sequence) < sequence,
+                'context_requires_earlier_same_book_unit')
+        validate_lesson(catalog, previous, prior_review)
+    require(previous.get('book_id') == book_id and previous.get('sequence', sequence) < sequence,
+            'context_requires_earlier_same_book_unit')
+    return previous
+
+
+def validate_lesson(catalog, lesson, review, *, _validated_prior=None):
     require_complete_catalog(catalog)
     require(lesson.get('schema_version') == 1 and lesson.get('assessment_version') == 2
             and lesson.get('subject') == 'jahon_tarixi' and lesson.get('language') == 'uz'
@@ -39,11 +79,23 @@ def validate_lesson(catalog, lesson, review):
     context = lesson.get('source_context_ids', [])
     require(type(context) is list and all(type(i) is str for i in context)
             and len(set(context)) == len(context), 'unique_source_context_required')
+    previous_context = {}
     for identifier in context:
         record = records.get(identifier)
-        require(record is not None and topic['id'] in record.get('linked_teaching_ids', [])
-                and identifier not in allowed, 'linked_ancillary_context_required')
+        require(record is not None and identifier not in allowed, 'linked_ancillary_context_required')
+        if record['kind'] == 'numbered_topic':
+            require(topic['kind'] in {'review', 'conclusion'}
+                    and record['sequence'] < topic['sequence'],
+                    'only_ancillary_review_can_reuse_earlier_numbered_context')
+            previous_context[identifier] = _prior_context(
+                catalog, identifier, book['id'], topic['sequence'], _validated_prior)
+        else:
+            require(topic['id'] in record.get('linked_teaching_ids', []),
+                    'linked_ancillary_context_required')
         allowed[identifier] = record
+    require(review.get('approved_context_sha256', {}) == {
+        identifier: fingerprint(previous) for identifier, previous in previous_context.items()
+    }, 'review_context_requires_exact_prior_lesson_digest')
     page_reviews = review.get('source_pages', [])
     require(type(page_reviews) is list and page_reviews, 'exact_page_review_required')
     pages = {p.get('review_id'): p for p in page_reviews}
@@ -99,6 +151,29 @@ def validate_lesson(catalog, lesson, review):
         if fact['claim_kind'] == 'attributed_textbook_interpretation':
             require(not fact['automatic_assessment_allowed'], 'interpretation_requires_self_or_teacher_review')
         source_refs(fact.get('source_refs'))
+
+    # A glossary lookup is a reference to already reviewed knowledge, not a new
+    # approval of every meaning merely because a term occurs in the index.
+    borrowed = {}
+    bindings = review.get('approved_context_fact_bindings', {})
+    require(type(bindings) is dict, 'review_context_fact_bindings_required')
+    for identifier, fact in facts.items():
+        origins = {ref['topic_id'] for ref in fact['source_refs']} & set(previous_context)
+        if origins:
+            require(len(origins) == 1 and {ref['topic_id'] for ref in fact['source_refs']} == origins,
+                    'review_context_fact_must_retain_exact_origin')
+            origin = next(iter(origins))
+            binding = bindings.get(identifier, {})
+            previous_fact = previous_context[origin]['facts'].get(binding.get('fact_id'))
+            require(previous_fact is not None and binding == {
+                'topic_id': origin, 'fact_id': previous_fact['fact_id'],
+                'fact_sha256': fingerprint(previous_fact),
+            }, 'review_context_fact_binding_mismatch')
+            restored = dict(fact, fact_id=previous_fact['fact_id'])
+            require(restored == previous_fact, 'review_context_cannot_change_prior_fact_or_assessment_scope')
+            borrowed[identifier] = binding
+    require(bindings == borrowed and set(previous_context) == {b['topic_id'] for b in borrowed.values()},
+            'every_review_context_must_bind_exact_prior_facts')
 
     content = lesson.get('content', {})
     require(set(content) == {'cards', 'formulas', 'source_refs', 'xp_reward', 'reflections'}
@@ -213,19 +288,15 @@ def load_lessons(catalog=None):
     index = read_json(DIRECTORY / 'world_history_lessons.json')
     require(index.get('schema_version') == 1 and index.get('subject') == 'jahon_tarixi', 'reviewed_index_required')
     lessons, topics, keys = [], set(), set()
+    validated_prior = {}
     for item in index.get('lessons', []):
-        require(all(type(item.get(k)) is str and Path(item[k]).name == item[k]
-                    and '/' not in item[k] and '\\' not in item[k] for k in ('file', 'review_file')),
-                'manifest_path_escape')
-        lesson = read_json(DIRECTORY / item['file'])
-        review = read_json(DIRECTORY / item['review_file'])
-        require(fingerprint(lesson) == item.get('sha256') == review.get('lesson_sha256')
-                and review.get('lesson_file') == item['file'], 'changed_content_requires_new_review')
-        validate_lesson(catalog, lesson, review)
+        lesson, review = _read_indexed_pair(item)
+        validate_lesson(catalog, lesson, review, _validated_prior=validated_prior)
         require(lesson['topic_id'] not in topics and lesson['key'] not in keys,
                 'duplicate_reviewed_lesson')
         require(set(lesson['prerequisite_ids']) <= topics, 'missing_reviewed_prerequisite')
         topics.add(lesson['topic_id'])
         keys.add(lesson['key'])
         lessons.append(lesson)
+        validated_prior[lesson['topic_id']] = lesson
     return lessons

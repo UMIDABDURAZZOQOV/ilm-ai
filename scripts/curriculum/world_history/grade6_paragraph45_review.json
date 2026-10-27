@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph45.json",
+  "lesson_sha256": "e06a75f63733a73c961ded808b020ea0d873fd799271776ebce9fbbeb36100e1",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p45-page179",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-conclusion",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 179,
+      "printed_page": 179,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "ee5b40957561aad79e5823c44e46e19d44b88d5c140212f4a06a72b04ecd350d",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p45-page180",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-conclusion",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 180,
+      "printed_page": 180,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "b9c0c8eed55aa0e5be188962cb698a3bafddf209bd1e4d79b70f4e7bf68f1e03",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original conclusion179–180 fully read. This is teaching sequence45, not an invented numbered§45; bibliography paragraph remainsnull. All original numbered topics retain1–44.",
+    "Original paraphrase preserves listed legacies, regional labour, named figures, Avesto and source values. First written source, best-country ranking, uniform ethnic values and exclusive ancestry withheld.",
+    "Political/civic/religious values and cultural causation attributed, no loyalty test, sacred truth certification, self-harm/self-sacrifice instruction or current-office claim. No copied quotation.",
+    "Objective questions only source-listed examples/names; complex synthesis and moral/political agreement self/teacher reviewed without correctness or XP."
+  ],
+  "approved_fact_sha256": {
+    "legacies": "b27cb57ce4831f1d9f4ca5a6be791e19115b320b7cdaf967c81665ed54776794",
+    "works": "8f83f7293c22331e803fb062d378467b1c45b05618044b1991f95183c2cb4309",
+    "creativity": "2c063027650f43e5c296b425c57b5b31f3fd2aa093c937a33e9192082e2e7197",
+    "exchange": "49e85df28b1d9f7d1cc31a68d8db2a1297e06aeaf6d426541509d328e2ac46f1",
+    "regional": "f2d402cbca87068f7fdfe9a8f9bc7079c5a0fcbb03c7905eeadafe7203a3117c",
+    "figures": "a93ab551ad962375ac6bfd085c6dc165fbebd408ac3d989c6a69a6ac542b7bee",
+    "avesto": "1db921148656a52b5beda40daec48aa6fc0be89873c77691e33d4d1006eb96f0",
+    "beliefs": "ae29a590cd7c9866bc3872fa8e143775ce973af0b54a061eb2d74e640cfaceb4",
+    "heritage": "f6bb3173d1510a600bf3bb4ebfff067e32819ca2927eefb0b719cc4078de1ab8",
+    "publication": "2189267c2e5916b4977a63392f244eabcc46bcaa17df6fd86f72970bcb09d820"
+  },
+  "approved_content_sha256": "b6820372ba1187919a0f050efea8bdf85d9f7052b7fd1e0aa2f3bf96b0e173f2",
+  "approved_assessments_sha256": "8c152808068899761abd240cf5c2d95571606bfb2a89422deca246b2aede9fa8",
+  "approved_answer_targets": {
+    "world-history-6-p45-r1-q01": {
+      "fact_ids": [
+        "legacies"
+      ],
+      "verified_answer": "G‘ildirak, suv quvurlari va alifbo",
+      "aliases": []
+    },
+    "world-history-6-p45-r1-q02": {
+      "fact_ids": [
+        "regional"
+      ],
+      "verified_answer": "Ziroatchilar, hunarmandlar va quruvchilar",
+      "aliases": []
+    },
+    "world-history-6-p45-r1-q03": {
+      "fact_ids": [
+        "figures"
+      ],
+      "verified_answer": "To‘maris, Shiroq va Spitaman",
+      "aliases": []
+    },
+    "world-history-6-p45-r1-q04": {
+      "fact_ids": [
+        "avesto"
+      ],
+      "verified_answer": "Avesto",
+      "aliases": []
+    },
+    "world-history-6-p45-r1-q05": {
+      "fact_ids": [
+        "avesto"
+      ],
+      "verified_answer": "Avesto",
+      "aliases": [
+        "Avesto"
+      ]
+    },
+    "world-history-6-p45-r1-q06": {
+      "fact_ids": [
+        "legacies"
+      ],
+      "verified_answer": "Suv quvurlari",
+      "aliases": [
+        "Suv quvurlari"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 179,
+      "activity": "conclusion_legacy_and_regional_synthesis",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 180,
+      "activity": "conclusion_values_and_heritage_reflection",
+      "covered_by": [
+        "card4",
+        "card5",
+        "reflection"
+      ]
+    }
+  ]
+}

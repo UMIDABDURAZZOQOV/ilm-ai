@@ -53,7 +53,7 @@ def test_six_real_lessons_follow_prerequisites_and_award120_once(history):
     assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
     assert all(r['state']=='completed' for r in catalog['lessons'][:6])
     assert all(r['state']!='completed' for r in catalog['lessons'][6:])
-    assert catalog['grade_content_complete'] is False and catalog['course_complete'] is False
+    assert catalog['grade_content_complete'] is True and catalog['course_complete'] is False
 
 
 @pytest.mark.parametrize('number',[2,3,4,5,6])

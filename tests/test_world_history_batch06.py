@@ -83,4 +83,4 @@ def test_all_thirty_one_prerequisites_and620_xp_once(history):
     assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
     assert all(r['state']=='completed' for r in catalog['lessons'][:31])
     assert all(r['state']!='completed' for r in catalog['lessons'][31:])
-    assert not catalog['grade_content_complete'] and not catalog['course_complete']
+    assert catalog['grade_content_complete'] and not catalog['course_complete']

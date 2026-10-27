@@ -2836,9 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch08 has41 local-preview lessons, grade6§1–41:329 cards,241 MCQ,157 objective FRQ;
-178 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade6§42, original page164 below its heading.
+Batch09 has46 local-preview units: grade6§1–44 plus conclusion/final review,
+361 cards,271 MCQ,175 objective FRQ;
+173 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade7§1, original page8; authors3/introduction4–7 belong to its source context.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2852,3 +2853,7 @@ exact progress, feature-branch commit/push and next batch without routine approv
 Preserve 406 Biology and 268 Chemistry manifests. No real-user/production DB,
 main merge, deploy, raw textbook/OCR/image/token publication. Final acceptance
 requires all catalogue sections; do not call this task finished prematurely.
+
+Review units may reuse only digest-pinned earlier same-book numbered facts, with
+exact source/aliases/assessability retained. Page184 is a term locator, not a
+definition approval. Grade6 content presence complete is not course acceptance.

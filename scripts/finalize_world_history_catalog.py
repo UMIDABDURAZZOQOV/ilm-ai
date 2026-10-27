@@ -51,7 +51,7 @@ def main():
                     'id': ancillary['id'], 'kind': ancillary['kind'], 'title': ancillary['title'],
                     'source_record_id': ancillary['id'], 'pdf_pages': ancillary['pdf_pages'],
                     'printed_pages': ancillary['printed_pages'], 'chapter_id': None,
-                    'interactive_status': 'not_implemented',
+                    'interactive_status': ancillary.get('interactive_status', 'not_implemented'),
                 })
             elif ancillary['kind'] in {'introduction', 'preface'}:
                 ancillary['coverage_decision'] = 'opening_context_in_first_numbered_unit'
@@ -68,7 +68,7 @@ def main():
             else:
                 ancillary['coverage_decision'] = 'grade_reference_cross_linked_after_fact_review'
                 ancillary['linked_teaching_ids'] = all_numbered
-            ancillary['fact_review'] = 'not_reviewed'
+            ancillary.setdefault('fact_review', 'not_reviewed')
         units.sort(key=lambda u: (u['pdf_pages'][0], u['id']))
         for index, unit in enumerate(units):
             unit['sequence'] = index + 1

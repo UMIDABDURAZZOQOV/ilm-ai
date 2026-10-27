@@ -13,7 +13,7 @@ from services.world_history_models import WorldHistoryProgress
 
 
 def test_batch08_exact_counts_and_scoped_source_claims():
-    documents=load_lessons();assert len(documents)==41
+    documents=load_lessons()[:41];assert len(documents)==41
     batch=documents[36:41]
     assert [len(d['facts']) for d in batch]==[12,14,15,14,12]
     assert [len(d['content']['cards']) for d in batch]==[6,7,7,6,6]
@@ -61,7 +61,7 @@ def test_tenants_are_not_gladiators_or_colonies():
 
 
 def test_all_forty_one_prerequisites_and820_xp_once(history):
-    client,factory,_=history;documents=load_lessons()
+    client,factory,_=history;documents=load_lessons()[:41]
     assert client.post(f"{PREFIX}/lessons/{documents[36]['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())}).status_code==403
     for d in documents:
         response=client.post(f"{PREFIX}/lessons/{d['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())})
@@ -78,6 +78,7 @@ def test_all_forty_one_prerequisites_and820_xp_once(history):
         assert db.query(WorldHistoryProgress).filter_by(user_id=1).count()==41
         assert db.get(User,42).xp_total==137
     catalog=client.get(PREFIX+'/catalog').json()
-    assert catalog['implemented_sections']==41 and catalog['source_sections']==46
-    assert all(r['state']=='completed' for r in catalog['lessons'])
-    assert not catalog['grade_content_complete'] and not catalog['course_complete']
+    assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
+    assert all(r['state']=='completed' for r in catalog['lessons'][:41])
+    assert all(r['state']!='completed' for r in catalog['lessons'][41:])
+    assert catalog['grade_content_complete'] and not catalog['course_complete']

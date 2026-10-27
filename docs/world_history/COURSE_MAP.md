@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 41; remaining: 178.** Source pages are candidate spans;
+**Reviewed preview lessons: 46; remaining: 173.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -75,11 +75,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 39 | wh6-topic39 | Rim respublikasining hayoti | 152–155 | reviewed_preview_ready |
 | 40 | wh6-topic40 | O‘rtayer dengizida hukmronlik uchun kurash | 155–160 | reviewed_preview_ready |
 | 41 | wh6-topic41 | Qullar va gladiatorlar | 160–164 | reviewed_preview_ready |
-| 42 | wh6-topic42 | Rim respublikasining qulashi | 164–168 | not_implemented |
-| 43 | wh6-topic43 | Rim imperiyasining qulashi va zavolga yuz tutishi | 168–172 | not_implemented |
-| 44 | wh6-topic44 | Qadimgi Rim madaniyati | 172–178 | not_implemented |
-| 45 | wh6-conclusion | Xulosa | 179–180 | not_implemented |
-| 46 | wh6-final-review | Yakuniy takrorlash | 184 | not_implemented |
+| 42 | wh6-topic42 | Rim respublikasining qulashi | 164–168 | reviewed_preview_ready |
+| 43 | wh6-topic43 | Rim imperiyasining qulashi va zavolga yuz tutishi | 168–172 | reviewed_preview_ready |
+| 44 | wh6-topic44 | Qadimgi Rim madaniyati | 172–178 | reviewed_preview_ready |
+| 45 | wh6-conclusion | Xulosa | 179–180 | reviewed_preview_ready |
+| 46 | wh6-final-review | Yakuniy takrorlash | 184 | reviewed_preview_ready |
 
 ### Supporting source records
 

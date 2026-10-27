@@ -292,3 +292,51 @@ universals, religious/divination claims, army-era compression, battle precision,
 slave-status stereotypes and thumb gestures scoped/withheld. No absent map route,
 external replacement date, raw textbook image/OCR, private key or real-user data
 published. Only history feature branches receive these changes.
+
+## Batch09 — grade6§42–44, conclusion and final review, 2026-10-27
+
+Five additional units:32 cards,70 fact records,30 MCQ and18 objective FRQ.
+Total **46/219 local-preview units**,361 cards,672 fact records,271 MCQ,175 objective
+FRQ and46 ungraded activities. Grade6 is46/46 (44 numbered paragraphs + conclusion
+and final review);173 units remain across grades7–11. Twelve final-review records
+reuse exact earlier facts; record totals are not unique historical-fact counts.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Focused grade completion/context |17 passed in83.25s | Exact earlier-book context pins, aliases, scope, regions, index membership, finalizer preservation and grade transition |
+| All history backend/source/preservation |169 passed in691.12s | Eleven modules;46 manifests, earlier regression cases, ordered completion/replay and920XP once |
+| Actual PostgreSQL |1 passed in50.03s | Dedicated staging fresh schema; parallel completion/all46 units, older synthetic account preserved |
+| Actual loopback HTTP |6 catalogues,446 answers,920XP | Fresh learner900096, prerequisites/replay, no previous-account reset |
+| Targeted Flutter |106 passed in01:19 | Actual API fixtures all46 units, 320×568/200% theory/feedback/FRQ; real titles/source sheets for ancillary units and switch to grade7 pending catalogue |
+| Full Flutter regression |715 passed in04:05 | Entire current Flutter suite, including shared and other subject tests |
+| Full Flutter analysis |0 issues in90.6s | Entire history Flutter worktree |
+| Preservation |687 baseline SHA pins matched | Existing subject/runtime files plus82 prior history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | Python-only history paths and staged diff checks |
+
+Review units may reuse earlier same-book numbered facts only through exact prior
+lesson and fact digests. Tests reject absent indexed predecessors, unknown/future/
+cross-book context, changed claims/aliases/assessment scope, remapped origins and
+arbitrary reuse by regular numbered lessons. The ordered loader uses its validated
+prefix; standalone validation resolves the explicit import index. No source gate
+was bypassed. The finalizer preserves explicitly recorded ancillary readiness
+and fact review; grade8's unimplemented conclusion stays unapproved.
+
+`grade_content_complete` now reports local content presence for all46 grade6 units,
+independently of learner completion. Earlier test expectations were updated for
+this truthful catalogue state; previous XP/progress/prerequisite cases remain.
+`course_complete` and all source-book acceptance flags remain false. Grade7 has no
+imported teaching yet; switching there shows its44 source units as pending, not
+an invented lesson. Existing learner progress is retained.
+
+Original164–180/184 read. Caesar title/29BCE precision, outsider stereotypes,
+world-first concrete, all-school/bath claims, religious miracles and political
+values withheld/scoped.184 is a locator; copied exact earlier facts retain their
+actual source pages, not184. Full-list review remains guided self/teacher work.
+Inspected widget renders:§43 feedback200%,unit45/46 source sheets200%,§46 resumed
+FRQ with original§39/152,153,155 citation. Source sheets/content scroll; no native
+Android/IME/TalkBack or independent teacher acceptance claimed. Earlier2569-pass
+full backend snapshot remains historical baseline evidence, not a rerun here.
+
+Only history feature branches are committed/pushed. No production/main, real-user,
+raw PDF/full-text/OCR/page-image publication or AI operation occurred. Next batch
+is grade7§1–5; its opening source3–12 read and§1 draft validated privately.

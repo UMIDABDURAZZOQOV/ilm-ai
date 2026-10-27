@@ -75,4 +75,4 @@ def test_all_sixteen_follow_prerequisites_and_award320_once(history):
     assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
     assert all(r['state']=='completed' for r in catalog['lessons'][:16])
     assert all(r['state']!='completed' for r in catalog['lessons'][16:])
-    assert not catalog['grade_content_complete'] and not catalog['course_complete']
+    assert catalog['grade_content_complete'] and not catalog['course_complete']
