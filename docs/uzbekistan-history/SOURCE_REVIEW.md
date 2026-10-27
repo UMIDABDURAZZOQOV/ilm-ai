@@ -116,3 +116,9 @@ Asl94–113ko‘rildi. Xiva yer ijarachisi bevatan/koranda/vaqfchi bilan mutaval
 Firdavs ul-iqbol uchun107dagi «300yil» hamda1572–1825oraliq ichki tafovut: oddiy ayirma253,inclusive hisob254; hech biri300emas. Qaysi tarixiy boshlanish sanasi to‘g‘riligi tashqi dalilsiz o‘zgartirilmadi; davomiylik avtomatik kalitga kiritilmadi. Muallif,asar davri,arxivning ko‘chirilishi va keyingi tadqiqot sanalari farqlangan.
 
 Qoraqalpoq etnogenezi va etnonim ilk uchrashi haqidagi mutlaq xulosalar,110dagi to‘g‘on–daryo o‘zani sababini bitta buyruqqa yuklash mustaqil ekspertizaga qoldirilgan.1598yorliq aynan darslikdagi qayd sifatida,eng qadimgi barcha hujjatlarning yakuniy isboti sifatida emas. Bo‘lim sarlavhasi XIXbirinchi yarmini aytsa ham112da1859boshqaruv qaydi borligi ochiq ajratildi; tarixiy sanani sarlavhaga moslab orqaga surmadik. Keyingi31–35uchun113–133asl sahifalar ko‘rildi.
+
+## 8-sinf §31–35 — 2026-10-27
+
+Asl113–133sahifalar o‘qildi. Jiyen Jirov, Ajiniyoz/Zevar va Berdaq/Berdimurod nomlari, og‘zaki ijod bilan arxiv manbasi farqlangan.117dagi1827tug‘ilish va1998«170yillik» qaydlari arifmetik mos kelmaydi; qaysi sana tarixan to‘g‘riligi mustaqil dalilsiz taxmin qilinmadi, yosh/yubiley avtomatik kalit emas.
+
+1709davlat boshlanishi,1805xon unvoni,1822vorislik va1842tiklanish alohida voqealar. Oltin beshik rivoyati nasabning mustaqil tasdig‘i deb baholanmaydi.1852zo‘ravonlik voqeasi neytral refleksiya uchun, etnik jamoani ayblash yoki qirg‘inni ma’qullash savoli uchun emas. Qo‘qon mehtarining devonbegi o‘rinbosarligi Xivadagi mehtar bosh vazirligi bilan aynan tenglashtirilmagan. Harbiy qism, mansab, ta’minot solig‘i va botmon birligi turli turdagi atama sifatida o‘rgatiladi.
