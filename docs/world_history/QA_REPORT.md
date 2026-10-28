@@ -1108,3 +1108,32 @@ validated but unindexed; original1–156and154–156 read,157onward next.
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 the earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/
 mainmerge/AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch32 — grade9§33–37, 2026-10-28
+
+Five lessons add35 cards,
+70 fact records,
+30 MCQ and
+20 objective FRQ.
+**160/219 local-preview units**,1191cards,2258factrecords,
+1047MCQ,641FRQ,160self/teacheractivities;**59remain**:
+4/26/29 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |469 passed,1251.17s wall | All34modules,clean shards118/100/143/108;1161.18/952.28/818.82/1249.4s |
+| Actual PostgreSQL |1 passed108.36s | Dedicatedschema/parallel/all160units/3200XP/replay |
+| Actual HTTP |6catalogues,1688answers,3200XP | Freshsynthetic900326/UID-specificemail/prerequisites/replay |
+| Target Flutter |342 passed03:19 | All160snapshots/200% theoryMCQ/typedFRQ/grade9prefixguard |
+| Full Flutter |951 passed07:02 | Sequential no-pub aftertargeted |
+| Full analysis |0issues45.7s | EntireFlutterworktree |
+| Preservation |687pins and310priorhistoryfiles unchanged | Other-subject/runtime baseline and155priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | History-only text/noJWTprivateDB/rawscanOCR |
+
+Grade9 paragraphs33-37 original116below-136 with six shared boundary cases;121map1880/1914 overlays distinct. Held125June28vs82July28 assassination date, casualties, religious claims, sole political causes and Separatizm gloss; no automatic keys for them. Original9 pages1-156 and original10 pages1-8 read. Next private grade9 paragraphs38-41 plus grade10 topic1 strictly validated, unindexed; each linked introduction context exact with no whole ancillary approval.
+Actual widget captures inspected: Grade9 paragraph34 dark theory at200%, paragraph36 dark feedback at200%, paragraph37 FRQ resume/source inspected; scrolling and continuation controls retained.. Prior fixtures remain
+frozen; initial/completed grade9 both37rows. Next five private drafts strict
+validated but unindexed: grade9§38–41 plus grade10§1; Grade9 originals1–160 and grade10 originals1–24 read; grade10 original25 onward next.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+the earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/
+mainmerge/AI/rawsourceupload/realuserreset. Continue without routine permission.

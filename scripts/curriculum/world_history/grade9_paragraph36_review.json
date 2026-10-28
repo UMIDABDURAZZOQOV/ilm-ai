@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade9_paragraph36.json",
+  "lesson_sha256": "5893a01000f17153590521048e18b47c223d44969593ed52cb4c86aeda22393a",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh9-p36-page130",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic36",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 130,
+      "printed_page": 130,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "bbcee45b62b9eae6c10a2e9cd7d158a904f9d5bcad586b0a9949ccf34634930b",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p36-page131",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic36",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 131,
+      "printed_page": 131,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "4dacae77dc97f3d2725bf7b002d09eca04074dbf28dfb2bee7564e886dc0446c",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p36-page132",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic36",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 132,
+      "printed_page": 132,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "f3bf99a04b6c309864e5f8503dd73718f2f063afdf5c75579b599bd1c070a2cd",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original130below§36–132above§37read;132fivequestions/twotasks included.",
+    "130Verden21Feb–21Marchopeningvs21Decend/2mkilledbothbattles/Brusilovmaycalendar/1mdead400kprisoners held. TankSommaassociationonlynotglobalpriority.131Romania28vs27Aug/allterritorialrights/40%Antantaforces/Russiaworldmaximum held.",
+    "132500mUSgovernmentvsprivate/allloantotals/2mexactoneyear held. LoadedUSmakrquestiontreatedcriticalsourceanalysisnotautomaticnationalmoraljudgment; no moderncombatfacts or operationalweaponinstructions."
+  ],
+  "approved_fact_sha256": {
+    "verdun": "35636b0b1b06c4422bd9f14736bc8c5fea0c5316da175fd5244896e177ba3e81",
+    "somme": "2433098c3e102c077476e87e146115d4cad5b17ecf37c8f502d8df47193e06c7",
+    "tank": "b88ae6f1a7e3b8093870c54b0af5836e03fa48c747d1c14eadd262201feddd15",
+    "losses": "e09a05e32fad9f09902ce8f8d854be68c6d754d2105f3d4a5ab8b5dfa68faa90",
+    "brusilov": "a3b3c14be3ce11d2433e53dde720295ec03ddacd7bdd79ecc3779f17c9065049",
+    "romania": "4645773d075732975fab5bb2f5a48cf90dc7d93fc93deb1691352650648956f2",
+    "hindenburg": "2fe8b21b9b339fd7dc71baa6b9fac13d8e14e57116545ac4bb3aaae6bea0eaae",
+    "plans": "ecf5382f36b5d8b9b5d4d4627c6ec186d58cdae985ec8091ba1b71df3ec2ee44",
+    "us": "a98dd1106eaf99bcb292255f84ed096e4b44250f661e7bc89bd9b00b0e82d325",
+    "france": "83b29507306f0658d44d2581174d120293ac126e08ed40dd09524777801f8162"
+  },
+  "approved_content_sha256": "1520656951657db17edeb26daa2fb3ba02cf7b5b22dd5ab4f53a9a381366d298",
+  "approved_assessments_sha256": "40ea78d5c9a1a37b35469774e7d4002dd97d7fcbcc6fc18bb01ef09536307455",
+  "approved_answer_targets": {
+    "world-history-9-p36-r1-q01": {
+      "fact_ids": [
+        "verdun"
+      ],
+      "verified_answer": "Verden",
+      "aliases": []
+    },
+    "world-history-9-p36-r1-q02": {
+      "fact_ids": [
+        "somme"
+      ],
+      "verified_answer": "Somma",
+      "aliases": []
+    },
+    "world-history-9-p36-r1-q03": {
+      "fact_ids": [
+        "brusilov"
+      ],
+      "verified_answer": "Brusilov",
+      "aliases": []
+    },
+    "world-history-9-p36-r1-q04": {
+      "fact_ids": [
+        "romania"
+      ],
+      "verified_answer": "Antanta",
+      "aliases": []
+    },
+    "world-history-9-p36-r1-q05": {
+      "fact_ids": [
+        "us"
+      ],
+      "verified_answer": "1917-yil 6-aprel",
+      "aliases": []
+    },
+    "world-history-9-p36-r1-q06": {
+      "fact_ids": [
+        "france"
+      ],
+      "verified_answer": "Fransiya",
+      "aliases": []
+    },
+    "world-history-9-p36-r1-q07": {
+      "fact_ids": [
+        "verdun"
+      ],
+      "verified_answer": "Verden",
+      "aliases": [
+        "Verden"
+      ]
+    },
+    "world-history-9-p36-r1-q08": {
+      "fact_ids": [
+        "somme"
+      ],
+      "verified_answer": "Somma",
+      "aliases": [
+        "Somma"
+      ]
+    },
+    "world-history-9-p36-r1-q09": {
+      "fact_ids": [
+        "brusilov"
+      ],
+      "verified_answer": "Brusilov",
+      "aliases": [
+        "Brusilov"
+      ]
+    },
+    "world-history-9-p36-r1-q10": {
+      "fact_ids": [
+        "hindenburg"
+      ],
+      "verified_answer": "Gindenburg",
+      "aliases": [
+        "Gindenburg"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 130,
+      "activity": "below36_verden_somma_tank_brusilov",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 131,
+      "activity": "romania_gindenburg_plans_USinterpretation",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 132,
+      "activity": "above37_USdeclaration_france_fivequestions_twotasks",
+      "covered_by": [
+        "reflection"
+      ]
+    }
+  ]
+}

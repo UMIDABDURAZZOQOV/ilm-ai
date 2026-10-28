@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 155; remaining: 64.** Source pages are candidate spans;
+**Reviewed preview lessons: 160; remaining: 59.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -225,11 +225,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 30 | wh9-topic30 | XIX asr oxiri – XX asr boshlarida Eron | 105–108 | reviewed_preview_ready |
 | 31 | wh9-topic31 | XIX asr oxiri – XX asr boshlarida Afg‘oniston | 108–112 | reviewed_preview_ready |
 | 32 | wh9-topic32 | XIX asr oxiri – XX asr boshlarida Usmonli davlati | 112–116 | reviewed_preview_ready |
-| 33 | wh9-topic33 | Shimoliy Afrika mamlakatlari | 116–120 | not_implemented |
-| 34 | wh9-topic34 | Tropik va Janubiy Afrika mamlakatlari | 120–125 | not_implemented |
-| 35 | wh9-topic35 | Birinchi jahon urushining boshlanishi va borishi | 125–130 | not_implemented |
-| 36 | wh9-topic36 | 1916–1917-yillardagi urush harakatlari | 130–132 | not_implemented |
-| 37 | wh9-topic37 | Birinchi jahon urushining yakunlari va oqibatlari | 132–137 | not_implemented |
+| 33 | wh9-topic33 | Shimoliy Afrika mamlakatlari | 116–120 | reviewed_preview_ready |
+| 34 | wh9-topic34 | Tropik va Janubiy Afrika mamlakatlari | 120–125 | reviewed_preview_ready |
+| 35 | wh9-topic35 | Birinchi jahon urushining boshlanishi va borishi | 125–130 | reviewed_preview_ready |
+| 36 | wh9-topic36 | 1916–1917-yillardagi urush harakatlari | 130–132 | reviewed_preview_ready |
+| 37 | wh9-topic37 | Birinchi jahon urushining yakunlari va oqibatlari | 132–137 | reviewed_preview_ready |
 | 38 | wh9-topic38 | Moddiy ishlab chiqarishda texnika va fan taraqqiyoti | 137–141 | not_implemented |
 | 39 | wh9-topic39 | Aniq va tabiiy fanlar rivoji | 141–146 | not_implemented |
 | 40 | wh9-topic40 | Xalq ta’limi. Gumanitar fanlar. San’at | 146–150 | not_implemented |
