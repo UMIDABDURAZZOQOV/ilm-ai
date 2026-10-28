@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 175; remaining: 44.** Source pages are candidate spans;
+**Reviewed preview lessons: 180; remaining: 39.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -255,11 +255,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 9 | wh10-topic10 | 1918 – 1939-yillarda Lotin Amerikasi mamlakatlari | 42–47 | reviewed_preview_ready |
 | 10 | wh10-topic11 | 1918 – 1939-yillarda Yaponiya | 47–51 | reviewed_preview_ready |
 | 11 | wh10-topic12 | 1918 – 1939-yillarda Xitoy va Hindiston | 51–57 | reviewed_preview_ready |
-| 12 | wh10-topic13 | 1918 – 1939-yillarda Turkiya va Eron | 57–62 | not_implemented |
-| 13 | wh10-topic14 | 1918 – 1939-yillarda Afrika mamlakatlari | 62–67 | not_implemented |
-| 14 | wh10-topic15-16 | Ikkinchi jahon urushi va uning yakunlari | 67–76 | not_implemented |
-| 15 | wh10-topic17 | Ikkinchi jahon urushidan keyingi xalqaro munosabatlar: «sovuq urush»ning boshlanishi | 76–81 | not_implemented |
-| 16 | wh10-topic18 | 1946 – 1991-yillarda Amerika Qo‘shma Shtatlari | 81–87 | not_implemented |
+| 12 | wh10-topic13 | 1918 – 1939-yillarda Turkiya va Eron | 57–62 | reviewed_preview_ready |
+| 13 | wh10-topic14 | 1918 – 1939-yillarda Afrika mamlakatlari | 62–67 | reviewed_preview_ready |
+| 14 | wh10-topic15-16 | Ikkinchi jahon urushi va uning yakunlari | 67–76 | reviewed_preview_ready |
+| 15 | wh10-topic17 | Ikkinchi jahon urushidan keyingi xalqaro munosabatlar: «sovuq urush»ning boshlanishi | 76–81 | reviewed_preview_ready |
+| 16 | wh10-topic18 | 1946 – 1991-yillarda Amerika Qo‘shma Shtatlari | 81–87 | reviewed_preview_ready |
 | 17 | wh10-topic19-20 | 1946-1991-yillarda Sovet Ittifoqi | 87–94 | not_implemented |
 | 18 | wh10-topic21 | 1946 – 1991-yillarda Buyuk Britaniya va Fransiya | 94–99 | not_implemented |
 | 19 | wh10-topic22 | 1946 – 1991-yillarda Germaniya va Italiya | 99–105 | not_implemented |

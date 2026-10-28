@@ -31,13 +31,13 @@ every book. All 216 numbered body headings were cross-checked: embedded text for
 grades 6/7/8/10/11 and original scanned image regions for grade 9. Grade 9 has no
 usable text layer; OCR is an unverified locator, never an approval.
 
-**Reviewed local-preview lessons:175/219; remaining:44.** Grade6 has44 numbered paragraphs plus conclusion and final review:361 cards,
+**Reviewed local-preview lessons:180/219; remaining:39.** Grade6 has44 numbered paragraphs plus conclusion and final review:361 cards,
 271 MCQ,175 objective FRQ and46 self/teacher-review activities. Grade7§1–44
 add314 cards,298 MCQ and176 objective FRQ; all44 units are present in local
 preview. Its48-entry chronology reference is scoped in GRADE7_REFERENCE_REVIEW.md.
 Grade8 all33 units add256 cards,252 MCQ and136 objective FRQ. Grade9§1–41
-add293 cards,252 MCQ and172 objective FRQ. Grade10§1–11 adds84 cards,68 MCQ and46 objective FRQ. Grades9–11 have0/15/29 left,
-for44 remaining overall. The isolated API and
+add293 cards,252 MCQ and172 objective FRQ. Grade10§1–16 adds127 cards,102 MCQ and68 objective FRQ. Grades9–11 have0/10/29 left,
+for39 remaining overall. The isolated API and
 Flutter debug entrypoint exist; nothing has been released to production. All
 book course-ready flags remain false. See [checkpoint](CHECKPOINT.md), [source review](SOURCE_REVIEW.md),
 [architecture](ARCHITECTURE.md) and [QA](QA_REPORT.md).

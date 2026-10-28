@@ -1228,3 +1228,33 @@ Private unit7 initially used whole-body scope on original30; strict validation r
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
 AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch36 — grade10 topics12–16, 2026-10-28
+
+Five lessons add43cards,
+91factrecords,
+34MCQ and
+22objectiveFRQ.
+**180/219 local-preview units**,1351cards,2586factrecords,
+1175MCQ,727FRQ,180self/teacheractivities;**39remain**:
+0/10/29 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |524 passed,1119.70s wall | All38modules,clean shards133/112/157/122;1096.65/949.96/921.77/1118.46s |
+| Actual PostgreSQL |1 passed154.10s | Dedicatedschema/parallel/all180units/3600XP/replay |
+| Actual HTTP |6catalogues,1902answers,3600XP | Freshsynthetic900366/UID-specificemail/prerequisites/replay |
+| Target Flutter |384 passed02:36 | All180snapshots/200% theoryMCQ/typedFRQ/catalogueprefixguard |
+| Full Flutter |993 passed03:00 | Sequential no-pub aftertargeted |
+| Full analysis |0issues111.3s | EntireFlutterworktree |
+| Preservation |687pins and350priorhistoryfiles unchanged | Other-subject/runtime baseline and175priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | E701/E702/F811 excluded for existing compact pytest fixture style; history-only text/noJWTprivateDB/rawscanOCR |
+
+Original grade10 images1–127 read; exact topic regions reviewed. New12–16 cover printed13/14/15–16/17/18; held claims remain explicitly ungraded or excluded. Next17–21 private original adaptations passed strict validation, not indexed/imported.
+Actual widget captures inspected: Unit12 dark theory at200%, unit14 dark MCQ feedback at200%, unit16 light typedFRQ resume with printed18/page82 source. Large theory/feedback use scrolling; source and response controls remain in their distinct views.32 capture widgets passed00:16.. Prior lesson snapshots
+remain frozen; initial/completed grade10 both16rows. Next five private drafts
+strict validated but unindexed:grade10 topics17–21;Grade9 originals1–160 and grade10 originals1–127 read;grade10 original128 onward next.
+Flutter target was initially not executed because automatic approval review hit a service usage limit. After the stated retry time elapsed, the same require_escalated action succeeded; no approval bypass. Private next-batch17 first opening-page scope and periodization enum failed strict validation; corrected only unindexed drafts, then allfive passed. Published batch36 had no test failures.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
+AI/rawsourceupload/realuserreset. Continue without routine permission.
