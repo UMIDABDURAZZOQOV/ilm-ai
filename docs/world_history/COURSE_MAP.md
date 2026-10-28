@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 145; remaining: 74.** Source pages are candidate spans;
+**Reviewed preview lessons: 150; remaining: 69.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -215,11 +215,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 20 | wh9-topic20 | Rossiya imperiyasining tashqi siyosati | 69–73 | reviewed_preview_ready |
 | 21 | wh9-topic21 | Rossiyada Davlat dumasining tashkil etilishi | 73–76 | reviewed_preview_ready |
 | 22 | wh9-topic22 | XIX asr oxiri – XX asr boshlarida Avstriya-Vengriya imperiyasi | 76–80 | reviewed_preview_ready |
-| 23 | wh9-topic23 | Avstriya-Vengriya imperiyasining tashqi siyosati | 80–83 | not_implemented |
-| 24 | wh9-topic24 | XIX asr oxiri – XX asr boshlarida Italiya | 83–86 | not_implemented |
-| 25 | wh9-topic25 | XIX asr oxiri – XX asr boshlarida Bolqon davlatlari | 86–90 | not_implemented |
-| 26 | wh9-topic26 | XIX asrning oxiri va XX asr boshlarida Yaponiya | 90–94 | not_implemented |
-| 27 | wh9-topic27 | XIX asrning oxirida Xitoy | 94–97 | not_implemented |
+| 23 | wh9-topic23 | Avstriya-Vengriya imperiyasining tashqi siyosati | 80–83 | reviewed_preview_ready |
+| 24 | wh9-topic24 | XIX asr oxiri – XX asr boshlarida Italiya | 83–86 | reviewed_preview_ready |
+| 25 | wh9-topic25 | XIX asr oxiri – XX asr boshlarida Bolqon davlatlari | 86–90 | reviewed_preview_ready |
+| 26 | wh9-topic26 | XIX asrning oxiri va XX asr boshlarida Yaponiya | 90–94 | reviewed_preview_ready |
+| 27 | wh9-topic27 | XIX asrning oxirida Xitoy | 94–97 | reviewed_preview_ready |
 | 28 | wh9-topic28 | XX asr boshlarida Xitoyning ijtimoiy-iqtisodiy va siyosiy ahvoli | 97–101 | not_implemented |
 | 29 | wh9-topic29 | XIX asr oxiri – XX asr boshlarida Hindiston | 101–105 | not_implemented |
 | 30 | wh9-topic30 | XIX asr oxiri – XX asr boshlarida Eron | 105–108 | not_implemented |

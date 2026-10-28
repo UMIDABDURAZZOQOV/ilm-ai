@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade9_paragraph23.json",
+  "lesson_sha256": "78c6cc70a4fe37acd89f5343a257754b11374656516bc6f777b80fcbe0e116e7",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh9-p23-page080",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic23",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 80,
+      "printed_page": 80,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "b4ffe95ce561ccbfb24e0cb203a4ac85c813fd848d9caece709848978de22048",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p23-page081",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic23",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 81,
+      "printed_page": 81,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "3323fcac9a36d7131b4125ac4482f02944d18fd178dff1e932fe075a0015c2df",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p23-page082",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic23",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 82,
+      "printed_page": 82,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "d9b20d20bbb2b2efab5090511c5321bbbe2aa478891974ff3968cbdcd6088b1c",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original80below§23–82read.83wholly§24excludeddespitecataloguecandidate.82threequestions/fourtasks included.",
+    "81firstoccupation1908 vs1878rights keptseparate; inevitability/allSlavsonealignment/solecauseSecondWar/Serbiauniversalsoleleader/Germanyabsolutevassal andallparliamentdissolved held.",
+    "82FransFerdinandassassinated28July1914 exactday/month nottaught/keyed; comparelaterWWIparagraphinthisbookbeforeanycorrection. No outsidefacts. War/politicaljudgments teacher-only."
+  ],
+  "approved_fact_sha256": {
+    "rivalry": "33646e720711a6ba76a8cfa9592fe18934337579c246bcbac717866e936eb053",
+    "bosnia": "ff8915d0c8ebc136ef4cac97f38194158f6aa626e908a76b9262ba91d761f05c",
+    "italy": "e0aa8a397f359999163bc8d141342180b3639752c041fc8a1b912c62a9462713",
+    "league": "d05fd990e1009d9c894d4a812e66413cd0aa5b609f9999a8afe1bac64bf8fec9",
+    "first": "439b42ea13763d34ba841249705c1688c636ecc2d7e4245808621cbc36e69c67",
+    "second": "71ad9f519fb14e7370beede1597070659da0923934e3b95a8432e24215d3a88e",
+    "outcome": "6335c517e343e66bdf18ec82dccf34a971897bae52d44719db3e6e9850f9cc8f",
+    "ferdinand": "936ab9dc1cb78b3686a8135fbce6270e1167f36cafb84ce06812e87292833bb5",
+    "preparation": "63888dbdb531c168a20811c3e63f7fddf7852585af27cc80521e449374dbe8f2"
+  },
+  "approved_content_sha256": "3dea651666840e3e35f99073eec3c8d8fec4f61a557994b600ff051c25c3f8f6",
+  "approved_assessments_sha256": "47e8431bb5f88a5ac2d04efe29d801a5e46984e966658219082e519cc034fb22",
+  "approved_answer_targets": {
+    "world-history-9-p23-r1-q01": {
+      "fact_ids": [
+        "bosnia"
+      ],
+      "verified_answer": "Bosniya va Gersegovina",
+      "aliases": []
+    },
+    "world-history-9-p23-r1-q02": {
+      "fact_ids": [
+        "league"
+      ],
+      "verified_answer": "Chernogoriya",
+      "aliases": []
+    },
+    "world-history-9-p23-r1-q03": {
+      "fact_ids": [
+        "first"
+      ],
+      "verified_answer": "Birinchi Bolqon urushi",
+      "aliases": []
+    },
+    "world-history-9-p23-r1-q04": {
+      "fact_ids": [
+        "second"
+      ],
+      "verified_answer": "1913-yil",
+      "aliases": []
+    },
+    "world-history-9-p23-r1-q05": {
+      "fact_ids": [
+        "outcome"
+      ],
+      "verified_answer": "Bolgariya",
+      "aliases": []
+    },
+    "world-history-9-p23-r1-q06": {
+      "fact_ids": [
+        "ferdinand"
+      ],
+      "verified_answer": "Frans Ferdinand",
+      "aliases": []
+    },
+    "world-history-9-p23-r1-q07": {
+      "fact_ids": [
+        "league"
+      ],
+      "verified_answer": "Bolqon ittifoqi",
+      "aliases": [
+        "Bolqon ittifoqi"
+      ]
+    },
+    "world-history-9-p23-r1-q08": {
+      "fact_ids": [
+        "first"
+      ],
+      "verified_answer": "Birinchi Bolqon urushi",
+      "aliases": [
+        "Birinchi Bolqon urushi"
+      ]
+    },
+    "world-history-9-p23-r1-q09": {
+      "fact_ids": [
+        "second"
+      ],
+      "verified_answer": "Ikkinchi Bolqon urushi",
+      "aliases": [
+        "Ikkinchi Bolqon urushi"
+      ]
+    },
+    "world-history-9-p23-r1-q10": {
+      "fact_ids": [
+        "ferdinand"
+      ],
+      "verified_answer": "Frans Ferdinand",
+      "aliases": [
+        "Frans Ferdinand"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 80,
+      "activity": "below23_germanalliance_balkanrivalry",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 81,
+      "activity": "bosnia_italywar_balkanleague_firstwar",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 82,
+      "activity": "secondwar_preparation_terms_threequestions_fourtasks",
+      "covered_by": [
+        "reflection"
+      ]
+    }
+  ]
+}

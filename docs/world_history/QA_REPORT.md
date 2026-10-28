@@ -1050,3 +1050,32 @@ remain explicit, no external repairs. Independentteacher/nativeAndroid/IME/
 TalkBack/full2026–27equivalence unperformed; earlier2569backend/4skip baseline
 not rerun here. No productionDB/deploy/mainmerge/AI/rawsourceupload/realuserreset.
 Continuebatch30 and original117onward without routine permission.
+
+## Batch30 — grade9§23–27, 2026-10-28
+
+Five lessons add35 cards,
+59 fact records,
+30 MCQ and
+20 objective FRQ.
+**150/219 local-preview units**,1120cards,2119factrecords,
+987MCQ,601FRQ,150self/teacheractivities;**69remain**:
+14/26/29 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |444 passed,1346.14s wall | All32modules,clean shards118/100/129/97;1343.57/1270.43/1141.04/1280.69s |
+| Actual PostgreSQL |1 passed165.94s | Dedicatedschema/parallel/all150units/3000XP/replay |
+| Actual HTTP |6catalogues,1588answers,3000XP | Freshsynthetic900306/UID-specificemail/prerequisites/replay |
+| Target Flutter |322 passed05:45 | All150snapshots/200% theoryMCQ/typedFRQ/grade9prefixguard |
+| Full Flutter |931 passed05:49 | Sequential no-pub aftertargeted |
+| Full analysis |0issues97.3s | EntireFlutterworktree |
+| Preservation |687pins and290priorhistoryfiles unchanged | Other-subject/runtime baseline and145priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | History-only text/noJWTprivateDB/rawscanOCR |
+
+Tests reject broadened source regions, swapped regnal ordinals and distinct Ferdinand names, unapproved aliases and automatic political interpretations. Fiat foundation precision, Ferdinand assassination day/month, Levski execution timing, Bulgaria constitution chronology, universal Japanese legal claims and Boxer indemnity totals remain held. The 156 map references are exact linked §26/27 contexts: mixed dates and influence boundaries do not become current sovereignty claims. Whole-appendix fact_review remains not_reviewed; no outside corrections were substituted.
+Actual widget captures inspected: §24 dark theory200%, §26 dark feedback200%, §27 typedFRQ/source/resume. Prior fixtures remain
+frozen; initial/completed grade9 both27rows. Next five private drafts strict
+validated but unindexed; original1–137and154–156 read,138onward next.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+the earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/
+mainmerge/AI/rawsourceupload/realuserreset. Continue without routine permission.
