@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 135; remaining: 84.** Source pages are candidate spans;
+**Reviewed preview lessons: 140; remaining: 79.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -205,11 +205,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 10 | wh9-topic10 | Imperiyaning tashqi siyosati | 35–39 | reviewed_preview_ready |
 | 11 | wh9-topic11 | XIX asr oxiri – XX asr boshlarida Buyuk Britaniyaning siyosiy va iqtisodiy ahvoli | 39–42 | reviewed_preview_ready |
 | 12 | wh9-topic12 | Buyuk Britaniyaning ichki siyosati | 42–45 | reviewed_preview_ready |
-| 13 | wh9-topic13 | Buyuk Britaniyaning tashqi siyosati | 45–49 | not_implemented |
-| 14 | wh9-topic14 | Amerika Qo‘shma Shtatlari | 49–52 | not_implemented |
-| 15 | wh9-topic15 | AQSHning ichki siyosati | 52–55 | not_implemented |
-| 16 | wh9-topic16 | AQSHning tashqi siyosati | 55–59 | not_implemented |
-| 17 | wh9-topic17 | XIX asr oxiri va XX asr boshlarida Lotin Amerikasi davlatlari | 59–63 | not_implemented |
+| 13 | wh9-topic13 | Buyuk Britaniyaning tashqi siyosati | 45–49 | reviewed_preview_ready |
+| 14 | wh9-topic14 | Amerika Qo‘shma Shtatlari | 49–52 | reviewed_preview_ready |
+| 15 | wh9-topic15 | AQSHning ichki siyosati | 52–55 | reviewed_preview_ready |
+| 16 | wh9-topic16 | AQSHning tashqi siyosati | 55–59 | reviewed_preview_ready |
+| 17 | wh9-topic17 | XIX asr oxiri va XX asr boshlarida Lotin Amerikasi davlatlari | 59–63 | reviewed_preview_ready |
 | 18 | wh9-topic18 | Lotin Amerikasining boshqa davlatlari | 63–66 | not_implemented |
 | 19 | wh9-topic19 | XIX asr oxiri – XX asr boshlarida Rossiya imperiyasining ijtimoiy-siyosiy va iqtisodiy ahvoli | 66–69 | not_implemented |
 | 20 | wh9-topic20 | Rossiya imperiyasining tashqi siyosati | 69–73 | not_implemented |

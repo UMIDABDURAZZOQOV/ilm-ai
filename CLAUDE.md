@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch27 has135 local-preview units: all grade6/7/8 plus grade9§1–12,
-1012 cards,895 MCQ,539 objective FRQ;
-84 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch28 grade9§13–17; originals1–63and154 read, private13–17 strictvalidated not indexed;64onward next.
+Batch28 has140 local-preview units: all grade6/7/8 plus grade9§1–17,
+1048 cards,927 MCQ,561 objective FRQ;
+79 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch29 grade9§18–22; originals1–90and154–155 read, private18–22 strictvalidated not indexed;91onward next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2980,3 +2980,12 @@ chronology/37Palestine1889/38Ottomanliteralvassal,40Gladston1864–74/41outputvs
 share,42Parnellorigin/43settlement1881/44Irishbilland1911legalexceptions/45coal
 strikechronology remainheld. Nextbatch28§13–17private strictvalidated, original
 1–63 and154 read;154onlylink not entireappendix approval.64onward next.
+
+Batch28 checkpoint:140/219,79left;grade9=17/41.416historytests/302widgets/911full
+Flutter pass,analysis0;HTTP1488answers2800XP and realPG140units pass.46anthem/
+firstBritishEmpirefoundation/Suezallcontrol,48SouthAfricaimmediate1902,49all
+latifundiaabolished/maizeorigin,53HaymarketandColoradochronology/54Ruzveltsplit
+company/55alluniondamagesabolished,56Cubaimmediate1898independence/1903allrights,
+59ethnicdevelopmentcause/60Cubaslaveryby1878/61Diasuninterrupted/62allrebelsdead
+by1917 remainheld.154onlylinked17context,wholeappendixnotapproved. Private18–22
+strictvalidated:original1–90and154–155read;156pending. Continuebatch29,91onwardnext.

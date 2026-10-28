@@ -989,3 +989,34 @@ nativeAndroid/IME/TalkBack/full2026–27equivalence not performed/certified. No
 productionDB/deploy/mainmerge/AI/rawsourceupload/reallearnerreset. Nextbatch28
 grade9§13–17 private strictvalidated, not indexed; originals1–63andappendix154read.
 155–156 notdeepreviewed,64onward next. Appendix154 only exact linkedtopic17facts.
+
+## Batch28 — grade9§13–17, 2026-10-28
+
+Five lessons add36 cards,60 fact records,32 MCQ and22 objective FRQ. Total
+**140/219 local-preview units**,1048 cards,1993 fact records,927 MCQ,561 FRQ,
+140 self/teacher activities. Grade9=17/41;**79 remain:**24/26/29 in grades9/10/11.
+Grade6/7/8 content presence46/44/33; all acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |416 passed,1549.00s wall | All30modules,four clean shards103/87/129/97;1475.69/1268.17/1180.96/1546.99s |
+| Actual PostgreSQL |1 passed63.21s | Dedicatedschema/parallel/all140units2800XP/replay |
+| Actual HTTP |6catalogues,1488answers,2800XP | Freshsynthetic900286/UID-specificemail/prerequisites/replay |
+| Target Flutter |302 passed05:06 | All140snapshots/200% theoryMCQ/typedFRQ/grade9prefixguard |
+| Full Flutter |911 passed08:34 | Entireworktree sequential no-pub aftertargeted |
+| Full analysis |0issues67.5s | EntireFlutterworktree |
+| Preservation |687pins and270priorhistoryfiles unchanged |135priorlesson/reviewpairs plus other-subject/runtime baseline |
+| Ruff/whitespace/stagedaudit |Passed | History-only text/noJWTprivateDB/rawscanOCR |
+
+New tests reject broadened shared-page regions, swapped people/policy names,
+unapproved initials and automatic political/identity judgments. Appendix154 is
+only exact linked§17 context with original image SHA;155–156 are not approved by
+that lesson, and whole appendix fact_review remains not_reviewed. Prior fixtures
+remain frozen; initial and completed grade9 catalogues both17rows. Actual widget
+captures inspected:§14darktheory200%,§16darkfeedback200%,§17typedFRQ/source/resume.
+No QA service interruption. Source details and all holds remain in SOURCE_REVIEW.
+Private§18–22 passed strict validation; original1–80and154–155 read,156 pending.
+These next drafts are not indexed/imported. Independentteacher/nativeAndroid/
+IME/TalkBack/full2026–27equivalence remain unperformed. Fullbackend2569/4skip is
+the earlier baseline, not this run. No productionDB/deploy/mainmerge/AI/rawsource
+upload/reallearnerreset. Continue batch29 without routine permission.
