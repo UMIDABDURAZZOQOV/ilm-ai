@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 160; remaining: 59.** Source pages are candidate spans;
+**Reviewed preview lessons: 165; remaining: 54.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -230,10 +230,10 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 35 | wh9-topic35 | Birinchi jahon urushining boshlanishi va borishi | 125–130 | reviewed_preview_ready |
 | 36 | wh9-topic36 | 1916–1917-yillardagi urush harakatlari | 130–132 | reviewed_preview_ready |
 | 37 | wh9-topic37 | Birinchi jahon urushining yakunlari va oqibatlari | 132–137 | reviewed_preview_ready |
-| 38 | wh9-topic38 | Moddiy ishlab chiqarishda texnika va fan taraqqiyoti | 137–141 | not_implemented |
-| 39 | wh9-topic39 | Aniq va tabiiy fanlar rivoji | 141–146 | not_implemented |
-| 40 | wh9-topic40 | Xalq ta’limi. Gumanitar fanlar. San’at | 146–150 | not_implemented |
-| 41 | wh9-topic41 | Adabiyot | 150–153 | not_implemented |
+| 38 | wh9-topic38 | Moddiy ishlab chiqarishda texnika va fan taraqqiyoti | 137–141 | reviewed_preview_ready |
+| 39 | wh9-topic39 | Aniq va tabiiy fanlar rivoji | 141–146 | reviewed_preview_ready |
+| 40 | wh9-topic40 | Xalq ta’limi. Gumanitar fanlar. San’at | 146–150 | reviewed_preview_ready |
+| 41 | wh9-topic41 | Adabiyot | 150–153 | reviewed_preview_ready |
 
 ### Supporting source records
 
@@ -244,7 +244,7 @@ a shared final page can include the next heading. It is not blanket fact approva
 
 | Order | ID | Source title | Printed/PDF pages | Status |
 | ---: | --- | --- | --- | --- |
-| 1 | wh10-topic01 | 1918 – 1939-yillarda xalqaro munosabatlar | 4–8 | not_implemented |
+| 1 | wh10-topic01 | 1918 – 1939-yillarda xalqaro munosabatlar | 4–8 | reviewed_preview_ready |
 | 2 | wh10-topic02 | 1918 – 1939-yillarda ilmiy-texnik taraqqiyotning jadallashuvi, ilm-fandagi yutuqlar | 8–12 | not_implemented |
 | 3 | wh10-topic03 | 1918 – 1939-yillarda Buyuk Britaniya | 12–16 | not_implemented |
 | 4 | wh10-topic04 | 1918 – 1939-yillarda Fransiya | 16–20 | not_implemented |

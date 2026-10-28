@@ -1137,3 +1137,34 @@ validated but unindexed: grade9§38–41 plus grade10§1; Grade9 originals1–16
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 the earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/
 mainmerge/AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch33 — grade9§38–41 plus grade10§1, 2026-10-28
+
+Five lessons add42 cards,
+85 fact records,
+32 MCQ and
+22 objective FRQ.
+**165/219 local-preview units**,1233cards,2343factrecords,
+1079MCQ,663FRQ,165self/teacheractivities;**54remain**:
+0/25/29 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |484 passed,2420.89s wall | All35modules,clean shards133/100/143/108;2418.06/1908.91/1815.52/2235.58s |
+| Actual PostgreSQL |1 passed288.19s | Dedicatedschema/parallel/all165units/3300XP/replay |
+| Actual HTTP |6catalogues,1742answers,3300XP | Freshsynthetic900336/UID-specificemail/prerequisites/replay |
+| Target Flutter |354 passed06:46 | All165snapshots/200% theoryMCQ/typedFRQ/grade9prefixguard |
+| Full Flutter |963 passed08:40 | Sequential no-pub aftertargeted |
+| Full analysis |0issues155.0s | EntireFlutterworktree |
+| Preservation |687pins and320priorhistoryfiles unchanged | Other-subject/runtime baseline and160priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | History-only text/noJWTprivateDB/rawscanOCR |
+
+Grade9 paragraphs38-41 original137-153 and grade10 topic1 original4below-8above plus intro3; nine boundary cases; finite author/work/device targets; unverified scientific priorities, clinical glosses, racial and political claims held. Grade9 all41 units now present; independent grade10 first lesson tested without grade9 progress. No whole intro or map approval. Next private grade10 topics2-6 source drafts strict validated and unindexed.
+Actual widget captures inspected: Grade9 paragraph38 dark theory at200%, paragraph40 dark feedback at200%, grade10 paragraph1 FRQ resume/source and grade10 linked introduction source dialog at200% inspected. Grade9-to10 transition checked by actual widget test.. Prior fixtures remain
+frozen; initial/completed grade9 both41rows and grade10 both1row. Next five private drafts strict
+validated but unindexed: grade10 topics2–6; Grade9 originals1–160 and grade10 originals1–48 read; grade10 original49 onward next.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+the earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/
+mainmerge/AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+Initial focused invocation omitted PYTHONUTF8 and failed during existing Biology UTF-8 fixture loading (13passed/1setup error); rerun with PYTHONUTF8=1 passed14focused, and the complete35-module history run below uses UTF-8. Biology bytes were not changed.
