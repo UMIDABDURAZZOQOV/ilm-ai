@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 180; remaining: 39.** Source pages are candidate spans;
+**Reviewed preview lessons: 185; remaining: 34.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -260,11 +260,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 14 | wh10-topic15-16 | Ikkinchi jahon urushi va uning yakunlari | 67–76 | reviewed_preview_ready |
 | 15 | wh10-topic17 | Ikkinchi jahon urushidan keyingi xalqaro munosabatlar: «sovuq urush»ning boshlanishi | 76–81 | reviewed_preview_ready |
 | 16 | wh10-topic18 | 1946 – 1991-yillarda Amerika Qo‘shma Shtatlari | 81–87 | reviewed_preview_ready |
-| 17 | wh10-topic19-20 | 1946-1991-yillarda Sovet Ittifoqi | 87–94 | not_implemented |
-| 18 | wh10-topic21 | 1946 – 1991-yillarda Buyuk Britaniya va Fransiya | 94–99 | not_implemented |
-| 19 | wh10-topic22 | 1946 – 1991-yillarda Germaniya va Italiya | 99–105 | not_implemented |
-| 20 | wh10-topic23 | 1946 – 1991-yillarda Yaponiya va Osiyoning yangi industrial mamlakat lari | 105–110 | not_implemented |
-| 21 | wh10-topic24 | 1946 – 1991-yillarda Xitoy Xalq Respublikasi | 110–115 | not_implemented |
+| 17 | wh10-topic19-20 | 1946-1991-yillarda Sovet Ittifoqi | 87–94 | reviewed_preview_ready |
+| 18 | wh10-topic21 | 1946 – 1991-yillarda Buyuk Britaniya va Fransiya | 94–99 | reviewed_preview_ready |
+| 19 | wh10-topic22 | 1946 – 1991-yillarda Germaniya va Italiya | 99–105 | reviewed_preview_ready |
+| 20 | wh10-topic23 | 1946 – 1991-yillarda Yaponiya va Osiyoning yangi industrial mamlakat lari | 105–110 | reviewed_preview_ready |
+| 21 | wh10-topic24 | 1946 – 1991-yillarda Xitoy Xalq Respublikasi | 110–115 | reviewed_preview_ready |
 | 22 | wh10-topic25 | 1946 – 1991-yillarda Hindiston va Pokiston | 115–120 | not_implemented |
 | 23 | wh10-topic26 | 1946 – 1991-yillarda Turkiya, Eron va Afg‘oniston | 120–127 | not_implemented |
 | 24 | wh10-topic27 | 1946 – 1991-yillarda Lotin Amerikasi mamlakatlari | 127–131 | not_implemented |

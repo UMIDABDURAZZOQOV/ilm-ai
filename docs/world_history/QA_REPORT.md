@@ -1258,3 +1258,33 @@ Flutter target was initially not executed because automatic approval review hit 
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
 AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch37 — grade10 topics17–21, 2026-10-29
+
+Five lessons add40cards,
+74factrecords,
+30MCQ and
+20objectiveFRQ.
+**185/219 local-preview units**,1391cards,2660factrecords,
+1205MCQ,747FRQ,185self/teacheractivities;**34remain**:
+0/5/29 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |538 passed,1396.58s wall | All39modules,clean shards147/112/157/122;1394.37/1205.37/1134.72/1306.49s |
+| Actual PostgreSQL |1 passed131.88s | Dedicatedschema/parallel/all185units/3700XP/replay |
+| Actual HTTP |6catalogues,1952answers,3700XP | Freshsynthetic900376/UID-specificemail/prerequisites/replay |
+| Target Flutter |394 passed03:24 | All185snapshots/200% theoryMCQ/typedFRQ/catalogueprefixguard |
+| Full Flutter |1003 passed05:19 | Sequential no-pub aftertargeted |
+| Full analysis |0issues93.6s | EntireFlutterworktree |
+| Preservation |687pins and360priorhistoryfiles unchanged | Other-subject/runtime baseline and180priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | E701/E702/F811 excluded for existing compact pytest fixture style; history-only text/noJWTprivateDB/rawscanOCR |
+
+All grade10 originals1–144 read, including final141 activities,142 TOC,143 colophon and144 rental form. New17–21 retain printed19–20/21/22/23/24 numbering. Next22–26 private drafts strictly validated; not indexed/imported. Grade11 originals1–11 read for continuation; no blanket fact approval.
+Actual widget captures inspected: Unit17 dark theory at200%, unit20 dark feedback at200%, unit21 light FRQ resume and printed24/pages110–111 source. Scrollable large-text content; typed response controls distinct.42 capture widgets passed00:36.. Prior lesson snapshots
+remain frozen; initial/completed grade10 both21rows. Next five private drafts
+strict validated but unindexed:grade10 topics22–26;Grade9 originals1–160 and grade10 originals1–144 read; grade11 originals1–14 read;grade11 original15 onward next.
+HTTP exporter first stopped at services import because PYTHONPATH was missing, before creating any synthetic user; original failure log retained. Re-run with PYTHONPATH used fresh900376 once,1952answers/3700XP. No real-user reset. QA began2026-10-28 and completed2026-10-29 Asia/Tashkent. Private authoring schema/scope corrections occurred before integration; source-validator retained.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
+AI/rawsourceupload/realuserreset. Continue without routine permission.

@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch36 has180 local-preview units: all grade6/7/8/9 plus grade10§1–16,
-1351 cards,1175 MCQ,727 objective FRQ;
-39 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch37 grade10 topics17–21; Grade9 originals1–160 and grade10 originals1–127 read; next drafts strictly validated but unindexed;grade10 original128 onward next.
+Batch37 has185 local-preview units: all grade6/7/8/9 plus grade10§1–21,
+1391 cards,1205 MCQ,747 objective FRQ;
+34 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch38 grade10 topics22–26; Grade9 originals1–160 and grade10 originals1–144 read; grade11 originals1–14 read; next drafts strictly validated but unindexed;grade11 original15 onward next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -3041,3 +3041,8 @@ Batch36: 180/219 local-preview units,39 remain; grade10=16/26.
 524 history tests/384 history widgets/993 full Flutter
 pass, analysis0, HTTP1902answers/3600XP and realPG pass.
 Continue batch37 grade10 topics17–21; Grade9 originals1–160 and grade10 originals1–127 read; next drafts strictly validated but unindexed;grade10 original128 onward next; no routine permission needed.
+
+Batch37: 185/219 local-preview units,34 remain; grade10=21/26.
+538 history tests/394 history widgets/1003 full Flutter
+pass, analysis0, HTTP1952answers/3700XP and realPG pass.
+Continue batch38 grade10 topics22–26; Grade9 originals1–160 and grade10 originals1–144 read; grade11 originals1–14 read; next drafts strictly validated but unindexed;grade11 original15 onward next; no routine permission needed.
