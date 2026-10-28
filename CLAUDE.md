@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch25 has125 local-preview units: all grade6/7/8 plus grade9§1–2,
-947 cards,835 MCQ,497 objective FRQ;
-94 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch26 grade9§3–7; originals1–30 read, private3–7 strictvalidated, not indexed;31 onward next.
+Batch26 has130 local-preview units: all grade6/7/8 plus grade9§1–7,
+981 cards,865 MCQ,519 objective FRQ;
+89 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch27 grade9§8–12; originals1–46 read, private8–12 strictvalidated not indexed; continue§13/47onward next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2961,3 +2961,13 @@ chronology held; grade9 map8–9 compositechronology,10inevitablelaststage,
 QA373 distinct history passes after obsolete ancillary expectation corrected and
 full17testmodule rerun;271targeted/880fullFlutter,0analysis;PG125units2500XP,
 HTTP1332answers. No external fixes/sourcevalidator bypass. Continuebatch26§3–7.
+
+Batch26 checkpoint:130/219,89left;grade9=7/41.387historytests/282widgets/891full
+Flutter pass; analysis0; HTTP1384answers/2600XP and realPG130units/replay pass.
+17July1870/1868invasionquestion mismatch,20communeuniversalreforms/casualtytotals,
+22wholeparliament4yearterm/1875anthemadoption inference,24racialhierarchy and1876
+Senate/MacMahon timeline,1884strikelegalization,27–29colonial/treaty chronology
+remain held. No outside factual repairs or political/moral automatic truth.
+Nextbatch27§8–12private strictlyvalidated; originals1–46 read,47onward next.
+LocalQAservices resumed after downtime; existing DBs kept; new UID/email per
+HTTP run, no resetting oldsynthetic/realprogress. See batch26 QA incident scope.

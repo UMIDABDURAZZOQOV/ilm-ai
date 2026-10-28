@@ -2,8 +2,8 @@
 
 **Status: INCOMPLETE — not an acceptance certificate.** Started 2026-10-26.
 
-The source/activity catalogue is complete. 125 local-preview history units are
-implemented/imported;94 of219 teaching units remain. The216 numbered source blocks
+The source/activity catalogue is complete. 130 local-preview history units are
+implemented/imported;89 of219 teaching units remain. The216 numbered source blocks
 must not be presented as ready lessons. All six course-ready flags remain false.
 
 | Acceptance item | Current evidence |
@@ -13,11 +13,11 @@ must not be presented as ready lessons. All six course-ready flags remain false.
 | Numbered source blocks | 216 body headings checked; 219 original number labels |
 | Full maps/tables/chronologies/exercise inventory | All961 original images inspected for presence/layout; exact fact/legend review remains lesson-specific |
 | Complete teaching-entry count | 219: 216 numbered blocks plus three conclusion/review units; all ancillary references explicitly linked |
-| Original theory/MCQ/objective FRQ for every topic | Grade6 all46,grade7 all44,grade8 all33 and grade9§1–2:947 cards,835 MCQ,497 objective FRQ;94 units remain |
+| Original theory/MCQ/objective FRQ for every topic | Grade6 all46,grade7 all44,grade8 all33 and grade9§1–7:981 cards,865 MCQ,519 objective FRQ;89 units remain |
 | Strict lesson fact/answer/source validator | Exact page/region digests, taught facts, per-question targets/aliases and source activities |
 | Chronology arithmetic | Initial synthetic boundary tests passed |
-| XP/progress/replay/grade transition | All125 units, once-only2500XP and replay tested; grade7/8/9 first lessons independent, separate progress and6→7→8→9 catalogue transitions checked |
-| Flutter/local API/PostgreSQL end-to-end | HTTP1332 answers; real PostgreSQL parallel/125-unit flow; current Flutter results in QA_REPORT |
+| XP/progress/replay/grade transition | All130 units, once-only2600XP and replay tested; grade7/8/9 first lessons independent, separate progress and6→7→8→9 catalogue transitions checked |
+| Flutter/local API/PostgreSQL end-to-end | HTTP1384 answers; real PostgreSQL parallel/130-unit flow; current Flutter results in QA_REPORT |
 | Biology406/Chemistry268 preservation | All lesson bytes pinned; regression guard present |
 | Independent history-teacher review | Not performed |
 | Actual Android/IME/TalkBack | Not performed |

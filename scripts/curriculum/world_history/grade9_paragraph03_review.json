@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade9_paragraph03.json",
+  "lesson_sha256": "486a4e5c6eacad7324a1bd7ac5d3cc07e1ca7f607675c09dd51a77eeeafc5450",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh9-p03-page016",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic03",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 16,
+      "printed_page": 16,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "154ea9cfa757bd2664f07e781b25be08a55c97d7c3cd8f29c1e0437d3e807983",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p03-page017",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic03",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 17,
+      "printed_page": 17,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "e65c08f38d4a3d144f49dcb200ae505d5a7c0553339066b8819076be2e6dfdd7",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p03-page018",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic03",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 18,
+      "printed_page": 18,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "74d6ff29734daa0f067b9c0485a94b3b842d5bf620818e13afa82cbabb79a39e",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original16below§3–18above§4 read.18definitions/threequestions/threeresearchtasks/blankbattleoutcometable/recall included.",
+    "17declares17July1870 exactday held pendingcorroboration;18question1868invasion mismatch held. No outside19July replacement, no inventedthirdbattle. Sedan1Septemberencirclement vs2Septembersurrender scoped.",
+    "NapoleonIWaterloo1815 distinctNapoleonIIISedan1870; VilgelmIordinal preserved. Precise troopnumbers/swordanecdote/warinevitable/onlycause/universalendofFrenchpower not automatictruth. No modern war facts."
+  ],
+  "approved_fact_sha256": {
+    "rulers": "436658ab8a55d8eb2c956754502f4e948ed3c1cefcd1ec6298df909cc74ae600",
+    "causes": "c9f65c105fd291fb9be84cf2f04a986a6ac6e67b758c44ad02891a01530af3b9",
+    "spain": "fa9240c5a2c5780f641fc19201f7e5d8cd539e23f945e652916968239c1299fb",
+    "bismarck": "aa16311f75e0098372ce4acbf9f9034bbe8d81fecfca16919459767a1d29a187",
+    "ems": "cc6a9f99eb439649e82706b3814a0b5d14e8e3c142357cbe82fd57491d418c55",
+    "dispatch": "26b764084c1bcce65d3994b8020708536c5b24719fe8dd22592b5d3beb83cfe7",
+    "outbreak": "70607aaef0d999fc87f924520c38b992a328523986e13d0c91fc8ab94111a384",
+    "sedan": "8f6bb4327fcf950ec35ba50d263d056cdee68748431e72009d1cebd9ba65e3b9",
+    "metz": "cddf82f3600abde4c607c3a75cc2355b968815c916b25d0eabb57b856638c93f",
+    "waterloo": "5510e0fe1fc239d1a18e96bfd0e8b700e7ee260c2b7746068db7639ab2c64f1b",
+    "outcome": "9eb56ec2c9ad217b4a193abcc8716337007f1fc337987172b6436d50ff053af7"
+  },
+  "approved_content_sha256": "92303bcb35e8c74eb2b5514919cca3b231055116f16f6d850421e8362ca43c6f",
+  "approved_assessments_sha256": "102140c5d40b2b59045003cfe813cbf44e17aa37086c470c4ad5f5b84d55c05f",
+  "approved_answer_targets": {
+    "world-history-9-p03-r1-q01": {
+      "fact_ids": [
+        "rulers"
+      ],
+      "verified_answer": "Napoleon III",
+      "aliases": []
+    },
+    "world-history-9-p03-r1-q02": {
+      "fact_ids": [
+        "rulers"
+      ],
+      "verified_answer": "Vilgelm I",
+      "aliases": []
+    },
+    "world-history-9-p03-r1-q03": {
+      "fact_ids": [
+        "spain"
+      ],
+      "verified_answer": "Ispaniya",
+      "aliases": []
+    },
+    "world-history-9-p03-r1-q04": {
+      "fact_ids": [
+        "bismarck"
+      ],
+      "verified_answer": "Bismark",
+      "aliases": []
+    },
+    "world-history-9-p03-r1-q05": {
+      "fact_ids": [
+        "sedan"
+      ],
+      "verified_answer": "1870-yil 2-sentabr",
+      "aliases": []
+    },
+    "world-history-9-p03-r1-q06": {
+      "fact_ids": [
+        "outbreak"
+      ],
+      "verified_answer": "Fransiya",
+      "aliases": []
+    },
+    "world-history-9-p03-r1-q07": {
+      "fact_ids": [
+        "ems"
+      ],
+      "verified_answer": "Ems depeshasi",
+      "aliases": [
+        "Ems depeshasi"
+      ]
+    },
+    "world-history-9-p03-r1-q08": {
+      "fact_ids": [
+        "dispatch"
+      ],
+      "verified_answer": "Depesha",
+      "aliases": [
+        "Depesha"
+      ]
+    },
+    "world-history-9-p03-r1-q09": {
+      "fact_ids": [
+        "sedan"
+      ],
+      "verified_answer": "Sedan",
+      "aliases": [
+        "Sedan"
+      ]
+    },
+    "world-history-9-p03-r1-q10": {
+      "fact_ids": [
+        "metz"
+      ],
+      "verified_answer": "Mets",
+      "aliases": [
+        "Mets"
+      ]
+    },
+    "world-history-9-p03-r1-q11": {
+      "fact_ids": [
+        "waterloo"
+      ],
+      "verified_answer": "Napoleon I",
+      "aliases": [
+        "Napoleon I"
+      ]
+    },
+    "world-history-9-p03-r1-q12": {
+      "fact_ids": [
+        "spain"
+      ],
+      "verified_answer": "Izabella II",
+      "aliases": [
+        "Izabella II"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 16,
+      "activity": "belowtopic3_causes",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 17,
+      "activity": "spain_ems_outbreak_sedan_metz",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 18,
+      "activity": "abovetopic4_definitions_questions_tasks_table_recall",
+      "covered_by": [
+        "reflection"
+      ]
+    }
+  ]
+}

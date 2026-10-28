@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade9_paragraph07.json",
+  "lesson_sha256": "b57b3603ecaefac0b880fc180a409b2c678468876fd905aaec7077540ad57fb6",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh9-p07-page027",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic07",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 27,
+      "printed_page": 27,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "829f1b3d5343617b070d73ee6cf83123460bdc126a1bc795d5ca9ae0fe9a42b7",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p07-page028",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic07",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 28,
+      "printed_page": 28,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "dd4084a0c84442d68894415b57872dfecec702f54671f270c617d4b6ce137c14",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p07-page029",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic07",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 29,
+      "printed_page": 29,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "9c5b3a45838fd17400d04b5eec9f3b6081944039dfb534d0197580215e56f580",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original27below§7–29 read;30wholly§8excluded.29threequestions/threetasks, allgeographicanddiplomaticthreads covered.",
+    "27SenegalGuineaMauritania1891–96wholeconquest/1884allVietnam/tenyearslaterLaos/20million,28GibraltarstraitasSpainownership,1904formaljointmilitaryalliance,29single1891completeoperativetreaty and1907formalaccession to1904 held. No outside chronology repair.",
+    "Tunisia1881/Morocco1912 narrowlyhistoricalevents, no allterritory/currentborders.1904FranceBritainyear and EgyptMoroccosourceinterestdistinct; Antantamembership/name only, not universaljointdefenceclause. Conquestnecessary/onlychoice/nationalrankings/colonialbenefit ungraded."
+  ],
+  "approved_fact_sha256": {
+    "situation": "1bc6e32246a26aa54088ddda93a773b4020f8fcf09ab36698e2157e3c301b7cf",
+    "dual": "d0fa1927cbdef4c9d11a161e0e2bc7b08a3be93035522d1fc8fed8ff9ed495f5",
+    "triple": "08bd5e5b4c3d3440ff4dde552154df0ddb18fe999e56f418396e243e3342fb50",
+    "tunis": "71fded097db2976431cc49590e8ab7ad7437d1f6a4b1326b03c5142e22007a38",
+    "morocco": "e8bad7ba6382c7dbed1186529de23c4765933b6c5a0957a6c2c5d07a6745f33d",
+    "expansion": "69e777a1a20c2582bd4a35d287daee3cae7721dcc5e91bfe8cfc0b6a6266a139",
+    "britain": "98a6f0f7e630ab68b18d52ac0d67908623db25318e2116d82d35f406840503a4",
+    "spheres": "7df037e6b44933adc049dd6860dd2f94f7a82da2b26c95e431ed7e4b1ded7530",
+    "russia": "90538cfafa16ed28ead0994887b9446e459089667badc27e432f010238cd5ae9",
+    "entente": "e852ab6a855084f1b48bd667d876ee1948615443e174856a63e9c0fc231da357"
+  },
+  "approved_content_sha256": "089d5314aea08fc8e528fa8a7bd70fd9257f9ebb7bcf86bebdd87c6178a8b188",
+  "approved_assessments_sha256": "f70f80ca72621998a346cf27f6a2ce0a139e494a77dc9cd563222c047c334826",
+  "approved_answer_targets": {
+    "world-history-9-p07-r1-q01": {
+      "fact_ids": [
+        "dual"
+      ],
+      "verified_answer": "1879-yil",
+      "aliases": []
+    },
+    "world-history-9-p07-r1-q02": {
+      "fact_ids": [
+        "triple"
+      ],
+      "verified_answer": "1882-yil",
+      "aliases": []
+    },
+    "world-history-9-p07-r1-q03": {
+      "fact_ids": [
+        "tunis"
+      ],
+      "verified_answer": "Tunis",
+      "aliases": []
+    },
+    "world-history-9-p07-r1-q04": {
+      "fact_ids": [
+        "morocco"
+      ],
+      "verified_answer": "1912-yil",
+      "aliases": []
+    },
+    "world-history-9-p07-r1-q05": {
+      "fact_ids": [
+        "britain"
+      ],
+      "verified_answer": "1904-yil",
+      "aliases": []
+    },
+    "world-history-9-p07-r1-q06": {
+      "fact_ids": [
+        "entente"
+      ],
+      "verified_answer": "Antanta",
+      "aliases": []
+    },
+    "world-history-9-p07-r1-q07": {
+      "fact_ids": [
+        "triple"
+      ],
+      "verified_answer": "Italiya",
+      "aliases": [
+        "Italiya"
+      ]
+    },
+    "world-history-9-p07-r1-q08": {
+      "fact_ids": [
+        "triple"
+      ],
+      "verified_answer": "Uchlar ittifoqi",
+      "aliases": [
+        "Uchlar ittifoqi"
+      ]
+    },
+    "world-history-9-p07-r1-q09": {
+      "fact_ids": [
+        "entente"
+      ],
+      "verified_answer": "Rossiya",
+      "aliases": [
+        "Rossiya"
+      ]
+    },
+    "world-history-9-p07-r1-q10": {
+      "fact_ids": [
+        "spheres"
+      ],
+      "verified_answer": "Misr",
+      "aliases": [
+        "Misr"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 27,
+      "activity": "topic7_alliances_colonialgeography",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 28,
+      "activity": "britishagreement_spheres_legalclaimholds",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 29,
+      "activity": "russiacontext_entente_threequestions_threetasks",
+      "covered_by": [
+        "reflection"
+      ]
+    }
+  ]
+}

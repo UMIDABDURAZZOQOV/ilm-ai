@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 125; remaining: 94.** Source pages are candidate spans;
+**Reviewed preview lessons: 130; remaining: 89.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -195,11 +195,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | ---: | --- | --- | --- | --- |
 | 1 | wh9-topic01 | XIX asr oxiri – XX asr boshlarida kapitalizm taraqqiyotida yuz bergan tub o‘zgarishlar | 4–11 | reviewed_preview_ready |
 | 2 | wh9-topic02 | Industrial sivilizatsiya | 11–16 | reviewed_preview_ready |
-| 3 | wh9-topic03 | Fransiya–Prussiya urushi va uning yakunlari | 16–18 | not_implemented |
-| 4 | wh9-topic04 | Fransiyada Uchinchi Respublika va 1871-yil 18-mart davlat to‘ntarishi | 18–21 | not_implemented |
-| 5 | wh9-topic05 | XIX asr oxiri – XX asr boshlarida Fransiyada iqtisodiy va siyosiy hayot | 21–23 | not_implemented |
-| 6 | wh9-topic06 | Fransiyaning ichki siyosati | 23–27 | not_implemented |
-| 7 | wh9-topic07 | Fransiyaning tashqi siyosati | 27–30 | not_implemented |
+| 3 | wh9-topic03 | Fransiya–Prussiya urushi va uning yakunlari | 16–18 | reviewed_preview_ready |
+| 4 | wh9-topic04 | Fransiyada Uchinchi Respublika va 1871-yil 18-mart davlat to‘ntarishi | 18–21 | reviewed_preview_ready |
+| 5 | wh9-topic05 | XIX asr oxiri – XX asr boshlarida Fransiyada iqtisodiy va siyosiy hayot | 21–23 | reviewed_preview_ready |
+| 6 | wh9-topic06 | Fransiyaning ichki siyosati | 23–27 | reviewed_preview_ready |
+| 7 | wh9-topic07 | Fransiyaning tashqi siyosati | 27–30 | reviewed_preview_ready |
 | 8 | wh9-topic08 | XIX asr oxiri – XX asr boshlarida Germaniya. Imperiyaning tashkil topishi | 30–33 | not_implemented |
 | 9 | wh9-topic09 | Imperiyaning ichki siyosati | 33–35 | not_implemented |
 | 10 | wh9-topic10 | Imperiyaning tashqi siyosati | 35–39 | not_implemented |

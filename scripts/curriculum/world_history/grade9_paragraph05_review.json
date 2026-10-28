@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade9_paragraph05.json",
+  "lesson_sha256": "9ec15b7d91933419730f01ea826aa7a9b75462177b352cefe04931e37724921a",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh9-p05-page021",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic05",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 21,
+      "printed_page": 21,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "c125b44eb47fb9dc52c8783ab22858cb60008a8dbdbe7a89375232208fde37fd",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p05-page022",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic05",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 22,
+      "printed_page": 22,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "5f9603b8917049934c6c7237d10f49ca6c19ff2fef7c9874d0e4c6fdb205a2dd",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p05-page023",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic05",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 23,
+      "printed_page": 23,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "640a1a47bb654577b8a25fce8be0e514d6f3049abfd2910a6c81a8dadb3f3339",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original21below§5–23above§6 read.22constitution/rights/symbols,23definitions3questions2independenttasks covered.",
+    "22entireparliamentfouryearsterm not accepted; senate/chamber terms not silentlyequated. Presidentialunlimitedwar/amnesty scope, anthemholidayadoptionas1875 notverified. No outside correctivechronology.",
+    "23republicallcitizensgeneralvote vs22womenexcluded tension recorded, no universalrightskey.13billionwarcost/worldrank/exportsimportcause andallpeopleantimonarchy held. No modernconstitutional/economicadvice."
+  ],
+  "approved_fact_sha256": {
+    "economy": "78e83b355672e49539aec4345fc2b313d713a59a9c5da677516fa3bf535695c2",
+    "groups": "4ed1742e8ca82b5e3537559bb42a83f508acc5ef07f19e52fc206d0e64672e51",
+    "payment": "ed6b12399c21b66c2f69337ca502de9b257063d768c99b426d72eb7c0271eeee",
+    "constitution": "772e65224f961c2cb7e93e1f7ba43ec67010e13b1603dfe4f7132634d29925d7",
+    "chambers": "ed3cf5bebf7467c1eeadc7d8cd8d67990a52d93f4b0417a8304f21cbbdc17bae",
+    "assembly": "b34aebda3016600dfc76c97556327b4cb8f6a6be0cb6e955b75a9989a8835284",
+    "president": "bf65d1718b0bf8bd2ba92852d026bfd6d5c8606f23cc5db468eac8f29f6475de",
+    "symbols": "b7babcc7b78eb4e8c5f3188dfe018007b8fcb8e297a3f48c4ec050fd70f43a74",
+    "rights": "8dd64c5930c766e0ba67c0e77fd08e9d12aabe205f99123f42ad86fe6b965e50",
+    "monarchy": "b552ae6610174b76afdf2c2c791b0cde4c1d88d63c34ac24be93426eeaaa24e1"
+  },
+  "approved_content_sha256": "7ad0775bedddf54cbd391bd5a878d63d1d456021d4ce22d16e1e54519269511f",
+  "approved_assessments_sha256": "60c36b03a451c53674069fc9235f0816257ced189429ec5dc10c3ba18fc97c89",
+  "approved_answer_targets": {
+    "world-history-9-p05-r1-q01": {
+      "fact_ids": [
+        "payment"
+      ],
+      "verified_answer": "1873-yil",
+      "aliases": []
+    },
+    "world-history-9-p05-r1-q02": {
+      "fact_ids": [
+        "constitution"
+      ],
+      "verified_answer": "1875-yil",
+      "aliases": []
+    },
+    "world-history-9-p05-r1-q03": {
+      "fact_ids": [
+        "chambers"
+      ],
+      "verified_answer": "Senat",
+      "aliases": []
+    },
+    "world-history-9-p05-r1-q04": {
+      "fact_ids": [
+        "symbols"
+      ],
+      "verified_answer": "Marselyeza",
+      "aliases": []
+    },
+    "world-history-9-p05-r1-q05": {
+      "fact_ids": [
+        "monarchy"
+      ],
+      "verified_answer": "Monarxiya",
+      "aliases": []
+    },
+    "world-history-9-p05-r1-q06": {
+      "fact_ids": [
+        "symbols"
+      ],
+      "verified_answer": "14-iyul",
+      "aliases": []
+    },
+    "world-history-9-p05-r1-q07": {
+      "fact_ids": [
+        "assembly"
+      ],
+      "verified_answer": "Milliy Majlis",
+      "aliases": [
+        "Milliy Majlis"
+      ]
+    },
+    "world-history-9-p05-r1-q08": {
+      "fact_ids": [
+        "symbols"
+      ],
+      "verified_answer": "Marselyeza",
+      "aliases": [
+        "Marselyeza"
+      ]
+    },
+    "world-history-9-p05-r1-q09": {
+      "fact_ids": [
+        "monarchy"
+      ],
+      "verified_answer": "Monarxiya",
+      "aliases": [
+        "Monarxiya"
+      ]
+    },
+    "world-history-9-p05-r1-q10": {
+      "fact_ids": [
+        "chambers"
+      ],
+      "verified_answer": "Deputatlar palatasi",
+      "aliases": [
+        "Deputatlar palatasi"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 21,
+      "activity": "belowtopic5_economy",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 22,
+      "activity": "politicalgroups_payment_constitution_symbols_rights",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 23,
+      "activity": "abovetopic6_definitions_threequestions_twotasks",
+      "covered_by": [
+        "reflection"
+      ]
+    }
+  ]
+}

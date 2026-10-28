@@ -918,3 +918,43 @@ Fullbackend2569pass/4skip remains earlier baseline,not this run. Independentteac
 nativeAndroid/IME/TalkBack/full2026–27equivalence not performed/certified. No production
 DB/deploy/AI or reallearnerdata. All changes only two history featurebranches.
 Next batch26 grade9§3–7; original1–30 read, private drafts strictvalidated, unindexed.
+
+## Batch26 — grade9§3–7, 2026-10-28
+
+Five lessons add34 cards,56 fact records,30 MCQ and22 objective FRQ. Total
+**130/219 local-preview units**,981 cards,1883 fact records,865 MCQ,519 FRQ,
+130 self/teacher activities. Grade9=7/41;grades6/7/8 content presence46/44/33.
+**89 remain:**34/26/29 in grades9/10/11. All acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |387 passed,1517.52s wall | All28modules,four clean shards103/72/115/97;1425.39/981.61/914.72/1514.31s |
+| Actual PostgreSQL |1 passed171.41s | Dedicatedschema/parallel completion/all130units2600XP/replay after existingservice resume |
+| Actual HTTP |6catalogues,1384answers,2600XP | Freshsynthetic900267/uniqueemail/gradedprerequisites/replay |
+| Target Flutter |282 passed06:00 | All130snapshots/200% theoryMCQ/typedFRQ/grade9prefixguard |
+| Full Flutter |891 passed06:27 | Entireworktree sequential no-pub aftertargeted |
+| Full analysis |0issues227.2s | EntireFlutterworktree |
+| Preservation |687pins and250priorhistoryfiles unchanged |125priorlesson/review pairs and other-subject/runtime baseline |
+| Ruff/whitespace/stagedaudit |Passed | History-only text/noJWTprivateDB/rawscanOCR |
+
+Tests reject changed scan/region digests, partialperson/institutionnames, ordinal
+substitution, broadaliases, racial superiority and politicalcauses as automatic
+truth. Dates are tied to specific events, not neighboring declarations; doubtful
+war day/constitutional/treaty details have no answer keys. Frozen priorfixtures
+retained, newgrade9initialcatalogue and latestcompletion both7lessons guarded.
+Actual captures inspected:§3theory200%,§6darkfeedback200%,§7typedFRQresume/source.
+
+LocalQA service incident: HTTP connection refused and PostgreSQL connection
+failed before acceptance tests could run. Existing dedicated servers were resumed;
+no initdb/drop/reset. PostgreSQL recovered its earlier unclean shutdown and became
+ready after startup helper's60s timeout; readiness log was checked before rerun.
+First HTTP attempt had created UID900266 but no lesson progress. NewUID900267
+initially collided with its batch email; transaction rolled back. Exporter now uses
+UID-specific syntheticemail; successful full run above preserves earlier accounts.
+These initial infrastructure failures are not reported as passes. Existing
+learnerdata and realusers were not reset/accessed. No other-subjectserver touched.
+
+Earlier2569pass fullbackend remains baseline evidence,not this run. Independent
+teacher/nativeAndroid/IME/TalkBack/full2026–27equivalence not performed/certified.
+No productionDB/deploy/mainmerge/AI/sourceupload. Nextbatch27 grade9§8–12 private
+strictvalidated, not indexed; originals1–46 read, continue§13and47onward next.
