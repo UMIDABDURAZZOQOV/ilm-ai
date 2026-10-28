@@ -1020,3 +1020,33 @@ These next drafts are not indexed/imported. Independentteacher/nativeAndroid/
 IME/TalkBack/full2026–27equivalence remain unperformed. Fullbackend2569/4skip is
 the earlier baseline, not this run. No productionDB/deploy/mainmerge/AI/rawsource
 upload/reallearnerreset. Continue batch29 without routine permission.
+
+## Batch29 — grade9§18–22, 2026-10-28
+
+Five lessons add37 cards,67 fact records,30 MCQ and20 objective FRQ. Total
+**145/219 local-preview units**,1085 cards,2060 fact records,957 MCQ,581 FRQ,
+145 self/teacher activities. Grade9=22/41;**74 remain:**19/26/29 in grades9/10/11.
+All acceptance flags remain false; grade6/7/8 presence46/44/33 remains complete.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |431 passed,1802.84s wall | All31modules,four clean shards118/87/129/97;1800.1/1351.89/1271.09/1682.44s |
+| Actual PostgreSQL |1 passed181.16s | Dedicatedschema/parallel/all145units2900XP/replay |
+| Actual HTTP |6catalogues,1538answers,2900XP | Freshsynthetic900296/UID-specificemail/prerequisites/replay |
+| Target Flutter |312 passed05:32 | All145snapshots/200% theoryMCQ/typedFRQ/grade9prefixguard |
+| Full Flutter |921 passed07:44 | Entireworktree sequential no-pub aftertargeted |
+| Full analysis |0issues104.2s | EntireFlutterworktree |
+| Preservation |687pins and280priorhistoryfiles unchanged |140priorlesson/reviewpairs and other-subject/runtime baseline |
+| Ruff/whitespace/stagedaudit |Passed | History-only text/noJWTprivateDB/rawscanOCR |
+
+New tests reject broadened shared-page scopes, party/institution/term swaps and
+unapproved person aliases. Programmes, historical discrimination and complex
+political causality cannot be automatic keys. Appendix154 and155 have distinct
+linked§18/20 image evidence; neither grants156 or whole-appendix approval.
+Original priorfixtures remain frozen, initial/completed grade9 both22rows. Actual
+captures inspected:§18darktheory200%,§20darkfeedback200%,§22typedFRQ/source/resume.
+Private§23–27 strictvalidated, unindexed; source1–116and154–156read. Source holds
+remain explicit, no external repairs. Independentteacher/nativeAndroid/IME/
+TalkBack/full2026–27equivalence unperformed; earlier2569backend/4skip baseline
+not rerun here. No productionDB/deploy/mainmerge/AI/rawsourceupload/realuserreset.
+Continuebatch30 and original117onward without routine permission.

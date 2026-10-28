@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch28 has140 local-preview units: all grade6/7/8 plus grade9§1–17,
-1048 cards,927 MCQ,561 objective FRQ;
-79 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch29 grade9§18–22; originals1–90and154–155 read, private18–22 strictvalidated not indexed;91onward next.
+Batch29 has145 local-preview units: all grade6/7/8 plus grade9§1–22,
+1085 cards,957 MCQ,581 objective FRQ;
+74 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch30 grade9§23–27; originals1–116and154–156 read, private23–27 strictvalidated not indexed;117onward next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2989,3 +2989,12 @@ company/55alluniondamagesabolished,56Cubaimmediate1898independence/1903allrights
 59ethnicdevelopmentcause/60Cubaslaveryby1878/61Diasuninterrupted/62allrebelsdead
 by1917 remainheld.154onlylinked17context,wholeappendixnotapproved. Private18–22
 strictvalidated:original1–90and154–155read;156pending. Continuebatch29,91onwardnext.
+
+Batch29 checkpoint:145/219,74left;grade9=22/41.431historytests/312widgets/921full
+Flutter pass,analysis0;HTTP1538answers2900XP and realPG145units pass.64Brazil
+19Novemberchronology/65Argentinaparty1895/universalvote,67oilrank/69Stolipindeath
+causalchain,71KurilSakhalinscope/Pamir1891treaty/72allPacificfleetlost,74whole
+RSDRPsingleleader1903/directpersonalorder/75bicameralonly1907/legaluniversals,
+76allSlavmajority/78allCatholicsantisemitic/universal1907vote remainheld.
+154linked18and155linked20 contexts only,wholeappendixfactreviewnotapproved.
+Private23–27strictvalidated;original1–116and154–156read;117onwardnext.

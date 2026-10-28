@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 140; remaining: 79.** Source pages are candidate spans;
+**Reviewed preview lessons: 145; remaining: 74.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -210,11 +210,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 15 | wh9-topic15 | AQSHning ichki siyosati | 52–55 | reviewed_preview_ready |
 | 16 | wh9-topic16 | AQSHning tashqi siyosati | 55–59 | reviewed_preview_ready |
 | 17 | wh9-topic17 | XIX asr oxiri va XX asr boshlarida Lotin Amerikasi davlatlari | 59–63 | reviewed_preview_ready |
-| 18 | wh9-topic18 | Lotin Amerikasining boshqa davlatlari | 63–66 | not_implemented |
-| 19 | wh9-topic19 | XIX asr oxiri – XX asr boshlarida Rossiya imperiyasining ijtimoiy-siyosiy va iqtisodiy ahvoli | 66–69 | not_implemented |
-| 20 | wh9-topic20 | Rossiya imperiyasining tashqi siyosati | 69–73 | not_implemented |
-| 21 | wh9-topic21 | Rossiyada Davlat dumasining tashkil etilishi | 73–76 | not_implemented |
-| 22 | wh9-topic22 | XIX asr oxiri – XX asr boshlarida Avstriya-Vengriya imperiyasi | 76–80 | not_implemented |
+| 18 | wh9-topic18 | Lotin Amerikasining boshqa davlatlari | 63–66 | reviewed_preview_ready |
+| 19 | wh9-topic19 | XIX asr oxiri – XX asr boshlarida Rossiya imperiyasining ijtimoiy-siyosiy va iqtisodiy ahvoli | 66–69 | reviewed_preview_ready |
+| 20 | wh9-topic20 | Rossiya imperiyasining tashqi siyosati | 69–73 | reviewed_preview_ready |
+| 21 | wh9-topic21 | Rossiyada Davlat dumasining tashkil etilishi | 73–76 | reviewed_preview_ready |
+| 22 | wh9-topic22 | XIX asr oxiri – XX asr boshlarida Avstriya-Vengriya imperiyasi | 76–80 | reviewed_preview_ready |
 | 23 | wh9-topic23 | Avstriya-Vengriya imperiyasining tashqi siyosati | 80–83 | not_implemented |
 | 24 | wh9-topic24 | XIX asr oxiri – XX asr boshlarida Italiya | 83–86 | not_implemented |
 | 25 | wh9-topic25 | XIX asr oxiri – XX asr boshlarida Bolqon davlatlari | 86–90 | not_implemented |
