@@ -877,3 +877,44 @@ fullbackend is baseline evidence,notthisrerun. No production DB/deploy/AI/userda
 No textbookPDF/images/OCR in Git. Only two history feature branches.
 Nextbatch25 grade8§31–33 then grade9§1–2; grade8 original3–156 read and private
 lastthree strictvalidated, notindexed. Scannedgrade9originalfactreview next.
+
+## Batch25 — grade8§31–33 then grade9§1–2, 2026-10-28
+
+Five units add40 cards,63 fact records,32 MCQ and23 objective FRQ. Three records
+reuse exact prior grade8 knowledge; record totals are not unique knowledge counts.
+Total **125/219 local-preview units**,947 cards,1827 fact records,835 MCQ,497 FRQ,
+125 self/teacher activities. Grade6/7/8 content presence complete46/44/33;
+grade9=2/41. **94 remain:**39/26/29 in grades9/10/11. Acceptance flags false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |373 distinct tests pass across27 modules | Four initial shards372pass/1obsolete expectation; corrected entire17testbatch09 rerun passes60.33s |
+| Actual PostgreSQL |1 passed189.46s | Fresh dedicatedschema/parallel completion/all125units2500XP/replay |
+| Actual HTTP |6catalogues,1332answers,2500XP | Freshsynthetic900256/prerequisites/grade9independentfirst/replay |
+| Target Flutter |271 passed05:18 | All125API snapshots/200% theoryMCQ/typedFRQ/8→9transition/scannedbibliography |
+| Full Flutter |880 passed04:24 | Sequential no-pub aftertargeted; entireworktree |
+| Full analysis |0issues206.6s | EntireFlutterworktree |
+| Preservation |687 baseline pins,240 previoushistoryfiles unchanged | Other-subject/runtime and120priorlesson/review bytes |
+| Ruff/whitespace/stagedaudit |Passed | CriticalPythonerrors/history-only text/noJWTprivateDB/rawsources |
+
+Initial shard counts88/72/115/97 at1779.58/1630.02/1566.83/1865.94seconds. The
+initial batch09 finalizer test still expected grade8 conclusion to be pending.
+Its assertion now compares fact_review and interactive_status for EVERY ancillary
+record against the input catalogue: preserve reviewed and pending records alike.
+No validator weakening/runtime change. Focused test passed2.52s, then all17 tests
+in that module passed60.33s. Distinct passing coverage is373, not a claimed clean
+four-shard rerun. Unchanged372 other tests passed their original executions.
+
+New checks reject modified scan digests, tampered predecessor/context bindings,
+invented recapfacts, partial person/document names, migration/urbanization alias
+substitution, imperialist/colonial/workerjudgments as automatictruth and crossgrade
+prerequisite confusion. Grade9first starts without finishinggrade8, second requires
+its ownfirst. All125 completion replay unchanged, other synthetic accountXP137 kept.
+Importer completion awaited, HTTP allsix counts guarded. Initialgrade8=33 and
+grade9=2; completed snapshots match. Both8→9 and grade9intro own bibliography tested.
+Actual captures inspected:grade8§31theory200%,grade9§1feedback200%,scannedintro
+source200%. Grade8 conclusion exact earlierfact origins preserved, no raw map reuse.
+Fullbackend2569pass/4skip remains earlier baseline,not this run. Independentteacher,
+nativeAndroid/IME/TalkBack/full2026–27equivalence not performed/certified. No production
+DB/deploy/AI or reallearnerdata. All changes only two history featurebranches.
+Next batch26 grade9§3–7; original1–30 read, private drafts strictvalidated, unindexed.

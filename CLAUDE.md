@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch24 has120 local-preview units: all grade6/7 plus grade8§1–30,
-907 cards,803 MCQ,474 objective FRQ;
-99 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch25 grade8§31–33 then grade9§1–2; grade8 original3–156 read, private31–33 strictvalidated, audit grade9 originals next.
+Batch25 has125 local-preview units: all grade6/7/8 plus grade9§1–2,
+947 cards,835 MCQ,497 objective FRQ;
+94 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch26 grade9§3–7; originals1–30 read, private3–7 strictvalidated, not indexed;31 onward next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2950,3 +2950,14 @@ property-rights scope held. Treaty context and regent/king/name targets remain
 finite. Original3–156 grade8 deeply read, private31–33 strictvalidated, notready.
 Next five-lesson batch: grade8 remainingthree, then grade9 firsttwo; scanned
 grade9 requires original image fact checks. QA in QA_REPORT.
+
+Batch25 checkpoint:125/219,94left. Grade6/7/8 content presence complete46/44/33,
+grade9 firsttwo ready; acceptance flags false. Grade8 conclusion reuses3 exact
+priorfact bindings, not unique new facts. Grade9 scanned originals1–30 read,
+private§3–7 strictly validated but not indexed. Political models and current
+law/research are ungraded. Grade8 154Abdulqodirdeath/153Kassafall and156idea
+chronology held; grade9 map8–9 compositechronology,10inevitablelaststage,
+12XIXendmetro/wholeparliament4year/17Julydeclaration/treatyformalstatus held.
+QA373 distinct history passes after obsolete ancillary expectation corrected and
+full17testmodule rerun;271targeted/880fullFlutter,0analysis;PG125units2500XP,
+HTTP1332answers. No external fixes/sourcevalidator bypass. Continuebatch26§3–7.

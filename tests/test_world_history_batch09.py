@@ -118,7 +118,15 @@ def test_catalog_finalizer_preserves_only_explicit_ancillary_readiness(tmp_path,
     for identifier in ['wh6-conclusion','wh6-final-review']:
         assert ancillary[identifier]['fact_review']=='reviewed_with_scope_limits'
     grade8=next(a for a in result['books'][2]['ancillary_records'] if a['id']=='wh8-conclusion')
-    assert grade8['fact_review']=='not_reviewed' and 'interactive_status' not in grade8
+    original8=next(a for a in catalog['books'][2]['ancillary_records'] if a['id']=='wh8-conclusion')
+    assert grade8['fact_review']==original8['fact_review']
+    assert grade8.get('interactive_status')==original8.get('interactive_status')
+    # Finalization derives coverage; it must neither reset reviewed references
+    # nor silently approve an ancillary record that is still pending.
+    for old_book,new_book in zip(catalog['books'],result['books']):
+        for old_record,new_record in zip(old_book['ancillary_records'],new_book['ancillary_records']):
+            assert new_record['fact_review']==old_record['fact_review']
+            assert new_record.get('interactive_status')==old_record.get('interactive_status')
     assert all(not b['course_ready'] and not b['content_reviewed'] for b in result['books'])
 
 

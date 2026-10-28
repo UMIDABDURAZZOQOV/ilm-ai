@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 120; remaining: 99.** Source pages are candidate spans;
+**Reviewed preview lessons: 125; remaining: 94.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -180,9 +180,9 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 28 | wh8-topic28 | 1800–1870-yillarda Yaponiya | 134–138 | reviewed_preview_ready |
 | 29 | wh8-topic29 | 1800–1870-yillarda Koreya | 138–142 | reviewed_preview_ready |
 | 30 | wh8-topic30 | 1800–1870-yillarda Usmoniylar imperiyasi | 142–145 | reviewed_preview_ready |
-| 31 | wh8-topic31 | 1800–1870-yillarda Eron va Afg‘oniston | 145–151 | not_implemented |
-| 32 | wh8-topic32 | 1800–1870-yillarda Afrika xalqlari | 151–155 | not_implemented |
-| 33 | wh8-conclusion | Xulosa | 156 | not_implemented |
+| 31 | wh8-topic31 | 1800–1870-yillarda Eron va Afg‘oniston | 145–151 | reviewed_preview_ready |
+| 32 | wh8-topic32 | 1800–1870-yillarda Afrika xalqlari | 151–155 | reviewed_preview_ready |
+| 33 | wh8-conclusion | Xulosa | 156 | reviewed_preview_ready |
 
 ### Supporting source records
 
@@ -193,8 +193,8 @@ a shared final page can include the next heading. It is not blanket fact approva
 
 | Order | ID | Source title | Printed/PDF pages | Status |
 | ---: | --- | --- | --- | --- |
-| 1 | wh9-topic01 | XIX asr oxiri – XX asr boshlarida kapitalizm taraqqiyotida yuz bergan tub o‘zgarishlar | 4–11 | not_implemented |
-| 2 | wh9-topic02 | Industrial sivilizatsiya | 11–16 | not_implemented |
+| 1 | wh9-topic01 | XIX asr oxiri – XX asr boshlarida kapitalizm taraqqiyotida yuz bergan tub o‘zgarishlar | 4–11 | reviewed_preview_ready |
+| 2 | wh9-topic02 | Industrial sivilizatsiya | 11–16 | reviewed_preview_ready |
 | 3 | wh9-topic03 | Fransiya–Prussiya urushi va uning yakunlari | 16–18 | not_implemented |
 | 4 | wh9-topic04 | Fransiyada Uchinchi Respublika va 1871-yil 18-mart davlat to‘ntarishi | 18–21 | not_implemented |
 | 5 | wh9-topic05 | XIX asr oxiri – XX asr boshlarida Fransiyada iqtisodiy va siyosiy hayot | 21–23 | not_implemented |
