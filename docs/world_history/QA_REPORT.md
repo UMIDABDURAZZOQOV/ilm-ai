@@ -1318,3 +1318,30 @@ No batch38 test failures. Grade10 catalogue transition test now derives coverage
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
 AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch39 — grade11 topics1–5, 2026-10-29
+
+5 lessons add40cards,77factrecords,30MCQ and20objectiveFRQ.
+**195/219 local-preview units**,1471cards,2814factrecords,
+1265MCQ,787FRQ,195self/teacheractivities;**24remain**:
+0/0/24 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |563 passed,2733.36s wall | All41modules,clean shards147/124/170/122;2730.12/2402.53/2311.3/2540.93s |
+| Actual PostgreSQL |1 passed139.92s | Dedicatedschema/parallel/all195units/3900XP/replay |
+| Actual HTTP |6catalogues,2052answers,3900XP | Freshsynthetic900396/UID-specificemail/prerequisites/replay |
+| Target Flutter |416 passed07:31 | All195snapshots/200% theoryMCQ/typedFRQ/catalogueprefixguard |
+| Full Flutter |1025 passed10:07 | Sequential no-pub aftertargeted |
+| Full analysis |0issues222.7s | EntireFlutterworktree |
+| Preservation |687pins and380priorhistoryfiles unchanged | Other-subject/runtime baseline and190priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | E701/E702/F811 excluded for existing compact pytest fixture style; history-only text/noJWTprivateDB/rawscanOCR |
+
+Grade11 original1–72 page images read. New topics1–5 retain exact opening/closing regions, introductory ancillary page3, all maps/portraits/recall/fill/eslatma/gloss/questions and teacher activities. Book2018/1991–2017 horizon remains historical. MDH membership/withdrawal chronology, UN24 founding109vs111 unresolved, Estonia-related current legal rules, Chechen war dates, Crimea/Donbas status, Belarus referendum timing and Dodon election date remain held or ungraded. No outside corrected facts or current2026 political claims. Grade11 topics6–15 private original adaptations passed strict source/fact/question-target validation and remain unindexed.
+Actual widget captures:10passed in00:37; inspected grade11 topic1 dark theory200%, topic4 dark feedback200%, topic5 light typed-FRQ resume/source §5 printed23. Feedback/body scroll and action region remain separated by the existing common layout; screenshots are widget renders, not native Android..
+Prior lesson snapshots remain frozen; all grade10 units and first5grade11 units
+are represented. Next private drafts strict validated but unindexed:grade11 topics6–15.
+Grade9 all160 and grade10 all144 original pages read; grade11 originals1–72 read;grade11 original73 onward next. No failing test run in this batch. Final analyze rerun after test-helper changes:222.7s. Existing FastAPI/httpx Starlette deprecation warning remains; no dependency/runtime edits. Full history backend shard timing is reported as measured, without estimating from prior runs.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
+AI/rawsourceupload/realuserreset. Continue without routine permission.

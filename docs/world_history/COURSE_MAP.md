@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 190; remaining: 29.** Source pages are candidate spans;
+**Reviewed preview lessons: 195; remaining: 24.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -279,11 +279,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 
 | Order | ID | Source title | Printed/PDF pages | Status |
 | ---: | --- | --- | --- | --- |
-| 1 | wh11-topic01 | XX asr oxiri – XXI asr boshlarida xalqaro munosabatlar | 4–9 | not_implemented |
-| 2 | wh11-topic02 | Sharqiy Yevropa mamlakatlarida demokratik inqiloblar va sotsialistik lagerning parchalanishi | 9–15 | not_implemented |
-| 3 | wh11-topic03 | Sovet davlatining parchalanishi va sobiq sovet respublikalarida mustaqillikning e’lon qilinishi | 15–19 | not_implemented |
-| 4 | wh11-topic04 | 1991 – 2017-yillarda Rossiya Federatsiyasi | 19–23 | not_implemented |
-| 5 | wh11-topic05 | 1991 – 2017-yillarda Ukraina, Belarus va Moldova respublikalari | 23–29 | not_implemented |
+| 1 | wh11-topic01 | XX asr oxiri – XXI asr boshlarida xalqaro munosabatlar | 4–9 | reviewed_preview_ready |
+| 2 | wh11-topic02 | Sharqiy Yevropa mamlakatlarida demokratik inqiloblar va sotsialistik lagerning parchalanishi | 9–15 | reviewed_preview_ready |
+| 3 | wh11-topic03 | Sovet davlatining parchalanishi va sobiq sovet respublikalarida mustaqillikning e’lon qilinishi | 15–19 | reviewed_preview_ready |
+| 4 | wh11-topic04 | 1991 – 2017-yillarda Rossiya Federatsiyasi | 19–23 | reviewed_preview_ready |
+| 5 | wh11-topic05 | 1991 – 2017-yillarda Ukraina, Belarus va Moldova respublikalari | 23–29 | reviewed_preview_ready |
 | 6 | wh11-topic06 | 1991 – 2017-yillarda Boltiqbo‘yi davlatlari | 29–33 | not_implemented |
 | 7 | wh11-topic07 | 1991 – 2017-yillarda Kavkazorti davlatlari | 33–38 | not_implemented |
 | 8 | wh11-topic08 | 1991 – 2017-yillarda Markaziy Osiyo davlatlari | 38–44 | not_implemented |
