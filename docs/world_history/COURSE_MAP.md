@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 165; remaining: 54.** Source pages are candidate spans;
+**Reviewed preview lessons: 170; remaining: 49.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -245,11 +245,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | Order | ID | Source title | Printed/PDF pages | Status |
 | ---: | --- | --- | --- | --- |
 | 1 | wh10-topic01 | 1918 – 1939-yillarda xalqaro munosabatlar | 4–8 | reviewed_preview_ready |
-| 2 | wh10-topic02 | 1918 – 1939-yillarda ilmiy-texnik taraqqiyotning jadallashuvi, ilm-fandagi yutuqlar | 8–12 | not_implemented |
-| 3 | wh10-topic03 | 1918 – 1939-yillarda Buyuk Britaniya | 12–16 | not_implemented |
-| 4 | wh10-topic04 | 1918 – 1939-yillarda Fransiya | 16–20 | not_implemented |
-| 5 | wh10-topic05 | 1918 – 1939-yillarda Amerika Qo‘shma Shtatlari | 20–25 | not_implemented |
-| 6 | wh10-topic06 | 1918 – 1939-yillarda Germaniya | 25–30 | not_implemented |
+| 2 | wh10-topic02 | 1918 – 1939-yillarda ilmiy-texnik taraqqiyotning jadallashuvi, ilm-fandagi yutuqlar | 8–12 | reviewed_preview_ready |
+| 3 | wh10-topic03 | 1918 – 1939-yillarda Buyuk Britaniya | 12–16 | reviewed_preview_ready |
+| 4 | wh10-topic04 | 1918 – 1939-yillarda Fransiya | 16–20 | reviewed_preview_ready |
+| 5 | wh10-topic05 | 1918 – 1939-yillarda Amerika Qo‘shma Shtatlari | 20–25 | reviewed_preview_ready |
+| 6 | wh10-topic06 | 1918 – 1939-yillarda Germaniya | 25–30 | reviewed_preview_ready |
 | 7 | wh10-topic07-08 | 1918 – 1939-yillarda SSSR | 30–37 | not_implemented |
 | 8 | wh10-topic09 | 1918 – 1939-yillarda Italiya va Ispaniya | 37–42 | not_implemented |
 | 9 | wh10-topic10 | 1918 – 1939-yillarda Lotin Amerikasi mamlakatlari | 42–47 | not_implemented |

@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch33 has165 local-preview units: all grade6/7/8/9 plus grade10§1,
-1233 cards,1079 MCQ,663 objective FRQ;
-54 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch34 grade10 topics2–6; Grade9 originals1–160 and grade10 originals1–48 read; next drafts strictly validated but unindexed;grade10 original49 onward next.
+Batch34 has170 local-preview units: all grade6/7/8/9 plus grade10§1–6,
+1268 cards,1109 MCQ,683 objective FRQ;
+49 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch35 grade10 topics7–11; Grade9 originals1–160 and grade10 originals1–87 read; next drafts strictly validated but unindexed;grade10 original88 onward next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -3026,3 +3026,8 @@ pass, analysis0, HTTP1742answers/3300XP and realPG pass.
 Exact new source holds and image/region/answer reviews remain in SOURCE_REVIEW.md
 and the immutable lesson review files. No whole-map approval or outside repairs.
 Continue batch34 grade10 topics2–6; Grade9 originals1–160 and grade10 originals1–48 read; next drafts strictly validated but unindexed;grade10 original49 onward next; no routine permission needed.
+
+Batch34: 170/219 local-preview units,49 remain; grade10=6/26.
+496 history tests/364 history widgets/973 full Flutter
+pass, analysis0, HTTP1792answers/3400XP and realPG pass.
+Continue batch35 grade10 topics7–11; Grade9 originals1–160 and grade10 originals1–87 read; next drafts strictly validated but unindexed;grade10 original88 onward next; no routine permission needed.

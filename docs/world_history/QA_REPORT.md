@@ -1168,3 +1168,33 @@ the earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/
 mainmerge/AI/rawsourceupload/realuserreset. Continue without routine permission.
 
 Initial focused invocation omitted PYTHONUTF8 and failed during existing Biology UTF-8 fixture loading (13passed/1setup error); rerun with PYTHONUTF8=1 passed14focused, and the complete35-module history run below uses UTF-8. Biology bytes were not changed.
+
+## Batch34 — grade10 topics2–6, 2026-10-28
+
+Five lessons add35cards,
+69factrecords,
+30MCQ and
+20objectiveFRQ.
+**170/219 local-preview units**,1268cards,2412factrecords,
+1109MCQ,683FRQ,170self/teacheractivities;**49remain**:
+0/20/29 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |496 passed,7640.78s wall | All36modules,clean shards133/112/143/108;7637.21/7339.87/7102.75/7442.59s |
+| Actual PostgreSQL |1 passed209.55s | Dedicatedschema/parallel/all170units/3400XP/replay |
+| Actual HTTP |6catalogues,1792answers,3400XP | Freshsynthetic900346/UID-specificemail/prerequisites/replay |
+| Target Flutter |364 passed06:24 | All170snapshots/200% theoryMCQ/typedFRQ/catalogueprefixguard |
+| Full Flutter |973 passed96:07 | Sequential no-pub aftertargeted |
+| Full analysis |0issues98.8s | EntireFlutterworktree |
+| Preservation |687pins and330priorhistoryfiles unchanged | Other-subject/runtime baseline and165priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | E701/E702/F811 excluded for existing compact pytest fixture style; history-only text/noJWTprivateDB/rawscanOCR |
+
+Grade10 originals8below–29 read for2–6; explicit source-page regions, taught fact digests, finite per-question targets and reflection activity coverage. Insulin gallbladder/cure claim, sole global priorities, uniform dominion independence, France social-law chronology, Guver January1929 election, Weimar repeal/NSDAP1919 formal-name claims, racial/political judgments and modern-map period mismatches held; no outside repairs. Next grade10 units7–11 private strict passed, including original combined7–8 as one unit.
+Actual widget captures inspected: grade10 topic2 dark theory200%, topic4 dark feedback200%, topic6 FRQ resume/source. Twelve capture widgets passed; theory/feedback scroll and action controls retained at320x568/200%, FRQ source and input unobstructed.. Prior lesson snapshots
+remain frozen; initial/completed grade10 both6rows. Next five private drafts
+strict validated but unindexed:grade10 topics7–11;Grade9 originals1–160 and grade10 originals1–87 read;grade10 original88 onward next.
+Initial target run passed363/failed1 because the grade9→10 transition expected one start-button label after six lessons existed. Replaced the obsolete count with exact catalogue-row count plus explicit first-available/rest-locked prerequisites; all364 targeted passed on rerun. Original failure log retained. Initial Ruff invocation reported existing compact-style E701/E702 and imported pytest fixture F811; scoped check excludes only those style/fixture conventions, no source-validator bypass.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
+AI/rawsourceupload/realuserreset. Continue without routine permission.
