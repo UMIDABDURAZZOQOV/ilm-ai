@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 150; remaining: 69.** Source pages are candidate spans;
+**Reviewed preview lessons: 155; remaining: 64.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -220,11 +220,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 25 | wh9-topic25 | XIX asr oxiri – XX asr boshlarida Bolqon davlatlari | 86–90 | reviewed_preview_ready |
 | 26 | wh9-topic26 | XIX asrning oxiri va XX asr boshlarida Yaponiya | 90–94 | reviewed_preview_ready |
 | 27 | wh9-topic27 | XIX asrning oxirida Xitoy | 94–97 | reviewed_preview_ready |
-| 28 | wh9-topic28 | XX asr boshlarida Xitoyning ijtimoiy-iqtisodiy va siyosiy ahvoli | 97–101 | not_implemented |
-| 29 | wh9-topic29 | XIX asr oxiri – XX asr boshlarida Hindiston | 101–105 | not_implemented |
-| 30 | wh9-topic30 | XIX asr oxiri – XX asr boshlarida Eron | 105–108 | not_implemented |
-| 31 | wh9-topic31 | XIX asr oxiri – XX asr boshlarida Afg‘oniston | 108–112 | not_implemented |
-| 32 | wh9-topic32 | XIX asr oxiri – XX asr boshlarida Usmonli davlati | 112–116 | not_implemented |
+| 28 | wh9-topic28 | XX asr boshlarida Xitoyning ijtimoiy-iqtisodiy va siyosiy ahvoli | 97–101 | reviewed_preview_ready |
+| 29 | wh9-topic29 | XIX asr oxiri – XX asr boshlarida Hindiston | 101–105 | reviewed_preview_ready |
+| 30 | wh9-topic30 | XIX asr oxiri – XX asr boshlarida Eron | 105–108 | reviewed_preview_ready |
+| 31 | wh9-topic31 | XIX asr oxiri – XX asr boshlarida Afg‘oniston | 108–112 | reviewed_preview_ready |
+| 32 | wh9-topic32 | XIX asr oxiri – XX asr boshlarida Usmonli davlati | 112–116 | reviewed_preview_ready |
 | 33 | wh9-topic33 | Shimoliy Afrika mamlakatlari | 116–120 | not_implemented |
 | 34 | wh9-topic34 | Tropik va Janubiy Afrika mamlakatlari | 120–125 | not_implemented |
 | 35 | wh9-topic35 | Birinchi jahon urushining boshlanishi va borishi | 125–130 | not_implemented |

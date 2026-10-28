@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch30 has150 local-preview units: all grade6/7/8 plus grade9§1–27,
-1120 cards,987 MCQ,601 objective FRQ;
-69 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch31 grade9§28–32; originals1–137and154–156 read; next drafts strictly validated but unindexed;138onward next.
+Batch31 has155 local-preview units: all grade6/7/8 plus grade9§1–32,
+1156 cards,1017 MCQ,621 objective FRQ;
+64 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch32 grade9§33–37; originals1–156and154–156 read; next drafts strictly validated but unindexed;157onward next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -3005,3 +3005,10 @@ pass, analysis0, HTTP1588answers/3000XP and realPG pass.
 Exact new source holds and image/region/answer reviews remain in SOURCE_REVIEW.md
 and the immutable lesson review files. No whole-map approval or outside repairs.
 Continue batch31 grade9§28–32; originals1–137and154–156 read; next drafts strictly validated but unindexed;138onward next; no routine permission needed.
+
+Batch31: 155/219 local-preview units,64 remain; grade9=32/41.
+458 history tests/332 history widgets/941 full Flutter
+pass, analysis0, HTTP1638answers/3100XP and realPG pass.
+Exact new source holds and image/region/answer reviews remain in SOURCE_REVIEW.md
+and the immutable lesson review files. No whole-map approval or outside repairs.
+Continue batch32 grade9§33–37; originals1–156and154–156 read; next drafts strictly validated but unindexed;157onward next; no routine permission needed.
