@@ -1345,3 +1345,30 @@ Grade9 all160 and grade10 all144 original pages read; grade11 originals1–72 re
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
 AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch40 — grade11 topics6–15, 2026-10-29
+
+10 lessons add80cards,146factrecords,60MCQ and40objectiveFRQ.
+**205/219 local-preview units**,1551cards,2960factrecords,
+1325MCQ,827FRQ,205self/teacheractivities;**14remain**:
+0/0/14 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |586 passed,3182.39s wall | All42modules,clean shards170/124/170/122;3178.43/2624.39/2546.91/2685.87s |
+| Actual PostgreSQL |1 passed272.76s | Dedicatedschema/parallel/all205units/4100XP/replay |
+| Actual HTTP |6catalogues,2152answers,4100XP | Freshsynthetic900406/UID-specificemail/prerequisites/replay |
+| Target Flutter |436 passed07:25 | All205snapshots/200% theoryMCQ/typedFRQ/catalogueprefixguard |
+| Full Flutter |1045 passed10:06 | Sequential no-pub aftertargeted |
+| Full analysis |0issues96.4s | EntireFlutterworktree |
+| Preservation |687pins and390priorhistoryfiles unchanged | Other-subject/runtime baseline and195priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | E701/E702/F811 excluded for existing compact pytest fixture style; history-only text/noJWTprivateDB/rawscanOCR |
+
+Grade11 topics6–15 preserve exact opening/closing shared-page regions. Baltic independence instruments, Central Asian event chronology, European integration, USA/Germany/UK/France/Italy and developing-world concepts use verified finite targets. Incorrect dates, unsupported aggregates, current sovereignty and political/religious/ethical evaluations remain held or self/teacher only. Grade11 original pages1–144 read, including closing TOC/colophon/rental form. Next topics16–25 private drafts strict validated against the205-unit prefix; unindexed/imported.
+Actual widget captures:30passed in01:11; inspected grade11 topic6 dark theory at200%, topic10 dark feedback at200%, topic15 light typedFRQ resume with source§15 printed70; existing common scroll/feedback widgets, no actual native Android claim.
+Prior lesson snapshots remain frozen; all grade10 units and first15grade11 units
+are represented. Next private drafts strict validated but unindexed:grade11 topics16–25.
+Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read;grade11 source-region recheck during final audit next. No new failing QA incidents. Existing FastAPI/httpx Starlette deprecation warning retained; no dependency/runtime changes.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
+AI/rawsourceupload/realuserreset. Continue without routine permission.

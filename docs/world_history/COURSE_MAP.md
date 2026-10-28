@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 195; remaining: 24.** Source pages are candidate spans;
+**Reviewed preview lessons: 205; remaining: 14.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -284,16 +284,16 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 3 | wh11-topic03 | Sovet davlatining parchalanishi va sobiq sovet respublikalarida mustaqillikning e’lon qilinishi | 15–19 | reviewed_preview_ready |
 | 4 | wh11-topic04 | 1991 – 2017-yillarda Rossiya Federatsiyasi | 19–23 | reviewed_preview_ready |
 | 5 | wh11-topic05 | 1991 – 2017-yillarda Ukraina, Belarus va Moldova respublikalari | 23–29 | reviewed_preview_ready |
-| 6 | wh11-topic06 | 1991 – 2017-yillarda Boltiqbo‘yi davlatlari | 29–33 | not_implemented |
-| 7 | wh11-topic07 | 1991 – 2017-yillarda Kavkazorti davlatlari | 33–38 | not_implemented |
-| 8 | wh11-topic08 | 1991 – 2017-yillarda Markaziy Osiyo davlatlari | 38–44 | not_implemented |
-| 9 | wh11-topic09 | G‘arb mamlakatlarida integratsiyalashuv jarayonlarining jadallashuvi. Yevropa Ittifoqi va AQSH munosabatlari | 44–48 | not_implemented |
-| 10 | wh11-topic10 | 1991 – 2017-yillarda Amerika Qo‘shma Shtatlari | 48–52 | not_implemented |
-| 11 | wh11-topic11 | 1991 – 2017-yillarda Germaniya Federativ Respublikasi | 52–55 | not_implemented |
-| 12 | wh11-topic12 | 1991 – 2017-yillarda Buyuk Britaniya | 55–60 | not_implemented |
-| 13 | wh11-topic13 | 1991 – 2017-yillarda Fransiya | 60–64 | not_implemented |
-| 14 | wh11-topic14 | 1991 – 2017-yillarda Italiya | 64–68 | not_implemented |
-| 15 | wh11-topic15 | Osiyo, Afrika va Lotin Amerikasi mamlakatlari siyosiy, ijtimoiy-iqtisodiy rivojlanishining asosiy yo‘nalishlari | 68–72 | not_implemented |
+| 6 | wh11-topic06 | 1991 – 2017-yillarda Boltiqbo‘yi davlatlari | 29–33 | reviewed_preview_ready |
+| 7 | wh11-topic07 | 1991 – 2017-yillarda Kavkazorti davlatlari | 33–38 | reviewed_preview_ready |
+| 8 | wh11-topic08 | 1991 – 2017-yillarda Markaziy Osiyo davlatlari | 38–44 | reviewed_preview_ready |
+| 9 | wh11-topic09 | G‘arb mamlakatlarida integratsiyalashuv jarayonlarining jadallashuvi. Yevropa Ittifoqi va AQSH munosabatlari | 44–48 | reviewed_preview_ready |
+| 10 | wh11-topic10 | 1991 – 2017-yillarda Amerika Qo‘shma Shtatlari | 48–52 | reviewed_preview_ready |
+| 11 | wh11-topic11 | 1991 – 2017-yillarda Germaniya Federativ Respublikasi | 52–55 | reviewed_preview_ready |
+| 12 | wh11-topic12 | 1991 – 2017-yillarda Buyuk Britaniya | 55–60 | reviewed_preview_ready |
+| 13 | wh11-topic13 | 1991 – 2017-yillarda Fransiya | 60–64 | reviewed_preview_ready |
+| 14 | wh11-topic14 | 1991 – 2017-yillarda Italiya | 64–68 | reviewed_preview_ready |
+| 15 | wh11-topic15 | Osiyo, Afrika va Lotin Amerikasi mamlakatlari siyosiy, ijtimoiy-iqtisodiy rivojlanishining asosiy yo‘nalishlari | 68–72 | reviewed_preview_ready |
 | 16 | wh11-topic16 | 1991 – 2017-yillarda Xitoy Xalq Respublikasi | 72–77 | not_implemented |
 | 17 | wh11-topic17 | 1991 – 2017-yillarda Yaponiya | 77–81 | not_implemented |
 | 18 | wh11-topic18 | 1991 – 2017-yillarda Janubi-Sharqiy Osiyo mamlakatlari | 81–85 | not_implemented |
