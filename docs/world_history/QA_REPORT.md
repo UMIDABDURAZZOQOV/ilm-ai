@@ -958,3 +958,34 @@ Earlier2569pass fullbackend remains baseline evidence,not this run. Independent
 teacher/nativeAndroid/IME/TalkBack/full2026–27equivalence not performed/certified.
 No productionDB/deploy/mainmerge/AI/sourceupload. Nextbatch27 grade9§8–12 private
 strictvalidated, not indexed; originals1–46 read, continue§13and47onward next.
+
+## Batch27 — grade9§8–12, 2026-10-28
+
+Five lessons add31 cards,50 fact records,30 MCQ and20 objective FRQ. Total
+**135/219 local-preview units**,1012 cards,1933 fact records,895 MCQ,539 FRQ,
+135 self/teacher activities. Grade9=12/41;grades6/7/8 content presence46/44/33.
+**84 remain:**29/26/29 in grades9/10/11. All acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |402 passed,827.17s wall | All29modules,four clean shards103/87/115/97;777.42/634.76/506.26/825.92s |
+| Actual PostgreSQL |1 passed96.97s | Dedicatedschema/parallel completion/all135units2700XP/replay |
+| Actual HTTP |6catalogues,1434answers,2700XP | Freshsynthetic900276/UID-specificemail/prerequisites/replay |
+| Target Flutter |292 passed03:36 | All135snapshots/200% theoryMCQ/typedFRQ/grade9prefixguard |
+| Full Flutter |901 passed03:13 | Entireworktree sequential no-pub aftertargeted |
+| Full analysis |0issues135.8s | EntireFlutterworktree |
+| Preservation |687pins and260priorhistoryfiles unchanged |130priorlesson/review pairs and other-subject/runtime baseline |
+| Ruff/whitespace/stagedaudit |Passed | History-only text/noJWTprivateDB/rawscanOCR |
+
+Tests reject altered scan/regions, ordinal/name/nickname and institution swaps,
+broadaliases, political onlycorrectpath as automatictruth, external legal/date/
+scientific guesses and misrepresentedcompletedrailway. Names and historical
+policy labels are question-specific; colonial/religious/identity judgments remain
+self/teacher only. Original priorfixtures frozen; initial and completion grade9
+catalogues both12rows. Actual captures inspected:§8darktheory200%,§10darkfeedback
+200%,§12typedFRQresume/source. No QA service interruption in this run.
+Fullbackend2569pass/4skip remains earlier baseline,not this run. Independentteacher,
+nativeAndroid/IME/TalkBack/full2026–27equivalence not performed/certified. No
+productionDB/deploy/mainmerge/AI/rawsourceupload/reallearnerreset. Nextbatch28
+grade9§13–17 private strictvalidated, not indexed; originals1–63andappendix154read.
+155–156 notdeepreviewed,64onward next. Appendix154 only exact linkedtopic17facts.

@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch26 has130 local-preview units: all grade6/7/8 plus grade9§1–7,
-981 cards,865 MCQ,519 objective FRQ;
-89 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch27 grade9§8–12; originals1–46 read, private8–12 strictvalidated not indexed; continue§13/47onward next.
+Batch27 has135 local-preview units: all grade6/7/8 plus grade9§1–12,
+1012 cards,895 MCQ,539 objective FRQ;
+84 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch28 grade9§13–17; originals1–63and154 read, private13–17 strictvalidated not indexed;64onward next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2971,3 +2971,12 @@ remain held. No outside factual repairs or political/moral automatic truth.
 Nextbatch27§8–12private strictlyvalidated; originals1–46 read,47onward next.
 LocalQAservices resumed after downtime; existing DBs kept; new UID/email per
 HTTP run, no resetting oldsynthetic/realprogress. See batch26 QA incident scope.
+
+Batch27 checkpoint:135/219,84left;grade9=12/41.402historytests/292widgets/901full
+Flutter pass,analysis0;HTTP1434answers2700XP and realPG135units pass.30allmonarchs/
+31uniformReichstagterm/Saarnewconquest/Tomsonphosphorwording/32ShnayderGermanplant,
+34emperorageandsuccession/35onlycorrectpoliticalpath,36GuineaZanzibarandisland
+chronology/37Palestine1889/38Ottomanliteralvassal,40Gladston1864–74/41outputvs
+share,42Parnellorigin/43settlement1881/44Irishbilland1911legalexceptions/45coal
+strikechronology remainheld. Nextbatch28§13–17private strictvalidated, original
+1–63 and154 read;154onlylink not entireappendix approval.64onward next.

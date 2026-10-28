@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 130; remaining: 89.** Source pages are candidate spans;
+**Reviewed preview lessons: 135; remaining: 84.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -200,11 +200,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 5 | wh9-topic05 | XIX asr oxiri – XX asr boshlarida Fransiyada iqtisodiy va siyosiy hayot | 21–23 | reviewed_preview_ready |
 | 6 | wh9-topic06 | Fransiyaning ichki siyosati | 23–27 | reviewed_preview_ready |
 | 7 | wh9-topic07 | Fransiyaning tashqi siyosati | 27–30 | reviewed_preview_ready |
-| 8 | wh9-topic08 | XIX asr oxiri – XX asr boshlarida Germaniya. Imperiyaning tashkil topishi | 30–33 | not_implemented |
-| 9 | wh9-topic09 | Imperiyaning ichki siyosati | 33–35 | not_implemented |
-| 10 | wh9-topic10 | Imperiyaning tashqi siyosati | 35–39 | not_implemented |
-| 11 | wh9-topic11 | XIX asr oxiri – XX asr boshlarida Buyuk Britaniyaning siyosiy va iqtisodiy ahvoli | 39–42 | not_implemented |
-| 12 | wh9-topic12 | Buyuk Britaniyaning ichki siyosati | 42–45 | not_implemented |
+| 8 | wh9-topic08 | XIX asr oxiri – XX asr boshlarida Germaniya. Imperiyaning tashkil topishi | 30–33 | reviewed_preview_ready |
+| 9 | wh9-topic09 | Imperiyaning ichki siyosati | 33–35 | reviewed_preview_ready |
+| 10 | wh9-topic10 | Imperiyaning tashqi siyosati | 35–39 | reviewed_preview_ready |
+| 11 | wh9-topic11 | XIX asr oxiri – XX asr boshlarida Buyuk Britaniyaning siyosiy va iqtisodiy ahvoli | 39–42 | reviewed_preview_ready |
+| 12 | wh9-topic12 | Buyuk Britaniyaning ichki siyosati | 42–45 | reviewed_preview_ready |
 | 13 | wh9-topic13 | Buyuk Britaniyaning tashqi siyosati | 45–49 | not_implemented |
 | 14 | wh9-topic14 | Amerika Qo‘shma Shtatlari | 49–52 | not_implemented |
 | 15 | wh9-topic15 | AQSHning ichki siyosati | 52–55 | not_implemented |

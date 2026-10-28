@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade9_paragraph08.json",
+  "lesson_sha256": "109b29a086d48b9de8b50b89248585708fa0402a00f80812622015eddd6553ee",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh9-p08-page030",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic08",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 30,
+      "printed_page": 30,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "51ed6158d3e201910e8abec2e408b4cf8bd395a1f5c80b24ff2b529c83b26982",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p08-page031",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic08",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 31,
+      "printed_page": 31,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "6cf0697573c3f3ab2bb717fba1329bbc8fe1672adec6ae349e875f666337905b",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p08-page032",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic08",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 32,
+      "printed_page": 32,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "3d0fee4b9038657b2b17c92b75a82dd819deae1c1bb38bdb05fe62416368c871",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original30below§8–32 read;33wholly§9excluded.30portraitcaption/recall,32factoryphoto/definitions/fourquestions/tworesearchtasks covered.",
+    "30allmonarchspresent/wholeGermanterritoryunited/imperialunlimitedpowers;31uniformfiveyearterm1871/generalvoteallpersons/Saarnewconquest/Tomsonphosphorproductionwording held. No outside legal/chemical repairs.",
+    "32Shnayderfactory photo not falselylabelledGermanplant.7foldgrowth/17.6million1912/fourmonopolies/exactrank not automaticnumbers. Bismarckfullname vsTemirkansler distincttargets; no modernGermanyfacts."
+  ],
+  "approved_fact_sha256": {
+    "empire": "2cd40764d71bbd12bdd25d9652143445e31a469c4c86a3da7cbdd46335971a3d",
+    "constitution": "614451c163972c8c56c1a09eda09c45a2c5178c6cc25857347ba407dee24f4b8",
+    "institutions": "0118d0cb207df34bf360878e522e6d0c90afac04b9a36ca7ee49fa8c21f9e3be",
+    "chancellor": "dc5bf360a9ac47d9936e7c39983abfc05f40893677ebf6f4ab54358721267b88",
+    "bismarck": "38009d6b042661eeb17a4100f3dded0eec84d9003083f9d7bca59dfd73f71039",
+    "vote": "cac837f543c5c867cced2fc6912d59afb4350cd6d11093e84eeccaa272253a48",
+    "market": "6accd643f57886a9938302272365a73f67ce1dfd8b59485e4ac085050d4912d1",
+    "resources": "4de6923226af606aff1e5d95e5ee49819b6268249586617ca71cc7473d49dc26",
+    "concentration": "4ee83f839b1aa92c35f03945100fc268a256378dcc7c760f36b3587ff5c02a8c"
+  },
+  "approved_content_sha256": "1f482387501eba708798beba59adfc62f04ae42dce352692c0a2b2689b31a2eb",
+  "approved_assessments_sha256": "adfa794cf6832a58006fe9640053e2e5139abc7d3e445868b33dc6f566ce9149",
+  "approved_answer_targets": {
+    "world-history-9-p08-r1-q01": {
+      "fact_ids": [
+        "empire"
+      ],
+      "verified_answer": "Vilgelm I",
+      "aliases": []
+    },
+    "world-history-9-p08-r1-q02": {
+      "fact_ids": [
+        "empire"
+      ],
+      "verified_answer": "Versal",
+      "aliases": []
+    },
+    "world-history-9-p08-r1-q03": {
+      "fact_ids": [
+        "constitution"
+      ],
+      "verified_answer": "1871-yil",
+      "aliases": []
+    },
+    "world-history-9-p08-r1-q04": {
+      "fact_ids": [
+        "institutions"
+      ],
+      "verified_answer": "Bundesrat",
+      "aliases": []
+    },
+    "world-history-9-p08-r1-q05": {
+      "fact_ids": [
+        "bismarck"
+      ],
+      "verified_answer": "Otto fon Bismark",
+      "aliases": []
+    },
+    "world-history-9-p08-r1-q06": {
+      "fact_ids": [
+        "chancellor"
+      ],
+      "verified_answer": "Kansler",
+      "aliases": []
+    },
+    "world-history-9-p08-r1-q07": {
+      "fact_ids": [
+        "bismarck"
+      ],
+      "verified_answer": "Otto fon Bismark",
+      "aliases": [
+        "Otto fon Bismark"
+      ]
+    },
+    "world-history-9-p08-r1-q08": {
+      "fact_ids": [
+        "bismarck"
+      ],
+      "verified_answer": "Temir kansler",
+      "aliases": [
+        "Temir kansler"
+      ]
+    },
+    "world-history-9-p08-r1-q09": {
+      "fact_ids": [
+        "institutions"
+      ],
+      "verified_answer": "Bundesrat",
+      "aliases": [
+        "Bundesrat"
+      ]
+    },
+    "world-history-9-p08-r1-q10": {
+      "fact_ids": [
+        "institutions"
+      ],
+      "verified_answer": "Reyxstag",
+      "aliases": [
+        "Reyxstag"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 30,
+      "activity": "topic8_emperor_constitution_portrait_recall",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 31,
+      "activity": "chancellor_vote_economicmodels_sourceholds",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 32,
+      "activity": "factoryphoto_definitions_fourquestions_twotasks",
+      "covered_by": [
+        "reflection"
+      ]
+    }
+  ]
+}

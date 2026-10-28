@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade9_paragraph09.json",
+  "lesson_sha256": "fd29145523e0e6c76fb789faae7a7f0b2ca81a73620618bba5f6caf0444e7b75",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh9-p09-page033",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic09",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 33,
+      "printed_page": 33,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "1e37e096434dce24e605ed95813b84cd38034e156077d1b70d024e7b9fdf484c",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p09-page034",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic09",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 34,
+      "printed_page": 34,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "efb238e9516e0df1a9f916328cb67d43a59de14821bbea2d4a363e1d183053cc",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh9-p09-page035",
+      "book_id": "world-history-9-uz-2019",
+      "topic_id": "wh9-topic09",
+      "sha256": "4f20684716e02748d1f6d54b3f5c00f7d3320f36d216dcbd4d807a8bbc6983b5",
+      "pdf_page": 35,
+      "printed_page": 35,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "db9f8eab8bdf2b679bbcbefaaa5157a20dc7a6b8206e1766946c82f683603b19",
+      "reviewed_on": "2026-10-28",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original33below§9–35above§10 read.35fourquestions/threetasks/socialpoliticalagriculturalthreads included.",
+    "33allPolishschools/1000001906/1875laterpartyname/date/suicidepoliticalguilt/lawdurationwithoutrenewals held;34age28/emperorimmediateI→II/1891allageshours/25percentland/1912voteuniquecause held. No external dates/names/currentlegalrepair.",
+    "35reformonlycorrectway attributedungraded; contemporaryrulingpartyresearch not automaticknowledge, no outsidefacts. Kulturkampf policyname notreligiousagreement; disability/insurance notmedicaladvice."
+  ],
+  "approved_fact_sha256": {
+    "prussianization": "f230a1d9ef53f36dc34c8f64a67a03f7349330642a6c80c9ab94b1f73c0d45e2",
+    "kulturkampf": "049799ab834170d45462df19a64ae90250d3fcd164a77734fb3ecfd9b17f2bb8",
+    "civil": "9d740f20f91abefcab65c86609e04610121af579e64a6c08cf1b79462fc3950a",
+    "socialist_law": "4c4aee44cb6798527b37e36b736631de761d7949263171ace090d4933f656ce0",
+    "insurance": "266adca1611c4bbc409a9b8bc754be561dd4b90def2dd8ab0073725147a0ee26",
+    "bismarck_exit": "ee72231e9b614f87d0076deb3cb8f752d95008d6f56d3ea9288e7f70d16135be",
+    "emperor": "d7c6749b3cb9abeae0168dd9266c917849409814c9ea9bb121ba757511154200",
+    "party": "5054810da0a5ccb8817d6551ef441ddd1830e8297b267a7f3f118795496e0a59",
+    "land": "25c7aca31a3ee5d2bd6f2201862c86e537e79f2036ee43cd4f709eec826ceb5c",
+    "agriculture": "17bdafba7fe7a9e72290346ac2e1ad4384d3e77ccb826e2f4bb2e9c5f9fc80d0",
+    "labour": "75ddf2a492c7fb66f273ba64051424cdfd487fe856dde42fca966286ee0b9350"
+  },
+  "approved_content_sha256": "2db2b398794ae97d2fe23314cebb86d74b02dc16f7ab3321a1211bf08190961c",
+  "approved_assessments_sha256": "5468fd6cae3de5692596c3bed71a2a9c7b6d84a4d835e9c4a10af4bd9457d373",
+  "approved_answer_targets": {
+    "world-history-9-p09-r1-q01": {
+      "fact_ids": [
+        "kulturkampf"
+      ],
+      "verified_answer": "Kulturkampf",
+      "aliases": []
+    },
+    "world-history-9-p09-r1-q02": {
+      "fact_ids": [
+        "socialist_law"
+      ],
+      "verified_answer": "1878-yil",
+      "aliases": []
+    },
+    "world-history-9-p09-r1-q03": {
+      "fact_ids": [
+        "bismarck_exit"
+      ],
+      "verified_answer": "1890-yil",
+      "aliases": []
+    },
+    "world-history-9-p09-r1-q04": {
+      "fact_ids": [
+        "emperor"
+      ],
+      "verified_answer": "Vilgelm II",
+      "aliases": []
+    },
+    "world-history-9-p09-r1-q05": {
+      "fact_ids": [
+        "land"
+      ],
+      "verified_answer": "Yunkerlar",
+      "aliases": []
+    },
+    "world-history-9-p09-r1-q06": {
+      "fact_ids": [
+        "party"
+      ],
+      "verified_answer": "GSDP",
+      "aliases": []
+    },
+    "world-history-9-p09-r1-q07": {
+      "fact_ids": [
+        "kulturkampf"
+      ],
+      "verified_answer": "Kulturkampf",
+      "aliases": [
+        "Kulturkampf"
+      ]
+    },
+    "world-history-9-p09-r1-q08": {
+      "fact_ids": [
+        "land"
+      ],
+      "verified_answer": "Yunkerlar",
+      "aliases": [
+        "Yunkerlar"
+      ]
+    },
+    "world-history-9-p09-r1-q09": {
+      "fact_ids": [
+        "party"
+      ],
+      "verified_answer": "GSDP",
+      "aliases": [
+        "GSDP"
+      ]
+    },
+    "world-history-9-p09-r1-q10": {
+      "fact_ids": [
+        "emperor"
+      ],
+      "verified_answer": "Vilgelm II",
+      "aliases": [
+        "Vilgelm II"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 33,
+      "activity": "topic9_prussianization_kulturkampf_sociallaws",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 34,
+      "activity": "emperor_bismarck_party_agriculture_labour",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 35,
+      "activity": "abovetopic10_labour_fourquestions_threetasks",
+      "covered_by": [
+        "reflection"
+      ]
+    }
+  ]
+}
