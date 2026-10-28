@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 185; remaining: 34.** Source pages are candidate spans;
+**Reviewed preview lessons: 190; remaining: 29.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -265,11 +265,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 19 | wh10-topic22 | 1946 – 1991-yillarda Germaniya va Italiya | 99–105 | reviewed_preview_ready |
 | 20 | wh10-topic23 | 1946 – 1991-yillarda Yaponiya va Osiyoning yangi industrial mamlakat lari | 105–110 | reviewed_preview_ready |
 | 21 | wh10-topic24 | 1946 – 1991-yillarda Xitoy Xalq Respublikasi | 110–115 | reviewed_preview_ready |
-| 22 | wh10-topic25 | 1946 – 1991-yillarda Hindiston va Pokiston | 115–120 | not_implemented |
-| 23 | wh10-topic26 | 1946 – 1991-yillarda Turkiya, Eron va Afg‘oniston | 120–127 | not_implemented |
-| 24 | wh10-topic27 | 1946 – 1991-yillarda Lotin Amerikasi mamlakatlari | 127–131 | not_implemented |
-| 25 | wh10-topic28 | 1946 – 1991-yillarda Afrika mamlakatlari | 131–137 | not_implemented |
-| 26 | wh10-topic29 | XX asrning ikkinchi yarmida fan va madaniyatning rivojlanishi | 137–141 | not_implemented |
+| 22 | wh10-topic25 | 1946 – 1991-yillarda Hindiston va Pokiston | 115–120 | reviewed_preview_ready |
+| 23 | wh10-topic26 | 1946 – 1991-yillarda Turkiya, Eron va Afg‘oniston | 120–127 | reviewed_preview_ready |
+| 24 | wh10-topic27 | 1946 – 1991-yillarda Lotin Amerikasi mamlakatlari | 127–131 | reviewed_preview_ready |
+| 25 | wh10-topic28 | 1946 – 1991-yillarda Afrika mamlakatlari | 131–137 | reviewed_preview_ready |
+| 26 | wh10-topic29 | XX asrning ikkinchi yarmida fan va madaniyatning rivojlanishi | 137–141 | reviewed_preview_ready |
 
 ### Supporting source records
 

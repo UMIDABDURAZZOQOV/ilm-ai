@@ -1288,3 +1288,33 @@ HTTP exporter first stopped at services import because PYTHONPATH was missing, b
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
 AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch38 — grade10 topics22–26, 2026-10-29
+
+Five lessons add40cards,
+77factrecords,
+30MCQ and
+20objectiveFRQ.
+**190/219 local-preview units**,1431cards,2737factrecords,
+1235MCQ,767FRQ,190self/teacheractivities;**29remain**:
+0/0/29 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |550 passed,1450.02s wall | All40modules,clean shards147/124/157/122;1448.3/1340.87/1085.28/1362.31s |
+| Actual PostgreSQL |1 passed138.01s | Dedicatedschema/parallel/all190units/3800XP/replay |
+| Actual HTTP |6catalogues,2002answers,3800XP | Freshsynthetic900386/UID-specificemail/prerequisites/replay |
+| Target Flutter |404 passed03:41 | All190snapshots/200% theoryMCQ/typedFRQ/catalogueprefixguard |
+| Full Flutter |1013 passed05:10 | Sequential no-pub aftertargeted |
+| Full analysis |0issues72.3s | EntireFlutterworktree |
+| Preservation |687pins and370priorhistoryfiles unchanged | Other-subject/runtime baseline and185priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | E701/E702/F811 excluded for existing compact pytest fixture style; history-only text/noJWTprivateDB/rawscanOCR |
+
+Grade10 all144originals read; final22–26 retain printed25/26/27/28/29 source order and141 final activities. Grade10 coverage is26/26; grade_content_complete reflects coverage only, while course_complete and teacher/native/equivalence acceptance remain false. Grade11 originals1–32 read, firstfive private adaptations strict validated but unindexed/imported.
+Actual widget captures inspected: Unit22 dark theory at200%, unit25 dark feedback at200%, unit26 light FRQ resume with printed29/pages137–138 source. Large text scrollable; response controls in distinct views.52 capture widgets passed00:57.. Prior lesson snapshots
+remain frozen; initial/completed grade10 both26rows. Next five private drafts
+strict validated but unindexed:grade11 topics1–5;Grade9 originals1–160 and grade10 originals1–144 read; grade11 originals1–32 read;grade11 original33 onward next.
+No batch38 test failures. Grade10 catalogue transition test now derives coverage flag from26 implemented topics while retaining course_complete=false, exact row count and initial available/locked states. Prior snapshots remain frozen. No source-validator bypass or other-subject edits.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
+AI/rawsourceupload/realuserreset. Continue without routine permission.
