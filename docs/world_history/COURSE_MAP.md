@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 170; remaining: 49.** Source pages are candidate spans;
+**Reviewed preview lessons: 175; remaining: 44.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -250,11 +250,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 4 | wh10-topic04 | 1918 – 1939-yillarda Fransiya | 16–20 | reviewed_preview_ready |
 | 5 | wh10-topic05 | 1918 – 1939-yillarda Amerika Qo‘shma Shtatlari | 20–25 | reviewed_preview_ready |
 | 6 | wh10-topic06 | 1918 – 1939-yillarda Germaniya | 25–30 | reviewed_preview_ready |
-| 7 | wh10-topic07-08 | 1918 – 1939-yillarda SSSR | 30–37 | not_implemented |
-| 8 | wh10-topic09 | 1918 – 1939-yillarda Italiya va Ispaniya | 37–42 | not_implemented |
-| 9 | wh10-topic10 | 1918 – 1939-yillarda Lotin Amerikasi mamlakatlari | 42–47 | not_implemented |
-| 10 | wh10-topic11 | 1918 – 1939-yillarda Yaponiya | 47–51 | not_implemented |
-| 11 | wh10-topic12 | 1918 – 1939-yillarda Xitoy va Hindiston | 51–57 | not_implemented |
+| 7 | wh10-topic07-08 | 1918 – 1939-yillarda SSSR | 30–37 | reviewed_preview_ready |
+| 8 | wh10-topic09 | 1918 – 1939-yillarda Italiya va Ispaniya | 37–42 | reviewed_preview_ready |
+| 9 | wh10-topic10 | 1918 – 1939-yillarda Lotin Amerikasi mamlakatlari | 42–47 | reviewed_preview_ready |
+| 10 | wh10-topic11 | 1918 – 1939-yillarda Yaponiya | 47–51 | reviewed_preview_ready |
+| 11 | wh10-topic12 | 1918 – 1939-yillarda Xitoy va Hindiston | 51–57 | reviewed_preview_ready |
 | 12 | wh10-topic13 | 1918 – 1939-yillarda Turkiya va Eron | 57–62 | not_implemented |
 | 13 | wh10-topic14 | 1918 – 1939-yillarda Afrika mamlakatlari | 62–67 | not_implemented |
 | 14 | wh10-topic15-16 | Ikkinchi jahon urushi va uning yakunlari | 67–76 | not_implemented |

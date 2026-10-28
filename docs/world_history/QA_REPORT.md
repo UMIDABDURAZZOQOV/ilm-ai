@@ -1198,3 +1198,33 @@ Initial target run passed363/failed1 because the grade9→10 transition expected
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
 AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch35 — grade10 topics7–11, 2026-10-28
+
+Five lessons add40cards,
+83factrecords,
+32MCQ and
+22objectiveFRQ.
+**175/219 local-preview units**,1308cards,2495factrecords,
+1141MCQ,705FRQ,175self/teacheractivities;**44remain**:
+0/15/29 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |510 passed,1906.70s wall | All37modules,clean shards133/112/157/108;1905.19/1741.31/1664.99/1840.48s |
+| Actual PostgreSQL |1 passed212.10s | Dedicatedschema/parallel/all175units/3500XP/replay |
+| Actual HTTP |6catalogues,1846answers,3500XP | Freshsynthetic900356/UID-specificemail/prerequisites/replay |
+| Target Flutter |374 passed05:54 | All175snapshots/200% theoryMCQ/typedFRQ/catalogueprefixguard |
+| Full Flutter |983 passed09:27 | Sequential no-pub aftertargeted |
+| Full analysis |0issues74.9s | EntireFlutterworktree |
+| Preservation |687pins and340priorhistoryfiles unchanged | Other-subject/runtime baseline and170priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | E701/E702/F811 excluded for existing compact pytest fixture style; history-only text/noJWTprivateDB/rawscanOCR |
+
+Original grade10 pages30below–56 reviewed for units7–11. Combined printed7–8 preserved as one teaching unit; no invented chapters. Original image regions, fact digests, finite per-question answers/aliases and source activities validated. War-communism/NEP chronology, Ribbentrop first name, USSR/Japan pact naming/day, Italy institution chronology, unqualified colonial legal status, casualty totals, whole-population judgments and historical-map/current-border conflations held. Invasion1931 and Manchjou-Go proclamation1932 remain separate exact facts. Next five private units12–16 strict passed and unindexed.
+Actual widget captures inspected: grade10 unit7 dark theory200%, unit8 dark MCQ feedback200%, unit11 typed FRQ resume/source.22 capture widgets passed; theory/feedback retain scroll and action button at320x568/200%, FRQ question, printed§12 source and input unobstructed.. Prior lesson snapshots
+remain frozen; initial/completed grade10 both11rows. Next five private drafts
+strict validated but unindexed:grade10 topics12–16;Grade9 originals1–160 and grade10 originals1–105 read;grade10 original106 onward next.
+Private unit7 initially used whole-body scope on original30; strict validation rejected the shared opening. Corrected the unpublished draft to below_topic_heading and reran all five private validations successfully before integration. No validator bypass or old-lesson rewrite.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
+AI/rawsourceupload/realuserreset. Continue without routine permission.

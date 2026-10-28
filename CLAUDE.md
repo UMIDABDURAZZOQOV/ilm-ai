@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch34 has170 local-preview units: all grade6/7/8/9 plus grade10§1–6,
-1268 cards,1109 MCQ,683 objective FRQ;
-49 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch35 grade10 topics7–11; Grade9 originals1–160 and grade10 originals1–87 read; next drafts strictly validated but unindexed;grade10 original88 onward next.
+Batch35 has175 local-preview units: all grade6/7/8/9 plus grade10§1–11,
+1308 cards,1141 MCQ,705 objective FRQ;
+44 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch36 grade10 topics12–16; Grade9 originals1–160 and grade10 originals1–105 read; next drafts strictly validated but unindexed;grade10 original106 onward next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -3031,3 +3031,8 @@ Batch34: 170/219 local-preview units,49 remain; grade10=6/26.
 496 history tests/364 history widgets/973 full Flutter
 pass, analysis0, HTTP1792answers/3400XP and realPG pass.
 Continue batch35 grade10 topics7–11; Grade9 originals1–160 and grade10 originals1–87 read; next drafts strictly validated but unindexed;grade10 original88 onward next; no routine permission needed.
+
+Batch35: 175/219 local-preview units,44 remain; grade10=11/26.
+510 history tests/374 history widgets/983 full Flutter
+pass, analysis0, HTTP1846answers/3500XP and realPG pass.
+Continue batch36 grade10 topics12–16; Grade9 originals1–160 and grade10 originals1–105 read; next drafts strictly validated but unindexed;grade10 original106 onward next; no routine permission needed.
