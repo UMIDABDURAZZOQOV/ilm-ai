@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-27",
+  "backend_content_commit": "51f2e8a71f648f84b151dcdca9fb73a8d54db6af",
+  "flutter_content_commit": "ec6299339d944f4c8a400005338fecfd93387630",
+  "grade7_lessons": 42,
+  "grade8_units": 41,
+  "total_units": 83,
+  "total_source_units": 172,
+  "cards": 644,
+  "questions": 525,
+  "backend_full": "2429 passed, 6 skipped, 2 deselected, 13 warnings in 599.35s (0:09:59)",
+  "selection": "pytest -q -k not-sandbox: two sandbox tests excluded, guards not bypassed",
+  "postgres": "2 passed, 131 deselected in 41.45s",
+  "flutter": "277 passed; history123; analyze0issue",
+  "web": "Debug JavaScript build passed, existing TTS/Wasm dry-run warnings",
+  "android": "not tested: SDK/adb unavailable",
+  "independent_teacher": "not_claimed",
+  "production": "untouched",
+  "publication": "local_test_preview_only",
+  "next_grade": 9,
+  "next_source_numbers": [
+    1
+  ],
+  "next_pdf_page": 5,
+  "logs": {
+    "backend-grade8-full-tests.log": "23b640999592dfbbd204386c69832594e2a9315c925479eb6e37b602232134a6",
+    "grade8-batch8-tests.log": "ede3e4ad110ca38f957114c3de5f331de1260a1fef9fe7639c08fe7788f006e6",
+    "grade8-batch8-postgres.log": "05607eec2438cbdc3de634422d9e06745263202ee40bfdc4466aaae11d4145b1",
+    "grade8-batch8-flutter-full.log": "8d971d3907c268310250ab9f098fe2ab7eb5cb0c2b1d74443ef042551e571ab5",
+    "grade8-batch8-flutter-tests.log": "038e43d10153018cedce465635742d0b28a1e3085217571c1f8649196e6085da",
+    "grade8-batch8-flutter-analyze.log": "51f730e5be40877236c910b573caa0b63f58a382b4ec7b1c87ff014d7b5a4fe9",
+    "grade8-batch8-source-audit.json": "08b82fe15452f370b7a5b604405e6416659c85808e55609ed6ae79a86be11e67",
+    "flutter-grade8-web-build.log": "0e258b63093df95068111eb2e780688810d8578355d1fb49509b9bbbb30a7485"
+  }
+}

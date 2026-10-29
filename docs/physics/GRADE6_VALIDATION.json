@@ -1,0 +1,136 @@
+{
+  "publication": "local_test_preview_only",
+  "independent_expert": "not_claimed",
+  "source_total": 316,
+  "authored": 61,
+  "remaining": 255,
+  "grades": [
+    {
+      "grade": 6,
+      "source_sections": 61,
+      "authored": 61,
+      "remaining": 0,
+      "cards": 254,
+      "formula_entries": 74,
+      "examples": 67,
+      "assessments": 394,
+      "frq": 88,
+      "laboratories": 7,
+      "practicals": 1,
+      "next_section": null
+    },
+    {
+      "grade": 7,
+      "source_sections": 46,
+      "authored": 0,
+      "remaining": 46,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 8,
+      "source_sections": 60,
+      "authored": 0,
+      "remaining": 60,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 9,
+      "source_sections": 59,
+      "authored": 0,
+      "remaining": 59,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 10,
+      "source_sections": 45,
+      "authored": 0,
+      "remaining": 45,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 11,
+      "source_sections": 45,
+      "authored": 0,
+      "remaining": 45,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    }
+  ],
+  "original_page_checks": 138,
+  "date": "2026-10-25",
+  "timezone": "Asia/Tashkent",
+  "review_scope": "source-reviewed authored local/test preview; independent expert approval not claimed",
+  "validation": {
+    "backend_full": {
+      "status": "passed",
+      "passed": 732,
+      "skipped_opt_in_postgres": 4,
+      "existing_warnings": 13,
+      "seconds": 249.54,
+      "note": "Separate actual PostgreSQL run4passed; stale grade_complete expectation fixed and entire suite rerun."
+    },
+    "postgresql16": {
+      "passed": 4,
+      "seconds": 292.04
+    },
+    "flutter": {
+      "passed": 143,
+      "analyze_issues": 0,
+      "web_release_build": true,
+      "web_seconds": 51.5
+    },
+    "localhost_http": {
+      "lessons": 61,
+      "answers": 394,
+      "numeric_oracles": 88,
+      "xp": 610,
+      "replay_equal": true,
+      "private_rubrics_absent_at_start": true
+    },
+    "native_android": "not_tested_no_sdk",
+    "independent_expert": "not_claimed"
+  },
+  "next": {
+    "grade": 7,
+    "section": 1,
+    "pdf_page": 1,
+    "printed_page": 8,
+    "title": "Jismlarning harakati"
+  },
+  "tested_code_commit": "047c639",
+  "flutter_commit": "ac9b3e0"
+}

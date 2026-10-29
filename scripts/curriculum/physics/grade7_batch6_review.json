@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "batch": "grade7_batch6",
+  "date": "2026-10-25",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-7",
+  "book_sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+  "batch_file_sha256": "1c0f3179ef59c4ec58896f268f7bb05efde5716b29109bb181fe861350c3bf66",
+  "review_method": "Original full PDF text and rendered images of every cited page re-read before authoring; original explanations/examples/questions. Independent source-reviewed semantic answer labels, explicit calculation oracles and wrong-answer/domain tests where applicable. Tool records hashes only; it does not claim automatic scientific review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 90,
+      "printed_page": 97,
+      "text_sha256": "0f72512b480f7063f6ea800d2e3d374ed9b1b49d4e0144fde264031d8e1e20f4",
+      "reviewed_render_sha256": "b3506058efa19884cd4dfb6ff982cf0b4a083ebb1a58a91c713d213339cc0710",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 91,
+      "printed_page": 98,
+      "text_sha256": "55859fd192c8f9e4bb5c3e3762a6daee19d19586b7c1e9d6235f7ce373a6f545",
+      "reviewed_render_sha256": "0b01068ddb7e56ca8b623768ddfdcfc18e7d6bdd21a963b8de2cf02bb66d95bc",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 92,
+      "printed_page": 99,
+      "text_sha256": "2ce6ba1e64ad91e3a08a4b73f4f98cc66bc15663b5fef46bce569d4ddf605809",
+      "reviewed_render_sha256": "3f7565d91c75bd385b5735c436d87e9bf238778f02d3fb8af2f1b896aaabea35",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 93,
+      "printed_page": 100,
+      "text_sha256": "c84670e06dd99cdb700e9cef9899d7021253b87f7f0cfb34d867610cafc46245",
+      "reviewed_render_sha256": "6f89f0c4b11ee441341d752b1510fa32f246af9bacc0730ff6a76dedf4e22c0f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 94,
+      "printed_page": 101,
+      "text_sha256": "c88ec61b2817a3d8498641710d956ea096e82d7715c5fc967f0e9346c6208acf",
+      "reviewed_render_sha256": "3d26149b8da53ecc90d1f5e17aa85999f05b8779ac06ab4e3596e71e0c0016b5",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 95,
+      "printed_page": 102,
+      "text_sha256": "7758369ec69530b51c476b449b62a9f37ebfb4e6b824872d8d4d676a1f64ef53",
+      "reviewed_render_sha256": "083d77796a83549c349a821711f2b29c53dc8b24d6d3a6c95b85d6dd2064c0dd",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 96,
+      "printed_page": 103,
+      "text_sha256": "d4e3b7ca12d8c511f8fc290c78016cb824b3a6835dbb0e9e67b96ae6d0b5f680",
+      "reviewed_render_sha256": "8dcc6c486d330310aff605847d96506ce4f367e707b05ad3bf4f65308a64d75f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 97,
+      "printed_page": 104,
+      "text_sha256": "224dc292d6b4925f623fb10f070191272581aca0c90ca560a479434cc672e8b6",
+      "reviewed_render_sha256": "b12bd36d15a4a14d6bff4dd77a7c50fff0258970547fe026d783764beb2dcac7",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 98,
+      "printed_page": 105,
+      "text_sha256": "72b5bf3a45f068921ae24a64968cb34aa47ad03c94dc33f01638b494d529b358",
+      "reviewed_render_sha256": "21b087225796ed5172d5236b496d7a02d80a8790125ca59c7f77c42f5c9b9c5e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 99,
+      "printed_page": 106,
+      "text_sha256": "2b500120a7275999039033569f09e45657e5a4f0cba2a96131bbbb503d18c174",
+      "reviewed_render_sha256": "12ee876b001293db4dc4c469a7135f2671baaefc515349e8490ee6c8d2b7ad85",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 100,
+      "printed_page": 107,
+      "text_sha256": "b3d32c569da349ee5970113853f252085c597cbae2c445a67f6031821f083332",
+      "reviewed_render_sha256": "445568f15f4a910b99a0c2e007c191055570fbaf453b9865c982d914237a810b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 101,
+      "printed_page": 108,
+      "text_sha256": "2bd40c11478dd2aa3b5bd1952544b47423bdc87d1d59b471f11498420d289233",
+      "reviewed_render_sha256": "a76f71a1ebab3a8447b97571a3b83c1393cc7548fc142ebd05dcc27e5f10223b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 102,
+      "printed_page": 109,
+      "text_sha256": "4d906acec43571dc3494d9d6985215287b6cc49c756dcc433a988ac01fa98063",
+      "reviewed_render_sha256": "01a901f70201384f4905242deec9222a609c69670af7944cb15f1f90127805ac",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 103,
+      "printed_page": 110,
+      "text_sha256": "473c7b64bdf435741926f5cdd24e9006d62f3e06b11d934a35c44d19925b506e",
+      "reviewed_render_sha256": "891e681ee9b56469648ae97342d81f5fff9b1e57e1a0e97a6938b4a9d3fd10a8",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 104,
+      "printed_page": 111,
+      "text_sha256": "da92f32a039fbf64958ad646bb162d77cbdad83662e59257016cfa89fc29e65d",
+      "reviewed_render_sha256": "3e12257e510d7be2e1656cef09f5f398b095f82ef396cfae4164c35181f9fe59",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 105,
+      "printed_page": 112,
+      "text_sha256": "c9b3851eb7ac2020d14feb7ce07d85ca6fbb665bbbfaf2007fed5c489fdd6113",
+      "reviewed_render_sha256": "b0bf0f676abb053cca64503f7fa1606299c26ff10dcbcc464aa3f7defe03f3a3",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pdf_pages": [
+        90,
+        91,
+        92,
+        93
+      ],
+      "decision": "G6.67e-11 is supplied textbook approximation, N*m2/kg2 dimension explicitly checked; source alternative1/(1.5e10) is approximate not exact equality. Classical point-mass or external spherically symmetric bodies; arbitrary shapes not universal center-distance formula. Equal NewtonIII force magnitudes with different body accelerations. Source compares surface and Moon centripetal forces without fixing mass; not taught as force ratio independent of test mass. New tiny-force examples use exact Fraction arithmetic from supplied givens."
+    },
+    {
+      "pdf_pages": [
+        93,
+        94,
+        95
+      ],
+      "decision": "Gravity F=mg on body, modelg9.8or10 explicitly supplied. kg and N are not quantities9.8times each other; only numerical values in chosen units. Equal local free-fall acceleration in no-drag model; Earth counteracceleration small, not absent. Existing6-sinf g9.81N/kg branch preserved."
+    },
+    {
+      "pdf_pages": [
+        95,
+        96,
+        97,
+        98
+      ],
+      "decision": "Weight P on support/suspension distinct from Earth force on body. P=mg only zero vertical acceleration/contact. SourcePDF97 calls weight measured kg/g and assumes monotonic spring transient; not copied. Calibrated scale may display mass kg, force remains N. No implied instantaneous settling/damping."
+    },
+    {
+      "pdf_pages": [
+        98,
+        99,
+        100,
+        101
+      ],
+      "decision": "Up/down refers acceleration not velocity. P=m(g+a), P=m(g-a), loadfactor(g+a)/g; downbranch0<=a<=g, no negative unilateral contact. Source adds ma as if separate physical force and labels vector P parallel gravity despite different application bodies; corrected with scalar magnitudes/net-force model. Weightless P0 not gravity0. No falling-car/ride stunt assigned."
+    },
+    {
+      "pdf_pages": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "decision": "Horizontal projection s=v0t not total path; vertical initial0, constantg no drag idealization. gh=GM/(R+h)^2 uses center radius and explicit textbookG, no invented planetary measurement. v²=gr circular orbital identity, g at same radius;7.9km/s is near-surface ideal approximation, not atmospheric launch guarantee. Original orbitalradius FRQ avoids introducing unreviewed sqrt runtime syntax; formula/cards cover speed relation. PDF104 prose g10m/s typo corrected to m/s². Source cutoff exercise not duplicated as another numbered lesson."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 26,
+      "topic_id": "physics-7-section-26",
+      "pdf_pages": [
+        90,
+        91,
+        92,
+        93
+      ],
+      "printed_pages": [
+        97,
+        98,
+        99,
+        100
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 3
+    },
+    {
+      "sequence": 27,
+      "topic_id": "physics-7-section-27",
+      "pdf_pages": [
+        93,
+        94,
+        95
+      ],
+      "printed_pages": [
+        100,
+        101,
+        102
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 3
+    },
+    {
+      "sequence": 28,
+      "topic_id": "physics-7-section-28",
+      "pdf_pages": [
+        95,
+        96,
+        97,
+        98
+      ],
+      "printed_pages": [
+        102,
+        103,
+        104,
+        105
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 5,
+      "frq": 2
+    },
+    {
+      "sequence": 29,
+      "topic_id": "physics-7-section-29",
+      "pdf_pages": [
+        98,
+        99,
+        100,
+        101
+      ],
+      "printed_pages": [
+        105,
+        106,
+        107,
+        108
+      ],
+      "cards": 4,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 4
+    },
+    {
+      "sequence": 30,
+      "topic_id": "physics-7-section-30",
+      "pdf_pages": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "printed_pages": [
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "cards": 4,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 4
+    }
+  ]
+}

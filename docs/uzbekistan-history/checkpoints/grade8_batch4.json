@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-27",
+  "statistics": {
+    "lessons": 62,
+    "cards": 476,
+    "questions": 400,
+    "examples": 62,
+    "reflections": 62,
+    "mcq": 235,
+    "frq": 123,
+    "chronologies": 42
+  },
+  "tests": {
+    "backend": "170 passed, 2 skipped in 83.99s (0:01:23)",
+    "postgres": "2 passed, 108 deselected in 24.47s",
+    "flutter": "01:24 +256: All tests passed!",
+    "flutter_history": "00:11 +102: All tests passed!",
+    "analyze": "No issues found! (ran in 1.5s)",
+    "biology_targeted": "included in current combined backend command: test_biology_curriculum.py + test_biology_segments.py"
+  },
+  "source_audit": {
+    "available_books": 5,
+    "blocked_grades": [],
+    "catalogued_teaching_entries": 172,
+    "all_five_total": 172,
+    "original_pages": 769,
+    "original_heading_images": 172,
+    "interactive_batches": [
+      {
+        "lessons": 5,
+        "cards": 34,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 32,
+        "frq": 10,
+        "chronologies": 2
+      },
+      {
+        "lessons": 5,
+        "cards": 41,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 9,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 31,
+        "frq": 10,
+        "chronologies": 1
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 10,
+        "chronologies": 3
+      },
+      {
+        "lessons": 2,
+        "cards": 18,
+        "assessments": 13,
+        "frq": 4,
+        "chronologies": 1
+      },
+      {
+        "lessons": 5,
+        "cards": 33,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 36,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 3
+      },
+      {
+        "lessons": 5,
+        "cards": 43,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 1
+      }
+    ],
+    "lesson_full_page_images": 224
+  },
+  "course_complete": false,
+  "publication": "local_test_preview_only",
+  "next_grade": 8,
+  "next_sequence": 21,
+  "next_pdf_page": 75
+}

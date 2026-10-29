@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "batch": "grade10_batch4",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-10",
+  "book_sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+  "batch_file_sha256": "02e8f738cabd21ea3004e9859c338edf955005ab008a96930ae933c8cf8d3cf6",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 54,
+      "printed_page": 53,
+      "text_sha256": "f61dc5263f2032d1b1e7426c2f1289d9e979aa4f69ab78db98a43e6bdb34dfc9",
+      "reviewed_render_sha256": "171d4e624d1a056513c1427a2e4116ae15347f5f63eb8ff0868b2df94c83670d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 55,
+      "printed_page": 54,
+      "text_sha256": "fb217a9f5c657e78ad17363b7f1defc9d2c3d2dedf4b141e31263099fa42a440",
+      "reviewed_render_sha256": "240de18d32a36cb8b43181f5879d4c6e11206bb1a95f0f35ba1cb7b1026ec86c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 56,
+      "printed_page": 55,
+      "text_sha256": "7266d00a80b54d68a900a8a6a10d6e33e16cae60704d99ea3148de5da9320acb",
+      "reviewed_render_sha256": "313e01d31f639b6b36949c3290cff09010e0ea61ce3c226b2597e4440117f9b8",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 57,
+      "printed_page": 56,
+      "text_sha256": "28755c83887156a278af044dda700fcccc2ce3fbc466ccded083bb6a49eafa63",
+      "reviewed_render_sha256": "78941961021e2856350ae7f57e7e83fb29aa95fa7cafa8010421a58017e01a4c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 60,
+      "printed_page": 59,
+      "text_sha256": "46cfdc0d0bed48cd6487e6629e12fc3aa5553b7a6faa7b3133fd47fd4ddccb1c",
+      "reviewed_render_sha256": "ea096783bfe6727660b071abc336201624335b8ca25475ed1c4805b2f6a319de",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 61,
+      "printed_page": 60,
+      "text_sha256": "af2f1bf98ba679de744640a366239b46e41429a6ba2f21e0c11d50ef28e81d19",
+      "reviewed_render_sha256": "350ff8abf764723964bae0e14f4cf9ceea384a1baea9c33aed27e23dedece947",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 62,
+      "printed_page": 61,
+      "text_sha256": "cda1f746b1e28216f9f226f9a11199d212ae1762193722dd980e809c6e7acfe6",
+      "reviewed_render_sha256": "b9a61f2684d813255a88b51c1102fe822040c9955b2853b1d4047ca825f379a9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 63,
+      "printed_page": 62,
+      "text_sha256": "e25be93cdae5bddbdf2ce80877f6d8bf04a8a72f73f02dd836e85d1f13b285f6",
+      "reviewed_render_sha256": "4c0f86fc445e27f157e02030da9b07b1d13aa6e3785809a26bf9d5bcba957dac",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 64,
+      "printed_page": 63,
+      "text_sha256": "ea9a89eada0844bc5efbc0f31ec9944d2ae34953e6fed8fac7082228ce491001",
+      "reviewed_render_sha256": "ea8a1b0168df00a3fbcb75611ee10bd35da53fcd64cab367c7cbabdcb6136cc3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 65,
+      "printed_page": 64,
+      "text_sha256": "e04f5f0e7456a70519b25e200b52ae1abd015625756157897c47fd9b3f47d732",
+      "reviewed_render_sha256": "54c8ea6b5a16e9925316ef09ac795f97ded43723a78de9d511739da49e1966fc",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 66,
+      "printed_page": 65,
+      "text_sha256": "79833183c27d5368214ad6d6bf87995d2b019ad5146cc198601ed47eec967395",
+      "reviewed_render_sha256": "4dcfa2c955362af33fc9edf56aa8dbdd5a18c9b9fbad51935b841f5199c59c7d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 67,
+      "printed_page": 66,
+      "text_sha256": "0cd229b75ac313ca08f5ffad1dc4b7f26f1c2412eb84385408cabfec0cdfa8be",
+      "reviewed_render_sha256": "a9e2fa59737e18eb25ccdff93f95e1b0e94e17b0e2e0e0460e428b3ab4ec3c43",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 68,
+      "printed_page": 67,
+      "text_sha256": "4c63cca520b8415a2ba03d2b77aff8e95264482ad7d2fa063ff486402037765c",
+      "reviewed_render_sha256": "04cea2ef3e0c3df5155403089182aef4255d87e0e31a43d08d348777ad978bb1",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 69,
+      "printed_page": 68,
+      "text_sha256": "4775bae3cd76cc915b9c1c2885c369f282b97eef7cbb82d474e900796680212a",
+      "reviewed_render_sha256": "7edcf739aa2f8fa19753283a552403a7cf72c78d1cfaf422100378260c8631a2",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 70,
+      "printed_page": 69,
+      "text_sha256": "37056df8818f5ef3e663a040481b5c6ca80da5e5f10517d72157880ae4cc41e3",
+      "reviewed_render_sha256": "8b5fe4bbbeb5b145f2456edea42e326d04b22a7cd32b0dd33287cb402f42c878",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 71,
+      "printed_page": 70,
+      "text_sha256": "935f35d43b16ff33cbc702214710caac106481fbac00970e5ce9291ae84fc547",
+      "reviewed_render_sha256": "9ced518918f4bbf991f028d44f118a194eb5b23d7f7224feb10c6d98d11cf4ab",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 72,
+      "printed_page": 71,
+      "text_sha256": "e6499055ca7adef81c61446d47373fd4a6b42bb438a3b43551f97bbc6c015e69",
+      "reviewed_render_sha256": "763fd792a93cd1083ce7d526bacaa04e9ac5b470a1c85e98a61e9355863c4ce2",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        54,
+        55,
+        56,
+        57,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "decision": "All17 original images/native hashes reviewed. These scientific authoring decisions were applied to this batch. - §16: tashqi impuls0 va bir o‘qdagi signed tezliklar. Inelastic commonv,\n  elastic1D 3.15 tasvirlari tekshirildi. «Elastic deformatsiya umuman yo‘q»\n  emas; qaytuvchi deformatsiya bilan kinetik energiya tiklanishi farqlandi.\n  PDF56mashq3:6,6t/7,8m/s va200GJ mos emas,7,8km/s bilan mos. Taxminiy\n  birlik almashtirib savol ko‘chirmang. PDF57mashq7 gravitywork−4J,dU+4,\n  dK−4; bosilgan+4gravityworkxato. Mashq8 changeK−3J,loss3J. Signed\n  momentum va energiya balanslari independent oracle bilan tekshirilsin.\n- §17: netF0 umumiy rigidbodyda netmoment0 ni almashtirmaydi. Material\n  nuqta/concurrentforces/translationalbalance doirasi aniq bo‘lsin. Massa\n  markazi haqiqiy massa bitta nuqtada yig‘ilgan degani emas. Uch equilibrium\n  turi restoring/away/zero tangentialforce bilan. PDF62 «ikki arqon o‘zaro\n 60°» lekin PDF63diagram/yechim har biri VERTIKALDAN60° olib100N qiladi;\n  yangi symmetricrope savolida burchak tayanchi/cosPhi aniq berilsin.\n- §18: yelka o‘qdan kuch TA’SIR CHIZIG‘IGACHA tik masofa. Couple M=F*d,\n  d ikki parallel chiziq oralig‘i,2F*d emas. Clockwisepositive bo‘lsa\n  M=F1*l1−F2*l2; PDF64 oxirgiF2l2−F2l2 typo va oldingi ishoralar noizchil.\n  PDF65 b/d diagramlarni textning2/3nomlari bilan ko‘r-ko‘rona tenglamang;\n  fulcrum/effort/load joylashuvi aniq bo‘lsin. F=P/n ideal modelda yukni\n  ushlab turgan IPSEGMENTLAR soni n, ko‘chmas bloklar soni emas.\n- §19: kitob aynan mv²/R markazga intilma kuch haqida; M=I*beta va yangi\n  inertsiya momenti mavzusi qo‘shilmasin. Centrifugal inertialforce bir\n  jismdagi NewtonIII ikkinchi real jufti emas. Inertial/rotating tavsiflar\n  ajratilsin. PDF67 topP geometriyasiz universal emas: ichki vertikalhalqa\n  tepasida N=mv²/R−mg, tashqi convexbridge tepasida N=mg−mv²/R.\n  Sonli contact savolida sirt/o‘q aniq. PDF68R=v²/g faqat N0 chegarasi;\n  ichki halqa contactR<=v²/g, har qanday kontaktda tenglik emas. Chelak\n  aylantirish/moto jismoniy tajribasi topshirilmasin.\n- §20: statsionar/branchsiz mass continuityrho*S*v; incompressible bir xil\n  rho bilan S*v const. Bernoulli same streamline/stationary/ideal/\n  incompressible/no pump/loss shartida; balandlik ham rol o‘ynaydi.\n  «Tezroq oqim har qanday holatda pastroq bosim» universal emas.\n  PDF71F1l1−F2l2 keyingi satrplus typo, to‘g‘ri (p1−p2)*V. Final4.8\n  izchil. Gazda siqiluvchanlikni istalgan tezlikda tashlab yubormang.\n  Reynolds soni manbada yo‘q, sun’iy qo‘shilmang. Pistonmisol m1kg,\n  S100cm²,h1m uchun rho1000,g9.8 bo‘lsa sqrt(21.56)≈4.643m/s,\n  bosilgan4.9emas. Savolda rho/g berilsin, bosim tayanchi absolute/gauge\n  bir xil va fizik jihatdan mumkin bo‘lsin. Pressurised DIY topshiriq yo‘q.\n"
+    },
+    {
+      "pages": [
+        54,
+        55,
+        56,
+        57,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "decision": "Original short content only, no textbook longcopy. Closed1D elasticoracles/momentum+energy, static symmetry anglefromVERTICAL, exactleverarm/clockwisetorque, idealrope integersegments, inside-vs-convex top contact/inequality, Bernoulli stationary/incompressible/same streamline/no loss/givenrho+g and samepressure reference. Sourcecriticalerrs not silently copied; no expert/nativeAndroid/prod or realexperiment claim. Frozenold6–9/Biology406/website/Chemistry unchanged."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 16,
+      "topic_id": "physics-10-section-16",
+      "pdf_pages": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "printed_pages": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "cards": 4,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    },
+    {
+      "sequence": 17,
+      "topic_id": "physics-10-section-17",
+      "pdf_pages": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "printed_pages": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 2
+    },
+    {
+      "sequence": 18,
+      "topic_id": "physics-10-section-18",
+      "pdf_pages": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "printed_pages": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "cards": 4,
+      "formula_rules": 5,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 5
+    },
+    {
+      "sequence": 19,
+      "topic_id": "physics-10-section-19",
+      "pdf_pages": [
+        66,
+        67,
+        68
+      ],
+      "printed_pages": [
+        65,
+        66,
+        67
+      ],
+      "cards": 4,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    },
+    {
+      "sequence": 20,
+      "topic_id": "physics-10-section-20",
+      "pdf_pages": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "printed_pages": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "checkpoint_date_tashkent": "2026-10-27",
+  "backend_content_commit": "7644bec6ff10a0cec60eb2daab7bd9a86b3dcc86",
+  "flutter_commit": "f90637ed39e2a2e58ad7d0601a4a5a0ab8b8501d",
+  "branch": "feat/uzbekistan-history-curriculum",
+  "course_complete": false,
+  "publication": "local_test_preview_only",
+  "statistics": {
+    "lessons": 42,
+    "cards": 325,
+    "examples": 42,
+    "reflections": 42,
+    "mcq": 168,
+    "frq": 83,
+    "chronology": 29,
+    "questions": 280
+  },
+  "source": {
+    "available_books": 4,
+    "available_pdf_pages": 609,
+    "catalogued_topic_groups": 131,
+    "all_five_total": null,
+    "blocked_grades": [
+      8
+    ],
+    "part_batch_page_image_checks": 150,
+    "unique_cited_original_page_images": 148,
+    "require_complete_exit_code": 2
+  },
+  "tests": {
+    "backend": "94 passed, 1 skipped in 23.72s",
+    "postgres": "1 passed, 78 deselected in 14.19s",
+    "flutter": "01:19 +235: All tests passed!",
+    "analyze": "No issues found! (ran in 1.5s)",
+    "legacy_selected": "530 passed in 197.87s (0:03:17)",
+    "legacy_full": "2335 passed, 5 skipped, 2 deselected, 13 warnings in 553.66s (0:09:13)",
+    "flutter_history": "00:08 +81: All tests passed!",
+    "web_build": "debug JS build/web passed; compile-only invalid placeholder, no browser/Android run",
+    "web_limit": "existing flutter_tts JS interop/Wasm dry-run warnings; Wasm not validated",
+    "backend_full_current": "2366 passed, 5 skipped, 2 deselected, 13 warnings in 505.90s (0:08:25)",
+    "sandbox_negative_guard": "1 passed in 0.81s"
+  },
+  "scope": {
+    "sqlite_and_asgi_api": true,
+    "local_postgres_fresh_owned_schema": true,
+    "chapter_completion_markers": 6,
+    "dedicated_checkpoint_quizzes": false,
+    "server_authoritative": true,
+    "once_xp_for_all_grade7_lessons": 420,
+    "initial_existing_test_xp": 137,
+    "final_test_xp": 557,
+    "legacy_protected_files": 552,
+    "normal_mobile_catalog_integrated": false,
+    "android_sdk": false,
+    "android_build": false,
+    "real_android_qa": false,
+    "independent_history_teacher": false,
+    "official_2026_2027_alignment": false,
+    "frontend_modified": false,
+    "production_modified": false,
+    "other_subject_content_modified": false,
+    "world_history_remote_observed_only": "e557c822de76ced5b66f303c4e690053dc643dcd"
+  },
+  "private_log_digests": {
+    "batch9-tests.log": "8cb3884dea91e28c9a15f57cf50ad4971728e969299cbb6c962c511dd7de2310",
+    "postgres-batch9.log": "77fbb66a9509897a0ef2dd031f67822c59b6b4c0748f19d465e9ac8a2e597276",
+    "backend-grade7-full-tests.log": "84f09f07ef5db6e3f591707ef59c8bebb44a3c5609da851c5a7edf60354fe5a0",
+    "sandbox-negative-guard.log": "f9c9506451c8c246d741ba6f531e0c5616255ea5048df68bdc58562afc09939b",
+    "flutter-batch9-tests.log": "54356b045abe1255328934db6e63eb3a21b4eae75ad1cdc5c169c402d9f6fb49",
+    "flutter-batch9-full-tests.log": "8f20612f8d0340a874f8aa63b8befdbce14ad801bd5ee62cc44aa7b3c9f2bb3f",
+    "flutter-batch9-analyze.log": "51f730e5be40877236c910b573caa0b63f58a382b4ec7b1c87ff014d7b5a4fe9",
+    "flutter-grade7-web-build.log": "faada92cd898d8284a4ab05d8c766388b2ae54251f3d5611c05f5c0b5be11fa8",
+    "require-complete-grade7.log": "17ea8d1b1b5ede08fdf803c3bc47d9598f0b3714fe781f545c3577d149c72e13"
+  },
+  "next": {
+    "grade": 8,
+    "topic": null,
+    "pdf_page": null,
+    "blocker": "original supplied PDF exceeds 32 MiB transfer limit; need contiguous smaller source segments"
+  }
+}

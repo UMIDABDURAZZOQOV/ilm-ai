@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "batch": "grade10_batch3",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-10",
+  "book_sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+  "batch_file_sha256": "66ea5ef6c392dff4ceff701aafbd636167464f93bb3d0a46a9b6f0c1cb4da00b",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 36,
+      "printed_page": 35,
+      "text_sha256": "ea152a5aa1a030fd2a2d63b7fa8b02b28f0340b85fcc1c6430ddea61df27a0e6",
+      "reviewed_render_sha256": "7a02703f642156803ae709a8fdcb2230d1eb499b9d47cf978af93f2f310d4b13",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 37,
+      "printed_page": 36,
+      "text_sha256": "a4fd34fcdc6831891513c587adf57f6de3d0f5d54580bedde24fa40b82167089",
+      "reviewed_render_sha256": "6b875ec4e16f28f33064cf5b32fd4325826d94d0a20666669fb5190214c297b9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 38,
+      "printed_page": 37,
+      "text_sha256": "63e4832f71f455ed732a7958495ecd735cc47e5f220e2f0b330ba4bbe1764c84",
+      "reviewed_render_sha256": "2826d95a5f90b771e5efaa73b1a960682b6948ba6edbabd2c9e27e5b19f7aec4",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 39,
+      "printed_page": 38,
+      "text_sha256": "a82f89075209ecb189d4b8412ab46ec82c32983994aaca1f76762913adc88d49",
+      "reviewed_render_sha256": "c27fee359a739afcbd0a709b8574d0dcd246c914078e1bec3979bf7b71c4e152",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 40,
+      "printed_page": 39,
+      "text_sha256": "eff797118369bb50f7fa6ceb5a035ac26fc4b586ba59c5b882986acd4ee5916b",
+      "reviewed_render_sha256": "86faa3c5b5737cce4c121d19b72a4eb1e0a70140214422bde2d9b935ad394083",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 41,
+      "printed_page": 40,
+      "text_sha256": "55c78f86437c2c41722b3f14323f943e327f4fde43e2efa3fb9b4307862a2e83",
+      "reviewed_render_sha256": "cc45ffdc5a20ca01355f31fe991efae0174025c451174c22680879faed8a2faa",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 42,
+      "printed_page": 41,
+      "text_sha256": "26d3008d2bf5479888acdb10a855647f35f4a4fbff39777303c90a1e57ef81e4",
+      "reviewed_render_sha256": "6f13f37c4b234fd6c210238ce99aa002d6cf290450469e32602f1f162c813962",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": 42,
+      "text_sha256": "cd790d141a1674288688e6ad728ea18bf9d03e163e7defee6af9ceb8f5b873a7",
+      "reviewed_render_sha256": "db248ed0c3a063ac906939400b743c66c4f4dfb46d7b1a2db82d00c6fcc87f4f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": 43,
+      "text_sha256": "1faebd508c3f440580c44b2bdb54b4f8deb4098d06f4538c6d49093dbac1a594",
+      "reviewed_render_sha256": "1818b3c0d900cd0a5bd2dc4e058cb6b90c428543354bd87e1ee660405f58df2a",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": 44,
+      "text_sha256": "72e152346b9be8d1731cdf7ffc241391c2226780fb581c32b38429c16abd995c",
+      "reviewed_render_sha256": "c5f22a3e18750f9d30ddb9f9b2d5e7135d28426382609daead1c8ef1073c3f7c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 48,
+      "printed_page": 47,
+      "text_sha256": "41f0e80fff19925b8017ee26c722f2e742b190ba94e570e6c5ab26876fd5b12b",
+      "reviewed_render_sha256": "159e7a14c1d8c449066299a3312df41f3fe43c6d12b18d0d850912deb8bada6b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 49,
+      "printed_page": 48,
+      "text_sha256": "3247a7992ea1371d174fd19ee12b08caa6b2c2316c7401930ac7ded2bff09827",
+      "reviewed_render_sha256": "e84b0aa898f2bb9d4b7aa60303ebec9b55e39dc7ac7197ba54aae1c3c87e42ac",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 50,
+      "printed_page": 49,
+      "text_sha256": "92c93fa95639eba3390f90dbe5fd9e9c4b34f68b68a85598d66ee739edcc153e",
+      "reviewed_render_sha256": "a265dc2a8fe21116e5c2ccba17a2f9a748696aefbc00f2ce1fa142ef12717d8c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": 50,
+      "text_sha256": "128e2967e282316fa66bd2fb02c4fc6844ffb918f4788641601f0499e301376c",
+      "reviewed_render_sha256": "6c6e32ab92baaa4d61241baa997a872c1f1fc8a341fc6b9260b40260431005e1",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": 51,
+      "text_sha256": "745b61993e7d7764818f4f81710b4be142408a8efce5d7a2ab6b5b6854c0c746",
+      "reviewed_render_sha256": "00c2214fae154e37e815a8d88e370550632d8585904678fdf55673523aac9d31",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 53,
+      "printed_page": 52,
+      "text_sha256": "4198d4369b2583c0b805d234fa5d8028f93168d3559de05e1d3d048cf3e6e942",
+      "reviewed_render_sha256": "cdad415d2d5a1fda8231d3c5df059074ba0221a2a01821410d7eb6c36f9751dc",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        36,
+        37,
+        38
+      ],
+      "decision": "Original circular field formulas/image read. In inertial frame gravity provides centripetal acceleration, not canceled by extra real centrifugal force. v²=g*r requires LOCAL g at radius r; surface g arbitraryheight notconstant. T=T1*sqrt((r/R)^3) from eq2.6; r center radius, h=r-R. Source38 h=6.6R≈42000km confuses center radius with altitude; no erroneous numeric key authored. 24h period alone not arbitrary geostationary orbit. Drag at300–400km not identicallyzero forever. Conditionalnewnumbers and exact roots; no launchinstructions."
+    },
+    {
+      "pages": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "decision": "Support P modulus distinct gravitational mg and mass. Dependence on ACCELERATION not velocity direction; upwardmoving braking can accelerationdown. Freefall P0 notgravity0/mass0. Contactdown a<=g. P/mg load vsinverse mg/P decrease factor distinguished. Sourcevector P=m(g-a) interpretedvia explicitly chosen scalar magnitudes, not mixed signedvectors. No universal medical perceptionthreshold copied."
+    },
+    {
+      "pages": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "decision": "Net force on SAME body. STATICfriction f<=mu_s*N, notalwayssaturated. Equalitytan=mu_s notguaranteedacceleratingmotion; numericramp alreadySLIDINGwithKINETICmu provided. Exactsuppliedsin/cos pair, negativeaccel can mean deceleration. IdealAtwoodmasslessinextensiblerope,pulleyinertia/frictionneglected,m2>m1. Source2.14sum masses used; every Newtonbalancecheckedindependently. Source44exercise3 alpha=tgalpha and45exercise8accelerationanswer1kg notcopied. Operationalroof/launcher/pulleysetupnotassigned."
+    },
+    {
+      "pages": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "decision": "WorkFpr*s signed, positiveprojectionnotnecessarilyparallel. Totalworks on SAMEdisplacement; source49mixedDeltaSindicesnotcopied. Gravityworkmg(h1-h2) signed. MechanicalE=K+U constantONLYconservative/noexternalnonconservativework, notallfrictionprocesses; totalenergyvsmechanicaldistinct. RampCONSTANTSPEED/parallelpull/kineticmu. Source52eq3.9lastline missingh dimension;3.10correcthasmgh. NewAt=mgh(1+mu*cotA),eta=1/(1+mu*cotA),F=mg(sin+mu*cos) finalscalar3.12verified. Suppliedcotvsangle, root/fractionfinalgrid exact. Idealeta1allowed, no fakeenergygain."
+    },
+    {
+      "pages": [
+        52,
+        53
+      ],
+      "decision": "DigitalFIKlabconditionalP/F/h/lonly, norealmeasurementclaim. h<=l andpositiveinputs,useful<=totalguard,At=F*l,Af=P*h. Existing oldrules reused withpublics=l/F=P explicitlystated. Percentagepoint.01 mapsfractiongrid.0001; exact8/11and2/3canonicalroundedexpectednottruth. Nolivelaboperationalsteps."
+    },
+    {
+      "pages": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "decision": "All16wholePDFnativehashesmatched;actualoriginalimagesre-read including source44eq2.15detail, no uncertain index typo declaredasfact. WholePDFidentityunchanged,printed=PDF-1. Originalshortcards/problems, independentoracles, no expert/nativeAndroid/productionclaim; frozen6–9/Biology406/web/Chemistry preserved."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 11,
+      "topic_id": "physics-10-section-11",
+      "pdf_pages": [
+        36,
+        37,
+        38
+      ],
+      "printed_pages": [
+        35,
+        36,
+        37
+      ],
+      "cards": 4,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 12,
+      "topic_id": "physics-10-section-12",
+      "pdf_pages": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "printed_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "cards": 4,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    },
+    {
+      "sequence": 13,
+      "topic_id": "physics-10-section-13",
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "printed_pages": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    },
+    {
+      "sequence": 14,
+      "topic_id": "physics-10-section-14",
+      "pdf_pages": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "printed_pages": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "cards": 5,
+      "formula_rules": 6,
+      "worked_examples": 1,
+      "assessments": 10,
+      "frq": 6
+    },
+    {
+      "sequence": 15,
+      "topic_id": "physics-10-section-15",
+      "pdf_pages": [
+        52,
+        53
+      ],
+      "printed_pages": [
+        51,
+        52
+      ],
+      "cards": 4,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    }
+  ]
+}

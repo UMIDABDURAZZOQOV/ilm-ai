@@ -1,0 +1,4528 @@
+{
+  "schema_version": 2,
+  "subject": "fizika",
+  "language": "uz",
+  "grade": 6,
+  "publication": "local_test_preview_only",
+  "ai_explain": false,
+  "source_review_date": "2026-10-25",
+  "lessons": [
+    {
+      "key": "physics-6-section-57-r1",
+      "topic_id": "physics-6-section-57",
+      "sequence": 57,
+      "revision": 1,
+      "title": "Tovush manbalari va uni qabul qilgichlar",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-6",
+          "topic_id": "physics-6-section-57",
+          "chapter_id": "physics-6-chapter-7",
+          "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+          "file_name": "fizika_6_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            156,
+            157,
+            158
+          ],
+          "printed_pages": [
+            156,
+            157,
+            158
+          ],
+          "page_text_sha256": [
+            "9165640fd90daf1c501b298957dde64cc3b8c7b085f09de4bfa70131eb69a319",
+            "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1",
+            "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "vibrate": {
+          "claim": "Darslikdagi chizg‘ich, karnay pardasi va kamerton tovush chiqarayotganda tebranadi. Tovush manbaini tovushni qabul qilayotgan quloq yoki mikrofondan ajratamiz. Har qanday ko‘rinadigan tebranish inson eshitadigan tovush beradi deb olmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                156,
+                157,
+                158
+              ],
+              "printed_pages": [
+                156,
+                157,
+                158
+              ],
+              "page_text_sha256": [
+                "9165640fd90daf1c501b298957dde64cc3b8c7b085f09de4bfa70131eb69a319",
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1",
+                "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+              ]
+            }
+          ]
+        },
+        "frequency": {
+          "claim": "Chastota bir sekundga to‘g‘ri keladigan tebranishlar soni. n ta to‘liq tebranish t sekundda kuzatilsa nu=n/t. Birlik Hz:1Hz sekundiga bitta tebranishni bildiradi. n — sanalgan butun son, t>0.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157
+              ],
+              "printed_pages": [
+                157
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+              ]
+            }
+          ]
+        },
+        "range": {
+          "claim": "Kitob eshitish uchun taxminiy16–20000Hz oralig‘ini keltiradi, lekin keyingi sahifa odamlarning sezgirligi bir xil emasligini aytadi.20kHz dan yuqori ultratovush deb ataladi. Bu dars shaxsiy eshitish testi yoki kuchli tovushni sinashni talab qilmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157,
+                158
+              ],
+              "printed_pages": [
+                157,
+                158
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1",
+                "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+              ]
+            }
+          ]
+        },
+        "receiver": {
+          "claim": "Quloqdagi parda tovush ta’sirida tebranadi va signal miyaga uzatiladi. Mikrofonda tovush tebranishi elektr signaliga aylantiriladi. Kamerton aniq chastotali manba; rezonator tovushni kuchliroq eshittirishga yordam beradi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157,
+                158
+              ],
+              "printed_pages": [
+                157,
+                158
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1",
+                "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Tovush manbaidagi tebranish",
+          "body": "Darslikdagi chizg‘ich, karnay pardasi va kamerton tovush chiqarayotganda tebranadi. Tovush manbaini tovushni qabul qilayotgan quloq yoki mikrofondan ajratamiz. Har qanday ko‘rinadigan tebranish inson eshitadigan tovush beradi deb olmaymiz.",
+          "fact_ids": [
+            "vibrate"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                156,
+                157,
+                158
+              ],
+              "printed_pages": [
+                156,
+                157,
+                158
+              ],
+              "page_text_sha256": [
+                "9165640fd90daf1c501b298957dde64cc3b8c7b085f09de4bfa70131eb69a319",
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1",
+                "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bir sekunddagi tebranishlar",
+          "body": "Chastota bir sekundga to‘g‘ri keladigan tebranishlar soni. n ta to‘liq tebranish t sekundda kuzatilsa nu=n/t. Birlik Hz:1Hz sekundiga bitta tebranishni bildiradi. n — sanalgan butun son, t>0.",
+          "fact_ids": [
+            "frequency"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157
+              ],
+              "printed_pages": [
+                157
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Eshitish diapazoni shaxsga bog‘liq",
+          "body": "Kitob eshitish uchun taxminiy16–20000Hz oralig‘ini keltiradi, lekin keyingi sahifa odamlarning sezgirligi bir xil emasligini aytadi.20kHz dan yuqori ultratovush deb ataladi. Bu dars shaxsiy eshitish testi yoki kuchli tovushni sinashni talab qilmaydi.",
+          "fact_ids": [
+            "range"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157,
+                158
+              ],
+              "printed_pages": [
+                157,
+                158
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1",
+                "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quloq va mikrofon",
+          "body": "Quloqdagi parda tovush ta’sirida tebranadi va signal miyaga uzatiladi. Mikrofonda tovush tebranishi elektr signaliga aylantiriladi. Kamerton aniq chastotali manba; rezonator tovushni kuchliroq eshittirishga yordam beradi.",
+          "fact_ids": [
+            "receiver"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157,
+                158
+              ],
+              "printed_pages": [
+                157,
+                158
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1",
+                "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "rule": "frequency_count",
+          "title": "Sanalgan tebranishlar chastotasi",
+          "expression": "nu = n / t",
+          "body": "n to‘liq musbat butun tebranishlar soni, t sekund; nu Hz.",
+          "fact_ids": [
+            "frequency"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157
+              ],
+              "printed_pages": [
+                157
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Original tebranish qaydi",
+          "body": "2 sekund ichida600 ta to‘liq tebranish qayd etildi.",
+          "steps": [
+            {
+              "body": "nu=n/t=600/2=300 Hz.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-57",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    157
+                  ],
+                  "printed_pages": [
+                    157
+                  ],
+                  "page_text_sha256": [
+                    "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "600 — jami son,300 esa bir sekundga to‘g‘ri keladigan son.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-57",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    157
+                  ],
+                  "printed_pages": [
+                    157
+                  ],
+                  "page_text_sha256": [
+                    "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Jami tebranish bilan chastotani almashtirmaymiz.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-57",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    157
+                  ],
+                  "printed_pages": [
+                    157
+                  ],
+                  "page_text_sha256": [
+                    "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "frequency"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157
+              ],
+              "printed_pages": [
+                157
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-6-section-57-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Tovush chiqarayotgan kamertonda qaysi hodisa muhim?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Shoxchalarning tebranishi"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat bo‘yoq rangining o‘zgarishi"
+              },
+              {
+                "id": "o3",
+                "label": "Manbaning butunlay yo‘qolishi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "vibrate"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157
+              ],
+              "printed_pages": [
+                157
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Tovush chiqaruvchi manbada tebranish bor.",
+              "incorrect": "Yana o‘ylab ko‘r: Tovush chiqaruvchi manbada tebranish bor."
+            },
+            "solution": [
+              {
+                "body": "Tovush chiqaruvchi manbada tebranish bor.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-57",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      157
+                    ],
+                    "printed_pages": [
+                      157
+                    ],
+                    "page_text_sha256": [
+                      "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-57-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Tovushni elektr signaliga aylantiradigan qabul qilgich qaysi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Oddiy manbasiz richag"
+              },
+              {
+                "id": "o2",
+                "label": "Mikrofon"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat chizg‘ichning uzunligi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "receiver"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                158
+              ],
+              "printed_pages": [
+                158
+              ],
+              "page_text_sha256": [
+                "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Mikrofon tovush tebranishini elektr signaliga aylantiradi.",
+              "incorrect": "Yana o‘ylab ko‘r: Mikrofon tovush tebranishini elektr signaliga aylantiradi."
+            },
+            "solution": [
+              {
+                "body": "Mikrofon tovush tebranishini elektr signaliga aylantiradi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-57",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      158
+                    ],
+                    "printed_pages": [
+                      158
+                    ],
+                    "page_text_sha256": [
+                      "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-57-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "25000Hz chastotali tovush qaysi guruhga kiradi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Har bir inson albatta eshitadigan"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat bir sekund"
+              },
+              {
+                "id": "o3",
+                "label": "Ultratovush"
+              }
+            ]
+          },
+          "fact_ids": [
+            "range"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157
+              ],
+              "printed_pages": [
+                157
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Bu chastota20kHz dan yuqori.",
+              "incorrect": "Yana o‘ylab ko‘r: Bu chastota20kHz dan yuqori."
+            },
+            "solution": [
+              {
+                "body": "Bu chastota20kHz dan yuqori.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-57",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      157
+                    ],
+                    "printed_pages": [
+                      157
+                    ],
+                    "page_text_sha256": [
+                      "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-57-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Bir xil tovushni hamma odam bir xil sezadimi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Yo‘q, eshitish sezgirligi farq qiladi"
+              },
+              {
+                "id": "o2",
+                "label": "Ha, har bir odam aynan bir xil eshitadi"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat mikrofonlar farq qiladi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "range"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                158
+              ],
+              "printed_pages": [
+                158
+              ],
+              "page_text_sha256": [
+                "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Manba yosh va individual sezgirlik farqlarini ajratadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Manba yosh va individual sezgirlik farqlarini ajratadi."
+            },
+            "solution": [
+              {
+                "body": "Manba yosh va individual sezgirlik farqlarini ajratadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-57",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      158
+                    ],
+                    "printed_pages": [
+                      158
+                    ],
+                    "page_text_sha256": [
+                      "86427aae72c54f3699c4a1e740b2eca755036630b28af83f60528599f33dbd7b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-57-r1:q5",
+          "response_kind": "numeric_quantity",
+          "phase": "guided",
+          "public": {
+            "prompt": "t=3 s ichida n=900 ta to‘liq tebranish qayd etildi. nu chastotani top.",
+            "givens": [
+              {
+                "symbol": "n",
+                "value": "900",
+                "unit": "1"
+              },
+              {
+                "symbol": "t",
+                "value": "3",
+                "unit": "s"
+              }
+            ],
+            "symbols": [
+              "n",
+              "t"
+            ],
+            "suggested_unit": "Hz",
+            "unit_choices": [
+              "Hz",
+              "kHz"
+            ]
+          },
+          "fact_ids": [
+            "frequency"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157
+              ],
+              "printed_pages": [
+                157
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "frequency_count",
+            "formula": {
+              "target": "nu",
+              "variables": [
+                "n",
+                "t"
+              ],
+              "equivalents": [
+                "n/t",
+                "n*t^-1"
+              ],
+              "conditions": "n musbat butun tebranishlar soni, t>0 sekund; PDF157."
+            },
+            "expected_si": "300",
+            "dimension": "frequency",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "nu=n/t=900/3=300 Hz.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-57",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      157
+                    ],
+                    "printed_pages": [
+                      157
+                    ],
+                    "page_text_sha256": [
+                      "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-57-r1:q6",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Mustaqil qayd: n=1200 ta to‘liq tebranish, t=2 s. Chastotani Hz yoki kHz da yoz.",
+            "givens": [
+              {
+                "symbol": "n",
+                "value": "1200",
+                "unit": "1"
+              },
+              {
+                "symbol": "t",
+                "value": "2",
+                "unit": "s"
+              }
+            ],
+            "symbols": [
+              "n",
+              "t"
+            ],
+            "suggested_unit": "Hz",
+            "unit_choices": [
+              "Hz",
+              "kHz"
+            ]
+          },
+          "fact_ids": [
+            "frequency"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-57",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                157
+              ],
+              "printed_pages": [
+                157
+              ],
+              "page_text_sha256": [
+                "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "frequency_count",
+            "formula": {
+              "target": "nu",
+              "variables": [
+                "n",
+                "t"
+              ],
+              "equivalents": [
+                "n/t",
+                "n*t^-1"
+              ],
+              "conditions": "n musbat butun tebranishlar soni, t>0 sekund; PDF157."
+            },
+            "expected_si": "600",
+            "dimension": "frequency",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "nu=n/t=1200/2=600 Hz=0,6 kHz.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-57",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      157
+                    ],
+                    "printed_pages": [
+                      157
+                    ],
+                    "page_text_sha256": [
+                      "de54aab5415ebd03caf28a350bfbb95154d0f1d2c26cfc00874ee01b1cbff2b1"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-6-section-58-r1",
+      "topic_id": "physics-6-section-58",
+      "sequence": 58,
+      "revision": 1,
+      "title": "Tovushning turli muhitlarda tarqalishi",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-6",
+          "topic_id": "physics-6-section-58",
+          "chapter_id": "physics-6-chapter-7",
+          "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+          "file_name": "fizika_6_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            159,
+            160,
+            161
+          ],
+          "printed_pages": [
+            159,
+            160,
+            161
+          ],
+          "page_text_sha256": [
+            "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445",
+            "f25fd2a5b2271c7bf2f33bcd623079df9c9d19949dca60f927909b7b1585b5d7",
+            "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "medium": {
+          "claim": "Shisha qalpoq ostidan havo chiqarilganda soat tovushi pasayishi tovush uchun moddiy muhit zarurligini ko‘rsatadi. Ideal vakuumda tovush tarqalmaydi. Havoda siqilish va kengayishlar atrofga uzatiladi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ]
+        },
+        "speed": {
+          "claim": "Darslik20°C havo uchun343m/s misolini beradi; tezlik temperatura va muhitga bog‘liq. Suv va qattiq jismlar ham tovush o‘tkazadi. Faqat zichlikka qarab har qanday ikki muhit tezligini tartiblash universal qonun emas.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159,
+                160
+              ],
+              "printed_pages": [
+                159,
+                160
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445",
+                "f25fd2a5b2271c7bf2f33bcd623079df9c9d19949dca60f927909b7b1585b5d7"
+              ]
+            }
+          ]
+        },
+        "delay": {
+          "claim": "Yorug‘lik tovushdan ancha tez keladi, shu sabab chaqmoqning ovozi keyin eshitiladi. Bir xil muhitda berilgan tezlik uchun s=v*t va t=s/v ishlatiladi. Har masalada aynan qaysi muhit va vaqt berilganini ajratamiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ]
+        },
+        "solid": {
+          "claim": "Kitobdagi tarang ipli o‘yinchoq telefonda tovush tebranishi ip orqali uzatiladi. Bu qattiq jismlar ham tovush o‘tkazishini ko‘rsatadi. Dars poyezd relsiga quloq tutishni yoki suv tagida tajriba qilishni topshirmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                160
+              ],
+              "printed_pages": [
+                160
+              ],
+              "page_text_sha256": [
+                "f25fd2a5b2271c7bf2f33bcd623079df9c9d19949dca60f927909b7b1585b5d7"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Tarqalish uchun muhit kerak",
+          "body": "Shisha qalpoq ostidan havo chiqarilganda soat tovushi pasayishi tovush uchun moddiy muhit zarurligini ko‘rsatadi. Ideal vakuumda tovush tarqalmaydi. Havoda siqilish va kengayishlar atrofga uzatiladi.",
+          "fact_ids": [
+            "medium"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tezlik va sharoit",
+          "body": "Darslik20°C havo uchun343m/s misolini beradi; tezlik temperatura va muhitga bog‘liq. Suv va qattiq jismlar ham tovush o‘tkazadi. Faqat zichlikka qarab har qanday ikki muhit tezligini tartiblash universal qonun emas.",
+          "fact_ids": [
+            "speed"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159,
+                160
+              ],
+              "printed_pages": [
+                159,
+                160
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445",
+                "f25fd2a5b2271c7bf2f33bcd623079df9c9d19949dca60f927909b7b1585b5d7"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chaqmoq oldin ko‘rinadi",
+          "body": "Yorug‘lik tovushdan ancha tez keladi, shu sabab chaqmoqning ovozi keyin eshitiladi. Bir xil muhitda berilgan tezlik uchun s=v*t va t=s/v ishlatiladi. Har masalada aynan qaysi muhit va vaqt berilganini ajratamiz.",
+          "fact_ids": [
+            "delay"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Qattiq jismdagi uzatish",
+          "body": "Kitobdagi tarang ipli o‘yinchoq telefonda tovush tebranishi ip orqali uzatiladi. Bu qattiq jismlar ham tovush o‘tkazishini ko‘rsatadi. Dars poyezd relsiga quloq tutishni yoki suv tagida tajriba qilishni topshirmaydi.",
+          "fact_ids": [
+            "solid"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                160
+              ],
+              "printed_pages": [
+                160
+              ],
+              "page_text_sha256": [
+                "f25fd2a5b2271c7bf2f33bcd623079df9c9d19949dca60f927909b7b1585b5d7"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "rule": "motion_distance",
+          "title": "Berilgan muhitdagi tovush yo‘li",
+          "expression": "s = v * t",
+          "body": "v shu muhit/sharoit uchun berilgan; bu bir tomon tarqalish yo‘li.",
+          "fact_ids": [
+            "delay",
+            "speed"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "motion_time",
+          "title": "Bir tomon tarqalish vaqti",
+          "expression": "t = s / v",
+          "body": "v>0; muhit bo‘ylab s yo‘l.",
+          "fact_ids": [
+            "delay"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Original havo modeli",
+          "body": "20°C havo uchun berilgan v=343m/s modelida tovush2s yuradi.",
+          "steps": [
+            {
+              "body": "s=v*t=343 × 2=686m.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-58",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    159
+                  ],
+                  "printed_pages": [
+                    159
+                  ],
+                  "page_text_sha256": [
+                    "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Bu qiymat aynan berilgan havo modeli uchun.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-58",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    159
+                  ],
+                  "printed_pages": [
+                    159
+                  ],
+                  "page_text_sha256": [
+                    "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Uni har qanday suv yoki metallga qo‘llamaymiz.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-58",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    159
+                  ],
+                  "printed_pages": [
+                    159
+                  ],
+                  "page_text_sha256": [
+                    "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "speed",
+            "delay"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-6-section-58-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Ideal vakuumda soat tovushi nega tarqalmaydi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Tebranishni uzatuvchi moddiy muhit yo‘q"
+              },
+              {
+                "id": "o2",
+                "label": "Yorug‘lik albatta yo‘q"
+              },
+              {
+                "id": "o3",
+                "label": "Soatning rasmi ko‘rinmaydi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "medium"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Mexanik tovush moddiy muhit orqali uzatiladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Mexanik tovush moddiy muhit orqali uzatiladi."
+            },
+            "solution": [
+              {
+                "body": "Mexanik tovush moddiy muhit orqali uzatiladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-58",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      159
+                    ],
+                    "printed_pages": [
+                      159
+                    ],
+                    "page_text_sha256": [
+                      "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-58-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Chaqmoq yorug‘i ovozidan oldin kelishining sababi nima?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Tovush har doim vakuumda tezroq"
+              },
+              {
+                "id": "o2",
+                "label": "Yorug‘lik havodagi tovushdan ancha tezroq"
+              },
+              {
+                "id": "o3",
+                "label": "Ikkalasining tezligi albatta teng"
+              }
+            ]
+          },
+          "fact_ids": [
+            "delay"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Masofa bir xil bo‘lsa sekinroq signal keyin keladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Masofa bir xil bo‘lsa sekinroq signal keyin keladi."
+            },
+            "solution": [
+              {
+                "body": "Masofa bir xil bo‘lsa sekinroq signal keyin keladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-58",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      159
+                    ],
+                    "printed_pages": [
+                      159
+                    ],
+                    "page_text_sha256": [
+                      "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-58-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Tarang ipli telefon qaysi fikrni ko‘rsatadi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Tovush faqat gazda bo‘ladi"
+              },
+              {
+                "id": "o2",
+                "label": "Vakuum doim tovushni kuchaytiradi"
+              },
+              {
+                "id": "o3",
+                "label": "Qattiq jism ham tovush tebranishini uzatadi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "solid"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                160
+              ],
+              "printed_pages": [
+                160
+              ],
+              "page_text_sha256": [
+                "f25fd2a5b2271c7bf2f33bcd623079df9c9d19949dca60f927909b7b1585b5d7"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Ip uzatish muhiti bo‘lib xizmat qiladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Ip uzatish muhiti bo‘lib xizmat qiladi."
+            },
+            "solution": [
+              {
+                "body": "Ip uzatish muhiti bo‘lib xizmat qiladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-58",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      160
+                    ],
+                    "printed_pages": [
+                      160
+                    ],
+                    "page_text_sha256": [
+                      "f25fd2a5b2271c7bf2f33bcd623079df9c9d19949dca60f927909b7b1585b5d7"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-58-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "343m/s qiymatini qaysi mazmunda ishlatamiz?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "20°C havo uchun berilgan model sifatida"
+              },
+              {
+                "id": "o2",
+                "label": "Hamma muhit uchun o‘zgarmas konstanta"
+              },
+              {
+                "id": "o3",
+                "label": "Har qanday metall zichligi sifatida"
+              }
+            ]
+          },
+          "fact_ids": [
+            "speed"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Tezlik sharoit va materialga bog‘liq.",
+              "incorrect": "Yana o‘ylab ko‘r: Tezlik sharoit va materialga bog‘liq."
+            },
+            "solution": [
+              {
+                "body": "Tezlik sharoit va materialga bog‘liq.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-58",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      159
+                    ],
+                    "printed_pages": [
+                      159
+                    ],
+                    "page_text_sha256": [
+                      "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-58-r1:q5",
+          "response_kind": "numeric_quantity",
+          "phase": "guided",
+          "public": {
+            "prompt": "20°C havo modeli: v=343m/s, t=4s. Bir tomon tarqalgan tovush yo‘lini top.",
+            "givens": [
+              {
+                "symbol": "v",
+                "value": "343",
+                "unit": "m/s"
+              },
+              {
+                "symbol": "t",
+                "value": "4",
+                "unit": "s"
+              }
+            ],
+            "symbols": [
+              "v",
+              "t"
+            ],
+            "suggested_unit": "m",
+            "unit_choices": [
+              "m",
+              "cm",
+              "mm",
+              "nm"
+            ]
+          },
+          "fact_ids": [
+            "delay",
+            "speed"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "motion_distance",
+            "formula": {
+              "target": "s",
+              "variables": [
+                "v",
+                "t"
+              ],
+              "equivalents": [
+                "v*t",
+                "t*v"
+              ],
+              "conditions": "v tekis harakat tezligi, t vaqt; yoki butun oraliqning berilgan o‘rtacha tezligi; PDF51."
+            },
+            "expected_si": "1372",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "s=v*t=343 × 4=1372m.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-58",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      159
+                    ],
+                    "printed_pages": [
+                      159
+                    ],
+                    "page_text_sha256": [
+                      "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-58-r1:q6",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Shu modelda s=1029m, v=343m/s. Bir tomon tarqalish vaqtini top.",
+            "givens": [
+              {
+                "symbol": "s",
+                "value": "1029",
+                "unit": "m"
+              },
+              {
+                "symbol": "v",
+                "value": "343",
+                "unit": "m/s"
+              }
+            ],
+            "symbols": [
+              "s",
+              "v"
+            ],
+            "suggested_unit": "s",
+            "unit_choices": [
+              "s",
+              "min",
+              "h"
+            ]
+          },
+          "fact_ids": [
+            "delay"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-58",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                159
+              ],
+              "printed_pages": [
+                159
+              ],
+              "page_text_sha256": [
+                "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "motion_time",
+            "formula": {
+              "target": "t",
+              "variables": [
+                "s",
+                "v"
+              ],
+              "equivalents": [
+                "s/v",
+                "s*v^-1"
+              ],
+              "conditions": "s yo‘l, v>0 tezlik; PDF51,3-mashq7."
+            },
+            "expected_si": "3",
+            "dimension": "time",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "t=s/v=1029/343=3s.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-58",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      159
+                    ],
+                    "printed_pages": [
+                      159
+                    ],
+                    "page_text_sha256": [
+                      "d75ffe2604347d029f5bd4373aca87d8f25c341412023ebf7ba4cf4e29e88445"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-6-section-59-r1",
+      "topic_id": "physics-6-section-59",
+      "sequence": 59,
+      "revision": 1,
+      "title": "Tovush kattaliklari",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-6",
+          "topic_id": "physics-6-section-59",
+          "chapter_id": "physics-6-chapter-7",
+          "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+          "file_name": "fizika_6_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            161,
+            162,
+            163
+          ],
+          "printed_pages": [
+            161,
+            162,
+            163
+          ],
+          "page_text_sha256": [
+            "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969",
+            "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b",
+            "55faaebee9f2e6895f8b3fb5723520b8daa2ee220023ed74e0c95b7c436083a0"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "amplitude": {
+          "claim": "Tebranishda muvozanatdan eng katta chetlashish amplituda deyiladi. Bir xil manba va taqqoslanadigan sharoitda kattaroq amplituda kuchliroq tovushga mos. Qattiqlikni tonning ingichkaligi bilan almashtirmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                161
+              ],
+              "printed_pages": [
+                161
+              ],
+              "page_text_sha256": [
+                "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969"
+              ]
+            }
+          ]
+        },
+        "pitch": {
+          "claim": "Bu darsda balandlik — tonning yo‘g‘on yoki ingichkaligi. Chastota kattalashsa ton ingichkaroq bo‘ladi. Bu ma’nodagi balandlikni kundalik «ovozni balandlatish», ya’ni qattiqlikni oshirish bilan adashtirmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                162
+              ],
+              "printed_pages": [
+                162
+              ],
+              "page_text_sha256": [
+                "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+              ]
+            }
+          ]
+        },
+        "timbre": {
+          "claim": "Bir xil asosiy tondagi turli cholg‘ularni tembr orqali ajratish mumkin. Asosiy ton bilan birga yuqoriroq chastotali tarkiblar va ularning kuchi ovoz rangini belgilaydi. Faqat bitta chastota soni barcha ovoz xususiyatini bermaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                162
+              ],
+              "printed_pages": [
+                162
+              ],
+              "page_text_sha256": [
+                "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+              ]
+            }
+          ]
+        },
+        "direction": {
+          "claim": "Rupor tovushni ma’lum yo‘nalishda kuchliroq eshittirishga xizmat qiladi. Bu dars qattiq tovush yoki og‘riq chegarasini amalda sinashni talab qilmaydi. Shaxsiy eshitish va og‘riq sezgirligini bitta universal son bilan kafolatlamaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                161
+              ],
+              "printed_pages": [
+                161
+              ],
+              "page_text_sha256": [
+                "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Amplituda va qattiqlik",
+          "body": "Tebranishda muvozanatdan eng katta chetlashish amplituda deyiladi. Bir xil manba va taqqoslanadigan sharoitda kattaroq amplituda kuchliroq tovushga mos. Qattiqlikni tonning ingichkaligi bilan almashtirmaymiz.",
+          "fact_ids": [
+            "amplitude"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                161
+              ],
+              "printed_pages": [
+                161
+              ],
+              "page_text_sha256": [
+                "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Baland ton chastotaga bog‘liq",
+          "body": "Bu darsda balandlik — tonning yo‘g‘on yoki ingichkaligi. Chastota kattalashsa ton ingichkaroq bo‘ladi. Bu ma’nodagi balandlikni kundalik «ovozni balandlatish», ya’ni qattiqlikni oshirish bilan adashtirmaymiz.",
+          "fact_ids": [
+            "pitch"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                162
+              ],
+              "printed_pages": [
+                162
+              ],
+              "page_text_sha256": [
+                "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bir notada ham turli tembr",
+          "body": "Bir xil asosiy tondagi turli cholg‘ularni tembr orqali ajratish mumkin. Asosiy ton bilan birga yuqoriroq chastotali tarkiblar va ularning kuchi ovoz rangini belgilaydi. Faqat bitta chastota soni barcha ovoz xususiyatini bermaydi.",
+          "fact_ids": [
+            "timbre"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                162
+              ],
+              "printed_pages": [
+                162
+              ],
+              "page_text_sha256": [
+                "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Yo‘naltirish va xavfsiz kuzatish",
+          "body": "Rupor tovushni ma’lum yo‘nalishda kuchliroq eshittirishga xizmat qiladi. Bu dars qattiq tovush yoki og‘riq chegarasini amalda sinashni talab qilmaydi. Shaxsiy eshitish va og‘riq sezgirligini bitta universal son bilan kafolatlamaymiz.",
+          "fact_ids": [
+            "direction"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                161
+              ],
+              "printed_pages": [
+                161
+              ],
+              "page_text_sha256": [
+                "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [],
+      "examples": [
+        {
+          "title": "Ikki boshqa o‘zgarish",
+          "body": "Bir tovush avval kuchliroq, ikkinchi safar esa ingichkaroq bo‘ldi.",
+          "steps": [
+            {
+              "body": "Kuchliroq eshitilish qattiqlik/amplituda bilan bog‘liq.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-59",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    161,
+                    162
+                  ],
+                  "printed_pages": [
+                    161,
+                    162
+                  ],
+                  "page_text_sha256": [
+                    "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969",
+                    "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Ingichkaroq ton chastota bilan bog‘liq.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-59",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    161,
+                    162
+                  ],
+                  "printed_pages": [
+                    161,
+                    162
+                  ],
+                  "page_text_sha256": [
+                    "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969",
+                    "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Bu ikki o‘zgarish bir xil fizik kattalik emas.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-59",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    161,
+                    162
+                  ],
+                  "printed_pages": [
+                    161,
+                    162
+                  ],
+                  "page_text_sha256": [
+                    "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969",
+                    "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "amplitude",
+            "pitch"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                161,
+                162
+              ],
+              "printed_pages": [
+                161,
+                162
+              ],
+              "page_text_sha256": [
+                "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969",
+                "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-6-section-59-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Muvozanatdan eng katta chetlashish nima?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Amplituda"
+              },
+              {
+                "id": "o2",
+                "label": "Chastota birligi"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat tembr nomi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "amplitude"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                161
+              ],
+              "printed_pages": [
+                161
+              ],
+              "page_text_sha256": [
+                "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Amplituda chetlashish kattaligidir.",
+              "incorrect": "Yana o‘ylab ko‘r: Amplituda chetlashish kattaligidir."
+            },
+            "solution": [
+              {
+                "body": "Amplituda chetlashish kattaligidir.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-59",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      161
+                    ],
+                    "printed_pages": [
+                      161
+                    ],
+                    "page_text_sha256": [
+                      "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-59-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Chastota ortsa, bu darsdagi ton balandligi qanday o‘zgaradi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Har doim yo‘g‘onlashadi"
+              },
+              {
+                "id": "o2",
+                "label": "Ingichkaroq bo‘ladi"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat jism massasi o‘zgaradi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "pitch"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                162
+              ],
+              "printed_pages": [
+                162
+              ],
+              "page_text_sha256": [
+                "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Ton balandligi chastota bilan bog‘liq.",
+              "incorrect": "Yana o‘ylab ko‘r: Ton balandligi chastota bilan bog‘liq."
+            },
+            "solution": [
+              {
+                "body": "Ton balandligi chastota bilan bog‘liq.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-59",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      162
+                    ],
+                    "printed_pages": [
+                      162
+                    ],
+                    "page_text_sha256": [
+                      "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-59-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Bir xil notadagi rubob va skripkani ajratishga nima yordam beradi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat korpusning yozuvi"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat tovushning yo‘qolishi"
+              },
+              {
+                "id": "o3",
+                "label": "Tembr"
+              }
+            ]
+          },
+          "fact_ids": [
+            "timbre"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                162
+              ],
+              "printed_pages": [
+                162
+              ],
+              "page_text_sha256": [
+                "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Tarkibiy tebranishlar va ularning kuchi ovoz rangini farqlaydi.",
+              "incorrect": "Yana o‘ylab ko‘r: Tarkibiy tebranishlar va ularning kuchi ovoz rangini farqlaydi."
+            },
+            "solution": [
+              {
+                "body": "Tarkibiy tebranishlar va ularning kuchi ovoz rangini farqlaydi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-59",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      162
+                    ],
+                    "printed_pages": [
+                      162
+                    ],
+                    "page_text_sha256": [
+                      "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-59-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Ruporning bu mavzudagi vazifasi qanday?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Tovushni yo‘naltirish"
+              },
+              {
+                "id": "o2",
+                "label": "Chastotani doim nol qilish"
+              },
+              {
+                "id": "o3",
+                "label": "Yorug‘likni sindirish"
+              }
+            ]
+          },
+          "fact_ids": [
+            "direction"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                161
+              ],
+              "printed_pages": [
+                161
+              ],
+              "page_text_sha256": [
+                "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Tovush tarqalish yo‘nalishini boshqarish kuchliroq eshitilishga yordam beradi.",
+              "incorrect": "Yana o‘ylab ko‘r: Tovush tarqalish yo‘nalishini boshqarish kuchliroq eshitilishga yordam beradi."
+            },
+            "solution": [
+              {
+                "body": "Tovush tarqalish yo‘nalishini boshqarish kuchliroq eshitilishga yordam beradi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-59",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      161
+                    ],
+                    "printed_pages": [
+                      161
+                    ],
+                    "page_text_sha256": [
+                      "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-59-r1:q5",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "«Kuchliroq» va «ingichkaroq» tovush haqida to‘g‘ri fikr qaysi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Har doim aynan bitta kattalik"
+              },
+              {
+                "id": "o2",
+                "label": "Qattiqlik va ton balandligi alohida xususiyatlar"
+              },
+              {
+                "id": "o3",
+                "label": "Ikkalasi ham faqat uzunlik birligi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "amplitude",
+            "pitch"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-59",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                161,
+                162
+              ],
+              "printed_pages": [
+                161,
+                162
+              ],
+              "page_text_sha256": [
+                "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969",
+                "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Amplituda bilan chastotani farqlaymiz.",
+              "incorrect": "Yana o‘ylab ko‘r: Amplituda bilan chastotani farqlaymiz."
+            },
+            "solution": [
+              {
+                "body": "Amplituda bilan chastotani farqlaymiz.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-59",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      161,
+                      162
+                    ],
+                    "printed_pages": [
+                      161,
+                      162
+                    ],
+                    "page_text_sha256": [
+                      "35dd265ce3583e090a6b48b326718541fb5e41c3d891209f623d986b3dc82969",
+                      "648dc272877fa3e60c0f1a1d69107c30ddaf96f934115514c8743b1498b6126b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-6-section-60-r1",
+      "topic_id": "physics-6-section-60",
+      "sequence": 60,
+      "revision": 1,
+      "title": "Tovushning qaytishi. Aks sado",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-6",
+          "topic_id": "physics-6-section-60",
+          "chapter_id": "physics-6-chapter-7",
+          "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+          "file_name": "fizika_6_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            163,
+            164,
+            165
+          ],
+          "printed_pages": [
+            163,
+            164,
+            165
+          ],
+          "page_text_sha256": [
+            "55faaebee9f2e6895f8b3fb5723520b8daa2ee220023ed74e0c95b7c436083a0",
+            "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d",
+            "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "echo": {
+          "claim": "Devor yoki boshqa chegaradan qaytgan tovush kechikib alohida eshitilsa aks sado deyiladi. Yopiq zalda ko‘p qaytishlar jaranglashni ham hosil qiladi. Aniq eshitilish masofa, muhit va kuzatuvga bog‘liq;20m barcha sharoit uchun qat’iy chegara emas.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                163
+              ],
+              "printed_pages": [
+                163
+              ],
+              "page_text_sha256": [
+                "55faaebee9f2e6895f8b3fb5723520b8daa2ee220023ed74e0c95b7c436083a0"
+              ]
+            }
+          ]
+        },
+        "roundtrip": {
+          "claim": "Manba va qabul qilgich bir joyda bo‘lgan oddiy exolot modelida tovush tubga h yo‘l borib, yana h yo‘l qaytadi. Jami yo‘l2h=v*t; bir tomon masofa h=v*t/2. t — aynan borish-qaytish vaqti.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ]
+        },
+        "applications": {
+          "claim": "Exolot suv chuqurligi yoki qaytaruvchi jismgacha masofani tovush yordamida o‘rganadi. Metall ichidagi bo‘shliq ham qaytgan signalni o‘zgartirishi mumkin. Raqamli hisob haqiqiy dengiz yoki tibbiy tekshiruv bajarildi degani emas.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ]
+        },
+        "onedirection": {
+          "claim": "Chaqmoq yorug‘i bilan ovozi orasidagi kechikishda tovush faqat manbadan kuzatuvchiga keladi: s=v*t. Bu vaqt aks sadodagi borish-qaytish emas. Yorug‘lik kelish vaqti bu taxminiy hisobda e’tiborsiz olinadi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Qaytgan tovush",
+          "body": "Devor yoki boshqa chegaradan qaytgan tovush kechikib alohida eshitilsa aks sado deyiladi. Yopiq zalda ko‘p qaytishlar jaranglashni ham hosil qiladi. Aniq eshitilish masofa, muhit va kuzatuvga bog‘liq;20m barcha sharoit uchun qat’iy chegara emas.",
+          "fact_ids": [
+            "echo"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                163
+              ],
+              "printed_pages": [
+                163
+              ],
+              "page_text_sha256": [
+                "55faaebee9f2e6895f8b3fb5723520b8daa2ee220023ed74e0c95b7c436083a0"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Borish va qaytish yo‘li",
+          "body": "Manba va qabul qilgich bir joyda bo‘lgan oddiy exolot modelida tovush tubga h yo‘l borib, yana h yo‘l qaytadi. Jami yo‘l2h=v*t; bir tomon masofa h=v*t/2. t — aynan borish-qaytish vaqti.",
+          "fact_ids": [
+            "roundtrip"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Signal bilan izlash",
+          "body": "Exolot suv chuqurligi yoki qaytaruvchi jismgacha masofani tovush yordamida o‘rganadi. Metall ichidagi bo‘shliq ham qaytgan signalni o‘zgartirishi mumkin. Raqamli hisob haqiqiy dengiz yoki tibbiy tekshiruv bajarildi degani emas.",
+          "fact_ids": [
+            "applications"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chaqmoq va aks sadoni ajratish",
+          "body": "Chaqmoq yorug‘i bilan ovozi orasidagi kechikishda tovush faqat manbadan kuzatuvchiga keladi: s=v*t. Bu vaqt aks sadodagi borish-qaytish emas. Yorug‘lik kelish vaqti bu taxminiy hisobda e’tiborsiz olinadi.",
+          "fact_ids": [
+            "onedirection"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "rule": "echo_distance",
+          "title": "Aks sadodan bir tomon masofa",
+          "expression": "h = v * t / 2",
+          "body": "Manba/qabul qilgich bir joyda, bir xil muhit, t borish-qaytish.",
+          "fact_ids": [
+            "roundtrip"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "motion_distance",
+          "title": "Bir tomon chaqmoq masofasi",
+          "expression": "s = v * t",
+          "body": "Faqat tovush kelish kechikishi, yorug‘lik vaqti e’tiborsiz.",
+          "fact_ids": [
+            "onedirection"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Original exolot qaydi",
+          "body": "Bir xil suv muhitida v=1500m/s, signal yuborilib qaytguncha t=0,8s.",
+          "steps": [
+            {
+              "body": "Jami yo‘l=v*t=1200m.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-60",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    164
+                  ],
+                  "printed_pages": [
+                    164
+                  ],
+                  "page_text_sha256": [
+                    "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Tubgacha h=1200/2=600m.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-60",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    164
+                  ],
+                  "printed_pages": [
+                    164
+                  ],
+                  "page_text_sha256": [
+                    "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "1200m ni chuqurlik deyish ikki tomon yo‘lni aralashtirishdir.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-60",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    164
+                  ],
+                  "printed_pages": [
+                    164
+                  ],
+                  "page_text_sha256": [
+                    "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "roundtrip"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-6-section-60-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Exolotdagi qaytish vaqti qaysi yo‘lga tegishli?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat tubdan sirtgacha"
+              },
+              {
+                "id": "o2",
+                "label": "Borish va qaytishning jami yo‘liga"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat manba qutisining uzunligiga"
+              }
+            ]
+          },
+          "fact_ids": [
+            "roundtrip"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Signal h boradi va h qaytadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Signal h boradi va h qaytadi."
+            },
+            "solution": [
+              {
+                "body": "Signal h boradi va h qaytadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-60",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      164
+                    ],
+                    "printed_pages": [
+                      164
+                    ],
+                    "page_text_sha256": [
+                      "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-60-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Qaytgan tovushni o‘lchab chuqurlikni aniqlaydigan asbob qaysi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Exolot"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat voltmetr"
+              },
+              {
+                "id": "o3",
+                "label": "Termometr"
+              }
+            ]
+          },
+          "fact_ids": [
+            "applications"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Exolot ultratovush qaytishidan foydalanadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Exolot ultratovush qaytishidan foydalanadi."
+            },
+            "solution": [
+              {
+                "body": "Exolot ultratovush qaytishidan foydalanadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-60",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      164
+                    ],
+                    "printed_pages": [
+                      164
+                    ],
+                    "page_text_sha256": [
+                      "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-60-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Chaqmoq bilan tovush kechikishini hisoblashda nima uchun har doim2ga bo‘lmaymiz?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Tovush tezligi cheksizligi uchun"
+              },
+              {
+                "id": "o2",
+                "label": "Chunki barcha vaqtlar bir xil"
+              },
+              {
+                "id": "o3",
+                "label": "Bu vaziyatda bir tomon kelish vaqti berilgani uchun"
+              }
+            ]
+          },
+          "fact_ids": [
+            "onedirection"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Ikki tomon modeli faqat yuborilgan va qaytgan signal uchun.",
+              "incorrect": "Yana o‘ylab ko‘r: Ikki tomon modeli faqat yuborilgan va qaytgan signal uchun."
+            },
+            "solution": [
+              {
+                "body": "Ikki tomon modeli faqat yuborilgan va qaytgan signal uchun.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-60",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      164
+                    ],
+                    "printed_pages": [
+                      164
+                    ],
+                    "page_text_sha256": [
+                      "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-60-r1:q4",
+          "response_kind": "numeric_quantity",
+          "phase": "guided",
+          "public": {
+            "prompt": "Oddiy exolot: v=1500m/s, t=0,6s borish-qaytish vaqti. Tubgacha h masofani top.",
+            "givens": [
+              {
+                "symbol": "v",
+                "value": "1500",
+                "unit": "m/s"
+              },
+              {
+                "symbol": "t",
+                "value": "0.6",
+                "unit": "s"
+              }
+            ],
+            "symbols": [
+              "v",
+              "t"
+            ],
+            "suggested_unit": "m",
+            "unit_choices": [
+              "m",
+              "cm",
+              "mm",
+              "nm"
+            ]
+          },
+          "fact_ids": [
+            "roundtrip"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "echo_distance",
+            "formula": {
+              "target": "h",
+              "variables": [
+                "v",
+                "t"
+              ],
+              "equivalents": [
+                "v*t/2",
+                "0.5*v*t"
+              ],
+              "conditions": "t borish-qaytish vaqti; bir xil muhitda v>0; h bir tomon masofa; PDF164."
+            },
+            "expected_si": "450",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "h=v*t/2=1500 × 0,6/2=450m.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-60",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      164
+                    ],
+                    "printed_pages": [
+                      164
+                    ],
+                    "page_text_sha256": [
+                      "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-60-r1:q5",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Havodagi qaytgan signal t=1,2s dan keyin olindi; v=340m/s. Manba/qabul qilgich bir joyda. Devorgacha h ni top.",
+            "givens": [
+              {
+                "symbol": "v",
+                "value": "340",
+                "unit": "m/s"
+              },
+              {
+                "symbol": "t",
+                "value": "1.2",
+                "unit": "s"
+              }
+            ],
+            "symbols": [
+              "v",
+              "t"
+            ],
+            "suggested_unit": "m",
+            "unit_choices": [
+              "m",
+              "cm",
+              "mm",
+              "nm"
+            ]
+          },
+          "fact_ids": [
+            "roundtrip"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "echo_distance",
+            "formula": {
+              "target": "h",
+              "variables": [
+                "v",
+                "t"
+              ],
+              "equivalents": [
+                "v*t/2",
+                "0.5*v*t"
+              ],
+              "conditions": "t borish-qaytish vaqti; bir xil muhitda v>0; h bir tomon masofa; PDF164."
+            },
+            "expected_si": "204",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "h=340 × 1,2/2=204m.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-60",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      164
+                    ],
+                    "printed_pages": [
+                      164
+                    ],
+                    "page_text_sha256": [
+                      "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-60-r1:q6",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Chaqmoq ko‘ringach ovoz t=4s da keldi. Berilgan v=340m/s, yorug‘lik vaqti e’tiborsiz. Bir tomon s masofani top.",
+            "givens": [
+              {
+                "symbol": "v",
+                "value": "340",
+                "unit": "m/s"
+              },
+              {
+                "symbol": "t",
+                "value": "4",
+                "unit": "s"
+              }
+            ],
+            "symbols": [
+              "v",
+              "t"
+            ],
+            "suggested_unit": "m",
+            "unit_choices": [
+              "m",
+              "cm",
+              "mm",
+              "nm"
+            ]
+          },
+          "fact_ids": [
+            "onedirection"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-60",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                164
+              ],
+              "printed_pages": [
+                164
+              ],
+              "page_text_sha256": [
+                "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "motion_distance",
+            "formula": {
+              "target": "s",
+              "variables": [
+                "v",
+                "t"
+              ],
+              "equivalents": [
+                "v*t",
+                "t*v"
+              ],
+              "conditions": "v tekis harakat tezligi, t vaqt; yoki butun oraliqning berilgan o‘rtacha tezligi; PDF51."
+            },
+            "expected_si": "1360",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "s=v*t=340 × 4=1360m.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-60",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      164
+                    ],
+                    "printed_pages": [
+                      164
+                    ],
+                    "page_text_sha256": [
+                      "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                    ]
+                  }
+                ]
+              },
+              {
+                "body": "Bu aks sado vaqti emas,2ga bo‘linmaydi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-60",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      164
+                    ],
+                    "printed_pages": [
+                      164
+                    ],
+                    "page_text_sha256": [
+                      "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-6-section-61-r1",
+      "topic_id": "physics-6-section-61",
+      "sequence": 61,
+      "revision": 1,
+      "title": "Musiqiy tovushlar va shovqinlar. Tovush va salomatlik. Me’morchilikda tovush",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-6",
+          "topic_id": "physics-6-section-61",
+          "chapter_id": "physics-6-chapter-7",
+          "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+          "file_name": "fizika_6_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            165,
+            166,
+            167
+          ],
+          "printed_pages": [
+            165,
+            166,
+            167
+          ],
+          "page_text_sha256": [
+            "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b",
+            "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063",
+            "c4c00dc56e2d4d12aed0cb9c25c0318ec800a1ac1033f234d1e4ef987d0a4c7d"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "instruments": {
+          "claim": "Darslik karnay/fleytada havo ustuni, rubob/skripkada tor, doira/barabanda membrana tebranishini ajratadi. Turli manbalarda tovush hosil bo‘lishining umumiy tomoni tebranishdir.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                165
+              ],
+              "printed_pages": [
+                165
+              ],
+              "page_text_sha256": [
+                "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b"
+              ]
+            }
+          ]
+        },
+        "health": {
+          "claim": "Tovushning yoqimli yoki yoqimsiz bahosi tinglovchiga bog‘liq, lekin juda qattiq tovush salomatlikka salbiy ta’sir qilishi mumkin. «Yoqadi, demak istalgan kuchda xavfsiz» xulosasi yo‘q. Bu dars tovush sinovini ijro etmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                165,
+                166
+              ],
+              "printed_pages": [
+                165,
+                166
+              ],
+              "page_text_sha256": [
+                "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b",
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ]
+        },
+        "absorb": {
+          "claim": "Tovush yutish koeffitsiyenti alpha=Ea/Ei: Ea yutilgan, Ei tushgan tovush energiyasi. Ei>0 va0≤Ea≤Ei, shuning uchun0≤alpha≤1. Jadval aynan500Hz va ko‘rsatilgan material/qalinliklarga tegishli; har bir tovush uchun doimiy qiymat emas.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ]
+        },
+        "architecture": {
+          "claim": "Me’morchilik akustikasi tovush tarqalishi, qaytishi va yutilishini hisobga oladi. Kerakli ovozni eshittirish va keraksiz jarang/shovqinni kamaytirish birga ko‘riladi. Har qanday tuxumsimon ship barcha o‘rindiqqa bir xil yo‘l beradi degan universal qoida qo‘llanmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Cholg‘ulardagi tebranuvchi qism",
+          "body": "Darslik karnay/fleytada havo ustuni, rubob/skripkada tor, doira/barabanda membrana tebranishini ajratadi. Turli manbalarda tovush hosil bo‘lishining umumiy tomoni tebranishdir.",
+          "fact_ids": [
+            "instruments"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                165
+              ],
+              "printed_pages": [
+                165
+              ],
+              "page_text_sha256": [
+                "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Yoqimli musiqa ham ortiqcha bo‘lishi mumkin",
+          "body": "Tovushning yoqimli yoki yoqimsiz bahosi tinglovchiga bog‘liq, lekin juda qattiq tovush salomatlikka salbiy ta’sir qilishi mumkin. «Yoqadi, demak istalgan kuchda xavfsiz» xulosasi yo‘q. Bu dars tovush sinovini ijro etmaydi.",
+          "fact_ids": [
+            "health"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                165,
+                166
+              ],
+              "printed_pages": [
+                165,
+                166
+              ],
+              "page_text_sha256": [
+                "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b",
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Yutilgan energiya nisbati",
+          "body": "Tovush yutish koeffitsiyenti alpha=Ea/Ei: Ea yutilgan, Ei tushgan tovush energiyasi. Ei>0 va0≤Ea≤Ei, shuning uchun0≤alpha≤1. Jadval aynan500Hz va ko‘rsatilgan material/qalinliklarga tegishli; har bir tovush uchun doimiy qiymat emas.",
+          "fact_ids": [
+            "absorb"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Zalni loyihalash",
+          "body": "Me’morchilik akustikasi tovush tarqalishi, qaytishi va yutilishini hisobga oladi. Kerakli ovozni eshittirish va keraksiz jarang/shovqinni kamaytirish birga ko‘riladi. Har qanday tuxumsimon ship barcha o‘rindiqqa bir xil yo‘l beradi degan universal qoida qo‘llanmaydi.",
+          "fact_ids": [
+            "architecture"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "rule": "sound_absorption",
+          "title": "Tovush energiyasining yutilgan ulushi",
+          "expression": "alpha = Ea / Ei",
+          "body": "Ei>0,0≤Ea≤Ei; mos birlikdagi energiya va ayni kuzatuv.",
+          "fact_ids": [
+            "absorb"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Original yutilish hisobi",
+          "body": "Shartli sirtga20J tovush energiyasi tushib,5J yutilgan.",
+          "steps": [
+            {
+              "body": "alpha=Ea/Ei=5/20=0,25.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-61",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    166
+                  ],
+                  "printed_pages": [
+                    166
+                  ],
+                  "page_text_sha256": [
+                    "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Bu25% yutilish demakdir.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-61",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    166
+                  ],
+                  "printed_pages": [
+                    166
+                  ],
+                  "page_text_sha256": [
+                    "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Bu natija butun bino shovqini har joyda aynan25% kamayganini isbotlamaydi.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-61",
+                  "chapter_id": "physics-6-chapter-7",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    166
+                  ],
+                  "printed_pages": [
+                    166
+                  ],
+                  "page_text_sha256": [
+                    "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "absorb",
+            "architecture"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-6-section-61-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Doira tovushida asosan qaysi qism tebranadi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Tarang membrana"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat elektr toki o‘lchagichi"
+              },
+              {
+                "id": "o3",
+                "label": "Yassi ko‘zgu"
+              }
+            ]
+          },
+          "fact_ids": [
+            "instruments"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                165
+              ],
+              "printed_pages": [
+                165
+              ],
+              "page_text_sha256": [
+                "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Doira membranali cholg‘u misolidir.",
+              "incorrect": "Yana o‘ylab ko‘r: Doira membranali cholg‘u misolidir."
+            },
+            "solution": [
+              {
+                "body": "Doira membranali cholg‘u misolidir.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-61",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      165
+                    ],
+                    "printed_pages": [
+                      165
+                    ],
+                    "page_text_sha256": [
+                      "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-61-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Yoqimli kuyni istalgan darajada qattiq qo‘yish haqida qaysi fikr mos?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Yoqsa zarar bo‘lishi mumkin emas"
+              },
+              {
+                "id": "o2",
+                "label": "Juda qattiq tovush ham salbiy ta’sir qilishi mumkin"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat shovqin deb nomlangan tovush zararli"
+              }
+            ]
+          },
+          "fact_ids": [
+            "health"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                165,
+                166
+              ],
+              "printed_pages": [
+                165,
+                166
+              ],
+              "page_text_sha256": [
+                "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b",
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Yoqimlilik xavfsizlik kafolati emas.",
+              "incorrect": "Yana o‘ylab ko‘r: Yoqimlilik xavfsizlik kafolati emas."
+            },
+            "solution": [
+              {
+                "body": "Yoqimlilik xavfsizlik kafolati emas.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-61",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      165,
+                      166
+                    ],
+                    "printed_pages": [
+                      165,
+                      166
+                    ],
+                    "page_text_sha256": [
+                      "6c0ff2c1a5e37ad2412be3d68d05cf5224b667517767f663cae2d984afdd191b",
+                      "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-61-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "500Hz uchun berilgan yutilish jadvalini qanday ishlatamiz?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Har qanday chastotada aynan bir xil deb"
+              },
+              {
+                "id": "o2",
+                "label": "Barcha qalinlik uchun yagona son deb"
+              },
+              {
+                "id": "o3",
+                "label": "Ko‘rsatilgan chastota va material sharoiti uchun"
+              }
+            ]
+          },
+          "fact_ids": [
+            "absorb"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Yutilish material, qalinlik va chastotaga bog‘liq bo‘lishi mumkin.",
+              "incorrect": "Yana o‘ylab ko‘r: Yutilish material, qalinlik va chastotaga bog‘liq bo‘lishi mumkin."
+            },
+            "solution": [
+              {
+                "body": "Yutilish material, qalinlik va chastotaga bog‘liq bo‘lishi mumkin.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-61",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      166
+                    ],
+                    "printed_pages": [
+                      166
+                    ],
+                    "page_text_sha256": [
+                      "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-61-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Me’morchilik akustikasida nima hisobga olinadi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Tovush tarqalishi, qaytishi va yutilishi"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat bino bo‘yog‘ining nomi"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat elektr zaryadining ishorasi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "architecture"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Zal eshitilishi va shovqinini boshqarish shu jarayonlar bilan bog‘liq.",
+              "incorrect": "Yana o‘ylab ko‘r: Zal eshitilishi va shovqinini boshqarish shu jarayonlar bilan bog‘liq."
+            },
+            "solution": [
+              {
+                "body": "Zal eshitilishi va shovqinini boshqarish shu jarayonlar bilan bog‘liq.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-61",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      166
+                    ],
+                    "printed_pages": [
+                      166
+                    ],
+                    "page_text_sha256": [
+                      "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-61-r1:q5",
+          "response_kind": "numeric_quantity",
+          "phase": "guided",
+          "public": {
+            "prompt": "Shartli sirt: Ei=40J tushgan, Ea=12J yutilgan tovush energiyasi. alpha ulushini top, birlik1 yoki% ishlat.",
+            "givens": [
+              {
+                "symbol": "Ea",
+                "value": "12",
+                "unit": "J"
+              },
+              {
+                "symbol": "Ei",
+                "value": "40",
+                "unit": "J"
+              }
+            ],
+            "symbols": [
+              "Ea",
+              "Ei"
+            ],
+            "suggested_unit": "%",
+            "unit_choices": [
+              "1",
+              "%"
+            ]
+          },
+          "fact_ids": [
+            "absorb"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "sound_absorption",
+            "formula": {
+              "target": "alpha",
+              "variables": [
+                "Ea",
+                "Ei"
+              ],
+              "equivalents": [
+                "Ea/Ei",
+                "Ea*Ei^-1"
+              ],
+              "conditions": "Ei>0 tushgan,0<=Ea<=Ei yutilgan energiya, bir xil kuzatuv; PDF166."
+            },
+            "expected_si": "0.3",
+            "dimension": "dimensionless",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "alpha=Ea/Ei=12/40=0,3=30%.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-61",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      166
+                    ],
+                    "printed_pages": [
+                      166
+                    ],
+                    "page_text_sha256": [
+                      "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-61-r1:q6",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Mustaqil shartli qayd: Ei=80J, Ea=20J. Yutilish koeffitsiyentini top.",
+            "givens": [
+              {
+                "symbol": "Ea",
+                "value": "20",
+                "unit": "J"
+              },
+              {
+                "symbol": "Ei",
+                "value": "80",
+                "unit": "J"
+              }
+            ],
+            "symbols": [
+              "Ea",
+              "Ei"
+            ],
+            "suggested_unit": "1",
+            "unit_choices": [
+              "1",
+              "%"
+            ]
+          },
+          "fact_ids": [
+            "absorb"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-61",
+              "chapter_id": "physics-6-chapter-7",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                166
+              ],
+              "printed_pages": [
+                166
+              ],
+              "page_text_sha256": [
+                "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "sound_absorption",
+            "formula": {
+              "target": "alpha",
+              "variables": [
+                "Ea",
+                "Ei"
+              ],
+              "equivalents": [
+                "Ea/Ei",
+                "Ea*Ei^-1"
+              ],
+              "conditions": "Ei>0 tushgan,0<=Ea<=Ei yutilgan energiya, bir xil kuzatuv; PDF166."
+            },
+            "expected_si": "0.25",
+            "dimension": "dimensionless",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "alpha=20/80=0,25=25%.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-61",
+                    "chapter_id": "physics-6-chapter-7",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      166
+                    ],
+                    "printed_pages": [
+                      166
+                    ],
+                    "page_text_sha256": [
+                      "f9560576b2333c19806f390f456818a3efaa6fd32c923d54842cd17e5e4d6063"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

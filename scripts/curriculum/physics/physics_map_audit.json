@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-21",
+  "branch": "feat/physics-curriculum-map",
+  "preserved_commit": "29e7d1e796267d59e320c6bb39809b365daca37c",
+  "scope": "available_section_mapping_and_selected_formula_transcriptions_not_full_scientific_approval",
+  "private_sources_stored_in_git": false,
+  "report": {
+    "status": "available_section_maps_complete_full_formula_review_pending",
+    "ready_lessons": 0,
+    "selected_formula_transcriptions": 145,
+    "full_formula_inventory_complete": false,
+    "formula_transcriptions_by_grade": {
+      "6": 13,
+      "7": 5,
+      "10": 7,
+      "11": 12,
+      "8": 41,
+      "9": 67
+    },
+    "grades": [
+      {
+        "grade": 6,
+        "status": "mapped_headings_fact_review_pending",
+        "counts": {
+          "numbered_sections": 61,
+          "theory_topics": 53,
+          "laboratories": 7,
+          "home_practicals": 1,
+          "chapters": 7,
+          "supplement_heading_counts": {
+            "embedded_practical": 27,
+            "exercise_set": 11,
+            "chapter_introduction": 7,
+            "worked_example": 9,
+            "chapter_test": 7,
+            "chapter_summary": 7
+          }
+        }
+      },
+      {
+        "grade": 7,
+        "status": "mapped_headings_fact_review_pending",
+        "counts": {
+          "numbered_sections": 46,
+          "theory_topics": 41,
+          "laboratories": 5,
+          "home_practicals": 0,
+          "chapters": 7,
+          "supplement_heading_counts": {
+            "worked_example": 28,
+            "chapter_exercises": 6,
+            "additional_questions": 1
+          }
+        }
+      },
+      {
+        "grade": 8,
+        "status": "mapped_headings_images_checked_fact_review_pending",
+        "counts": {
+          "numbered_sections": 60,
+          "theory_topics": 41,
+          "laboratories": 5,
+          "home_practicals": 0,
+          "practicals": 2,
+          "problem_practice_sections": 12,
+          "chapters": 5,
+          "supplement_heading_counts": {
+            "exercise_candidate": 89,
+            "worked_example_candidate": 34,
+            "practical_instruction_candidate": 13,
+            "chapter_test": 5,
+            "chapter_summary": 5
+          }
+        }
+      },
+      {
+        "grade": 9,
+        "status": "mapped_headings_images_checked_fact_review_pending",
+        "counts": {
+          "numbered_sections": 59,
+          "theory_topics": 37,
+          "laboratories": 6,
+          "home_practicals": 0,
+          "practicals": 2,
+          "problem_practice_sections": 14,
+          "chapters": 6,
+          "supplement_heading_counts": {
+            "exercise_candidate": 82,
+            "practical_instruction_candidate": 14,
+            "worked_example_candidate": 40,
+            "chapter_test": 5,
+            "chapter_summary": 5
+          }
+        }
+      },
+      {
+        "grade": 10,
+        "status": "mapped_headings_fact_review_pending",
+        "counts": {
+          "numbered_sections": 45,
+          "theory_topics": 40,
+          "laboratories": 5,
+          "home_practicals": 0,
+          "chapters": 9,
+          "supplement_heading_counts": {
+            "worked_example": 22,
+            "exercise_set": 9,
+            "chapter_test": 9,
+            "chapter_summary": 9
+          }
+        }
+      },
+      {
+        "grade": 11,
+        "status": "mapped_headings_fact_review_pending",
+        "counts": {
+          "numbered_sections": 45,
+          "theory_topics": 42,
+          "laboratories": 3,
+          "home_practicals": 0,
+          "chapters": 7,
+          "supplement_heading_counts": {
+            "exercise_set": 7,
+            "chapter_test": 7,
+            "chapter_summary": 7,
+            "worked_example": 25,
+            "embedded_practical": 1
+          }
+        }
+      }
+    ],
+    "private_pdf_pages_verified": 1069,
+    "private_ocr_pages_verified": 352,
+    "accepted_section_mapping_complete": true
+  },
+  "unresolved_by_grade": {
+    "6": [
+      {
+        "code": "math_font_transcription_pending",
+        "detail": "Matn qatlami kasr/indeks/vektor belgilarini buzishi mumkin; barcha formula nomzodlari asl sahifa tasviridan alohida transkripsiya qilinmaguncha darsga yaroqli emas.",
+        "blocks": "formula_and_FRQ_authoring"
+      }
+    ],
+    "7": [
+      {
+        "code": "missing_front_pages",
+        "detail": "Bosma 1–7, jumladan Kirish olinmagan. Foydalanuvchi qarori bilan bu xaritalash yoki mavjud §1–46 dan ketma-ket foydalanish uchun blok emas; butun kitob to‘liq degan da’vo yo‘q.",
+        "blocks": null
+      },
+      {
+        "code": "edition_imprint_conflict",
+        "detail": "PDF168/170 asosiy nashr qaydi to‘rtinchi; PDF170 yuqoridagi bibliografik satr uchinchi deydi. Ikkalasini ham saqlang; ISBN mavjud sahifalarda ko‘rinmadi.",
+        "blocks": "definitive_edition_metadata"
+      },
+      {
+        "code": "toc_mixed_script",
+        "detail": "§1–2 mundarijasi matn qatlamidagi kirill/lotin aralashuvi PDF166 rasmi va body §1/§2 sarlavhalari bilan tuzatildi.",
+        "blocks": null
+      },
+      {
+        "code": "math_font_transcription_pending",
+        "detail": "Matn qatlami kasr/indeks/vektor belgilarini buzishi mumkin; barcha formula nomzodlari asl sahifa tasviridan alohida transkripsiya qilinmaguncha darsga yaroqli emas.",
+        "blocks": "formula_and_FRQ_authoring"
+      }
+    ],
+    "8": [
+      {
+        "code": "ocr_and_formula_inventory_partial",
+        "detail": "Barcha sahifa OCR qilindi; barcha raqamlangan sarlavha original tasvirdan tekshirildi. Har bir formula/fakt/yechim to‘liq tasdiqlangan emas. OCR yo‘qotgan tenglama ham bo‘lishi mumkin.",
+        "blocks": "complete_formula_and_content_authoring"
+      },
+      {
+        "code": "source_capacitor_sum_sign_typo",
+        "pdf_pages": [
+          82,
+          83
+        ],
+        "detail": "PDF82 (1) umumiy parallel C ifodasida C₃ oldida minus bosilgan; izoh va 83-rasm yig‘indini aytadi. PDF83 (5) ketma-ket U ifodasida ham U₃ oldida minus. Bularni graderga ko‘chirmang; ekspert qarori kerak.",
+        "blocks": "affected_formula_grading_rules"
+      },
+      {
+        "code": "faraday_atomic_molar_mass_notation",
+        "pdf_pages": [
+          124
+        ],
+        "detail": "A atom massasi deb atalgan, Faradey doimiysi esa C/mol berilgan. Formula (3)–(4) aynan ko‘chirildi, birlik/mol talqini tasdiqlanmaguncha executable emas.",
+        "blocks": "affected_formula_grading_rules"
+      }
+    ],
+    "9": [
+      {
+        "code": "ocr_and_formula_inventory_partial",
+        "detail": "Barcha sahifa OCR qilindi; barcha raqamlangan sarlavha original tasvirdan tekshirildi. Har bir formula/fakt/yechim to‘liq tasdiqlangan emas. OCR yo‘qotgan tenglama ham bo‘lishi mumkin.",
+        "blocks": "complete_formula_and_content_authoring"
+      },
+      {
+        "code": "toc_pdf_order_differs_from_printed_order",
+        "pdf_pages": [
+          171,
+          172,
+          173
+        ],
+        "detail": "Asl PDF171 = bosma173; PDF172 = bosma171; PDF173 = bosma172. Qayta tartiblanmadi; mundarija o‘qish tartibi 172→173→171.",
+        "blocks": null
+      },
+      {
+        "code": "source_worked_example_parameter_conflict",
+        "pdf_pages": [
+          109
+        ],
+        "detail": "§37 1-masala shartida 4 mm va 5%; Berilgan/Hisoblash jadvalida 3 mm va 0,15% ishlatilgan. Bir xil masala javobi deb avtomatik qabul qilinmasin.",
+        "blocks": "affected_worked_example_authoring"
+      },
+      {
+        "code": "diverging_lens_sign_convention_conflict",
+        "pdf_pages": [
+          145,
+          146,
+          147
+        ],
+        "detail": "Matn F,f manfiy deydi, PDF147 (2) esa −1/F = 1/d − 1/f yozadi. Modullar va ishorali kattaliklar konvensiyasi aralashishi mumkin; yakuniy grader oldidan ekspert qarori.",
+        "blocks": "affected_formula_grading_rules"
+      },
+      {
+        "code": "lens_curvature_and_microscope_model_scope",
+        "pdf_pages": [
+          145,
+          153
+        ],
+        "detail": "Egrilik radiusi ishoralari hamda mikroskop l optik uzunligi modeli dars yozishdan oldin tekshiriladi; manbadagi yozuv umumiy aniq qoida sifatida nashrga tayyor emas.",
+        "blocks": "affected_formula_grading_rules"
+      }
+    ],
+    "10": [
+      {
+        "code": "invisible_back_page_text",
+        "detail": "PDF177 ijara jadvali ko‘rinadi; matn qatlamida boshqa eski imprintdan yashirin parcha bor. Bibliografiyada faqat PDF176 ishlatildi.",
+        "blocks": null
+      },
+      {
+        "code": "chapter_three_test_toc_offset",
+        "detail": "III bob testi mundarijada bosma57 deb berilgan; asl body sarlavhasi bosma56/PDF57da boshlanadi. Katalog body sahifasini saqlaydi.",
+        "blocks": null
+      },
+      {
+        "code": "math_font_transcription_pending",
+        "detail": "Matn qatlami kasr/indeks/vektor belgilarini buzishi mumkin; barcha formula nomzodlari asl sahifa tasviridan alohida transkripsiya qilinmaguncha darsga yaroqli emas.",
+        "blocks": "formula_and_FRQ_authoring"
+      }
+    ],
+    "11": [
+      {
+        "code": "math_font_transcription_pending",
+        "detail": "Matn qatlami kasr/indeks/vektor belgilarini buzishi mumkin; barcha formula nomzodlari asl sahifa tasviridan alohida transkripsiya qilinmaguncha darsga yaroqli emas.",
+        "blocks": "formula_and_FRQ_authoring"
+      }
+    ]
+  },
+  "validation": {
+    "command": "pytest tests/test_physics_source_map.py tests/test_biology_curriculum.py tests/test_biology_segments.py tests/test_biology_continuation.py tests/test_biology_completion.py tests/test_biology_genetics.py tests/test_biology_ecology.py tests/test_mobile_publication.py",
+    "passed": 565,
+    "warnings": 1,
+    "duration_seconds": 234.79,
+    "biology_totals": {
+      "theory_lessons": 355,
+      "digital_activities": 51,
+      "checkpoints": 47,
+      "cards": 2527,
+      "questions": 2609
+    },
+    "flutter_android_tests_run_in_this_source_only_change": false
+  }
+}

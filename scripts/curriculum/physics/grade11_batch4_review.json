@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "batch": "grade11_batch4",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-11",
+  "book_sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+  "batch_file_sha256": "109e55409eb328d6d58b8ee4af9df020281b6086ebb625649721d1b8ae23f3f3",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 58,
+      "printed_page": 57,
+      "text_sha256": "4b9459048df7b889c26f6d8c4a619fe74d456d99d5935053827dc8df22267a05",
+      "reviewed_render_sha256": "a9f98e44165403232a25826b3194d7d3fb91d2ae02c4f5a4968f17cbe76011e3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 59,
+      "printed_page": 58,
+      "text_sha256": "5001b515e605f722d4d96e48a0f9865c7e7259e60ca2e920627df9ea8f0d05c3",
+      "reviewed_render_sha256": "ce8eab997c25080b34b0d8882a373f0068eaaf4f1f349f89bfb3fe8b0ecb6581",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 60,
+      "printed_page": 59,
+      "text_sha256": "6270a782f59c6f0dfc5faabfcf708a1a7ce321ed129d537747d09f1e13f03284",
+      "reviewed_render_sha256": "b247c5dc14b4a4628b134d4ac4af3e271e657707ec09b606bf44c191c5e724bc",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 61,
+      "printed_page": 60,
+      "text_sha256": "daa2bfac21318f38dfe450793e95571eb6045d5f7cd52d119d79caf708783db3",
+      "reviewed_render_sha256": "05309047179d06fd9c61925c2e3b493b5f7d0798603932441cc5a8c67e8d3164",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 62,
+      "printed_page": 61,
+      "text_sha256": "d8e75dccabda573ed7b6f53fa34a5bc9dab64f17cf68ffb94c88d638f0b6eca4",
+      "reviewed_render_sha256": "354bf43fc3528e9be2577333b808a3900cdbab4bfb95840b7583ad11f20bd4cc",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 63,
+      "printed_page": 62,
+      "text_sha256": "d6dec7f5a0d3c9c8e71251168e30f08402f40765fddb61d01d8f3bc9bce972bc",
+      "reviewed_render_sha256": "3e2659dc3735cfe9a856503c0d6a53f712a56cbb440202c19b2dad1711f7dd7d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 64,
+      "printed_page": 63,
+      "text_sha256": "4fb800ca352103aa4eaa5c5034f894fba5ca53d0bb4174f93efc27f173885b03",
+      "reviewed_render_sha256": "2268e84bce993f13ac63cc2f5a3f74bc61bcbf1d0ebe6480667a34419f4670fa",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 65,
+      "printed_page": 64,
+      "text_sha256": "46c8e9e14bc9055c4105ec87bc95c1ab7a08dbf7970e18aed10bb223a257bee2",
+      "reviewed_render_sha256": "77081515860374c136a3590f9370bea8ebe0055e877d412ec65305ab94a8a746",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 66,
+      "printed_page": 65,
+      "text_sha256": "2bcccd34a9db3d78caa80cc44d322ef101c500658577ef62f38d7e5fb7eb8f5d",
+      "reviewed_render_sha256": "0c4236de8e870ad9c3f70bca004ab8b10f2dde6a2c962a4b2b737c9e7c7e60c9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 67,
+      "printed_page": 66,
+      "text_sha256": "c7e0ad579aa18627b4a60c6d3e05a3e6559cd9878e0a98b998f59c371e6c9612",
+      "reviewed_render_sha256": "0667454b29ed20ad1ef110964ad40d10aa6b71e076b13e95814cea174cfc6cc7",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 68,
+      "printed_page": 67,
+      "text_sha256": "cbc284590c2f6a8c41dd4a7520ce72ade51fc8080fd6bb73e45713af6511ad65",
+      "reviewed_render_sha256": "a0ad84e3ab761d16fd821f8c411ba34085a9fe4cea54473eb5855948f44ef930",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 69,
+      "printed_page": 68,
+      "text_sha256": "8b847a2675a2a0530c034e65c52d908e510e059228a3027da2a9d786c2094784",
+      "reviewed_render_sha256": "4b68a8f5e2513a5fe68fd1fabbb87e186e33a093bca658ff62633bc01bc8e602",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 70,
+      "printed_page": 69,
+      "text_sha256": "65cdd7ab8d3e1599477de9040ce6c68328cfc7165d63ff3dfe6865e37c7def83",
+      "reviewed_render_sha256": "f2f78564d141f1ba6652b74739bfaf119b7999812103c80eca4ba9776cf81dd3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 71,
+      "printed_page": 70,
+      "text_sha256": "36288572961694c94604c9ceaa5685ccf9ad14024175d839cf33a05bf6baa9b9",
+      "reviewed_render_sha256": "6611b7891e933620d28325a0c0edac1c53f39007ef705449b9e4ab931bed21d2",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 72,
+      "printed_page": 71,
+      "text_sha256": "1b5a32a5db3fad00d790077cfa10a9f75ce45df8132f334a6c375aade9ae2d8d",
+      "reviewed_render_sha256": "ac729ce25295d553a9d2eb553974a36cd41b4e60f7e40e4cfd6821df1db88d6c",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        58,
+        59,
+        60
+      ],
+      "decision": "Original idealinductor phasor/reactance checked. Choose passive terminalvoltage uL=L*di/dt and i=Imcos(theta): uL=-omegaLImsin(theta)=Umcos(theta+pi/2); source58 derivative+sin/cosidentity sign inconsistent, source59 voltageLEADScurrent90 conclusion correct. SelfEmf=-Ldi/dt vs terminaluL opposite. XL=omegaL=2pnuL,Im=Um/XL onlyidealL/steadySINUSOID, noRloss; fieldenergyexchange not allheat."
+    },
+    {
+      "pages": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "decision": "Original SERIES RLC phasor/norm checked. Choose currentreference i=Imcos(theta), then totalu=Umcos(theta+phi); source60 gives bothcos withnooffset despitegenerallynonzerophase. Z=sqrt(R²+(XL-XC)²),Imax=Um/Z,voltagephasornorm NOTsumofmagnitudes. Source62tanphi denominator printedUm but correctUR (reactdiff/R nextcorrect); finite grader tanPhi=(XL-XC)/R signed/unbounded not sine/cosrange. No generalcomplexsolver/trigatan."
+    },
+    {
+      "pages": [
+        63,
+        64,
+        65
+      ],
+      "decision": "Original fixedseriesRLC resonance criteria/voltagemagnification checked. XL=XC,omegarez=1/sqrtLC, Zmin=R>0 and Ipeak=Um/R forfixedUm/R/L/C frequency-independentidealcomponents. Rlarge stillreactivecancellationexists but broadlessvisiblepeak, not mathematicallynoresonance. Voltageindividualcanexceedsupply whenQ=sqrt(L/C)/R>1, notforALLcircuits. Source65C50Hz.1H~101.4uF approximated100uF acceptable statedrounding; new rationalrounding explicit. Alllowvoltageconditionalno physicalovervoltagetask."
+    },
+    {
+      "pages": [
+        66,
+        67
+      ],
+      "decision": "Original digitalresonance lab uses UL/UC vs frequency. Source66initialUC<UL thenincreasefrequencyuntilUC=UL is wrong fixedLC sweepdirection: above resonanceXL>XC, increasingf movesaway. Correct digitaltable beginsbelowresonanceUC>UL,passesUL=UCthenUL>UC. Original conditional data mathematically checked forR100ohm,L1H,C=1/(4*3.14²*100²)F,UsourceRMS1V:50HzUC1.33/UL.33;100Hz6.28/6.28;150Hz.79/1.77, rounded. No real instrument readings/20Vmeter or mainsinstruction claim. Sampledequalitywithinmodel, threepointsnotallcontinuouscurveproof."
+    },
+    {
+      "pages": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "decision": "Original sinusoidalRMSaveragepower/factor equations checked. Pavg=UeffIeffcosPhi, A=Pavg*t forsteadyintegercycles/wholeperiodaverage, passivefixedseriesRLCfactor0..1, R/Z notarbitraryactivegeneratorcosbound. Source67 usesu*i*t asworkonlysmallintervalapprox, notexactarbitrarytimephase; source68halfperiodpositive/halfnegative notuniversally foranyphi, onlyspecialreactivecase. Source70=.85cos policy not asserted universalcurrentlegalrequirement; noDIYcompensation. Source70sample cos~.5427 and P~132.5W correct reference but printedcos²/fractionderivation inconsistent notcopied. Source71q4LC1H/2.5uFomega~632rad/s not630e6;source71q6firstequalenergyt~3.925e-5s not39e-5; badkeysnotused. Average/reactiveenergyexchange and gridloss distinct."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 16,
+      "topic_id": "physics-11-section-16",
+      "pdf_pages": [
+        58,
+        59,
+        60
+      ],
+      "printed_pages": [
+        57,
+        58,
+        59
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 17,
+      "topic_id": "physics-11-section-17",
+      "pdf_pages": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "printed_pages": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 18,
+      "topic_id": "physics-11-section-18",
+      "pdf_pages": [
+        63,
+        64,
+        65
+      ],
+      "printed_pages": [
+        62,
+        63,
+        64
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 19,
+      "topic_id": "physics-11-section-19",
+      "pdf_pages": [
+        66,
+        67
+      ],
+      "printed_pages": [
+        65,
+        66
+      ],
+      "cards": 5,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 20,
+      "topic_id": "physics-11-section-20",
+      "pdf_pages": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "printed_pages": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    }
+  ]
+}

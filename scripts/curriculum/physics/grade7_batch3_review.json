@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "batch": "grade7_batch3",
+  "date": "2026-10-25",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-7",
+  "book_sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+  "batch_file_sha256": "87e4c008667e7db41d08e44cd9def04e6d5086b372f0ccd12bfc62cd92cb62fd",
+  "review_method": "Original full PDF text and rendered images of every cited page re-read before authoring; original explanations/examples/questions. Independent source-reviewed semantic answer labels, explicit calculation oracles and wrong-answer/domain tests where applicable. Tool records hashes only; it does not claim automatic scientific review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 37,
+      "printed_page": 44,
+      "text_sha256": "0b8a8173913fcd8426188f52c20bad026a5eeac985ce1cc8c4bcc1466d0bd820",
+      "reviewed_render_sha256": "ae6ed08131a6ad004c7eb943b0aa07eab5a7a3cf1f8795082fb4d1f3b1667ae0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 38,
+      "printed_page": 45,
+      "text_sha256": "2635293779fbbd96ace8cba8436157eb6452a89f5f2c43d9b238dd1002164598",
+      "reviewed_render_sha256": "7607c5ad5822d48cfb678a0e2410e0b7dcbe470bf1d433fb5f95fae726a915cd",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 39,
+      "printed_page": 46,
+      "text_sha256": "7d0afadb963a936cad8c1b3c534fc8cf4b1a15771157ece3eb7c82cad1a5b45d",
+      "reviewed_render_sha256": "192f03910eb8234ae1a2ba5de0e55d90ae9bda85cf158019ec91186ccb4e5eaf",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 40,
+      "printed_page": 47,
+      "text_sha256": "ed0d6dd92417b8115518706357ab026900689f01db6a9f864b951d070a61a75c",
+      "reviewed_render_sha256": "b25712e6f2b2d526be30dae499cd443c5f218446d1a666d53aa5bd4a0179e5df",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 41,
+      "printed_page": 48,
+      "text_sha256": "7dc02f5c0965382f49c196cf7d9b8a808ab8df81dba2abf8cbdafbe701ac279e",
+      "reviewed_render_sha256": "ba992be20a7c6d5da2830fe03f7bfd107abe4f3657caafe1ccd0417274b83905",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 42,
+      "printed_page": 49,
+      "text_sha256": "9edf9daa2e5ee5c9443cd5f3cba60b8f3c74642258dcd4542cfbe2da53e1241a",
+      "reviewed_render_sha256": "7fd9ac9b6ffc3878d8efa5138e2ca99bdd1e68d979349a30055ed29f1bb8be78",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": 50,
+      "text_sha256": "00a6e1ed5f5bd1237a74b7654cc94502bcfa4dabf54089f245313c72197bcb44",
+      "reviewed_render_sha256": "9b8822de94eebd908e33fb772e68bfc91ac6016884926adfc0ea35059b0444bb",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": 51,
+      "text_sha256": "72c5157b51ede3642400209bb4620b627c1f0cb217f017301f9747b8c413fbb5",
+      "reviewed_render_sha256": "f1c860b82bd425f13399dcfae382222e2caf757d277d249da09d7ddee9a3b758",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": 52,
+      "text_sha256": "bb27227bf9ff20b094ab815f712e6ce8911ebc1ae4832b5076dbac0855b0a9a6",
+      "reviewed_render_sha256": "a9eb44bed047bcfa65637b788a2ca1f1eb20d3e400b1f74a7f01daf789d6f13a",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 49,
+      "printed_page": 56,
+      "text_sha256": "81f2ae18d008d8b48578953af41dd42f68ba6bc9122b4310cdb4f10f47c59961",
+      "reviewed_render_sha256": "d1e71cae89fb2433e319a1c09fcdae96a10642da0a79dab9923afeb81a56da36",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 50,
+      "printed_page": 57,
+      "text_sha256": "110d691c02465df48c723f27f78d8a0b58fd540490d246b7b736020365b85eb8",
+      "reviewed_render_sha256": "d3bad9321bb3ced3eeebfbb018a4c978de032c234a39dee75357d0cd1da449ce",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": 58,
+      "text_sha256": "ee003ad54e7fc44beef30a9fdfd4c3b1f116c476c2f509debb90b177aa4072e9",
+      "reviewed_render_sha256": "e759e1ccc792c879405addbffc744e4f40d5e1cb58180e60dfc4bb90b05233d1",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": 59,
+      "text_sha256": "3384c846046b9cbcac0a9eaf87769d7a0c7dfcba907f945f3a44181efcda0561",
+      "reviewed_render_sha256": "2b7207bde9619e4bf51f48a4e4459812d6e84e482bb8fcebf02531ac79e3a7b3",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pdf_pages": [
+        37,
+        38,
+        39
+      ],
+      "decision": "s=v0t+at²/2 is path only on no-reversal interval; stop-domain checked. Quadratic s–t is not proportional to t despite prose wording; original parabola/table verified. Old6-sinf models unchanged."
+    },
+    {
+      "pdf_pages": [
+        40,
+        41
+      ],
+      "decision": "Digital laboratory: hypothetical observations only. T=0 rejected; start at rest and constant acceleration assumptions explicit. Separate a1,a2,a3 before mean. Absolute-deviation/relative scatter is not proof all systematic error vanished. No physical experiment completion."
+    },
+    {
+      "pdf_pages": [
+        41,
+        42,
+        43
+      ],
+      "decision": "No air resistance and specified near-Earth constantg model. g9.81/9.8/10/9.78/9.83 permitted only as supplied textbook model; not globally exact9.81. Text says speed increases9.81m/s² each second incorrectly; velocity increment per second has m/s unit. Historical Pisa event not assessed as established fact."
+    },
+    {
+      "pdf_pages": [
+        43,
+        44,
+        45
+      ],
+      "decision": "Upward signed velocity supported after apex; magnitude is nonnegative. h above launch level is displacement coordinate, not travelled path. Apex v=0 but acceleration=-g. Symmetry only no-drag/same launch-return level. Numeric branch0<=t<=2v0/g; no post-impact trajectory assumed."
+    },
+    {
+      "pdf_pages": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "decision": "Uniform circle means constant speed magnitude, not vector velocity. Wheel relative-frame distinction retained. Radian arc/radius not chord; rad/s distinct from m/s or Hz in submitted quantity convention. pi≈3.14, not exact. PDF52 minute-hand30mm in10min for30mmradius is inconsistent with full-turn period; not copied as physical fact. Original examples avoid that datum. Atomic electrons not literal circular orbits."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 11,
+      "topic_id": "physics-7-section-11",
+      "pdf_pages": [
+        37,
+        38,
+        39
+      ],
+      "printed_pages": [
+        44,
+        45,
+        46
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 3
+    },
+    {
+      "sequence": 12,
+      "topic_id": "physics-7-section-12",
+      "pdf_pages": [
+        40,
+        41
+      ],
+      "printed_pages": [
+        47,
+        48
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 2
+    },
+    {
+      "sequence": 13,
+      "topic_id": "physics-7-section-13",
+      "pdf_pages": [
+        41,
+        42,
+        43
+      ],
+      "printed_pages": [
+        48,
+        49,
+        50
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 3
+    },
+    {
+      "sequence": 14,
+      "topic_id": "physics-7-section-14",
+      "pdf_pages": [
+        43,
+        44,
+        45
+      ],
+      "printed_pages": [
+        50,
+        51,
+        52
+      ],
+      "cards": 4,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 4
+    },
+    {
+      "sequence": 15,
+      "topic_id": "physics-7-section-15",
+      "pdf_pages": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "printed_pages": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "cards": 4,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 3
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "batch": "grade11_batch5",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-11",
+  "book_sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+  "batch_file_sha256": "08968bd19633b1d16f6ae6b35b22318644610d445677e2a8f2fc5c1be28f2e63",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 77,
+      "printed_page": 76,
+      "text_sha256": "80c4efa1e7031e4873af11f96ee9b633dd8e1c643bffbb9c8f008d09d21ca73b",
+      "reviewed_render_sha256": "a4d7f546fd8d131dbfb7d2bb19780f969927779e33f521eee6947baa5f22597e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 78,
+      "printed_page": 77,
+      "text_sha256": "52fdffd7ead50b6e2af3e7b3aa655a7f379f2a03f65a89ee4671d4a405d2d727",
+      "reviewed_render_sha256": "6bfafce8459e0ad7e2280b172adb5adf0446987fc7fcd0a45a18a7a79122c565",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 79,
+      "printed_page": 78,
+      "text_sha256": "9aa83788581921425057dbd8e9177971e34482947d8ddb7ea6e731f36adcd234",
+      "reviewed_render_sha256": "4a7116eef48059ec9301a3ea5788a56e50622c080c06f277b2dda661da52f08d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 80,
+      "printed_page": 79,
+      "text_sha256": "ad5e31cc1902b1bb59c98284d1e2fcde3b02093b8f0ac14dea71fd6b18aea5ec",
+      "reviewed_render_sha256": "26bdab0d2e4a93e86fe91cbe5ec5e15738669b50e54a2b5a2dc3392268be0d00",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": 80,
+      "text_sha256": "594700d5efa0deb73716023663bcb549efd5151fdcd8c028eb53b7c32ec7f32b",
+      "reviewed_render_sha256": "d96454c3dfdee40b99e8b81f0ec1c941478a8649f42f8fa0902dda73de8ed16d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 82,
+      "printed_page": 81,
+      "text_sha256": "e239f90c9b822e8d754464e25279b64ed200ffc654401899a824ec47ac7a0a07",
+      "reviewed_render_sha256": "555e505632e8200625ec0224492cd05561075214da8d84725dfe288839394066",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 83,
+      "printed_page": 82,
+      "text_sha256": "315b10c292ffe3082f6ba4036461c51baad9fb4ee27a85a5bfac240e444e757b",
+      "reviewed_render_sha256": "69e9204839525fbec5e574bc4da1eff6f4d566c45416a86f76d70c7405230c04",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 84,
+      "printed_page": 83,
+      "text_sha256": "03f9dd54f02e9a6d0c355769edc6b4b7fb28017e31dbc7870cfcb519c429a3a1",
+      "reviewed_render_sha256": "a8fc15be38b9e3a424a1cc8d98e08b9dea09cf49d5871353139ebc5baefeea57",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 85,
+      "printed_page": 84,
+      "text_sha256": "bb7a7070e2c4829eb3777c4141a414eba2ffc07939603f8db4d41454897e793a",
+      "reviewed_render_sha256": "d7cba8d64900099c52a1cec14f81c9c922cc8b71e9bd2a37e18da386e37a3c44",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 86,
+      "printed_page": 85,
+      "text_sha256": "504ef6be9421a5b3f1dada992bbc86102d9902458a3aea2e2becf37edb34869e",
+      "reviewed_render_sha256": "8cecc406701e11431e1ed8b746cc1442f4673de1dc31a798981836fe5a438605",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 87,
+      "printed_page": 86,
+      "text_sha256": "c0f0a6317c8419b050f9c3c4737a68e2d8f1dfa888c356279366150bd6db4941",
+      "reviewed_render_sha256": "c6cf3fbf31eee5eb346d9859d48d02afd276d65d32fa1576a5873c5d5d4d6915",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 88,
+      "printed_page": 87,
+      "text_sha256": "afdd09e9ce04d3f4831b23f85219f5f287e9d93c6164dff38e8f786b9e42a6ab",
+      "reviewed_render_sha256": "6a6052b36e0c71c6a763e1284ea444186975068cc7838c5063fed70ca49fa2eb",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 89,
+      "printed_page": 88,
+      "text_sha256": "13f091fb6b2d6cfc31368b5f1dddd7df2fbfaaa39556f4655105ba8fd9fa7310",
+      "reviewed_render_sha256": "7bc6aefdc2d73a3f1f84adf19e5df9e131a5a01788c661bf2db93b2762aa64ac",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 90,
+      "printed_page": 89,
+      "text_sha256": "af273f8111396f12ef1c539ef30f8f20c040b6a0a39cc81df37445ae87b89620",
+      "reviewed_render_sha256": "766930b5594e057e91bd58b138cf6b4a3a2fd1c081c7842e76357f8332180c12",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 91,
+      "printed_page": 90,
+      "text_sha256": "0a532923c4d0d3abae0c8e3eebafa027b9de4208bef7de3d84a729821a296763",
+      "reviewed_render_sha256": "6f28be1214fdc8e791a49a5f010fa9c96b8f2b1bb950fb43ac7b0c74be8e197f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 92,
+      "printed_page": 91,
+      "text_sha256": "324678847ea9cca447354096565cc786b77c36edf4c9ebbad8a3976ddd1113dd",
+      "reviewed_render_sha256": "96f5ec289a6c2a2fc7b3f589c30a96b7477ade6bcbce7b93ef4b2cc843952445",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 93,
+      "printed_page": 92,
+      "text_sha256": "7ab775117be5747f3fc457a0bbad37d27f1f062533a05a98fef8105adf7a4b52",
+      "reviewed_render_sha256": "81cbce1e8ca8743af8928b0a5441dc293ceb5b609224d140034842fb0875e3d4",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 94,
+      "printed_page": 93,
+      "text_sha256": "e4d3724bcce611133ae16c7616b24e479e76cc7c37ecfa68e4bf5bcda4d14996",
+      "reviewed_render_sha256": "a6dd1991fc3a127660761ae9c2885409436843eb111ae55777fdc3fdd6f3023a",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 95,
+      "printed_page": 94,
+      "text_sha256": "b46b4759da92478d1048aef281c0770206e91554dcb4c77e8ab507cdaaef114e",
+      "reviewed_render_sha256": "8e5aa75d7911be726bd731d935b8b6781a4b4c17349e6ecf5c7b012bb19615e9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 96,
+      "printed_page": 95,
+      "text_sha256": "5ad8b915412f18bff2d48865d283aec3755f8e6f3e443b513bf3c1c28a67dc9a",
+      "reviewed_render_sha256": "7f37b01857d6decd08071584d1662dab239098f3c9e0f9f294f9f7979ec40f4b",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        77,
+        78,
+        79
+      ],
+      "decision": "Original images/native checked. EMsignal propagation distinct electron drift; c3e8 school VACUUM/airapprox, not every wire exactspeed. Hertz historical demonstration/Maxwell theory no sole-priority oversimplification. Wavev=lambda*nu andinverse, lambda inputASCII Lw (safe parserreservedlambda). Openoscillator radiation not allenergyperfectescape nor no closedcircuit everradiates. No spark/highvoltage radio experiment."
+    },
+    {
+      "pages": [
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "decision": "Original reflection/refraction/transversewave/intensity formulas read. Stationaryinterfacefrequencyunchanged, speed/wavelengthmaychange; source81lambda=c/nu limitedvacuum, use actualv inmedium as source83example. n21=v1/v2, epsratio assumes mu~1/nondispersiveordinarymedia. B/Etransverse for idealplanewave/farfield not arbitrarynearfield. Metalplate/dielectricreflection experiment particularfrequency, not metalscannottransmitanyfrequency/dielectricsneverreflect. Intensity W/(Sdt)=Pavg/S in W/m², averageenergydensityw J/m³ andI=w*c forvacuumunidirectionalplane wave. Inversesquare isotropicpointsourcefarfield/noabsorption only. Source83 I proportionalomega^4 requiresfixeddipoleamplitude/sourceconditions, not anyEMsignal/universalenergyvsfrequency, not used unqualified."
+    },
+    {
+      "pages": [
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "decision": "Original radio/modulation/detection/radar pages read. Information signal versus carrier; LCtuning,demodulation distinct roles, no receiverbuilding. Broadcastcanbeintercepted, source84 claimmessagescannotcaptured not copied. HistoricalPopov/Marconi reportedinsource not one-inventor universalpriorityclaim. RadarR=c*echoTime/2 specific monostaticroundtrip/boundedobjectmotion/vacuumapprox. Source88asksminimumrange but solves Lmax~37.5km; tau2us minrange~300m forTx/Rxblockedpulse model, maxunambig c/(2PRF)~37.5km(ignorepulsewidth;subtract gives37.2). Not copied conflated answer. Nperpulse=c*tPulse/lambda vs pulse repetitionrate separate. No operationalradar/targettracking hardware."
+    },
+    {
+      "pages": [
+        88,
+        89,
+        90,
+        91
+      ],
+      "decision": "Original television blocks/history read. Analog camera electricalsignal/transmission/receiverseparation/screen/speaker preserved, diagramnotallmoderndigitalTVuniversalarchitecture. Source90TV50–230MHz and lineofsight givenhistoricalanalogband/model, not currentallTVfreq/globalrange. Source90–91 Tashkent1928Telefot/Grabovsky/Belyansky/1956centre/375mtower are SOURCE-reported historicalcase, not independentlyverifiedsoleglobalinvention or currentrank/channelcount; no unsupportednewhistory. Conceptualcourse,no artificialformula."
+    },
+    {
+      "pages": [
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "decision": "Original coherence/pathconditions/Newtonrings/grating images checked. Source92rainbow not same general thin-film interference mechanism (rainbow primarilyrefraction/reflection/dispersion), not copied. Equalfrequency/constantphase,LINEARsameuniformmedium/samepolarization/inphase sources for Delta=mLw constructive/(m+.5)Lw destructive; unknownstartingphase/unequalmedia notuniversal. Thinfilmreflectionphase matters. Newtonairfilm reflectednormal/smallgap Rcurvature: darksqrt(mLwR),brightsqrt((m+.5)LwR),mwhole>=0,nottransmission/liquidgeneral. Diffractionnoticeable a~lambda notstrictonlya<lambda. GratingNORMALincidence/monochromatic PRINCIPALmax d*sinPhi=nLw,nwhole>=0; source96half-integer universalgratingminima wrongformultislit not copied. Inverselambda/d requiresn>0/sin>0; no generaltrig/asin. Twoindependentthermalbulbs notstablecoherent, not blanketallseparatesourcesimpossible. No directlasereye/DIYbeam experiment."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 21,
+      "topic_id": "physics-11-section-21",
+      "pdf_pages": [
+        77,
+        78,
+        79
+      ],
+      "printed_pages": [
+        76,
+        77,
+        78
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 3
+    },
+    {
+      "sequence": 22,
+      "topic_id": "physics-11-section-22",
+      "pdf_pages": [
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "printed_pages": [
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "cards": 6,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 23,
+      "topic_id": "physics-11-section-23",
+      "pdf_pages": [
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "printed_pages": [
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 3
+    },
+    {
+      "sequence": 24,
+      "topic_id": "physics-11-section-24",
+      "pdf_pages": [
+        88,
+        89,
+        90,
+        91
+      ],
+      "printed_pages": [
+        87,
+        88,
+        89,
+        90
+      ],
+      "cards": 5,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 25,
+      "topic_id": "physics-11-section-25",
+      "pdf_pages": [
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "printed_pages": [
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "cards": 7,
+      "formula_rules": 6,
+      "worked_examples": 1,
+      "assessments": 12,
+      "frq": 6
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-27",
+  "statistics": {
+    "lessons": 35,
+    "cards": 267,
+    "examples": 35,
+    "reflections": 35,
+    "mcq": 140,
+    "frq": 69,
+    "chronology": 25,
+    "questions": 234
+  },
+  "tests": {
+    "backend": "83 passed, 1 skipped in 21.12s",
+    "postgres": "1 passed, 67 deselected in 13.39s",
+    "flutter": "01:18 +221: All tests passed!",
+    "analyze": "No issues found! (ran in 1.5s)",
+    "legacy_selected": "530 passed in 197.87s (0:03:17)",
+    "legacy_full": "2335 passed, 5 skipped, 2 deselected, 13 warnings in 553.66s (0:09:13)",
+    "flutter_history": "00:06 +67: All tests passed!"
+  },
+  "source_audit": {
+    "available_books": 4,
+    "blocked_grades": [
+      8
+    ],
+    "catalogued_teaching_entries": 131,
+    "all_five_total": null,
+    "original_pages": 609,
+    "original_heading_images": 131,
+    "interactive_batches": [
+      {
+        "lessons": 5,
+        "cards": 34,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 32,
+        "frq": 10,
+        "chronologies": 2
+      },
+      {
+        "lessons": 5,
+        "cards": 41,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 9,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 31,
+        "frq": 10,
+        "chronologies": 1
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      }
+    ],
+    "lesson_full_page_images": 125
+  },
+  "publication": "local_test_preview_only",
+  "course_complete": false,
+  "next_grade": 7,
+  "next_sequence": 36,
+  "next_pdf_page": 133
+}

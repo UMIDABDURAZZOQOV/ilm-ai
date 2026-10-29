@@ -1,5 +1,274 @@
 # Ilm AI — Project Context (for Claude)
 
+**2026-10-27 — O‘zbekiston tarixi, yakuniy kontent 172/172.**
+7/8/9/10/11-sinflar: 42/41/39/28/22; 34 bob, 1 280 karta, 1 027 topshiriq
+(597 MCQ / 342 qisqa FRQ / 88 xronologiya), 172 misol va 172 self/teacher refleksiya.
+Mualliflik uchun qolgan mavzu: 0. Barcha partiyalar feature branchlarga commit/push qilindi.
+Yakuniy backend: `2524 passed, 9 skipped, 2 deselected, 13 warnings in 829.05s (0:13:49)`; alohida PG: `5 passed, 223 deselected in 100.80s (0:01:40)`;
+Flutter: `01:27 +369: All tests passed!`, `No issues found! (ran in 1.6s)`.
+Bitta akkauntda 172 dars/1 027 javob, 137→1857 XP, 3 same-day streak, 34 bob,
+qayta ochish/replay 0 XP: `3 passed in 35.72s`.
+Debug JS build 41.7 s, application hashlar bir xil, haqiqiy token ishlatilmadi.
+Source audit: 769 PDF, 172 sarlavha, 746 partiya-sahifa tasviri.
+7/8 frozen JSONlari, 552 old backend fayli, Ilmo/brend/normal API/Google login saqlandi.
+`course_content_complete` haqiqiy import qamrovi; `course_ready=false`,
+`publication=local_test_preview_only` saqlangan.
+Teacher, rasmiy dastur (proxy403), real Android SDK, normal mobil integratsiya va
+alohida checkpoint quiz ochiq. Veb/main/production DB/deploy/AI Explain/PDF upload yo‘q.
+Tekshirilgan backend `1409236526e5e5e2609125bfe72f668a99caa643`, Flutter `fa6c305c4a56b16f397aa5d73f40b8040f016ed3`.
+[To‘liq hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),
+[dalil](docs/uzbekistan-history/checkpoints/final_validation.json),
+[davom](docs/uzbekistan-history/RESUME_CHECKPOINT.md).
+
+
+**2026-10-27 — O‘zbekiston tarixi172/172 uchun butun kurs QA:** yangi
+`tests/test_uzbekistan_history_completion.py` **3 passed in35.72s**. Bitta
+lokal test akkaunti barcha172dars/1027topshiriqni tugatdi;eski137XPga1720XP
+qo‘shilib1857bo‘ldi,shu kuni3streak va34bob belgisi saqlandi,qayta ochish/replay0XP
+tasdiqlandi. `uzbekistan_history_runtime.py`da qo‘shimcha
+`course_content_complete` haqiqiy5sinf importi/manba mavjudligidan hisoblanadi;
+publication/readyfalse hamda normalAPI/Googlelogin/DBschema o‘zgarmadi.
+Yo‘q import yoki manba yolg‘on qamrov tasdig‘i bermaydi. RasmiydasturURLs27-oktabrda
+yana403;teacher/realAndroid/normalmobileintegrationhaliopen. DebugJSpreviewbuild
+passed41.7s,haqiqiytokenishlatilmadi. Yakuniy keng regression hali alohida qayd qilinadi.
+
+
+**2026-10-27 — O‘zbekiston tarixi 11-sinf partiya5:** 172/172dars,1280karta,1027topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `285 passed, 5 skipped in 304.03s (0:05:04)`;localPG `5 passed, 223 deselected in 105.29s (0:01:45)`;Flutter `01:21 +369: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **Barcha katalog birliklari yozildi; yakuniy audit/review hali talab qilinadi.**. [Dalillar](docs/uzbekistan-history/checkpoints/grade11_batch5.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 11-sinf partiya4:** 170/172dars,1263karta,1015topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `283 passed, 5 skipped in 299.71s (0:04:59)`;localPG `5 passed, 221 deselected in 96.24s (0:01:36)`;Flutter `01:33 +367: All tests passed!`,`No issues found! (ran in 1.7s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **11-sinf §21, PDF 129, bosma 129 — O‘zbekistonning Birlashgan Millatlar Tashkiloti doirasidagi faoliyati va tinchlikparvar tashqi siyosati**. [Dalillar](docs/uzbekistan-history/checkpoints/grade11_batch4.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 11-sinf partiya3:** 165/172dars,1230karta,989topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `278 passed, 5 skipped in 277.13s (0:04:37)`;localPG `5 passed, 216 deselected in 94.79s (0:01:34)`;Flutter `01:23 +362: All tests passed!`,`No issues found! (ran in 1.6s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **11-sinf §16, PDF 102, bosma 102 — O‘zbekistonda madaniyat va san’at**. [Dalillar](docs/uzbekistan-history/checkpoints/grade11_batch3.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 11-sinf partiya2:** 160/172dars,1197karta,963topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `273 passed, 5 skipped in 272.66s (0:04:32)`;localPG `5 passed, 211 deselected in 93.22s (0:01:33)`;Flutter `01:29 +357: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **11-sinf §11, PDF 75, bosma 75 — Oliy ta’lim va undan keyingi ta’limning takomillashtirilishi**. [Dalillar](docs/uzbekistan-history/checkpoints/grade11_batch2.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 11-sinf partiya1:** 155/172dars,1163karta,938topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `268 passed, 5 skipped in 256.42s (0:04:16)`;localPG `5 passed, 206 deselected in 87.21s (0:01:27)`;Flutter `01:33 +352: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **11-sinf §6, PDF 46, bosma 46 — Mamlakat ishlab chiqarish salohiyatining oshirilishi va jahon iqtisodiy tizimiga integratsiyalashuvi**. [Dalillar](docs/uzbekistan-history/checkpoints/grade11_batch1.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — 10-sinf yakuniy regression:** 7/8/9/10-sinflar42/41/39/28, jami150/172;1121karta,910topshiriq,22mavzu qolgan. To‘liq backend **2498 passed,8 skipped,2 deselected,13 oldingi warnings in767.30s**. Opt-in PostgreSQL alohida4passed;Flutter346passed,History192,analyze0. Kontent checkpointlaria7fbd5b/eaeb884 remotega saqlandi. [Frozen evidence](docs/uzbekistan-history/checkpoints/grade10_validation.json). Android/teacher/rasmiydastur/publicrelease tasdig‘i yo‘q.11-sinf qoralamalari haliunregistered;ular150tekshirilgandarsga qo‘shilmagan.
+
+
+**2026-10-27 — O‘zbekiston tarixi 10-sinf partiya6:** 150/172dars,1121karta,910topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `262 passed, 4 skipped in 244.14s (0:04:04)`;localPG `4 passed, 200 deselected in 82.44s (0:01:22)`;Flutter `01:28 +346: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **11-sinf §1, PDF 5, bosma 5 — O‘zbekiston Respublikasi mustaqilligining qo‘lga kiritilishi**. [Dalillar](docs/uzbekistan-history/checkpoints/grade10_batch6.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 10-sinf partiya5:** 147/172dars,1098karta,893topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `259 passed, 4 skipped in 230.98s (0:03:50)`;localPG `4 passed, 197 deselected in 80.23s (0:01:20)`;Flutter `01:24 +343: All tests passed!`,`No issues found! (ran in 1.6s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **10-sinf §26, PDF 128, bosma 128 — O‘zbekistonda paxta ishi va uning oqibatlari**. [Dalillar](docs/uzbekistan-history/checkpoints/grade10_batch5.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 10-sinf partiya4:** 142/172dars,1067karta,865topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `254 passed, 4 skipped in 231.48s (0:03:51)`;localPG `4 passed, 192 deselected in 79.85s (0:01:19)`;Flutter `01:28 +338: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **10-sinf §21, PDF 108, bosma 108 — Ziyolilarning qatag‘on qilinishi va sovet jamiyatida shaxsga sig‘inishning fosh qilinishi**. [Dalillar](docs/uzbekistan-history/checkpoints/grade10_batch4.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 10-sinf partiya3:** 137/172dars,1033karta,837topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `249 passed, 4 skipped in 206.55s (0:03:26)`;localPG `4 passed, 187 deselected in 70.76s (0:01:10)`;Flutter `01:26 +333: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **10-sinf §16, PDF 87, bosma 87 — Ikkinchi jahon urushining boshlanishi hamda O‘zbekistonning urush girdobiga tortilishi**. [Dalillar](docs/uzbekistan-history/checkpoints/grade10_batch3.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 10-sinf partiya2:** 132/172dars,999karta,809topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `244 passed, 4 skipped in 203.54s (0:03:23)`;localPG `4 passed, 182 deselected in 70.89s (0:01:10)`;Flutter `01:24 +328: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **10-sinf §11, PDF 61, bosma 61 — O‘zbekistonda qishloq xo‘jaligini kollektivlashtirish siyosati hamda quloqlarning surgun qilinishi**. [Dalillar](docs/uzbekistan-history/checkpoints/grade10_batch2.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 10-sinf partiya1:** 127/172dars,965karta,780topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `239 passed, 4 skipped in 208.51s (0:03:28)`;localPG `4 passed, 177 deselected in 72.66s (0:01:12)`;Flutter `01:31 +323: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **10-sinf §6, PDF 31, bosma 31 — Buxoro amirligida islohotlar uchun kurash hamda qizil armiya tomonidan amir hokimiyatining ag‘darilishi. BXSRning tashkil topishi va faoliyati**. [Dalillar](docs/uzbekistan-history/checkpoints/grade10_batch1.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — 9-sinf yakuniy regression:** 7-sinf42/42 va8-sinf41/41 saqlandi,9-sinf39/39 (41§;ikki birlashtirilgan juftlik). Jami122/172,937karta,755topshiriq;50birlik qolgan. To‘liq backend **2469 passed,7 skipped,2 deselected,13 oldingi warnings in641.83s**. Opt-in PostgreSQL alohida **3passed**;Flutter **317passed**,History163,analyze0. 9ac6ed8/656e914 kontent checkpointlari;769aslPDF/172sarlavha/470partiya-sahifa tasviri sourceauditidan o‘tdi. Android/teacher/rasmiydastur/publicrelease tasdig‘i yo‘q. [Dalillar](docs/uzbekistan-history/checkpoints/grade9_validation.json). Keyingi10-sinf§1,PDF5;ilk5darsqoralamasi haliunregistered.
+
+
+**2026-10-27 — O‘zbekiston tarixi 9-sinf partiya8:** 122/172dars,937karta,755topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `233 passed, 3 skipped in 187.00s (0:03:07)`;localPG `3 passed, 171 deselected in 63.95s (0:01:03)`;Flutter `01:29 +317: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **10-sinf §1, PDF 5, bosma 5 — Turkiston o‘lkasi 1917-yil fevral – oktyabr oralig‘ida**. [Dalillar](docs/uzbekistan-history/checkpoints/grade9_batch8.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 9-sinf partiya7:** 118/172dars,907karta,731topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `229 passed, 3 skipped in 159.26s (0:02:39)`;localPG `3 passed, 167 deselected in 50.81s`;Flutter `01:27 +313: All tests passed!`,`No issues found! (ran in 1.4s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **9-sinf §38, PDF 135, bosma 135 — Ta’lim tizimi. Matbuot**. [Dalillar](docs/uzbekistan-history/checkpoints/grade9_batch7.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 9-sinf partiya6:** 113/172dars,870karta,703topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `224 passed, 3 skipped in 161.63s (0:02:41)`;localPG `3 passed, 162 deselected in 53.06s`;Flutter `01:22 +308: All tests passed!`,`No issues found! (ran in 1.4s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **9-sinf §32, PDF 108, bosma 108 — Turkistonda 1916-yilgi voqealarning oqibatlari va ahamiyati**. [Dalillar](docs/uzbekistan-history/checkpoints/grade9_batch6.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 9-sinf partiya5:** 108/172dars,839karta,673topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `219 passed, 3 skipped in 148.17s (0:02:28)`;localPG `3 passed, 157 deselected in 46.81s`;Flutter `01:22 +303: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **9-sinf §27, PDF 93, bosma 93 — Jadidchilik harakati namoyandalari va ularning faoliyati**. [Dalillar](docs/uzbekistan-history/checkpoints/grade9_batch5.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 9-sinf partiya4:** 103/172dars,807karta,643topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `214 passed, 3 skipped in 142.46s (0:02:22)`;localPG `3 passed, 152 deselected in 47.87s`;Flutter `01:17 +298: All tests passed!`,`No issues found! (ran in 1.4s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **9-sinf §22, PDF 78, bosma 78 — Soliq va majburiyatlar. Xalq qo‘zg‘olonlari**. [Dalillar](docs/uzbekistan-history/checkpoints/grade9_batch4.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 9-sinf partiya3:** 98/172dars,770karta,615topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `209 passed, 3 skipped in 131.19s (0:02:11)`;localPG `3 passed, 147 deselected in 41.91s`;Flutter `01:21 +293: All tests passed!`,`No issues found! (ran in 1.4s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **9-sinf §17, PDF 61, bosma 61 — Turkistonda milliy-ozodlik harakatlarining boshlanishi va uning sabablari**. [Dalillar](docs/uzbekistan-history/checkpoints/grade9_batch3.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 9-sinf partiya2:** 93/172dars,730karta,585topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `204 passed, 3 skipped in 123.75s (0:02:03)`;localPG `3 passed, 142 deselected in 41.48s`;Flutter `01:20 +288: All tests passed!`,`No issues found! (ran in 1.6s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **9-sinf §12, PDF 39, bosma 39 — Qo‘qon xonligining bosib olinishi**. [Dalillar](docs/uzbekistan-history/checkpoints/grade9_batch2.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — O‘zbekiston tarixi 9-sinf partiya1:** 88/172dars,688karta,555topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `199 passed, 3 skipped in 119.11s (0:01:59)`;localPG `3 passed, 137 deselected in 40.14s`;Flutter `01:20 +283: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **9-sinf §7, PDF 23, bosma 23 — Toshkentning bosib olinishi**. [Dalillar](docs/uzbekistan-history/checkpoints/grade9_batch1.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-27 — 8-sinf yakuniy regression:** 7-sinf42/42o‘zgarmadi,8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41; jami83/172. To‘liq backend **2429 passed, 6 skipped, 2 deselected, 13 warnings in 599.35s (0:09:59)**. Olti opt-in PostgreSQL testi full run’da skip, alohida lokal PGikkiHistorytesti passed;2sandbox testi chiqarildi, guard chetlab o‘tilmadi. Flutter277/history123/analyze0;debugJSwebbuildpassed,TTS/Wasmogohlantirishlari bor. Source769aslPDFsahifasi,172sarlavha,317partiya-sahifa tasviri. Android/teacher/rasmiydastur/releaseyo‘q. [Dalillar](docs/uzbekistan-history/checkpoints/grade8_validation.json). Backend `51f2e8a`,Flutter `ec62993` remotega saqlandi. Keyingi9§1PDF5;9darsqoralamalariunregistered,oldingi83darsbilanadashmasin.
+
+**2026-10-27 — O‘zbekiston tarixi 8-sinf §36–40 va raqamsiz yakuniy faoliyat:** 4yuklangan segment/160sahifa haqiqatan tekshirildi;5kitob katalogi172o‘quv birligi(8:40paragraf+1yakuniy dars). Jami83/172dars,644karta,525topshiriq.7-sinf42r1 va oldingi4source object SHA o‘zgarmadi. Backend `193 passed, 2 skipped in 111.24s (0:01:51)`;lokal PostgreSQL `2 passed, 131 deselected in 41.45s`;Flutter `01:27 +277: All tests passed!`, `No issues found! (ran in 1.5s)`. Native matn watermark;scan faktlari asl tasvir SHA bilan tekshiriladi. Original unsplit SHA taxmin qilinmadi. Veb/boshqa fan/production/main tegilmadi. Hali release emas. Keyingi **9-sinf §1, PDF/bosma 5 — XIX asr o‘rtalarida O‘rta Osiyo davlatlarining hududi va aholisi (asl sahifalarni tekshirib davom eting)**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),[source audit](docs/uzbekistan-history/GRADE8_SOURCE_REVIEW.md).
+
+**2026-10-27 — O‘zbekiston tarixi 8-sinf §31–35:** 4yuklangan segment/160sahifa haqiqatan tekshirildi;5kitob katalogi172o‘quv birligi(8:40paragraf+1yakuniy dars). Jami77/172dars,594karta,490topshiriq.7-sinf42r1 va oldingi4source object SHA o‘zgarmadi. Backend `187 passed, 2 skipped in 97.69s (0:01:37)`;lokal PostgreSQL `2 passed, 125 deselected in 30.11s`;Flutter `01:22 +271: All tests passed!`, `No issues found! (ran in 1.4s)`. Native matn watermark;scan faktlari asl tasvir SHA bilan tekshiriladi. Original unsplit SHA taxmin qilinmadi. Veb/boshqa fan/production/main tegilmadi. Hali release emas. Keyingi **8-sinf §36, PDF/bosma 133 — Qo‘qon xonligida ijtimoiy-iqtisodiy hayot**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),[source audit](docs/uzbekistan-history/GRADE8_SOURCE_REVIEW.md).
+
+**2026-10-27 — O‘zbekiston tarixi 8-sinf §26–30:** 4yuklangan segment/160sahifa haqiqatan tekshirildi;5kitob katalogi172o‘quv birligi(8:40paragraf+1yakuniy dars). Jami72/172dars,554karta,460topshiriq.7-sinf42r1 va oldingi4source object SHA o‘zgarmadi. Backend `182 passed, 2 skipped in 91.11s (0:01:31)`;lokal PostgreSQL `2 passed, 120 deselected in 32.11s`;Flutter `01:23 +266: All tests passed!`, `No issues found! (ran in 1.5s)`. Native matn watermark;scan faktlari asl tasvir SHA bilan tekshiriladi. Original unsplit SHA taxmin qilinmadi. Veb/boshqa fan/production/main tegilmadi. Hali release emas. Keyingi **8-sinf §31, PDF/bosma 113 — Qoraqalpoqlarda madaniy va ma’naviy hayot**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),[source audit](docs/uzbekistan-history/GRADE8_SOURCE_REVIEW.md).
+
+**2026-10-27 — O‘zbekiston tarixi 8-sinf §21–25:** 4yuklangan segment/160sahifa haqiqatan tekshirildi;5kitob katalogi172o‘quv birligi(8:40paragraf+1yakuniy dars). Jami67/172dars,514karta,430topshiriq.7-sinf42r1 va oldingi4source object SHA o‘zgarmadi. Backend `177 passed, 2 skipped in 88.88s (0:01:28)`;lokal PostgreSQL `2 passed, 115 deselected in 28.16s`;Flutter `01:21 +261: All tests passed!`, `No issues found! (ran in 1.4s)`. Native matn watermark;scan faktlari asl tasvir SHA bilan tekshiriladi. Original unsplit SHA taxmin qilinmadi. Veb/boshqa fan/production/main tegilmadi. Hali release emas. Keyingi **8-sinf §26, PDF/bosma 94 — Xiva xonligida ijtimoiy-iqtisodiy hayot. Shaharlar hayoti**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),[source audit](docs/uzbekistan-history/GRADE8_SOURCE_REVIEW.md).
+
+**2026-10-27 — O‘zbekiston tarixi 8-sinf §16–20:** 4yuklangan segment/160sahifa haqiqatan tekshirildi;5kitob katalogi172o‘quv birligi(8:40paragraf+1yakuniy dars). Jami62/172dars,476karta,400topshiriq.7-sinf42r1 va oldingi4source object SHA o‘zgarmadi. Backend `170 passed, 2 skipped in 83.99s (0:01:23)`;lokal PostgreSQL `2 passed, 108 deselected in 24.47s`;Flutter `01:24 +256: All tests passed!`, `No issues found! (ran in 1.5s)`. Native matn watermark;scan faktlari asl tasvir SHA bilan tekshiriladi. Original unsplit SHA taxmin qilinmadi. Veb/boshqa fan/production/main tegilmadi. Hali release emas. Keyingi **8-sinf §21, PDF/bosma 75 — Buxoro amirligida madaniy hayot**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),[source audit](docs/uzbekistan-history/GRADE8_SOURCE_REVIEW.md).
+
+**2026-10-27 — O‘zbekiston tarixi 8-sinf §11–15:** 4yuklangan segment/160sahifa haqiqatan tekshirildi;5kitob katalogi172o‘quv birligi(8:40paragraf+1yakuniy dars). Jami57/172dars,437karta,370topshiriq.7-sinf42r1 va oldingi4source object SHA o‘zgarmadi. Backend `158 passed, 2 skipped in 64.19s (0:01:04)`;lokal PostgreSQL `2 passed, 97 deselected in 28.96s`;Flutter `01:24 +251: All tests passed!`, `No issues found! (ran in 1.5s)`. Native matn watermark;scan faktlari asl tasvir SHA bilan tekshiriladi. Original unsplit SHA taxmin qilinmadi. Veb/boshqa fan/production/main tegilmadi. Hali release emas. Keyingi **8-sinf §16, PDF/bosma 57 — Buxoro amirligida davlat boshqaruvi**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),[source audit](docs/uzbekistan-history/GRADE8_SOURCE_REVIEW.md).
+
+**2026-10-27 — O‘zbekiston tarixi 8-sinf §6–10:** 4yuklangan segment/160sahifa haqiqatan tekshirildi;5kitob katalogi172o‘quv birligi(8:40paragraf+1yakuniy dars). Jami52/172dars,394karta,340topshiriq.7-sinf42r1 va oldingi4source object SHA o‘zgarmadi. Backend `153 passed, 2 skipped in 62.13s (0:01:02)`;lokal PostgreSQL `2 passed, 92 deselected in 27.36s`;Flutter `01:24 +246: All tests passed!`, `No issues found! (ran in 1.7s)`. Native matn watermark;scan faktlari asl tasvir SHA bilan tekshiriladi. Original unsplit SHA taxmin qilinmadi. Veb/boshqa fan/production/main tegilmadi. Hali release emas. Keyingi **8-sinf §11, PDF/bosma 34 — Buxoro xonligida ijtimoiy-iqtisodiy hayot**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),[source audit](docs/uzbekistan-history/GRADE8_SOURCE_REVIEW.md).
+
+**2026-10-27 — O‘zbekiston tarixi 8-sinf §1–5:** 4yuklangan segment/160sahifa haqiqatan tekshirildi;5kitob katalogi172o‘quv birligi(8:40paragraf+1yakuniy dars). Jami47/172dars,358karta,310topshiriq.7-sinf42r1 va oldingi4source object SHA o‘zgarmadi. Backend `112 passed, 2 skipped in 42.13s`;lokal PostgreSQL `2 passed, 87 deselected in 20.27s`;Flutter `01:24 +241: All tests passed!`, `No issues found! (ran in 1.5s)`. Native matn watermark;scan faktlari asl tasvir SHA bilan tekshiriladi. Original unsplit SHA taxmin qilinmadi. Veb/boshqa fan/production/main tegilmadi. Hali release emas. Keyingi **8-sinf §6, PDF/bosma 19 — Abdullaxon II davrida Buxoro xonligining yuksalishi**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md),[source audit](docs/uzbekistan-history/GRADE8_SOURCE_REVIEW.md).
+
+**2026-10-27 — O‘zbekiston tarixi, 7-sinf yakuniy regression checkpointi:** 42/42 dars, 325 karta, 280 topshiriq (168 MCQ / 83 qisqa FRQ / 29 xronologiya), 42 original misol va 42 baholanmaydigan refleksiya. To‘liq backend: **2366 passed, 5 skipped, 2 deselected, 13 warnings** (505.90 s). Alohida lokal PostgreSQL: 1 passed; 42 dars, 420 XP, avvalgi 137 → 557 XP, replay va parallel yakunda XP bir marta. Sandbox himoyasining salbiy testi: 1 passed. Flutter: 235 passed, shu jumladan History 81 passed; analyze — 0 issue. Debug JS web build o‘tdi; mavjud TTS/Wasm dry-run ogohlantirishlari saqlandi. 150 partiya-sahifa tasviri tekshiruvi, 148 noyob fakt manba sahifasi. Kontent checkpointlari backend `7644bec`, Flutter `f90637e`: push va remote SHA tasdiqlandi. **Besh sinfli kurs tugallanmagan:** 8-sinf PDF’i 32 MiB transfer limitidan katta; 9/10/11-sinflarda 39/28/22 katalog mavzusi va 0 interaktiv dars. 8-sinf uchun PDF 1–40 / 41–80 / 81–120 / 121–160 kichik segmentlari kerak; sinflar ketma-ketligi buzilmadi. Alohida checkpoint quiz, normal mobil integratsiya, haqiqiy Android, mustaqil o‘qituvchi va rasmiy dastur tekshiruvi ochiq. Gradle QA identity patch faqat handoffda; shared faylga qo‘llanmagan. Physics/Biology, 552 umumiy eski fayl, veb va asl worktreelar saqlandi. Kimyo/Jahon tarixi parallel branchlariga yozilmadi. [Dalillar](docs/uzbekistan-history/checkpoints/grade7_validation.json), [hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md), [davom](docs/uzbekistan-history/SOURCE_HANDOFF.md).
+
+**2026-10-27 — O‘zbekiston tarixi §41–42:** jami 7-sinf **42/42**, 325 karta, 280 topshiriq (168 MCQ/83 qisqa FRQ/29 xronologiya), 42 misol/refleksiya. Backend `94 passed, 1 skipped in 23.72s`; alohida PostgreSQL `1 passed, 78 deselected in 14.19s`; Flutter `01:19 +235: All tests passed!`, `No issues found! (ran in 1.5s)`. 150 asl to‘liq dars sahifasi tasviri auditi. Biology/Physics `530 passed in 197.87s (0:03:17)`; full through25:2335passed/5PGskipped/2sandboxdeselected. Eski partiyalar/progress va boshqa fanlar o‘zgarmadi. 8-sinf transferi, rasmiy dastur403, teacher/Android/checkpointquiz/release ochiq. Keyingi **8-sinf: manba PDF segmentlari olinmaguncha bloklangan**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md).
+
+**2026-10-27 — O‘zbekiston tarixi §36–40:** jami 7-sinf **40/42**, 307 karta, 267 topshiriq (160 MCQ/79 qisqa FRQ/28 xronologiya), 40 misol/refleksiya. Backend `92 passed, 1 skipped in 22.08s`; alohida PostgreSQL `1 passed, 76 deselected in 13.74s`; Flutter `01:20 +229: All tests passed!`, `No issues found! (ran in 1.4s)`. 143 asl to‘liq dars sahifasi tasviri auditi. Biology/Physics `530 passed in 197.87s (0:03:17)`; full through25:2335passed/5PGskipped/2sandboxdeselected. Eski partiyalar/progress va boshqa fanlar o‘zgarmadi. 8-sinf transferi, rasmiy dastur403, teacher/Android/checkpointquiz/release ochiq. Keyingi **7-sinf §41, PDF/bosma 150 — Adabiyot**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md).
+
+**2026-10-27 — O‘zbekiston tarixi §31–35:** jami 7-sinf **35/42**, 267 karta, 234 topshiriq (140 MCQ/69 qisqa FRQ/25 xronologiya), 35 misol/refleksiya. Backend `83 passed, 1 skipped in 21.12s`; alohida PostgreSQL `1 passed, 67 deselected in 13.39s`; Flutter `01:18 +221: All tests passed!`, `No issues found! (ran in 1.5s)`. 125 asl to‘liq dars sahifasi tasviri auditi. Biology/Physics `530 passed in 197.87s (0:03:17)`; full through25:2335passed/5PGskipped/2sandboxdeselected. Eski partiyalar/progress va boshqa fanlar o‘zgarmadi. 8-sinf transferi, rasmiy dastur403, teacher/Android/checkpointquiz/release ochiq. Keyingi **7-sinf §36, PDF/bosma 133 — Mirzo Ulug‘bekning hukmronligi davrida Movarounnahr**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md).
+
+**2026-10-27 — O‘zbekiston tarixi §26–30:** jami 7-sinf **30/42**, 228 karta, 199 topshiriq (120 MCQ/59 qisqa FRQ/20 xronologiya), 30 misol/refleksiya. Backend `72 passed, 1 skipped in 13.23s`; alohida PostgreSQL `1 passed, 56 deselected in 10.71s`; Flutter `01:33 +210: All tests passed!`, `No issues found! (ran in 1.8s)`. 107 asl to‘liq dars sahifasi tasviri auditi. Biology/Physics `530 passed in 197.87s (0:03:17)`; full through25:2335passed/5PGskipped/2sandboxdeselected. Eski partiyalar/progress va boshqa fanlar o‘zgarmadi. 8-sinf transferi, rasmiy dastur403, teacher/Android/checkpointquiz/release ochiq. Keyingi **7-sinf §31, PDF/bosma 114 — Amir Temur – markazlashgan davlat asoschisi**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md).
+
+**2026-10-26 — O‘zbekiston tarixi §21–25:** jami 7-sinf **25/42**, 191 karta, 168 topshiriq (100 MCQ/49 qisqa FRQ/19 xronologiya), 25 misol/refleksiya. Backend `66 passed, 1 skipped in 10.97s`; alohida PostgreSQL `1 passed, 50 deselected in 9.46s`; Flutter `01:34 +204: All tests passed!`, `No issues found! (ran in 1.5s)`. 85 asl to‘liq dars sahifasi tasviri auditi. Biology/Physics `530 passed in 197.87s (0:03:17)`; old full2314passed/5PGskipped/2sandboxdeselected. Eski partiyalar/progress va boshqa fanlar o‘zgarmadi. 8-sinf transferi, rasmiy dastur403, teacher/Android/checkpointquiz/release ochiq. Keyingi **7-sinf §26, PDF/bosma 91 — Movarounnahr va Xorazmning madaniy hayoti**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md).
+
+**2026-10-26 — O‘zbekiston tarixi §16–20:** jami 7-sinf **20/42**, 151 karta, 135 topshiriq (80 MCQ/40 qisqa FRQ/15 xronologiya), 20 misol/refleksiya. Backend `57 passed, 1 skipped in 7.40s`; alohida PostgreSQL `1 passed, 41 deselected in 8.08s`; Flutter `01:27 +195: All tests passed!`, `No issues found! (ran in 1.7s)`. 68 asl to‘liq dars sahifasi tasviri auditi. Biology/Physics `530 passed in 197.87s (0:03:17)`; old full2314passed/5PGskipped/2sandboxdeselected. Eski partiyalar/progress va boshqa fanlar o‘zgarmadi. 8-sinf transferi, rasmiy dastur403, teacher/Android/checkpointquiz/release ochiq. Keyingi **7-sinf §21, PDF/bosma 74 — Jaloliddin Manguberdi mohir sarkarda**. [Joriy hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md).
+
+**2026-10-26 — O‘zbekiston tarixi §11–15:** jami 7-sinf **15/42**, 114 karta, 100 topshiriq (60 MCQ/30 qisqa FRQ/10 xronologiya), 15 misol/refleksiya. 52 backend testi passed/1 PG skipped (6.33s), alohida PostgreSQL 1 passed (6.68s), 150 XP/137→287/replay/parallel completion; 49 asl dars sahifasi tasviri audit qilindi. Flutter va Biology/Physics qayta sinovlari hali ishlamoqda. Manbadagi 749/750, O‘g‘uz tugash asri va absolyut ilk-madrasa da’volari avtomatik kalitga aylantirilmadi. Keyingi **7§16 PDF55**; asl55–74ko‘rildi, JSON hali yozilmagan. Barcha5kitob jami noma’lum:8transferblocked. [Davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-26 — O‘zbekiston tarixi §6–10:** jami **10/42** (7-sinf), 73 karta, 66 topshiriq (40 MCQ/20 qisqa FRQ/6 xronologiya), 10 misol va 10 self/teacher refleksiya. Yangi 5 dars asl PDF19–37 bilan tekshirildi; birinchi partiya o‘zgarmadi. Joriy 47 passed/1 PG skipped (4.21s), alohida PostgreSQL 1 passed (5.47s), 100 XP/replay/parallel completion, Flutter full176passed (87s). Birinchi partiya ustidagi full backend2314passed/5skipped/2sandboxdeselected/13existingwarnings536.55s. 32 to‘liq asl dars sahifasi/609 native/131 heading auditi. 8-sinf manbasi hamon olinmagan; barcha5kitob soni noma’lum. Keyingi **7§11 PDF37**. §11–15 asl37–55 ko‘rildi, JSON hali yo‘q. 749/750 manba tafovuti tekshirilmagan sana kalitiga aylantirilmasin. [Davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
+
+**2026-10-26 — O‘zbekiston tarixi §1–5 interaktiv checkpointi:** 7-sinfning 5/42 darsi, 34 karta, 34 topshiriq (20 MCQ / 10 qisqa FRQ / 4 xronologiya), 5 misol, 5 baholanmaydigan refleksiya. Alohida backend v2 router/4 jadval va Flutter debug entrypoint; normal main/router/web/Biology/Physics o‘zgarmadi. Backend 42 passed/1 PG skipped (3.42s), alohida lokal PostgreSQL 1 passed (3.86s), 5 dars/50 XP/replay/parallel completion; Flutter 169 passed (90s), analyze toza (1.9s). PostgreSQL varchar(24) sessiya turi xatosi umumiy sxemaga tegmay tuzatildi. Source audit 609 sahifa/131 heading/13 to‘liq dars sahifasi. To‘liq backend regressiya hali ishlamoqda; tayyor natija deb aytilmaydi. 8-sinf PDF transferi, rasmiy dastur 403, teacher/Android va alohida checkpoint quiz ochiq. Keyingi 7§6 PDF19. [Hisobot](docs/uzbekistan-history/COURSE_COMPLETION.md), [QA](docs/uzbekistan-history/LOCAL_QA.md).
+
+**2026-10-26 — O‘zbekiston tarixi katalog checkpointi:** alohida`feat/uzbekistan-history-curriculum`worktree,Physics`e2aab00`ustidan.4ta haqiqiyPDF/609sahifa,131mavzuguruhi (7:42,9:39,10:28,11:22),30bob tekshirildi.8-sinfwholePDF32MiBtransferlimitidan katta;sourceSHA/umumiy5kitobsoni uydirilmagan.16yangi sourcevalidator testi passed.0interaktivdars,bu kursyakuni emas;davom7§1PDF6.2026–2027officialURLlarproxy403sabab tekshirilmadi.Kimyo/Jahon tarixi alohidarefread-only;merge/prod/main/webtahriri yo‘q. [Holat](docs/uzbekistan-history/COURSE_COMPLETION.md).
+
+**2026-10-26 — Fizika 6–11-sinflar: 316/316 bo‘lim yozildi va lokal/test tekshiruvlaridan o‘tdi; qolgan bo‘lim 0.** 1413 karta, 780 formula yozuvi, 336 namuna, 2305 topshiriq/848 FRQ. Backend 2272 passed/4 PG opt-in skipped/2 sandbox deselected (568.38s); alohida PostgreSQL16 1 passed (130.25s), 316 dars / 3 160 XP / replay. Flutter full 154 passed (117s), analyze No issues found (1.9s), local Physics preview web build passed (59.9s). 924 asl sahifa tekshiruvi/890 noyob; Biology 406 saqlandi. **Mustaqil ekspert va haqiqiy Android sinovi bajarilmagan; ommaviy release emas.** [Yakuniy dalillar](docs/physics/COURSE_COMPLETION.md).
+
+> Quyida oldingi bosqichlarning tarixiy qaydlari saqlangan. Joriy holat yuqoridagi yakuniy hisobotda.
+
+**2026-10-26 — Fizika 11-sinf §36–40: 311/316 bo‘lim, 5 qolgan.** 6-sinf 61/61; 7-sinf 46/46; 8-sinf 60/60; 9-sinf 59/59; 10-sinf 45/45; 11-sinf 40/45. Jami 1388 karta, 769 formula yozuvi, 331 namuna, 2268 topshiriq, 837 FRQ. 905 asl sahifa tekshiruvi/872 noyob. Physics/Biology 2115 passed/2 PG opt-in skipped/2 sandbox deselected (372.05s); actual PG 1 passed (122.07s). Flutter Physics 28 passed (97s), analyze No issues found (2.1s); yangi 41 test (3.37s). Keyingi **11§41, PDF168/bosma167**. Local test preview; Biology406/veb/Kimyo/production saqlandi, native Android/ekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 11-sinf §31–35: 306/316 bo‘lim, 10 qolgan.** 6-sinf 61/61; 7-sinf 46/46; 8-sinf 60/60; 9-sinf 59/59; 10-sinf 45/45; 11-sinf 35/45. Jami 1363 karta, 756 formula yozuvi, 326 namuna, 2229 topshiriq, 824 FRQ. 882 asl sahifa tekshiruvi/849 noyob. Physics/Biology 2074 passed/2 PG opt-in skipped/2 sandbox deselected (375.32s); actual PG 1 passed (119.41s). Flutter Physics 28 passed (96s), analyze No issues found (2.1s); yangi 44 test (4.96s). Keyingi **11§36, PDF143/bosma142**. Local test preview; Biology406/veb/Kimyo/production saqlandi, native Android/ekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 11-sinf §26–30: 301/316 bo‘lim, 15 qolgan.** 6-sinf 61/61; 7-sinf 46/46; 8-sinf 60/60; 9-sinf 59/59; 10-sinf 45/45; 11-sinf 30/45. Jami 1340 karta, 741 formula yozuvi, 321 namuna, 2188 topshiriq, 808 FRQ. 862 asl sahifa tekshiruvi/830 noyob. Physics/Biology 2030 passed/2 PG opt-in skipped/2 sandbox deselected (373.43s); actual PG 1 passed (120.56s). Flutter Physics 28 passed (96s), analyze No issues found (2.2s); yangi 34 test (2.94s). Keyingi **11§31, PDF116/bosma115**. Local test preview; Biology406/veb/Kimyo/production saqlandi, native Android/ekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 11-sinf §21–25: 296/316 bo‘lim, 20 qolgan.** 6-sinf 61/61; 7-sinf 46/46; 8-sinf 60/60; 9-sinf 59/59; 10-sinf 45/45; 11-sinf 25/45. Jami 1316 karta, 731 formula yozuvi, 316 namuna, 2151 topshiriq, 797 FRQ. 842 asl sahifa tekshiruvi/810 noyob. Physics/Biology 1996 passed/2 PG opt-in skipped/2 sandbox deselected (366.73s); actual PG 1 passed (120.98s). Flutter Physics 28 passed (96s), analyze No issues found (2.1s); yangi 42 test (3.44s). Keyingi **11§26, PDF97/bosma96**. Local test preview; Biology406/veb/Kimyo/production saqlandi, native Android/ekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 11-sinf §16–20: 291/316 bo‘lim, 25 qolgan.** 6-sinf 61/61; 7-sinf 46/46; 8-sinf 60/60; 9-sinf 59/59; 10-sinf 45/45; 11-sinf 20/45. Jami 1288 karta, 715 formula yozuvi, 311 namuna, 2108 topshiriq, 781 FRQ. 822 asl sahifa tekshiruvi/790 noyob. Physics/Biology 1954 passed/2 PG opt-in skipped/2 sandbox deselected (361.25s); actual PG 1 passed (110.32s). Flutter Physics 28 passed (94s), analyze No issues found (2.0s); yangi 51 test (4.58s). Keyingi **11§21, PDF77/bosma76**. Local test preview; Biology406/veb/Kimyo/production saqlandi, native Android/ekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 11-sinf §11–15: 286/316 bo‘lim, 30 qolgan.** 6–10 to‘liq;11:15/45. Jami1263karta/699formula/306namuna/2066topshiriq/765FRQ,586qoida oilasi. Asl807sahifa tekshiruvi/775noyob. Physics/Biology1903passed/2PGopt-inskipped/2sandboxdeselected336.77s;actualPG1passed106.95s286dars/2860XP/replay/legacy. FlutterPhysics28passed84s44public11FRQ320px200%,analyzeNoissues1.6s;48yangi test4.46s. Keyingi **11§16PDF58/bosma57**. Localtestpreviewonly; Biology406/veb/Kimyo/production saqlandi, Android/ekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 11-sinf §6–10: 281/316 bo‘lim, 35 qolgan.** 6–10 to‘liq;11:10/45. Jami1238karta/683formula/301namuna/2024topshiriq/749FRQ,572qoida oilasi. Asl792sahifa tekshiruvi/760noyob. Physics/Biology1855passed/2PGopt-inskipped/2sandboxdeselected340.28s;actualPG1passed109.81s281dars/2810XP/replay/legacy. FlutterPhysics28passed85s28public11FRQ320px200%,analyzeNoissues2.0s;56yangi test4.14s. Keyingi **11§11PDF43/bosma42**. Localtestpreviewonly; Biology406/veb/Kimyo/production saqlandi, Android/ekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 11-sinf §1–5: 276/316 bo‘lim, 40 qolgan.** 6–10-sinflar to‘liq;11-sinf5/45. Jami1213karta/667formula/296namuna/1983topshiriq/733FRQ,556qoida oilasi. Asl774sahifa tekshiruvi/742noyob. Backend1913passed/4PGopt-inskipped/2sandboxdeselected/13warnings456.07s;actualPG1passed109.55s276dars/2760XP/replay/legacy. FullFlutter154passed98s,analyzeNoissues1.8s;50yangi test3.64s. Keyingi **11§6PDF18/bosma17**. Physics localpreview only; Biology406/veb/Kimyo/prod saqlandi. Android/ekspert/release bajarilmagan.
+
+**2026-10-26 — 10-sinf Fizika to‘liq: 45/45 bo‘lim. Jami 271/316, 45 qolgan.** 6–10-sinflar qamrab olingan; qolganlarning barchasi11-sinf. Jami1188karta/655formula/291namuna/1951topshiriq/721FRQ,545qoida oilasi. Asl761sahifa tekshiruvi/729noyob. Yakuniy Physics/Biology1749passed/2PGopt-inskipped/2sandboxdeselected295.81s;actualPG1passed94.56s271dars/2710XP/replay/legacy. FlutterPhysics26passed76s161public10FRQ320px200%,analyzeNoissues2.0s;33yangi test5.10s. Keyingi **11§1PDF5/bosma4**. Biology406/veb/Kimyo/production saqlandi. Localpreview only; Android/ekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 10-sinf §36–40: 266/316 bo‘lim, 50 qolgan.** 6–9 to‘liq;10:40/45,11:0/45. Jami1160karta/649formula/286namuna/1915topshiriq/714FRQ,540qoida oilasi. Asl744sahifa tekshiruvi/712noyob. Physics/Biology1716passed/2PGopt-inskipped/2sandboxdeselected297.45s;actualPG1passed94.47s266dars/2660XP/replay/legacy. FlutterPhysics26passed76s154public10FRQ320px200%,analyzeNoissues1.9s;56yangi test4.22s. Keyingi **10§41PDF153/bosma152**. Biology406/veb/Kimyo/prod saqlandi, Android/ekspert/release bajarilmagan; localpreview only.
+
+**2026-10-26 — Fizika 10-sinf §31–35: 261/316 bo‘lim, 55 qolgan.** 6–9-sinflar to‘liq; 10-sinf35/45, 11-sinf0/45. Jami1135karta/631formula/281namuna/1872topshiriq/696FRQ,524qoida oilasi. Asl731sahifa tekshiruvi/700noyob. Backend1774passed/4opt-inPGskipped/2sandboxdeselected/13warnings414.78s; actualPG1passed96.12s (261dars/2610XP/replay/legacy). FlutterFULL152passed85s,analyzeNoissues2.0s; yangi65test4.60s. Keyingi **10§36PDF137/bosma136**. Production/veb/Biology406/Kimyo saqlandi; nativeAndroid va ekspert tekshiruvi bajarilmagan, localpreview only.
+
+**2026-10-26 — Fizika 10-sinf §26–30:** **256/316 bo‘lim, 60 qolgan**. 6–9 to‘liq;10:30/45,11:0/45. Yangi25karta/20formula/5namuna/45topshiriq/20FRQ. Jami1110karta/612formula/276namuna/1828topshiriq/677FRQ,508qoida oilasi. Asl715sahifa tekshiruvi/684noyob. Physics/Biology1597passed/2opt-inPGskipped323.64s; actual localPG1passed89.53s256dars/2560XP/replay/legacy. FlutterPhysics26passed72s117public10FRQ320px200%,analyzeNoissues1.6s;55yangi test4.20s. Mexanik to‘lqin,tarang ip,signed termodinamika/Karno va signed elektr superpozitsiyasi tekshirildi. Keyingi **10§31PDF119/bosma118**. Biology406/veb/Kimyo/production saqlandi; Android/ekspert/release bajarilmagan,localpreview only.
+
+**2026-10-26 — Fizika 10-sinf §21–25:** **251/316 bo‘lim, 65 qolgan**. 6–9-sinflar to‘liq; 10-sinf25/45, 11-sinf0/45. Yangi21karta/19formula/5namuna/41topshiriq/19FRQ; jami1085karta/592formula/271namuna/1783topshiriq/657FRQ,501qoida oilasi. Asl691sahifa tekshiruvi/661noyob. Physics/Biology1542passed/2opt-inPGskipped299.26s; haqiqiy lokalPG1passed88.58s (251dars/2510XP/replay/legacy). FlutterPhysics26passed74s (97public10FRQ,320px/200%),analyzeNoissues1.7s; yangi45test3.24s. Torrichelli,ishorali garmonik tezlanish,prujina/mayatnik va raqamli g tekshirildi. Keyingi **10§26PDF91/bosma90**. Biology406/veb/Kimyo/production saqlandi; nativeAndroid va mustaqil ekspert tekshiruvi bajarilmagan; local/testpreview only.
+
+**2026-10-26 — Fizika 10-sinf §16–20:** **246/316,70 qolgan**;6–9 to‘liq,10:20/45,11:0/45. Yangi21karta/19formula/5namuna/41topshiriq/19FRQ. Jami1064karta/573formula/266namuna/1742topshiriq/638FRQ,488qoida oilasi.674asl sahifa tekshiruvi/645noyob. Physics/Biology1497passed/2opt-in PGskipped281.33s;actual localPG1passed80.83s246dars/2460XP/replay/legacy. FlutterPhysics26passed67s78public10FRQ320px/200%,analyzeNoissues1.9s. Elasticmomentum/energy,verticalropeangle,signedmoment/zeroarm,inside-vs-convexcontact,Bernoulliscope/exactsqrt5tekshirildi. Keyingi **10§21PDF72/bosma71**;§21–25original72–75/79–91o‘qildi,JSONhaliyo‘q. Biology406/Web/Kimyo/prod/AIExplain saqlandi;nativeAndroid/mustaqilekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 10-sinf §11–15:** **241/316,75 qolgan**;6–9 to‘liq,10:15/45. Yangi22karta/20formula/5namuna/40topshiriq/20FRQ,1raqamli FIKlab. Jami1043karta/554formula/261namuna/1701topshiriq/619FRQ,474qoida oilasi.657asl sahifa tekshiruvi/628noyob. Physics/Biology1445passed/2opt-in PGskipped282.66s;actual localPG1passed80.50s241dars/2410XP/replay/legacy. FlutterPhysics26passed66s59public10FRQ320px/200%,analyzeNoissues1.7s. Localg/orbit radiusvsheight,contactweight/staticvskinetic/Atwood/signedwork/FIKexactfraction tekshirildi. Keyingi **10§16PDF54/bosma53**;§16–20original54–57/60–72o‘qildi,JSONhaliyo‘q. Biology406/Web/Kimyo/prod/AIExplain saqlandi;nativeAndroid/mustaqilekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 10-sinf §6–10:** **236/316, 80 qolgan**;6–9 to‘liq,10:10/45. Yangi23karta/19formula/5namuna/40topshiriq/19FRQ va1raqamli laboratoriya. Jami1021karta/534formula/256namuna/1661topshiriq/599FRQ,465qoida oilasi.641asl sahifa tekshiruvi/613noyob. To‘liq backend1505passed/4opt-in PGskipped/13mavjudwarning427.08s;actual localPG1passed90.43s236dars/2360XP/replay/legacy. To‘liqFlutter152passed83s,39public10FRQ320px/200%,analyzeNoissues2.2s. Ishorali noinersial kuch Fi=−mA,exact-root flighttime,sameheight/45°/sin-cosdata cheklovlari tekshirildi. Keyingi **10§11PDF36/bosma35**;§11–15original36–45/48–53o‘qildi,JSONhaliyo‘q,ilmiytafovutlar GRADE10_NEXT_REVIEW.md’da. Biology406/Web/Kimyo/prod/AIExplain saqlandi;nativeAndroid/mustaqilekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 10-sinf §1–5:** **231/316, 85 qolgan**;6–9 to‘liq,10:5/45. Yangi24karta/20formula/6namuna/43topshiriq/20FRQ. Jami998karta/515formula/251namuna/1621topshiriq/580FRQ,451qoida oilasi.624asl sahifa tekshiruvi/597noyob. Physics/Biology1342passed/2opt-in PGskipped280.85s;actual localPG1passed76.68s231dars/2310XP/replay/legacy. FlutterPhysics26passed61s,20public10FRQ320px/200%,analyzeNoissues1.8s. Signed koordinata/omega/beta va yangi rad/s² birlik tekshiruvi;old6–9JSON/Biology406/Web/Kimyo/prod/AIExplain saqlandi. Keyingi **10§6PDF17/bosma16**,§6–10original17–25/29–36ko‘rildi,JSONhaliyo‘q. NativeAndroid/mustaqilekspert/ommaviyrelease bajarilmagan.
+
+**2026-10-26 — 9-sinf Fizika 59/59 yakunlandi:** jami **226/316**, **90 bo‘lim qolgan**. 6–9-sinflar to‘liq; 10 va 11-sinflarda 45 tadan qolgan. Jami 974 karta, 495 formula yozuvi, 245 namuna, 1578 topshiriq, 560 FRQ; 438 bajariladigan formula oilasi. 610 asl sahifa tekshiruvi / 583 noyob sahifa. To‘liq backend: 1408 passed, 4 opt-in PG skipped, 13 mavjud warning (406.36s); alohida lokal PostgreSQL16: 2 passed (85.08s); to‘liq Flutter: 150 passed (76s), analyze toza. Keyingi: **10-sinf §1, PDF4 / bosma3**. Fizika faqat lokal/test preview. Mustaqil fan eksperti va haqiqiy Android sinovi bajarilmagan; production/main/web/Biology/Kimyo o‘zgartirilmagan.
+
+**2026-10-26 — Fizika 9-sinf §51–55:** **222/316,94 qolgan**;6–8to‘liq,9:55/59. Yangi23karta/12formula/5namuna/36topshiriq/14FRQ,1raqamli lab. Jami958karta/491formula/241namuna/1552topshiriq/556FRQ,436qoida.602asl sahifa tekshiruvi/576noyob. Physics/Biology814passed/2PGskipped142.08s;actual localPG1passed69.91s222dars/2220XP/replay/legacy;FlutterPhysics24passed201public9FRQ320px/200%. Signedf/FvsKmoduli,real/virtualshoxlar,meanFtheninverseD,limitedlupa/microscopeapprox,55conceptonlynodx. Keyingi **9§56PDF/bosma156**,§56–59original156–160/164–167ko‘rildi,JSONhaliyo‘q. Biology406/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqilekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §46–50:** **217/316,99 qolgan**;6–8to‘liq,9:50/59. Yangi22karta/12formula/5namuna/34topshiriq/12FRQ,1raqamli lab. Jami935karta/479formula/236namuna/1516topshiriq/542FRQ,424qoida.591asl sahifa tekshiruvi/566noyob. Physics/Biology788passed/2PGskipped141.03s;actual localPG1passed72.88s217dars/2170XP/replay/legacy;FlutterPhysics24passed187public9FRQ320px/200%. TIRstrictboundvscritical,equal-timepaths,normal-entryprism,signedF/Dnewfamiliesold6positivepreserved,biconvexair-onlyradiusmodel. Keyingi **9§51PDF/bosma146**,§51–55original146–156ko‘rildi,JSONhaliyo‘q. Biology406/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqilekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §41–45:** **212/316,104 qolgan**;6–8to‘liq,9:45/59. Yangi24karta/21formula/5namuna/41topshiriq/21FRQ,1raqamli lab. Jami913karta/467formula/231namuna/1482topshiriq/530FRQ,412qoida.582asl sahifa tekshiruvi/558noyob. Physics/Biology756passed/2PGskipped132.13s;actual localPG1passed67.79s212dars/2120XP/replay/legacy;FlutterPhysics24passed175public9FRQ320px/200%. Namlikparsialbosim/harorat,SINsonlari vsgradus,°/deg alohidaraddan,Fizo birinchiqorong‘ilanish,43page126exactcontinuation. Keyingi **9§46PDF/bosma138**,§46–50original138–146ko‘rildi,privateqoralama,JSONhaliyo‘q. Biology406/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqilekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §36–40:** **207/316,109 qolgan**;6–8to‘liq,9:40/59. Yangi24karta/21formula/5namuna/40topshiriq/20FRQ. Jami889karta/446formula/226namuna/1441topshiriq/509FRQ,394qoida.566asl sahifa tekshiruvi/543noyob. **To‘liq backend1296passed/4PGskipped/13existingwarnings360.41s**,actual localPG1passed66.55s207dars/2070XP/replay/legacy;FlutterPhysics24passed154public9FRQ320px/200%. MPa/GPa,kichik chiziqli elastiklik,phase-onlyenergy/signedQ,exacticebalancerounding. Eski signed ish/Q sign_error umumiy feedbacki runtime’da tuzatildi,snapshot/replay/oldJSON/XPsaqlandi. Keyingi **9§41PDF/bosma119**,§41–45original119–126/131–138ko‘rildi,privateqoralama,JSONhaliyo‘q. Biology406/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqilekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §31–35:** **202/316,114 qolgan**;6–8to‘liq,9:35/59. Yangi22karta/13formula/6namuna/35topshiriq/13FRQ,1raqamli lab. Jami865karta/425formula/221namuna/1401topshiriq/489FRQ,375qoida.552asl sahifa tekshiruvi/530noyob. Physics/Biology683passed/2PGskipped112.50s;actual localPG1passed61.21s202dars/2020XP/replay/legacy;FlutterPhysics24passed134public9FRQ320px/200%. AslPDFauditdagi MuPDFcross-scale cachexatosi ikkiisolatedrendercontext bilan tuzatildi,oldxeshlar va barcha himoyalar saqlandi;15sourcetestpassed. Keyingi **9§36PDF/bosma106**,§36–40asl106–119ko‘rildi,privateqoralama,JSONhaliyo‘q. Biology406/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqilekspert/release bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §26–30:** **197/316, 119 qolgan**; 6–8 to‘liq, 9:30/59. Yangi 21 karta, 13 formula yozuvi, 5 namuna, 37 topshiriq/13FRQ. Jami843 karta/412formula/215namuna/1366topshiriq/476FRQ,362qoida.539asl sahifa tekshiruvi/517noyob. **To‘liq backend1232passed/4PGskipped/13existingwarnings340.60s**,actual localPG1passed68.07s197dars/1970XP/replay/legacy;**to‘liq Flutter150passed**,121public9FRQ320px/200%,analyze0issue1.6s. Karno faqat qaytar ikki rezervuarli maksimum;Kelvin/foiz,ikki/tortbosqichli tartib,source tafovutlari qayd etildi. Keyingi **9§31PDF/bosma94**;§31–35asl94–106ko‘rildi,privateqoralama,JSONhaliyo‘q. Biology406/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqilekspert/ommaviyrelease bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §21–25:** **192/316, 124 qolgan**; 6–8 to‘liq, 9:25/59. Yangi22 karta/18formula/5namuna/40topshiriq/18FRQ,1raqamli lab. Jami822karta/399formula/210namuna/1329topshiriq/463FRQ,349qoida.529aslpagechecks/507noyob. Physics/Biology618passed,2PGskipped122.18s; actual isolatedPG1passed61.61s192dars/1920XP/replay/legacy; FlutterPhysics23passed108public9FRQ320px/200%. Signedbirinchiqonun/Qfuelmoduli/ikkinchiqonunqualifier;25PDF74davomi va oldingi56cjadvali pinnedpriorbatchSHA bilan aniq whitelist. Keyingi **9§26PDF/bosma81**. Biology406/oldgrades/Web/Kimyo/prod/AIExplain saqlandi. Android/mustaqilekspert/ommaviyrelease bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §16–20:** **187/316,129 qolgan**,9:20/59.24karta/18formula yozuvi/5namuna/40topshiriq/20FRQ,1digitalpractical+1digitallab. Jami800karta/381formula/205namuna/1289topshiriq/445FRQ,331qoida.518aslpagechecks/498noyob. Signedish/Q/DV,specificheatJ/(kg*K);PDF64kalorimetrminuserratum PDF58plusbalansi bilan source-supportedtuzatildi. Physics/Biology586passed/2PGskipped109.98s;actual localPG1passed54.34s187dars/1870XP/replay/legacy;FlutterPhysics23passed90public9FRQ320px/200% (initialstale fixturecount run corrected sequentially). Oldfull1092/149/analyzealohida. Keyingi **9§21PDF/bosma65**,21–25source65–74original/OCR ko‘rildi;§25lab74upperdavomi exactwhitelist/note bilan keyingi partiyadaqo‘shilsin. JSONhaliyo‘q. Biology406/oldgrades/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqilekspert/nashr bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §11–15:** **182/316,134 qolgan**;6–8to‘liq,9:15/59.24karta/22formula yozuvi/5namuna/42topshiriq/22FRQ,1digitalpractical. Jami776karta/363formula/200namuna/1249topshiriq/425FRQ.316executableformulaoilasi (darslar soni182,316emas).505aslpagechecks/486noyob. Isoprocess shartlari,halol digitalmodel,signedDU va ONLYmonatomic3/2. Physics/Biology550passed/2PGskipped108.20s;actual localPG1passed57.04s182dars/1820XP/replay/legacy;FlutterPhysics23passed70public9FRQ320px/200%. Oldfull1092/149alohida. Keyingi **9§16PDF/bosma53**;§16–20source53–65original/OCR ko‘rildi. PDF64unknownc numerator minus xatosi PDF58plusbalansi bilan tuzatilsin va reviewda qayd etilsin;JSONhaliyo‘q. Biology406/oldgrades/Web/Kimyo/prod/AIExplain saqlandi;Android/ekspert/nashr bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §6–10:** **177/316,139 qolgan**;6–8to‘liq,9:10/59.25karta/24formula yozuvi/5namuna/44topshiriq/24FRQ; jami752karta/341formula/195namuna/1207topshiriq/403FRQ,295qoida.492originalpagechecks/474noyob. Exact private root-square+nearest-grid interval grading;273.15vs273,absolute p,RMS/mostprobable/flight farqlari. **Fullbackend1092passed/4PGskipped/13existingwarnings351.78s**,actual localPG1passed62.56s177dars/1770XP/replay/legacy;**FullFlutter149passed**,48public9FRQ320px/200%,analyze toza1.6s. FRQ_NUMERIC_ROOTS.md amaldagi kontrakt. Keyingi **9§11PDF/bosma35**;§11–15PDF35–43/50–53aslrasm/OCR ko‘rildi,matnprivateqoralama,JSONhaliyo‘q. Biology406/oldgrades/Web/Kimyo/prod/AIExplain saqlandi;Android/independentexpert/nashr bajarilmagan.
+
+**2026-10-26 — Fizika 9-sinf §1–5:** **172/316, 144 qolgan**; 6–8 to‘liq,9-sinf5/59. Yangi24 karta/24 formula yozuvi/6 namuna/46 topsshiriq/24FRQ; jami727 karta/317 formula/190 namuna/1163 topshiriq/379FRQ,271qoida.477asl sahifa tekshiruvi/460noyob. Mr o‘lchamsiz,M kg/mol,nu mol,n1/m3,NA manba yaqinlashuvi;gasRMS faqat aniq ratsional ildizli qoida. Unicode m⁻³ yopiq alias tuzatildi. Physics/Biology451passed/2PGskipped99.79s;actual localPG1passed51.02s172dars/1720XP/replay/legacy;FlutterPhysics23passed24public9FRQ va sinf/bibliografiya320px/200%. Old full1000/147 alohida. Keyingi **9§6 PDF/bosma21**;§6–10source21–35original/OCR ko‘rildi,JSONhaliyo‘q. Biology406/old6–8/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqil ekspert/nashr bajarilmagan.
+
+**2026-10-26 — Fizika 8-sinf 60/60 yakuniy checkpoint:** **167/316, 149 qolgan**; 6:61/61, 7:46/46, 8:60/60, 9:0/59, 10:0/45, 11:0/45. §56–60:22 karta/8 formula yozuvi/6 namuna/36 topshiriq/10 FRQ,1 raqamli lab. Jami703 karta/293 formula/184 namuna/1117 topshiriq/355FRQ,247 executable qoida oilasi.459 asl sahifa tekshiruvi/442 noyob. **Full backend1000passed/4opt-in skipped/13existingwarnings340.46s**; actual localPG16 **1passed52.91s**,167dars/1670XP/replay/eski progress. **FullFlutter147passed**,134public8FRQ320px/200%,analyze toza1.7s. Lorens kuchi faqat tik harakat/modul; source166 §60davomi exact whitelist; no unsafe home lab, universal electromagnetic-force/FIK claim. Keyingi **9-sinf §1,PDF/bosma4**;§1–5source4–21aslrasm/OCR ko‘rildi, matn privateqoralama,JSONhaliyo‘q. Biology406/Web/Kimyo/prod/AIExplain saqlandi; nativeAndroid/mustaqil ekspert/ommaviy nashr tasdiqlanmagan.
+
+**2026-10-26 — Fizika 8-sinf §51–55:** **162/316, 154 qolgan**; 8-sinf 55/60. Yangi 20 karta, 10 formula yozuvi, 6 namuna, 36 topshiriq/10 FRQ. Jami 681 karta/285 formula/178 namuna/1081 topshiriq/345 FRQ, 243 qoida oilasi. 447 asl sahifa tekshiruvi/431 noyob. Tok maydoni, kompas, tik simdagi Amper kuchi va ramkali asboblar; T/mT/µT yopiq birliklari. Physics/Biology **403 passed, 2 PG skipped, 85.60s**; actual local PG **1 passed, 44.52s**, 162 dars/1620 XP/replay/eski progress. Flutter Physics **21 passed**, 124 public FRQ 320px/200%. Old full 952 backend/147 Flutter alohida. Keyingi **8-sinf §56, PDF/bosma 155**. §56–60 manba 155–166 ko‘rildi, matn private qoralamada. Biology406/old6–8/Web/Kimyo/prod/AI Explain saqlandi; Android/mustaqil ekspert/ommaviy nashr bajarilmagan.
+
+> **2026-10-26 — Fizika8§46–50:** **157/316,159qolgan**,8-sinf50/60.21karta/3formula/5namuna/31topshiriq/3FRQ; jami661karta/275formula/172namuna/1045topshiriq/335FRQ,237qoida.436pagechecks/421noyob. Vakuum sanoq/razryad/magnitB,47–50sun’iyformula yo‘q. Physics/Biology387passed/2PGskipped79.26s;actualPG1passed36.64s157lesson/1570XP/replay/legacy;FlutterPhysics21passed114publicFRQ320px/200%. Oldfull952/147 alohida. Keyingi8§51PDF145;51–55source145–155ko‘rildi,matnprivateqoralama. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;Android/ekspert/nashr tasdiqlanmagan.
+
+> **2026-10-26 — Fizika8§41–45:** **152/316,164qolgan**,8-sinf45/60.21karta/11formula/7namuna/35topshiriq/11FRQ; jami640karta/272formula/167namuna/1014topshiriq/332FRQ,234qoida.421pagechecks/407noyob. Faradey/molyarSI/empiricalvs theoreticalk/ikkita yuzali qatlam tekshirildi;aqNaClNa-deposition noaniqligi ko‘chirilmadi. Private optional expected_rational bilan exacttruth+explicitroundinggrid;eski decimal/MCQ/DTO/API/DBschema saqlandi,kalitclientga chiqmaydi. **Fullbackend952passed/4PGskipped/13existingwarnings321.04s**,actualPG **1passed35.32s**152lesson/1520XP/replay/legacy;**FullFlutter147passed**,111publicFRQ320px/200%,analyze toza1.6s. Keyingi **8§46PDF129**,46–50source129–136/139–145ko‘rildi,matnprivate,JSONhaliyo‘q. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;Android/ekspert/nashr tasdiqlanmagan.
+
+
+> **2026-10-26 — Fizika8§36–40:** **147/316,169qolgan**,8-sinf40/60. Yangi20karta/5formula/5namuna/32topshiriq/5FRQ; jami619karta/261formula/160namuna/979topshiriq/321FRQ,223qoida.408pagechecks/395noyob. §39PDF112upperdavomi exactwhitelist/note bilan;frozenmap saqlandi. §37–38operationalwiring/unsafe-neutral/42V/livephaseclaim takrorlanmadi,electricalsafetyexpert generalpublication oldidan required;faqatdigital. Physics/Biology **345passed/2PGskipped75.58s**,actualPG **1passed34.58s**147lesson/1470XP/legacy/replay;FlutterPhysics21passed100publicFRQ320px/200%. Oldfull890/147 alohida. Keyingi **8§41PDF117**,41–45source117–129ko‘rildi,authoringhaliyo‘q. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;Android/ekspert/nashr tasdiqlanmagan.
+
+
+> **2026-10-26 — Fizika8§31–35:** **142/316,174qolgan**,8-sinf35/60. Yangi22karta/17formula/5namuna/37topshiriq/17FRQ,1raqamli lab; jami599karta/256formula/155namuna/947topshiriq/316FRQ,220qoida.394pagechecks/382noyob. P/energiya/FIK/Joule,Wh/kWhva fixed-model exactsqrt current;PDF94erta rounding/PDF96minus ilmiy qayd. Physics/Biology **334passed/2PGskipped70.70s**,actualPG **1passed32.85s**142lesson/1420XP/legacy/replay;FlutterPhysics21passed95publicFRQ320px/200%. Oldfull890backend/147Flutter alohida. Keyingi **8§36PDF102**;§36–40PDF102–112/115–117ko‘rildi,39PDF112continuation/37–38safetyreview qayd etilsin. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;Android/ekspert/nashr tasdiqlanmagan.
+
+
+> **2026-10-26 — Fizika8§26–30:** **137/316,179qolgan**,8-sinf30/60. Yangi21karta/17formula yozuvi/6namuna/37topshiriq/17FRQ; jami577karta/239formula/150namuna/910topshiriq/299FRQ,204qoida. KondensatorC/q/U/yassi model/ulanish va elektrish,381pagechecks/370noyob;F/µ/n/pF/F/m aniqSI. PDF83minus va78/89OCR/segmenttafovutlari reviewda. **To‘liqbackend890passed/4PGskipped/13existingwarning312.29s**,actualPG **1passed40.05s**137lesson/1370XP/replay/legacy;**to‘liqFlutter147passed**,78publicFRQ320px/200%,analyze toza1.8s. Keyingi **8§31PDF90**;§31–35source90–102ko‘rildi,matnprivateqoralama,JSONhaliyo‘q. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqilekspert/nashr tasdiqlanmagan.
+
+
+> **2026-10-26 — Fizika8§21–25:** **132/316,184qolgan**,8-sinf25/60. Yangi20karta/13formula yozuvi/5namuna/33topshiriq/13FRQ,1raqamli lab+1amaliy; jami556karta/222formula/144namuna/873topshiriq/282FRQ,191qoida. Ketma-ket/parallel/tugunli mixed,368pagechecks/358noyob. PDF76 universal qisqartirish da’vosi cheklangan;haqiqiy o‘lchovlar uydirilmagan. Physics/Biology **293passed/2PGskipped66.02s**,actualPG **1passed32.01s**132dars/1320XP/legacy/replay;FlutterPhysics21passed61publicFRQ320px/200%. Oldfull815/147 alohida. Keyingi **8§26PDF76**;§26–30PDF76–85/88–90rasmlari o‘qilgan,mualliflik keyin. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;lokaltestonly,Android/ekspert/nashr tasdiqlanmagan.
+
+
+> **2026-10-26 — Fizika8§16–20:** **127/316,189qolgan**,8-sinf20/60. Yangi20karta/11formula/6namuna/33topshiriq/11FRQ,1raqamli lab+1amaliy. Jami536karta/209formula yozuvi/139namuna/840topshiriq/269FRQ,180qoida;355pagechecks/346noyob. Ohm/sim geometriyasi/elektron soni/4R o‘rtachasi;fixed-temperature va shartli lab qaydlari aniq. Physics/Biology **278passed/2PGskipped63.04s**;actualPG **1passed28.65s**,127dars/1270XP/replay/legacy;FlutterPhysics21passed48publicFRQ320px/200%. Old full815/147 alohida. Keyingi **8§21PDF64**;§21–25PDF64–76manbalari o‘qilgan,mualliflik davom. Biology406/6–7/old8/veb/Kimyo/prod/AIExplain saqlandi;nativeAndroid/ekspert/nashr tasdiqlanmagan.
+
+
+> **2026-10-25 — Fizika8-sinf§11–15:** **122/316,194qolgan**,8-sinf15/60.21karta/16formula yozuvi/6namuna/39topshiriq/16FRQ,1raqamli lab; jami516karta/198formula/133namuna/807topshiriq/258FRQ,171qoida. U=A/q,I=q/t,A=UIt,elektronmassa,R=rho*l/S;A/mA/µA,Ω/Ω*m,mm² aniqSI. PDF40qutb/PDF45nkg ilmiy qayd,PDF51nixromjadval aslrasmdan tekshirildi.342pagechecks/334noyob. Physics/Biology **261passed/2PGskipped60.95s**,actualPG **1passed30.51s**122dars/1220XP/replay/legacy;FlutterPhysics21passed37publicFRQ320px/200%.Oldfull815backend/147Flutter alohida. Keyingi **8§16PDF52**;§16–20PDF52–64manbalari o‘qildi,muallifligi keyin. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi,lokaltestonly;Android/ekspert tasdiqlanmagan.
+
+
+> **2026-10-25 — Fizika 8-sinf §6–10:** **117/316 bo‘lim,199 qolgan**,8-sinf10/60. Yangi22karta/5formula yozuvi/7namuna/34topshiriq/6FRQ; jami495karta/182formula yozuvi/127namuna/768topshiriq/242FRQ,156qoidaoilasi. Elektrostatik ortiqcha zaryad/Faradeyshartlari, maydonmasalalari, tayyorchaqmoqqaydi, tartiblitok va manbalar;§6/9/10ga sun’iyformula yo‘q. Source328pagechecks/321noyob. TanlanganbackendPhysics/Biology **243passed/2PGskipped62.02s**; actualPG1passed30.71s117lesson/1170XP/legacyprogress; FlutterPhysics21passed21publicgrade8FRQ. Oldingi to‘liq815backend/147Flutter natijalari alohida saqlangan. Keyingi **§11PDF/bosma39**,§11–15matni o‘qildi,rasmlar tekshiriladi. Biology406/website/Kimyo/prod/AIExplain saqlandi.
+
+
+> **2026-10-25 — Fizika 8-sinf §1–5:** **112/316 bo‘lim, 204 qolgan**. 8-sinf 5/60; 6-sinf 61 va 7-sinf 46 dars saqlandi. Yangi 23 karta, 13 formula yozuvi, 6 namuna, 36 topshiriq (15 FRQ); jami 473 karta/177 formula yozuvi/120 namuna/734 topshiriq/236 FRQ, 151 executable oila. Bo‘lak PDF/OCR/asl tasvir dalillari alohida: 312 sahifa tekshiruvi, 306 noyob sahifa. Serverda faqat belgilangan yangi qoida uchun aniq ratsional kvadrat ildiz (`sqrt`, `^0.5`, `^(1/2)`); eski parser qoidalari saqlandi, umumiy irratsional ildiz yaxlitlash tayyor deb aytilmaydi. To‘liq backend **815 passed/4 opt-in skipped/13 mavjud warning, 296.78s**; actual PG **1 passed,26.49s**,112 dars/import/reimport/1120 XP/eski progress; Flutter **147 passed**,Physics21/analyze toza,320px/200% root va sinf/bibliografiya sinovlari. Keyingi **§6,PDF/bosma22**. `GRADE8_STAGE2_PROGRESS.json` va `STAGE2_PROGRESS.md` joriy checkpoint. Biology406/website/Kimyo/prod/AI Explain o‘zgarmadi; Fizika lokal/test preview, Android/ekspert tasdig‘i yo‘q.
+
+
+> **2026-10-25 — 8/9-sinf split-PDF manba adapteri:** interaktiv sanoq **107/316,209qolgan** saqlandi. `services/physics_source_documents.py` orderedsegmentmanifestni butunPDFSHA’dan ajratadi; local/original sahifa binding, native-text/OCR/raster/render dalillari alohida. `audit_physics_course --ocr-dir` qo‘shildi; legacy293pagechecks/287noyob qayta o‘tdi. 13yangi segment-integritytest va barcha tanlanganPhysics/Biology bilan **230passed52.75s**. Renderer optional `requirements-source-review.txt`daPyMuPDF1.26.6pin; privateQAvenvga o‘rnatildi, runtimewebdependencyemas. Eski6/7JSON/hashes o‘zgarmadi,8dars hali0. Keyingi8-sinf§1–5PDF4–22 muallifligi; manba aslrasmlari/OCRhashlari ko‘rilgan, yangi ruxsat kutilmaydi.
+
+
+> **2026-10-25 — Fizika 7-sinf46/46 tekshirildi:** umumiy **107/316;209qolgan** (8:60,9:59,10:45,11:45). §41–46 qo‘shildi:6dars(1raqamli lab)/26karta/17formula yozuvi/7misol/43topshiriq/21FRQ. Jami450karta/164formula yozuvi/114misol/698topshiriq/221FRQ,139executable oila;287noyoboriginalsahifa/293pagechecks. To‘liq backend **795passed/4opt-in skipped/13existingwarnings302.11s**; dastlab794pass/1stale101countfailure tuzatilib to‘liq qayta o‘tdi. ActualPG16 **2passed39.55s**,107lesson/import/reimport/1070XP/concurrentfirstpass/legacyprogress; actualTCPHTTP107lesson/698javob/221FRQ/1070XP/replay/privatekeyyo‘q. Flutter **145passed**,analyze0issue2.2s,normalJSwebbuild3.1s. **6-sinf61/61 va7-sinf46/46 authored; boshqa4sinf0.** Keyingi **8-sinf§1PDF/bosma4**, segmentmanifest/OCR manbaidentityadapteri kerak; asl4–22sahifalar/privateOCRhashlar tekshirildi, darslari hali0. `GRADE7_VALIDATION.json` vaSTAGE2_PROGRESS exactcheckpoint. Fizika lokal/testonly; missing7introaccepted, independentexpert/nativeAndroid/prodpublicationyo‘q. Biology406/website/Kimyo/AIExplainsaqlandi.
+
+
+> **2026-10-25 — Fizika 7-sinf §36–40:** **101/316;215qolgan**,7-sinf40/46.5dars(1raqamli lab)/22karta/9formula yozuvi/5misol/34topshiriq/18FRQ; jami424karta/147formula yozuvi/107misol/655topshiriq/200FRQ,130qoidaoilasi. Signedimpuls/Δp/yopishish/recoil/kuchproyeksiyaishi; N*s=kg*m/s,MJ; eski unsigneddomenlar saqlandi.210backendPhysics/Biologytest50.48s; actualPG1passed27.02s101lesson/1010XP/legacyprogress; FlutterPhysics19passed112publicFRQ320px/200%.271noyoboriginalsahifa. Keyingi **§41PDF145/bosma152**. Barcha316tayyoremas; Biology/Web/Kimyo/AIExplain/prodga tegilmadi.
+
+
+> **2026-10-25 — Fizika 7-sinf §31–35:** **96/316;220qolgan**,7-sinf35/46. Yana5dars(1raqamli lab)/22karta/7formula yozuvi/5misol/31topshiriq/10FRQ; jami402karta/138formula yozuvi/102misol/621topshiriq/182FRQ,122qoidaoilasi. Statikfrictionchegara, sirpanish/dumalash c birligi, satellite approximateorbit va lab sourcehavola to‘g‘rilandi; sahifaPDF112 topic33 sifatida halol cited, validatorbo‘shatilmadi.204backendPhysics/Biologytest48.91s; actualPG1passed26.99s96lesson/960XP/legacyprogress; FlutterPhysics19passed94publicFRQ320px/200%.251noyoboriginalsahifa. Keyingi **§36PDF123/bosma130**. Biologiya/Web/Kimyo/prod/AIExplain/nashrga tegilmadi.
+
+
+> **2026-10-25 — Fizika 7-sinf §26–30:** **91/316;225qolgan**,7-sinf30/46. Yangi5dars/20karta/11formula yozuvi/5misol/31topshiriq/16FRQ; jami380karta/131formula yozuvi/97misol/590topshiriq/172FRQ,115qoidaoilasi. Gexplicitunit, tortish/og‘irlik/tayanch alohida, contactdomain0≤a≤g, horizontalproyeksiya/altitudeg/idealorbita. Asl236noyobsahifa audit.198backendPhysics/Biologytest44.36s; actualPG1passed21.86s91lesson/910XP/legacyprogress; FlutterPhysics19passed84publicFRQ320px/200%. Keyingi **§31PDF105/bosma112**.Biology406/grade6baytlari/Web/Kimyo/prod/nashr/AIExplainsaqlandi.
+
+
+> **2026-10-25 — Fizika 7-sinf §21–25:** **86/316;230qolgan**,7-sinf25/46. Yana5dars(1raqamli lab)/22karta/12formula yozuvi/5misol/35topshiriq/17FRQ; jami360karta/120formula yozuvi/92misol/559topshiriq/156FRQ,104qoidaoilasi. NewtonII/III tanlangan jism va kuch juftligini ajratadi; markazga kuch, kichik Guk/sterjen modeli,N/m birligi,g10berilgan springlab.192backendPhysics/Biologytest47.94s, actualPG1passed26.47s86lesson/860XP/legacyprogress, FlutterPhysics19passed/68publicFRQ320px/200%.220noyob original sahifa audit. Keyingi **§26PDF90/bosma97**; lokal/test only, Biology406/website/Kimyo/prodga tegilmadi.
+
+
+> **2026-10-25 — Fizika 7-sinf §16–20:** umumiy **81/316; 235 qolgan**, 7-sinf20/46. Yangi5dars/21karta/9formula yozuvi/5misol/32topshiriq/12FRQ; jami338karta/108formula yozuvi/87misol/524topshiriq/139FRQ,92qoidaoilasi. 1/s va rad/s ajratildi, explicit pi/tolerance, markazga tezlanish, kollinear kuch va massalar yig‘indisi. Backend **186passed39.89s**, actualPG16 **1passed20.62s**81lesson/810XP/legacyprogress, FlutterPhysics **19passed**,51publicFRQ320px/200% qoralamalari. /tmp/.git sabab dastlab185pass/1fail bo‘lgan xavfsiz sandbox testi alohida /dev/shm katalogida qayta o‘tdi; himoya o‘zgarmadi. Oldingi§11–15actualPG1passed16.67s va Flutter19passed ham tasdiqlandi. Keyingi **§21PDF71/bosma78**. Fizika lokal/test, nativeAndroid/mustaqil ekspert/prod tasdig‘i yo‘q.
+
+
+> **2026-10-25 — Fizika7-sinf§11–15:** umumiy **76/316;240qolgan**,7-sinf15/46. Yangi5dars(1raqamli lab)/20karta/31topshiriq/15FRQ; jami317karta/99formula yozuvi/82misol/492topshiriq/127FRQ,83qoidaoilasi.187originalsahifa hash audit. Signedflightvelocity/balandlikvsyo‘l/explicitg/radian/speedbranchchegaralari.129backendPhysics/Biologytestpassed,76darsHTTP/replay760XP. PG/Fluttershu partiya natijalari logtekshiruvidan keyin qayd etiladi. Keyingi **§16PDF52/bosma59**.6-sinf61dars saqlandi; production,Kimyo,veb,AIExplainyo‘q. TafsilotSTAGE2_PROGRESS/batchreview.
+
+
+> **2026-10-25 — Fizika7-sinf§6–10:** umumiy **71/316,245qolgan**,7-sinf10/46. Yangi5dars/20karta/35topshiriq/15FRQ; jami297karta/88formula yozuvi/77misol/461topshiriq/112FRQ. Signedaccelerationvaunitm/s²/cm/s²,constantaccelvelocity/endpointmeanchegaralari;73formulaoila.123backendPhysics/Biologytestpassed, actualPG1passed14.02s71lesson/710XP/legacyprogresssaqlandi. FlutterPhysics19passed,24taFRQ320px/200%manfiydraft. Oldingi kengFlutter145passed/web47.1s. Keyingi **§11PDF37/bosma44**. Batchreview va STAGE2_PROGRESSdavomnuqtasini saqlaydi.6-sinf61dars/Web/Kimyo/prodga tegilmadi,316tayyordeyilmaydi.
+
+
+> **2026-10-25 — Fizika7-sinf§1–5:** 5yangi manbali dars/23karta/5misol/32topshiriq/9FRQ; **umumiy66/316,250qolgan**.7-sinf5/46;6-sinf61dars o‘zgarmadi.21originalsahifa qayta ko‘rildi,159umumiy sahifa hash audit;70executable oila. Gradepicker/bibliografiya servergradeparametr bilan va(grade,section,q)oracleidentityoldindan tayyorlandi.117backendPhysics/Biologytestpassed; actualPG1passed14.76s66lesson/import/reimport660XP/legacy137XPsaqlandi. FlutterPhysics19passed/analyze0issue. FullFlutter/buildnatijalari keyingi qaydda. Keyingi **7-sinf§6PDF21/bosma28**; oraliq tasdiq kutilmaydi. `docs/physics/STAGE2_PROGRESS.md` va batchreview — aniq davom. NativeAndroid/ekspert/prodnashr tasdig‘i yo‘q.
+
+
+> **Tasdiqlangan QA — 2026-10-25:** Fizika6-sinf61/61 authored, umumiy61/316 va255qolgan. Tuzatishdan keyingi to‘liq backend **732passed/4opt-in skipped/13existing warning249.54s**, alohida actualPG16 **4passed292.04s**. Flutter143passed/analyze0issue/webrelease51.5s; actualHTTP61/394/88FRQ/610XP va replay. Testlangan backend047c639, Flutterac9b3e0. `docs/physics/GRADE6_VALIDATION.json` va `STAGE2_PROGRESS.md` — saqlangan checkpoint.7-sinfPDF1–7 sourcepreflight bor, ammo authored0; keyingi **§1PDF1/bosma8**. Mustaqil ekspert/nativeAndroid va qolgan255bo‘lim bajarilmagan. Quyidagi pending/failed qaydlari tarixiy; final rerun natijasi shu yerda.
+
+
+> **2026-10-25 — Fizika6-sinf61/61 authored:** §57–61 qo‘shildi; **umumiy61/316,255 qolgan**, boshqa sinflar0.254karta/74formula yozuvi/67misol/394topshiriq(88FRQ),65 executable oila;138asl sahifa hash audit. Yangi Hz/kHz, n/t, round-trip echo va yutilish nisbati. Sound/course27passed; actualHTTP61dars/394javob/88FRQ/610XP/replay/private-rubric tekshirildi. Flutter143passed/analyze toza/normalwebrelease51.5s; Flutterac9b3e0. To‘liq backend/PG tekshiruvlari hali davom etmoqda, tayyor deb sanalmaydi. Keyingi **7-sinf §1 PDF1/bosma8**; grade-aware oracles va Flutter grade/bibliografiya kerak. `docs/physics/STAGE2_PROGRESS.md` to‘liq checkpoint. NativeAndroid/ekspert/prodnashr yo‘q.
+
+
+> **2026-10-25 — Fizika optika §47–56:** saqlanmagan ishlar yo‘qotilmasdan yakunlandi. **56/316 authored,260 qolgan**;234 karta/68 formula yozuvi/62 misol/365 topshiriq/79 FRQ. Asl PDF132–151 qayta o‘qilgan;5 yangi cheklangan formula oilasi,62 jami. Kitobdagi145-sahifa javob/ko‘p tasvir va141-sahifa kamalak tafovutlari reviewda ochiq; xavfli Quyoshga qarash topshirig‘i yo‘q. Ikki yangi lab faqat raqamli. Keyingi **§57 PDF156**; Fizika lokal/test preview. Batafsil `docs/physics/STAGE2_PROGRESS.md`.
+
+
+> **Davom — 2026-10-22, Fizika §43–46:** yana4 dars/18 karta/4 misol/24 topshiriq/2 FRQ. **46/316 authored,270 qolgan**; jami192 karta/61 formula yozuvi/52 misol/302 topshiriq/70 FRQ;57 executable oilasi. Asl PDF118–128 qayta ko‘rildi, jami106 original sahifa hash audit. V/mV/kV va manbadagi1V=1000mV exact qoida, ishoralar/neytral tortilish/asbob ulanishlari tekshirildi. Physics+Biology116 passed, HTTP46dars/460XP/replay; Flutter Physics17 passed, mV uchun public payload320px/200% regression. Keyingi **§47 PDF132**. Veb/Biology kontenti/prod o‘zgarmadi; umumiy nashr va ekspert/nativeAndroid tasdig‘i yo‘q. Tafsilot `docs/physics/STAGE2_PROGRESS.md`.
+
+
+> **Joriy davom — 2026-10-22, Fizika §36–42:** backend861bdd8 / Flutter4002bca HEADlari qayta tekshirildi;35 eski dars saqlandi. Yana7 dars/29 karta/7 misol/42 topshiriq; **42/316 authored,274 qolgan**. Jami174 karta/48 misol/278 topshiriq/68 FRQ;5 raqamli lab+1 uy amaliyoti. PDF102–114 asl matn/tasvir qayta ko‘rildi,95 umumiy sahifa hash auditidan o‘tdi. Yangi termal mavzularda sun’iy formula yo‘q. Tarixiy muz/havo taxmini to‘g‘ri zamonaviy javob sifatida berilmaydi; termometriyada bosim/asbob turi/raqamli tajriba chegarasi aniq. Physics89 passed, Flutter Physics17 passed; HTTP42 dars/420XP/replay o‘tdi. Barcha316 tayyor emas; keyingi **§43 PDF118**. Tafsilot: `docs/physics/STAGE2_PROGRESS.md`.
+
+
+> **Eng yangi davom — 2026-10-22 (Asia/Tashkent), Fizika §1–35:** dastlabki7 dars saqlanib,28 yangi bo‘lim qo‘shildi. **35/316 lokal dars/faoliyat;281 qolgan.**6-sinf:30 nazariya+4 raqamli lab+1 uy amaliyoti;145 karta/60 formula yozuvi/41 misol/236 topshiriq (159 konseptual,9 tartiblash,68 FRQ).56 yopiq, manbali executable formula oilasi;82 asl sahifa text/tasvir/hash tekshirildi. Backend **702 passed/4 opt-in skipped**; haqiqiy loopback PostgreSQL16 **4 passed**, barcha Biology406+47 checkpoint saqlandi. Flutter semantik tugma boundary tuzatishi bilan **143 passed**, analyze toza; CDN’siz lokal JS preview va actual Chromium §35 formula/80/% oqimi o‘tdi. Actual HTTP35 dars/236 javob/68 FRQ/350 XP va replay tekshirildi. **Umumiy Fizika nashri yo‘q; real Android/native SDK va mustaqil ekspert tasdig‘i hali yo‘q.** Keyingi aniq nuqta **6-sinf §36, PDF/bosma102**. Qolgan sinflarning interaktiv darslari0,316/316 tayyor deb aytmang. `docs/physics/STAGE2_PROGRESS.md` — joriy batafsil hisobot.
+
+> **Fizika §25–29 — 2026-10-22:** yana5 dars/22 karta/39 topshiriq/15 FRQ. Hozir **29/316**,121 karta/35 misol/197 topshiriq/53 FRQ; **287 qolgan**. Physics119 passed, to‘liq Flutter142 passed/analyze toza; mustaqil loopback PostgreSQL Physics2 passed.68 asl sahifa hash tekshirildi. Muhit restarti keng backend/preview build jarayonini uzdi — ular hali success emas; yakuniy holatda qayta bajariladi. Keyingi mualliflik §30/PDF84.
+
+> **Keyingi partiya — 2026-10-22, §18–24:** yana7 dars/faoliyat,27 karta,48 topshiriq/16 FRQ. Hozir **24/316**, **99 karta/28 misol/158 topshiriq/38 FRQ**, **292 qolgan**. Physics118 passed, Flutter Physics16 passed, original53 sahifa hash audit o‘tdi. Keyingi nuqta §25/PDF62; oraliq tasdiq kutilmaydi. Biologiya/web/prod/nashr flaglari saqlangan. Joriy tafsilot: `docs/physics/STAGE2_PROGRESS.md`.
+
+> **Davom — 2026-10-22, Fizika to‘liq kurs ruxsati:** foydalanuvchi barcha 316 bo‘limni oraliq tasdiqsiz yaratishga ruxsat berdi. Backend `986efa7` / Flutter `9f152f0` ustidan ish davom etmoqda; eski §1–7 saqlandi. Yangi §8–17 bilan **17/316 lokal dars/faoliyat**, **72 karta / 20 misol / 110 topshiriq / 22 FRQ**, **299 bo‘lim qolgan**. 2 lab va 1 uy amaliyoti faqat raqamli tahlil; mustaqil ekspert/real tajriba tasdig‘i yo‘q. Yangi 17 FRQ independent orakullari, barcha 17 dars HTTP/replay/170 XP tekshirildi; yangi kurs **12 passed**, eski v2/source-map **99 passed**, Flutter Physics **16 passed**. To‘liq regression/PG/build davom yakunida qayta tekshiriladi. Hozirgi mualliflik davom nuqtasi §18/PDF45. **Production/nashr yo‘q.** Joriy hisobot: `docs/physics/STAGE2_PROGRESS.md`; quyidagi oraliq tasdiq kutish qaydlari endi tarixiy.
+
+> **Eng yangi holat — 2026-10-22 (Asia/Tashkent), Fizika 2-bosqich §1–7:** foydalanuvchi birinchi partiyaga ruxsat berdi. `cb46a02` ustidan **7 lokal/test dars, 31 karta, 5 hisoblash qoidasi, 8 misol, 43 topshiriq (36 konseptual + 2 tartiblash + 5 FRQ)** yozildi. Faqat `fizika_6_uzb.pdf` PDF/bosma3–16 manbalari; 14 asl sahifa tasviri qayta ko‘rildi va hash’lari solishtirildi. Yangi private-rubric server v2, replay-safe XP va Flutter test preview bor. **Umumiy Fizika nashri yo‘q; §8–17 boshlanmagan.** Backend **681 passed / 3 PG skipped**, alohida real PostgreSQL16.15 **3 passed** va final Physics **1 passed**; Flutter **141 passed**, analyze toza; release JS web + preview debug build va haqiqiy HTTP/Chromium FRQ o‘tdi. **Android SDK yo‘q: native build/manifest merge/real telefon tasdiqlanmagan.** Tafsilot: `docs/physics/STAGE2_GRADE6_BATCH1.md`. Flutter **`feat/physics-first-batch` / `9f152f0`**. Quyidagi 2026-10-21 qaydlar oldingi bosqichlarning saqlangan tarixidir.
+
+> **Fizika 1-bosqich davomi — 2026-10-21:** `feat/physics-curriculum-map`, `29e7d1e` saqlangan. Olti sinfning mavjud doirasidagi **316 bo‘lim = 254 nazariya + 31 lab + 4 amaliy + 1 uy amaliyoti + 26 masala yechish bo‘limi**, **41 bob / 1 069 PDF sahifa** xaritalangan. Yangi 8/9 manbalari to‘liq ochildi; 7-sinf §1–46 doirasi qabul qilingan, bosma1–7 yo‘qligi blok emas. **145 tanlangan formula yozuvi** rasmdan tekshirilgan; to‘liq fakt/formula inventari hali tugamagan. **0 yangi dars/savol**, Fizika/FRQ runtime/AI Explain yoqilmagan. Biologiya, Flutter va veb kod o‘zgarmagan. Hisobot: `docs/physics/README.md`, `SOURCE_REVIEW.md`. Keyingi 6-sinf dars bosqichi foydalanuvchi tasdig‘ini kutadi.
+
 > **Joriy holat — 2026-10-21, mobil Biologiya/API QA:** kontent **355/355 nazariy + 51/51 faoliyat**, 2 527 karta / 2 609 savol saqlangan. Yangi **`/mobile/skills`** faqat reviewed Biologiyani beradi; veb namespace saqlandi. Backend **582 passed**, real PostgreSQL **2 passed**, Flutter **126 passed**, analyze/web build toza. **Real Google/Android testi bloklangan**: credential/Console va Android SDK yo‘q. Windows QA: Flutter `ANDROID_BIOLOGY_QA.md`; oxirgi batafsil bosqich hujjat oxirida. Production deploy/main merge bajarilmagan.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
@@ -2856,3 +3125,531 @@ lesson/review bytes. Do not rerun initial authors/integrators, baseline pinning 
 completed synthetic HTTP exports. Future substantive content edits require an
 explicit new reviewed revision. Latest exact Git SHA/push/clean evidence is in
 the branch log and private .local/history-checkpoint.json after persistence.
+
+
+## 2026-10-21 — Fizika 1-bosqich: qisman manba xaritasi va FRQ texnik loyiha
+
+**Chegara:** foydalanuvchi faqat manbalarni xaritalash va arxitektura/implementatsiya
+rejasini so‘radi, keyingi bosqich oldidan tasdiqni talab qildi. Shu sabab Fizika darsi,
+savoli, FRQ graderi, runtime API yoki Flutter inputi yaratilmadi; Fizika mobil katalogga
+chiqarilmadi. AI Explain qo‘shilmadi. Ushbu bosqich **to‘liq olti kitob xaritasi tayyor**
+deb belgilanmaydi.
+
+### Git va arxitektura asosi
+
+Boshlanishda backend va GitHub `feat/biology-curriculum` **`c0f84d0`**, Flutter
+va GitHub shu branchi **`79608c2`**, ikkala working tree toza edi. Mavjud ishlar
+saqlandi. Source-only ish uchun backendda **`feat/physics-curriculum-map`** ochildi;
+Biologiya branchi/main yoki Flutter kodi o‘zgartirilmadi. Next.js **`054f0ce`** toza.
+
+`CLAUDE.md`ning arxitektura, curriculum va oxirgi mobil nashr qaydlari, backendning
+`curriculum.py`, `curriculum_validation.py`, `models.py`, `study.py`, `mobile_publication.py`
+hamda Flutter curriculum/question modellari va lesson/repository oqimi o‘rganildi.
+Muhim real cheklovlar: `SkillQuestion` MCQ-only constraint, `grade()` variantga bog‘liq,
+Biologiya importer/validatori va reviewed hash indeksi subjectga xos. Bitta flagni
+o‘zgartirib Fizikani xavfsiz publish qilish mumkinligi da’vo qilinmadi.
+
+### Manbalar, sonlar va aniq bloklar
+
+| Sinf | PDF sahifa | Bob | Raqamlangan bo‘lim | Nazariya | Lab | Uy amaliyoti | Tayyor dars |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 6 | 176 | 7 | 61 | 53 | 7 | 1 | 0 |
+| 7 | 170 | 7 | 46 | 41 | 5 | 0 | 0 |
+| 8 | O‘qilmadi | Noma’lum | Noma’lum | Noma’lum | Noma’lum | Noma’lum | 0 |
+| 9 | O‘qilmadi | Noma’lum | Noma’lum | Noma’lum | Noma’lum | Noma’lum | 0 |
+| 10 | 178 | 9 | 45 | 40 | 5 | 0 | 0 |
+| 11 | 193 | 7 | 45 | 42 | 3 | 0 | 0 |
+
+- 8/9-sinf attachment download natijasi **`file exceeds the executor transfer limit of 32 MiB`**.
+  Nom, muallif, yil, mavzu yoki sahifa soni taxmin qilinmadi. Asl PDF sahifa tartibi
+  va oraliqlari ko‘rsatilgan, har biri 32 MiB’dan kichik segmentlar talab qilindi.
+- 7-sinf **PDF1 = bosma8**; bosma1–7 va mundarijada bosma3 deyilgan kirish mavjud emas.
+  PDF168/170 imprinti to‘rtinchi, PDF170 yuqori bibliografik satri uchinchi nashr
+  deydi; tafovut yashirilmadi. 46 raqamlangan paragraf bor, lekin to‘liq kitob
+  tekshirildi deyilmaydi. ISBN topilmadi, to‘qib qo‘shilmadi.
+- 6-sinfda asosiy bosma = PDF; 7-sinfda bosma = PDF+7; 10/11da bosma = PDF−1.
+  Mavjud bosma raqamlar har sahifa bo‘yicha tekshirildi; raqamsiz muqovalarga raqam
+  uydirilmadi. 10-sinf PDF1/178 va 11-sinf PDF1 — rasmdan ko‘rilgan muqovalar, bo‘sh
+  body sahifa deb talqin qilinmadi.
+- 10-sinf III bob testi TOC’da bosma57, haqiqiy sarlavha bosma56/PDF57da; body raqami
+  saqlandi. PDF177dagi ijara sahifasi matn qatlamida eski yashirin imprint bor,
+  bibliografiyaga ishlatilmadi. 11-sinf III bob kirishi bosma41/PDF42, §11 esa
+  bosma42/PDF43; ular alohida saqlandi.
+
+To‘rtta faylning **717 sahifasi** matn qatlamidan chiqarilib hashlandi, source auditda
+har sahifa rastrga dekodlandi va mavjud bosma raqami tekshirildi; **197 body sarlavha**
+markeri mundarija sahifasi bilan solishtirildi. Bob/mavzu tartibi, ichki kirish,
+laboratoriya, uy amaliyoti, body’dagi test/takrorlash/mashq/namuna/amaliyot belgilari
+va 7-sinf o‘lchash xatoligi ilovasi hamda javoblar indeksi alohida saqlandi.
+Bu barcha fan faktlari yoki butun kitobning pedagogik ekspertizasi bajarildi degani emas.
+
+### Artefaktlar va keyingi texnik qarorlar
+
+- `scripts/curriculum/physics/physics_sources.json`: oltita grade yozuvi, to‘rt haqiqiy
+  fayl SHA’lari, 197 bo‘limning ikki xil sahifa raqami, body chegaralari, 717 page audit,
+  ikki ochilmagan kitob uchun explicit blok. `counts:null` — noma’lum, nol mavzu emas.
+- `physics_formula_review.json`: **37 tanlangan** formula asl sahifa rasmlaridan
+  transkripsiya qilindi. Belgilar/qo‘llanish shartlari/source’lar bor; bu to‘liq formula
+  banki, executable grader yoki tayyor savollar emas. Qolgan formula va fizik atama
+  nomzodlari `review_pending`; indeks/kasr/vektor/ishora rasmdan tekshiriladi.
+- `scripts/audit_physics_sources.py`: ORM/startup/DBsiz offline validator; optional
+  private PDF identity/page/decode/anchor tekshiruvi; `--require-complete` ochiq blok
+  borida exit2. Bir sahifadagi ikki mavzu alohida offset bilan kesiladi: PDF147dagi
+  §53 `D=1/F` formulasi §54 prizmaga noto‘g‘ri biriktirilmaydi.
+- `tests/test_physics_source_map.py`: noma’lum metadata/sonni to‘qish, noto‘g‘ri
+  sahifa/SHA/topic, MCQdan FRQ tayyorligini yasash, kutilmagan publish/AI Explain,
+  shared-page formula va production URL borida ham DBsiz dry-run regressionlari.
+- `docs/physics/README.md`, `grade_{6..11}_map.md`: bibliografiya, barcha ochilgan
+  raqamlangan mavzu va body qo‘shimchalari, manba raqamlari, noaniqlik va aniq bloklar.
+- `docs/physics/FRQ_AND_IMPLEMENTATION_PLAN.md`: yangi typed assessment v2 uchun
+  alohida additive qatlam taklifi; safe AST, muqobil formula/domain, Decimal/rational,
+  birlik/o‘lcham/prefix, tolerance/yaxlitlash, sign/vektor, private server rubric,
+  snapshot/idempotent XP va accessible Flutter input rejasi. Bular hali implementatsiya emas.
+
+6-sinf partiyalari rejalashtirildi: **1–7, 8–17, 18–29, 30–35, 36–46, 47–56, 57–61**.
+Hisoblashga mos bo‘lmagan mavzularga sun’iy formula qo‘shilmaydi. Original
+tushuntirish/misol yoziladi; darslikdagi uzun matn yoki tayyor masalalar nusxalanmaydi.
+Raqamli laboratoriya jismoniy tajriba bajarilganligini anglatmaydi.
+
+### Haqiqiy tekshiruvlar
+
+| Tekshiruv | Natija |
+|---|---|
+| Yangi Physics testlari | **15 passed (0.52s)** dastlabki alohida run |
+| Physics + mavjud Biology curriculum/segment regressionlari | **51 passed (25.27s)** ruxsatli lokal ASGI muhitida |
+| Private PDF/source audit | **717 sahifa**, 197 body anchor va mavjud bosma raqamlar; qisman holat ochiq |
+| Full completion gate | **exit2**, kutilgan `complete_source_and_formula_review_blocked` |
+| Biology completion audit | **355 nazariya / 51 faoliyat / 2 527 karta / 2 609 savol**, complete true; kontent fayllari o‘zgarmagan |
+| Ruff critical va whitespace | **All checks passed**, `git diff --check` toza |
+| Flutter/website | Kod diffi yo‘q; ushbu source-only bosqichda build/native test qayta bajarilmadi |
+
+Cheklangan sandboxdagi ASGI rerun to‘xtab qolgani uchun tugallanmagan jarayon
+to‘xtatildi, lokal test soketlari ruxsatli muhitda yuqoridagi 51 test qayta bajarildi.
+Tugallanmagan run muvaffaqiyat deb hisoblanmadi. Private manba/rasmlar/kesh/loglar
+`/workspace/.setup/physics-*` va attachment katalogida; PDF yoki to‘liq matn Gitga kirmaydi.
+
+**Aniq davom nuqtasi:** 8/9 PDF segmentlari va 7-sinf old sahifalarini olish → source
+identity va to‘liq xaritani yakunlash → barcha formula/miqdor/birliklarni tasvirdan
+tekshirish → foydalanuvchiga 1-bosqich yakunini taqdim etish → **foydalanuvchi
+tasdig‘idan keyin** grader poydevori va 6-sinf 1–7 partiyasiga o‘tish. Hozir dars
+generatsiyasi yoki Fizikani e’lon qilish boshlanmaydi. Mavjud mobil Biologiya-only
+siyosati, Ilmo/brend, progress, XP, xavfsizlik va eski yashirin modullar saqlandi.
+Production import/migratsiya/deploy, main merge yoki ilova nashri bajarilmadi.
+
+
+## 2026-10-21 — Fizika 1-bosqich davomi: 8/9 skanlar va olti sinf bo‘lim xaritasi
+
+### Boshlang‘ich holat, Git va saqlanish
+
+- Backend `feat/physics-curriculum-map`, local/GitHub boshlang‘ich HEAD
+  `29e7d1e796267d59e320c6bb39809b365daca37c` tekshirildi; yangiroq remote ish yo‘q edi.
+  Oldingi Physics audit/docs/FRQ reja hamda ushbu markaziy hujjat to‘liq o‘qildi.
+- 6/7/10/11 ning **197** mavjud bo‘limi, page audit, supplement/reference yozuvlari
+  va dastlabki **37 formula** o‘zgarmagan: baseline canonical SHA, avtomatik test va
+  `git show 29e7d1e:...` bilan mustaqil obyekt solishtirishi tasdiqladi.
+- Flutter `79608c2aa2795b24c3dcce0684298bb98868da90`, `feat/biology-curriculum`, clean;
+  Next.js `054f0cea9b78a9c791cba5aa478fc3769cbd85b8`, `feat/mobile-release-hardening`, clean.
+  Bu repozitoriyalarda hech qanday o‘zgarish qilinmadi.
+
+### Manbalar va yangi qamrov
+
+- Foydalanuvchining yangi oltita kichik PDFi o‘qildi: 8-sinf **88+88**, 9-sinf
+  **44+44+44+44**, har ikkalasi asl PDF **1–176**, gap/overlap yo‘q.
+- Barcha yangi **352 sahifa** PyMuPDF1.26.6 scale2.2 va Tesseract5.5.0/eng/PSM3
+  bilan OCR qilindi. OCR fakt/formula tasdig‘i emas. Yangi **119 sarlavha** original
+  body rastri va mundarija tasviridan tekshirildi; mavjud bosma sahifa yorliqlari ko‘rildi.
+- 8-sinf **5 bob / 60 bo‘lim = 41 nazariya + 5 lab + 2 amaliy + 12 masala yechish**.
+  9-sinf **6 bob / 59 bo‘lim = 37 nazariya + 6 lab + 2 amaliy + 14 masala yechish**.
+- Oltita sinf jami **41 bob / 316 bo‘lim / 1 069 PDF sahifa**; nazariya254, lab31,
+  amaliy4, uy amaliyoti1, masala yechish26. Tayyor yangi interaktiv dars/savol **0**.
+- 9-sinf asl PDF171/172/173 — bosma173/171/172. PDFlar qayta tartiblanmadi;
+  TOC o‘qish tartibi 172→173→171. 8-sinf PDF174 da bosma yorliq ko‘rinmaydi: null.
+- 7-sinf bo‘yicha foydalanuvchi yakuniy qarori bajarildi: PDF1/bosma8 dagi
+  §1 «Jismlarning harakati»dan mavjud **46** bo‘lim xaritasi qabul qilingan doirada
+  yakunlangan. Yo‘q bosma1–7 ni izlash yoki mazmunini tiklash majburiy shart emas.
+  `mapping_scope_complete=true`, `source_complete=false` farqi aniq; missing front
+  matter na xaritalash, na kelajakdagi full-review gate uchun doimiy blok emas.
+
+### Formulalar, dalillar va texnik qarorlar
+
+- **108 yangi + 37 saqlangan = 145** original rasmdan tekshirilgan formula yozuvi:
+  6/7/8/9/10/11 sinflar bo‘yicha **13/5/41/67/7/12**. Bular noyob fizik qonunlar
+  soni emas; ekvivalent yozuv va birlik tengliklari ham bor.
+- Har yangi yozuv belgi/birlik, shart, indeks/vektor/modul, yaxlitlash, original
+  PDF/bosma sahifa va segment/local-page/SHAga bog‘langan. Hammasi
+  `ready_for_publication=false`, `executable_grading_rule=false`.
+- `full_formula_inventory_complete=false`, barcha fan-fakt/formula review hali qisman.
+  Mavzu bo‘yicha ta’rif, qonun, birlik, miqdor atamasi, ishlangan namuna, mashq,
+  amaliy ko‘rsatma va tenglama sahifalari nomzod sifatida alohida saqlangan.
+- Source tafovutlari yashirilmadi: 8-sinf PDF82–83 C₃/U₃ oldidagi minuslar;
+  PDF124 Faradey formulasidagi A atom/molyar massa talqini; 9-sinf PDF109 shart
+  va yechim sonlari farqi; PDF145–147 linza ishoralari; PDF153 mikroskop modeli.
+  Tegishli dars/FRQ qoidalari review qilinmasdan tayyor deb belgilanmaydi.
+- Bo‘lak manba uchun haqiqiy merged PDF SHA to‘qilmadi: ordered segment manifest
+  SHA va har fayl SHA alohida. Har sahifada raw-text/OCR/raster hash bor. Umumiy
+  sahifalar rastr koordinatalari bilan kesilgan; formula/masala avvalgi mavzudan
+  keyingisiga avtomatik ko‘chmaydi. Private crop/heading hash’lari tekshirildi.
+- `--require-mapped` — qabul qilingan barcha bo‘lim xaritasi gate; `--require-complete`
+  — shu doiradagi barcha fakt/formula review gate. Hozir ikkinchisi qasddan exit2.
+  Flagni yolg‘iz true qilish to‘liq formula review deb qabul qilinmaydi.
+
+### O‘zgargan fayllar va chegaralar
+
+- `scripts/curriculum/physics/physics_sources.json`, `physics_formula_review.json`,
+  yangi `physics_map_audit.json` — manba metadata/evidence, publication emas.
+- `scripts/audit_physics_sources.py`, `tests/test_physics_source_map.py` — segment
+  yaxlitligi, lokal/asl sahifa, rastr, baseline va bosqich gate testlari.
+- `docs/physics/README.md`, `grade_7_map.md`, `grade_8_map.md`, `grade_9_map.md`,
+  `FRQ_AND_IMPLEMENTATION_PLAN.md`, yangi `SOURCE_REVIEW.md`, ushbu `CLAUDE.md`.
+- Biologiya content fayllari, foydalanuvchi progressi/XP, API runtime, Flutter,
+  Next.js, mobil publication flaglari o‘zgarmadi. Eski AI fanlari yoqilmadi.
+- PDFlar, original rasmlar va to‘liq OCR Gitga kiritilmadi. DB import, migratsiya,
+  production deploy, main merge va nashr bajarilmadi. AI Explain/FRQ runtime yo‘q.
+
+### Haqiqiy testlar va keyingi aniq nuqta
+
+- Private source audit: **1 069 PDF sahifa / 352 OCR sahifasi**, yangi body heading
+  va source-region raster hash’lari mos. `--require-mapped` exit0.
+- `--require-complete`: kutilgan exit2, tugallanmagan fakt/formula review sababli;
+  7-sinf yo‘q kirish sahifalari sababli emas.
+- Physics yakuniy alohida tekshiruv: **39 passed (2.64s)**; Ruff full va whitespace toza.
+- Yakuniy Biology/mobil/Physics regression: **565 passed, 1 warning (234.79s)**,
+  39 Physics + 526 Biology/mobil holati; yakuniy kodda to‘liq qayta o‘tdi.
+- Biology completion audit: **355 nazariya / 51 faoliyat / 2 527 karta / 2 609 savol**.
+  Mobil regression barcha406 dars/faoliyat va47 checkpointni yakunlaydi, XP retry
+  va server gradingni tekshiradi. Bitta mavjud SQLAlchemy Subquery `IN()` warning
+  (`routers/skills.py:931`); runtime bu source-only scope’da o‘zgartirilmadi.
+- Flutter/native Android, PostgreSQL staging va yangi FRQ runtime testlari bu
+  bosqichda bajarilmadi; ular ushbu source-only o‘zgarishda kiritilmagan.
+- **Davom nuqtasi: foydalanuvchi tasdig‘idan keyin 6-sinf §1–7.** Manba va tartib
+  tayyor; har partiya uchun to‘liq fakt/formula/birlik/yechim tekshiruvi va original
+  mualliflik kerak. Butun kurs yoki FRQ tizimi tayyor deyilmaydi. Shu bosqichda
+  haqiqiy darslarni yaratish boshlanmadi.
+
+
+## 2026-10-22 — Fizika 2-bosqich: 6-sinf §1–7, birinchi lokal partiya
+
+### Ruxsat, Git va manba doirasi
+
+Foydalanuvchi 316 xaritalangan bo‘limni darsga aylantirish bosqichini boshlashga,
+**faqat §1–7 birinchi partiyasi** va server FRQ poydevori/Flutter test ekranlariga
+ruxsat berdi. Keyingi §8–17 uchun shu hisobotdan keyingi tasdiq kutiladi.
+Boshlanish va yakunda backend remote `feat/physics-curriculum-map/cb46a02` va
+Flutter `feat/biology-curriculum/79608c2` tekshirildi. Boshqa ishlar yo‘qotilmadi.
+Flutter alohida **`feat/physics-first-batch`**, commit **`9f152f0`**.
+Backend ushbu yozuvni o‘z ichiga oladigan feature commitda; `main` o‘zgarmaydi.
+
+`docs/physics/README.md`, `SOURCE_REVIEW.md`, FRQ rejasi, mavjud source/auditlar va
+Biology import/grading/progress arxitekturasi o‘rganildi. Asl Turdiyev2017 6-sinf
+PDFning to‘liq §1–7 sahifalari **PDF/bosma3–16** matndan ham, tasvirdan ham qayta
+ko‘rildi. Kitob SHA, 14 page text va 14 rendered original-image SHA amalda tekshirildi.
+PDF, rasmlar, to‘liq matn/OCR, token yoki private sandbox config Gitga kirmadi.
+
+### Yozilgan kontent
+
+| § | PDF sahifa | Bosma sahifa | Karta | Formula qoidasi | Misol | Savol/faoliyat | FRQ |
+|---|---|---|---:|---:|---:|---:|---:|
+| 1 | 3–5 | 3–5 | 5 | 0 | 1 | 6 | 0 |
+| 2 | 6–8 | 6–8 | 4 | 0 | 1 | 5 | 0 |
+| 3 | 8–9 | 8–9 | 4 | 0 | 1 | 5 | 0 |
+| 4 | 9–10 | 9–10 | 4 | 0 | 1 | 6 | 0 |
+| 5 | 10–12 | 10–12 | 4 | 0 | 1 | 6 | 0 |
+| 6 | 12–14 | 12–14 | 5 | 2 | 1 | 7 | 2 |
+| 7 | 14–16 | 14–16 | 5 | 3 | 2 | 8 | 3 |
+| Jami | 14 noyob sahifa | | **31** | **5** | **8** | **43** | **5** |
+
+§1–5 ga sun’iy formula qo‘shilmadi. §6–7 uchun birlik konversiyasi, shkala oralig‘i,
+ikki o‘lchovning o‘rtachasi va oddiy modeldagi yarim-bo‘linma xatoligi ishlatiladi.
+`A=a±delta_a` natija yozuvi kartada alohida tushuntiriladi; 5 soni runtime hisoblash
+qoidalari sanoqidir. Original qisqa tushuntirish/misol/savol va to‘g‘ri/xato feedback
+bor; har birlik source topic/chapter, kitob/PDF sahifa va hash bilan bog‘langan.
+Varaq qalinligi yoki asbob tanlash raqamli reja/mulohaza; haqiqiy fizik tajriba
+bajarilgani da’vo qilinmaydi. Birinchi yetti mavzuda raqamlangan laboratoriya yo‘q.
+
+Ilmiy ehtiyotkorlik qarorlari review JSON va SOURCE_REVIEW’da: tarixiy atom fikri
+zamonaviy bo‘linmaslik emas; ishonchsiz Copernicus/telescope-priority va Piza
+rivoyati savollarga kiritilmagan; eski metr prototipi bugungi SI ta’rifi sifatida
+berilmagan. PDF14 «ichki chiziqcha» va `/10` tafovutida oraliqlar aniq sanaladi.
+Yarim bo‘linma shu oddiy model uchun; o‘rtacha barcha xatoni yo‘qotishi aytilmaydi.
+`independent_subject_expert=not_claimed`; umumiy nashrga tayyorlik belgilanmagan.
+
+### Backend fayllari va arxitektura qarorlari
+
+- `services/assessment_grading.py`: exact Fraction/Decimal; bounded closed AST,
+  whitelist formula equivalence, birlik/o‘lcham, abs/rel tolerance va rounding grid.
+  `eval`, CAS/AI, funksiya chaqiruvi, cheksiz daraja yoki mijoz correctness flagi yo‘q.
+- `services/assessment_models.py`, `alembic/versions/0013_add_assessment_v2.py`:
+  alohida `AssessmentBase` va 4 opt-in v2 jadval. Legacy `Base.create_all` ularni
+  avtomatik yaratmaydi. Shared study jadvallari yo‘q eski schemaga additive create;
+  mavjudiga alter yo‘q. Downgrade shared Biology ledgerini o‘chirmaydi.
+- `alembic/env.py`: autogenerate ikkala metadata’ni ko‘radi; begona v2 drop taklifi
+  bo‘lmasligi testlangan. To‘liq eski Alembic chain tekshirildi degan da’vo yo‘q.
+- `services/assessment_runtime.py`, `routers/physics_preview.py`, `main.py`:
+  **`/preview/physics/v2`** alohida JWT namespace, default disabled.
+  `PHYSICS_PREVIEW_ENABLED=true` + development/test + SQLite yoki loopbackdagi
+  staging PostgreSQL kerak; production/public-host DB rad etiladi.
+  Catalog → UUID start/resume → ordered typed answers → complete.
+  Clientda javob kaliti, tolerance, rubric/equivalentlar bo‘lmaydi; yechim faqat
+  shu savolga javob qabul qilingach ochiladi. Format422 yechimni ochmaydi.
+- Session snapshot, writer/user locks, immutable answer fingerprint, v2 progress,
+  StudyEvent va cached response bitta transaction bilan. 60% keyingi tugunni ochadi;
+  birinchi muvaffaqiyat **10 XP**, takroriy muvaffaqiyat **0 XP**. Parallel alohida
+  urinishlar ham mukofotni ko‘paytirmaydi. Mavjud record_activity/xp ledger ishlatiladi.
+- `services/physics_curriculum.py`, `scripts/curriculum/physics/grade6_batch1.json`,
+  `grade6_batch1_review.json`: explicit frozen batch, source/taught-fact/arithmetic
+  va reviewed-file hash validator; immutable import. Import faqat ikkita content jadvalini
+  SQLAlchemy Core orqali reflect qiladi: legacy ORM/`services.db` import hooklariga
+  ulanmaydi. Alohida minimal `users(id,sentinel)` + tripwire DATABASE_URL testida
+  eski user schema/data o‘zgarmasligi va begona DB umuman ochilmasligi tasdiqlandi.
+  Plain PostgreSQL URL ham mavjud `normalize_database_url` orqali installed
+  psycopg2 driveriga moslanadi; haqiqiy CLI random staging schema’da sinovdan o‘tdi. Source-only 316 map/145 formula
+  arxivi qayta generatsiya qilinmagan. Stage-one auditdagi `ready_lessons=0` umumiy
+  publication/source-arxiv holati; v2 lokal batch sanoqini explicit importer beradi.
+- `scripts/import_physics_preview.py`: DBsiz dry-run; explicit lokal SQLite yoki
+  loopback staging PostgreSQL importigina. Startup seeder yo‘q.
+- `scripts/serve_physics_preview.py`: Gitdan tashqaridagi **yangi** sandbox DB/QA
+  account; main/seeders/production import qilmaydi. Private bir soatlik test JWT va
+  Flutter defines; `--resume` local progressni saqlaydi. Secretlar log/commitda yo‘q.
+- `tests/test_physics_v2.py`, `tests/test_physics_postgres.py`: real API/SQL,
+  source mutation, security, alternative/unit/rounding, replay/concurrency,
+  stale session, progress/XP, immutable import va migration compatibility.
+
+Numeric registr birinchi darslardagi uzunlik birliklari bilan chegaralangan;
+hozir universal symbolic algebra, barcha SI/compound units, graph yoki bosqichli
+partial-credit tizimi tayyor emas. Bularni keyingi source-reviewed topshiriqlarsiz
+yoqmang. Eski `SkillQuestion.question_type=mcq`, Biology API/importer o‘zgarmagan.
+
+### Flutter fayllari va amaldagi UX
+
+`lib/features/physics/data/physics_repository.dart`,
+`presentation/physics_preview_screen.dart`, `physics_answer_editor.dart`:
+Ilmo/brand/3D widgets bilan alohida 7-node yo‘l, kartalar/formula/namuna/mashq/feedback/
+natija, formula+son+birlik va tartiblash inputlari, source sheet, server-only grading.
+Kiritilgan javob feedback yonida o‘qiladigan summaryda qoladi; klaviatura yopilib
+feedbackga scroll qilinadi. Busy va partial request guards, cancel/mounted/generation,
+account/origin/lesson-scoped prefs, frozen pending retry va server resume reconciliation
+bor. Completion/resumed result umumiy study revisionni yangilaydi. 200% matn,
+landscape, Reduce Motion va accessible labels/tap targets tekshirildi.
+
+`core/config/physics_preview.dart`, `product_mode.dart`, `core/router/app_router.dart`,
+`settings_screen.dart`: explicit compile flag + local/private API URLgina kirish
+beradi. Default hostda preview deep link ham Learn’ga qaytadi; Biology-only qoidalar
+kengaytirilmagan. `lib/physics_preview_main.dart` alohida debug-only test root;
+normal OAuth yoki app login flow uchun bypass qo‘shilmagan.
+
+Android `build.gradle.kts` + main manifest: faqat standalone QA target/debug/flag
+uchun `.physicsqa` package, QA label va alohida `ilmai-physics-qa` callback;
+normal `com.ilmai.app`/`ILM AI`/`ilmai` defaults saqlanadi. Preview release rad etiladi.
+**Native build/manifest merge SDK yo‘qligi sabab tekshirilmagan**; static default
+OAuth contract/XML tekshirildi. `PHYSICS_PREVIEW_QA.md` Windows/USB `adb reverse`,
+APK buyruqlari va real TalkBack/keyboard/offline/progress ro‘yxatini beradi.
+Yangi `test/physics_preview_test.dart`, 9 server-public JSON fixture va eski
+Android/default-route contract test kengaytmalari bor; rubrikalar fixturega kirmaydi.
+
+### Haqiqiy testlar va cheklovlar
+
+- Final backend `pytest -q`: **681 passed, 3 skipped, 13 warnings**, 246.66s.
+  Uch skip opt-in PG testlari; quyida alohida amalda bajarilgan.
+- Physics source + v2: **99 passed**; final bounded-source importer dry-run
+  **7/31/5/8/43/5**, stage-one `--require-mapped` ham o‘tdi; yangi fayllar Ruff toza.
+- Haqiqiy **PostgreSQL16.15** — yangi loopback-only Docker staging DB/random
+  schemas, production ma’lumotlarisiz. Physics + mavjud OAuth/Biology **3 passed**
+  (290.72s), oxirgi source/runtime holatida Physics-only **1 passed** (6.27s).
+  0013 additive upgrade/import/reimport, barcha 7 lesson, parallel first-pass XP
+  va legacy **137 XP/3 streak/2 stars** saqlanishi; Biology **406 + 47 checkpoint**
+  shu PG’da amalda o‘qilib/yakunlanib tekshirildi.
+- Final Flutter **141 passed** (oldingi 126 + 15 yangi), analyze **No issues found**.
+  320×568/640×320 + 200% text, default disabled route, labels/min tap targets,
+  timeout, account switch, pending/resume va double-tap testlari o‘tdi.
+- Default `main.dart` release **JS web** va standalone preview **debug web** build
+  o‘tdi. Eski TTS/secure-storage paketlari WASM dry-run warnings chiqaradi;
+  WASM build muvaffaqiyati da’vo qilinmaydi.
+- Asl PDF SHA, 14 page text/render hash **pass**; actual localhost HTTP **7 dars /
+  43 javob / 5 FRQ / 70 XP**, replay natijasi bir xil.
+- Chromium + actual API: §6, ikkita konseptual javob va `y=x*100 / 170 / cm` FRQ
+  to‘g‘ri baholandi; portrait390×844/landscape640×320 rasmlar ko‘rildi; JS error yo‘q.
+  Bu real Android sinovi emas.
+- `flutter doctor`: **Android SDK yo‘q**, Linux desktop toolchain yetishmaydi;
+  Maven/CocoaPods proxy403. APK/iOS/native Gradle build, real telefon, TalkBack,
+  actual Google Console/credential testi bajarilmagan.
+
+**Biology 406 manifest / 47 checkpoint / 2 527 karta / 2 609 savol, XP/streak,
+progress, Ilmo, yashirin eski modullar saqlangan. 432 Biology/legacy engine fayli va 3 oldingi Physics source-arxiv fayli Git blob
+bo‘yicha `cb46a02` bilan bir xil ekanligi tekshirildi. Veb-sayt `054f0ce` va ish daraxti
+ham o‘zgarmagan. PDF/secrets upload, production migration/deploy, main merge,
+AI Explain va ommaviy Fizika nashri bajarilmagan.**
+
+Davom: foydalanuvchi birinchi partiya hisobotini tasdiqlagach, **6-sinf §8–17**
+bo‘yicha asl PDF sahifalarini yangidan tekshirishdan boshlash. 309 qolgan xaritalangan
+bo‘limni tayyor deb belgilamang; §1–7 ni qayta yaratmang. Mustaqil fan/pedagog
+tekshiruvi va real Android QA umumiy release oldidan hali ochiq.
+
+
+## 2026-10-22 — Fizika davom: 316 bo‘lim doirasi, §8–17
+
+Foydalanuvchi birinchi partiya bilan cheklanmasdan barcha 6–11-sinf bo‘limlarini
+oraliq tasdiqsiz ishlab chiqishni buyurdi. Production deploy/main merge/ommaviy
+nashr ruxsati berilmadi. GitHub HEAD backend `986efa7`, Flutter `9f152f0` tekshirildi.
+
+Yangi original kontent: `grade6_batch2.json` va `_review.json`: §8–17, PDF18–39,
+10 bo‘lim, 41 karta, 14 formula yozuvi, 12 misol, 67 topshiriq, 17 FRQ. 22 asl
+sahifa matni/tasviri ko‘rildi; eski+yangi 36 sahifa original hash auditidan o‘tdi.
+Tarixiy atom/etalon, molekulyar modda, V/S model sharti, D≈h/t ning tezlik o‘lchami,
+zichlik umumlashtirishlari va noto‘g‘ri/bahsli sonlar bo‘yicha qarorlar
+`docs/physics/STAGE2_PROGRESS.md` hamda review JSONda yozildi. Tekshirilmagan
+faktlar va mustaqil fan/pedagog ekspert tasdig‘i tayyor deb e’lon qilinmadi.
+
+Muhim fayllar: `services/physics_curriculum.py` explicit multi-batch immutable
+import; `physics_rules.py` 12 yangi formula va SI oracle; `assessment_grading.py`
+massa/hajm/yuza/zichlik/tezlik birliklari va bounded negative-power AST;
+`assessment_runtime.py`, `routers/physics_preview.py` grade catalog va gap guard;
+`scripts/import_physics_preview.py --all-reviewed`; `serve_physics_preview.py`
+resume append; `audit_physics_course.py` haqiqiy qamrov/original source gate.
+Yangi DB migratsiyasi talab qilinmadi, production DBga ulanilmadi.
+
+Flutter faqat Physics preview fayllari: birlik variantlari va dinamik bo‘lim
+oralig‘i, yangi public FRQ fixture va 320px/200% widget testi. Eski replay/draft,
+Ilmo/brend, Biology va default Biology-only nashr flaglari saqlandi.
+
+Partiya testlari: eski v2/source-map 99 passed; yangi kurs12 passed (4.34s),
+17 independent numeric oracle va 17 HTTP lesson/170 XP/replay/import preservation.
+Flutter Physics16 passed, analyze toza. Biology audit355+51/2527/2609.
+To‘liq suite, PostgreSQL, build yakuniy kodda qayta bajarilishi kerak.
+Keyingi mualliflik: §18 PDF45; 299 bo‘lim qolgan. Android SDK yo‘q, real telefon
+va native APK/TalkBack hali tekshirilmagan. PDF/secrets/web/prod o‘zgarmagan.
+
+
+### Fizika davomining navbatdagi partiyasi — 2026-10-22, §18–24
+
+`7555f5f` ustidan7 yangi dars/faoliyat qo‘shildi; Flutter boshlang‘ich saqlangan
+partiya `94d4bbb`. §18–24 PDF45–61 to‘liq matn/tasvir qayta tekshirildi.
+`grade6_batch3.json` va `_review.json`:27 karta/15 formula/8 misol/48 topshiriq/16 FRQ.
+`physics_rules.py`, unit registri va testlar vaqt, yo‘l, tezlik, g=9,81 N/kg,
+kuch, bosim va ideal gidravlik pressga kengaydi. Sun’iy lab formulasi yo‘q.
+Barcha24 dars HTTP/replay/240 XP, muqobil javob/domain testlari bilan
+Physics118 passed (19.21s), Flutter Physics16 passed.53 original page hash pass.
+Oldingi7 va keyingi10 darsning bytes/revisionlari saqlandi. Jami24/316,292 qolgan;
+keyingi §25 PDF62. Mustaqil ekspert va real Android hali tasdiqlanmagan.
+To‘liq regression/PG/build shu davom oxirida alohida qayd qilinadi.
+
+
+### Fizika §25–29 — gidrostatika, atmosfera, Arximed, ish va energiya
+
+`fd39aa4`/Flutter `7d59bc7` ustidan5 dars qo‘shildi:22 karta,12 formula yozuvi,
+7 misol,39 topshiriq,15 FRQ; jami29/316,197 savol/53 FRQ. PDF62–76
+asl matn/tasvir qayta ko‘rildi. Muhim ilmiy qarorlar batch4 review va
+STAGE2_PROGRESS.md da; eski7 dars va barcha Biology fayllari saqlangan.
+
+Unit/graderga atm,J/kJ/mJ,W/kW; p=rho*g*h, tutash suyuqlik ustunlari,
+ko‘taruvchi kuch/ko‘rsatish farqi, parallel ish, Ep/Ek/quvvat explicit
+SI orakullari qo‘shildi. Exact1atm=101325Pa boshqa yaxlitlangan mmHg
+koeffitsiyentlari bilan aralashtirilmaydi. Yangi migratsiya yo‘q.
+
+Physics119 passed20.90s; Flutter142 passed/analyze toza; alohida
+loopback PostgreSQL2 passed12.13s. PG yangi full-course testi alohida
+`test_physics_course_postgres.py` modulida yangi schema oladi; eski7-dars
+testi saqlanadi. Barcha29 dars/197 javob/290 XP, immutable import va
+legacy137 XP/3 streak/2 stars tasdiqlandi.68 original page hash pass.
+
+Muhit restarti to‘liq backend/preview build jarayonlarini uzdi, bu natijalar
+hali pass deb belgilanmaydi. Keyingi §30 PDF84. §32 ning formula davomi
+PDF90 da; source map89 chegarasi uchun explicit runtime citation qaydi kerak.
+Biology406/progress, web, production, default Biology-only/Physics-preview
+cheklovlari saqlangan. SDK/real Android va mustaqil ekspert hali ochiq.
+
+
+## 2026-10-22 — Fizika §30–35 va davom sessiyasining tekshirilgan holati
+
+Boshlang‘ich986efa7/Flutter9f152f0 saqlandi. Shu davomda GitHub’ga
+partiyalar7555f5f,fd39aa4,1a4aef5 (backend) va94d4bbb,7d59bc7,507b48c
+(Flutter) yuborildi; ushbu oxirgi partiya ularning ustidan feature branchda.
+Production/main merge/deploy/publish qilinmadi.
+
+Yangi6 dars: `grade6_batch5.json`/`grade6_batch5_review.json`, PDF84–97.
+Massa markazi, richag, raqamli richag laboratoriyasi, blok/qiya tekislik/vint/pona/
+chig‘iriq/lebyodka, ideal ishlar va FIK:24 karta/14 formula yozuvi/6 misol/
+39 topshiriq/15 FRQ. Har unit va yechimda paragraf/PDF/bosma sahifa/hash.
+§32 ning formula qutisi PDF90 boshida; eski source-map end89 bytes saqlanib,
+yangi v2 `SOURCE_CONTINUATIONS` faqat shu sahifani explicit extent_note bilan
+qabul qiladi. Chegarani umumiy susaytirish yo‘q; test notesiz citationni rad etadi.
+Massa markazi/simmetriya, tik moment yelkasi, ideal/real ishlar, foiz nisbatlari
+va fizik shartlar `STAGE2_PROGRESS.md` va review JSONda hujjatlashtirildi.
+
+Muhandislik: `services/physics_rules.py` ga12 qoida;56 total (birinchi5+51).
+`assessment_grading.py` N*m va% named-quantity birliklari. Momentning N*m
+yozuvi J bilan bir xil SI bazaviy o‘lchamiga ega, lekin shu quantity uchun
+conventional javob N*m talab qilinadi. FIK0..1; foiz1/100. Noto‘g‘ri Af>Au,
+h>s, nol maxrajlar source/domain validatorida rad etiladi. Yangi DB migratsiya
+yo‘q; v1/Biology API va xavfsizlik shartlari o‘zgarmagan.
+
+Flutter faqat Physics preview: manbali birlik chip/placeholderlar, dinamik
+bo‘lim oralig‘i. Chromium’da uzun dars matniga qo‘shilib ketgan3D tugma
+semantik nomlari aniqlandi: `_button` alohida `Semantics(container:true,
+label,button,enabled,onTap,excludeSemantics:true)` node oladi. Visual
+Duo3DButton/Ilmo/brend saqlandi; boshqa global widget/web kodiga tegilmadi.
+Yangi regression label+accessibility tapni tekshiradi.63 yangi numeric public
+payload fixture bor, expected/rubric yo‘q.
+
+Amalda yakunlangan tekshiruvlar:
+- Physics120 passed24.27s:35 dars/236 javob/350 XP, replay, manba drift,
+  immutable import, har yangi FRQ independent oracle va muqobil javob/domain.
+- To‘liq backend702 passed,4 opt-in skipped,13 oldingi warning,283.83s.
+- Alohida real loopback PostgreSQL16 staging4 passed318.26s: additive0013,
+  actual CLI import/reimport,7 eski va35 full-course dars, parallel XP,
+  OAuth/Biology406+47 checkpoint; eski137 XP/3 streak/2 stars saqlanadi.
+- To‘liq Flutter143 passed, analyze No issues found.320px/200% matn,
+  birlik chiplar, default route guard, retry/draft/lifecycle/account isolation.
+- Preview JS debug web (CDN’siz)34.9s; gstatic CanvasKit CDN blokiga javoban
+  build `--no-web-resources-cdn` bilan SDK rendererini lokal yuklaydi.
+- Actual localhost HTTP35 dars/236 javob/68 numeric FRQ/350 XP, barcha
+  javob+complete replay teng, startda grading_spec/expected qiymat yo‘q.
+- Chromium+actual API §35:4 konseptual javob va eta=Af/Au /80 /% to‘g‘ri;
+ 390x844/640x320 tasvirlari ko‘rildi, JS page error yo‘q.
+- Original PDF/text/PNG82 sahifa pass. Oldingi7 JSON/review, Biology
+  manifest/legacy engine va3 source-only Physics arxivi Git diff bo‘yicha
+ 986efa7 bilan bir xil. Biology audit355+51/2527/2609 saqlandi.
+
+SDK/adb mavjud emas; native APK/real Android/TalkBack/Google Console sinovi
+qilingan deb yozilmadi. Mustaqil fan/pedagog ekspert imzosi yo‘q. Har bir
+raqamli lab reja/jadval tahlili, real tajriba bajarilganini anglatmaydi.
+
+**Davom nuqtasi:6-sinf §36, PDF/bosma102 — Issiqlikni hosil qiluvchi manbalar.
+Issiqlik qabul qilish.** To‘liq sahifalarini qayta ko‘rib, original karta/namuna/
+mashq, kerak bo‘lsa manbali formula va private rubric, independent oracle,
+review evidence, explicit batch registry, stats/tests/hujjatlar qo‘shilsin.
+Qolgan6-sinf26,7-sinf46,8-sinf60,9-sinf59,10-sinf45,11-sinf45 =281.
+7-sinf kirish sahifalari yo‘qligi blok emas. Keyingi sinflar uchun Flutter
+grade tanlash/bibliografiya UI ham kengaytirilishi kerak; hozir35 lesson grade6.
+Oraliq tasdiq so‘ramasdan davom etish ruxsati bor; ommaviy release/deploy yo‘q.
+316/316 vazifa **hali tugamagan**; bu sessiya holatini tayyor to‘liq kurs deb
+belgilamang. Keyingi agent mavjud35 darsni qayta yaratmasin.
+
+
+Yakuniy normal `main.dart` release JS web build ham o‘tdi (49.3s,
+`--no-web-resources-cdn --no-wasm-dry-run`). Current build/web/main.dart.js
+private sandbox JWT’ni o‘z ichiga olmaydi. Bu production deploy yoki WASM/native
+Android build emas. Temporary QA server/konteynerlari tekshiruvdan keyin to‘xtatiladi.
+
+
+### Fizika6-sinf checkpoint — 2026-10-25
+
+Backend047c639 / Flutterac9b3e0 GitHubga yuborildi;6-sinf61/61,
+umumiy61/316 va255qolgan. HaqiqiyPG4passed292.04s, actualHTTP
+61dars/394javob/88FRQ/610XP. Biology/progress/old35dars o‘zgarmadi.
+Birinchi full backend731passed/1outdated-assertion-failed/4skipped;
+test tuzatildi va27targetedpassed, to‘liq rerun natijasi hali pending.
+Flutter143passed/analyze0issue/webrelease51.5s.7-sinf birinchi7PDF
+sahifasi qayta ko‘rildi; `docs/physics/GRADE7_NEXT_REVIEW.md`dagi
+arifmetik va ilmiy tafovutlarni keyingi mualliflikda hisobga oling.
+§1PDF1/bosma8dan davom; hozir grade7authored0. Markaziy hujjat
+tarixi saqlandi, Kimyo branchi/veb/main/prod/AIExplainga tegilmadi.
+
+
+### Fizika7-sinf oldidan multigrade poydevori — 2026-10-25
+Cataloggrade-parametr/allowlistbibliografiya, Flutter sinf tanlash va
+grade-specificbookvalidation hamda test oracle(grade,section,q)
+kalitlari qo‘shildi.6-sinf61dars/progress o‘zgarmadi; grade7importhali0.
+Testlar: oldPhysics81passed, yangiidentity/bibliografiya8passed.
+§1–5 PDF1–21 asl matn/tasvirlari o‘qildi, mualliflik navbatda.
+Details `docs/physics/STAGE2_PROGRESS.md`. Veb/Kimyo/productionga tegilmadi.
+

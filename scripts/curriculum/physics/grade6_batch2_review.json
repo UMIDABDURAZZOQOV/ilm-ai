@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "batch": "grade6_batch2",
+  "date": "2026-10-22",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-6",
+  "book_sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+  "batch_file_sha256": "246bc2c3c15d7db8b2ec84817e08b8b44aaef38bdb2833e70435bc55842126f3",
+  "review_method": "Original full PDF text and rendered images of every cited page re-read before authoring; original authored examples/questions, independent exact-arithmetic answer oracles in tests.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 18,
+      "printed_page": 18,
+      "text_sha256": "784d3c10ebcd113708f062a901335c0abfff4b452f5b6e30e64cb28c3986316b",
+      "reviewed_render_sha256": "98a0661820eb9fce1795f97ae1a1d743a1139e809fa39ad4428234c33d02a382",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 19,
+      "text_sha256": "c7580f820d2d222b59833d662a836a8a850e10fd116a0d9bad07f88dc1faa930",
+      "reviewed_render_sha256": "915d5f56e2d9dd1de2299e5583b08eb36e81b0f795c1872f0cb8364d174f2bbd",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 20,
+      "text_sha256": "08cb5265440a3a0bbca5e5ed7b48f9298ae06ac97e5c8c73a7db6d193dcbcff7",
+      "reviewed_render_sha256": "e5eae5a017f3beb901aee142ebc2af8818e72b610a03c1a4112a38f9831a60d5",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 21,
+      "text_sha256": "1f4e384d5f1a4ca75183a6f0f015aedab6d7795096011f8583153503629c4ca8",
+      "reviewed_render_sha256": "40c4e8fbc2ef8e30c0d3500c66340308448029aa015b8afceb2ee8d23440c0da",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 22,
+      "text_sha256": "5a4a1e6cd88d7d3c2c4c359c8eb897dd20f2b9fb7b70dbe8611b6e8c618f7c2f",
+      "reviewed_render_sha256": "30ab25cfb64165fb54eb56224ef79f4c6664bfec222a9d03eaa9c0f30b97c23a",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 23,
+      "text_sha256": "3dc2ba2ed8a2f2af40d606e9440b2fc7b7f85444bac63236182f844fb48a4cd9",
+      "reviewed_render_sha256": "440429821222235f924667d683b1d6312d0080508d7fd1dde289d6c7fe9683b3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 24,
+      "printed_page": 24,
+      "text_sha256": "d1738b69772daf7c45926681a3241262c3ae38afb7af0d77f0e3cadaba658831",
+      "reviewed_render_sha256": "9aa64f865df859bb682f65d15e790258438b66aae2afbf8f7635698a9b7436c2",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 25,
+      "text_sha256": "64e5c2fb1af391f5079d5f5a1f6adc94d67dbce60b6a5e9a7f6f6d00d5844e37",
+      "reviewed_render_sha256": "4f0698bb895db8b71d4514b391512810393d0d28f12e1a085df6b594aa0a559d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 26,
+      "printed_page": 26,
+      "text_sha256": "4b082a7a752685d7e21d8349c2a76fd2ef6e81e1d22e7eeec06e276cda614840",
+      "reviewed_render_sha256": "0a83cf6cdc76207e704c6e1f9cfa27ad84c8887913d0f8a2a312567a512ee147",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 27,
+      "printed_page": 27,
+      "text_sha256": "a075e85c4b25a5558c63a8e531d98a5062ba905b895ae16974ad6585f42c1285",
+      "reviewed_render_sha256": "853a4cc40be6f0c1557d2152ba5452d631faa67467316a5a6037c96ab46b8534",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 28,
+      "printed_page": 28,
+      "text_sha256": "d91e931bfa438f1993973a6a662cdf40e710939e3a770df8218025c7ba60aa54",
+      "reviewed_render_sha256": "f1ae3aedf7cdf8942026ddb75dd82f861e21326b6edb563c75f5d592341b4d8b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 29,
+      "printed_page": 29,
+      "text_sha256": "639cf79400842cf95bd3652871c613a2c5cfd70e2efcd4d76e4e59cdcc2acbec",
+      "reviewed_render_sha256": "2313bcf719a29b47bfcbb2b0f3239ab3a21b16f1e7bf282b254e36d85345cf0f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": 30,
+      "text_sha256": "e790c88774550e32120989123879400a006af079cf7338de8ad24b0545bb81a2",
+      "reviewed_render_sha256": "a4c98e4452c98e81b7c6345636ad8aaf07e438b834d2ab1d5ebb83049305da1f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 31,
+      "printed_page": 31,
+      "text_sha256": "174fbebf8d643184052b0090d85a46a1ff247c9ba4a065065d5fe181033eac2c",
+      "reviewed_render_sha256": "6e12922999d4b35f7642524ef3f2f9a340a0c28323e00eb6594553fefad4455c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 32,
+      "printed_page": 32,
+      "text_sha256": "5647922790ac160b963c5cfbad2deb38f7e6d0a8eeec2378558654e3144a80cc",
+      "reviewed_render_sha256": "553092aba6fd8ec1ff3d47fe9a7c287e32acbca259afa34755198c708491cd78",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 33,
+      "printed_page": 33,
+      "text_sha256": "cefc27aed83a6d2d10da9c9718c2a05c0eed472dde28741110f0439546485b29",
+      "reviewed_render_sha256": "a9ba2f6c613615d3efc2834fac19fa8e80a2c9976a670beb238b948016aa4021",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 34,
+      "printed_page": 34,
+      "text_sha256": "3d04f76215f118cbd5eb836a069b03a481c97cc7924ec53801cf9ff3806c7c18",
+      "reviewed_render_sha256": "2d862de6575bc47469acb46938bb9a0d3213e96e4d6c31c52219c795f55a2700",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 35,
+      "printed_page": 35,
+      "text_sha256": "ea8e01a716366fdaf7d7e6a0d1b03220b430e941362c5dd47571122058c8c99d",
+      "reviewed_render_sha256": "31857b9101ddfad8e65c7acf99d535057c1e0a6c7359d5ca03a68cd868dc5f7b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 36,
+      "printed_page": 36,
+      "text_sha256": "41c80cb174c0237025aa981d8ece03dc4781b0f080f2c33708cc0cc92d8ceb44",
+      "reviewed_render_sha256": "153c593cbd89a1e2ae9bd8f6b6b4525b46f2dd1edaf59249c44e30870a2660c2",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 37,
+      "printed_page": 37,
+      "text_sha256": "420e2e261a66616c420f49795f9415415017f81f59644fa64e49a7f06008e947",
+      "reviewed_render_sha256": "4b790eb41428fb195dd009e18501be220a9ef376ab4a813a281d6fce9fada73e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 38,
+      "printed_page": 38,
+      "text_sha256": "73805bdbe4bc7da93070a20cac731fcbc39db8302b420c1e35d33a34391c8bd7",
+      "reviewed_render_sha256": "37c4cf8d72fbe95b0cd6dacffb91df0abad7d8379ed3d21cd7a7bb9fcd3e1663",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 39,
+      "printed_page": 39,
+      "text_sha256": "fa61620ed13f7fc05d8ffb5a78d3e3683c0381da36702398493e7686460d61ff",
+      "reviewed_render_sha256": "6b011e065078315ffcc4618e18e75a03ac021fd0f19c1790885495b4ac10e55e",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pdf_pages": [
+        18,
+        19
+      ],
+      "decision": "Demokrit/Ar-Roziy/Beruniy/Ibn Sino qarashlari tarixiy sifatida ajratiladi; zamonaviy tajriba yoki cheksiz bo‘linish isboti deb berilmaydi."
+    },
+    {
+      "pdf_pages": [
+        20,
+        21,
+        27
+      ],
+      "decision": "Molekula ta’rifi molekulyar modda misollariga cheklanadi. NaCl alohida molekulalar modeli sifatida ishlatilmaydi. PDF21 optik mikroskop 0,000002 mm haqidagi bahsli son va oqsil o‘lchami savolga kiritilmadi. Bir qatlamli yog‘ modeli taxminiy."
+    },
+    {
+      "pdf_pages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "decision": "Broun zarrasi molekulaning o‘zi emas. Isitish/oqimni faqat diffuziya bilan tenglashtirmaymiz. Piramida suv o‘tkazmasligi va teri orqali kislorodga oid umumlashtirishlar tekshirilgan savol emas. Zaharli moddalarni tatib ko‘rish yoki shisha kesish topshirig‘i yo‘q."
+    },
+    {
+      "pdf_pages": [
+        26,
+        27,
+        28
+      ],
+      "decision": "Kristall panjara barcha qattiq jismlar uchun universal emas. §13 dagi D≈h/t ning o‘lchami tezlik; kursda v=h/t faqat kuzatilgan rangli qatlam siljishining o‘rtacha ko‘rsatkichi, universal diffuziya koeffitsiyenti emas. Shartli jadval real tajriba deb belgilanmaydi."
+    },
+    {
+      "pdf_pages": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "decision": "Metall kilogramm etaloni tarixiy. Massa va og‘irlik tenglashtirilmaydi; shakar eriganda hajm aynan o‘zgarmaydi yoki barcha qattiq jismlar barcha suyuqliklardan zichroq degan xato umumlashtirishlar ishlatilmaydi. Menzurka shartlari: erimaydigan, to‘liq botgan jism, suv to‘kilmaydi, pufaklar yo‘q. PDF38 Quyosh markazi zichligi haqidagi bahsli son ishlatilmadi."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "§13 home activity, §15/17 laboratories: digital plans and explicitly hypothetical data only."
+  },
+  "lessons": [
+    {
+      "sequence": 8,
+      "topic_id": "physics-6-section-8",
+      "pdf_pages": [
+        18,
+        19
+      ],
+      "printed_pages": [
+        18,
+        19
+      ],
+      "cards": 4,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 5,
+      "frq": 0
+    },
+    {
+      "sequence": 9,
+      "topic_id": "physics-6-section-9",
+      "pdf_pages": [
+        20,
+        21
+      ],
+      "printed_pages": [
+        20,
+        21
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 2
+    },
+    {
+      "sequence": 10,
+      "topic_id": "physics-6-section-10",
+      "pdf_pages": [
+        22,
+        23,
+        24
+      ],
+      "printed_pages": [
+        22,
+        23,
+        24
+      ],
+      "cards": 4,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 11,
+      "topic_id": "physics-6-section-11",
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "printed_pages": [
+        24,
+        25
+      ],
+      "cards": 4,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 12,
+      "topic_id": "physics-6-section-12",
+      "pdf_pages": [
+        26,
+        27,
+        28
+      ],
+      "printed_pages": [
+        26,
+        27,
+        28
+      ],
+      "cards": 4,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 13,
+      "topic_id": "physics-6-section-13",
+      "pdf_pages": [
+        28
+      ],
+      "printed_pages": [
+        28
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 2
+    },
+    {
+      "sequence": 14,
+      "topic_id": "physics-6-section-14",
+      "pdf_pages": [
+        29,
+        30,
+        31
+      ],
+      "printed_pages": [
+        29,
+        30,
+        31
+      ],
+      "cards": 4,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 15,
+      "topic_id": "physics-6-section-15",
+      "pdf_pages": [
+        31,
+        32,
+        33
+      ],
+      "printed_pages": [
+        31,
+        32,
+        33
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 2
+    },
+    {
+      "sequence": 16,
+      "topic_id": "physics-6-section-16",
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "printed_pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 2,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 17,
+      "topic_id": "physics-6-section-17",
+      "pdf_pages": [
+        37,
+        38,
+        39
+      ],
+      "printed_pages": [
+        37,
+        38,
+        39
+      ],
+      "cards": 4,
+      "formula_rules": 3,
+      "worked_examples": 2,
+      "assessments": 8,
+      "frq": 4
+    }
+  ]
+}

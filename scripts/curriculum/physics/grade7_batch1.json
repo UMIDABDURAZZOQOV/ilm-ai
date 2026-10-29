@@ -1,0 +1,5029 @@
+{
+  "schema_version": 2,
+  "subject": "fizika",
+  "language": "uz",
+  "grade": 7,
+  "publication": "local_test_preview_only",
+  "ai_explain": false,
+  "source_review_date": "2026-10-25",
+  "lessons": [
+    {
+      "key": "physics-7-section-1-r1",
+      "topic_id": "physics-7-section-1",
+      "sequence": 1,
+      "revision": 1,
+      "title": "Jismlarning harakati",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-7",
+          "topic_id": "physics-7-section-1",
+          "chapter_id": "physics-7-chapter-1",
+          "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+          "file_name": "fizika_7_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "printed_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "page_text_sha256": [
+            "5d8b13159a5748b3eef14b2f0169c217d72ad0bc59c5ef5b5796e5945d7ffb89",
+            "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e",
+            "e4ef8ab17c0917f8a44d1361726cbee9ab9911c1f01fa96ccfa2d1dd80563594",
+            "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "motion": {
+          "claim": "Mexanik harakat — jismning boshqa jismga nisbatan vaziyati vaqt o‘tishi bilan o‘zgarishi. Avtomobilni yo‘l yonidagi daraxtga, qayiqni qirg‘oqqa nisbatan kuzatish mumkin. «Harakatda» degan xulosada sanoq jismi aytiladi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "printed_pages": [
+                8,
+                9
+              ],
+              "page_text_sha256": [
+                "5d8b13159a5748b3eef14b2f0169c217d72ad0bc59c5ef5b5796e5945d7ffb89",
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ]
+        },
+        "relative": {
+          "claim": "Qayiqda o‘tirgan yo‘lovchi qayiqqa nisbatan tinch, qirg‘oqqa nisbatan harakatda bo‘lishi mumkin. Bu qarama-qarshilik emas: sanoq jismlari boshqa. Tinchlikni ham mutlaq deb olmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ]
+        },
+        "system": {
+          "claim": "Sanoq jism, unga bog‘langan koordinatalar va vaqt sanog‘i birgalikda sanoq sistemasini beradi. Harakatni tavsiflashda «qayerda» bilan birga «qachon» savoli ham kerak.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "printed_pages": [
+                10,
+                11
+              ],
+              "page_text_sha256": [
+                "e4ef8ab17c0917f8a44d1361726cbee9ab9911c1f01fa96ccfa2d1dd80563594",
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+              ]
+            }
+          ]
+        },
+        "addition": {
+          "claim": "Klassik modelda platforma Yerga nisbatan v1, odam platformaga nisbatan ayni to‘g‘ri chiziq va ayni yo‘nalishda v2 bilan yursa, Yerga nisbatan v=v1+v2. Qarama-qarshi yoki yon yo‘nalishda modullarni shunchaki qo‘shish shu qoida emas.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Vaziyat nimaga nisbatan?",
+          "body": "Mexanik harakat — jismning boshqa jismga nisbatan vaziyati vaqt o‘tishi bilan o‘zgarishi. Avtomobilni yo‘l yonidagi daraxtga, qayiqni qirg‘oqqa nisbatan kuzatish mumkin. «Harakatda» degan xulosada sanoq jismi aytiladi.",
+          "fact_ids": [
+            "motion"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                1,
+                2
+              ],
+              "printed_pages": [
+                8,
+                9
+              ],
+              "page_text_sha256": [
+                "5d8b13159a5748b3eef14b2f0169c217d72ad0bc59c5ef5b5796e5945d7ffb89",
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bir jism ikki xil tavsifda",
+          "body": "Qayiqda o‘tirgan yo‘lovchi qayiqqa nisbatan tinch, qirg‘oqqa nisbatan harakatda bo‘lishi mumkin. Bu qarama-qarshilik emas: sanoq jismlari boshqa. Tinchlikni ham mutlaq deb olmaymiz.",
+          "fact_ids": [
+            "relative"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sanoq sistemasi",
+          "body": "Sanoq jism, unga bog‘langan koordinatalar va vaqt sanog‘i birgalikda sanoq sistemasini beradi. Harakatni tavsiflashda «qayerda» bilan birga «qachon» savoli ham kerak.",
+          "fact_ids": [
+            "system"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "printed_pages": [
+                10,
+                11
+              ],
+              "page_text_sha256": [
+                "e4ef8ab17c0917f8a44d1361726cbee9ab9911c1f01fa96ccfa2d1dd80563594",
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bir yo‘nalishli tezlik misoli",
+          "body": "Klassik modelda platforma Yerga nisbatan v1, odam platformaga nisbatan ayni to‘g‘ri chiziq va ayni yo‘nalishda v2 bilan yursa, Yerga nisbatan v=v1+v2. Qarama-qarshi yoki yon yo‘nalishda modullarni shunchaki qo‘shish shu qoida emas.",
+          "fact_ids": [
+            "addition"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "rule": "codirectional_speed",
+          "title": "Bir yo‘nalishli klassik qo‘shish",
+          "expression": "v = v1 + v2",
+          "body": "v1 platformaning Yerga, v2 odamning platformaga nisbatan tezlik moduli; ayni yo‘nalish.",
+          "fact_ids": [
+            "addition"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Original platforma",
+          "body": "Platforma Yerga nisbatan6m/s, odam platformaga nisbatan oldinga0,8m/s yuradi.",
+          "steps": [
+            {
+              "body": "Sanoq jismlari har bir tezlik uchun aniq.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-1",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    2
+                  ],
+                  "printed_pages": [
+                    9
+                  ],
+                  "page_text_sha256": [
+                    "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Ayni yo‘nalishdagi klassik model:v=6+0,8=6,8m/s.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-1",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    2
+                  ],
+                  "printed_pages": [
+                    9
+                  ],
+                  "page_text_sha256": [
+                    "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Platforma sanoq jism bo‘lsa odamning tezligi0,8m/s bo‘lib qoladi.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-1",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    2
+                  ],
+                  "printed_pages": [
+                    9
+                  ],
+                  "page_text_sha256": [
+                    "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "addition",
+            "relative"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-7-section-1-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Qayiqdagi yo‘lovchi qayiqqa nisbatan tinch, qirg‘oqqa nisbatan yurmoqda. Qaysi izoh mos?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Harakat sanoq jismga nisbiy"
+              },
+              {
+                "id": "o2",
+                "label": "Bunday kuzatuv mumkin emas"
+              },
+              {
+                "id": "o3",
+                "label": "Yo‘lovchi albatta yo‘qolgan"
+              }
+            ]
+          },
+          "fact_ids": [
+            "relative"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Sanoq jism o‘zgarsa harakat tavsifi ham o‘zgaradi.",
+              "incorrect": "Yana o‘ylab ko‘r: Sanoq jism o‘zgarsa harakat tavsifi ham o‘zgaradi."
+            },
+            "solution": [
+              {
+                "body": "Sanoq jism o‘zgarsa harakat tavsifi ham o‘zgaradi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-1",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      2
+                    ],
+                    "printed_pages": [
+                      9
+                    ],
+                    "page_text_sha256": [
+                      "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-1-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Avtomobil harakati yo‘l yonidagi daraxtga nisbatan qaralmoqda. Daraxtning vazifasi nima?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat vaqt birligi"
+              },
+              {
+                "id": "o2",
+                "label": "Sanoq jism"
+              },
+              {
+                "id": "o3",
+                "label": "Tezlikning o‘zi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "motion"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Harakat qaysi jismga nisbatan kuzatilsa, o‘sha sanoq jism.",
+              "incorrect": "Yana o‘ylab ko‘r: Harakat qaysi jismga nisbatan kuzatilsa, o‘sha sanoq jism."
+            },
+            "solution": [
+              {
+                "body": "Harakat qaysi jismga nisbatan kuzatilsa, o‘sha sanoq jism.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-1",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      2
+                    ],
+                    "printed_pages": [
+                      9
+                    ],
+                    "page_text_sha256": [
+                      "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-1-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Sanoq sistemasining to‘liq tarkibini tanla.",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat sekundomer"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat yo‘l uzunligi"
+              },
+              {
+                "id": "o3",
+                "label": "Sanoq jism, koordinatalar va vaqt sanog‘i"
+              }
+            ]
+          },
+          "fact_ids": [
+            "system"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                3,
+                4
+              ],
+              "printed_pages": [
+                10,
+                11
+              ],
+              "page_text_sha256": [
+                "e4ef8ab17c0917f8a44d1361726cbee9ab9911c1f01fa96ccfa2d1dd80563594",
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Qayerda va qachon bo‘lganini birga tavsiflaymiz.",
+              "incorrect": "Yana o‘ylab ko‘r: Qayerda va qachon bo‘lganini birga tavsiflaymiz."
+            },
+            "solution": [
+              {
+                "body": "Qayerda va qachon bo‘lganini birga tavsiflaymiz.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-1",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      3,
+                      4
+                    ],
+                    "printed_pages": [
+                      10,
+                      11
+                    ],
+                    "page_text_sha256": [
+                      "e4ef8ab17c0917f8a44d1361726cbee9ab9911c1f01fa96ccfa2d1dd80563594",
+                      "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-1-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "v=v1+v2 modullar tengligi bu darsda qaysi holat uchun?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Ayni chiziq va bir yo‘nalishli klassik model"
+              },
+              {
+                "id": "o2",
+                "label": "Har qanday burchakdagi tezliklar uchun"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat mutlaq tinchlik uchun"
+              }
+            ]
+          },
+          "fact_ids": [
+            "addition"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Yo‘nalish sharti bo‘lmasa tezlik modullarini qo‘shish noto‘g‘ri bo‘lishi mumkin.",
+              "incorrect": "Yana o‘ylab ko‘r: Yo‘nalish sharti bo‘lmasa tezlik modullarini qo‘shish noto‘g‘ri bo‘lishi mumkin."
+            },
+            "solution": [
+              {
+                "body": "Yo‘nalish sharti bo‘lmasa tezlik modullarini qo‘shish noto‘g‘ri bo‘lishi mumkin.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-1",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      2
+                    ],
+                    "printed_pages": [
+                      9
+                    ],
+                    "page_text_sha256": [
+                      "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-1-r1:q5",
+          "response_kind": "numeric_quantity",
+          "phase": "guided",
+          "public": {
+            "prompt": "Platforma Yerga nisbatan v1=7m/s; odam platformaga nisbatan ayni yo‘nalishda v2=1,5m/s. Klassik modelda Yerga nisbatan v ni top.",
+            "givens": [
+              {
+                "symbol": "v1",
+                "value": "7",
+                "unit": "m/s"
+              },
+              {
+                "symbol": "v2",
+                "value": "1.5",
+                "unit": "m/s"
+              }
+            ],
+            "symbols": [
+              "v1",
+              "v2"
+            ],
+            "suggested_unit": "m/s",
+            "unit_choices": [
+              "m/s",
+              "km/h"
+            ]
+          },
+          "fact_ids": [
+            "addition"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "codirectional_speed",
+            "formula": {
+              "target": "v",
+              "variables": [
+                "v1",
+                "v2"
+              ],
+              "equivalents": [
+                "v1+v2",
+                "v2+v1"
+              ],
+              "conditions": "Klassik bir to‘g‘ri chiziq/bir yo‘nalish modeli; platforma Yerga, odam platformaga nisbatan;7sinfPDF2/bosma9."
+            },
+            "expected_si": "8.5",
+            "dimension": "speed",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "v=v1+v2=7+1,5=8,5m/s.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-1",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      2
+                    ],
+                    "printed_pages": [
+                      9
+                    ],
+                    "page_text_sha256": [
+                      "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-1-r1:q6",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Bir chiziqda bir yo‘nalish: platforma v1=18km/h, odam unga nisbatan v2=3,6km/h. Yerga nisbatan v ni top.",
+            "givens": [
+              {
+                "symbol": "v1",
+                "value": "18",
+                "unit": "km/h"
+              },
+              {
+                "symbol": "v2",
+                "value": "3.6",
+                "unit": "km/h"
+              }
+            ],
+            "symbols": [
+              "v1",
+              "v2"
+            ],
+            "suggested_unit": "km/h",
+            "unit_choices": [
+              "m/s",
+              "km/h"
+            ]
+          },
+          "fact_ids": [
+            "addition"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-1",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                2
+              ],
+              "printed_pages": [
+                9
+              ],
+              "page_text_sha256": [
+                "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "codirectional_speed",
+            "formula": {
+              "target": "v",
+              "variables": [
+                "v1",
+                "v2"
+              ],
+              "equivalents": [
+                "v1+v2",
+                "v2+v1"
+              ],
+              "conditions": "Klassik bir to‘g‘ri chiziq/bir yo‘nalish modeli; platforma Yerga, odam platformaga nisbatan;7sinfPDF2/bosma9."
+            },
+            "expected_si": "6",
+            "dimension": "speed",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "v=18+3,6=21,6km/h=6m/s.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-1",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      2
+                    ],
+                    "printed_pages": [
+                      9
+                    ],
+                    "page_text_sha256": [
+                      "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-7-section-2-r1",
+      "topic_id": "physics-7-section-2",
+      "sequence": 2,
+      "revision": 1,
+      "title": "Fazo va vaqt",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-7",
+          "topic_id": "physics-7-section-2",
+          "chapter_id": "physics-7-chapter-1",
+          "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+          "file_name": "fizika_7_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "printed_pages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "page_text_sha256": [
+            "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9",
+            "eec4e37ddfef6b53b783c46f1381de7f672a0d4bc7fde52eb0ab62b35489b520",
+            "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7",
+            "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "coordinates": {
+          "claim": "To‘g‘ri yo‘ldagi vaziyatni bitta koordinata bilan, tekislikdagi yo‘nalish o‘zgarishini ikkita koordinata bilan tavsiflash qulay. Parvoz balandligi ham o‘zgarsa uchinchi koordinata kerak bo‘ladi. Model o‘rganilayotgan harakatga mos tanlanadi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                5,
+                6
+              ],
+              "printed_pages": [
+                12,
+                13
+              ],
+              "page_text_sha256": [
+                "eec4e37ddfef6b53b783c46f1381de7f672a0d4bc7fde52eb0ab62b35489b520",
+                "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7"
+              ]
+            }
+          ]
+        },
+        "time": {
+          "claim": "Vaqt hodisalar ketma-ketligi va davomiyligini ifodalaydi. Bu kursda uning xalqaro birligi sekund. Qaytariladigan hodisalardan vaqt o‘lchashda foydalanish mumkin; kitobdagi yil ulushi zamonaviy sekundning ta’rifi sifatida berilmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                6,
+                7
+              ],
+              "printed_pages": [
+                13,
+                14
+              ],
+              "page_text_sha256": [
+                "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7",
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+              ]
+            }
+          ]
+        },
+        "light": {
+          "claim": "Darslik yorug‘lik yo‘li uchun s=v*t misolini beradi. Bir xil muhitda berilgan tezlik va vaqtni mos birliklarda ishlatamiz.300000km/s — bu yerda yaxlitlangan o‘quv qiymati, aniq SI konstanta yozuvi emas.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                4
+              ],
+              "printed_pages": [
+                11
+              ],
+              "page_text_sha256": [
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+              ]
+            }
+          ]
+        },
+        "limits": {
+          "claim": "Sonli masalada berilgan qiymatlardan natija tekshiriladi. Fazoni cheksiz deb e’lon qilish yoki barcha galaktikalar sonini aniq bildik deyish bu darsning tekshirilgan savoli emas. Kitobdagi kuzatuv chegarasi bilan isbotlangan umumiy xulosani almashtirmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                4,
+                5
+              ],
+              "printed_pages": [
+                11,
+                12
+              ],
+              "page_text_sha256": [
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9",
+                "eec4e37ddfef6b53b783c46f1381de7f672a0d4bc7fde52eb0ab62b35489b520"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Harakat uchun kerakli o‘lcham",
+          "body": "To‘g‘ri yo‘ldagi vaziyatni bitta koordinata bilan, tekislikdagi yo‘nalish o‘zgarishini ikkita koordinata bilan tavsiflash qulay. Parvoz balandligi ham o‘zgarsa uchinchi koordinata kerak bo‘ladi. Model o‘rganilayotgan harakatga mos tanlanadi.",
+          "fact_ids": [
+            "coordinates"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                5,
+                6
+              ],
+              "printed_pages": [
+                12,
+                13
+              ],
+              "page_text_sha256": [
+                "eec4e37ddfef6b53b783c46f1381de7f672a0d4bc7fde52eb0ab62b35489b520",
+                "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Qayerda va qachon",
+          "body": "Vaqt hodisalar ketma-ketligi va davomiyligini ifodalaydi. Bu kursda uning xalqaro birligi sekund. Qaytariladigan hodisalardan vaqt o‘lchashda foydalanish mumkin; kitobdagi yil ulushi zamonaviy sekundning ta’rifi sifatida berilmaydi.",
+          "fact_ids": [
+            "time"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                6,
+                7
+              ],
+              "printed_pages": [
+                13,
+                14
+              ],
+              "page_text_sha256": [
+                "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7",
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Katta masofani hisoblash modeli",
+          "body": "Darslik yorug‘lik yo‘li uchun s=v*t misolini beradi. Bir xil muhitda berilgan tezlik va vaqtni mos birliklarda ishlatamiz.300000km/s — bu yerda yaxlitlangan o‘quv qiymati, aniq SI konstanta yozuvi emas.",
+          "fact_ids": [
+            "light"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                4
+              ],
+              "printed_pages": [
+                11
+              ],
+              "page_text_sha256": [
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hisob va taxmin farqi",
+          "body": "Sonli masalada berilgan qiymatlardan natija tekshiriladi. Fazoni cheksiz deb e’lon qilish yoki barcha galaktikalar sonini aniq bildik deyish bu darsning tekshirilgan savoli emas. Kitobdagi kuzatuv chegarasi bilan isbotlangan umumiy xulosani almashtirmaymiz.",
+          "fact_ids": [
+            "limits"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                4,
+                5
+              ],
+              "printed_pages": [
+                11,
+                12
+              ],
+              "page_text_sha256": [
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9",
+                "eec4e37ddfef6b53b783c46f1381de7f672a0d4bc7fde52eb0ab62b35489b520"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "rule": "motion_distance",
+          "title": "Berilgan tezlikdan yo‘l",
+          "expression": "s = v * t",
+          "body": "Bir xil muhit va berilgan doimiy tezlik modeli, mos birliklar.",
+          "fact_ids": [
+            "light"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                4
+              ],
+              "printed_pages": [
+                11
+              ],
+              "page_text_sha256": [
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Original yorug‘lik qaydi",
+          "body": "Yaxlitlangan vakuum modeli:v=300000km/s, t=0,02s.",
+          "steps": [
+            {
+              "body": "s=v*t=300000 × 0,02=6000km.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-2",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    4
+                  ],
+                  "printed_pages": [
+                    11
+                  ],
+                  "page_text_sha256": [
+                    "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Natija aynan berilgan modelning yo‘li.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-2",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    4
+                  ],
+                  "printed_pages": [
+                    11
+                  ],
+                  "page_text_sha256": [
+                    "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Son juda katta chiqishi formulani o‘zgartirishga sabab emas.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-2",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    4
+                  ],
+                  "printed_pages": [
+                    11
+                  ],
+                  "page_text_sha256": [
+                    "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "light"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                4
+              ],
+              "printed_pages": [
+                11
+              ],
+              "page_text_sha256": [
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-7-section-2-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "To‘g‘ri chiziqdagi vaziyat uchun eng sodda koordinata modeli qaysi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Bitta o‘q"
+              },
+              {
+                "id": "o2",
+                "label": "Har doim o‘nta o‘q"
+              },
+              {
+                "id": "o3",
+                "label": "Hech qanday sanoq kerak emas"
+              }
+            ]
+          },
+          "fact_ids": [
+            "coordinates"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                5
+              ],
+              "printed_pages": [
+                12
+              ],
+              "page_text_sha256": [
+                "eec4e37ddfef6b53b783c46f1381de7f672a0d4bc7fde52eb0ab62b35489b520"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Bitta mustaqil yo‘nalish uchun bitta koordinata yetadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Bitta mustaqil yo‘nalish uchun bitta koordinata yetadi."
+            },
+            "solution": [
+              {
+                "body": "Bitta mustaqil yo‘nalish uchun bitta koordinata yetadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-2",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      5
+                    ],
+                    "printed_pages": [
+                      12
+                    ],
+                    "page_text_sha256": [
+                      "eec4e37ddfef6b53b783c46f1381de7f672a0d4bc7fde52eb0ab62b35489b520"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-2-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Samolyotning balandligi ham, gorizontal vaziyati ham o‘zgaradi. Qaysi model qulay?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat sekundning o‘zi"
+              },
+              {
+                "id": "o2",
+                "label": "Uch o‘lchamli koordinatalar"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat bitta rang"
+              }
+            ]
+          },
+          "fact_ids": [
+            "coordinates"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                6
+              ],
+              "printed_pages": [
+                13
+              ],
+              "page_text_sha256": [
+                "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Balandlik uchun uchinchi koordinata qo‘shiladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Balandlik uchun uchinchi koordinata qo‘shiladi."
+            },
+            "solution": [
+              {
+                "body": "Balandlik uchun uchinchi koordinata qo‘shiladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-2",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      6
+                    ],
+                    "printed_pages": [
+                      13
+                    ],
+                    "page_text_sha256": [
+                      "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-2-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Ushbu kursda vaqtning xalqaro birligi qaysi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Metr"
+              },
+              {
+                "id": "o2",
+                "label": "Kilogramm"
+              },
+              {
+                "id": "o3",
+                "label": "Sekund"
+              }
+            ]
+          },
+          "fact_ids": [
+            "time"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                14
+              ],
+              "page_text_sha256": [
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Vaqt sekundlarda o‘lchanadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Vaqt sekundlarda o‘lchanadi."
+            },
+            "solution": [
+              {
+                "body": "Vaqt sekundlarda o‘lchanadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-2",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      7
+                    ],
+                    "printed_pages": [
+                      14
+                    ],
+                    "page_text_sha256": [
+                      "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-2-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Fazodagi vaziyat soniga vaqtni qo‘shish nima uchun zarur?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Harakatda qachon shu vaziyatda bo‘lganini bilish uchun"
+              },
+              {
+                "id": "o2",
+                "label": "Barcha fazoni cheksizligi isbotlangani uchun"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat jism rangini aytish uchun"
+              }
+            ]
+          },
+          "fact_ids": [
+            "time",
+            "coordinates"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                6,
+                7
+              ],
+              "printed_pages": [
+                13,
+                14
+              ],
+              "page_text_sha256": [
+                "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7",
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Harakat vaziyatning vaqtga bog‘liq o‘zgarishidir.",
+              "incorrect": "Yana o‘ylab ko‘r: Harakat vaziyatning vaqtga bog‘liq o‘zgarishidir."
+            },
+            "solution": [
+              {
+                "body": "Harakat vaziyatning vaqtga bog‘liq o‘zgarishidir.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-2",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      6,
+                      7
+                    ],
+                    "printed_pages": [
+                      13,
+                      14
+                    ],
+                    "page_text_sha256": [
+                      "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7",
+                      "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-2-r1:q5",
+          "response_kind": "numeric_quantity",
+          "phase": "guided",
+          "public": {
+            "prompt": "Yaxlitlangan vakuum modelida v=300000km/s, t=0,01s. Yorug‘likning s yo‘lini top.",
+            "givens": [
+              {
+                "symbol": "v",
+                "value": "300000",
+                "unit": "km/s"
+              },
+              {
+                "symbol": "t",
+                "value": "0.01",
+                "unit": "s"
+              }
+            ],
+            "symbols": [
+              "v",
+              "t"
+            ],
+            "suggested_unit": "km",
+            "unit_choices": [
+              "m",
+              "km"
+            ]
+          },
+          "fact_ids": [
+            "light"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                4
+              ],
+              "printed_pages": [
+                11
+              ],
+              "page_text_sha256": [
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "motion_distance",
+            "formula": {
+              "target": "s",
+              "variables": [
+                "v",
+                "t"
+              ],
+              "equivalents": [
+                "v*t",
+                "t*v"
+              ],
+              "conditions": "v tekis harakat tezligi, t vaqt; yoki butun oraliqning berilgan o‘rtacha tezligi; PDF51."
+            },
+            "expected_si": "3000000",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "s=v*t=300000 × 0,01=3000km=3000000m.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-2",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      4
+                    ],
+                    "printed_pages": [
+                      11
+                    ],
+                    "page_text_sha256": [
+                      "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-2-r1:q6",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Mustaqil shu muhit modeli:v=300000km/s, t=0,004s. Yo‘l s qancha?",
+            "givens": [
+              {
+                "symbol": "v",
+                "value": "300000",
+                "unit": "km/s"
+              },
+              {
+                "symbol": "t",
+                "value": "0.004",
+                "unit": "s"
+              }
+            ],
+            "symbols": [
+              "v",
+              "t"
+            ],
+            "suggested_unit": "km",
+            "unit_choices": [
+              "m",
+              "km"
+            ]
+          },
+          "fact_ids": [
+            "light"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-2",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                4
+              ],
+              "printed_pages": [
+                11
+              ],
+              "page_text_sha256": [
+                "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "motion_distance",
+            "formula": {
+              "target": "s",
+              "variables": [
+                "v",
+                "t"
+              ],
+              "equivalents": [
+                "v*t",
+                "t*v"
+              ],
+              "conditions": "v tekis harakat tezligi, t vaqt; yoki butun oraliqning berilgan o‘rtacha tezligi; PDF51."
+            },
+            "expected_si": "1200000",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "s=300000 × 0,004=1200km.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-2",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      4
+                    ],
+                    "printed_pages": [
+                      11
+                    ],
+                    "page_text_sha256": [
+                      "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-7-section-3-r1",
+      "topic_id": "physics-7-section-3",
+      "sequence": 3,
+      "revision": 1,
+      "title": "Kinematikaning asosiy tushunchalari",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-7",
+          "topic_id": "physics-7-section-3",
+          "chapter_id": "physics-7-chapter-1",
+          "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+          "file_name": "fizika_7_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "printed_pages": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "page_text_sha256": [
+            "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92",
+            "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae",
+            "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d",
+            "bde65b597785200e2bc486f1212f3d93f56a22c66273a9a9c23fe2f131f7db70",
+            "4ddec6abce0a20ec48902daf6424c0214ed406ea8e9ca41ea43f25f6f4db60bd"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "kinematics": {
+          "claim": "Kinematika jism harakatini uning massasi va harakat sabablarini tahlil qilmasdan tavsiflaydi. Vaziyatning vaqtga bog‘liqligi so‘z, jadval, grafik yoki formula orqali berilishi mumkin.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                14
+              ],
+              "page_text_sha256": [
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+              ]
+            }
+          ]
+        },
+        "point": {
+          "claim": "Jism o‘lchami va shaklini ayni masalada hisobga olmaslik mumkin bo‘lsa, moddiy nuqta modeli ishlatiladi. Uzoq safardagi avtomobilni shunday qarash mumkin, garajga sig‘ishini tekshirishda esa o‘lchami muhim.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                7,
+                8
+              ],
+              "printed_pages": [
+                14,
+                15
+              ],
+              "page_text_sha256": [
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92",
+                "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+              ]
+            }
+          ]
+        },
+        "trajectory": {
+          "claim": "Jism harakatda bosib o‘tgan nuqtalarini birlashtiruvchi chiziq trayektoriya bo‘ladi. Ko‘rinadigan iz qolishi shart emas: parvozdagi to‘pning yo‘l chizig‘ini ham tasavvur qilish mumkin.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                8
+              ],
+              "printed_pages": [
+                15
+              ],
+              "page_text_sha256": [
+                "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+              ]
+            }
+          ]
+        },
+        "path": {
+          "claim": "Yo‘l — trayektoriya uzunligi. Ko‘chish — boshlang‘ich nuqtadan oxirgi nuqtaga yo‘nalgan kesma. Qaytib kelinganda yo‘l musbat bo‘lishi, ko‘chish esa nol bo‘lishi mumkin. To‘g‘ri chiziqda ham qayrilib orqaga yurilsa, yo‘l bilan ko‘chish moduli teng bo‘lishi shart emas.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                9
+              ],
+              "printed_pages": [
+                16
+              ],
+              "page_text_sha256": [
+                "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d"
+              ]
+            }
+          ]
+        },
+        "translation": {
+          "claim": "Jismning barcha nuqtalari bir xil ko‘chganda ilgarilanma harakat bo‘ladi; unga tegishli chiziq o‘ziga parallel qoladi. Trayektoriya egri ham bo‘lishi mumkin. Avtomobil g‘ildiragining aylanishini korpusining ilgarilanma modelidan ajratamiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                9,
+                10,
+                11
+              ],
+              "printed_pages": [
+                16,
+                17,
+                18
+              ],
+              "page_text_sha256": [
+                "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d",
+                "bde65b597785200e2bc486f1212f3d93f56a22c66273a9a9c23fe2f131f7db70",
+                "4ddec6abce0a20ec48902daf6424c0214ed406ea8e9ca41ea43f25f6f4db60bd"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Nimani o‘rganamiz?",
+          "body": "Kinematika jism harakatini uning massasi va harakat sabablarini tahlil qilmasdan tavsiflaydi. Vaziyatning vaqtga bog‘liqligi so‘z, jadval, grafik yoki formula orqali berilishi mumkin.",
+          "fact_ids": [
+            "kinematics"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                14
+              ],
+              "page_text_sha256": [
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Moddiy nuqta — vazifaga bog‘liq model",
+          "body": "Jism o‘lchami va shaklini ayni masalada hisobga olmaslik mumkin bo‘lsa, moddiy nuqta modeli ishlatiladi. Uzoq safardagi avtomobilni shunday qarash mumkin, garajga sig‘ishini tekshirishda esa o‘lchami muhim.",
+          "fact_ids": [
+            "point"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                7,
+                8
+              ],
+              "printed_pages": [
+                14,
+                15
+              ],
+              "page_text_sha256": [
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92",
+                "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trayektoriya",
+          "body": "Jism harakatda bosib o‘tgan nuqtalarini birlashtiruvchi chiziq trayektoriya bo‘ladi. Ko‘rinadigan iz qolishi shart emas: parvozdagi to‘pning yo‘l chizig‘ini ham tasavvur qilish mumkin.",
+          "fact_ids": [
+            "trajectory"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                8
+              ],
+              "printed_pages": [
+                15
+              ],
+              "page_text_sha256": [
+                "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Yo‘l va ko‘chishni ajratish",
+          "body": "Yo‘l — trayektoriya uzunligi. Ko‘chish — boshlang‘ich nuqtadan oxirgi nuqtaga yo‘nalgan kesma. Qaytib kelinganda yo‘l musbat bo‘lishi, ko‘chish esa nol bo‘lishi mumkin. To‘g‘ri chiziqda ham qayrilib orqaga yurilsa, yo‘l bilan ko‘chish moduli teng bo‘lishi shart emas.",
+          "fact_ids": [
+            "path"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                9
+              ],
+              "printed_pages": [
+                16
+              ],
+              "page_text_sha256": [
+                "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ilgarilanma harakat",
+          "body": "Jismning barcha nuqtalari bir xil ko‘chganda ilgarilanma harakat bo‘ladi; unga tegishli chiziq o‘ziga parallel qoladi. Trayektoriya egri ham bo‘lishi mumkin. Avtomobil g‘ildiragining aylanishini korpusining ilgarilanma modelidan ajratamiz.",
+          "fact_ids": [
+            "translation"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                9,
+                10,
+                11
+              ],
+              "printed_pages": [
+                16,
+                17,
+                18
+              ],
+              "page_text_sha256": [
+                "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d",
+                "bde65b597785200e2bc486f1212f3d93f56a22c66273a9a9c23fe2f131f7db70",
+                "4ddec6abce0a20ec48902daf6424c0214ed406ea8e9ca41ea43f25f6f4db60bd"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [],
+      "examples": [
+        {
+          "title": "Boshlagan joyga qaytish",
+          "body": "O‘quvchi yo‘lakda oldinga6m yurib, xuddi shu izdan boshlagan joyiga qaytdi.",
+          "steps": [
+            {
+              "body": "Yo‘l ikkala bosqichni qamraydi:6+6=12m.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-3",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    9
+                  ],
+                  "printed_pages": [
+                    16
+                  ],
+                  "page_text_sha256": [
+                    "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Boshlang‘ich va oxirgi nuqta bir joyda:ko‘chish nol.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-3",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    9
+                  ],
+                  "printed_pages": [
+                    16
+                  ],
+                  "page_text_sha256": [
+                    "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "«To‘g‘ri chiziq bo‘lsa doim yo‘l=ko‘chish moduli» deyish bu vaziyatga mos emas.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-3",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    9
+                  ],
+                  "printed_pages": [
+                    16
+                  ],
+                  "page_text_sha256": [
+                    "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "path"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                9
+              ],
+              "printed_pages": [
+                16
+              ],
+              "page_text_sha256": [
+                "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-7-section-3-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Uzoq safardagi avtomobilning joylashuvini kuzatishda o‘lchamini e’tiborsiz olish qanday model?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Moddiy nuqta"
+              },
+              {
+                "id": "o2",
+                "label": "Doim mutlaq tinchlik"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat aylanuvchi vaqt"
+              }
+            ]
+          },
+          "fact_ids": [
+            "point"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                7,
+                8
+              ],
+              "printed_pages": [
+                14,
+                15
+              ],
+              "page_text_sha256": [
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92",
+                "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Model ayni vazifada o‘lcham ahamiyatsiz bo‘lsa qo‘llanadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Model ayni vazifada o‘lcham ahamiyatsiz bo‘lsa qo‘llanadi."
+            },
+            "solution": [
+              {
+                "body": "Model ayni vazifada o‘lcham ahamiyatsiz bo‘lsa qo‘llanadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-3",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      7,
+                      8
+                    ],
+                    "printed_pages": [
+                      14,
+                      15
+                    ],
+                    "page_text_sha256": [
+                      "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92",
+                      "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-3-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Garajga avtomobil sig‘ishini tekshirishda uning uzunligini yo‘q deb olish to‘g‘rimi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Har doim to‘g‘ri"
+              },
+              {
+                "id": "o2",
+                "label": "Yo‘q, shu vazifada o‘lcham muhim"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat avtomobil oq bo‘lsa"
+              }
+            ]
+          },
+          "fact_ids": [
+            "point"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                8
+              ],
+              "printed_pages": [
+                15
+              ],
+              "page_text_sha256": [
+                "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Bir jism turli vazifada turlicha modellashtiriladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Bir jism turli vazifada turlicha modellashtiriladi."
+            },
+            "solution": [
+              {
+                "body": "Bir jism turli vazifada turlicha modellashtiriladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-3",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      8
+                    ],
+                    "printed_pages": [
+                      15
+                    ],
+                    "page_text_sha256": [
+                      "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-3-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Trayektoriya uchun ko‘rinadigan iz qolishi shartmi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Har doim bo‘yoq izi kerak"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat qor bo‘lsa mavjud"
+              },
+              {
+                "id": "o3",
+                "label": "Yo‘q, harakat nuqtalari chizig‘i tasavvur qilinadi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "trajectory"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                8
+              ],
+              "printed_pages": [
+                15
+              ],
+              "page_text_sha256": [
+                "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Ko‘rinmaydigan izli harakat ham trayektoriyaga ega.",
+              "incorrect": "Yana o‘ylab ko‘r: Ko‘rinmaydigan izli harakat ham trayektoriyaga ega."
+            },
+            "solution": [
+              {
+                "body": "Ko‘rinmaydigan izli harakat ham trayektoriyaga ega.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-3",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      8
+                    ],
+                    "printed_pages": [
+                      15
+                    ],
+                    "page_text_sha256": [
+                      "46bf8f00b8c5d5dd6e4a25720b19934d58cacd97414da0854686e4a24bd3b7ae"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-3-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "O‘quvchi oldinga6m yurib boshlagan joyiga qaytdi. Ko‘chishi qanday?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Nol"
+              },
+              {
+                "id": "o2",
+                "label": "12m oldinga"
+              },
+              {
+                "id": "o3",
+                "label": "6m oldinga"
+              }
+            ]
+          },
+          "fact_ids": [
+            "path"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                9
+              ],
+              "printed_pages": [
+                16
+              ],
+              "page_text_sha256": [
+                "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Oxirgi nuqta boshlang‘ich bilan ustma-ust.",
+              "incorrect": "Yana o‘ylab ko‘r: Oxirgi nuqta boshlang‘ich bilan ustma-ust."
+            },
+            "solution": [
+              {
+                "body": "Oxirgi nuqta boshlang‘ich bilan ustma-ust.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-3",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      9
+                    ],
+                    "printed_pages": [
+                      16
+                    ],
+                    "page_text_sha256": [
+                      "a2758d225c48f59f725a8719633735e2e0a1e1b81f23f969986c32e92778687d"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-3-r1:q5",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Ilgarilanma harakat trayektoriyasi haqida qaysi xulosa mos?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat to‘g‘ri bo‘lishi shart"
+              },
+              {
+                "id": "o2",
+                "label": "Egri bo‘lishi ham mumkin"
+              },
+              {
+                "id": "o3",
+                "label": "Har doim yo‘q bo‘ladi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "translation"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                10
+              ],
+              "printed_pages": [
+                17
+              ],
+              "page_text_sha256": [
+                "bde65b597785200e2bc486f1212f3d93f56a22c66273a9a9c23fe2f131f7db70"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Jism nuqtalari mos ko‘chsa ilgarilanma harakat egri trayektoriyada ham bo‘ladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Jism nuqtalari mos ko‘chsa ilgarilanma harakat egri trayektoriyada ham bo‘ladi."
+            },
+            "solution": [
+              {
+                "body": "Jism nuqtalari mos ko‘chsa ilgarilanma harakat egri trayektoriyada ham bo‘ladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-3",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      10
+                    ],
+                    "printed_pages": [
+                      17
+                    ],
+                    "page_text_sha256": [
+                      "bde65b597785200e2bc486f1212f3d93f56a22c66273a9a9c23fe2f131f7db70"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-3-r1:q6",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Kinematika ushbu bosqichda nimani aniqlashga qaratilgan?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat jismning narxini"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat harakat sababi kuchini"
+              },
+              {
+                "id": "o3",
+                "label": "Jismning vaqt bo‘yicha vaziyatini"
+              }
+            ]
+          },
+          "fact_ids": [
+            "kinematics"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-3",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                14
+              ],
+              "page_text_sha256": [
+                "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Massani va kuch sababini hisobga olmasdan harakat tavsiflanadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Massani va kuch sababini hisobga olmasdan harakat tavsiflanadi."
+            },
+            "solution": [
+              {
+                "body": "Massani va kuch sababini hisobga olmasdan harakat tavsiflanadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-3",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      7
+                    ],
+                    "printed_pages": [
+                      14
+                    ],
+                    "page_text_sha256": [
+                      "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-7-section-4-r1",
+      "topic_id": "physics-7-section-4",
+      "sequence": 4,
+      "revision": 1,
+      "title": "Skalyar va vektor kattaliklar hamda ular ustida amallar",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-7",
+          "topic_id": "physics-7-section-4",
+          "chapter_id": "physics-7-chapter-1",
+          "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+          "file_name": "fizika_7_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "printed_pages": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "page_text_sha256": [
+            "4ddec6abce0a20ec48902daf6424c0214ed406ea8e9ca41ea43f25f6f4db60bd",
+            "bf7c1a474156a0323fc7f9244ee7216aa5d064b9aa010a0e95bf3dd53341cbf9",
+            "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+            "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f",
+            "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652",
+            "b495fb6d6fb805caca2879add8fb31b0ed8c89ba4519eeed90c59e1f2d77576e",
+            "67d395fa216f10413bcf8314d0ccdc93befe9214f696f1ffacf6d75ae26e35da",
+            "8d4df9033f01d56beb1f6d504610f74a2d8cc88883603813234ed45c6777dcd3"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "scalar": {
+          "claim": "Massa, vaqt va yo‘l kabi skalyar kattaliklar uchun yo‘nalish kerak emas. Son bilan birga fizik birlik saqlanadi. Skalyarni «birliksiz son» deb atash xato.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                18
+              ],
+              "page_text_sha256": [
+                "4ddec6abce0a20ec48902daf6424c0214ed406ea8e9ca41ea43f25f6f4db60bd"
+              ]
+            }
+          ]
+        },
+        "vector": {
+          "claim": "Ko‘chish, tezlik va kuch vektor kattalik misollaridir: miqdor bilan birga yo‘nalish ham muhim. Vektorlar teng bo‘lishi uchun moduli ham, yo‘nalishi ham mos keladi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                12,
+                14
+              ],
+              "printed_pages": [
+                19,
+                21
+              ],
+              "page_text_sha256": [
+                "bf7c1a474156a0323fc7f9244ee7216aa5d064b9aa010a0e95bf3dd53341cbf9",
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ]
+        },
+        "add": {
+          "claim": "Ikkinchi vektorning boshi birinchining uchiga qo‘yiladi; birinchi boshidan ikkinchi uchiga natija chiziladi. Faqat bir yo‘nalishli kollinear ko‘chishlar uchun modullar s=a+b. Turli burchaklarda modulni shunchaki qo‘shmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                13,
+                14
+              ],
+              "printed_pages": [
+                20,
+                21
+              ],
+              "page_text_sha256": [
+                "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ]
+        },
+        "subtract": {
+          "claim": "a va b kollinear ko‘chishlar qarama-qarshi yo‘nalsa, a≥b holatda natija moduli s=a-b, yo‘nalishi a tomonga. Umumiy vektor ayirmasida boshlari birlashtirilib, ikkinchi uchidan birinchi uchiga vektor olinadi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14
+              ],
+              "printed_pages": [
+                21
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ]
+        },
+        "scale": {
+          "claim": "Musbat k songa ko‘paytirish yo‘nalishni saqlaydi, modulni k marta o‘zgartiradi.0<k<1 bo‘lsa modul kichrayadi, k>1 bo‘lsa kattalashadi. Manfiy ko‘paytiruvchi yo‘nalishni teskari qiladi. Bu dars sonli mashqlarida faqat musbat k ishlatiladi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14,
+                15
+              ],
+              "printed_pages": [
+                21,
+                22
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f",
+                "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652"
+              ]
+            }
+          ]
+        },
+        "projection": {
+          "claim": "Vektor uchlaridan o‘qqa perpendikulyarlar tushirib uning o‘q bo‘ylab tashkil etuvchisi aniqlanadi. Darslikdagi5N qiya kuchning gorizontal3N va vertikal4N misoli modul bilan proyeksiyalar bir xil bo‘lishi shart emasligini ko‘rsatadi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                15,
+                16
+              ],
+              "printed_pages": [
+                22,
+                23
+              ],
+              "page_text_sha256": [
+                "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652",
+                "b495fb6d6fb805caca2879add8fb31b0ed8c89ba4519eeed90c59e1f2d77576e"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Skalyar va birlik",
+          "body": "Massa, vaqt va yo‘l kabi skalyar kattaliklar uchun yo‘nalish kerak emas. Son bilan birga fizik birlik saqlanadi. Skalyarni «birliksiz son» deb atash xato.",
+          "fact_ids": [
+            "scalar"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                18
+              ],
+              "page_text_sha256": [
+                "4ddec6abce0a20ec48902daf6424c0214ed406ea8e9ca41ea43f25f6f4db60bd"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Modul va yo‘nalish",
+          "body": "Ko‘chish, tezlik va kuch vektor kattalik misollaridir: miqdor bilan birga yo‘nalish ham muhim. Vektorlar teng bo‘lishi uchun moduli ham, yo‘nalishi ham mos keladi.",
+          "fact_ids": [
+            "vector"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                12,
+                14
+              ],
+              "printed_pages": [
+                19,
+                21
+              ],
+              "page_text_sha256": [
+                "bf7c1a474156a0323fc7f9244ee7216aa5d064b9aa010a0e95bf3dd53341cbf9",
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Uchburchak qoidasini qo‘llash",
+          "body": "Ikkinchi vektorning boshi birinchining uchiga qo‘yiladi; birinchi boshidan ikkinchi uchiga natija chiziladi. Faqat bir yo‘nalishli kollinear ko‘chishlar uchun modullar s=a+b. Turli burchaklarda modulni shunchaki qo‘shmaymiz.",
+          "fact_ids": [
+            "add"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                13,
+                14
+              ],
+              "printed_pages": [
+                20,
+                21
+              ],
+              "page_text_sha256": [
+                "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Qarama-qarshi va ayirish",
+          "body": "a va b kollinear ko‘chishlar qarama-qarshi yo‘nalsa, a≥b holatda natija moduli s=a-b, yo‘nalishi a tomonga. Umumiy vektor ayirmasida boshlari birlashtirilib, ikkinchi uchidan birinchi uchiga vektor olinadi.",
+          "fact_ids": [
+            "subtract"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14
+              ],
+              "printed_pages": [
+                21
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Musbat va manfiy ko‘paytirish",
+          "body": "Musbat k songa ko‘paytirish yo‘nalishni saqlaydi, modulni k marta o‘zgartiradi.0<k<1 bo‘lsa modul kichrayadi, k>1 bo‘lsa kattalashadi. Manfiy ko‘paytiruvchi yo‘nalishni teskari qiladi. Bu dars sonli mashqlarida faqat musbat k ishlatiladi.",
+          "fact_ids": [
+            "scale"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14,
+                15
+              ],
+              "printed_pages": [
+                21,
+                22
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f",
+                "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "O‘qqa proyeksiya",
+          "body": "Vektor uchlaridan o‘qqa perpendikulyarlar tushirib uning o‘q bo‘ylab tashkil etuvchisi aniqlanadi. Darslikdagi5N qiya kuchning gorizontal3N va vertikal4N misoli modul bilan proyeksiyalar bir xil bo‘lishi shart emasligini ko‘rsatadi.",
+          "fact_ids": [
+            "projection"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                15,
+                16
+              ],
+              "printed_pages": [
+                22,
+                23
+              ],
+              "page_text_sha256": [
+                "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652",
+                "b495fb6d6fb805caca2879add8fb31b0ed8c89ba4519eeed90c59e1f2d77576e"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "rule": "codirectional_length",
+          "title": "Bir yo‘nalishli ko‘chishlar",
+          "expression": "s = a + b",
+          "body": "Kollinear ayni yo‘nalish; a,b modullar.",
+          "fact_ids": [
+            "add"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                13,
+                14
+              ],
+              "printed_pages": [
+                20,
+                21
+              ],
+              "page_text_sha256": [
+                "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "opposed_length",
+          "title": "Qarama-qarshi ko‘chish moduli",
+          "expression": "s = a - b",
+          "body": "a≥b≥0; natija a tomonga, tenglikda nol.",
+          "fact_ids": [
+            "subtract"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14
+              ],
+              "printed_pages": [
+                21
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "scaled_length",
+          "title": "Musbat ko‘paytiruvchi",
+          "expression": "s = a * k",
+          "body": "a modul, k>0 birliksiz ko‘paytiruvchi.",
+          "fact_ids": [
+            "scale"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14,
+                15
+              ],
+              "printed_pages": [
+                21,
+                22
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f",
+                "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Original yo‘nalishlar",
+          "body": "Bir chiziqda avval sharqqa9m, keyin g‘arbga4m ko‘chish berilgan.",
+          "steps": [
+            {
+              "body": "Yo‘nalishlar qarama-qarshi, oddiy yig‘indi emas.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-4",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    13,
+                    14
+                  ],
+                  "printed_pages": [
+                    20,
+                    21
+                  ],
+                  "page_text_sha256": [
+                    "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+                    "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Natija moduli9−4=5m, sharqqa.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-4",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    13,
+                    14
+                  ],
+                  "printed_pages": [
+                    20,
+                    21
+                  ],
+                  "page_text_sha256": [
+                    "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+                    "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Yo‘l esa9+4=13m; uni natija ko‘chishiga tenglashtirmaymiz.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-4",
+                  "chapter_id": "physics-7-chapter-1",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    13,
+                    14
+                  ],
+                  "printed_pages": [
+                    20,
+                    21
+                  ],
+                  "page_text_sha256": [
+                    "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+                    "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "subtract",
+            "add"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                13,
+                14
+              ],
+              "printed_pages": [
+                20,
+                21
+              ],
+              "page_text_sha256": [
+                "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-7-section-4-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Qaysi kattalik juftligi vektor?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Ko‘chish va kuch"
+              },
+              {
+                "id": "o2",
+                "label": "Massa va vaqt"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat hajm va energiya"
+              }
+            ]
+          },
+          "fact_ids": [
+            "scalar",
+            "vector"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                11,
+                12
+              ],
+              "printed_pages": [
+                18,
+                19
+              ],
+              "page_text_sha256": [
+                "4ddec6abce0a20ec48902daf6424c0214ed406ea8e9ca41ea43f25f6f4db60bd",
+                "bf7c1a474156a0323fc7f9244ee7216aa5d064b9aa010a0e95bf3dd53341cbf9"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Ko‘chish va kuchni yo‘nalishi bilan tavsiflaymiz.",
+              "incorrect": "Yana o‘ylab ko‘r: Ko‘chish va kuchni yo‘nalishi bilan tavsiflaymiz."
+            },
+            "solution": [
+              {
+                "body": "Ko‘chish va kuchni yo‘nalishi bilan tavsiflaymiz.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-4",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      11,
+                      12
+                    ],
+                    "printed_pages": [
+                      18,
+                      19
+                    ],
+                    "page_text_sha256": [
+                      "4ddec6abce0a20ec48902daf6424c0214ed406ea8e9ca41ea43f25f6f4db60bd",
+                      "bf7c1a474156a0323fc7f9244ee7216aa5d064b9aa010a0e95bf3dd53341cbf9"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-4-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Ikki vektorning tengligi uchun nima kerak?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat moduli bir xil bo‘lishi"
+              },
+              {
+                "id": "o2",
+                "label": "Moduli va yo‘nalishi bir xil bo‘lishi"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat ranglari bir xil bo‘lishi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "vector"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14
+              ],
+              "printed_pages": [
+                21
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Yo‘nalish farq qilsa teng vektorlar emas.",
+              "incorrect": "Yana o‘ylab ko‘r: Yo‘nalish farq qilsa teng vektorlar emas."
+            },
+            "solution": [
+              {
+                "body": "Yo‘nalish farq qilsa teng vektorlar emas.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-4",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      14
+                    ],
+                    "printed_pages": [
+                      21
+                    ],
+                    "page_text_sha256": [
+                      "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-4-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Vektorni manfiy songa ko‘paytirishda yo‘nalish nima bo‘ladi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Har doim saqlanadi"
+              },
+              {
+                "id": "o2",
+                "label": "Har doim yo‘qoladi"
+              },
+              {
+                "id": "o3",
+                "label": "Teskariga o‘zgaradi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "scale"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                15
+              ],
+              "printed_pages": [
+                22
+              ],
+              "page_text_sha256": [
+                "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Manfiy ko‘paytiruvchi musbat holatdan yo‘nalish bo‘yicha farq qiladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Manfiy ko‘paytiruvchi musbat holatdan yo‘nalish bo‘yicha farq qiladi."
+            },
+            "solution": [
+              {
+                "body": "Manfiy ko‘paytiruvchi musbat holatdan yo‘nalish bo‘yicha farq qiladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-4",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      15
+                    ],
+                    "printed_pages": [
+                      22
+                    ],
+                    "page_text_sha256": [
+                      "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-4-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "5N qiya kuchning gorizontal proyeksiyasi3N bo‘lishi mumkinmi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Ha, modul va proyeksiya alohida"
+              },
+              {
+                "id": "o2",
+                "label": "Yo‘q, proyeksiya har doim5N"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat kuch yo‘q bo‘lsa"
+              }
+            ]
+          },
+          "fact_ids": [
+            "projection"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                15
+              ],
+              "printed_pages": [
+                22
+              ],
+              "page_text_sha256": [
+                "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Vektor butun modulini har o‘qdagi tashkil etuvchi bilan almashtirmaymiz.",
+              "incorrect": "Yana o‘ylab ko‘r: Vektor butun modulini har o‘qdagi tashkil etuvchi bilan almashtirmaymiz."
+            },
+            "solution": [
+              {
+                "body": "Vektor butun modulini har o‘qdagi tashkil etuvchi bilan almashtirmaymiz.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-4",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      15
+                    ],
+                    "printed_pages": [
+                      22
+                    ],
+                    "page_text_sha256": [
+                      "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-4-r1:q5",
+          "response_kind": "ordering",
+          "phase": "independent",
+          "public": {
+            "prompt": "Uchburchak usulida vektor qo‘shishni tartibla.",
+            "items": [
+              {
+                "id": "s1",
+                "label": "Birinchi boshdan ikkinchi uchga natija chizish"
+              },
+              {
+                "id": "s2",
+                "label": "Birinchi vektorni yo‘nalishi va masshtabi bilan chizish"
+              },
+              {
+                "id": "s3",
+                "label": "Ikkinchi vektor boshini birinchi uchiga qo‘yish"
+              }
+            ]
+          },
+          "fact_ids": [
+            "add"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14
+              ],
+              "printed_pages": [
+                21
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "ordering",
+            "expected_order": [
+              "s2",
+              "s3",
+              "s1"
+            ],
+            "feedback": {
+              "correct": "Ketma-ketlik to‘g‘ri. Vektorlarni ko‘chirganda yo‘nalishi va moduli saqlanadi.",
+              "incorrect": "Ketma-ketlikni solishtir: Vektorlarni ko‘chirganda yo‘nalishi va moduli saqlanadi."
+            },
+            "solution": [
+              {
+                "body": "Vektorlarni ko‘chirganda yo‘nalishi va moduli saqlanadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-4",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      14
+                    ],
+                    "printed_pages": [
+                      21
+                    ],
+                    "page_text_sha256": [
+                      "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-4-r1:q6",
+          "response_kind": "numeric_quantity",
+          "phase": "guided",
+          "public": {
+            "prompt": "Bir chiziq bo‘ylab sharqqa a=8m, keyin yana sharqqa b=5m. Natija ko‘chish moduli s ni top.",
+            "givens": [
+              {
+                "symbol": "a",
+                "value": "8",
+                "unit": "m"
+              },
+              {
+                "symbol": "b",
+                "value": "5",
+                "unit": "m"
+              }
+            ],
+            "symbols": [
+              "a",
+              "b"
+            ],
+            "suggested_unit": "m",
+            "unit_choices": [
+              "m",
+              "cm",
+              "mm",
+              "nm"
+            ]
+          },
+          "fact_ids": [
+            "add"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                13,
+                14
+              ],
+              "printed_pages": [
+                20,
+                21
+              ],
+              "page_text_sha256": [
+                "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "codirectional_length",
+            "formula": {
+              "target": "s",
+              "variables": [
+                "a",
+                "b"
+              ],
+              "equivalents": [
+                "a+b",
+                "b+a"
+              ],
+              "conditions": "Ikki bir yo‘nalishli kollinear ko‘chish modullari;7sinfPDF13–14/bosma20–21."
+            },
+            "expected_si": "13",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "s=a+b=8+5=13m, sharqqa.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-4",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      13,
+                      14
+                    ],
+                    "printed_pages": [
+                      20,
+                      21
+                    ],
+                    "page_text_sha256": [
+                      "38c7b2bc7b100ca2f68dcf73979e42424a5117f2d310310e45314a56d888c27c",
+                      "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-4-r1:q7",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Avval sharqqa a=11m, keyin g‘arbga b=4m. a≥b. Natija ko‘chish moduli s ni top; yo‘nalishi sharqqa.",
+            "givens": [
+              {
+                "symbol": "a",
+                "value": "11",
+                "unit": "m"
+              },
+              {
+                "symbol": "b",
+                "value": "4",
+                "unit": "m"
+              }
+            ],
+            "symbols": [
+              "a",
+              "b"
+            ],
+            "suggested_unit": "m",
+            "unit_choices": [
+              "m",
+              "cm",
+              "mm",
+              "nm"
+            ]
+          },
+          "fact_ids": [
+            "subtract"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14
+              ],
+              "printed_pages": [
+                21
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "opposed_length",
+            "formula": {
+              "target": "s",
+              "variables": [
+                "a",
+                "b"
+              ],
+              "equivalents": [
+                "a-b"
+              ],
+              "conditions": "Qarama-qarshi kollinear ko‘chishlar, a>=b>=0; natija a yo‘nalishi bo‘yicha modul;7sinfPDF14/bosma21."
+            },
+            "expected_si": "7",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "s=a-b=11−4=7m.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-4",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      14
+                    ],
+                    "printed_pages": [
+                      21
+                    ],
+                    "page_text_sha256": [
+                      "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-4-r1:q8",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "a=6cm ko‘chish vektori musbat k=2,5 songa ko‘paytirildi. Yangi modul s ni top.",
+            "givens": [
+              {
+                "symbol": "a",
+                "value": "6",
+                "unit": "cm"
+              },
+              {
+                "symbol": "k",
+                "value": "2.5",
+                "unit": "1"
+              }
+            ],
+            "symbols": [
+              "a",
+              "k"
+            ],
+            "suggested_unit": "cm",
+            "unit_choices": [
+              "m",
+              "cm",
+              "mm",
+              "nm"
+            ]
+          },
+          "fact_ids": [
+            "scale"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-4",
+              "chapter_id": "physics-7-chapter-1",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                14,
+                15
+              ],
+              "printed_pages": [
+                21,
+                22
+              ],
+              "page_text_sha256": [
+                "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f",
+                "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "scaled_length",
+            "formula": {
+              "target": "s",
+              "variables": [
+                "a",
+                "k"
+              ],
+              "equivalents": [
+                "a*k",
+                "k*a"
+              ],
+              "conditions": "Ko‘chish vektorini musbat k songa ko‘paytirish, yo‘nalish saqlanadi;7sinfPDF14–15/bosma21–22."
+            },
+            "expected_si": "0.15",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "s=a*k=6 × 2,5=15cm=0,15m.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-4",
+                    "chapter_id": "physics-7-chapter-1",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      14,
+                      15
+                    ],
+                    "printed_pages": [
+                      21,
+                      22
+                    ],
+                    "page_text_sha256": [
+                      "a3aa20328440153730535c74d16da7ace385ce5eebb04c26c65e0eda7126943f",
+                      "d0c0df95378944b64f03fce16e90b4fc59096144bcdf5362177a520726168652"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-7-section-5-r1",
+      "topic_id": "physics-7-section-5",
+      "sequence": 5,
+      "revision": 1,
+      "title": "To‘g‘ri chiziqli tekis harakat haqida tushuncha",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-7",
+          "topic_id": "physics-7-section-5",
+          "chapter_id": "physics-7-chapter-2",
+          "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+          "file_name": "fizika_7_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            19,
+            20,
+            21
+          ],
+          "printed_pages": [
+            26,
+            27,
+            28
+          ],
+          "page_text_sha256": [
+            "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+            "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc",
+            "aa186cf705cf578809b36e6beaa008fd0140223de940bb6182128fbe9bf9863f"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "uniform": {
+          "claim": "Jism ixtiyoriy teng vaqt oraliqlarida teng yo‘l o‘tsa tekis harakat deyiladi. Faqat safarning ikkita uzoq vaqt nuqtasidagi yig‘indi tenglik barcha oraliqda tekislikni isbotlamaydi; kuzatuv sharti muhim.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19,
+                20
+              ],
+              "printed_pages": [
+                26,
+                27
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ]
+        },
+        "straight": {
+          "claim": "To‘g‘ri chiziqli harakatda trayektoriya to‘g‘ri chiziq bo‘ladi. Ammo tezlik moduli o‘zgarishi mumkin. Soat mili uchining doimiy moduldagi aylanasi esa tekis bo‘lishi mumkin, lekin to‘g‘ri chiziq emas.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                20
+              ],
+              "printed_pages": [
+                27
+              ],
+              "page_text_sha256": [
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ]
+        },
+        "together": {
+          "claim": "To‘g‘ri chiziqli tekis harakatda yo‘nalish o‘zgarmaydigan chiziqli trayektoriya va teng vaqtlar uchun teng masofalar birga bajariladi. Darslikdagi tomizg‘ich izlari teng vaqtlar uchun teng oraliqlarni ko‘rsatadi; bu raqamli kuzatuv modeli.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19,
+                20,
+                21
+              ],
+              "printed_pages": [
+                26,
+                27,
+                28
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc",
+                "aa186cf705cf578809b36e6beaa008fd0140223de940bb6182128fbe9bf9863f"
+              ]
+            }
+          ]
+        },
+        "intervals": {
+          "claim": "Har teng vaqt oralig‘ida d masofa bosilsa, n ta shunday oraliqdagi yo‘l s=d*n. Bu yerda n oraliqlar soni, iz nuqtalari soni emas: boshlanish bilan birga6ta belgi5ta oraliqni beradi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19,
+                20
+              ],
+              "printed_pages": [
+                26,
+                27
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Ixtiyoriy teng vaqt oraliqlari",
+          "body": "Jism ixtiyoriy teng vaqt oraliqlarida teng yo‘l o‘tsa tekis harakat deyiladi. Faqat safarning ikkita uzoq vaqt nuqtasidagi yig‘indi tenglik barcha oraliqda tekislikni isbotlamaydi; kuzatuv sharti muhim.",
+          "fact_ids": [
+            "uniform"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19,
+                20
+              ],
+              "printed_pages": [
+                26,
+                27
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trayektoriya sharti",
+          "body": "To‘g‘ri chiziqli harakatda trayektoriya to‘g‘ri chiziq bo‘ladi. Ammo tezlik moduli o‘zgarishi mumkin. Soat mili uchining doimiy moduldagi aylanasi esa tekis bo‘lishi mumkin, lekin to‘g‘ri chiziq emas.",
+          "fact_ids": [
+            "straight"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                20
+              ],
+              "printed_pages": [
+                27
+              ],
+              "page_text_sha256": [
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ikkala shart birga",
+          "body": "To‘g‘ri chiziqli tekis harakatda yo‘nalish o‘zgarmaydigan chiziqli trayektoriya va teng vaqtlar uchun teng masofalar birga bajariladi. Darslikdagi tomizg‘ich izlari teng vaqtlar uchun teng oraliqlarni ko‘rsatadi; bu raqamli kuzatuv modeli.",
+          "fact_ids": [
+            "together"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19,
+                20,
+                21
+              ],
+              "printed_pages": [
+                26,
+                27,
+                28
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc",
+                "aa186cf705cf578809b36e6beaa008fd0140223de940bb6182128fbe9bf9863f"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bir xil oraliqlarni sanash",
+          "body": "Har teng vaqt oralig‘ida d masofa bosilsa, n ta shunday oraliqdagi yo‘l s=d*n. Bu yerda n oraliqlar soni, iz nuqtalari soni emas: boshlanish bilan birga6ta belgi5ta oraliqni beradi.",
+          "fact_ids": [
+            "intervals"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19,
+                20
+              ],
+              "printed_pages": [
+                26,
+                27
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "rule": "equal_intervals_distance",
+          "title": "Teng oraliqlardagi jami yo‘l",
+          "expression": "s = d * n",
+          "body": "Har oraliqda bir xil d; n musbat butun vaqt oraliqlari soni.",
+          "fact_ids": [
+            "intervals"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19,
+                20
+              ],
+              "printed_pages": [
+                26,
+                27
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Original tomchi tasviri",
+          "body": "To‘g‘ri izdagi6ta belgining har bir qo‘shnisi12cm uzoqlikda, belgilar teng vaqtda hosil bo‘lgan.",
+          "steps": [
+            {
+              "body": "6ta nuqta orasida5ta oraliq bor.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-5",
+                  "chapter_id": "physics-7-chapter-2",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    19,
+                    20
+                  ],
+                  "printed_pages": [
+                    26,
+                    27
+                  ],
+                  "page_text_sha256": [
+                    "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                    "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "s=d*n=12 × 5=60cm.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-5",
+                  "chapter_id": "physics-7-chapter-2",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    19,
+                    20
+                  ],
+                  "printed_pages": [
+                    26,
+                    27
+                  ],
+                  "page_text_sha256": [
+                    "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                    "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Bu berilgan kuzatuvda teng yo‘llar modeliga mos; iz sonini6ta oraliq deb olmaymiz.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-7",
+                  "topic_id": "physics-7-section-5",
+                  "chapter_id": "physics-7-chapter-2",
+                  "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                  "file_name": "fizika_7_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    19,
+                    20
+                  ],
+                  "printed_pages": [
+                    26,
+                    27
+                  ],
+                  "page_text_sha256": [
+                    "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                    "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "intervals",
+            "together"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19,
+                20
+              ],
+              "printed_pages": [
+                26,
+                27
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-7-section-5-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "To‘g‘ri yo‘lda tezlik moduli o‘zgarayotgan harakat qaysi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "To‘g‘ri chiziqli, ammo tekis emas"
+              },
+              {
+                "id": "o2",
+                "label": "Har doim aylana"
+              },
+              {
+                "id": "o3",
+                "label": "Har doim tekis"
+              }
+            ]
+          },
+          "fact_ids": [
+            "straight"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                20
+              ],
+              "printed_pages": [
+                27
+              ],
+              "page_text_sha256": [
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Trayektoriya bilan tekislik alohida shartlar.",
+              "incorrect": "Yana o‘ylab ko‘r: Trayektoriya bilan tekislik alohida shartlar."
+            },
+            "solution": [
+              {
+                "body": "Trayektoriya bilan tekislik alohida shartlar.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-5",
+                    "chapter_id": "physics-7-chapter-2",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      20
+                    ],
+                    "printed_pages": [
+                      27
+                    ],
+                    "page_text_sha256": [
+                      "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-5-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Soat mili uchining doimiy moduldagi aylanishi to‘g‘ri chiziqli tekis harakatmi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Ha, har qanday tekis harakat to‘g‘ri"
+              },
+              {
+                "id": "o2",
+                "label": "Yo‘q, trayektoriyasi aylana"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat vaqt o‘lchanmasa"
+              }
+            ]
+          },
+          "fact_ids": [
+            "straight"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                20
+              ],
+              "printed_pages": [
+                27
+              ],
+              "page_text_sha256": [
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Tekislikning o‘zi chiziqli trayektoriyani kafolatlamaydi.",
+              "incorrect": "Yana o‘ylab ko‘r: Tekislikning o‘zi chiziqli trayektoriyani kafolatlamaydi."
+            },
+            "solution": [
+              {
+                "body": "Tekislikning o‘zi chiziqli trayektoriyani kafolatlamaydi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-5",
+                    "chapter_id": "physics-7-chapter-2",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      20
+                    ],
+                    "printed_pages": [
+                      27
+                    ],
+                    "page_text_sha256": [
+                      "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-5-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Tomizg‘ich izlari orqali vaqtlarni solishtirish uchun qaysi shart kerak?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Har tomchi boshqa rangda bo‘lishi"
+              },
+              {
+                "id": "o2",
+                "label": "Hamma belgilar bir nuqtada bo‘lishi"
+              },
+              {
+                "id": "o3",
+                "label": "Tomchilar teng vaqt oraliqlarida tushishi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "together"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                26
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Yo‘l oraliqlarini vaqtga bog‘lash uchun vaqt oraliqlari nazorat qilinadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Yo‘l oraliqlarini vaqtga bog‘lash uchun vaqt oraliqlari nazorat qilinadi."
+            },
+            "solution": [
+              {
+                "body": "Yo‘l oraliqlarini vaqtga bog‘lash uchun vaqt oraliqlari nazorat qilinadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-5",
+                    "chapter_id": "physics-7-chapter-2",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      19
+                    ],
+                    "printed_pages": [
+                      26
+                    ],
+                    "page_text_sha256": [
+                      "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-5-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Boshlanish belgisi bilan birga6ta ketma-ket nuqta nechta qo‘shni oraliq beradi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "5ta"
+              },
+              {
+                "id": "o2",
+                "label": "6ta"
+              },
+              {
+                "id": "o3",
+                "label": "7ta"
+              }
+            ]
+          },
+          "fact_ids": [
+            "intervals"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                19,
+                20
+              ],
+              "printed_pages": [
+                26,
+                27
+              ],
+              "page_text_sha256": [
+                "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Oraliqlar qo‘shni nuqtalar orasida sanaladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Oraliqlar qo‘shni nuqtalar orasida sanaladi."
+            },
+            "solution": [
+              {
+                "body": "Oraliqlar qo‘shni nuqtalar orasida sanaladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-5",
+                    "chapter_id": "physics-7-chapter-2",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      19,
+                      20
+                    ],
+                    "printed_pages": [
+                      26,
+                      27
+                    ],
+                    "page_text_sha256": [
+                      "be72437ce1aeec819ae456d973dc4eb2c3b2938f71b03a64aaaabc1375a0a6a7",
+                      "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-5-r1:q5",
+          "response_kind": "numeric_quantity",
+          "phase": "guided",
+          "public": {
+            "prompt": "To‘g‘ri chiziqli tekis model:har teng vaqt oralig‘ida d=14cm, jami n=5ta oraliq. s yo‘lni top.",
+            "givens": [
+              {
+                "symbol": "d",
+                "value": "14",
+                "unit": "cm"
+              },
+              {
+                "symbol": "n",
+                "value": "5",
+                "unit": "1"
+              }
+            ],
+            "symbols": [
+              "d",
+              "n"
+            ],
+            "suggested_unit": "cm",
+            "unit_choices": [
+              "m",
+              "cm",
+              "mm",
+              "nm"
+            ]
+          },
+          "fact_ids": [
+            "intervals"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                20
+              ],
+              "printed_pages": [
+                27
+              ],
+              "page_text_sha256": [
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "equal_intervals_distance",
+            "formula": {
+              "target": "s",
+              "variables": [
+                "d",
+                "n"
+              ],
+              "equivalents": [
+                "d*n",
+                "n*d"
+              ],
+              "conditions": "Har teng vaqt oralig‘ida d yo‘l, n musbat butun oraliq;7sinfPDF20/bosma27."
+            },
+            "expected_si": "0.7",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "s=d*n=14 × 5=70cm=0,7m.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-5",
+                    "chapter_id": "physics-7-chapter-2",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      20
+                    ],
+                    "printed_pages": [
+                      27
+                    ],
+                    "page_text_sha256": [
+                      "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-7-section-5-r1:q6",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Mustaqil qayd:har teng vaqt oralig‘ida d=0,6m, n=8ta oraliq. Jami yo‘lni top.",
+            "givens": [
+              {
+                "symbol": "d",
+                "value": "0.6",
+                "unit": "m"
+              },
+              {
+                "symbol": "n",
+                "value": "8",
+                "unit": "1"
+              }
+            ],
+            "symbols": [
+              "d",
+              "n"
+            ],
+            "suggested_unit": "m",
+            "unit_choices": [
+              "m",
+              "cm",
+              "mm",
+              "nm"
+            ]
+          },
+          "fact_ids": [
+            "intervals"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-7",
+              "topic_id": "physics-7-section-5",
+              "chapter_id": "physics-7-chapter-2",
+              "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+              "file_name": "fizika_7_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                20
+              ],
+              "printed_pages": [
+                27
+              ],
+              "page_text_sha256": [
+                "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "equal_intervals_distance",
+            "formula": {
+              "target": "s",
+              "variables": [
+                "d",
+                "n"
+              ],
+              "equivalents": [
+                "d*n",
+                "n*d"
+              ],
+              "conditions": "Har teng vaqt oralig‘ida d yo‘l, n musbat butun oraliq;7sinfPDF20/bosma27."
+            },
+            "expected_si": "4.8",
+            "dimension": "length",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "s=d*n=0,6 × 8=4,8m.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-7",
+                    "topic_id": "physics-7-section-5",
+                    "chapter_id": "physics-7-chapter-2",
+                    "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+                    "file_name": "fizika_7_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      20
+                    ],
+                    "printed_pages": [
+                      27
+                    ],
+                    "page_text_sha256": [
+                      "db95d62ce029d1c9f3c28b289bee8b8717b7cea389943a65f9e7f7760931adbc"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

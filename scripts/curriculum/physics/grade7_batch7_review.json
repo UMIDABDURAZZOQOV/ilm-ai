@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "batch": "grade7_batch7",
+  "date": "2026-10-25",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-7",
+  "book_sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+  "batch_file_sha256": "46b9fff7481f24ffad0b9e627476202fbc60c1a412a7bfc25271dce7c6177361",
+  "review_method": "Original full PDF text and rendered images of every cited page re-read before authoring; original explanations/examples/questions. Independent source-reviewed semantic answer labels, explicit calculation oracles and wrong-answer/domain tests where applicable. Tool records hashes only; it does not claim automatic scientific review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 105,
+      "printed_page": 112,
+      "text_sha256": "c9b3851eb7ac2020d14feb7ce07d85ca6fbb665bbbfaf2007fed5c489fdd6113",
+      "reviewed_render_sha256": "b0bf0f676abb053cca64503f7fa1606299c26ff10dcbcc464aa3f7defe03f3a3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 106,
+      "printed_page": 113,
+      "text_sha256": "9e4674379650368563b9cb341f4e52fd3f6c9cfd27757d5b8bdcbee1566e12f9",
+      "reviewed_render_sha256": "1c1ec93944970b639c08d398548536f2405b61e795dc38105e7d7f4d075c3bba",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 107,
+      "printed_page": 114,
+      "text_sha256": "dd6660ff99f34498acdf748da5da9d297d1b9acd5dc8dbf9b81d205727a90206",
+      "reviewed_render_sha256": "b66154abed8b8909efb59cbaf57f88ea18efca04119245efc74db5d25c47f9a9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 108,
+      "printed_page": 115,
+      "text_sha256": "627354bfc7d7a6e566081b9e1232c46c40aa4a7d0aa598b7d1c4db1d436b1374",
+      "reviewed_render_sha256": "e0096ae267f103325a289cd18888dadbf84f6a15c303d4a696bff26dcd6462ed",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 109,
+      "printed_page": 116,
+      "text_sha256": "65343b8800b118b181fbd5dc21f56cbe7aec1fe3a7690ed24e000319e2b222d7",
+      "reviewed_render_sha256": "69320d6a266abb41a819c292454c68107c5a4aad155781418be35c98626d22c0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 110,
+      "printed_page": 117,
+      "text_sha256": "fc662b0756b44123dfbdf19ff5ef33fe16728f15188376fede8a644c4d3a19f9",
+      "reviewed_render_sha256": "4f6102065e0ec8a4172887b62c85b39744b4e0f99f0802f299e8f3f1063c0d5e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 111,
+      "printed_page": 118,
+      "text_sha256": "b47f59e4a848af39eb874633673d3070383ffc3d5e67070a236bb5c7c8d0ade3",
+      "reviewed_render_sha256": "8a7a96bf7c962fa8d73cf7adca11300441e793f404834d73f5a6b1ebea1f106b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 112,
+      "printed_page": 119,
+      "text_sha256": "5fc016ce3e77fc89c7a72f6c6c9a87171d2920b51575e6eebbbfd2816b793014",
+      "reviewed_render_sha256": "c8aa0bf32740d5dcf6785017c2e6e8dbaf50ff536cf933e5d23ef2a364784b80",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 113,
+      "printed_page": 120,
+      "text_sha256": "cf1d5ad5f13cafa4d851107a70e1eb600f82944e3db7f1f2d7f8a9a944adcc00",
+      "reviewed_render_sha256": "5cabf1f60779382e339f2434531f501650638e4d43b0e2d8bd93238c7b78a14e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 114,
+      "printed_page": 121,
+      "text_sha256": "ac70086554619d60157d34d35da890a845db59b42c2dcf4bc82165a50c2433af",
+      "reviewed_render_sha256": "a0f84b60e6349dcd146034a33de62fe7cc25ac160575a137a1a66deea7a8448e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 115,
+      "printed_page": 122,
+      "text_sha256": "dadd44ea52bf12f9c2657043d8907ca2c9a8b63711bb866619d96d5607138575",
+      "reviewed_render_sha256": "fd2982aa4fd12bfd34d9d92fbf135b74d2b903eeb74f73c94dd734dfe4695cf9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 116,
+      "printed_page": 123,
+      "text_sha256": "f427c4ca732e595743f75180e1fe823bed6a58b975f0d4fadede18964c4c5c3d",
+      "reviewed_render_sha256": "2ebd134f22e1b5ea6ddd76cb36fe0af8a06b7fc3184d92dffa004f8c871ccd06",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 117,
+      "printed_page": 124,
+      "text_sha256": "f6980f27151aae66b1b87c774f92aa3c907bbaf012d66052dfb63a2269831b09",
+      "reviewed_render_sha256": "7fca67c4033f83c0c273bb2ec245c6dd24d86d15d8e29786a17998078129aba0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 118,
+      "printed_page": 125,
+      "text_sha256": "4ef8f93e9959ef5ef14043cc7a7f473b44db8051f688fa257d7ad0bd9e0a1b58",
+      "reviewed_render_sha256": "84ac66a7419e16717d0b13faba5f17a88e351646409ca5f5babeb74a832d4718",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 119,
+      "printed_page": 126,
+      "text_sha256": "a607d1608ac9957411aa52c2048bede1b089d293d4ae6eb966c48f3b544435b8",
+      "reviewed_render_sha256": "362f988192d55af3cb323fdbb5b207b5e9f648b39099e19af987d5b4cf955d50",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 120,
+      "printed_page": 127,
+      "text_sha256": "401e9ec90d8507d2daf600d11fadfab784c11f502f12441e3484e637feffeb87",
+      "reviewed_render_sha256": "4ac06997e8efde56326d2ef4906253b7828576c2adfc1f3ea1bdaff045bdd591",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pdf_pages": [
+        105,
+        106,
+        107,
+        108
+      ],
+      "decision": "Satellite vs launch vehicle distinguished.300km/7.7km/s is approximate example not universal minimum. v²=g(R+h) uses g at same orbit; original hypothetical exact exercise not observational claim. Sputnik called satellite, not83kg rocket. Apollo landing date vs first step ambiguous in source; only verified year1969 ordered, not wrong landing day.11.2/16.7km/s depend on ideal initial conditions/direction; not arbitrary planet thresholds. No contemporary satellite counts or fabricated records."
+    },
+    {
+      "pdf_pages": [
+        108,
+        109,
+        110,
+        111
+      ],
+      "decision": "SourcePDF109 claims friction cannot initiate motion, contradicting walking/conveyor illustrations; teach resistance to relative slip/tendency, can accelerate body forward. SourcePDF110 Fi_static=k*F_applied is not general static law; equilibrium f=F_applied up to given Fmax. Threshold distinct from every static value. New numeric branch refuses F>Fmax and tests boundary."
+    },
+    {
+      "pdf_pages": [
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "decision": "Sliding f=mu*N with dimensionless mu, N=mg only appropriate vertical equilibrium. Rolling f=c*P/r has LENGTH-valued c (source mu_d), unlike sliding mu. SourcePDF114 concludes coefficient necessarily increases with radius; not inferred without holding force/load conditions, original fixedc/P comparison correct. Four-wheel total/4 only equal-load/equal-loss assumption. Rolling less resistance contextual, not theorem for all materials."
+    },
+    {
+      "pdf_pages": [
+        112,
+        115,
+        116
+      ],
+      "decision": "Digital sliding laboratory only. Original instruction points to printed121(4), the rolling coefficient with radius; corrected to sliding mu=f/N on printed119/PDF112, explicitly cited as topic33 rather than falsely assigning page to topic34. Existing citation-range validator preserved. Horizontal constant-speed draw, total block+loads mass, specifiedg10, each mu then mean. No physical experiment or absence of all systematic errors claimed."
+    },
+    {
+      "pdf_pages": [
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "decision": "Friction role depends on contact task; appropriate lubrication/bearings vs tire/brake grip distinguished. Source claim always opposes body velocity refined to relative contact motion (walking already textbook counterexample).20–30times reduction not universal. Braking distance square-speed proportionality only same mass/resistance idealization, not actual road prediction. No artificial new formula/FRQ or dangerous demonstration for qualitative engineering lesson."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 31,
+      "topic_id": "physics-7-section-31",
+      "pdf_pages": [
+        105,
+        106,
+        107,
+        108
+      ],
+      "printed_pages": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "cards": 5,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 1
+    },
+    {
+      "sequence": 32,
+      "topic_id": "physics-7-section-32",
+      "pdf_pages": [
+        108,
+        109,
+        110,
+        111
+      ],
+      "printed_pages": [
+        115,
+        116,
+        117,
+        118
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 5,
+      "frq": 2
+    },
+    {
+      "sequence": 33,
+      "topic_id": "physics-7-section-33",
+      "pdf_pages": [
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "printed_pages": [
+        118,
+        119,
+        120,
+        121,
+        122
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 4
+    },
+    {
+      "sequence": 34,
+      "topic_id": "physics-7-section-34",
+      "pdf_pages": [
+        115,
+        116
+      ],
+      "printed_pages": [
+        122,
+        123
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 35,
+      "topic_id": "physics-7-section-35",
+      "pdf_pages": [
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "printed_pages": [
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "cards": 4,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    }
+  ]
+}

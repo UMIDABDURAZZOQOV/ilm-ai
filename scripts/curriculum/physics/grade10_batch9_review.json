@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "batch": "grade10_batch9",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-10",
+  "book_sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+  "batch_file_sha256": "98af01b861d0e4b4bb41ce6427c86b02abc67ba32360e4a6dc743701faf1a53f",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 153,
+      "printed_page": 152,
+      "text_sha256": "21ca8538a55a33cdf7cb24889349e66a940d58b965214df9a3e9597233c78f00",
+      "reviewed_render_sha256": "4ae38194209d5cd23d9e4280d9c328033cf45496a4e8d8fbd8f01b867c27d748",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 154,
+      "printed_page": 153,
+      "text_sha256": "886864e910e3215515bfcbaf676e54d9f7126615c329a455675ef9695f88a38e",
+      "reviewed_render_sha256": "70ecb077846491362147711489a317a86b4f93a859a572e850416a0d73b56ca4",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 155,
+      "printed_page": 154,
+      "text_sha256": "00f0fdc33b8054064d6d5a3dfe30f60ec799b07eb8e95698eb86a6ecc8fe5db3",
+      "reviewed_render_sha256": "e503e617d9a46dea7f7af25814bcf9b487c06c7466d953130027c8c3b6078053",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 156,
+      "printed_page": 155,
+      "text_sha256": "0090ab6be0a46e49fb6149ad9bfbaef0fd2b87009291f76501ad573d2b6ab224",
+      "reviewed_render_sha256": "4a17c2ed20b5d30b90c537f16e38ca664d34408c8f4c4a6f3131ad7affa2960e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 157,
+      "printed_page": 156,
+      "text_sha256": "33fe5e50cc60081471d3402cac270ced4b920887200aec50d246bc2ede27f7bc",
+      "reviewed_render_sha256": "b97d92909b3cd2d56b99bfec642be0d70bf9e7ded5dc8991b3cc9b1cb7695016",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 158,
+      "printed_page": 157,
+      "text_sha256": "f81ba359750f7f4bbcf1bd94d215097da023231c4ae23f415200b8319c4909f6",
+      "reviewed_render_sha256": "b1e678863788726466c9bb25497157b6406a40a3bbb36eb8882c9d91635332d2",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 159,
+      "printed_page": 158,
+      "text_sha256": "d632e0b693d28e63f4543fb3effa1e33a40c6f171fe0bdfc1176ceea6fc02da8",
+      "reviewed_render_sha256": "9994d12cddd6483550ce2a53dd03f4cb28d5766a6df8f4a8f343066d70112578",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 160,
+      "printed_page": 159,
+      "text_sha256": "0a334fa89590f1e2cfa0da6f42aa17827a98303b14d88874e6c945a56447bbd6",
+      "reviewed_render_sha256": "a0c5cccb9185219c4ada82cc9b0fe64d34ddf8a1ca6c2a574821ae17ee664446",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 161,
+      "printed_page": 160,
+      "text_sha256": "f51db81546a2b22a9a7e3a352d075561fbad877f678a38afc6bbc581a3642f78",
+      "reviewed_render_sha256": "ce4905232ff486a102105696b1b466324872caafc73745fb2b1e08dea278d9c3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 162,
+      "printed_page": 161,
+      "text_sha256": "46a15ad04598b6921e742ee988be10c4be1dc7a27a3c1b4834e4f2908c5dbeae",
+      "reviewed_render_sha256": "2a50391ee170a77c2d4597b475abb5edaa0b5989f3e4d1236509de9f40ddbc50",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 163,
+      "printed_page": 162,
+      "text_sha256": "460ea798d541da2c8fa21483e068bb254d14a1f23921b5986ebae72beed6e9cc",
+      "reviewed_render_sha256": "8f1b3d41e19dbe8e5436f02dbc81776fb7996ca527b6116ec11c77fa844e8be6",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 164,
+      "printed_page": 163,
+      "text_sha256": "d0c91483fce4e0f875e0e6a6e8257e2bcc011750829c23bf56d54432f8fce001",
+      "reviewed_render_sha256": "b0bbcefb9a345b4b0d7ad98fddbef007125de0675e63e1cf171a13c154d7d028",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 165,
+      "printed_page": 164,
+      "text_sha256": "0e09105071e59d8ebd45672d924c7a46d579d321cc38f0e0950299b27f30eb00",
+      "reviewed_render_sha256": "e68d851cae70d9c1ff59f575e2d534d3a4eaecacceacca50790f35714c07d359",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 166,
+      "printed_page": 165,
+      "text_sha256": "e67ff78004752520f79acb2578f137a073f472dee00927235b06f0d9719d0645",
+      "reviewed_render_sha256": "8bcb4ff67d4d04a0c041ab9d520c0bb4c5d0d8c90540cdeab10013807cf992e3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 167,
+      "printed_page": 166,
+      "text_sha256": "994f90445c77c5fbe71dcf9791f6c80a7f7c0c105504500229d6da2c13a40340",
+      "reviewed_render_sha256": "f94af2650749777df828b4e49a22ebd6d75cfb3c1a663d2a55145cf95ec02d6c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 168,
+      "printed_page": 167,
+      "text_sha256": "0bbff38cbaef5465a7e05f5040165094eae35d782606a9789b15e26845683104",
+      "reviewed_render_sha256": "fefd9ee36c10ffafd0977a6983ac4bc69d709a6364548120fe91e200781270d3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 169,
+      "printed_page": 168,
+      "text_sha256": "9c2d783c5d7079a44055393083fe5b33f0b627c5a91c564239ba3881c3b86c3f",
+      "reviewed_render_sha256": "f1163d4af49ee6dcfa4dcb16fb10582d284db6ff93103dcb19b0b9c5ad12622e",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        153,
+        154,
+        155
+      ],
+      "decision": "Original images/native hashes read. Vacuum conduction requires emitted electrons, not vacuum automatically/source153 p<<1e-13mmHg not universal necessary pressure copied. Cathode heating vs anode accelerating voltage distinguished. I=k*U^(3/2) only same-geometry/temp SPACE-CHARGE-LIMITED positive-bias regime, before saturation; current ratio sqrt((U2/U1)^3) cancels k, no fabricated k units. Saturation depends emission/temp, not universal I=U/R. No heating/vacuum DIY measurement claim."
+    },
+    {
+      "pages": [
+        155,
+        156,
+        157,
+        158
+      ],
+      "decision": "Original R/R0/rho formulas and coefficients checked. Linear approximate ordinary-metal law near specified reference with constant alpha; DT is temperature DIFFERENCE in K, not absolute Kelvin. Require positive modeled resistance/factor, signed cooling allowed, no extrapolation to superconducting/absolutezero regime. Source156 coefficient column labelled alpha degreesC is reciprocal unit1/K. Source157 zero/infinite resistance extrapolation is historical failed reasoning not asserted modern fact; mercury4.15K is historical reported approximate, no incomplete priority/BCStheory copied. Source158 sample early R0 rounding27 gives2518 while exact R0=30/1.1 gives~2488.89C schoolalpha.005, not publication answer key. Original modest-range givens avoid huge extrapolation. Source168Nickelin .0001 vs source156Nickel .0065 inconsistent, no guessed material value used."
+    },
+    {
+      "pages": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "decision": "Original intrinsic/donor/acceptor diagrams read. Electron/hole transport distinguished; hole is missing valence electron effectivepositive carrier, not drifting actual positive ion. Intrinsic equal electron/hole concentrations does NOT imply equal currents without equal mobilities; source160 equal-conductivities and source169test4 electron1mA->total2mA not copied. n-type/p-type majority carriers do not imply whole doped crystal netnegative/positive. As5 donor inSi, In3 acceptor only supplied diagrams; no toxic doping task or edits to Chemistry branch. Semiconductor temperature/light trends bounded statedmodel, not allconditions/universal materials groupsIII–V only. No unsupported numeric formula forced."
+    },
+    {
+      "pages": [
+        162,
+        163,
+        164,
+        165,
+        166
+      ],
+      "decision": "Original p-n depletion/forward/reverse/BJT/half-wave diagrams read. Depleted MOBILE carriers not absence of all fixed ion charge. Forward ppositive/nnegative, reverse opposite, smallreverse leakage allowed, not absolute all-bias zero. Bipolar transistor has emitter/base/collector,two junctions; emitterbase forward/collectorbase reverse in stated active mode. No invented beta/AC circuit formulas. Source165 emitter-base total current claimed much smaller than emitter-collector is misleading; small BASE branch controls larger collector circuit with external energy, not emitter current smaller than collector. Source165 allradioelement1nm/universal microchip historical claims not copied. Half-wave output pulsating unidirectional, not flatDC; no mains assembly task."
+    },
+    {
+      "pages": [
+        167,
+        168,
+        169
+      ],
+      "decision": "Original diode lab curve axes and conditional data checked. DIGITAL only no physical experiment/36–42V instructions. Ivertical in mA,UhorizontalV,reverse quadrant and forward bias scales distinct. Rpoint=|U|/|I| for supplied nonzero conditional point, not constant Ohmic diode/global differential resistance. Forward/reverse data explicitly hypothetical, not measured dots claimed. Source168question2 says whyreverse current flows, source163nearlyzero clarified smallleakage not contradiction forcedzero. Unsupported intrinsic-current-equality key not used. NoShockley/newAI explain or added semiconductor equation."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 41,
+      "topic_id": "physics-10-section-41",
+      "pdf_pages": [
+        153,
+        154,
+        155
+      ],
+      "printed_pages": [
+        152,
+        153,
+        154
+      ],
+      "cards": 5,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 1
+    },
+    {
+      "sequence": 42,
+      "topic_id": "physics-10-section-42",
+      "pdf_pages": [
+        155,
+        156,
+        157,
+        158
+      ],
+      "printed_pages": [
+        154,
+        155,
+        156,
+        157
+      ],
+      "cards": 6,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 43,
+      "topic_id": "physics-10-section-43",
+      "pdf_pages": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "printed_pages": [
+        157,
+        158,
+        159,
+        160,
+        161
+      ],
+      "cards": 6,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 0
+    },
+    {
+      "sequence": 44,
+      "topic_id": "physics-10-section-44",
+      "pdf_pages": [
+        162,
+        163,
+        164,
+        165,
+        166
+      ],
+      "printed_pages": [
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "cards": 6,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 0
+    },
+    {
+      "sequence": 45,
+      "topic_id": "physics-10-section-45",
+      "pdf_pages": [
+        167,
+        168,
+        169
+      ],
+      "printed_pages": [
+        166,
+        167,
+        168
+      ],
+      "cards": 5,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 2
+    }
+  ]
+}

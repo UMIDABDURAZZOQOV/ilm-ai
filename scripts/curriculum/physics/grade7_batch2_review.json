@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "batch": "grade7_batch2",
+  "date": "2026-10-25",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-7",
+  "book_sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+  "batch_file_sha256": "e924a91993a45e3559fe55ce44ab9edc6b7c1b765fe343c329499477a999d9f8",
+  "review_method": "Original full PDF text and rendered images of every cited page re-read before authoring; original explanations/examples/questions. Independent source-reviewed semantic answer labels, explicit calculation oracles and wrong-answer/domain tests where applicable. Tool records hashes only; it does not claim automatic scientific review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 21,
+      "printed_page": 28,
+      "text_sha256": "aa186cf705cf578809b36e6beaa008fd0140223de940bb6182128fbe9bf9863f",
+      "reviewed_render_sha256": "6f7406d7d5a1fc6dc9cda14d12eca6703ee3e0303c8fd62ef9db7ff311fc846d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 29,
+      "text_sha256": "6a1709c17becb525d111d34ba9a7a323a6c01fcc6caf6baf428119180d1073d2",
+      "reviewed_render_sha256": "d0fc1116b894fdf1851dafdd47f95310e3bc1a079248315611eca4c0694ce27c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 30,
+      "text_sha256": "cb01e041bcfc02d683a8c6435274e24e19f2bf7849f14bee020f0d7a2b4a77cc",
+      "reviewed_render_sha256": "2d82e01ee312c334428cf107aa5fcb4586aca14c45948bb9f22d86f2b4d8ca52",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 24,
+      "printed_page": 31,
+      "text_sha256": "4d0057c8ed355f3667e832f2ee39b3e9f67b58206bcf6f1016d0f79ae35461cb",
+      "reviewed_render_sha256": "fea1cd3693313be2c55a2d12b289001fa6c2fdbe024ca6476551f58f6264945d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 32,
+      "text_sha256": "aab36fa6123173f47599ba8e258f03aabdc6989b542f1c5b723bd482d22141c5",
+      "reviewed_render_sha256": "30b6e14df6487b8d6c5764e4b173b362c9a667b62d3943c4dc015e86795db7f3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 26,
+      "printed_page": 33,
+      "text_sha256": "680d5d629e113dfa0cef606eea8e597f6cb2a83a5a2bc23f127f7e823e4788b6",
+      "reviewed_render_sha256": "443225660a2d1e532cb7a854fe4892d3dc2a9217cd7fb0a0e326847e46286b39",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 27,
+      "printed_page": 34,
+      "text_sha256": "52017f783142b677b681a613de0f52198f30231b7c43576a8859dac45c11d316",
+      "reviewed_render_sha256": "d8d18ac2d502b07cc97969dcf6a1f96a390d9ca2b58ef9c43085e1c6d625609f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 28,
+      "printed_page": 35,
+      "text_sha256": "0fa5fd4c63365e1d9b723adc29aaf22f836003931b174337f01d17242c3f2c59",
+      "reviewed_render_sha256": "abbbd3515e3bfb0dfe91c1a5b7949ef54aec586d4db35b0d94ebd05a78fe6ac7",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 29,
+      "printed_page": 36,
+      "text_sha256": "1546e6a654615821fe35247368b0a60b728d21c6c55ba8a0abe7f468c36e682f",
+      "reviewed_render_sha256": "a915267f35411da1351f083e16b8766ad5f693a877faedc45e010654b2cd0c44",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": 37,
+      "text_sha256": "3d512fc2b29e1c84a4cccf23a0b07b4992c31d0b2c46266465d6f7871354681f",
+      "reviewed_render_sha256": "e604e0aca3d44bdde982cd8f71c916e1452ebdc2159b2aad6863b263953bc7a2",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 31,
+      "printed_page": 38,
+      "text_sha256": "ed6989cfdee5d135eee40e6193ef007bdc447ab28b7c3a4b4449c0413a1e9595",
+      "reviewed_render_sha256": "346f61cda195bea6a4071e390f782844cd7baa8083fc78b4c8eac657ae7eb5d9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 32,
+      "printed_page": 39,
+      "text_sha256": "1f727a248c149ef1efa67f26c13d168f0fc73d6609ba141bd4b3eb4854ec2ddf",
+      "reviewed_render_sha256": "2f387b62ec61cff9d33a0f31a2e518d9ef2041fc8d82bbe13f47d2e34b742f85",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 33,
+      "printed_page": 40,
+      "text_sha256": "ad32f2a8453ec66a5f95560919326f205d22601c3f8e9ab3ddc7c7b49ef9608f",
+      "reviewed_render_sha256": "99c280884d5d8c2124a71de4e8d20cf4fc487f99790e7e4405140a0ebe0d10c9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 34,
+      "printed_page": 41,
+      "text_sha256": "bc96b70a349e80b571b0b0626401684252138dffd55240a9ab4d90a0babf365f",
+      "reviewed_render_sha256": "73ef765d6437b9795e638f36050629ae1d673137a8dcd8fc8c71562a800b964b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 35,
+      "printed_page": 42,
+      "text_sha256": "8854b71d27408f2275ae9c46845b8240d3f4924898456f2672a9d6af35ec9fdd",
+      "reviewed_render_sha256": "f843d71b71483b89e0d49c351582887a5a348166d10c2b47b612dd2a60f85188",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 36,
+      "printed_page": 43,
+      "text_sha256": "e825b09791e6aabff39b4209cca1748a893b33f227152fa2f70ca878a5faf4e2",
+      "reviewed_render_sha256": "5b281d54c551e1c397300e84d02e7988eb62d98a64fdeb1fc39a76e4ceb9cfcc",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 37,
+      "printed_page": 44,
+      "text_sha256": "0b8a8173913fcd8426188f52c20bad026a5eeac985ce1cc8c4bcc1466d0bd820",
+      "reviewed_render_sha256": "ae6ed08131a6ad004c7eb943b0aa07eab5a7a3cf1f8795082fb4d1f3b1667ae0",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pdf_pages": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "decision": "v=s/t and speed units checked from original images. m/s not metre equality; numerical unit conversions exact. No universal category-speed ordering or navigator1second10km error claim copied."
+    },
+    {
+      "pdf_pages": [
+        25,
+        26,
+        27
+      ],
+      "decision": "Positive constant-speed v–t rectangle area represents path. s–t slope comparison needs equal axis scales. Graph axis identity is explicit; no negative-velocity area/path equivalence asserted."
+    },
+    {
+      "pdf_pages": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "decision": "Average is total path/total elapsed time including stops in the stated journey. Endpoint arithmetic mean is not universal. Short finite ds/dt only approximate instantaneous estimate. PDF29 prose6minute trip vs10minute graph mismatch not used as a fact/key."
+    },
+    {
+      "pdf_pages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "decision": "Constant acceleration a=(v-v0)/t can be negative with chosen forward positive axis and no direction reversal. Negative a is not universally deceleration for every coordinate system. Real engine-off car motion not assumed constant a. Modulus constant but changing direction can accelerate."
+    },
+    {
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "decision": "v=v0+a*t signed acceleration explicitly supported; numeric speed branch before stopping only, negative resulting v rejected rather than silently treated as speed. (v0+v)/2 restricted to constant acceleration/no reversal, not arbitrary two-speed journey. PDF36 reference36figure vs values from35figure is a numbering mismatch. New problems use own values. No acceleration-path formula taught early from§11 heading on37."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 6,
+      "topic_id": "physics-7-section-6",
+      "pdf_pages": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "printed_pages": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 2
+    },
+    {
+      "sequence": 7,
+      "topic_id": "physics-7-section-7",
+      "pdf_pages": [
+        25,
+        26,
+        27
+      ],
+      "printed_pages": [
+        32,
+        33,
+        34
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 8,
+      "topic_id": "physics-7-section-8",
+      "pdf_pages": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "printed_pages": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 9,
+      "topic_id": "physics-7-section-9",
+      "pdf_pages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "printed_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 10,
+      "topic_id": "physics-7-section-10",
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "printed_pages": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    }
+  ]
+}
