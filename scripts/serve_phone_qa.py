@@ -53,7 +53,7 @@ def configure(path, resume, port):
         OPENAI_API_KEY='', MOBILE_OAUTH_REDIRECT_URI=f'http://127.0.0.1:{port}/auth/google-callback-mobile')
 
 
-def initialize(path):
+def initialize(path, *, seed_user=True):
     # Import only after setting the owned SQLite URL. Never import main/startup.
     from services.db import Base, engine, SessionLocal
     from services.models import User
@@ -72,7 +72,7 @@ def initialize(path):
     world_schema(engine)
     catalog, _ = load_documents()
     with SessionLocal.begin() as db:
-        if db.get(User, UID) is None:
+        if seed_user and db.get(User, UID) is None:
             db.add(User(id=UID, name='Telefon QA', email='phone-qa@example.test', xp_total=0, email_verified=True))
             db.flush()
         biology = load_lesson_set()
