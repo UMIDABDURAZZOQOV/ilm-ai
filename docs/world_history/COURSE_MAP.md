@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 205; remaining: 14.** Source pages are candidate spans;
+**Reviewed preview lessons: 215; remaining: 4.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -294,16 +294,16 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 13 | wh11-topic13 | 1991 – 2017-yillarda Fransiya | 60–64 | reviewed_preview_ready |
 | 14 | wh11-topic14 | 1991 – 2017-yillarda Italiya | 64–68 | reviewed_preview_ready |
 | 15 | wh11-topic15 | Osiyo, Afrika va Lotin Amerikasi mamlakatlari siyosiy, ijtimoiy-iqtisodiy rivojlanishining asosiy yo‘nalishlari | 68–72 | reviewed_preview_ready |
-| 16 | wh11-topic16 | 1991 – 2017-yillarda Xitoy Xalq Respublikasi | 72–77 | not_implemented |
-| 17 | wh11-topic17 | 1991 – 2017-yillarda Yaponiya | 77–81 | not_implemented |
-| 18 | wh11-topic18 | 1991 – 2017-yillarda Janubi-Sharqiy Osiyo mamlakatlari | 81–85 | not_implemented |
-| 19 | wh11-topic19 | 1991 – 2017-yillarda Hindiston Respublikasi | 85–90 | not_implemented |
-| 20 | wh11-topic20 | 1991 – 2017-yillarda Turkiya Respublikasi | 90–94 | not_implemented |
-| 21 | wh11-topic21 | 1991 – 2017-yillarda Eron Islom Respublikasi | 94–98 | not_implemented |
-| 22 | wh11-topic22 | 1991 – 2017-yillarda Pokiston va Afg‘oniston | 98–104 | not_implemented |
-| 23 | wh11-topic23 | 1991 – 2017-yillarda Suriya va Iroq | 104–109 | not_implemented |
-| 24 | wh11-topic24 | 1991 – 2017-yillarda Isroil davlati va Falastin muammosi | 109–113 | not_implemented |
-| 25 | wh11-topic25 | 1991 – 2017-yillarda Lotin Amerikasi mamlakatlari | 113–118 | not_implemented |
+| 16 | wh11-topic16 | 1991 – 2017-yillarda Xitoy Xalq Respublikasi | 72–77 | reviewed_preview_ready |
+| 17 | wh11-topic17 | 1991 – 2017-yillarda Yaponiya | 77–81 | reviewed_preview_ready |
+| 18 | wh11-topic18 | 1991 – 2017-yillarda Janubi-Sharqiy Osiyo mamlakatlari | 81–85 | reviewed_preview_ready |
+| 19 | wh11-topic19 | 1991 – 2017-yillarda Hindiston Respublikasi | 85–90 | reviewed_preview_ready |
+| 20 | wh11-topic20 | 1991 – 2017-yillarda Turkiya Respublikasi | 90–94 | reviewed_preview_ready |
+| 21 | wh11-topic21 | 1991 – 2017-yillarda Eron Islom Respublikasi | 94–98 | reviewed_preview_ready |
+| 22 | wh11-topic22 | 1991 – 2017-yillarda Pokiston va Afg‘oniston | 98–104 | reviewed_preview_ready |
+| 23 | wh11-topic23 | 1991 – 2017-yillarda Suriya va Iroq | 104–109 | reviewed_preview_ready |
+| 24 | wh11-topic24 | 1991 – 2017-yillarda Isroil davlati va Falastin muammosi | 109–113 | reviewed_preview_ready |
+| 25 | wh11-topic25 | 1991 – 2017-yillarda Lotin Amerikasi mamlakatlari | 113–118 | reviewed_preview_ready |
 | 26 | wh11-topic26 | 1991 – 2017-yillarda Afrika mamlakatlari | 118–124 | not_implemented |
 | 27 | wh11-topic27 | XX asr oxiri – XXI asr boshlarida globallashuv muammolari, harbiy, ekstremistik va ekologik xavf-xatarlar | 124–130 | not_implemented |
 | 28 | wh11-topic28 | XX asr oxiri – XXI asr boshlarida barqaror rivojlanish va etno-ijtimoiy muammolar | 130–135 | not_implemented |

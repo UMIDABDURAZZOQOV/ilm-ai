@@ -65,7 +65,7 @@ chapter/topic order and separate bibliography once the reviewed UI adapter exist
 - Source and schema checks remain mandatory. No production certification is
   inherited from the unfinished Physics prototype.
 
-The batch40 checkpoint has205 explicitly allowed units (all grade6/7/8/9 plus grade10§1–26 and grade11§1–15). Content additions do not
+The batch41 checkpoint has215 explicitly allowed units (all grade6/7/8/9 plus grade10§1–26 and grade11§1–25). Content additions do not
 change the common runtime/schema or ordinary release routes. Each next batch must
 retain prior manifest bytes and validate exact page regions and finite per-question
 answer targets before immutable local import. See CHECKPOINT.md and QA_REPORT.md.

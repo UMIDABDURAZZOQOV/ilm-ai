@@ -29,3 +29,15 @@ themes, hours, skills, maps/source interpretation, assessment and outcomes.
 Record edition differences without silently replacing the user's textbook order.
 Until then: **full 2026–2027 equivalence is not certified**. Continue verified
 textbook-based course work; this audit does not authorize outside historical facts.
+
+## Recheck, 2026-10-29
+
+The official history index again returned HTTP502; the
+[official grade11 programme listing](https://uzbmb.uz/page/o_dasturlar11)
+timed out on direct opening. Search now exposes an additional official lead,
+[the qabul2026 grade11 history programme PDF](https://uzbmb.uz/upload/file/pdf/qabul2026/dasturlar/11/tarix/11-sinf%20bitiruvchisi.pdf).
+Direct PDF opening returned HTTP502. Its indexed title and admissions-folder
+label do not establish review of the entire PDF or its legal applicability to
+the2026–2027 school year. This is a recorded discovery lead, not completed
+programme comparison or permission to add historical knowledge. The six supplied
+textbooks, original topic order and explicit source-review limits remain in force.

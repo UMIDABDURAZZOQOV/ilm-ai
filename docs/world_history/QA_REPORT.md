@@ -1372,3 +1372,30 @@ Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 r
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
 AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch41 — grade11 topics16–25, 2026-10-29
+
+10 lessons add80cards,131factrecords,60MCQ and40objectiveFRQ.
+**215/219 local-preview units**,1631cards,3091factrecords,
+1385MCQ,867FRQ,215self/teacheractivities;**4remain**:
+0/0/4 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |608 passed,1941.70s wall | All43modules,clean shards170/146/170/122;1940.53/1836.73/1644.0/1737.42s |
+| Actual PostgreSQL |1 passed164.01s | Dedicatedschema/parallel/all215units/4300XP/replay |
+| Actual HTTP |6catalogues,2252answers,4300XP | Freshsynthetic900416/UID-specificemail/prerequisites/replay |
+| Target Flutter |456 passed07:24 | All215snapshots/200% theoryMCQ/typedFRQ/catalogueprefixguard |
+| Full Flutter |1065 passed09:41 | Sequential no-pub aftertargeted |
+| Full analysis |0issues84.6s | EntireFlutterworktree |
+| Preservation |687pins and410priorhistoryfiles unchanged | Other-subject/runtime baseline and205priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | E701/E702/F811 excluded for existing compact pytest fixture style; history-only text/noJWTprivateDB/rawscanOCR |
+
+Grade11 topics16–25 use exact original72below–118above regions. China/Japan/SEAsia/India/Turkey/Iran/Pakistan/Afghanistan/Syria/Iraq/Israel-Palestine/LatinAmerica retain source order and finite verified names, institutions, terms and event instruments. Political, religious, ethical and complex causal analysis stays self/teacher only. UN-body attribution on109/111, incorrect election/constitution dates, unverified aggregates and current legal/territorial claims remain held without outside factual patches. All grade11 original1–144 read. Final topics26–29 private drafts passed strict validation against215-prefix and remain unindexed/imported.
+Actual widget captures:20passed in00:24; inspected grade11 topic16 dark theory at200%, topic24 dark feedback at200%, topic25 light FRQ resume/source§25 printed114; real common Flutter widget renders, no nativeAndroid/IME/TalkBack claim.
+Prior lesson snapshots remain frozen; all grade10 units and first25grade11 units
+are represented. Next private drafts strict validated but unindexed:grade11 topics26–29.
+Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read;grade11 source-region recheck during final audit next. Initial focused test run had19passed/2failed/1deselected in163.03s: test incorrectly treated finite JSHO region abbreviation as unassessable and omitted verified WTO/Madrid/Washington dates from expected answer ledgers. Source-reviewed lessons and validator were unchanged. Test expectations were corrected; focused recheck2passed/20deselected in20.90s. Final clean complete history suite is the acceptance evidence. Existing FastAPI/httpx Starlette deprecation warning retained. Official programme page/PDF direct accesses failed; discovery and equivalence limits recorded in alignment audit.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
+AI/rawsourceupload/realuserreset. Continue without routine permission.

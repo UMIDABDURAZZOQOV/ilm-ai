@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch40 has205 local-preview units: all grade6/7/8/9 plus grade10§1–26 and grade11§1–15,
-1551 cards,1325 MCQ,827 objective FRQ;
-14 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch41 grade11 topics16–25; Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read; next private drafts strict validated but unindexed; grade11 source-region recheck during final audit next.
+Batch41 has215 local-preview units: all grade6/7/8/9 plus grade10§1–26 and grade11§1–25,
+1631 cards,1385 MCQ,867 objective FRQ;
+4 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch42 grade11 topics26–29; Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read; next private drafts strict validated but unindexed; grade11 source-region recheck during final audit next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -3061,3 +3061,8 @@ Batch40: 205/219 local-preview units,14 remain; grade11=15/29.
 586 history tests/436 history widgets/1045 full Flutter
 pass, analysis0, HTTP2152answers/4100XP and realPG pass.
 Continue batch41 grade11 topics16–25; Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read; next private drafts strict validated but unindexed; grade11 source-region recheck during final audit next; no routine permission needed.
+
+Batch41: 215/219 local-preview units,4 remain; grade11=25/29.
+608 history tests/456 history widgets/1065 full Flutter
+pass, analysis0, HTTP2252answers/4300XP and realPG pass.
+Continue batch42 grade11 topics26–29; Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read; next private drafts strict validated but unindexed; grade11 source-region recheck during final audit next; no routine permission needed.
