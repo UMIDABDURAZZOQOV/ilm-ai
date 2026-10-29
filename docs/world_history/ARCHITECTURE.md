@@ -43,7 +43,7 @@ must not become auto-graded facts. Preserve review history and correction bases.
 Keep Uzbek authored content. UZ/RU/EN interface labels must remain functional;
 unreviewed translation is not published historical content. Reuse Ilmo and
 existing source/feedback/completion components. Provide grades 6–11, original
-chapter/topic order and separate bibliography once the reviewed UI adapter exists.
+chapter/topic order and separate bibliography in the reviewed UI adapter.
 
 ## Implemented local adapter
 
@@ -65,8 +65,8 @@ chapter/topic order and separate bibliography once the reviewed UI adapter exist
 - Source and schema checks remain mandatory. No production certification is
   inherited from the unfinished Physics prototype.
 
-The batch41 checkpoint has215 explicitly allowed units (all grade6/7/8/9 plus grade10§1–26 and grade11§1–25). Content additions do not
-change the common runtime/schema or ordinary release routes. Each next batch must
+The batch42 checkpoint has219 explicitly allowed units (all grade6/7/8/9 plus grade10§1–26 and grade11§1–29). Content additions do not
+change the common runtime/schema or ordinary release routes. Future reviewed revisions must
 retain prior manifest bytes and validate exact page regions and finite per-question
 answer targets before immutable local import. See CHECKPOINT.md and QA_REPORT.md.
 
@@ -81,24 +81,22 @@ prior fact. Reused facts retain original pages, regions, render hashes, aliases
 and assessability; only local fact IDs differ. A glossary locator is not a meaning
 approval. Neither a held fact nor a broader alias can be promoted by review.
 
-Grade6 `grade_content_complete=true` means all46 local-preview units exist, not
-that a learner completed them or the six-grade course/independent acceptance is
-complete. `course_complete` and all source-book `course_ready` flags remain false.
+All six grades now have `grade_content_complete=true`: their46/44/33/41/26/29
+local-preview units exist. This does not mean a learner completed them or that
+independent acceptance is complete. `course_complete` and all source-book `course_ready` flags remain false.
 Grade selection/progress are independent: grade7 first lesson has no cross-grade
 prerequisite. Completing grade7 does not mark grade6 complete; account XP remains
 shared, awarded once per immutable lesson. The catalogue finalizer preserves explicit ancillary readiness and review fields;
 its original-page presence inventory cannot approve new facts or content.
 
-## Mandatory continuation and acceptance
+## Completed implementation and future review
 
-Finish the complete source/activity catalogue, then author grade 6 §1 onward in
-source order through the end of grade 11. In each 5–10 lesson batch, inspect the
-actual source pages, validate taught facts and answer keys, run backend/Flutter
-and needed local HTTP/PostgreSQL QA, update exact readiness, commit and push the
-history feature branches. Do not ask routine continuation permission.
-
-Keep total/implemented/remaining counts, last grade/topic, unresolved issues,
-tests, commit/push and the next exact page. A final audit is requested only after
-all catalogue entries are accounted for. No AI Tutor/Explain/translation,
-production operation, main merge or deployment is authorized. Independent history
-teacher and actual Android/TalkBack checks must never be claimed without a run.
+All219 catalogue entries are now represented by source-reviewed interactive
+lessons. The measured final audit and exact source limits are in
+WORLD_HISTORY_FINAL_AUDIT.md, FINAL_COVERAGE_REPORT.json and SOURCE_REVIEW.md.
+Initial authoring and per-batch backend/Flutter/HTTP/PostgreSQL checkpoints are
+complete; do not restart the source inventory or overwrite immutable lessons.
+Future substantive edits need a new reviewed revision and the same strict
+validation and regression checks. No AI Tutor/Explain/translation, production
+operation, main merge or deployment is authorized. Independent history-teacher
+and actual Android/IME/TalkBack checks remain unperformed and must not be claimed.

@@ -1399,3 +1399,30 @@ Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 r
 Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
 earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
 AI/rawsourceupload/realuserreset. Continue without routine permission.
+
+## Batch42 — grade11 topics26–29, 2026-10-29
+
+4 lessons add34cards,50factrecords,24MCQ and16objectiveFRQ.
+**219/219 local-preview units**,1665cards,3141factrecords,
+1409MCQ,883FRQ,219self/teacheractivities;**0remain**:
+0/0/0 in grades9/10/11. Acceptance flags remain false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |618 passed,1738.67s wall | All44modules,clean shards170/146/170/132;1737.12/1633.01/1422.92/1612.6s |
+| Actual PostgreSQL |1 passed80.72s | Dedicatedschema/parallel/all219units/4380XP/replay |
+| Actual HTTP |6catalogues,2292answers,4380XP | Freshsynthetic900426/UID-specificemail/prerequisites/replay |
+| Target Flutter |464 passed04:08 | All219snapshots/200% theoryMCQ/typedFRQ/catalogueprefixguard |
+| Full Flutter |1073 passed09:33 | Sequential no-pub aftertargeted |
+| Full analysis |0issues119.0s | EntireFlutterworktree |
+| Preservation |687pins and430priorhistoryfiles unchanged | Other-subject/runtime baseline and215priorlesson/reviewpairs |
+| Ruff/whitespace/stagedaudit |Passed | E701/E702/F811 excluded for existing compact pytest fixture style; history-only text/noJWTprivateDB/rawscanOCR |
+
+Final grade11 topics26–29 preserve118below–123,124below–129,130below–135above and135below–140 exact regions. Africa event names and conflict/gender word meanings, globalization/Internet/Aral/unification, Rio1992 and institutional/potential terms, ITI and literary author/title pairs use only verified textbook facts and per-question finite targets. Incorrect dates/names, radioactive-ozone/isgazlari-warming claims, unsupported medical/statistical aggregates, current sovereignty and political/religious/ethical/complex causal judgments stay held or self/teacher only. All219 units pass strict source validation; all219 API snapshot pairs match exact reviewed content/public questions. All6 private original PDF SHA256 values rechecked and matched; no raw textbooks tracked. All961 source pages read/feature-inventoried; closing TOC/colophon/rental forms retained as ancillary metadata, not invented lessons.
+Actual widget captures:8passed in00:11; inspected grade11 topic26 dark theory at200%, topic27 dark feedback at200%, topic28 light typedFRQ resume with source§28 printed130/134, topic29 light typedFRQ resume with source§29 printed138; existing scroll/feedback widgets and actual Flutter widget renders, not a nativeAndroid/IME/TalkBack run.
+Prior lesson snapshots remain frozen; all grade10 units and first29grade11 units
+are represented. No unimplemented source units or next authoring batch remain.
+Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read; all source-page reading and local-preview coverage work complete. Final focused tests9passed/1deselected in31.49s. No new failing lesson/runtime QA incidents; existing FastAPI/httpx Starlette deprecation warning retained. Preliminary snapshot-audit filename lookup was corrected to existing grade6 pNN fixture names without changing any frozen snapshot or lesson; all219 final pairs then matched. Full2026–2027 equivalence remains uncertified as documented; no independent teacher/native device sign-off claimed.
+Independentteacher/nativeAndroid/IME/TalkBack/full2026–27equivalence unperformed;
+earlier2569backend/4skip baseline not rerun here. No productionDB/deploy/mainmerge/
+AI/rawsourceupload/realuserreset. Local-preview implementation handoff complete.

@@ -2821,248 +2821,38 @@ All source-only, erratum, XP and progress restrictions persist. Independent
 teacher, editorial/native and full 2026 outcome certification remain pending.
 No production operation or main merge was performed.
 
-## Jahon tarixi 6–11: new isolated course — 2026-10-26
+## Jahon tarixi 6–11: final local-preview handoff
 
-The full user instruction is docs/world_history/REQUIREMENTS_UZ.md. Continue in
-the separate backend/Flutter feat/world-history-curriculum worktrees, based on
-Chemistry backend 9b37213 and Flutter 0312ff3. Do not restart Chemistry, alter
-Biology/Physics/Chemistry branches, or modify another agent's worktree.
+2026-10-29. All219/219 supplied-textbook teaching units implemented and checked:
+grades6–11=46/44/33/41/26/29;0 unimplemented. Final grade11§29 uses original135
+below heading through140. Six textbooks/961pages/216numberedblocks/26chapters.
+1665cards,3141factrecords,1409MCQ,883objectiveFRQ,
+219self/teacheractivities. Reused ledger records are not unique-fact counts.
 
-Use only the user's six pinned history textbooks for all historical knowledge.
-Private exact copies: ../ilm-ai-world-history-sources/. Updated original folder:
-C:/Users/Page/Desktop/Jaxon-Tarixi/. Six books, 961 PDF pages; 216 numbered source
-blocks and 219 printed number labels (grade10 has 7–8,15–16,19–20 combined topics).
-Full original-image feature and ancillary audit defines219 teaching units:
-grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
-The scanned grade9 has no text layer: OCR is locator only, not fact approval.
+Only `feat/world-history-curriculum` backend/Flutter worktrees were changed.
+No other subject worktree, real-user/productionDB, main merge or deploy.
+Biology406/Chemistry268 and all687 protection hashes remain intact.
 
-Batch41 has215 local-preview units: all grade6/7/8/9 plus grade10§1–26 and grade11§1–25,
-1631 cards,1385 MCQ,867 objective FRQ;
-4 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at batch42 grade11 topics26–29; Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read; next private drafts strict validated but unindexed; grade11 source-region recheck during final audit next.
-Completed inventory and scoped image review are not independent teacher approval.
-Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
-save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
-interpretations, maps, answers or explanations. Distinguish source interpretation
-from historical evidence; uncertain claims never enter automatic grading.
+Permanent requirement: ALL subject knowledge comes only from the user's exact
+verified textbooks. No external historical knowledge, OCR guess or inventory
+presence can approve a fact. Original-page/imageSHA/region/fact evidence, finite
+question-specific answer/alias targets, cited solutions, XP/progress/prerequisite/
+replay and common-v2 contracts remain enforced. Uncertain claims stay held;
+open political/religious/ethical/complex causal judgments are self/teacher only.
+No AI Tutor/Explain, automatic history translation or rawPDF/scan/OCR upload.
 
-Keep jahon_tarixi separate from future ozbekiston_tarixi, while retaining every
-Central Asian topic in the supplied grade6 book. Every 5–10 lesson batch: original
-image review, validation, backend/Flutter and needed local HTTP/PostgreSQL checks,
-exact progress, feature-branch commit/push and next batch without routine approval.
-Preserve 406 Biology and 268 Chemistry manifests. No real-user/production DB,
-main merge, deploy, raw textbook/OCR/image/token publication. Final acceptance
-requires all catalogue sections; do not call this task finished prematurely.
+Latest measured checks: 618 history tests/44modules;
+realPostgreSQL1pass;HTTP2292answers/4380XP once only;
+Flutter464history/1073full tests;analysis0; actual widget
+captures visually inspected. Earlier2569backend/4skip baseline is not a fresh
+full-application rerun. Independentteacher/nativeAndroid/IME/TalkBack/full2026–2027
+equivalence not performed/certified. Course-ready flags remainfalse and publication
+is `local_test_preview_only`; complete catalogue coverage is not production approval.
 
-Review units may reuse only digest-pinned earlier same-book numbered facts, with
-exact source/aliases/assessability retained. Page184 is a term locator, not a
-definition approval. Grade6 content presence complete is not course acceptance.
-
-Grade7 first prerequisite is empty; grade-scoped progress and shared once-only XP
-are tested. Allod etymology16/17 and Gerbert/Silvestr ordinal29 remain unresolved
-and withheld from automatic keys; no outside historical correction is invented.
-
-Batch11 review: source law40 death-penalty claim, Platon epithet42, alphabet
-creation46 and kvadrium45 spelling remain unassessed; no external repair or
-Greek-fire recipe. Religious belief never an automatic truth/loyalty judgment.
-
-Batch12 source limits: overallcaliphate630, Toriqname, ChandraguptaI dates/grass,
-Suyfounding/syan/mu, scientificworldfirst and newspaperpriority remain held.
-Three-field diagram66 exactrow verified; no explosives recipe or medical advice.
-
-Batch13 source review: market/bank/exchange priorities, Kioto chronology,
-firstEuropeIV and heretic/atheist/autodafe/indulgence simplifications held.
-Urban promises/motives ungraded; Ioanniy other-name target finite.
-
-Batch14 source limits: 1269/lastcrusade, instantFrenchcentralization/Tuluza,
-firstchurchtax, PhilipIVnoheirs/Crecycounts,1420heir/1453formaltreaty and
-1491instantlegalunion held. Kingordinals/places/sourcedeventorder tested.
-
-Batch15 source limits: charter/signature/firstcensus, Tylerprofession/warcounts,
-Habsburg1437/369years/universitypriority, Monomakhfather/Novgorodfoundation/
-Yuriallcityfoundation1147 and unresolvedYaroslavidentity held. No outside
-repair or ice-breakinglegend; objective name/ordinal/role targets remain finite.
-
-Batch16 source limits: Paris/Sorbon founding/Gutenberg1445, architectural
-universals/Laaxdate/ChartresParis/Dogeclassification, singleSeljuk1038–1308
-polityscope, Bursaattribution/immediateIstanbulrename/tumorispelling and
-recruitment/armyuniversals held. Historicalbeliefs/causes ungraded; roles,
-ordinals, term meanings and source-year order use finite reviewed targets.
-
-Batch17 limits: Temuchinbirth/title/Qoraqurumfounding, Oqtoy1243death/Botudates/
-Islam1314, Yuan1279foundation/Meccavisit/cottonfirst, JapaneseemperorfromXII/
-xanke-ryoka/porcelain/Nagasakiport, ancientChosonsplit/PekchefirstIII–IV/
-all668unity/1231continuousconquest held. Folklorebelief not factualbiography;
-fullnames/titles/roles/polities are separate question-specific targets.
-Flutter targeted and full tests must run sequentially to avoid build asset races.
-
-Grade7 presence is complete, not course acceptance. All48 chronology entries
-reviewed with exact155–156 image pins; see GRADE7_REFERENCE_REVIEW.md. Repeated
-source errors never become independent evidence. Lastbatch source limits in
-SOURCE_REVIEW. Grade8 first prerequisite stays empty and progress independent.
-Test helpers resolve lessons by lesson_key→sequence→chapter, not duplicate titles
-(Hindiston occurs twice), and expand bibliography before checking its text.
-Earlier tests preserve frozen learner/XP prefixes while catalogue availability
-is computed from current content presence. No runtime/auth/other-subject edit.
-
-Batch19 starts grade8 from its own2019 book/intro3–6; empty first prerequisite
-and independent grade8 learner progress tested without completing grade6/7.
-Source holds: Genoabankfirst/priceuniversals,1526peasantsending,indulgence
-simplification,Galileoheliocentricpriority/Brunoeternalcosmos,GeorgeIancestry/
-lastOrange1714 and unsupportedLilbernprompt. No outside correction, AI feature
-or production claim. Counts95/219,124left; currentQA in QA_REPORT.
-
-Batch20 source limits: Westphaliaallhostilityended/Crimeanlegalscope,France
-ValmyRepublicsame-daychronology,Directoryappointment,Germanallpowerlessunity/
-1683firstunanimity,Peter1689firstaccession/serftransferoneNov26/map52Crimea
-annexationlegend. Finite office vs collective (Konsul/Konsullik), regnalordinals
-and original page regions tested. No published earlier lesson/review rewrites.
-Current100/219,119left; measuredQA in QA_REPORT. Grade8§11 is only a private draft.
-
-Batch21 checkpoint:105/219,114left; grade8 has15/33. All source facts use the
-provided 2019 textbook. Source59 FederalKonvent definition,63–64 artwork-title
-variant,65–69 universal civilizational/religious rankings,Chin ending date/first
-Russian contact,75 religious-policy wording and77 map-label placement are held.
-No external date/author repairs or mandatory belief/ethics scoring. Measured QA
-in QA_REPORT. Next batch22§16–20; private§16 is not a ready lesson.
-
-Batch22 checkpoint:110/219,109left; grade8 has20/33. All source facts use the
-provided 2019 textbook.83 shogun/xokku and82 Yongjo wording/dates,88 Safavid1502/
-89 directTabriz→Isfahon/90 lastSafavid andZand chronology,93 Frenchwithdrawal,
-95–96 slave-trade estimates,97/100 world-first railway and99 labour-hour scope
-remain held. Dominion is not independence. Racist ideology/cultural judgments
-never become scientific truths or automatic opinion keys. QA in QA_REPORT.
-Next batch23§21–25 in original order. No private draft counts as ready.
-
-Batch23 checkpoint:115/219,104left; grade8 has25/33. Source106 February
-exactday/105 HolyAlliancecongressplace/112 N.Muravyovpunishment/114 musicgenre/
-118 amendment-equality and Homestead chronology/122 Mexico slaverytiming/125
-only1860growth and emigration wording held. Literature vs opera authors, regnal
-names and historic unions have finite per-question targets. No outside repairs,
-biological colonial labels or automatic opinion scores. QA in QA_REPORT. Next
-batch24§26–30; private§26 is not ready/imported.
-
-Batch24 checkpoint:120/219,99left; grade8 has30/33.127 cartridge composition
-rumour/onlyIndianorganization,129 companylegalend/firsteducation,132 Yansziprovince/
-statefoundation/mapcaption and133 suicideclaim,136 sameyearcoronation/agrarian
-fractions,137 divineorigin/nationalsuperiority,141 latercoloniallifespan,144 Paris
-property-rights scope held. Treaty context and regent/king/name targets remain
-finite. Original3–156 grade8 deeply read, private31–33 strictvalidated, notready.
-Next five-lesson batch: grade8 remainingthree, then grade9 firsttwo; scanned
-grade9 requires original image fact checks. QA in QA_REPORT.
-
-Batch25 checkpoint:125/219,94left. Grade6/7/8 content presence complete46/44/33,
-grade9 firsttwo ready; acceptance flags false. Grade8 conclusion reuses3 exact
-priorfact bindings, not unique new facts. Grade9 scanned originals1–30 read,
-private§3–7 strictly validated but not indexed. Political models and current
-law/research are ungraded. Grade8 154Abdulqodirdeath/153Kassafall and156idea
-chronology held; grade9 map8–9 compositechronology,10inevitablelaststage,
-12XIXendmetro/wholeparliament4year/17Julydeclaration/treatyformalstatus held.
-QA373 distinct history passes after obsolete ancillary expectation corrected and
-full17testmodule rerun;271targeted/880fullFlutter,0analysis;PG125units2500XP,
-HTTP1332answers. No external fixes/sourcevalidator bypass. Continuebatch26§3–7.
-
-Batch26 checkpoint:130/219,89left;grade9=7/41.387historytests/282widgets/891full
-Flutter pass; analysis0; HTTP1384answers/2600XP and realPG130units/replay pass.
-17July1870/1868invasionquestion mismatch,20communeuniversalreforms/casualtytotals,
-22wholeparliament4yearterm/1875anthemadoption inference,24racialhierarchy and1876
-Senate/MacMahon timeline,1884strikelegalization,27–29colonial/treaty chronology
-remain held. No outside factual repairs or political/moral automatic truth.
-Nextbatch27§8–12private strictlyvalidated; originals1–46 read,47onward next.
-LocalQAservices resumed after downtime; existing DBs kept; new UID/email per
-HTTP run, no resetting oldsynthetic/realprogress. See batch26 QA incident scope.
-
-Batch27 checkpoint:135/219,84left;grade9=12/41.402historytests/292widgets/901full
-Flutter pass,analysis0;HTTP1434answers2700XP and realPG135units pass.30allmonarchs/
-31uniformReichstagterm/Saarnewconquest/Tomsonphosphorwording/32ShnayderGermanplant,
-34emperorageandsuccession/35onlycorrectpoliticalpath,36GuineaZanzibarandisland
-chronology/37Palestine1889/38Ottomanliteralvassal,40Gladston1864–74/41outputvs
-share,42Parnellorigin/43settlement1881/44Irishbilland1911legalexceptions/45coal
-strikechronology remainheld. Nextbatch28§13–17private strictvalidated, original
-1–63 and154 read;154onlylink not entireappendix approval.64onward next.
-
-Batch28 checkpoint:140/219,79left;grade9=17/41.416historytests/302widgets/911full
-Flutter pass,analysis0;HTTP1488answers2800XP and realPG140units pass.46anthem/
-firstBritishEmpirefoundation/Suezallcontrol,48SouthAfricaimmediate1902,49all
-latifundiaabolished/maizeorigin,53HaymarketandColoradochronology/54Ruzveltsplit
-company/55alluniondamagesabolished,56Cubaimmediate1898independence/1903allrights,
-59ethnicdevelopmentcause/60Cubaslaveryby1878/61Diasuninterrupted/62allrebelsdead
-by1917 remainheld.154onlylinked17context,wholeappendixnotapproved. Private18–22
-strictvalidated:original1–90and154–155read;156pending. Continuebatch29,91onwardnext.
-
-Batch29 checkpoint:145/219,74left;grade9=22/41.431historytests/312widgets/921full
-Flutter pass,analysis0;HTTP1538answers2900XP and realPG145units pass.64Brazil
-19Novemberchronology/65Argentinaparty1895/universalvote,67oilrank/69Stolipindeath
-causalchain,71KurilSakhalinscope/Pamir1891treaty/72allPacificfleetlost,74whole
-RSDRPsingleleader1903/directpersonalorder/75bicameralonly1907/legaluniversals,
-76allSlavmajority/78allCatholicsantisemitic/universal1907vote remainheld.
-154linked18and155linked20 contexts only,wholeappendixfactreviewnotapproved.
-Private23–27strictvalidated;original1–116and154–156read;117onwardnext.
-
-Batch30: 150/219 local-preview units,69 remain; grade9=27/41.
-444 history tests/322 history widgets/931 full Flutter
-pass, analysis0, HTTP1588answers/3000XP and realPG pass.
-Exact new source holds and image/region/answer reviews remain in SOURCE_REVIEW.md
-and the immutable lesson review files. No whole-map approval or outside repairs.
-Continue batch31 grade9§28–32; originals1–137and154–156 read; next drafts strictly validated but unindexed;138onward next; no routine permission needed.
-
-Batch31: 155/219 local-preview units,64 remain; grade9=32/41.
-458 history tests/332 history widgets/941 full Flutter
-pass, analysis0, HTTP1638answers/3100XP and realPG pass.
-Exact new source holds and image/region/answer reviews remain in SOURCE_REVIEW.md
-and the immutable lesson review files. No whole-map approval or outside repairs.
-Continue batch32 grade9§33–37; originals1–156and154–156 read; next drafts strictly validated but unindexed;157onward next; no routine permission needed.
-
-Batch32: 160/219 local-preview units,59 remain; grade9=37/41.
-469 history tests/342 history widgets/951 full Flutter
-pass, analysis0, HTTP1688answers/3200XP and realPG pass.
-Exact new source holds and image/region/answer reviews remain in SOURCE_REVIEW.md
-and the immutable lesson review files. No whole-map approval or outside repairs.
-Continue batch33 grade9§38–41 plus grade10§1; Grade9 originals1–160 and grade10 originals1–24 read; next drafts strictly validated but unindexed;grade10 original25 onward next; no routine permission needed.
-
-Batch33: 165/219 local-preview units,54 remain; grade9=41/41,grade10=1/26.
-484 history tests/354 history widgets/963 full Flutter
-pass, analysis0, HTTP1742answers/3300XP and realPG pass.
-Exact new source holds and image/region/answer reviews remain in SOURCE_REVIEW.md
-and the immutable lesson review files. No whole-map approval or outside repairs.
-Continue batch34 grade10 topics2–6; Grade9 originals1–160 and grade10 originals1–48 read; next drafts strictly validated but unindexed;grade10 original49 onward next; no routine permission needed.
-
-Batch34: 170/219 local-preview units,49 remain; grade10=6/26.
-496 history tests/364 history widgets/973 full Flutter
-pass, analysis0, HTTP1792answers/3400XP and realPG pass.
-Continue batch35 grade10 topics7–11; Grade9 originals1–160 and grade10 originals1–87 read; next drafts strictly validated but unindexed;grade10 original88 onward next; no routine permission needed.
-
-Batch35: 175/219 local-preview units,44 remain; grade10=11/26.
-510 history tests/374 history widgets/983 full Flutter
-pass, analysis0, HTTP1846answers/3500XP and realPG pass.
-Continue batch36 grade10 topics12–16; Grade9 originals1–160 and grade10 originals1–105 read; next drafts strictly validated but unindexed;grade10 original106 onward next; no routine permission needed.
-
-Batch36: 180/219 local-preview units,39 remain; grade10=16/26.
-524 history tests/384 history widgets/993 full Flutter
-pass, analysis0, HTTP1902answers/3600XP and realPG pass.
-Continue batch37 grade10 topics17–21; Grade9 originals1–160 and grade10 originals1–127 read; next drafts strictly validated but unindexed;grade10 original128 onward next; no routine permission needed.
-
-Batch37: 185/219 local-preview units,34 remain; grade10=21/26.
-538 history tests/394 history widgets/1003 full Flutter
-pass, analysis0, HTTP1952answers/3700XP and realPG pass.
-Continue batch38 grade10 topics22–26; Grade9 originals1–160 and grade10 originals1–144 read; grade11 originals1–14 read; next drafts strictly validated but unindexed;grade11 original15 onward next; no routine permission needed.
-
-Batch38: 190/219 local-preview units,29 remain; grade10=26/26.
-550 history tests/404 history widgets/1013 full Flutter
-pass, analysis0, HTTP2002answers/3800XP and realPG pass.
-Continue batch39 grade11 topics1–5; Grade9 originals1–160 and grade10 originals1–144 read; grade11 originals1–32 read; next drafts strictly validated but unindexed;grade11 original33 onward next; no routine permission needed.
-
-Batch39: 195/219 local-preview units,24 remain; grade11=5/29.
-563 history tests/416 history widgets/1025 full Flutter
-pass, analysis0, HTTP2052answers/3900XP and realPG pass.
-Continue batch40 grade11 topics6–15; Grade9 all160 and grade10 all144 original pages read; grade11 originals1–72 read; next private drafts strict validated but unindexed; grade11 original73 onward next; no routine permission needed.
-
-Batch40: 205/219 local-preview units,14 remain; grade11=15/29.
-586 history tests/436 history widgets/1045 full Flutter
-pass, analysis0, HTTP2152answers/4100XP and realPG pass.
-Continue batch41 grade11 topics16–25; Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read; next private drafts strict validated but unindexed; grade11 source-region recheck during final audit next; no routine permission needed.
-
-Batch41: 215/219 local-preview units,4 remain; grade11=25/29.
-608 history tests/456 history widgets/1065 full Flutter
-pass, analysis0, HTTP2252answers/4300XP and realPG pass.
-Continue batch42 grade11 topics26–29; Grade9 all160 and grade10 all144 original pages read; grade11 originals1–144 read; next private drafts strict validated but unindexed; grade11 source-region recheck during final audit next; no routine permission needed.
+Read docs/world_history/CHECKPOINT.md, WORLD_HISTORY_FINAL_AUDIT.md,
+FINAL_COVERAGE_REPORT.json, SOURCE_REVIEW.md and QA_REPORT.md.
+There is no next unimplemented lesson or authoring batch. Preserve all indexed
+lesson/review bytes. Do not rerun initial authors/integrators, baseline pinning or
+completed synthetic HTTP exports. Future substantive content edits require an
+explicit new reviewed revision. Latest exact Git SHA/push/clean evidence is in
+the branch log and private .local/history-checkpoint.json after persistence.

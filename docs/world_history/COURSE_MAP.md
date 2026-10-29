@@ -1,6 +1,6 @@
 # Jahon tarixi: complete source and teaching map
 
-2026-10-26. **Catalogue complete; executable course incomplete.**
+2026-10-29. **Catalogue and local-preview coverage complete; release approval remains separate.**
 
 | Grade | Numbered source blocks | Teaching units | PDF pages |
 | --- | ---: | ---: | ---: |
@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 215; remaining: 4.** Source pages are candidate spans;
+**Reviewed preview lessons: 219; remaining: 0.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -304,10 +304,10 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 23 | wh11-topic23 | 1991 – 2017-yillarda Suriya va Iroq | 104–109 | reviewed_preview_ready |
 | 24 | wh11-topic24 | 1991 – 2017-yillarda Isroil davlati va Falastin muammosi | 109–113 | reviewed_preview_ready |
 | 25 | wh11-topic25 | 1991 – 2017-yillarda Lotin Amerikasi mamlakatlari | 113–118 | reviewed_preview_ready |
-| 26 | wh11-topic26 | 1991 – 2017-yillarda Afrika mamlakatlari | 118–124 | not_implemented |
-| 27 | wh11-topic27 | XX asr oxiri – XXI asr boshlarida globallashuv muammolari, harbiy, ekstremistik va ekologik xavf-xatarlar | 124–130 | not_implemented |
-| 28 | wh11-topic28 | XX asr oxiri – XXI asr boshlarida barqaror rivojlanish va etno-ijtimoiy muammolar | 130–135 | not_implemented |
-| 29 | wh11-topic29 | XX asr oxiri – XXI asr boshlarida ilmiy-texnik taraqqiyot. Ilm-fan, adabiyot, san’at | 135–140 | not_implemented |
+| 26 | wh11-topic26 | 1991 – 2017-yillarda Afrika mamlakatlari | 118–124 | reviewed_preview_ready |
+| 27 | wh11-topic27 | XX asr oxiri – XXI asr boshlarida globallashuv muammolari, harbiy, ekstremistik va ekologik xavf-xatarlar | 124–130 | reviewed_preview_ready |
+| 28 | wh11-topic28 | XX asr oxiri – XXI asr boshlarida barqaror rivojlanish va etno-ijtimoiy muammolar | 130–135 | reviewed_preview_ready |
+| 29 | wh11-topic29 | XX asr oxiri – XXI asr boshlarida ilmiy-texnik taraqqiyot. Ilm-fan, adabiyot, san’at | 135–140 | reviewed_preview_ready |
 
 ### Supporting source records
 

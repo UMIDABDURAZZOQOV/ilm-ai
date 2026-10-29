@@ -101,7 +101,7 @@ def main():
     write(DATA / 'world_history_sources.json', catalog)
     write(DATA / 'world_history_page_inventory.json', inventory)
     lines = ['# Jahon tarixi: complete source and teaching map', '',
-             '2026-10-26. **Catalogue complete; executable course incomplete.**', '',
+             ('2026-10-29. **Catalogue and local-preview coverage complete; release approval remains separate.**' if implemented == catalog['total_teaching_topics'] else '2026-10-26. **Catalogue complete; executable course incomplete.**'), '',
              '| Grade | Numbered source blocks | Teaching units | PDF pages |',
              '| --- | ---: | ---: | ---: |']
     lines += [f'| {g} | {n} | {u} | {p} |' for g, n, u, p, _ in rows]
