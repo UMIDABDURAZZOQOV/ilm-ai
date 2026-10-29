@@ -9,9 +9,9 @@ production startup, a migration against an existing database, or an AI feature.
 
 | Subject | Backend feature commit | Lessons |
 | --- | --- | ---: |
-| Biology | c0f84d0603905393904083f59f5d2a61a125c9bd406 | 406 |
+| Biology | c0f84d0603905393904083f59f5d2a61a125c9bd | 406 |
 | Physics | e2aab00ecac29294600a3ac4e5e95d5299c3eeaf | 316 |
-| Chemistry | 9b37213cfeeebb358f2179d76c8c5d97417f18612 | 268 |
+| Chemistry | 9b37213cfeeebb358f2179d76c8c5d97417f1861 | 268 |
 | Uzbekistan History | 1a4f9823f52cd2bbd738efab5437ecb3b201275d | 172 |
 | World History | 8a7556a6da0bef14089c2753ab95d4d9a92c9a83 | 219 |
 
