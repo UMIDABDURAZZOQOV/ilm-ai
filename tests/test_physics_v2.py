@@ -519,7 +519,7 @@ def test_local_sandbox_creates_only_private_test_data_and_resume_preserves_it(tm
     ]
     env = {**os.environ, "ENVIRONMENT": "test"}
     result = subprocess.run(
-        command, env=env, text=True, capture_output=True, timeout=30, check=False
+        command, env=env, text=True, capture_output=True, timeout=180, check=False
     )
     assert result.returncode == 0, result.stderr
     config = json.loads((path / "flutter-defines.json").read_text())
@@ -545,7 +545,7 @@ def test_local_sandbox_creates_only_private_test_data_and_resume_preserves_it(tm
         env=env,
         capture_output=True,
         text=True,
-        timeout=30,
+        timeout=180,
         check=False,
     )
     assert resumed.returncode == 0, resumed.stderr

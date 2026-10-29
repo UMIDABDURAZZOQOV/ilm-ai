@@ -66,3 +66,9 @@ python -X utf8 -m pytest tests/test_phone_qa.py -q --basetemp C:/Users/Page/Desk
 
 No Google end-to-end, native handset visual, IME or TalkBack verification is implied
 by these automated checks. Android installation must use the distinct QA package.
+
+The inherited Physics standalone-sandbox test uses the full 316-lesson source
+validator. Its 30-second subprocess deadline timed out while Android compiled on
+this 8 GB host; an isolated retry passed unchanged. In this QA branch only, both
+initialization/resume deadlines are now bounded at 180 seconds. All assertions,
+source checks and runtime safety gates are unchanged; this is not a skipped test.
