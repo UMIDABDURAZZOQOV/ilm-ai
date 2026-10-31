@@ -25,6 +25,8 @@ manbali fan oqimiga ulanmagan. Eski `/tutor` beta middleware blokini saqlaydi.
 mumkin), lesson_key/attempt_id/question_key, language, ixtiyoriy message.
 Begona maydonlar va 1000 belgidan uzun xabar rad etiladi. UID access tokendan.
 Client savol matni, to‘g‘ri javob yoki rubricni authoritative qilib yubora olmaydi.
+Response attempt_id/question_key qaytaradi; Flutter subject/grade/lesson/attempt/
+question mosligini tekshiradi. Ushbu session identifikatorlari modelga berilmaydi.
 
 - V2: asli runtime preview gate, get_session ownership/expiry, issued snapshot,
   public_attempt va qabul qilingan feedback. Javobdan avval grading_spec,
@@ -111,7 +113,7 @@ asl Physics MCQ/numeric FRQ correct/wrong, aniq yechim bosqichlari, XP yozilmasl
 Baseline integratsiyada SQLite va PostgreSQL allaqachon 16 test bilan tekshirilgan.
 
 Yakuniy yangi va avvalgi integratsiya regressiyasi birga: **14 passed,
-12 deselected, 1 warning in 23.55s** (SQLite nusxalari). 1 381 birlik katalogi,
+12 deselected, 1 warning in 32.14s** (SQLite nusxalari). 1 381 birlik katalogi,
 barcha besh fan graderlari, bir martalik XP va server auth/source guardlari ham o‘tdi.
 
 Flutter: `flutter analyze --no-pub`; beta define bilan study_help_test,

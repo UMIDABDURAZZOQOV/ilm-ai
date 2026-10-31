@@ -199,7 +199,8 @@ def select_evidence(context, message, language):
         return context['evidence'], 'unconfigured'
     try:
         from openai import OpenAI
-        with OpenAI(api_key=_provider['api_key'], timeout=15, max_retries=0) as client:
+        with OpenAI(api_key=_provider['api_key'], base_url='https://api.openai.com/v1',
+                    timeout=15, max_retries=0) as client:
             response = client.chat.completions.create(
                 model=_provider['model'],
                 messages=[{'role':'system','content':
@@ -225,5 +226,6 @@ def respond(context, data):
         raise HTTPException(409, 'study_help_reviewed_evidence_missing')
     evidence, status = select_evidence(context, data.message, data.language)
     return dict(context, evidence=evidence, provider_status=status,
+                attempt_id=data.attempt_id, question_key=data.question_key,
                 mode='reviewed_evidence', content_language='uz',
                 scope='current_reviewed_lesson', internet_enabled=False)

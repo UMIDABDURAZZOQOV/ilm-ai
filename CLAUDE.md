@@ -10,6 +10,9 @@ Majburiy qoida o‘zgarmadi: barcha bilim faqat tekshirilgan darslik kontentidan
 
 `POST /beta/study-help` autentifikatsiya, beta/preview/source/ownership/expiry
 chegaralarini saqlaydi. V2 yechimi faqat server javobni qabul qilgach ochiladi;
+Javobda attempt/question identifikatorlari qaytarilib, Flutter aynan shu
+kontekstga mosligini ham tekshiradi. Provider origin rasmiy OpenAI endpointiga
+qat’iy bog‘langan; muhitdagi tasodifiy OPENAI_BASE_URL olinmaydi.
 Biologiya v1 mavjud lokal tekshirishidan foydalanadi, XP yozilmaydi. Fan chatida
 faqat prerequisite bo‘yicha ochiq yoki tugallangan dars konteksti ishlatiladi.
 `services/study_help.py` tokensiz tasdiqlangan kartalar/feedback/yechimlarni

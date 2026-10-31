@@ -25,6 +25,7 @@ def test_all_four_v2_subjects_preanswer_feedback_and_no_progress_writes(beta_api
         before_answer=ask(client,**params)
         assert before_answer.status_code==200,before_answer.text
         body=before_answer.json()
+        assert body['attempt_id']==issued['attempt_id'] and body['question_key']==q['key']
         assert body['provider_status']=='unconfigured' and not body['answered']
         assert body['evidence'] and body['source_refs']
         assert all(s['kind'] not in {'answer','solution','feedback'} for s in body['evidence'])
