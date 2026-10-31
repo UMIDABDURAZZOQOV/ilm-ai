@@ -1,5 +1,62 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-10-31 22:16 +05 — Lokal backend va haqiqiy Samsung tayyor
+
+`STUDY_HELP_ACCEPTANCE.md` to‘liq, original `ilm-ai/CLAUDE.md`ning tegishli
+qoidalari va Flutter `docs/INTEGRATED_BETA.md` tekshirildi. Original Biology
+checkout, main, production va fan branchlariga yozilmadi. Faol branch ikkala
+worktreeda `feat/beta-subject-switch-ai-help`; bu bosqichda kod o‘zgarmadi.
+
+- Mavjud `serve_mobile_beta.py` serveri saqlandi: **PID 12940**, faqat
+  **127.0.0.1:8930**. Qayta ishga tushirish, import/migratsiya yoki DB reset yo‘q.
+  Owned sandbox: `../ilm-ai-beta-local`; private `server.json` marker/JWT
+  mavjudligi tekshirildi, qiymatlar chiqarilmadi. Python 3.12.10 va kerakli
+  backend paketlari mavjud.
+- Yakuniy `GET /health`: **HTTP 200**, `status=ok`, `mode=integrated_beta`.
+  `GET /beta/config`: 5 fan, local test auth mavjud, Google sozlanmagan,
+  `production_ready=false`. Server sinov uchun ishlayotgan holatda qoldirildi.
+- **35 jonli HTTP tekshiruvi kutilgan statuslarni berdi**: beshta fan uchun
+  grades/tree/curriculum, to‘rtta v2 catalog, beshta source-linked study-help,
+  profile/preferences/summary/league/achievements. Katalog 1 381 birlik:
+  Biology 406, Physics 316, Chemistry 268, Uzbekistan history 172, World history 219.
+  Bu butun kursdagi har bir dars/javob telefon sinovidan o‘tdi degani emas.
+- Authsiz study-help **401**, eski `/skills/tutor/explain` **404**.
+  Barcha 5 help javobida `provider_status=unconfigured`, `reviewed_evidence`
+  va manbalar mavjud. Haqiqiy AI/OAuth kaliti qo‘shilmadi, provider chaqirilmadi.
+  Probe faqat xotirada 5 daqiqalik lokal access JWT ishlatdi; account/refresh,
+  attempt, javob yoki XP yaratmadi. Probe davomida 9 user/progress jadvalining
+  count/hashlari o‘zgarmadi. Token/secret/PII hisobotga yozilmadi.
+- `adb devices -l`: **R58NC0JNBXJ / Samsung SM_A125F / device**.
+  `adb -s R58NC0JNBXJ reverse tcp:8930 tcp:8930` bajarildi, reverse ro‘yxatida bor.
+  Mavjud APK `install -r` bilan **Success** berdi; uninstall/data clear yo‘q.
+  `com.ilmai.app.beta/com.ilmai.ilm_ai_flutter.MainActivity` ishga tushdi;
+  foreground activity va app **PID 12037** tasdiqlandi.
+- APK qayta yig‘ilmadi: **209 747 634 bytes / 200,03 MiB**.
+  Lokal APK va telefondagi `base.apk` SHA256 bir xil:
+  `518d0ae8e2d4c9bf1ebf42102bd491a245ca38c6bc9212d57ca5c04f29136d04`.
+  Build Flutter `2065823ac25dfade570f49333260c65ae31a6727`, backend
+  `8f2ed670c1eebd6c413f1bb79f5765f8387ea869`; receipt APK yonida.
+- Telefonda MCQ ekrani, `AI tushuntirish` va keyingi yangi UI dumpda Fizika
+  7-sinf manba paneli (kitob 10–11 / PDF 3–4) ko‘rildi. Agent javob tanlamadi
+  yoki yubormadi. Yakuniy PNGda Learn `Fanlar / AI savol` va saqlangan
+  darsning `Davom etish / Savol 4/6` holati ko‘rindi. Birinchi UI dump idle
+  xatosi sabab eski XML qaytargan:
+  `phone-ready-20261031.xml` dalil sifatida ishlatilmasin. Yangi nomli dump
+  `phone-ready-fresh-20261031.xml` va PNGlar alohida saqlandi.
+
+Lokal, Gitga kirmaydigan dalillar `../ilm-ai-beta-artifacts/` ichida:
+`phone-backend-checks-20261031.json`, `phone-readiness-20261031.json`,
+`phone-final-20261031.png`, `verify_phone_backend.py`.
+To‘liq MCQ/FRQ yakunlash, XP berilishi va qayta ochganda progressni foydalanuvchi
+telefonda hali qo‘lda tekshiradi; avvalgi unit/regression natijalari yangi
+to‘liq handset acceptance deb ko‘rsatilmaydi. USB va kompyuterni faol saqlash
+kerak; USB qayta ulansa reverse takrorlanadi. Google OAuth/HTTPS va real AI
+hali sozlanmagan; mahalliy beta login va manbali fallback bilan sinash kerak.
+
+Server keyin to‘xtasa, yangi nusxa ochishdan oldin 8930 listenerni tekshiring:
+`python -u -X utf8 scripts/serve_mobile_beta.py --directory ../ilm-ai-beta-local --resume --port 8930`
+(cwd shu backend worktree). Production `main.py` ishlatilmasin.
+
 ## 2026-10-31 — Beta: tez fan/sinf almashtirish va manbali study help
 
 Faol alohida branch: `feat/beta-subject-switch-ai-help` (backend va Flutter).
