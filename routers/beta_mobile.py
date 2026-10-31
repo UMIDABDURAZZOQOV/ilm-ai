@@ -27,6 +27,22 @@ bio_scope = asynccontextmanager(mobile_publication)
 SCHEMAS = dict(fizika=physics_preview, kimyo=chemistry_preview,
                jahon_tarixi=world_history_preview, ozbekiston_tarixi=uzbekistan_history_preview)
 
+from services.study_help import HelpRequest
+
+
+@router.post('/study-help')
+async def study_help(data: HelpRequest, request: Request, db: DB, uid: UID):
+    from services import study_help as help_service
+    from starlette.concurrency import run_in_threadpool
+    help_service.throttle(uid)
+    if data.subject == 'biologiya':
+        async with bio_scope(request, db):
+            context = help_service.evidence_context(db, uid, data)
+    else:
+        context = help_service.evidence_context(db, uid, data)
+    # All DB ownership/source checks finish before optional external inference.
+    return await run_in_threadpool(help_service.respond, context, data)
+
 
 @router.get('/skills/subjects')
 async def subjects(request: Request, db: DB, grade: int | None = None):

@@ -1,5 +1,11 @@
 # ILM AI Beta — lokal telefon sinovi
 
+**2026-10-31 yangilanish:** joriy alohida branch `feat/beta-subject-switch-ai-help`.
+Learn ichida Fanlar orqali tez fan/sinf almashtirish va savolga bog‘langan
+manbali izoh/chat ulandi. Haqiqiy AI token hozir yo‘q; tokensiz rejim aniq
+belgilanadi. [To‘liq kontrakt va keyingi private konfiguratsiya](STUDY_HELP.md).
+Quyidagi `--resume` va `install -r` buyruqlari yangi build uchun ham amal qiladi.
+
 2026-10-29. Faqat ichki debug beta; production reliz emas.
 Foydalanuvchi HTTPS staging va Google OAuth hozir yo‘qligini tasdiqladi va
 lokal beta hamda sozlash talablarini tayyorlashni so‘radi.

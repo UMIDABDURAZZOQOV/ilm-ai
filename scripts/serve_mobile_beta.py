@@ -150,9 +150,12 @@ def main():
     parser.add_argument('--resume',action='store_true')
     parser.add_argument('--port',type=int,default=8930)
     parser.add_argument('--oauth-config-file')
+    parser.add_argument('--ai-config-file', help='Private server JSON outside checkout: api_key and model; omitted = reviewed fallback')
     args=parser.parse_args()
     path=sandbox_directory(args.directory,args.resume)
     configure(path,args.resume,args.port,args.oauth_config_file)
+    from services.study_help import configure_provider
+    configure_provider(args.ai_config_file)
     captured=io.StringIO()
     with contextlib.redirect_stdout(captured):
         counts=initialize(path,seed_user=False)

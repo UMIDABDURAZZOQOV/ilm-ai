@@ -1,5 +1,32 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-10-31 — Beta: tez fan/sinf almashtirish va manbali study help
+
+Faol alohida branch: `feat/beta-subject-switch-ai-help` (backend va Flutter).
+Asos: backend `eb04a8d`, Flutter `0e508ef`; main/production/fan branchlari o‘zgarmadi.
+Rasmdagi yangi topshiriq avvalgi AI qo‘shmaslik cheklovini faqat ushbu beta
+tayyorgarligi uchun yangiladi: haqiqiy token hozir yo‘q, AI xizmat chaqiruvi yo‘q.
+Majburiy qoida o‘zgarmadi: barcha bilim faqat tekshirilgan darslik kontentidan.
+
+`POST /beta/study-help` autentifikatsiya, beta/preview/source/ownership/expiry
+chegaralarini saqlaydi. V2 yechimi faqat server javobni qabul qilgach ochiladi;
+Biologiya v1 mavjud lokal tekshirishidan foydalanadi, XP yozilmaydi. Fan chatida
+faqat prerequisite bo‘yicha ochiq yoki tugallangan dars konteksti ishlatiladi.
+`services/study_help.py` tokensiz tasdiqlangan kartalar/feedback/yechimlarni
+qaytaradi; keyin private `--ai-config-file` bilan OpenAI faqat evidence IDlarini
+tanlay oladi. Modelning yangi ilmiy matni yoki to‘qima sahifasi chiqarilmaydi.
+Eski manbasiz `/tutor` endpointlari beta ichida bloklanganicha qoladi.
+
+Flutter: tez fan/sinf sheet, har bir odatiy beta MCQ/FRQ uchun oldin/keyin
+`AI tushuntirish`, Learn ichida `AI savol`, manba tugmalari, follow-up, retry,
+account almashganda cancel/close, light/dark/katta matn va keyboard layout.
+Mavjud draft/grading/XP/progress/OAuth/Ilmo kontraktlari saqlanadi.
+
+Audit, fayllar, testlar va tokenni keyin ulash: [STUDY_HELP.md](docs/beta/STUDY_HELP.md).
+Jonli AI/internet/production deploy va telefondagi yangi smoke-testni hali
+tekshirilgan deb ko‘rsatmang; yakuniy APK uchun uning yonidagi receiptni o‘qing.
+
+
 **2026-10-27 — O‘zbekiston tarixi, yakuniy kontent 172/172.**
 7/8/9/10/11-sinflar: 42/41/39/28/22; 34 bob, 1 280 karta, 1 027 topshiriq
 (597 MCQ / 342 qisqa FRQ / 88 xronologiya), 172 misol va 172 self/teacher refleksiya.
