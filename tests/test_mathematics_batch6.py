@@ -68,18 +68,22 @@ def finish_properties(client, number):
     return row, feedback, result.json()
 
 
-def test_all_thirty_additive_lessons_reopen_and_replay(preview):
-    client, factory = preview
+def complete_first_thirty(client):
     complete_first_twenty_five(client)
     for n in range(26, 31):
         assert finish_properties(client, n)[-1]["xp_awarded"] == 10
+
+
+def test_all_thirty_additive_lessons_reopen_and_replay(preview):
+    client, factory = preview
+    complete_first_thirty(client)
     assert finish_properties(client, 30)[-1]["xp_awarded"] == 0
     with factory() as db:
         assert db.get(User, 1).xp_total == 437 and db.get(User, 2).xp_total == 0
         assert db.query(MathProgress).count() == 30
     assert all(
         r["state"] == "completed"
-        for r in client.get(first.P + "/catalog").json()["lessons"]
+        for r in client.get(first.P + "/catalog").json()["lessons"][:30]
     )
 
 
