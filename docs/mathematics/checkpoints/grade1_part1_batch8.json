@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-03",
+  "branch": "feat/mathematics-curriculum",
+  "backend_code_commit": "b29fff9858d0f6dc6fbc3b0d6cf252d0d5a3f53f",
+  "flutter_code_commit": "f69de9b0accb1cda6835e0858a355a07d68ec280",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "first_book_topic_coverage": "41/41",
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "stats": {
+    "lessons": 41,
+    "cards": 230,
+    "examples": 41,
+    "worked_steps": 123,
+    "notation_entries": 46,
+    "questions": 288,
+    "phases": {
+      "guided": 144,
+      "mcq": 41,
+      "frq": 41,
+      "transfer": 62
+    },
+    "response_kinds": {
+      "choice": 113,
+      "short_text": 24,
+      "exact_number": 144,
+      "ordering": 7
+    },
+    "distinct_explorer_modes": 37
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 41,
+    "reviewed_body_pages": 82,
+    "interactive_lessons": 41,
+    "theory_cards": 230,
+    "questions": 288,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_pending_toc_units": 33,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "tests": {
+    "math": "65 passed, 1 skipped in 44.82s",
+    "postgres": "1 passed in 18.83s",
+    "flutter_full": "02:07 +440: All tests passed!",
+    "analyze": "No issues found! (ran in 2.2s)",
+    "web": "✓ Built build/web"
+  },
+  "protected_regressions": "46 passed in 112.33s (0:01:52)",
+  "protected_worktrees": {
+    "ilm-ai": {
+      "head": "e2aab00ecac29294600a3ac4e5e95d5299c3eeaf",
+      "status": ""
+    },
+    "ilm-ai-flutter": {
+      "head": "ba2e0e213aa47e8a2968fcbc1dc2b06b018e393d",
+      "status": ""
+    },
+    "ilm-ai-frontend": {
+      "head": "054f0cea9b78a9c791cba5aa478fc3769cbd85b8",
+      "status": ""
+    },
+    "ilm-ai-uzbekistan-history": {
+      "head": "1a4f9823f52cd2bbd738efab5437ecb3b201275d",
+      "status": ""
+    },
+    "ilm-ai-flutter-uzbekistan-history": {
+      "head": "fa6c305c4a56b16f397aa5d73f40b8040f016ed3",
+      "status": ""
+    }
+  },
+  "log_sha256": {
+    "math": "cd453f2ba38528738ac792048039401767df95b5629705265a62099c9aa6c897",
+    "postgres": "a667a4a13be643deb9832ba30ab58d44655a52cf0c72dfbd4495d05fd15624c7",
+    "flutter_full": "edea2c032bcd1146873351365dc34355e60a67b0bec2a54437777a31083266bd",
+    "analyze": "e7f36ae50e5d54be9377a5eab68dd4e57ab3ca40b5077c7fda32d12763513e53",
+    "web": "389ad31c4b7cc49da22626217f2fab1d9d37d1204f83600437898936f2c4a853"
+  },
+  "next": {
+    "grade": 1,
+    "part": 2,
+    "source_number": 42,
+    "title": "11 dan 20 gacha bo‘lgan sonlar",
+    "pdf_pages": [
+      5,
+      6
+    ],
+    "printed_pages": [
+      4,
+      5
+    ],
+    "body_review": "images_read_no_lesson_authored"
+  },
+  "additional_source_gap": {
+    "book_id": "math-uz-g1-p2",
+    "source_number": 74,
+    "missing_printed_pages": [
+      68,
+      69
+    ]
+  },
+  "android": "not_tested_SDK_absent",
+  "independent_teacher_review": "not_verified",
+  "pilot": "not_verified",
+  "official_curriculum_2026_2027": "not_verified",
+  "pr_api": "GitHub GraphQL returned403; no PR created or claimed",
+  "full_backend_regression": "Prior first-batch2567pass retained; final Math65 and protected46 scoped checks. No fresh full-backend claim."
+}

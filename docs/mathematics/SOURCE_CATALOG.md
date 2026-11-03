@@ -1,5 +1,13 @@
 # Matematika — haqiqiy manba inventari
 
+## 2026-11-03 — joriy checkpoint
+
+1-sinf I qism: 41/41 dars, 230 karta, 288 topshiriq. Butun 1–11-sinf kursi hali tugallanmagan.
+Math: 65 passed. Alohida PG: 1 passed. Flutter: 440 passed. Analyze: 0 muammo.
+II qism: 33 mundarija bo‘limi, 32 native lokator, 0 tayyor dars. 74-mavzuning bosma 68–69-sahifalari yo‘q.
+Bu status oldingi checkpointlardan yangiroq. [To‘liq dalil va texnik davom](FIRST_BOOK_COMPLETION.md),
+[machine checkpoint](checkpoints/grade1_part1_batch8.json).
+
 2026-10-27. **23 PDF ochildi, 2958 PDF sahifasi**. Har bir sahifaning native-text SHA, o‘lchami va tartibi `scripts/curriculum/mathematics/page_inventory.json`da. Bu metadata; OCR/transkript yoki kitob rasmi emas. **To‘liq darslik o‘qildi yoki barcha mavzular kataloglandi degan tasdiq yo‘q.** Skanerdagi watermark matn qatlami deb xato qabul qilinmaydi.
 
 | Sinf | Qism | PDF sahifa | Bibliografiya yili | Muallif | SHA-256 | Holat |

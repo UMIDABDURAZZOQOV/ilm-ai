@@ -1,5 +1,13 @@
 # ILM AI Matematika — dastlabki 5 dars
 
+## 2026-11-03 — joriy checkpoint
+
+1-sinf I qism: 41/41 dars, 230 karta, 288 topshiriq. Butun 1–11-sinf kursi hali tugallanmagan.
+Math: 65 passed. Alohida PG: 1 passed. Flutter: 440 passed. Analyze: 0 muammo.
+II qism: 33 mundarija bo‘limi, 32 native lokator, 0 tayyor dars. 74-mavzuning bosma 68–69-sahifalari yo‘q.
+Bu status oldingi checkpointlardan yangiroq. [To‘liq dalil va texnik davom](FIRST_BOOK_COMPLETION.md),
+[machine checkpoint](checkpoints/grade1_part1_batch8.json).
+
 ## 2026-11-03 — 35 darslik tekshirilgan checkpoint
 
 **1-sinf I qism: 35/41 mualliflik darsi**, 194 karta, 35 original
