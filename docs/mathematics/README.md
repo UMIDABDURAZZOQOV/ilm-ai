@@ -1,5 +1,41 @@
 # ILM AI Matematika — dastlabki 5 dars
 
+## 2026-11-03 — 20 darslik tekshirilgan checkpoint
+
+**1-sinf I qism: 20/41 mualliflik darsi**, 104 karta, 20 original
+misol/60 qadam, 120 topshiriq. Butun1–11kurs tugallanmagan;
+umumiy mavzular/qolganlar soni hali noma’lum. Nashr: faqat lokal test.
+
+16–20: uch/to‘rt/besh tarkibi, juft bilan buyum sanog‘i, butun–qism, qo‘shni oraliqlar bo‘ylab qo‘shish/ayirish. Har bir guruhlashda narsalar bir marta hisoblanadi. Boshlanish nuqtasi qadam hisoblanmaydi. Qo‘lyozma noto‘g‘ri javoblar kalit sifatida ishlatilmadi.
+
+Yangi partiya manbalari:
+
+| Mavzu | PDF | Bosma |
+|---|---|---|
+| 16 3 soni va raqami | 35–36 | 34–35 |
+| 17 4 soni va raqami | 37–38 | 36–37 |
+| 18 5 soni va raqami | 39–40 | 38–39 |
+| 19 1 dan 5 gacha bo‘lgan sonlar | 41–42 | 40–41 |
+| 20 1 dan 5 gacha bo‘lgan sonlar bilan amallar bajarish | 43–44 | 42–43 |
+
+Haqiqiy sinovlar:
+
+- math: `55 passed, 1 skipped in 12.00s`.
+- postgres: `1 passed in 5.65s`.
+- flutter_math: `00:25 +35: All tests passed!`.
+- analyze: `No issues found! (ran in 1.8s)`.
+
+Manba auditi:23PDF/2958sahifa va40tana sahifasi tasviri/hash.
+SQLite va o‘zimizning alohida loopbackPG16 sxemasi: barcha20dars, idempotent
+import, progress, replay0XP,137oldXP→337; parallel birinchi completion bitta mukofot.
+Birinchi5kontent/review o‘zgarmagan. Boshqa fanlar, auth, frontend, umumiy Gradle,
+normal app va production o‘zgartirilmagan. Android va pedagogik mustaqil ekspertiza yo‘q.
+Manba transferidagi2kattaPDF va yetishmayotgan5manba cheklovi saqlangan.
+
+Keyingi: **21 «6 soni va raqami»,PDF45–46/bosma44–45**.
+1-sinf I qismning21mavzusi hali yozilmagan.
+Backend `304226e1b3840db7123489e025055df8e1defa8a`; Flutter `3c3ee6f3d12492a9606aad81a38fc3ae38ebb105`. [Dalil](checkpoints/grade1_part1_batch4.json).
+
 ## 2026-11-03 — 15 darslik tekshirilgan checkpoint
 
 **1-sinf I qism: 15/41 mualliflik darsi**, 79 karta, 15 original
