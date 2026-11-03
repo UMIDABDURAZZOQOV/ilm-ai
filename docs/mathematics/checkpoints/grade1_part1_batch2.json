@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-03",
+  "branch": "feat/mathematics-curriculum",
+  "backend_code_commit": "71c22693e9574ecee0f4cca2fb3c31fee53d667f",
+  "flutter_code_commit": "5c4d030c1ef7c86b68bc48609dd53c87f8193e23",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "completed_lessons": 10,
+  "theory_cards": 54,
+  "questions": 60,
+  "worked_examples": 10,
+  "worked_steps": 30,
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 10,
+    "reviewed_body_pages": 20,
+    "interactive_lessons": 10,
+    "theory_cards": 54,
+    "questions": 60,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "tests": {
+    "math": "50 passed, 1 skipped in 5.50s",
+    "postgres": "1 passed in 3.08s",
+    "flutter_math": "20 passed in 13s",
+    "analyze": "No issues found! (ran in 1.6s)"
+  },
+  "logs_sha256": {
+    "math": "16eba5a8b0d6bc44b66af84ba529acdd39f00b256c2f6ca6adb23653eed53f85",
+    "postgres": "ef3df359b7c964bcceb5452198d9b0bd676555442d9a17ba9bc56a7a56fbf8d6",
+    "flutter": "19f63d1655690259dad79613a01b8a740005f90c6318a31c0f8c37669915996b",
+    "analyze": "f94fcd225cb63335cc0eb14a12d059f62268f1c2d1f0f8837b1420b9f88a8117"
+  },
+  "next": {
+    "grade": 1,
+    "part": 1,
+    "topic": 11,
+    "title": "Qo‘shish",
+    "pdf_pages": [
+      25,
+      26
+    ],
+    "printed_pages": [
+      24,
+      25
+    ]
+  },
+  "limits": [
+    "Android SDK/phone not tested",
+    "Independent teacher/pilot not verified",
+    "Full regression prior batch only; current Math scoped regression",
+    "Initial PG URL unavailable; a new disposable loopback PostgreSQL16 instance was created, random owned schema cleaned after passing all10 test."
+  ]
+}
