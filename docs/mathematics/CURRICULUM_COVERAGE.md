@@ -1,5 +1,41 @@
 # Qamrov — boshlangan, to‘liq kurs emas
 
+## 2026-11-03 — 25 darslik tekshirilgan checkpoint
+
+**1-sinf I qism: 25/41 mualliflik darsi**, 134 karta, 25 original
+misol/75 qadam, 160 topshiriq. Butun1–11kurs tugallanmagan;
+umumiy mavzular/qolganlar soni hali noma’lum. Nashr: faqat lokal test.
+
+21–25: olti–to‘qqiz va nol. Ikki tomondan sanoqda o‘rindagi belgi bir marta hisoblanadi; kun/mashg‘ulot, jami/yonma-yon joy va turli yil boshlanishlari ajratildi. Nol — aniq javob; bo‘sh input422bilan rad etiladi. Katta guruhlar Wrap orqali kichik ekranga moslashadi. PDF55–56 takror hisoblanmaydi; keyingi26mavzu PDF57dan, bosma54dan boshlanadi.
+
+Yangi partiya manbalari:
+
+| Mavzu | PDF | Bosma |
+|---|---|---|
+| 21 6 soni va raqami | 45–46 | 44–45 |
+| 22 7 soni va raqami | 47–48 | 46–47 |
+| 23 8 soni va raqami | 49–50 | 48–49 |
+| 24 9 soni va raqami | 51–52 | 50–51 |
+| 25 0 soni va raqami | 53–54 | 52–53 |
+
+Haqiqiy sinovlar:
+
+- math: `57 passed, 1 skipped in 18.20s`.
+- postgres: `1 passed in 7.32s`.
+- flutter_math: `00:34 +43: All tests passed!`.
+- analyze: `No issues found! (ran in 1.8s)`.
+
+Manba auditi:23PDF/2958sahifa va50tana sahifasi tasviri/hash.
+SQLite va o‘zimizning alohida loopbackPG16 sxemasi: barcha25dars, idempotent
+import, progress, replay0XP,137oldXP→387; parallel birinchi completion bitta mukofot.
+Birinchi5kontent/review o‘zgarmagan. Boshqa fanlar, auth, frontend, umumiy Gradle,
+normal app va production o‘zgartirilmagan. Android va pedagogik mustaqil ekspertiza yo‘q.
+Manba transferidagi2kattaPDF va yetishmayotgan5manba cheklovi saqlangan.
+
+Keyingi: **26 «10 soni»,PDF57–58/bosma54–55**.
+1-sinf I qismning16mavzusi hali yozilmagan.
+Backend `246f41ef6f711707e3a83a18076a291ac570c124`; Flutter `c5d8e3a88770059b27eeb1d872db6e65a266fe51`. [Dalil](checkpoints/grade1_part1_batch5.json).
+
 ## 2026-11-03 — 20 darslik tekshirilgan checkpoint
 
 **1-sinf I qism: 20/41 mualliflik darsi**, 104 karta, 20 original

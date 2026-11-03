@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-03",
+  "branch": "feat/mathematics-curriculum",
+  "backend_code_commit": "246f41ef6f711707e3a83a18076a291ac570c124",
+  "flutter_code_commit": "c5d8e3a88770059b27eeb1d872db6e65a266fe51",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 25,
+    "cards": 134,
+    "examples": 25,
+    "worked_steps": 75,
+    "notation_entries": 24,
+    "questions": 160,
+    "phases": {
+      "guided": 80,
+      "mcq": 25,
+      "frq": 25,
+      "transfer": 30
+    },
+    "response_kinds": {
+      "choice": 68,
+      "short_text": 13,
+      "exact_number": 74,
+      "ordering": 5
+    }
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 25,
+    "reviewed_body_pages": 50,
+    "interactive_lessons": 25,
+    "theory_cards": 134,
+    "questions": 160,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "tests": {
+    "math": "57 passed, 1 skipped in 18.20s",
+    "postgres": "1 passed in 7.32s",
+    "flutter_math": "00:34 +43: All tests passed!",
+    "analyze": "No issues found! (ran in 1.8s)"
+  },
+  "log_sha256": {
+    "math": "4d64ea19e35671e561d2375c36b3c7c017518624fe9cc9eedc9524cb61054ae8",
+    "postgres": "588ff036e2acdea5f9a08f03bda3db4c2da11f4bb2f33ccbc8a567cb89e75b34",
+    "flutter_math": "c27094ebdd68e35651b727adb2c51e9f438f226a66af07ae1fb42cd9a3296b05",
+    "analyze": "07edf458490dd48fa3e872ad6b408839373f3e5210b742e1c412f0c46fa8be17"
+  },
+  "next": {
+    "grade": 1,
+    "part": 1,
+    "topic": 26,
+    "title": "10 soni",
+    "pdf_pages": [
+      57,
+      58
+    ],
+    "printed_pages": [
+      54,
+      55
+    ]
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "notes": "21–25: olti–to‘qqiz va nol. Ikki tomondan sanoqda o‘rindagi belgi bir marta hisoblanadi; kun/mashg‘ulot, jami/yonma-yon joy va turli yil boshlanishlari ajratildi. Nol — aniq javob; bo‘sh input422bilan rad etiladi. Katta guruhlar Wrap orqali kichik ekranga moslashadi. PDF55–56 takror hisoblanmaydi; keyingi26mavzu PDF57dan, bosma54dan boshlanadi.",
+  "android": "not_tested_SDK_absent",
+  "independent_teacher_review": false
+}
