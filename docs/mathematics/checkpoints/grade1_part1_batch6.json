@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-03",
+  "branch": "feat/mathematics-curriculum",
+  "backend_code_commit": "ad35c8e5d73011157d9c82b4a573d2f4fb34009c",
+  "flutter_code_commit": "1f15a4a4c7f882448310a51dab49b97fc2fe1ccf",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 30,
+    "cards": 164,
+    "examples": 30,
+    "worked_steps": 90,
+    "notation_entries": 28,
+    "questions": 200,
+    "phases": {
+      "guided": 100,
+      "mcq": 30,
+      "frq": 30,
+      "transfer": 40
+    },
+    "response_kinds": {
+      "choice": 82,
+      "short_text": 21,
+      "exact_number": 90,
+      "ordering": 7
+    }
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 30,
+    "reviewed_body_pages": 60,
+    "interactive_lessons": 30,
+    "theory_cards": 164,
+    "questions": 200,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "tests": {
+    "math": "60 passed, 1 skipped in 25.13s",
+    "postgres": "1 passed in 12.81s",
+    "flutter_math": "00:41 +52: All tests passed!",
+    "analyze": "No issues found! (ran in 1.6s)"
+  },
+  "log_sha256": {
+    "math": "9120d8ff0878acabf99eecb89abaf02204815b5404471d7269cda7aa23f9580c",
+    "postgres": "0d70f0e60395bdbd564cea5ac991f34779bc1338312f30dec182a000dde6b20e",
+    "flutter_math": "e110e3d485dd9bd04846f9483751d17f5531296e3e90165ce85df86e9087fe85",
+    "analyze": "f94fcd225cb63335cc0eb14a12d059f62268f1c2d1f0f8837b1420b9f88a8117"
+  },
+  "next": {
+    "grade": 1,
+    "part": 1,
+    "topic": 31,
+    "title": "To‘g‘ri chiziq kesmasi. Siniq chiziq",
+    "pdf_pages": [
+      67,
+      68
+    ],
+    "printed_pages": [
+      64,
+      65
+    ]
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "notes": "26–30: 10ning ikki raqamli yozuvi, o‘sish/kamayish, natural sonlar kelishuvi, juft/toq va nuqta/chiziqlar. 0ning natural emasligi shu darslik kelishuvi sifatida beriladi; juftlik bilan aralashtirilmaydi. 10elementli tartiblash serverda to‘liq permutatsiya bilan tekshiriladi. Noma’lum explorer client/serverda fail-closed rad etiladi. Original to‘g‘ri/egri chiziq modeli va nuqta semantikasi qo‘shildi.",
+  "android": "not_tested_SDK_absent",
+  "independent_teacher_review": false
+}

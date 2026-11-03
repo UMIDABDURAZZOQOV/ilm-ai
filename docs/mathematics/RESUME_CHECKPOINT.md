@@ -1,5 +1,41 @@
 # Matematika — davom checkpointi
 
+## 2026-11-03 — 30 darslik tekshirilgan checkpoint
+
+**1-sinf I qism: 30/41 mualliflik darsi**, 164 karta, 30 original
+misol/90 qadam, 200 topshiriq. Butun1–11kurs tugallanmagan;
+umumiy mavzular/qolganlar soni hali noma’lum. Nashr: faqat lokal test.
+
+26–30: 10ning ikki raqamli yozuvi, o‘sish/kamayish, natural sonlar kelishuvi, juft/toq va nuqta/chiziqlar. 0ning natural emasligi shu darslik kelishuvi sifatida beriladi; juftlik bilan aralashtirilmaydi. 10elementli tartiblash serverda to‘liq permutatsiya bilan tekshiriladi. Noma’lum explorer client/serverda fail-closed rad etiladi. Original to‘g‘ri/egri chiziq modeli va nuqta semantikasi qo‘shildi.
+
+Yangi partiya manbalari:
+
+| Mavzu | PDF | Bosma |
+|---|---|---|
+| 26 10 soni | 57–58 | 54–55 |
+| 27 1 dan 10 gacha bo‘lgan sonlar. Sonlarni taqqoslash | 59–60 | 56–57 |
+| 28 Natural sonlar | 61–62 | 58–59 |
+| 29 Juft va toq sonlar | 63–64 | 60–61 |
+| 30 Nuqta. To‘g‘ri va egri chiziq | 65–66 | 62–63 |
+
+Haqiqiy sinovlar:
+
+- math: `60 passed, 1 skipped in 25.13s`.
+- postgres: `1 passed in 12.81s`.
+- flutter_math: `00:41 +52: All tests passed!`.
+- analyze: `No issues found! (ran in 1.6s)`.
+
+Manba auditi:23PDF/2958sahifa va60tana sahifasi tasviri/hash.
+SQLite va o‘zimizning alohida loopbackPG16 sxemasi: barcha30dars, idempotent
+import, progress, replay0XP,137oldXP→437; parallel birinchi completion bitta mukofot.
+Birinchi5kontent/review o‘zgarmagan. Boshqa fanlar, auth, frontend, umumiy Gradle,
+normal app va production o‘zgartirilmagan. Android va pedagogik mustaqil ekspertiza yo‘q.
+Manba transferidagi2kattaPDF va yetishmayotgan5manba cheklovi saqlangan.
+
+Keyingi: **31 «To‘g‘ri chiziq kesmasi. Siniq chiziq»,PDF67–68/bosma64–65**.
+1-sinf I qismning11mavzusi hali yozilmagan.
+Backend `ad35c8e5d73011157d9c82b4a573d2f4fb34009c`; Flutter `1f15a4a4c7f882448310a51dab49b97fc2fe1ccf`. [Dalil](checkpoints/grade1_part1_batch6.json).
+
 ## 2026-11-03 — 25 darslik tekshirilgan checkpoint
 
 **1-sinf I qism: 25/41 mualliflik darsi**, 134 karta, 25 original
