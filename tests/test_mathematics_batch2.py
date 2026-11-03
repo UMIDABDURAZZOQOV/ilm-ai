@@ -60,7 +60,8 @@ def test_all_ten_in_order_then_reopen_replay_no_lost_legacy_xp(preview):
         result = (finish(client, n) if n <= 5 else finish_new(client, n))[-1]
         assert result["xp_awarded"] == 10
     assert all(
-        l["state"] == "completed" for l in client.get(P + "/catalog").json()["lessons"]
+        l["state"] == "completed"
+        for l in client.get(P + "/catalog").json()["lessons"][:10]
     )
     assert finish_new(client, 10)[-1]["xp_awarded"] == 0
     with factory() as db:

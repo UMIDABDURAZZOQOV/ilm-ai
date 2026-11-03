@@ -98,6 +98,7 @@ def load_course():
 BATCHES = [
     ("grade1_part1_batch1.json", "grade1_part1_review.json"),
     ("grade1_part1_batch2.json", "grade1_part1_batch2_review.json"),
+    ("grade1_part1_batch3.json", "grade1_part1_batch3_review.json"),
 ]
 
 
@@ -119,11 +120,25 @@ def validate_document(document, review):
             "math_lesson_contract",
         )
         require(
-            lesson["formulas"] == [], "early_properties_need_no_artificial_formulas"
+            lesson["sequence"] >= 11 or lesson["formulas"] == [],
+            "early_properties_need_no_artificial_formulas",
         )
+        from services.mathematics_grading import exact_number
+
+        for notation in lesson["formulas"]:
+            require(
+                notation["kind"] == "worked_identity"
+                and bool(notation["title"])
+                and bool(notation["meaning"])
+                and notation["expression"].count("=") == 1,
+                "unsupported_math_notation",
+            )
+            left, right = notation["expression"].split("=")
+            require(exact_number(left) == exact_number(right), "false_math_identity")
         units = [
             *lesson["cards"],
             *lesson["examples"],
+            *lesson["formulas"],
             lesson["explorer"],
             *lesson["questions"],
         ]
