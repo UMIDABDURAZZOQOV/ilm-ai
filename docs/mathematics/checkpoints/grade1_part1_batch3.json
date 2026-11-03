@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-03",
+  "branch": "feat/mathematics-curriculum",
+  "backend_code_commit": "5e7bcc45529e4074d6698294af65d34e05ec8724",
+  "flutter_code_commit": "9b1ed1529985b3f0a372238a1b0677ce1011105d",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 15,
+    "cards": 79,
+    "examples": 15,
+    "worked_steps": 45,
+    "notation_entries": 4,
+    "questions": 90,
+    "phases": {
+      "guided": 45,
+      "mcq": 15,
+      "frq": 15,
+      "transfer": 15
+    },
+    "response_kinds": {
+      "choice": 47,
+      "short_text": 13,
+      "exact_number": 26,
+      "ordering": 4
+    }
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 15,
+    "reviewed_body_pages": 30,
+    "interactive_lessons": 15,
+    "theory_cards": 79,
+    "questions": 90,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "tests": {
+    "math": "53 passed, 1 skipped in 7.97s",
+    "postgres": "1 passed in 4.69s",
+    "flutter_full": "01:42 +396: All tests passed!",
+    "analyze": "No issues found! (ran in 1.6s)"
+  },
+  "log_sha256": {
+    "math": "c376a210684af593d4c48e420a0fff82ae80b43e3c3eb906ce737c4afce2cc14",
+    "postgres": "b2620ca956ddceecb6750809e3f405acacb16a2ef7d987e47710a9ce6c912dbc",
+    "flutter_full": "ba709558ec916f9ce35476cdbbc850dcd866bbb940fa5a6d60516439f0bde5d9",
+    "analyze": "f94fcd225cb63335cc0eb14a12d059f62268f1c2d1f0f8837b1420b9f88a8117"
+  },
+  "next": {
+    "grade": 1,
+    "part": 1,
+    "topic": 16,
+    "title": "3 soni va raqami",
+    "pdf_pages": [
+      35,
+      36
+    ],
+    "printed_pages": [
+      34,
+      35
+    ]
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "notes": "11–15: qo‘shish/ayirish, >/< /= yo‘nalishi, 1 va2, buyum bilan bo‘lak sanog‘i. To‘rtta original tenglik yozuvi exact parser bilan importda tekshiriladi. Bu umumiy algebra CAS emas. Ayirishning oldin/keyin holatlari alohida; hali o‘rgatilmagan nol modelga kiritilmadi. Qo‘lda raqam yozish sifati avtomatik baholanmaydi.",
+  "android": "not_tested_SDK_absent",
+  "independent_teacher_review": false
+}

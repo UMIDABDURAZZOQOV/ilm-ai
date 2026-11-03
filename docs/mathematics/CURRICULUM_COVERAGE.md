@@ -1,5 +1,41 @@
 # Qamrov — boshlangan, to‘liq kurs emas
 
+## 2026-11-03 — 15 darslik tekshirilgan checkpoint
+
+**1-sinf I qism: 15/41 mualliflik darsi**, 79 karta, 15 original
+misol/45 qadam, 90 topshiriq. Butun1–11kurs tugallanmagan;
+umumiy mavzular/qolganlar soni hali noma’lum. Nashr: faqat lokal test.
+
+11–15: qo‘shish/ayirish, >/< /= yo‘nalishi, 1 va2, buyum bilan bo‘lak sanog‘i. To‘rtta original tenglik yozuvi exact parser bilan importda tekshiriladi. Bu umumiy algebra CAS emas. Ayirishning oldin/keyin holatlari alohida; hali o‘rgatilmagan nol modelga kiritilmadi. Qo‘lda raqam yozish sifati avtomatik baholanmaydi.
+
+Yangi partiya manbalari:
+
+| Mavzu | PDF | Bosma |
+|---|---|---|
+| 11 Qo‘shish | 25–26 | 24–25 |
+| 12 Ayirish | 27–28 | 26–27 |
+| 13 Sonlarni taqqoslash | 29–30 | 28–29 |
+| 14 1 soni va raqami | 31–32 | 30–31 |
+| 15 2 soni va raqami | 33–34 | 32–33 |
+
+Haqiqiy sinovlar:
+
+- math: `53 passed, 1 skipped in 7.97s`.
+- postgres: `1 passed in 4.69s`.
+- flutter_full: `01:42 +396: All tests passed!`.
+- analyze: `No issues found! (ran in 1.6s)`.
+
+Manba auditi:23PDF/2958sahifa va30tana sahifasi tasviri/hash.
+SQLite va o‘zimizning alohida loopbackPG16 sxemasi: barcha15dars, idempotent
+import, progress, replay0XP,137oldXP→287; parallel birinchi completion bitta mukofot.
+Birinchi5kontent/review o‘zgarmagan. Boshqa fanlar, auth, frontend, umumiy Gradle,
+normal app va production o‘zgartirilmagan. Android va pedagogik mustaqil ekspertiza yo‘q.
+Manba transferidagi2kattaPDF va yetishmayotgan5manba cheklovi saqlangan.
+
+Keyingi: **16 «3 soni va raqami»,PDF35–36/bosma34–35**.
+1-sinf I qismning26mavzusi hali yozilmagan.
+Backend `5e7bcc45529e4074d6698294af65d34e05ec8724`; Flutter `9b1ed1529985b3f0a372238a1b0677ce1011105d`. [Dalil](checkpoints/grade1_part1_batch3.json).
+
 | Sinf/manba | Haqiqatan yozilgan dars | To‘liq curriculum xaritasi | Manba cheklovi |
 |---|---:|---|---|
 | 1-sinf I qism | 10 | partial: dastlabki10 tana tasviri; mundarijada41 mavzu | qolgan31 mavzu uchun kontent kerak |
