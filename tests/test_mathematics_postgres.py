@@ -9,6 +9,7 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.engine import make_url
 from test_mathematics_batch2 import finish_new
 from test_mathematics_batch3 import finish_arithmetic
+from test_mathematics_batch4 import finish_parts
 from test_mathematics_preview import P, finish, make_preview
 from test_mathematics_preview import (
     test_parallel_first_completions_award_only_once as check_parallel,
@@ -19,7 +20,7 @@ from services.mathematics_curriculum import import_course, staging_url
 from services.models import User
 
 
-def test_math_postgres_immutable_import_all_fifteen_and_parallel_reward(monkeypatch):
+def test_math_postgres_immutable_import_all_twenty_and_parallel_reward(monkeypatch):
     filename = os.getenv("ILM_TEST_POSTGRES_URL_FILE")
     if not filename:
         pytest.skip("opt-in local PostgreSQL URL file not supplied")
@@ -44,13 +45,16 @@ def test_math_postgres_immutable_import_all_fifteen_and_parallel_reward(monkeypa
             for number in range(11, 16):
                 assert finish_arithmetic(client, number)[-1]["xp_awarded"] == 10
             assert finish_arithmetic(client, 15)[-1]["xp_awarded"] == 0
+            for number in range(16, 21):
+                assert finish_parts(client, number)[-1]["xp_awarded"] == 10
+            assert finish_parts(client, 20)[-1]["xp_awarded"] == 0
             assert all(
                 l["state"] == "completed"
                 for l in client.get(P + "/catalog").json()["lessons"]
             )
         with factory.begin() as db:
-            assert db.get(User, 1).xp_total == 287 and db.get(User, 2).xp_total == 0
-            assert import_course(db) == {"created": 0, "skipped": 15}
+            assert db.get(User, 1).xp_total == 337 and db.get(User, 2).xp_total == 0
+            assert import_course(db) == {"created": 0, "skipped": 20}
     finally:
         engine.dispose()
         with admin.begin() as connection:

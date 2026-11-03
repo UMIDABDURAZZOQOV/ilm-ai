@@ -99,6 +99,7 @@ BATCHES = [
     ("grade1_part1_batch1.json", "grade1_part1_review.json"),
     ("grade1_part1_batch2.json", "grade1_part1_batch2_review.json"),
     ("grade1_part1_batch3.json", "grade1_part1_batch3_review.json"),
+    ("grade1_part1_batch4.json", "grade1_part1_batch4_review.json"),
 ]
 
 
