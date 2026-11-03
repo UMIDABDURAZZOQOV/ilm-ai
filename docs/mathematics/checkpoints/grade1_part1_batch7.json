@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-03",
+  "branch": "feat/mathematics-curriculum",
+  "backend_code_commit": "3aada2e0de32efe3fff9e71352a229068a626bf5",
+  "flutter_code_commit": "aa9df2e8f9bdcba6a90f52ff91ff3d1820d4e4dc",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 35,
+    "cards": 194,
+    "examples": 35,
+    "worked_steps": 105,
+    "notation_entries": 34,
+    "questions": 240,
+    "phases": {
+      "guided": 120,
+      "mcq": 35,
+      "frq": 35,
+      "transfer": 50
+    },
+    "response_kinds": {
+      "choice": 95,
+      "short_text": 24,
+      "exact_number": 114,
+      "ordering": 7
+    }
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 35,
+    "reviewed_body_pages": 70,
+    "interactive_lessons": 35,
+    "theory_cards": 194,
+    "questions": 240,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "tests": {
+    "math": "61 passed, 1 skipped in 45.77s",
+    "postgres": "1 passed in 26.13s",
+    "flutter_math": "01:10 +60: All tests passed!",
+    "analyze": "No issues found! (ran in 1.3s)"
+  },
+  "log_sha256": {
+    "math": "b72eb1675ef1babe9f34a3b7ede36f102d92824298770acd047fc0138a4b60c4",
+    "postgres": "1af2cbea4225291eb28698b22fa8e8da2fc807051a9fce8981e5dc9aecd7420c",
+    "flutter_math": "334cfe5e3b56b603357974ae36eb0bc9b434080690247f5f3aabf50eab0f59cd",
+    "analyze": "0eb0ef826370d2863e9f11b5eb544a9b1b04e9a9a91a11a83752a081915d7360"
+  },
+  "next": {
+    "grade": 1,
+    "part": 1,
+    "topic": 36,
+    "title": "Noma’lum ayriluvchini topish",
+    "pdf_pages": [
+      77,
+      78
+    ],
+    "printed_pages": [
+      74,
+      75
+    ]
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "notes": "31–35: kesma oxirlari/bo‘g‘inlar/nuqtalar, qo‘shish/ayirish hadlari, noma’lum qo‘shiluvchi va kamayuvchi. Original siniq chiziq modeli va ma’lum had o‘zgarganda yechimni qayta ochish modeli bor. FRQ sonli yoki aniq atama bilan serverda baholanadi; umumiy symbolicCAS deb ko‘rsatilmaydi. AB va BA ayni kesma; nuqta sanog‘i bilan bo‘g‘in sanog‘i ajratiladi.",
+  "android": "not_tested_SDK_absent",
+  "independent_teacher_review": false
+}

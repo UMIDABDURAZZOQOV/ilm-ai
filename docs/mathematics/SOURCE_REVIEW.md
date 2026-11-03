@@ -1,5 +1,41 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-03 — 35 darslik tekshirilgan checkpoint
+
+**1-sinf I qism: 35/41 mualliflik darsi**, 194 karta, 35 original
+misol/105 qadam, 240 topshiriq. Butun1–11kurs tugallanmagan;
+umumiy mavzular/qolganlar soni hali noma’lum. Nashr: faqat lokal test.
+
+31–35: kesma oxirlari/bo‘g‘inlar/nuqtalar, qo‘shish/ayirish hadlari, noma’lum qo‘shiluvchi va kamayuvchi. Original siniq chiziq modeli va ma’lum had o‘zgarganda yechimni qayta ochish modeli bor. FRQ sonli yoki aniq atama bilan serverda baholanadi; umumiy symbolicCAS deb ko‘rsatilmaydi. AB va BA ayni kesma; nuqta sanog‘i bilan bo‘g‘in sanog‘i ajratiladi.
+
+Yangi partiya manbalari:
+
+| Mavzu | PDF | Bosma |
+|---|---|---|
+| 31 To‘g‘ri chiziq kesmasi. Siniq chiziq | 67–68 | 64–65 |
+| 32 Qo‘shish hadlari | 69–70 | 66–67 |
+| 33 Ayirish hadlari | 71–72 | 68–69 |
+| 34 Noma’lum qo‘shiluvchini topish | 73–74 | 70–71 |
+| 35 Noma’lum kamayuvchini topish | 75–76 | 72–73 |
+
+Haqiqiy sinovlar:
+
+- math: `61 passed, 1 skipped in 45.77s`.
+- postgres: `1 passed in 26.13s`.
+- flutter_math: `01:10 +60: All tests passed!`.
+- analyze: `No issues found! (ran in 1.3s)`.
+
+Manba auditi:23PDF/2958sahifa va70tana sahifasi tasviri/hash.
+SQLite va o‘zimizning alohida loopbackPG16 sxemasi: barcha35dars, idempotent
+import, progress, replay0XP,137oldXP→487; parallel birinchi completion bitta mukofot.
+Birinchi5kontent/review o‘zgarmagan. Boshqa fanlar, auth, frontend, umumiy Gradle,
+normal app va production o‘zgartirilmagan. Android va pedagogik mustaqil ekspertiza yo‘q.
+Manba transferidagi2kattaPDF va yetishmayotgan5manba cheklovi saqlangan.
+
+Keyingi: **36 «Noma’lum ayriluvchini topish»,PDF77–78/bosma74–75**.
+1-sinf I qismning6mavzusi hali yozilmagan.
+Backend `3aada2e0de32efe3fff9e71352a229068a626bf5`; Flutter `aa9df2e8f9bdcba6a90f52ff91ff3d1820d4e4dc`. [Dalil](checkpoints/grade1_part1_batch7.json).
+
 ## 2026-11-03 — 30 darslik tekshirilgan checkpoint
 
 **1-sinf I qism: 30/41 mualliflik darsi**, 164 karta, 30 original
