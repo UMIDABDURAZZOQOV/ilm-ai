@@ -77,7 +77,7 @@ def test_twenty_lessons_preserve_old_progress_and_xp(preview):
     complete_until(client, 20)
     assert all(
         r["state"] == "completed"
-        for r in client.get(first.P + "/catalog").json()["lessons"]
+        for r in client.get(first.P + "/catalog").json()["lessons"][:20]
     )
     assert finish_parts(client, 20)[-1]["xp_awarded"] == 0
     with factory() as db:
