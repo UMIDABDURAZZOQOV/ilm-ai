@@ -12,6 +12,36 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
+EXPLORERS = {
+    "shape_properties",
+    "compare_lengths",
+    "positions",
+    "count_once",
+    "flat_solid",
+    "timeline",
+    "group_members",
+    "pair_groups",
+    "number_line",
+    "addition",
+    "subtraction",
+    "comparison",
+    "one_two",
+    "compose_three",
+    "compose_four",
+    "compose_five",
+    "compose_six",
+    "compose_seven",
+    "compose_eight",
+    "compose_nine",
+    "compose_ten",
+    "part_whole_five",
+    "steps_five",
+    "zero",
+    "ordering_numbers",
+    "natural_numbers",
+    "parity",
+    "point_line",
+}
 
 
 def digest(value):
@@ -101,6 +131,7 @@ BATCHES = [
     ("grade1_part1_batch3.json", "grade1_part1_batch3_review.json"),
     ("grade1_part1_batch4.json", "grade1_part1_batch4_review.json"),
     ("grade1_part1_batch5.json", "grade1_part1_batch5_review.json"),
+    ("grade1_part1_batch6.json", "grade1_part1_batch6_review.json"),
 ]
 
 
@@ -113,6 +144,7 @@ def validate_document(document, review):
         require(lesson["key"] not in seen, "duplicate_math_lesson")
         seen.add(lesson["key"])
         topic = topics[lesson["topic_id"]]
+        require(lesson["explorer"]["type"] in EXPLORERS, "unsupported_math_explorer")
         require(
             topic["verification"] == "body_images_reviewed", "math_topic_unreviewed"
         )

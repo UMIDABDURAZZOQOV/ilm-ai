@@ -67,7 +67,7 @@ def test_twenty_five_lesson_progress_and_zero_answers_survive_reopen(preview):
     assert finish_to_zero(client, 25)[-1]["xp_awarded"] == 0
     assert all(
         r["state"] == "completed"
-        for r in client.get(first.P + "/catalog").json()["lessons"]
+        for r in client.get(first.P + "/catalog").json()["lessons"][:25]
     )
     with factory() as db:
         assert db.get(User, 1).xp_total == 387 and db.get(User, 2).xp_total == 0
