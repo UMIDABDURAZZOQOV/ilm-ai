@@ -100,6 +100,18 @@ def grade_answer(spec, answer):
     """Return code only. Keys and feedback remain in the immutable server snapshot."""
     if type(answer) is not dict:
         raise MathInputError("invalid_answer")
+    if spec["kind"] == "ordering":
+        order = answer.get("order")
+        if (
+            set(answer) != {"order"}
+            or type(order) is not list
+            or any(type(v) is not str for v in order)
+            or len(order) != len(spec["expected"])
+            or len(set(order)) != len(order)
+            or set(order) != set(spec["expected"])
+        ):
+            raise MathInputError("invalid_answer")
+        return "correct" if order == spec["expected"] else "incorrect"
     if spec["kind"] == "choice":
         if set(answer) != {"choice_id"} or type(answer["choice_id"]) is not str:
             raise MathInputError("invalid_answer")

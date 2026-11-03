@@ -35,7 +35,7 @@ def validate_scene(scene):
     require(scene["type"] in {"shape_board", "bars"}, "unsupported_math_visual")
     items = scene["items"]
     require(
-        1 <= len(items) <= 9 and len({i["id"] for i in items}) == len(items),
+        1 <= len(items) <= 10 and len({i["id"] for i in items}) == len(items),
         "invalid_math_objects",
     )
     for item in items:
@@ -85,8 +85,23 @@ def model_answer(public, rule):
 
 
 def load_course():
-    document = json.loads((ROOT / "grade1_part1_batch1.json").read_text())
-    review = json.loads((ROOT / "grade1_part1_review.json").read_text())
+    lessons = []
+    for batch, review_file in BATCHES:
+        document = json.loads((ROOT / batch).read_text())
+        review = json.loads((ROOT / review_file).read_text())
+        lessons.extend(validate_document(document, review))
+    keys = [l["key"] for l in lessons]
+    require(len(keys) == len(set(keys)), "duplicate_math_lesson_across_batches")
+    return sorted(lessons, key=lambda l: (l["grade"], l["part"], l["sequence"]))
+
+
+BATCHES = [
+    ("grade1_part1_batch1.json", "grade1_part1_review.json"),
+    ("grade1_part1_batch2.json", "grade1_part1_batch2_review.json"),
+]
+
+
+def validate_document(document, review):
     source = next(b for b in manifest()["books"] if b["book_id"] == review["book_id"])
     require(review["book_sha256"] == source["sha256"], "math_source_sha_mismatch")
     topics = {t["topic_id"]: t for t in review["topics"]}
@@ -158,6 +173,15 @@ def load_course():
                 )
                 require(
                     spec["expected"] in spec["choice_ids"], "math_answer_not_in_choices"
+                )
+            elif spec["kind"] == "ordering":
+                ids = [item["id"] for item in public["items"]]
+                require(
+                    2 <= len(ids) <= 10
+                    and len(ids) == len(set(ids))
+                    and len(spec["expected"]) == len(ids)
+                    and set(spec["expected"]) == set(ids),
+                    "math_invalid_ordering",
                 )
     return document["lessons"]
 

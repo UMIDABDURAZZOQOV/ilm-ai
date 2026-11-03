@@ -38,6 +38,13 @@ def audit(source_directory):
                     "math_page_text_changed",
                 )
     review = json.loads((ROOT / "grade1_part1_review.json").read_text())
+    from services.mathematics_curriculum import BATCHES
+
+    review["topics"] = [
+        topic
+        for _, filename in BATCHES
+        for topic in json.loads((ROOT / filename).read_text())["topics"]
+    ]
     with fitz.open(paths[review["book_id"]]) as pdf:
         for topic in review["topics"]:
             for page in topic["pages"]:

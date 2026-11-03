@@ -36,6 +36,9 @@ class Answer(BaseModel):
     model_config = ConfigDict(extra="forbid")
     choice_id: Annotated[StrictStr, Field(min_length=1, max_length=80)] | None = None
     value: Annotated[StrictStr, Field(min_length=1, max_length=160)] | None = None
+    order: list[Annotated[StrictStr, Field(min_length=1, max_length=80)]] | None = (
+        Field(default=None, max_length=10)
+    )
 
 
 class Submission(Start):

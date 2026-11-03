@@ -63,7 +63,7 @@ def make_preview(engine, monkeypatch):
             ]
         )
         db.flush()
-        assert import_course(db) == {"created": 5, "skipped": 0}
+        assert import_course(db) == {"created": len(load_course()), "skipped": 0}
     app = FastAPI()
     app.include_router(router)
 
@@ -144,7 +144,9 @@ def test_five_lessons_literal_keys_preserve_balance_streak_reopen_and_replay(
     now = utcnow()
     monkeypatch.setattr(runtime, "utcnow", lambda: now)
     cat = client.get(P + "/catalog").json()
-    assert [l["state"] for l in cat["lessons"]] == ["available"] + ["locked"] * 4
+    assert [l["state"] for l in cat["lessons"]] == ["available"] + ["locked"] * (
+        len(load_course()) - 1
+    )
     assert not cat["course_ready"] and cat["full_topic_count"] is None
     assert (
         client.post(
@@ -179,7 +181,7 @@ def test_five_lessons_literal_keys_preserve_balance_streak_reopen_and_replay(
     with TestClient(client.app, headers=dict(client.headers)) as reopened:
         assert all(
             l["state"] == "completed"
-            for l in reopened.get(P + "/catalog").json()["lessons"]
+            for l in reopened.get(P + "/catalog").json()["lessons"][:5]
         )
         assert finish(reopened, 5)[-1]["xp_awarded"] == 0
     with factory() as db:
@@ -299,12 +301,12 @@ def test_auth_forgery_order_expiry_and_disabled_preview(preview, monkeypatch):
 def test_immutable_import_and_model_mismatch(preview):
     _, factory = preview
     with factory.begin() as db:
-        assert import_course(db) == {"created": 0, "skipped": 5}
+        assert import_course(db) == {"created": 0, "skipped": len(load_course())}
         db.get(MathLesson, "math-1-1-1-r1").sha256 = "0" * 64
     with factory.begin() as db, pytest.raises(ValueError, match="revision_change"):
         import_course(db)
     course = load_course()
-    assert len(course) == 5 and sum(len(l["questions"]) for l in course) == 30
+    assert len(course) == 10 and sum(len(l["questions"]) for l in course) == 60
     q = deepcopy(course[3]["questions"][-1])
     assert model_answer(q["public"], q["grading"]["model_rule"]) == "4"
     q["public"]["visual"]["items"].pop()
