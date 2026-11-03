@@ -24,8 +24,8 @@
         "isbn": "978-9943-7207-7-0",
         "verification": "pdf3_image_reviewed"
       },
-      "topic_count": null,
-      "curriculum_map_status": "first_35_topics_body_image_reviewed_remaining_pending",
+      "topic_count": 41,
+      "curriculum_map_status": "all_41_topics_body_image_reviewed_original_lessons_test_only",
       "segment": {
         "original_pdf_pages": [
           1,
@@ -54,18 +54,41 @@
         "publisher": "Novda Edutainment",
         "year": 2023,
         "isbn": "978-9943-9702-5-0",
-        "verification": "extracted_not_yet_visually_confirmed",
-        "isbn13_checksum_valid": true
+        "verification": "pdf3_image_reviewed"
       },
       "topic_count": null,
-      "curriculum_map_status": "pending_full_body_review",
+      "curriculum_map_status": "toc_33_native_locators_32_source_gap_74_no_lessons",
       "segment": {
         "original_pdf_pages": [
           1,
           72
         ],
         "kind": "complete_supplied_file"
-      }
+      },
+      "topic_count_from_toc": 33,
+      "original_book_completeness": "incomplete_supplied_scan",
+      "source_gaps": [
+        {
+          "topic_source_number": 74,
+          "title": "Misol va masalalar yechish",
+          "missing_printed_pages": [
+            68,
+            69
+          ],
+          "verification": "adjacent_page_images_reviewed",
+          "evidence": [
+            {
+              "pdf_page": 68,
+              "printed_page": 67
+            },
+            {
+              "pdf_page": 69,
+              "printed_page": 70
+            }
+          ],
+          "note": "No PDF page assigned to missing topic. TOC is not lesson content; do not synthesize §74 from its title."
+        }
+      ]
     },
     {
       "book_id": "math-uz-g1-p3",

@@ -13,6 +13,12 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "missing_subtrahend",
+    "inverse_family",
+    "commutative",
+    "addition_table",
+    "compare_same_addend",
+    "expression_steps",
     "segments",
     "missing_addend",
     "missing_minuend",
@@ -136,6 +142,7 @@ BATCHES = [
     ("grade1_part1_batch5.json", "grade1_part1_batch5_review.json"),
     ("grade1_part1_batch6.json", "grade1_part1_batch6_review.json"),
     ("grade1_part1_batch7.json", "grade1_part1_batch7_review.json"),
+    ("grade1_part1_batch8.json", "grade1_part1_batch8_review.json"),
 ]
 
 
@@ -143,6 +150,7 @@ def validate_document(document, review):
     source = next(b for b in manifest()["books"] if b["book_id"] == review["book_id"])
     require(review["book_sha256"] == source["sha256"], "math_source_sha_mismatch")
     topics = {t["topic_id"]: t for t in review["topics"]}
+    require(len(topics) == len(review["topics"]), "duplicate_math_review_topic")
     seen = set()
     for lesson in document["lessons"]:
         require(lesson["key"] not in seen, "duplicate_math_lesson")
@@ -153,6 +161,28 @@ def validate_document(document, review):
             topic["verification"] == "body_images_reviewed", "math_topic_unreviewed"
         )
         refs = {r["fact_id"]: r for r in topic["facts"]}
+        require(
+            bool(refs) and len(refs) == len(topic["facts"]),
+            "duplicate_or_missing_math_fact",
+        )
+        require(
+            lesson["grade"] == source["grade"]
+            and lesson["part"] == source["part"]
+            and [p["pdf_page"] for p in topic["pages"]] == topic["pdf_pages"]
+            and [p["printed_page"] for p in topic["pages"]] == topic["printed_pages"]
+            and all(1 <= p <= source["pdf_pages"] for p in topic["pdf_pages"]),
+            "math_review_page_mapping_mismatch",
+        )
+        for ref in refs.values():
+            require(
+                ref["book_id"] == review["book_id"]
+                and ref["grade"] == lesson["grade"]
+                and ref["part"] == lesson["part"]
+                and ref["topic_id"] == lesson["topic_id"]
+                and ref["pdf_pages"] == topic["pdf_pages"]
+                and ref["printed_pages"] == topic["printed_pages"],
+                "math_fact_pages_outside_review",
+            )
         require(
             lesson["source_refs"] == topic["facts"] and lesson["xp_reward"] == 10,
             "math_lesson_contract",

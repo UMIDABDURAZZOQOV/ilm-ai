@@ -13,6 +13,7 @@ from test_mathematics_batch4 import finish_parts
 from test_mathematics_batch5 import finish_to_zero
 from test_mathematics_batch6 import finish_properties
 from test_mathematics_batch7 import finish_unknowns
+from test_mathematics_batch8 import finish_first_book
 from test_mathematics_preview import P, finish, make_preview
 from test_mathematics_preview import (
     test_parallel_first_completions_award_only_once as check_parallel,
@@ -23,7 +24,7 @@ from services.mathematics_curriculum import import_course, staging_url
 from services.models import User
 
 
-def test_math_postgres_immutable_import_all_thirty_five_and_parallel_reward(monkeypatch):
+def test_math_postgres_immutable_import_first_book_and_parallel_reward(monkeypatch):
     filename = os.getenv("ILM_TEST_POSTGRES_URL_FILE")
     if not filename:
         pytest.skip("opt-in local PostgreSQL URL file not supplied")
@@ -60,13 +61,16 @@ def test_math_postgres_immutable_import_all_thirty_five_and_parallel_reward(monk
             for number in range(31, 36):
                 assert finish_unknowns(client, number)[-1]["xp_awarded"] == 10
             assert finish_unknowns(client, 35)[-1]["xp_awarded"] == 0
+            for number in range(36, 42):
+                assert finish_first_book(client, number)[-1]["xp_awarded"] == 10
+            assert finish_first_book(client, 41)[-1]["xp_awarded"] == 0
             assert all(
                 l["state"] == "completed"
                 for l in client.get(P + "/catalog").json()["lessons"]
             )
         with factory.begin() as db:
-            assert db.get(User, 1).xp_total == 487 and db.get(User, 2).xp_total == 0
-            assert import_course(db) == {"created": 0, "skipped": 35}
+            assert db.get(User, 1).xp_total == 547 and db.get(User, 2).xp_total == 0
+            assert import_course(db) == {"created": 0, "skipped": 41}
     finally:
         engine.dispose()
         with admin.begin() as connection:

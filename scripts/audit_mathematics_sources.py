@@ -79,6 +79,31 @@ def audit(source_directory):
                 "math_mapping_image_changed",
             )
     lessons = load_course()
+    reviewed_book_pages = {
+        page["pdf_page"] for topic in review["topics"] for page in topic["pages"]
+    } | {page["pdf_page"] for page in mapping["additional_image_checks"]}
+    pending = json.loads((ROOT / "grade1_part2_map.json").read_text())
+    with fitz.open(paths[pending["book_id"]]) as pdf:
+        for saved in pending["additional_image_checks"]:
+            page = pdf[saved["pdf_page"] - 1]
+            require(
+                hashlib.sha256(page.get_text().encode()).hexdigest()
+                == saved["native_sha256"],
+                "math_part2_review_text_changed",
+            )
+            require(
+                hashlib.sha256(
+                    page.get_pixmap(matrix=fitz.Matrix(1.3, 1.3)).tobytes("png")
+                ).hexdigest()
+                == saved["png_sha256"],
+                "math_part2_review_image_changed",
+            )
+        require(
+            pending["topics"][-1]["source_number"] == 74
+            and pending["topics"][-1]["body_pdf_locator"] is None
+            and pending["source_gaps"][0]["missing_printed_pages"] == [68, 69],
+            "math_missing_part2_pages_invented",
+        )
     return {
         "available_pdfs": len(paths),
         "available_pages": sum(b["pdf_pages"] for b in catalog["books"]),
@@ -87,6 +112,9 @@ def audit(source_directory):
         "interactive_lessons": len(lessons),
         "theory_cards": sum(len(l["cards"]) for l in lessons),
         "questions": sum(len(l["questions"]) for l in lessons),
+        "grade1_part1_all_source_images_reviewed": len(reviewed_book_pages),
+        "grade1_part2_pending_toc_units": len(pending["topics"]),
+        "grade1_part2_missing_printed_pages": [68, 69],
         "blocked_sources": catalog["blocked_sources"],
         "full_curriculum_topic_count": None,
         "course_ready": False,

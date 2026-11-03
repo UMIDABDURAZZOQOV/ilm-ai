@@ -27,12 +27,23 @@ def test_missing_sources_are_not_counted_as_complete_and_duplicates_are_one_topi
         blocked[f"math-uz-g{g}-geometry"] == "source_missing" for g in range(7, 11)
     )
     mapping = json.loads((ROOT / "grade1_part1_map.json").read_text())
-    assert len(mapping["topics"]) == 41 and not mapping["full_map_verified"]
+    assert len(mapping["topics"]) == 41 and mapping["full_map_verified"]
+    assert all(t["interactive_lesson_created"] for t in mapping["topics"])
     repeated = mapping["topics"][24]
     assert repeated["canonical_pdf_pages"] == [53, 54]
     assert repeated["duplicate_pdf_pages"] == [55, 56]
     assert mapping["topics"][25]["body_pdf_pages_observed"] == [57, 58]
-    assert len(load_course()) == 35  # TOC locators never become synthetic lessons.
+    assert len(load_course()) == 41  # TOC locators never become synthetic lessons.
+
+
+def test_part2_missing_lesson_is_not_fabricated_from_the_toc():
+    mapping = json.loads((ROOT / "grade1_part2_map.json").read_text())
+    assert [t["source_number"] for t in mapping["topics"]] == list(range(42, 75))
+    assert mapping["native_body_heading_locators"] == 32
+    assert mapping["source_gaps"][0]["missing_printed_pages"] == [68, 69]
+    assert mapping["topics"][-1]["body_pdf_locator"] is None
+    assert mapping["topics"][-1]["verification"] == "source_pages_missing"
+    assert not any(t["interactive_lesson_created"] for t in mapping["topics"])
 
 
 def test_missing_pdf_fails_audit_before_any_completeness_claim(tmp_path):

@@ -2,8 +2,8 @@
   "book_id": "math-uz-g1-p1",
   "book_sha256": "6302c51539e707637b170058a8c9f13329f372a08510742215cb573d015aaf90",
   "mapped_toc_units": 41,
-  "body_image_reviewed_lessons": 35,
-  "full_map_verified": false,
+  "body_image_reviewed_lessons": 41,
+  "full_map_verified": true,
   "topics": [
     {
       "topic_id": "math-g1-p1-t1",
@@ -655,8 +655,8 @@
         78
       ],
       "duplicate_pdf_pages": [],
-      "verification": "toc_image_and_native_heading_matched_body_review_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g1-p1-t37",
@@ -673,8 +673,8 @@
         80
       ],
       "duplicate_pdf_pages": [],
-      "verification": "toc_image_and_native_heading_matched_body_review_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g1-p1-t38",
@@ -691,8 +691,8 @@
         82
       ],
       "duplicate_pdf_pages": [],
-      "verification": "toc_image_and_native_heading_matched_body_review_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g1-p1-t39",
@@ -709,8 +709,8 @@
         84
       ],
       "duplicate_pdf_pages": [],
-      "verification": "toc_image_and_native_heading_matched_body_review_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g1-p1-t40",
@@ -727,8 +727,8 @@
         86
       ],
       "duplicate_pdf_pages": [],
-      "verification": "toc_image_and_native_heading_matched_body_review_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g1-p1-t41",
@@ -745,8 +745,8 @@
         88
       ],
       "duplicate_pdf_pages": [],
-      "verification": "toc_image_and_native_heading_matched_body_review_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     }
   ],
   "additional_image_checks": [
@@ -779,6 +779,54 @@
       "pdf_page": 90,
       "native_sha256": "73a6545943c873e201e235c03d13742864e7afbe94cdbda122cca6a36940aa7d",
       "png_sha256": "33a5e013f3d22a4d74e1a31db9a11cf533563360dddadff129dbe2246d603df1"
+    },
+    {
+      "pdf_page": 1,
+      "purpose": "front_matter_colophon_and_cutout_review_not_extra_lessons",
+      "native_sha256": "f58100df505267e340320580cf27220f59b8db014d7c2a4f7985854a0cbb1472",
+      "png_sha256": "0dfe9e7b8412cb058507fc2dfff35965857078df227eefa98a8066e803e6e99e"
+    },
+    {
+      "pdf_page": 2,
+      "purpose": "front_matter_colophon_and_cutout_review_not_extra_lessons",
+      "native_sha256": "250c940fa7d2ed3ab40f23172d0c572bb04f70ebe55b36fabdbd346e59041484",
+      "png_sha256": "ae186396ac2aec55e30f2effcc84dd90cd0f1d73d66d3bcf72215a9a3c1631fa"
+    },
+    {
+      "pdf_page": 3,
+      "purpose": "front_matter_colophon_and_cutout_review_not_extra_lessons",
+      "native_sha256": "5ec20dbe372c598ed57be1edaf9fc2bdb7992ed371dcb8cb1970fd5817c15165",
+      "png_sha256": "66a417bc3a2b057c337c3b39415df3c467254a61c489977ab528de18f7c26fa7"
+    },
+    {
+      "pdf_page": 4,
+      "purpose": "front_matter_colophon_and_cutout_review_not_extra_lessons",
+      "native_sha256": "2e3f2ca2f54ce61ab4b4749d9cf309843b77f0cb356a5b0dcb1e314e802517fa",
+      "png_sha256": "61db39233f1bc51e49c14e578d66d843f84e488354cd4af99743f1885448d01b"
+    },
+    {
+      "pdf_page": 91,
+      "purpose": "front_matter_colophon_and_cutout_review_not_extra_lessons",
+      "native_sha256": "3df93a863691a975e5fb71fadea6adb48f86aa1a6863651ab14780c5cdd9357f",
+      "png_sha256": "6acbc179ece52bf09f035503ab8b972dd1ba854b353c38040a5dcb6abd87c5c5"
+    },
+    {
+      "pdf_page": 92,
+      "purpose": "front_matter_colophon_and_cutout_review_not_extra_lessons",
+      "native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "png_sha256": "d9f474f57b78a53dd59c16ac76b625fc83f1ea5341d8d93634e5e17ce50c054d"
+    },
+    {
+      "pdf_page": 93,
+      "purpose": "front_matter_colophon_and_cutout_review_not_extra_lessons",
+      "native_sha256": "eb3a9e33e1253e9c4c1a0e16636f786c030cdbe9d64449bb8dff9d0918ba2b83",
+      "png_sha256": "191c8f20e17acbf628cdb70a6fbbaf25054c310ebd4d5cbe19e9f010ad1ebd37"
+    },
+    {
+      "pdf_page": 94,
+      "purpose": "front_matter_colophon_and_cutout_review_not_extra_lessons",
+      "native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "png_sha256": "461484bad12817fdd91ee312a700de89f21a09462b4341313824088fe1afbd06"
     }
   ],
   "duplicate_note": "PDF55–56 repeat the printed52–53 content in PDF53–54, with different scan pixels/native OCR and the same handwritten answers. They are not extra topics. Handwriting is not an answer key. No uniform page offset may be applied across this PDF."

@@ -70,5 +70,5 @@ def test_all_thirty_five_additive_lesson_results_and_replay(preview):
         assert db.query(MathProgress).count() == 35
     assert all(
         r["state"] == "completed"
-        for r in client.get(first.P + "/catalog").json()["lessons"]
+        for r in client.get(first.P + "/catalog").json()["lessons"][:35]
     )

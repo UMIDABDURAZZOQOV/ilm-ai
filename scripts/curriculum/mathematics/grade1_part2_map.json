@@ -1,0 +1,601 @@
+{
+  "book_id": "math-uz-g1-p2",
+  "book_sha256": "b45a8a2927f087b976a4c7a0213a8c3ec3f968b736b2a9c057308a8892757c05",
+  "mapped_toc_units": 33,
+  "native_body_heading_locators": 32,
+  "authored_lessons": 0,
+  "full_map_verified": false,
+  "source_gaps": [
+    {
+      "topic_source_number": 74,
+      "title": "Misol va masalalar yechish",
+      "missing_printed_pages": [
+        68,
+        69
+      ],
+      "verification": "adjacent_page_images_reviewed",
+      "evidence": [
+        {
+          "pdf_page": 68,
+          "printed_page": 67
+        },
+        {
+          "pdf_page": 69,
+          "printed_page": 70
+        }
+      ],
+      "note": "No PDF page assigned to missing topic. TOC is not lesson content; do not synthesize §74 from its title."
+    }
+  ],
+  "topics": [
+    {
+      "topic_id": "math-g1-p2-t42",
+      "source_number": 42,
+      "title": "11 dan 20 gacha bo‘lgan sonlar",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        4,
+        5
+      ],
+      "body_pdf_locator": [
+        5,
+        6
+      ],
+      "verification": "body_images_reviewed_not_authored",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t43",
+      "source_number": 43,
+      "title": "11 dan 20 gacha bo‘lgan sonlarning o‘nlikda yozilishi",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        6,
+        7
+      ],
+      "body_pdf_locator": [
+        7,
+        8
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t44",
+      "source_number": 44,
+      "title": "11 va 12 sonlari",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        8,
+        9
+      ],
+      "body_pdf_locator": [
+        9,
+        10
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t45",
+      "source_number": 45,
+      "title": "13 va 14 sonlari",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        10,
+        11
+      ],
+      "body_pdf_locator": [
+        11,
+        12
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t46",
+      "source_number": 46,
+      "title": "15 va 16 sonlari",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        12,
+        13
+      ],
+      "body_pdf_locator": [
+        13,
+        14
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t47",
+      "source_number": 47,
+      "title": "17 va 18 sonlari",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        14,
+        15
+      ],
+      "body_pdf_locator": [
+        15,
+        16
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t48",
+      "source_number": 48,
+      "title": "19 va 20 sonlari",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        16,
+        17
+      ],
+      "body_pdf_locator": [
+        17,
+        18
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t49",
+      "source_number": 49,
+      "title": "Sonlarni taqqoslash",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        18,
+        19
+      ],
+      "body_pdf_locator": [
+        19,
+        20
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t50",
+      "source_number": 50,
+      "title": "Qavslar",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        20,
+        21
+      ],
+      "body_pdf_locator": [
+        21,
+        22
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t51",
+      "source_number": 51,
+      "title": "Qavslar",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        22,
+        23
+      ],
+      "body_pdf_locator": [
+        23,
+        24
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t52",
+      "source_number": 52,
+      "title": "Bir xonali sonlarni o‘nlikdan o‘tib qo‘shish",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        24,
+        25
+      ],
+      "body_pdf_locator": [
+        25,
+        26
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t53",
+      "source_number": 53,
+      "title": "Bir xonali sonlarni o‘nlikdan o‘tib qo‘shish",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        26,
+        27
+      ],
+      "body_pdf_locator": [
+        27,
+        28
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t54",
+      "source_number": 54,
+      "title": "Bir xonali sonlarni o‘nlikdan o‘tib qo‘shish",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        28,
+        29
+      ],
+      "body_pdf_locator": [
+        29,
+        30
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t55",
+      "source_number": 55,
+      "title": "Sonlarni ayirish",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        30,
+        31
+      ],
+      "body_pdf_locator": [
+        31,
+        32
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t56",
+      "source_number": 56,
+      "title": "Sonlarni bo‘laklab ayirish",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        32,
+        33
+      ],
+      "body_pdf_locator": [
+        33,
+        34
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t57",
+      "source_number": 57,
+      "title": "O‘nlikdan ayirish usuli",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        34,
+        35
+      ],
+      "body_pdf_locator": [
+        35,
+        36
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t58",
+      "source_number": 58,
+      "title": "Yaxlit sonlar",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        36,
+        37
+      ],
+      "body_pdf_locator": [
+        37,
+        38
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t59",
+      "source_number": 59,
+      "title": "21 dan 100 gacha bo‘lgan sonlar",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        38,
+        39
+      ],
+      "body_pdf_locator": [
+        39,
+        40
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t60",
+      "source_number": 60,
+      "title": "21 dan 100 gacha bo‘lgan sonlarning o‘qilishi va yozilishi",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        40,
+        41
+      ],
+      "body_pdf_locator": [
+        41,
+        42
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t61",
+      "source_number": 61,
+      "title": "21 dan 100 gacha bo‘lgan sonlarning o‘qilishi va yozilishi",
+      "toc_pdf_page": 69,
+      "printed_pages_from_toc": [
+        42,
+        43
+      ],
+      "body_pdf_locator": [
+        43,
+        44
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t62",
+      "source_number": 62,
+      "title": "Ikki xonali sonlarni taqqoslash",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        44,
+        45
+      ],
+      "body_pdf_locator": [
+        45,
+        46
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t63",
+      "source_number": 63,
+      "title": "Ikki xonali sonlarni qo‘shish",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        46,
+        47
+      ],
+      "body_pdf_locator": [
+        47,
+        48
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t64",
+      "source_number": 64,
+      "title": "Ikki xonali sonlarni qo‘shish",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        48,
+        49
+      ],
+      "body_pdf_locator": [
+        49,
+        50
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t65",
+      "source_number": 65,
+      "title": "Ikki xonali sonlarni qo‘shish",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        50,
+        51
+      ],
+      "body_pdf_locator": [
+        51,
+        52
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t66",
+      "source_number": 66,
+      "title": "Ikki xonali sonlarni ayirish",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        52,
+        53
+      ],
+      "body_pdf_locator": [
+        53,
+        54
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t67",
+      "source_number": 67,
+      "title": "Ikki xonali sonlarni ayirish",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        54,
+        55
+      ],
+      "body_pdf_locator": [
+        55,
+        56
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t68",
+      "source_number": 68,
+      "title": "Ikki xonali sonlarni ayirish",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        56,
+        57
+      ],
+      "body_pdf_locator": [
+        57,
+        58
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t69",
+      "source_number": 69,
+      "title": "Qo‘shish bilan ayirish orasidagi bog‘lanish",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        58,
+        59
+      ],
+      "body_pdf_locator": [
+        59,
+        60
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t70",
+      "source_number": 70,
+      "title": "Ko‘p komponentli qo‘shish",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        60,
+        61
+      ],
+      "body_pdf_locator": [
+        61,
+        62
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t71",
+      "source_number": 71,
+      "title": "Qo‘shishning guruhlash xossasi",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        62,
+        63
+      ],
+      "body_pdf_locator": [
+        63,
+        64
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t72",
+      "source_number": 72,
+      "title": "Tarkibli ifodalar",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        64,
+        65
+      ],
+      "body_pdf_locator": [
+        65,
+        66
+      ],
+      "verification": "toc_images_and_native_heading_locator_only",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t73",
+      "source_number": 73,
+      "title": "Qavsli tarkibli ifodalar",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        66,
+        67
+      ],
+      "body_pdf_locator": [
+        67,
+        68
+      ],
+      "verification": "body_images_reviewed_not_authored",
+      "interactive_lesson_created": false
+    },
+    {
+      "topic_id": "math-g1-p2-t74",
+      "source_number": 74,
+      "title": "Misol va masalalar yechish",
+      "toc_pdf_page": 70,
+      "printed_pages_from_toc": [
+        68,
+        69
+      ],
+      "body_pdf_locator": null,
+      "verification": "source_pages_missing",
+      "interactive_lesson_created": false
+    }
+  ],
+  "additional_image_checks": [
+    {
+      "pdf_page": 3,
+      "native_sha256": "a0513b900f836ea08578510980f6e308674280bb6bda1dff354febac3b8de20b",
+      "png_sha256": "0be20948962ba30570f46f0f2a799e7398762744c84b33716f251c0db26709db"
+    },
+    {
+      "pdf_page": 5,
+      "native_sha256": "036f96fe8f4491a5d6e213c81ca89b2ec58d611975f9c1b6fc035d5d6078e760",
+      "png_sha256": "4f5d35b15fe28a473371fe6bd6ad054645ccdfd81cb553005a1afffaebd37190"
+    },
+    {
+      "pdf_page": 6,
+      "native_sha256": "fcd380f4d932a7fcf1a92f74f36c0c3aab86dc5b36ea0150f1badc9c63eed795",
+      "png_sha256": "91815677549baf62240dfc6879ef0e2907cf14fd1ae534d08c2067ce3e5be13b"
+    },
+    {
+      "pdf_page": 67,
+      "native_sha256": "ba2e06e4cec02996c1bab68f676e9c83a3bd841add4f4d800eb7b8c27d09d177",
+      "png_sha256": "e6cfd712bc933120e7e2226b8418b55654ca6232579c39775490df24273d30fa"
+    },
+    {
+      "pdf_page": 68,
+      "native_sha256": "2cba157d741a3ca65ca2dcd9c0e3c4822a76685124a1d3dcd7e87a3c6006b874",
+      "png_sha256": "b34252078f173f9d71f4adbfa6dc1df56b7aaecce9e345249b59cc7e1d1b38f0"
+    },
+    {
+      "pdf_page": 69,
+      "native_sha256": "993a68185821995c8ecb55f57bf23446237a6ebd98e7a5e114dc8fd5f961695f",
+      "png_sha256": "cf16474df3187b340d10ae77412921ad8e0b64f576dd0af6bbc47cb17346fa41"
+    },
+    {
+      "pdf_page": 70,
+      "native_sha256": "7947b769396173068b66cef21c0015244d0f6701cb68438245c8344e04c2f283",
+      "png_sha256": "48df7e6109de562d36d6da16094ea16464b5a0453d3c1998264c4c6f4665e22a"
+    }
+  ],
+  "next_authoring_topic": 42,
+  "review_notes": [
+    "Body images reviewed only for42/73, not all32 available topic bodies.",
+    "PDF69/70 are printed70/71 TOC; printed68/69 lesson74 absent.",
+    "§42 apartment-number exercise needs explicit starting-at1 condition in original replacement problem.",
+    "§73 left-to-right instruction belongs to its +/− context; do not generalize to all operators."
+  ]
+}
