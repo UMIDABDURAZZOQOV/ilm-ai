@@ -1,5 +1,8 @@
 # III qism — keyingi aniq manba nuqtasi
 
+Joriy:15lokaldars; keyingi source18/path16/PDF36–37/bosma34–35.
+Pastdagi0/5/10dars qaydlari tarix; [hozirgi qamrov](PART3_PROGRESS.md).
+
 Joriy checkpoint:10 lokal dars; keyingi source11/path11/PDF26–27/bosma24–25.
 Pastdagi5va0dars qaydlari oldingi tarix; [hozirgi qamrov](PART3_PROGRESS.md).
 

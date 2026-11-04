@@ -23,6 +23,11 @@ EXPLORERS = {
     "problem_arrow_chain",
     "problem_missing_part",
     "problem_inverse_table",
+    "problem_route_times",
+    "comparison_more_less",
+    "comparison_partitions",
+    "comparison_independent_branches",
+    "comparison_difference_family",
     "tens_units_20",
     "number_pairs_12",
     "number_pairs_14",
@@ -191,6 +196,7 @@ BATCHES = [
     ("grade1_part2_batch6.json", "grade1_part2_batch6_review.json"),
     ("grade1_part3_batch1.json", "grade1_part3_batch1_review.json"),
     ("grade1_part3_batch2.json", "grade1_part3_batch2_review.json"),
+    ("grade1_part3_batch3.json", "grade1_part3_batch3_review.json"),
 ]
 
 

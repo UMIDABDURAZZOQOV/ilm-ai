@@ -94,7 +94,11 @@ def test_source_literal_answers_wrong_answers_and_no_synthetic_formulas(number):
         else:
             wrong = "999"
         assert grade_answer(q["grading"], {field: wrong}) == "incorrect"
-        assert all(r["pdf_pages"]==ref["pdf_pages"] and r["printed_pages"]==ref["printed_pages"] for r in q["source_refs"])
+        assert all(
+            r["pdf_pages"] == ref["pdf_pages"]
+            and r["printed_pages"] == ref["printed_pages"]
+            for r in q["source_refs"]
+        )
     if number == 10:
         # Explicit zero unknown and inverse arithmetic; alternate exact syntax.
         assert (
@@ -127,8 +131,11 @@ def test_all83_local_api_progress_order_and_replay_without_fake_missing74(
         assert len(feedback) == 8
     assert finish_new(client, 10)[-1]["xp_awarded"] == 0
     catalog = client.get(first.P + "/catalog", params={"part": 3}).json()
-    assert len(catalog["lessons"]) == 10
-    assert all(l["state"] == "completed" for l in catalog["lessons"])
+    # This scenario completes the first10; newer additive content remains open
+    # for later work rather than being falsely marked completed by this test.
+    assert {l["key"] for l in catalog["lessons"] if l["state"] == "completed"} == {
+        f"math-1-3-{n}-r1" for n in range(1, 11)
+    }
     assert catalog["book"]["source_body_topic_count"] == 37
     assert not catalog["previous_book_complete"]
     with factory() as db:

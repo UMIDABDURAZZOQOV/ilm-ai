@@ -1,5 +1,63 @@
 # ILM AI Matematika — joriy tekshirilgan davom
 
+## 2026-11-04 — III qism: manba 11 va 14–17; jami 88 lokal dars
+
+Yangi 5 dars: 30 karta, 5 original misol/15 qadam, 40 topshiriq va 11 sonli tenglik.
+Jami **88 dars, 512 karta, 664 topshiriq, 88 misol/264 qadam, 138 sonli tenglik,
+80 boshlang‘ich model turi**. I qism 41/41, II qism 32/33, III qism 15/37 matnli
+mavzu. III qismda 22 matnli mavzu qolgan; nazorat/o‘yin uchun 5 alohida mundarija
+qatori ham nashrga tayyor deb sanalmaydi. Butun 1–11-sinf kursi tugamagan;
+uning jami yoki qolgan mavzular soni hali noma’lum. Faqat `local_test_preview_only`.
+
+| Manba № | Path tartibi | PDF | Bosma | Asosiy faoliyat |
+|---|---|---|---|---|
+|11|11|26–27|24–25|Butun/qoldiq, qat’iy chegara, yo‘lning jami vaqti|
+|14|12|28–29|26–27|Asosdan ko‘p/kam, birlik/o‘nlik|
+|15|13|30–31|28–29|Bir nechta mos taqsimot, qat’iy ko‘plik, berilgan qoida|
+|16|14|32–33|30–31|Mustaqil tarmoqlar, son jadvali yo‘nalishlari|
+|17|15|34–35|32–33|Kichik/katta/farq, to‘rt teskari bog‘lanish|
+
+Barcha 10 tana sahifasi asl tasvirda to‘liq o‘qildi. 11-darsdagi graf vaqtni
+bildiradi: «eng qisqa» so‘zi masofaning metr/kilometr dalili sifatida olinmadi;
+original masala eng kam jami minutni solishtiradi. 15-darsda bir nechta to‘g‘ri
+taqsimot yagona javobga majburlanmaydi. 16-darsning 50 kirishli sxemasi mustaqil
+chiqishlarga ega: +10 natijasi 60 bo‘lsa ham, +20 tarmoq 50 + 20 = 70 dan
+boshlanadi. Bu oldingi 8-darsning ketma-ket yo‘lidan farq qiladi. Qo‘lyozma
+shartlar nashriyotning javob kaliti deb olinmagan. 12–13 nazorat — footer va
+mundarija qaydi; alohida manba tanasisiz dars yaratilmagan. Har karta, savol,
+izoh, misol qadami va sonli tenglik manba PDF/bosma sahifalariga bog‘langan.
+
+Flutterga vaqt yo‘llari, nisbiy ko‘p/kam, bir nechta mos taqsimot, mustaqil
+tarmoqlar va farqning to‘rt bog‘lanishi uchun original modellar qo‘shildi.
+III qismning barcha 15 oqimi 320 px/200% matn/Reduce Motion bilan tekshirildi:
+**33 targeted test (26 s)**. To‘liq Flutter **524 passed (3:15)**; analyze
+**0 muammo (2.6 s)**. Biology/Physics/mobile OAuth **11 passed (42.92 s)**.
+Own-loopback PostgreSQL16 **1 passed (31.06 s)**: barcha 88 dars, seed137 XP →
+1017 XP, replay0, parallel birinchi mukofot, immutable reimport, boshqa UID
+va eski streak saqlanishi. Manba auditi:23 PDF/2958 sahifa,88 dars/176 tana sahifasi.
+Eski 83 darsning barcha JSON kontenti avvalgi checkpoint bilan bir xil.
+
+Birinchi Math run118pass/1fail/1skip bo‘ldi: oldingi partiya testi katalog
+doim10ta III qism darsidan iborat deb olgan. Test aynan bajarilgan dastlabki
+10 darsning kalitlarini tekshiradigan qilib tuzatildi; keyin12 partiyalararo
+test qayta o‘tdi(30.55s). Yakuniy to‘liq Math qayta sinovi **119 passed,1 skipped (150.72 s)**;
+PG skip alohida31.06s sinov bilan qoplandi. Debug JS web build **38.7 s**,
+lokalURL/UID va invalid compile-only token bilan; haqiqiy brauzer/API yoki
+Android testi degani emas. Oraliq muvaffaqiyatsiz urinish yashirilmagan.
+
+II qism74 bosma68–69 hali yo‘q. Oddiy prerequisite va faqat aniq local QA flag
+siyosati o‘zgarmagan; missing74 uchun progress/XP yaratilmaydi. Normal app,
+auth, Gradle, frontend, boshqa fanlar, production va main o‘zgarmagan.
+PDF/OCR/rasm/credential Gitga qo‘shilmagan. Mustaqil o‘qituvchi, pilot,
+real Android va rasmiy2026–27 moslik hali `not_verified`. Standalone positive
+CLI bu cloud muhitida Git guard sabab tekshirilmagan; guard chetlab o‘tilmadi.
+
+**Keyingi: manba18 «Taqqoslashga doir masalalar», path16,
+PDF36–37/bosma34–35.** To‘liq tanasi yangi dars uchun hali o‘qilmagan;
+sarlavha/chegara auditi tayyor kontent degani emas.
+[Qamrov](PART3_PROGRESS.md), [checkpoint](checkpoints/grade1_part3_batch3.json).
+
+
 ## 2026-11-04 — III qism 6–10: jami 83 lokal dars
 
 Yangi 5 dars: 30 karta, 5 misol/15 qadam, 40 topshiriq, 11 sonli tenglik.
