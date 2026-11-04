@@ -18,6 +18,11 @@ EXPLORERS = {
     "problem_part_whole",
     "problem_representations",
     "problem_table_totals",
+    "problem_whole_sum",
+    "problem_criteria",
+    "problem_arrow_chain",
+    "problem_missing_part",
+    "problem_inverse_table",
     "tens_units_20",
     "number_pairs_12",
     "number_pairs_14",
@@ -185,6 +190,7 @@ BATCHES = [
     ("grade1_part2_batch5.json", "grade1_part2_batch5_review.json"),
     ("grade1_part2_batch6.json", "grade1_part2_batch6_review.json"),
     ("grade1_part3_batch1.json", "grade1_part3_batch1_review.json"),
+    ("grade1_part3_batch2.json", "grade1_part3_batch2_review.json"),
 ]
 
 

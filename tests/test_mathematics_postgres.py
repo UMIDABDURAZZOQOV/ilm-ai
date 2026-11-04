@@ -21,6 +21,7 @@ from test_mathematics_part2_batch4 import finish_new as finish_second_fourth
 from test_mathematics_part2_batch5 import finish_new as finish_second_fifth
 from test_mathematics_part2_batch6 import finish_new as finish_second_sixth
 from test_mathematics_part3 import finish_third
+from test_mathematics_part3_batch2 import finish_new as finish_third_second
 from test_mathematics_preview import P, finish, make_preview
 from test_mathematics_preview import (
     test_parallel_first_completions_award_only_once as check_parallel,
@@ -106,13 +107,16 @@ def test_math_postgres_immutable_import_first_book_and_parallel_reward(monkeypat
             for number in range(1, 6):
                 assert finish_third(client, number)[-1]["xp_awarded"] == 10
             assert finish_third(client, 5)[-1]["xp_awarded"] == 0
+            for number in range(6, 11):
+                assert finish_third_second(client, number)[-1]["xp_awarded"] == 10
+            assert finish_third_second(client, 10)[-1]["xp_awarded"] == 0
             third = client.get(P + "/catalog", params={"part": 3}).json()
             assert not third["previous_book_complete"]
             assert third["source_gap_bridge"]["missing_source_numbers"] == [74]
             assert all(l["state"] == "completed" for l in third["lessons"])
         with factory.begin() as db:
-            assert db.get(User, 1).xp_total == 917 and db.get(User, 2).xp_total == 0
-            assert import_course(db) == {"created": 0, "skipped": 78}
+            assert db.get(User, 1).xp_total == 967 and db.get(User, 2).xp_total == 0
+            assert import_course(db) == {"created": 0, "skipped": 83}
     finally:
         engine.dispose()
         with admin.begin() as connection:

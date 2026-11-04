@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-04",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "2358107b58c8bb5e9e07ba5f46bfab8fbc47a21a",
+  "previous_flutter_commit": "82caec3",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 83,
+    "cards": 482,
+    "questions": 624,
+    "examples": 83,
+    "worked_steps": 249,
+    "notation_entries": 127,
+    "phases": {
+      "guided": 312,
+      "mcq": 83,
+      "frq": 83,
+      "transfer": 146
+    },
+    "response_kinds": {
+      "choice": 205,
+      "short_text": 24,
+      "exact_number": 377,
+      "ordering": 18
+    },
+    "distinct_explorer_modes": 75
+  },
+  "first_book": "41/41_frozen",
+  "second_book": "32/33_frozen_missing74_printed68_69",
+  "third_book": {
+    "mapped_body_topics": 37,
+    "authored_lessons": 10,
+    "remaining_body_topics": 27,
+    "full_body_content_reviewed": false,
+    "schedule_only_rows_not_ready": 5
+  },
+  "full_topic_total": null,
+  "tests": {
+    "math": "113 passed,1 skipped in120.06s",
+    "postgres": "1 passed in23.99s; earlier own-container exited255, restarted and private port refreshed",
+    "flutter_targeted": "21 passed in11s (booksIII1-10 and9meaningfulmodel/policy checks)",
+    "flutter_full": "512passed in2:47",
+    "analyze": "0issues3.8s",
+    "web": "debug JS34.4s; invalid compile-only token; --no-wasm-dry-run, no Android/browser success claimed",
+    "protected": "prior batch1:11passed30.18s; shared protected code unchanged"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 83,
+    "reviewed_body_pages": 166,
+    "interactive_lessons": 83,
+    "theory_cards": 482,
+    "questions": 624,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 10,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "next": {
+    "part": 3,
+    "source_number": 11,
+    "path_sequence": 11,
+    "pdf_pages": [
+      26,
+      27
+    ],
+    "printed_pages": [
+      24,
+      25
+    ]
+  },
+  "independent_teacher_review": false,
+  "real_android_test": false,
+  "source_gap_policy": "explicit_server_local_test_only_III_after_all73_existing_lessons",
+  "changed_modules": [
+    "services/mathematics_curriculum.py",
+    "services/mathematics_runtime.py",
+    "scripts/serve_mathematics_preview.py",
+    "scripts/audit_mathematics_sources.py",
+    "scripts/curriculum/mathematics/grade1_part3*",
+    "Flutter isolated math preview story explorers, book count, source gap notice, public fixtures/tests"
+  ],
+  "no_production_operations": true,
+  "protected_worktrees": "5 unchanged at starting HEADs and clean",
+  "qa_credential_note": "Ephemeral own-loopback QA password accidentally appeared in a failed diagnostic traceback; rotated locally and private traces redacted. No production credential used or changed.",
+  "flutter_commit": "8fb91e0e6be7b5582346924055a1322172eb19f5"
+}

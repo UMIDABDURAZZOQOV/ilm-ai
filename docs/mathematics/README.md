@@ -1,5 +1,50 @@
 # ILM AI Matematika — joriy tekshirilgan davom
 
+## 2026-11-04 — III qism 6–10: jami 83 lokal dars
+
+Yangi 5 dars: 30 karta, 5 misol/15 qadam, 40 topshiriq, 11 sonli tenglik.
+**I qism41/41, II qism32/33, III qism10/37 matnli mavzu**.
+Jami **83 dars, 482 karta, 624 topshiriq, 83 misol/249 qadam,
+127 sonli tenglik, 75 boshlang‘ich model turi**. Eski78 dars JSONlari o‘zgarmagan.
+Faqat lokal preview; butun1–11kurs tugamagan, umumiy qolganlar soni noma’lum.
+
+PDF16–25/bosma14–23ning to‘liq asl tasvirlari tekshirildi. Butun va uning
+qismlari, bir xil birliklar, barcha tanlov mezonlarini tekshirish, joriy
+natijadan ketma-ket hisob, noma’lum qism/qo‘shiluvchi va nol uchun original
+masalalar yaratildi. Manbadagi birliksiz chang tortish/ovoz sonlariga watt
+yoki dB to‘qilmadi; yil ko‘rsatilmagan taqvim va bayram sanasi tarixiy fakt
+sifatida kiritilmadi. Tibbiy/dori konteksti matematik ko‘nikma uchun original
+ko‘rgazma/qatnashchilar hisobi bilan almashtirildi. Har karta, savol, izoh,
+sonli tenglik va misol qadami ikki aniq manba sahifasiga bog‘langan.
+
+Flutterga butunni yig‘ish, talablar bo‘yicha bir/nechta/hech bir moslik,
+strelkali yo‘l,53lik noma’lum qism va ustunli teskari jadval modellar qo‘shildi.
+Nol va to‘liq qism, model almashganda eski76dan yangi53diapazonga tiklanish,
+barcha talablar, ikkala mos model uchun soxta yagona g‘olib bo‘lmasligi tekshirildi.
+II74 yo‘q; oldingi strict prerequisite va faqat explicit local QA bridge
+saqlanadi. Missing74ga hech qanday progress yoki XP yaratilmaydi.
+
+Math **113 passed,1 skipped (120.06 s)**. OwnloopbackPG16 qayta tiklangach
+**1 passed (23.99 s)**:83dars/967XP (seed137), replay0, immutable import,
+parallel reward va UID/streak himoyasi. Dastlab konteyner exit255 sabab
+connectionrefused bo‘ldi; bu muvaffaqiyat deb yozilmadi. PrivateQAparoli xato
+traceback ko‘rishda chiqib qolgani uchun aynan o‘zimizning lokal baza paroli
+almashtirildi va private loglar redakt qilindi. Production credential ishlatilmadi.
+Flutter yangi va oldingi IIIqism target **21 passed (11 s)**;5yangi to‘liq
+320px/200%matn/ReduceMotion oqimi. Full Flutter **512 passed (2:47)**; analyze **0 muammo (3.8 s)**.
+Debug JS web build34.4s (invalid compile-only token, localURL/UID;
+Wasm dry-run o‘chirildi, brauzer/API/Android testi degani emas). Source audit23PDF/2958sahifa/83dars/166tanasahifasi.
+Biology/Physics/OAuth11test oldingi5darscheckpointda o‘tdi; bu partiyada ularning
+kodi o‘zgarmadi, yangi protected/fullbackend natijasi da’vo qilinmaydi.
+
+**Keyingi:11-dars «Masalalar yechish»,PDF26–27/bosma24–25**, keyin manba14–17
+(path12–15). 12–13 nazorat alohida tanasiz; tayyor darsga aylantirilmagan.
+Keyingi10sahifa tasvirda o‘qildi, lekin hozirgi checkpointda dars sifatida import
+qilinmagan. [Qamrov](PART3_PROGRESS.md), [dalil](checkpoints/grade1_part3_batch2.json).
+Android/o‘qituvchi/pilot/rasmiy2026–27moslik not_verified. Frontend/normalapp/
+auth/Gradle/boshqa fanlar/production/main o‘zgarmagan. PDF/OCR/kalit Gitga qo‘shilmadi.
+
+
 ## 2026-11-04 — III qism 1–5: jami 78 lokal dars
 
 I qism 41/41 va II qismning 32/33 darsi o‘zgarmagan. III qismning 2024-yilgi

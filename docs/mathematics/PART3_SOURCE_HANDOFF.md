@@ -1,5 +1,8 @@
 # III qism — keyingi aniq manba nuqtasi
 
+Joriy checkpoint:10 lokal dars; keyingi source11/path11/PDF26–27/bosma24–25.
+Pastdagi5va0dars qaydlari oldingi tarix; [hozirgi qamrov](PART3_PROGRESS.md).
+
 ## Yangilanish — 2026-11-04
 
 III qismda endi 5 lokal interaktiv dars bor, 37 tana chegarasi tekshirildi.

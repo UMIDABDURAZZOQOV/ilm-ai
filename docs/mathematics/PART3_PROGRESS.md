@@ -1,7 +1,7 @@
 # III qism — tana xaritasi va haqiqiy interaktiv qamrov
 
 2026-11-04. 2024 qayta ishlangan 2-nashr; ISBN 978-9943-9706-5-6.
-37 matnli mavzu, 5 lokal dars, 32 qolgan. Butun kitob to‘liq tayyor emas.
+37 matnli mavzu, 10 lokal dars, 27 qolgan. Butun kitob to‘liq tayyor emas.
 Barcha chegaralar sarlavha/bosma sahifa tasvirida; faqat tayyorlar to‘liq o‘qilgan.
 
 | Manba № | Path | Mavzu | PDF | Bosma | Interaktiv |
@@ -11,11 +11,11 @@ Barcha chegaralar sarlavha/bosma sahifa tasvirida; faqat tayyorlar to‘liq o‘
 |3|3|Sodda masalalar|10–11|8–9|lokal tayyor|
 |4|4|Masala shartining berilish usullari|12–13|10–11|lokal tayyor|
 |5|5|Masalalar yechish|14–15|12–13|lokal tayyor|
-|6|6|Butunni topishga doir masalalar|16–17|14–15|yo‘q, tana review kerak|
-|7|7|Butunni topishga doir masalalar|18–19|16–17|yo‘q, tana review kerak|
-|8|8|Butunni topishga doir masalalar|20–21|18–19|yo‘q, tana review kerak|
-|9|9|Qismlarni topishga doir masalalar|22–23|20–21|yo‘q, tana review kerak|
-|10|10|Qismlarni topishga doir masalalar|24–25|22–23|yo‘q, tana review kerak|
+|6|6|Butunni topishga doir masalalar|16–17|14–15|lokal tayyor|
+|7|7|Butunni topishga doir masalalar|18–19|16–17|lokal tayyor|
+|8|8|Butunni topishga doir masalalar|20–21|18–19|lokal tayyor|
+|9|9|Qismlarni topishga doir masalalar|22–23|20–21|lokal tayyor|
+|10|10|Qismlarni topishga doir masalalar|24–25|22–23|lokal tayyor|
 |11|11|Masalalar yechish|26–27|24–25|yo‘q, tana review kerak|
 |14|12|Sonni orttirish va kamaytirishga doir masalalar|28–29|26–27|yo‘q, tana review kerak|
 |15|13|Sonni orttirish va kamaytirishga doir masalalar|30–31|28–29|yo‘q, tana review kerak|
@@ -48,4 +48,4 @@ Mundarija PDF80–81: 12–13,27–28 nazorat, yana28 o‘yin,43–44 nazorat,45
 
 II74 yo‘qligi saqlanadi. Explicit lokal QA ko‘prigi faqat all73 va aniq source SHA bilan; missing74 uchun 0 progress/XP. Oddiy rejim yopiq.
 
-[Muhim texnika va testlar](checkpoints/grade1_part3_batch1.json). Keyingi source6 / path6 / PDF16–17.
+[Muhim texnika va testlar](checkpoints/grade1_part3_batch2.json). Keyingi source11 / path11 / PDF26–27.
