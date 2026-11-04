@@ -1,5 +1,26 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-04 — II qism57–61: jami61 dars
+
+I qism41/41 saqlangan; II qism42–61dan20dars. Yangi5dars30karta/5originalmisolning15qadami/40topshiriq/10sonli tenglik. Jami61dars,350karta,448topshiriq,61misol/183qadam,84sonli tenglik. To‘liq1–11kurs hali tugamagan, umumiy mavzu soni noma’lum; faqat lokal test.
+
+| № | Mavzu | PDF | Bosma |
+|---|---|---|---|
+|57|O‘nlikdan ayirish usuli|35–36|34–35|
+|58|Yaxlit sonlar|37–38|36–37|
+|59|21 dan100 gacha sonlar|39–40|38–39|
+|60|21 dan100 gacha o‘qish/yozish|41–42|40–41|
+|61|21 dan100 gacha o‘qish/yozish — cho‘t|43–44|42–43|
+
+Asl tasvir va native-text pinlari tekshirildi. O‘nlikdan ayirishda alohida birliklar saqlanishi,10ta o‘nlik100birlik/1yuzlik ekanligi, qo‘shni sonlar,2/3/5/10qadam, xona qo‘shiluvchilari, cho‘t yo‘llari hamda shartdan son tuzish yoritildi. Raqamlari yig‘indisi5sharti bir nechta sonlarga mosligi ochiq aytildi; MCQda faqat bitta taklif etilgan javob mos. Darslikdagi «matematikaga oid ilk kitob» ustuvorligi haqidagi umumiy tarixiy da’vo kiritilmadi. Ruchka ixtirosining nisbiy yillari hozirgi tarixiy sana sifatida olinmadi. Qadimiy belgili puzzle faqat aniq berilgan original cheklangan kalit bilan ishlaydi.
+
+Flutter: o‘nlikdan ayirish yo‘li,10–100o‘ntalab slider, 0–99jadval va alohida100, xavfsiz100chegarali qadam, o‘nlik/birlik modeli, faol toshi✓bilan ajralgan original cho‘t.100modelidan ikki xonali modelga o‘tganda holat42ga tiklanib noto‘g‘ri slider diapazoni kelib chiqmaydi. Cho‘tning6faol toshi42miqdorni bildirishi tekshirildi. 100dan keyingi qadam o‘chiq. Ilmo/brend va normalappsaqlangan.
+
+Math **86passed,1skipped82.66s**; ownloopbackPG16 **1passed20.51s**; to‘liq Flutter **472passed2:15**; analyze **0issue1.5s**. DebugJS preview webbuild **33.5s**, lokalURL/testUID/invalidcompile-onlyplaceholder bilan; haqiqiyJWT buildga kiritilmadi. Bu brauzer/API yoki Android testi emas. UID1old137XP→747/61progress, UID2XP0; replay0/parallel firstreward/immutableimport o‘tdi.23PDF/2958sahifa va61mavzu/122tanasahifasi sourceauditi. Biology/Physics/OAuth46sinovi47–51checkpointda o‘tdi; bu safar takror bajarilmadi. Yangi to‘liq backend da’vosi yo‘q.
+
+Oldingi checkpoint GitHubda backend`904aac0`/Flutter`f940d9a`. Keyingi62«Ikki xonali sonlarni taqqoslash»PDF45–46/bosma44–45.62–68PDF45–58tasvirlari ko‘rildi, bu checkpointda import qilinmagan. IIqism12mavjudbodyqolgan,74bosma68–69manbasizblocked. Android, pedagog/pilot va rasmiy2026–27tekshiruvi yo‘q. Frontend, auth, Gradle, boshqa fanlar, production o‘zgarmadi. [Dalil](checkpoints/grade1_part2_batch4.json).
+
+
 ## 2026-11-04 — II qism52–56: jami56 dars
 
 I qism41/41 saqlangan; II qism42–56dan15dars. Yangi5dars30karta/5originalmisolning15qadami/40topshiriq/10sonli tenglik. Jami56dars,320karta,408topshiriq,56misol/168qadam,74sonli tenglik. To‘liq1–11kurs hali tugamagan, umumiy mavzu soni noma’lum; faqat lokal test.

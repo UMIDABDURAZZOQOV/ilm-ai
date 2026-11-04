@@ -27,6 +27,11 @@ EXPLORERS = {
     "bridge_ten_line",
     "subtract_units_20",
     "subtract_bridge_ten",
+    "subtract_from_ten",
+    "round_tens_100",
+    "hundred_chart",
+    "place_value_100",
+    "abacus_100",
     "missing_subtrahend",
     "inverse_family",
     "commutative",
@@ -162,6 +167,7 @@ BATCHES = [
     ("grade1_part2_batch1.json", "grade1_part2_batch1_review.json"),
     ("grade1_part2_batch2.json", "grade1_part2_batch2_review.json"),
     ("grade1_part2_batch3.json", "grade1_part2_batch3_review.json"),
+    ("grade1_part2_batch4.json", "grade1_part2_batch4_review.json"),
 ]
 
 
