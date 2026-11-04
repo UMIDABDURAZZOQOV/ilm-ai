@@ -1,5 +1,16 @@
 # Matematika — davom checkpointi
 
+### Saqlangan Git holati — 2026-11-04
+
+Backend kod/kontent: `a1b093b7280e01d34387677597116436cc2a001e`.
+Flutter kod/test: `c7bafe030dc6fa60925fa05a95b5bc163adc4a98`.
+Branch: `feat/mathematics-curriculum`, ikkala repositoryda.
+Oldingi partiyalar:42–46 `0b579f2`/`b298590`;47–51 `704a9cd`/`cf5c581`;
+52–56 `904aac0`/`f940d9a`;57–61 `049d777`/`42b333e`;62–68 `dcfc5b4`/`0aecc22`.
+Commitlar GitHub featurebranchlarida; sourcePDF va privateQAcredential qo‘shilmagan.
+Ushbu hujjat yangilanishi alohida docscommit sifatida saqlanadi.
+
+
 ## 2026-11-04 — II qismning barcha mavjud32 mavzusi: jami73 lokal dars
 
 1-sinf I qismning **41/41** darsi saqlandi. Shu sessiyada II qismning42–73

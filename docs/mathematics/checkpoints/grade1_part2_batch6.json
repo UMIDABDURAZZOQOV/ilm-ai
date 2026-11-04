@@ -188,5 +188,39 @@
   "official_curriculum_2026_2027": "not_verified",
   "pr_api": "Fresh gh pr list for both repos: api.github.com/graphql Forbidden; no PR created or claimed",
   "full_backend_regression": "Only current Math100 and protected46; previous first-batch2567 result is historical, not a current full-suite claim.",
-  "own_postgres_after_tests": "stopped; random disposable schemas dropped by tests; refresh dynamic loopback port from own container on restart"
+  "own_postgres_after_tests": "stopped; random disposable schemas dropped by tests; refresh dynamic loopback port from own container on restart",
+  "backend_code_commit": "a1b093b7280e01d34387677597116436cc2a001e",
+  "flutter_code_commit": "c7bafe030dc6fa60925fa05a95b5bc163adc4a98",
+  "checkpoint_history": [
+    {
+      "source_sections": "42–46",
+      "backend": "0b579f2",
+      "flutter": "b298590"
+    },
+    {
+      "source_sections": "47–51",
+      "backend": "704a9cd",
+      "flutter": "cf5c581"
+    },
+    {
+      "source_sections": "52–56",
+      "backend": "904aac0",
+      "flutter": "f940d9a"
+    },
+    {
+      "source_sections": "57–61",
+      "backend": "049d777",
+      "flutter": "42b333e"
+    },
+    {
+      "source_sections": "62–68",
+      "backend": "dcfc5b4",
+      "flutter": "0aecc22"
+    },
+    {
+      "source_sections": "69–73",
+      "backend": "a1b093b7280e01d34387677597116436cc2a001e",
+      "flutter": "c7bafe030dc6fa60925fa05a95b5bc163adc4a98"
+    }
+  ]
 }
