@@ -1,5 +1,12 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-04 — III qism23–26/30, PDF46–55
+
+To‘liq asl tasvirlar ko‘rildi.23asl sarlavha «Shartni yetishmayotgan ma’lumotlar bilan to‘ldirish»; oldingi93dars checkpointi davom sarlavhasidagi «Murakkab...» nomi xato bo‘lgan. Applicationda u payt23dars hali yo‘q edi; eski93dars kontenti o‘zgarmagan.
+PDF53/bosma51 footer **29-dars.O‘yin-dars**, TOC81 esa **28-dars.O‘yin-dars** deydi. Source-map TOClabel28va footer29ni alohida provenance bilan saqlaydi; alohida29tana yoki tayyor dars yaratilmagan. Footer53pini original26mavzu reviewida ham tekshiriladi; validator tafovut yashirilmasligini tekshiradi.
+24juftliklarda tartib/takror qoidasi ochiq.25ribbon mashqidagi6bo‘sh shablonning o‘zi6yagona javob isboti deb olinmagan: original karta tanlovi «tartib ahamiyatsiz» deb belgilangan.26uchidagi hafta sikli va nisbiy kunlar matematik tekshirilgan.30cm modelida oraliqlar sanaladi, fizik ekran o‘lchovi da’vo qilinmaydi; tarixiy tana bilan taxmin qilish zamonaviyinch/foot standartlari o‘zgaruvchan degan da’voga aylantirilmagan.
+
+
 ## 2026-11-04 — III qism18–22: to‘liq asl tasvirlar
 
 PDF36–45/bosma34–43 o‘qildi.23–26 va30–42 hali mualliflik reviewidan o‘tmagan.

@@ -1,5 +1,46 @@
 # Matematika — davom checkpointi
 
+## 2026-11-04 — III qism: manba23–26 va30; jami 98 lokal dars
+
+Yangi 5 dars: 30 karta, 5 original misol/15 qadam, 40 topshiriq.
+Jami **98 dars, 572 karta, 744 topshiriq, 158 sonli tenglik**.
+I qism41/41, II qism32/33, III qism **25/37 matnli mavzu**; shu qismda 12 tasi qolgan.
+5 mundarija/nazorat/o‘yin qatori alohida tana kontentisiz tayyor hisoblanmaydi.
+Butun1–11 kurs tugamagan; umumiy mavzu/qolganlar soni noma’lum. Faqat lokal preview.
+
+| Manba № | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|23|21|Shartni yetishmayotgan ma’lumotlar bilan to‘ldirish|46–47|44–45|
+|24|22|Nostandart masalalar|48–49|46–47|
+|25|23|Ikki amalli masalalar yechish|50–51|48–49|
+|26|24|Murakkab masalalar|52–53|50–51|
+|30|25|Uzunlik. Santimetr|54–55|52–53|
+
+PDF46–55/bosma44–53 to‘liq tasvirda o‘qildi.23-mavzuning asl nomi «Shartni yetishmayotgan ma’lumotlar bilan to‘ldirish»; oldingi davom yozuvidagi nom tuzatildi. Yo‘q ma’lumot taxminiy javob bilan almashtirilmaydi.
+24-mavzu: barcha variantlarni izchil sanash,tartibsiz juftlikda AB/BAni bir marta hisoblash.25-mavzu: bog‘liq qismdan keyin jami, oraliq/yakuniy natija farqi.26-mavzu: hafta sikli, nisbiy kun, ketma-ketlik va tartib.30-mavzu: cm va noldan oraliqlarni sanash; ekran fizik chizg‘ich deb ko‘rsatilmaydi.
+PDF53footerda o‘yin29, TOC81da28 yozilgani asl tasvirlardan tasdiqlandi. Source-map/validator ikkala yozuvni saqlaydi; nazorat/o‘yin uchun alohida matn yo‘q.3Dko‘rinish misoli faqat original balandlik jadvali va yo‘nalish izohi, umumiy3Drenderer emas.
+
+Haqiqiy testlar:
+
+- Math: 132passed,1skipped213.51s.
+- PostgreSQL: 1passed41.09s; all98,seed137XP→1117,replay0,parallelreward/immutableimport/UID/streak.
+- Flutter targeted: 12passed14s; first run10passed2failed(test duplicate finder and text expectation), expectations corrected, ruler labels clarified.
+- Flutter full: 548passed3:34.
+- Analyze: 0issues2.6s.
+- Web: debug JS40.4s; compile-only local token, not Android/browser/API test.
+- Protected: previous checkpoint11passed42.92s; protected files unchanged; final worktrees will be checked.
+
+Source audit23PDF/2958sahifa va har bir tayyor darsning to‘liq tanasi/rasm pinlari bilan bajarildi.
+Eski darslar immutable; missingII74ga progress/XP yaratilmagan. Strict prerequisite
+va explicit localQA flag siyosati saqlangan. Frontend, normalapp/auth/Gradle,
+boshqa fanlar, production va main o‘zgarmagan. PDF/OCR/rasm/credential Gitga qo‘shilmaydi.
+Mustaqil pedagog, pilot, realAndroid va rasmiy2026–27moslik hali not_verified.
+Standalone positiveCLI Git guard sabab bu muhitda tekshirilmagan.
+
+**Keyingi: manba31 «Kesmalarni o‘lchash», path26, PDF56–57/bosma54–55.**
+[Qamrov](PART3_PROGRESS.md), [checkpoint](checkpoints/grade1_part3_batch5.json).
+
+
 ### Saqlangan joriy Git checkpoint —2026-11-04
 
 Backend kod/kontent: `a8bfe3dae7e6cf3072acf2779889085fc80a31f3`.

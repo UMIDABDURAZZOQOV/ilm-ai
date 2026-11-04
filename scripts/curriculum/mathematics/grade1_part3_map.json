@@ -3,7 +3,7 @@
   "book_sha256": "46183895898c54f0554bdc47238b2d9ae8312225712618f20d9a9c9c467b0adf",
   "edition": 2024,
   "mapped_body_topics": 37,
-  "authored_lessons": 20,
+  "authored_lessons": 25,
   "body_page_boundaries_verified": true,
   "full_map_verified": false,
   "all_body_content_reviewed": false,
@@ -621,8 +621,8 @@
         44,
         45
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 46,
@@ -651,8 +651,8 @@
         46,
         47
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 48,
@@ -681,8 +681,8 @@
         48,
         49
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 50,
@@ -711,8 +711,8 @@
         50,
         51
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 52,
@@ -741,8 +741,8 @@
         52,
         53
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 54,
@@ -1152,8 +1152,14 @@
       ],
       "toc_pdf_page": 81,
       "body_pdf_locator": null,
-      "verification": "publisher_duplicate_number_28_do_not_infer_29",
-      "ready": false
+      "verification": "toc28_body_footer29_images_reviewed_no_distinct_body",
+      "ready": false,
+      "body_footer_label": "29-dars. O‘yin-dars",
+      "body_footer_source_numbers": [
+        29
+      ],
+      "body_footer_pdf_page": 53,
+      "body_footer_printed_page": 51
     },
     {
       "source_label": "43–44-darslar",
@@ -1182,7 +1188,8 @@
   "source_notes": [
     "37 distinct native body lessons cover PDF6–79/printed4–77 contiguously. Each pair header/footer image was visually checked; full body review is recorded separately per authored batch.",
     "TOC45 is a scheduling label, not45verified content bodies. Three two-session control blocks and two game rows have no distinct body. Duplicate28 must not be silently renamed29.",
-    "No official chapter headings; chapter metadata will use book/part identity instead of inventing chapter names."
+    "No official chapter headings; chapter metadata will use book/part identity instead of inventing chapter names.",
+    "Full body PDF53/printed51 explicitly labels game29, while TOC81 labels it28. Both labels retained with provenance, not silently corrected; no standalone game body or authored29lesson."
   ],
   "additional_image_checks": [
     {

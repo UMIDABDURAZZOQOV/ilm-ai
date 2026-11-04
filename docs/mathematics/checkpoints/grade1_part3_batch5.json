@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-04",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "395781912d9b6385c9b79fb62f26a8b658c1a156",
+  "previous_flutter_commit": "772386c6d6047a5f2eb6620654d11e406b99d738",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 98,
+    "cards": 572,
+    "questions": 744,
+    "examples": 98,
+    "worked_steps": 294,
+    "notation_entries": 158,
+    "phases": {
+      "guided": 372,
+      "mcq": 98,
+      "frq": 98,
+      "transfer": 176
+    },
+    "response_kinds": {
+      "choice": 246,
+      "short_text": 24,
+      "exact_number": 454,
+      "ordering": 20
+    },
+    "distinct_explorer_modes": 90
+  },
+  "first_book": "41/41_frozen",
+  "second_book": "32/33_frozen_missing74_printed68_69",
+  "third_book": {
+    "mapped_body_topics": 37,
+    "authored_lessons": 25,
+    "remaining_body_topics": 12,
+    "full_body_content_reviewed": false,
+    "schedule_only_rows_not_ready": 5
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "tests": {
+    "Math": "132passed,1skipped213.51s",
+    "PostgreSQL": "1passed41.09s; all98,seed137XP→1117,replay0,parallelreward/immutableimport/UID/streak",
+    "Flutter targeted": "12passed14s; first run10passed2failed(test duplicate finder and text expectation), expectations corrected, ruler labels clarified",
+    "Flutter full": "548passed3:34",
+    "Analyze": "0issues2.6s",
+    "Web": "debug JS40.4s; localURL/UID, invalid compile-only token; no actual browser/API/Android test",
+    "Protected": "previous checkpoint11passed42.92s; protected files unchanged; final worktrees will be checked"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 98,
+    "reviewed_body_pages": 196,
+    "interactive_lessons": 98,
+    "theory_cards": 572,
+    "questions": 744,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 25,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "next": {
+    "part": 3,
+    "source_number": 31,
+    "path_sequence": 26,
+    "title": "Kesmalarni o‘lchash",
+    "pdf_pages": [
+      56,
+      57
+    ],
+    "printed_pages": [
+      54,
+      55
+    ]
+  },
+  "independent_teacher_review": false,
+  "real_android_test": false,
+  "protected_worktrees": "verify before push; no protected mutations authorized",
+  "source_gap_policy": "explicit_server_local_test_only_III_after_all73_existing_lessons",
+  "source_review_notes": [
+    "Source23actual title verifiedPDF46; prior checkpoint title Murakkab was wrong, no old lesson mutated.",
+    "TOC81game28 versus body53game29 label discrepancy both recorded, neither fake standalone body nor silent renumbering.",
+    "Pairs explicitly unordered distinct; reversed duplicates rejected. Ribbon template count not taken as answer authority.",
+    "cm is logical model; ruler intervals not labels, no screen-to-real-centimetre claim. NumericFRQ unit cm fixed in prompt; general unit parser not implemented."
+  ],
+  "no_production_operations": true,
+  "flutter_commit": "71b2fc46d9bfa427f3a8c8810578802fbfec2631"
+}

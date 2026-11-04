@@ -1,8 +1,8 @@
 # III qism — tana xaritasi va haqiqiy interaktiv qamrov
 
-2026-11-04. 2024 qayta ishlangan 2-nashr; ISBN 978-9943-9706-5-6.
-37 matnli mavzu, 20 lokal dars, 17 qolgan. Butun kitob to‘liq tayyor emas.
-Barcha chegaralar sarlavha/bosma sahifa tasvirida; faqat tayyorlar to‘liq o‘qilgan.
+2026-11-04. 2024 qayta ishlangan 2-nashr; ISBN978-9943-9706-5-6.
+37 matnli mavzu, 25 lokal dars, 12 qolgan. Butun kitob/kurs tayyor deb belgilanmagan.
+Barcha chegaralar tasvirda tekshirildi; to‘liq tana review faqat authored qatorlarda.
 
 | Manba № | Path | Mavzu | PDF | Bosma | Interaktiv |
 |---|---|---|---|---|---|
@@ -26,11 +26,11 @@ Barcha chegaralar sarlavha/bosma sahifa tasvirida; faqat tayyorlar to‘liq o‘
 |20|18|Taqqoslashga doir masalalar|40–41|38–39|lokal tayyor|
 |21|19|Taqqoslashga doir masalalar|42–43|40–41|lokal tayyor|
 |22|20|Murakkab masalalar yechish|44–45|42–43|lokal tayyor|
-|23|21|Shartni yetishmayotgan ma’lumotlar bilan to‘ldirish|46–47|44–45|yo‘q, tana review kerak|
-|24|22|Nostandart masalalar|48–49|46–47|yo‘q, tana review kerak|
-|25|23|Ikki amalli masalalar yechish|50–51|48–49|yo‘q, tana review kerak|
-|26|24|Murakkab masalalar|52–53|50–51|yo‘q, tana review kerak|
-|30|25|Uzunlik. Santimetr|54–55|52–53|yo‘q, tana review kerak|
+|23|21|Shartni yetishmayotgan ma’lumotlar bilan to‘ldirish|46–47|44–45|lokal tayyor|
+|24|22|Nostandart masalalar|48–49|46–47|lokal tayyor|
+|25|23|Ikki amalli masalalar yechish|50–51|48–49|lokal tayyor|
+|26|24|Murakkab masalalar|52–53|50–51|lokal tayyor|
+|30|25|Uzunlik. Santimetr|54–55|52–53|lokal tayyor|
 |31|26|Kesmalarni o‘lchash|56–57|54–55|yo‘q, tana review kerak|
 |32|27|Santimetr. Detsimetr|58–59|56–57|yo‘q, tana review kerak|
 |33|28|Detsimetr bilan santimetr orasidagi o‘zaro bog‘lanish|60–61|58–59|yo‘q, tana review kerak|
@@ -44,8 +44,6 @@ Barcha chegaralar sarlavha/bosma sahifa tasvirida; faqat tayyorlar to‘liq o‘
 |41|36|Kattaliklar va ularning xossalari|76–77|74–75|yo‘q, tana review kerak|
 |42|37|Masalalar yechish|78–79|76–77|yo‘q, tana review kerak|
 
-Mundarija PDF80–81: 12–13,27–28 nazorat, yana28 o‘yin,43–44 nazorat,45 o‘yin — 5 schedule-only qator; alohida tanasi/ready darsi yo‘q. 29 to‘qilmaydi. Tana sahifalari uzluksiz.
-
-II74 yo‘qligi saqlanadi. Explicit lokal QA ko‘prigi faqat all73 va aniq source SHA bilan; missing74 uchun 0 progress/XP. Oddiy rejim yopiq.
-
-[Muhim texnika va testlar](checkpoints/grade1_part3_batch4.json). Keyingi source23 / path21 / PDF46–47.
+5 control/game schedule-only qator tayyor dars emas. TOC81 o‘yin28, PDF53/bosma51footer o‘yin29 deydi; ikkala yozuv qayd etilgan. Alohida29tana yaratilmagan.
+II74manbasi yo‘q; explicit localQA ko‘prigi oldingi73mavjud darsdan keyin ishlaydi, missing74ga XP/progress bermaydi.
+[Checkpoint](checkpoints/grade1_part3_batch5.json).

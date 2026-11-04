@@ -33,6 +33,11 @@ EXPLORERS = {
     "comparison_picture_counts",
     "comparison_same_symbol",
     "compound_linked_steps",
+    "problem_missing_information",
+    "problem_unordered_pairs",
+    "problem_related_total",
+    "problem_weekday_reasoning",
+    "measurement_centimetre",
     "tens_units_20",
     "number_pairs_12",
     "number_pairs_14",
@@ -203,6 +208,7 @@ BATCHES = [
     ("grade1_part3_batch2.json", "grade1_part3_batch2_review.json"),
     ("grade1_part3_batch3.json", "grade1_part3_batch3_review.json"),
     ("grade1_part3_batch4.json", "grade1_part3_batch4_review.json"),
+    ("grade1_part3_batch5.json", "grade1_part3_batch5_review.json"),
 ]
 
 

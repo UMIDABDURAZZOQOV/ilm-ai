@@ -154,6 +154,19 @@ def audit(source_directory):
         ),
         "math_part3_unreviewed_or_scheduled_content_invented",
     )
+    game = next(
+        t
+        for t in third["scheduled_activities_without_body"]
+        if t["kind"] == "game" and t["source_numbers"] == [28]
+    )
+    require(
+        game.get("body_footer_source_numbers") == [29]
+        and game.get("body_footer_pdf_page") == 53
+        and game.get("body_footer_printed_page") == 51
+        and not game["ready"]
+        and game["body_pdf_locator"] is None,
+        "math_publisher_game_label_discrepancy_hidden",
+    )
     with fitz.open(paths[third["book_id"]]) as pdf:
         checks = third["additional_image_checks"] + [
             p for t in third["topics"] for p in t["boundary_pins"]
