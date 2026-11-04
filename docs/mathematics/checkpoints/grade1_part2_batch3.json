@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-04",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "704a9cd",
+  "previous_flutter_commit": "cf5c581",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 56,
+    "cards": 320,
+    "questions": 408,
+    "examples": 56,
+    "worked_steps": 168,
+    "notation_entries": 74,
+    "phases": {
+      "guided": 204,
+      "mcq": 56,
+      "frq": 56,
+      "transfer": 92
+    }
+  },
+  "first_book": "41/41_frozen",
+  "second_book": {
+    "authored": 15,
+    "toc_sections": 33,
+    "available_bodies": 32,
+    "remaining_available": 17,
+    "blocked": 1
+  },
+  "full_topic_total": null,
+  "tests": {
+    "math": "80 passed,1 skipped in76.28s",
+    "postgres": "1 passed in16.94s",
+    "flutter_math": "95 passed in1:08",
+    "analyze": "0issue1.7s"
+  },
+  "prior_scoped_results": {
+    "flutter_full": "457 passed at previous batch",
+    "protected": "46 passed95.30s at previous batch"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 56,
+    "reviewed_body_pages": 112,
+    "interactive_lessons": 56,
+    "theory_cards": 320,
+    "questions": 408,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_pending_toc_units": 33,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "log_sha256": {
+    "math": "a466176a357ba933c3bec6eeed474757098c16ebc1c04caafd680e5c6ce3672e",
+    "postgres": "b2db17ab6e1520dc8013a5d84e048d339ecdcae4658436d6d21739cdb58fe458",
+    "flutter_math": "606dfa8e46ebef51411461a9e83df0041ba44c9357040bda379b250c6c7181c5",
+    "analyze": "8f2e8a552a3c3b2e35f3ec625d7151be10c735ed1dd886ca2ea0c89a6de319b4"
+  },
+  "next": {
+    "grade": 1,
+    "part": 2,
+    "source_number": 57,
+    "title": "O‘nlikdan ayirish usuli",
+    "pdf_pages": [
+      35,
+      36
+    ],
+    "printed_pages": [
+      34,
+      35
+    ],
+    "status": "images_read_not_imported"
+  },
+  "android": "not_tested_SDK_absent",
+  "teacher_review": "not_verified",
+  "pilot": "not_verified"
+}

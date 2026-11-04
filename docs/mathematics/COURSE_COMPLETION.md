@@ -1,5 +1,26 @@
 # Matematika kursi — hali tugallanmagan
 
+## 2026-11-04 — II qism52–56: jami56 dars
+
+I qism41/41 saqlangan; II qism42–56dan15dars. Yangi5dars30karta/5originalmisolning15qadami/40topshiriq/10sonli tenglik. Jami56dars,320karta,408topshiriq,56misol/168qadam,74sonli tenglik. To‘liq1–11kurs hali tugamagan, umumiy mavzu soni noma’lum; faqat lokal test.
+
+| № | Mavzu | PDF | Bosma |
+|---|---|---|---|
+|52|O‘nlikdan o‘tib qo‘shish — to‘ldirish|25–26|24–25|
+|53|O‘nlikdan o‘tib qo‘shish — qo‘llash|27–28|26–27|
+|54|O‘nlikdan o‘tib qo‘shish — qadam/guruhlar|29–30|28–29|
+|55|Sonlarni ayirish|31–32|30–31|
+|56|Sonlarni bo‘laklab ayirish|33–34|32–33|
+
+Asl tasvir va native-text pinlari tekshirildi; har kontent birligida manba bor. Original masalalarda sig‘im va massalar bir xilkgda, yo‘l davomiyligi kelishdagi soatdan farqlanadi, sug‘orish puzzle aniq12joyli ro‘yxatga aylantirildi, kesishgan ro‘yxatdagi bir joy qayta sanalmaydi. Sana masalasi ayni vaqtdagi aniq kun oralig‘i bilan yozildi. Ko‘lmak qurishidan ob-havo taxmin qilinmadi; kun/tun uzunligi universal fakt emas, berilgan jadval sifatida ishlatildi. Transportning tabiatga umuman zararsizligi kabi umumlashma kiritilmadi.
+
+Flutterda o‘nlikka to‘ldirish, yo‘l qadamlari, o‘nlikni saqlab birliklardan ayirish va10orqali bo‘laklab ayirishning5modeli. Ikkinchi sonning ikkala qismi bir martadan ishlatiladi, model misoli o‘zgarsa qadam qayta boshlanadi. Original nuqtali guruhlar to‘liq o‘nlikka birlashadi; boshlanish joyi0qadam semantikasi bilan farqlanadi. Brend/Ilmo va servergrading/progress saqlangan.
+
+Math **80passed,1skipped76.28s**; alohida ownPG16 **1passed16.94s**; Flutter Math **95passed1:08**; analyze **0issue1.7s**. Yangi5to‘liq oqim320px/200%matn/ReduceMotionda.137oldXP→697/56progress; boshqaUIDXP0; replay0/parallel firstreward/immutableimport o‘tdi. Oldingi Iqism tengliktesti partlocal11raqamini IIqism11bilan adashtirishi aniqlandi: test haqiqiygrade1/part1koordinatasiga scoped qilindi; javob yoki kontent o‘zgartirilmadi. Barcha yangi sonli literal javob va noto‘g‘ri alternativalar testlandi.23PDF/2958sahifa,56mavzu/112tana sahifasi hash auditi. To‘liq Flutter457 va himoya46natijalari oldingi47–51checkpointniki; bu partiyada takror bajarilmadi.
+
+Oldingi checkpointlar GitHubda backend`704a9cd`/Flutter`cf5c581`. Keyingi57«O‘nlikdan ayirish usuli»PDF35–36/bosma34–35;57–61PDF35–44tasvirlari o‘qildi, bu checkpointda import qilinmagan. IIqism17mavjudbodyqolgan,74ning bosma68–69sahifalari manbasizblocked. Android/pedagog/pilot/rasmiydastur hali not_verified. Frontend, normalapp/auth, Gradle, boshqafanlar va production o‘zgarmadi. [Dalil](checkpoints/grade1_part2_batch3.json).
+
+
 ## 2026-11-04 — II qism47–51: jami51 dars
 
 I qism41/41 muzlatilgan, II qism42–51dan10 dars tayyor. Yangi partiya30 karta,5original misol/15qadam,40topshiriq va9sonli tenglik; jami51dars,290karta,368topshiriq. Hali butun1–11kurs tugallanmagan, jami mavzular soni noma’lum. Faqat lokal test.

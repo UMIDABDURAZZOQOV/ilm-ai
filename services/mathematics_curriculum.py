@@ -22,6 +22,11 @@ EXPLORERS = {
     "compare_place_value_20",
     "brackets_single",
     "brackets_double",
+    "bridge_ten_intro",
+    "bridge_ten_apply",
+    "bridge_ten_line",
+    "subtract_units_20",
+    "subtract_bridge_ten",
     "missing_subtrahend",
     "inverse_family",
     "commutative",
@@ -156,6 +161,7 @@ BATCHES = [
     ("grade1_part1_batch8.json", "grade1_part1_batch8_review.json"),
     ("grade1_part2_batch1.json", "grade1_part2_batch1_review.json"),
     ("grade1_part2_batch2.json", "grade1_part2_batch2_review.json"),
+    ("grade1_part2_batch3.json", "grade1_part2_batch3_review.json"),
 ]
 
 

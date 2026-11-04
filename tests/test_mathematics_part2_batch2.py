@@ -42,8 +42,8 @@ def test_ten_second_book_lessons_preserve_first_book_rewards_and_replay(preview)
         assert finish_new(client, n)[-1]["xp_awarded"] == 10
     assert finish_new(client, 51)[-1]["xp_awarded"] == 0
     catalog = client.get(earlier.first.P + "/catalog", params={"part": 2}).json()
-    assert [l["source_number"] for l in catalog["lessons"]] == list(range(42, 52))
-    assert all(l["state"] == "completed" for l in catalog["lessons"])
+    assert [l["source_number"] for l in catalog["lessons"][:10]] == list(range(42, 52))
+    assert all(l["state"] == "completed" for l in catalog["lessons"][:10])
     with factory() as db:
         assert db.get(User, 1).xp_total == 647 and db.get(User, 2).xp_total == 0
         assert db.query(MathProgress).count() == 51

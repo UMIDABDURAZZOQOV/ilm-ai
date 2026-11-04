@@ -94,7 +94,9 @@ def test_all_written_equalities_are_true_with_independent_integer_arithmetic():
     # These four taught examples are authored independently of the parser.
     expected = {11: ["2 + 1 = 3"], 12: ["4 − 1 = 3"], 15: ["1 + 1 = 2", "2 − 1 = 1"]}
     for lesson in load_course():
-        if lesson["sequence"] in expected:
+        if (lesson["grade"], lesson["part"]) == (1, 1) and lesson[
+            "sequence"
+        ] in expected:
             assert [f["expression"] for f in lesson["formulas"]] == expected[
                 lesson["sequence"]
             ]
