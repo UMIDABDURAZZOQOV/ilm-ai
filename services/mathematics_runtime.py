@@ -9,7 +9,7 @@ from copy import deepcopy
 from datetime import timedelta
 
 from fastapi import HTTPException
-from sqlalchemy import inspect, update
+from sqlalchemy import func, inspect, update
 from sqlalchemy.exc import IntegrityError
 
 from services.mathematics_curriculum import digest, manifest, staging_url
@@ -40,6 +40,49 @@ def preview_gate(db):
         raise HTTPException(503, "mathematics_preview_schema_not_installed")
 
 
+def available_books(db):
+    """Only imported preview books; never expose unreviewed TOC-only courses."""
+    sources = {(b["grade"], b["part"]): b for b in manifest()["books"]}
+    result = []
+    for grade, part, count in (
+        db.query(MathLesson.grade, MathLesson.part, func.count(MathLesson.key))
+        .group_by(MathLesson.grade, MathLesson.part)
+        .order_by(MathLesson.grade, MathLesson.part)
+    ):
+        source = sources[(grade, part)]
+        roman = {1: "I", 2: "II", 3: "III", 4: "IV"}.get(part, str(part))
+        result.append(
+            {
+                "book_id": source["book_id"],
+                "grade": grade,
+                "part": part,
+                "label": f"{grade}-sinf · {roman} qism",
+                "bibliography": source.get("bibliography", {}),
+                "implemented_sections": count,
+                "source_gaps": source.get("source_gaps", []),
+            }
+        )
+    return result
+
+
+def previous_book_complete(db, completed, grade, part):
+    if part == 1:
+        return True
+    source = next(
+        (
+            b
+            for b in manifest()["books"]
+            if (b["grade"], b["part"]) == (grade, part - 1)
+        ),
+        None,
+    )
+    expected = source.get("topic_count") if source else None
+    if not expected:
+        return False
+    rows = db.query(MathLesson.key).filter_by(grade=grade, part=part - 1).all()
+    return len(rows) == expected and all(key in completed for (key,) in rows)
+
+
 def catalog(db, uid, grade=1, part=1):
     rows = (
         db.query(MathLesson)
@@ -48,7 +91,9 @@ def catalog(db, uid, grade=1, part=1):
         .all()
     )
     completed = {p.lesson_key for p in db.query(MathProgress).filter_by(user_id=uid)}
-    ready = True
+    previous_ready = previous_book_complete(db, completed, grade, part)
+    ready = previous_ready
+    books = available_books(db)
     lessons = []
     for index, lesson in enumerate(rows, 1):
         ready = ready and lesson.sequence == index
@@ -58,6 +103,7 @@ def catalog(db, uid, grade=1, part=1):
                 "key": lesson.key,
                 "title": lesson.document["title"],
                 "sequence": lesson.sequence,
+                "source_number": lesson.document.get("source_number", lesson.sequence),
                 "state": "completed" if done else "available" if ready else "locked",
                 "source_refs": lesson.document["source_refs"],
             }
@@ -72,6 +118,11 @@ def catalog(db, uid, grade=1, part=1):
         "course_ready": False,
         "full_topic_count": None,
         "implemented_sections": len(rows),
+        "available_books": books,
+        "book": next(
+            (b for b in books if (b["grade"], b["part"]) == (grade, part)), None
+        ),
+        "previous_book_complete": previous_ready,
         "blocked_sources": manifest()["blocked_sources"],
         "lessons": lessons,
     }
@@ -136,16 +187,18 @@ def start(db, uid, key, request_id):
     lesson = db.get(MathLesson, key)
     if not lesson or db.get(User, uid) is None:
         raise HTTPException(404, "lesson_or_user_not_found")
+    course = catalog(db, uid, lesson.grade, lesson.part)
     state = next(
-        (
-            l["state"]
-            for l in catalog(db, uid, lesson.grade, lesson.part)["lessons"]
-            if l["key"] == key
-        ),
+        (l["state"] for l in course["lessons"] if l["key"] == key),
         "locked",
     )
     if state == "locked":
-        raise HTTPException(403, "finish_previous_lesson")
+        raise HTTPException(
+            403,
+            "finish_previous_lesson"
+            if course["previous_book_complete"]
+            else "finish_previous_book",
+        )
     row = MathAttempt(
         id=sid,
         user_id=uid,

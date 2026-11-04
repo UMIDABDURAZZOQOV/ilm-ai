@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-04",
+  "branch": "feat/mathematics-curriculum",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 46,
+    "cards": 260,
+    "questions": 328,
+    "examples": 46,
+    "worked_steps": 138,
+    "notation_entries": 55,
+    "phases": {
+      "guided": 164,
+      "mcq": 46,
+      "frq": 46,
+      "transfer": 72
+    },
+    "response_kinds": {
+      "choice": 122,
+      "short_text": 24,
+      "exact_number": 174,
+      "ordering": 8
+    }
+  },
+  "first_book": "41/41_frozen",
+  "second_book": {
+    "authored": 5,
+    "toc_sections": 33,
+    "available_bodies": 32,
+    "remaining_available": 27,
+    "source_gap": {
+      "source_number": 74,
+      "printed_pages": [
+        68,
+        69
+      ]
+    }
+  },
+  "tests": {
+    "math": "67 passed, 1 skipped in42.08s",
+    "postgres": "1 passed in11.93s",
+    "flutter_full": "449 passed in1min47s",
+    "analyze": "No issues found in1.7s",
+    "targeted_flutter": "22 passed in10s"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 46,
+    "reviewed_body_pages": 92,
+    "interactive_lessons": 46,
+    "theory_cards": 260,
+    "questions": 328,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_pending_toc_units": 33,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "next": {
+    "grade": 1,
+    "part": 2,
+    "source_number": 47,
+    "title": "17 va18 sonlari",
+    "pdf_pages": [
+      15,
+      16
+    ],
+    "printed_pages": [
+      14,
+      15
+    ],
+    "status": "source_images_read_not_imported"
+  },
+  "full_course_total": null,
+  "android": "not_tested_SDK_absent",
+  "independent_teacher_review": "not_verified",
+  "pilot": "not_verified",
+  "official_curriculum_2026_2027": "not_verified",
+  "log_sha256": {
+    "math": "8492c549a3f156465bd02ee057dcdddfe7609a4cda595bc4904020d5fac3a4ab",
+    "postgres": "bfca35201cadc137d8e4434c162ab17cb1fae24847025734cf43b9360ebce64f",
+    "flutter_full": "7b4c86f2695485bbf5a597cd53c42f932bda8c3eb46bda6212693e144a7e625c",
+    "analyze": "8f2e8a552a3c3b2e35f3ec625d7151be10c735ed1dd886ca2ea0c89a6de319b4"
+  }
+}

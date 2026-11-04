@@ -40,11 +40,32 @@ def audit(source_directory):
     review = json.loads((ROOT / "grade1_part1_review.json").read_text())
     from services.mathematics_curriculum import BATCHES
 
+    reviews = [json.loads((ROOT / filename).read_text()) for _, filename in BATCHES]
     review["topics"] = [
         topic
-        for _, filename in BATCHES
-        for topic in json.loads((ROOT / filename).read_text())["topics"]
+        for entry in reviews
+        if entry["book_id"] == review["book_id"]
+        for topic in entry["topics"]
     ]
+    for entry in reviews:
+        if entry["book_id"] == review["book_id"]:
+            continue
+        with fitz.open(paths[entry["book_id"]]) as pdf:
+            for topic in entry["topics"]:
+                for saved in topic["pages"]:
+                    page = pdf[saved["pdf_page"] - 1]
+                    require(
+                        hashlib.sha256(page.get_text().encode()).hexdigest()
+                        == saved["native_text_sha256"],
+                        "math_reviewed_text_changed",
+                    )
+                    require(
+                        hashlib.sha256(
+                            page.get_pixmap(matrix=fitz.Matrix(1.3, 1.3)).tobytes("png")
+                        ).hexdigest()
+                        == saved["image_sha256"],
+                        "math_reviewed_image_changed",
+                    )
     with fitz.open(paths[review["book_id"]]) as pdf:
         for topic in review["topics"]:
             for page in topic["pages"]:
@@ -83,6 +104,11 @@ def audit(source_directory):
         page["pdf_page"] for topic in review["topics"] for page in topic["pages"]
     } | {page["pdf_page"] for page in mapping["additional_image_checks"]}
     pending = json.loads((ROOT / "grade1_part2_map.json").read_text())
+    require(
+        pending["authored_lessons"]
+        == sum(l["source_refs"][0]["book_id"] == pending["book_id"] for l in lessons),
+        "math_map_authored_count_changed",
+    )
     with fitz.open(paths[pending["book_id"]]) as pdf:
         for saved in pending["additional_image_checks"]:
             page = pdf[saved["pdf_page"] - 1]
@@ -107,8 +133,10 @@ def audit(source_directory):
     return {
         "available_pdfs": len(paths),
         "available_pages": sum(b["pdf_pages"] for b in catalog["books"]),
-        "body_image_reviewed_topics": len(review["topics"]),
-        "reviewed_body_pages": sum(len(t["pages"]) for t in review["topics"]),
+        "body_image_reviewed_topics": sum(len(r["topics"]) for r in reviews),
+        "reviewed_body_pages": sum(
+            len(t["pages"]) for r in reviews for t in r["topics"]
+        ),
         "interactive_lessons": len(lessons),
         "theory_cards": sum(len(l["cards"]) for l in lessons),
         "questions": sum(len(l["questions"]) for l in lessons),

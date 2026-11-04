@@ -74,7 +74,7 @@ def test_first_book_all_forty_one_results_and_replay(preview):
 
 
 def test_first_book_has_exact_source_order_and_no_duplicate_scan_lessons():
-    lessons = load_course()
+    lessons = [l for l in load_course() if (l["grade"], l["part"]) == (1, 1)]
     assert [l["sequence"] for l in lessons] == list(range(1, 42))
     assert lessons[-1]["title"] == "Ifodalar"
     cited = {p for l in lessons for p in l["source_refs"][0]["pdf_pages"]}

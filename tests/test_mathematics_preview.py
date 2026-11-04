@@ -145,7 +145,7 @@ def test_five_lessons_literal_keys_preserve_balance_streak_reopen_and_replay(
     monkeypatch.setattr(runtime, "utcnow", lambda: now)
     cat = client.get(P + "/catalog").json()
     assert [l["state"] for l in cat["lessons"]] == ["available"] + ["locked"] * (
-        len(load_course()) - 1
+        sum((l["grade"], l["part"]) == (1, 1) for l in load_course()) - 1
     )
     assert not cat["course_ready"] and cat["full_topic_count"] is None
     assert (
@@ -306,7 +306,7 @@ def test_immutable_import_and_model_mismatch(preview):
     with factory.begin() as db, pytest.raises(ValueError, match="revision_change"):
         import_course(db)
     course = load_course()
-    assert len(course) == 41 and sum(len(l["questions"]) for l in course) == 288
+    assert len(course) == 46 and sum(len(l["questions"]) for l in course) == 328
     q = deepcopy(course[3]["questions"][-1])
     assert model_answer(q["public"], q["grading"]["model_rule"]) == "4"
     q["public"]["visual"]["items"].pop()

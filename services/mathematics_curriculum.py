@@ -13,6 +13,10 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "tens_units_20",
+    "number_pairs_12",
+    "number_pairs_14",
+    "number_pairs_16",
     "missing_subtrahend",
     "inverse_family",
     "commutative",
@@ -131,6 +135,8 @@ def load_course():
         lessons.extend(validate_document(document, review))
     keys = [l["key"] for l in lessons]
     require(len(keys) == len(set(keys)), "duplicate_math_lesson_across_batches")
+    coordinates = [(l["grade"], l["part"], l["sequence"]) for l in lessons]
+    require(len(coordinates) == len(set(coordinates)), "duplicate_math_sequence")
     return sorted(lessons, key=lambda l: (l["grade"], l["part"], l["sequence"]))
 
 
@@ -143,6 +149,7 @@ BATCHES = [
     ("grade1_part1_batch6.json", "grade1_part1_batch6_review.json"),
     ("grade1_part1_batch7.json", "grade1_part1_batch7_review.json"),
     ("grade1_part1_batch8.json", "grade1_part1_batch8_review.json"),
+    ("grade1_part2_batch1.json", "grade1_part2_batch1_review.json"),
 ]
 
 
@@ -188,7 +195,9 @@ def validate_document(document, review):
             "math_lesson_contract",
         )
         require(
-            lesson["sequence"] >= 11 or lesson["formulas"] == [],
+            (lesson["grade"], lesson["part"]) != (1, 1)
+            or lesson["sequence"] >= 11
+            or lesson["formulas"] == [],
             "early_properties_need_no_artificial_formulas",
         )
         from services.mathematics_grading import exact_number
