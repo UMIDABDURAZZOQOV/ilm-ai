@@ -32,6 +32,11 @@ EXPLORERS = {
     "hundred_chart",
     "place_value_100",
     "abacus_100",
+    "compare_place_value_100",
+    "two_digit_addition",
+    "two_digit_missing_addend",
+    "two_digit_subtraction",
+    "two_digit_inverse",
     "missing_subtrahend",
     "inverse_family",
     "commutative",
@@ -168,6 +173,7 @@ BATCHES = [
     ("grade1_part2_batch2.json", "grade1_part2_batch2_review.json"),
     ("grade1_part2_batch3.json", "grade1_part2_batch3_review.json"),
     ("grade1_part2_batch4.json", "grade1_part2_batch4_review.json"),
+    ("grade1_part2_batch5.json", "grade1_part2_batch5_review.json"),
 ]
 
 

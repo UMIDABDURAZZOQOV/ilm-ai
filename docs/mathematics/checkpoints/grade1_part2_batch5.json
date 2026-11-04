@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-04",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "049d777",
+  "previous_flutter_commit": "42b333e",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 68,
+    "cards": 392,
+    "questions": 504,
+    "examples": 68,
+    "worked_steps": 204,
+    "notation_entries": 96,
+    "phases": {
+      "guided": 252,
+      "mcq": 68,
+      "frq": 68,
+      "transfer": 116
+    }
+  },
+  "first_book": "41/41_frozen",
+  "second_book": {
+    "authored": 27,
+    "toc_sections": 33,
+    "available_bodies": 32,
+    "remaining_available": 5,
+    "blocked": 1
+  },
+  "full_topic_total": null,
+  "tests": {
+    "math": "94 passed,1 skipped in86.00s",
+    "postgres": "1 passed in19.84s",
+    "flutter_math": "113 passed in1:19",
+    "analyze": "0issue1.9s"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 68,
+    "reviewed_body_pages": 136,
+    "interactive_lessons": 68,
+    "theory_cards": 392,
+    "questions": 504,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_pending_toc_units": 33,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "log_sha256": {
+    "math": "a55159b6ac1dfea0ec1c55ff2e45506bf84bdeb06469ca162b0f027fa7f68e6e",
+    "postgres": "888299ce388e578ce1d31a170add78015f23a637896e0d20b71e681b84d3e0d9",
+    "flutter_math": "e1d9c5ee9f43bfee7d60dca1df515ca734450b1077bc8c36602bb3ec8e01811b",
+    "analyze": "d4316c01fb25cfa0f849ffc414e8e2217b5cc31f3f7a3551d4959f5e9b3eba06"
+  },
+  "next": {
+    "grade": 1,
+    "part": 2,
+    "source_number": 69,
+    "title": "Qo‘shish bilan ayirish orasidagi bog‘lanish",
+    "pdf_pages": [
+      59,
+      60
+    ],
+    "printed_pages": [
+      58,
+      59
+    ],
+    "status": "images_read_not_imported"
+  },
+  "android": "not_tested_SDK_absent",
+  "teacher_review": "not_verified",
+  "pilot": "not_verified"
+}

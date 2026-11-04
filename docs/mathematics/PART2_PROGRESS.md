@@ -1,5 +1,30 @@
 # Matematika II qism — joriy davom
 
+## 2026-11-04 — II qism62–68: jami68 dars
+
+I qism41/41 o‘zgarmagan; II qism42–68dan27dars. Yangi7dars42karta/7originalmisolning21qadami/56topshiriq/12sonli tenglik. Jami68dars,392karta,504topshiriq,68misol/204qadam va96sonli tenglik. Butun1–11kurs hali tugallanmagan, umumiy mavzu soni noma’lum. Faqat lokal test.
+
+| № | Mavzu | PDF | Bosma |
+|---|---|---|---|
+|62|Ikki xonali sonlarni taqqoslash|45–46|44–45|
+|63|Ikki xonali sonlarni qo‘shish — xona usuli|47–48|46–47|
+|64|Ikki xonali sonlarni qo‘shish — guruh/zanjir|49–50|48–49|
+|65|Ikki xonali sonlarni qo‘shish — shart/noma’lum|51–52|50–51|
+|66|Ikki xonali sonlarni ayirish — xona usuli|53–54|52–53|
+|67|Ikki xonali sonlarni ayirish — qolgan miqdor|55–56|54–55|
+|68|Ikki xonali sonlarni ayirish — teskari oila|57–58|56–57|
+
+Hamma asl tasvirlar va native-text pinlari tekshirildi. Bir xil nomli mavzular qayta nomlangan soxta darslar emas: har biri o‘zining haqiqiy raqami/sahifasi hamda xona usuli, guruh sharti, noma’lum qo‘shiluvchi, qo‘shish/ayirish zanjiri yoki teskari bog‘lanish maqsadiga ega. Ikki xonali qo‘shish misollari birliklar yig‘indisi10dan kichik; ayirishda birliklar yetarli. Umumiy qoida yangi o‘nlik/borrowholatiga asossiz yoyilmadi. Normal parser umumiyCAS deb ko‘rsatilmaydi.
+
+Mantiqiy shartlar aniq: qo‘shni ichki oraliqlar, ikki to‘liq rangli guruh, o‘yin navbati va faqat berilgan og‘irlik munosabati. Dori/termometr/kimyoviy idishlar haqidagi puzzle bolaga tibbiy yoki kimyoviy ko‘rsatma bo‘lib berilmadi. Dinozavrlar ratsionini o‘txo‘r/yirtqich bilan sun’iy to‘liq ikkiga bo‘lish o‘rniga aniq ikki rangli belgilar ishlatildi. Amaldagi do‘kon narxlari yoki yangi mahsulot valyutasi yaratilmagan; original belgi zaxirasi masalasi ishlatilgan.
+
+Flutter:10–99taqqoslash, xonalar bo‘yicha bosqichli qo‘shish/ayirish, oldinga qo‘shish bilan noma’lumni topish va teskari4tenglik modeli.99li modeldan11–20ga qaytganda qiymatlar16/13ga tiklanadi; slider diapazoni buzilmaydi. Mashq/Ilmo/brend, serverbaholashi va progress saqlangan.
+
+Math **94passed,1skipped86.00s**; ownloopbackPG16 **1passed19.84s**; Flutter Math **113passed1:19**; analyze **0issue1.9s**.7yangi oqim320px/200%matn/ReduceMotionda, literalto‘g‘ri/noto‘g‘ri javoblar/ordering/UUIDreplay tekshirildi. UID1old137XP→817/68progress, UID2XP0; replay0/parallel firstreward/immutableimport.23PDF/2958sahifa,68mavzu/136tanasahifasi sourceauditi. To‘liq Flutter472/web33.5s oldingi57–61checkpointniki, himoya46undan avvalgi natija; bu partiyada takrorlanmagan. Yangi to‘liq backend natijasi da’vo qilinmaydi.
+
+Oldingi checkpoint GitHubda backend`049d777`/Flutter`42b333e`. Keyingi69«Qo‘shish bilan ayirish orasidagi bog‘lanish»PDF59–60/bosma58–59.69–73PDF59–68tasvirlari ko‘rildi; bu checkpointda import qilinmagan. IIqismda faqat5mavjudbodyqolgan,74bosma68–69manbasizblocked. Android/pedagog/pilot/rasmiydastur tekshiruvi yo‘q. Frontend/auth/Gradle/boshqa fanlar/production o‘zgarmadi. [Dalil](checkpoints/grade1_part2_batch5.json).
+
+
 ## 2026-11-04 — II qism57–61: jami61 dars
 
 I qism41/41 saqlangan; II qism42–61dan20dars. Yangi5dars30karta/5originalmisolning15qadami/40topshiriq/10sonli tenglik. Jami61dars,350karta,448topshiriq,61misol/183qadam,84sonli tenglik. To‘liq1–11kurs hali tugamagan, umumiy mavzu soni noma’lum; faqat lokal test.
