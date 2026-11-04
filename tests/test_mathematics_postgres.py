@@ -27,6 +27,7 @@ from test_mathematics_part3_batch4 import finish_new as finish_third_fourth
 from test_mathematics_part3_batch5 import finish_new as finish_third_fifth
 from test_mathematics_part3_batch6 import finish_new as finish_third_sixth
 from test_mathematics_part3_batch7 import finish_new as finish_third_seventh
+from test_mathematics_part4 import finish_fourth
 from test_mathematics_preview import P, finish, make_preview
 from test_mathematics_preview import (
     test_parallel_first_completions_award_only_once as check_parallel,
@@ -134,9 +135,21 @@ def test_math_postgres_immutable_import_first_book_and_parallel_reward(monkeypat
             assert not third["previous_book_complete"]
             assert third["source_gap_bridge"]["missing_source_numbers"] == [74]
             assert all(l["state"] == "completed" for l in third["lessons"])
+            monkeypatch.setenv("MATHEMATICS_QA_PART3_SCHEDULE_BRIDGE", "false")
+            assert not client.get(P + "/catalog", params={"part": 4}).json()[
+                "previous_book_navigation_ready"
+            ]
+            monkeypatch.setenv("MATHEMATICS_QA_PART3_SCHEDULE_BRIDGE", "true")
+            for number in range(112, 117):
+                assert finish_fourth(client, number)[-1]["xp_awarded"] == 10
+            assert finish_fourth(client, 116)[-1]["xp_awarded"] == 0
+            fourth = client.get(P + "/catalog", params={"part": 4}).json()
+            assert not fourth["previous_book_complete"]
+            assert fourth["source_gap_bridge"]["schedule_only_rows_not_completed"] == 5
+            assert all(l["state"] == "completed" for l in fourth["lessons"])
         with factory.begin() as db:
-            assert db.get(User, 1).xp_total == 1237 and db.get(User, 2).xp_total == 0
-            assert import_course(db) == {"created": 0, "skipped": 110}
+            assert db.get(User, 1).xp_total == 1287 and db.get(User, 2).xp_total == 0
+            assert import_course(db) == {"created": 0, "skipped": 115}
     finally:
         engine.dispose()
         with admin.begin() as connection:

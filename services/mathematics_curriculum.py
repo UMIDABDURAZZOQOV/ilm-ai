@@ -13,6 +13,11 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "geometry_ruler_interval",
+    "geometry_construct_segment",
+    "geometry_segment_partition",
+    "geometry_polyline_length",
+    "geometry_polygon_boundary",
     "problem_parts",
     "problem_algorithm",
     "problem_part_whole",
@@ -223,6 +228,7 @@ BATCHES = [
     ("grade1_part3_batch5.json", "grade1_part3_batch5_review.json"),
     ("grade1_part3_batch6.json", "grade1_part3_batch6_review.json"),
     ("grade1_part3_batch7.json", "grade1_part3_batch7_review.json"),
+    ("grade1_part4_batch1.json", "grade1_part4_batch1_review.json"),
 ]
 
 
@@ -231,10 +237,12 @@ def validate_document(document, review):
     require(review["book_sha256"] == source["sha256"], "math_source_sha_mismatch")
     topics = {t["topic_id"]: t for t in review["topics"]}
     body_map = None
-    if review["book_id"] == "math-uz-g1-p3":
+    if review["book_id"] in {"math-uz-g1-p3", "math-uz-g1-p4"}:
         body_map = {
             t["topic_id"]: t
-            for t in json.loads((ROOT / "grade1_part3_map.json").read_text())["topics"]
+            for t in json.loads(
+                (ROOT / f"grade1_part{source['part']}_map.json").read_text()
+            )["topics"]
         }
     require(len(topics) == len(review["topics"]), "duplicate_math_review_topic")
     seen = set()

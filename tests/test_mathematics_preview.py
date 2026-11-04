@@ -306,7 +306,7 @@ def test_immutable_import_and_model_mismatch(preview):
     with factory.begin() as db, pytest.raises(ValueError, match="revision_change"):
         import_course(db)
     course = load_course()
-    assert len(course) == 110 and sum(len(l["questions"]) for l in course) == 840
+    assert len(course) == 115 and sum(len(l["questions"]) for l in course) == 880
     q = deepcopy(course[3]["questions"][-1])
     assert model_answer(q["public"], q["grading"]["model_rule"]) == "4"
     q["public"]["visual"]["items"].pop()

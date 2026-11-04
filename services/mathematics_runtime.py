@@ -140,6 +140,73 @@ def qa_source_gap_bridge(db, completed, grade, part):
     }
 
 
+def qa_part3_schedule_bridge(db, completed, grade, part):
+    """Explicit local IV QA after all37 III bodies, never finish controls/games.
+
+    The supplied III2024 and IV2023 editions have different numbering. This
+    narrowly scoped navigation policy completes neither missingII74 nor the
+    five III schedule-only rows. It requires both reviewed earlier books and
+    both server-only flags; the client cannot grant this exception.
+    """
+    if (grade, part) != (1, 4) or os.getenv(
+        "MATHEMATICS_QA_PART3_SCHEDULE_BRIDGE", ""
+    ).lower() != "true":
+        return None
+    earlier = qa_source_gap_bridge(db, completed, 1, 3)
+    if earlier is None:
+        return None  # Also checks environment, staging URL, flags, all73.
+    source = next(b for b in manifest()["books"] if b["book_id"] == "math-uz-g1-p3")
+    target = next(b for b in manifest()["books"] if b["book_id"] == "math-uz-g1-p4")
+    gaps = source.get("source_gaps", [])
+    if (
+        source["sha256"]
+        != "46183895898c54f0554bdc47238b2d9ae8312225712618f20d9a9c9c467b0adf"
+        or target["sha256"]
+        != "ad74352212d1b91604b14b9f24307a37d0181ccab5f1fc2b38ad61c12fe52fb3"
+        or source.get("topic_count") is not None
+        or source.get("body_topic_count") != 37
+        or source.get("authored_lessons") != 37
+        or len(gaps) != 1
+        or gaps[0].get("kind") != "toc_scheduled_activity_no_body"
+        or gaps[0].get("labels")
+        != [
+            "12–13-darslar",
+            "27–28-darslar",
+            "28-dars. O‘yin-dars",
+            "43–44-darslar",
+            "45-dars. O‘yin-dars",
+        ]
+    ):
+        return None
+    rows = (
+        db.query(MathLesson.key, MathLesson.sequence)
+        .filter_by(grade=1, part=3)
+        .order_by(MathLesson.sequence)
+        .all()
+    )
+    if rows != [(f"math-1-3-{n}-r1", n) for n in range(1, 38)] or not all(
+        key in completed for key, _ in rows
+    ):
+        return None
+    return {
+        "kind": "local_qa_known_source_gap",
+        "previous_book_id": source["book_id"],
+        "missing_source_numbers": [],
+        "missing_printed_pages": [],
+        "schedule_only_rows_not_completed": 5,
+        "earlier_source_gap": earlier,
+        "previous_book_complete": False,
+        "teacher_review": "not_verified",
+        "message": "Lokal sinov: III qismning 37 matnli darsi bajarilgan. Alohida matni yo‘q 5 nazorat/o‘yin qatori va II qism74-mavzu bajarilgan deb belgilanmagan. IV qismning 2023-yilgi nashri112-mavzudan boshlanadi. Bu kursning to‘liq yoki ommaviy tayyorligini bildirmaydi.",
+    }
+
+
+def qa_navigation_bridge(db, completed, grade, part):
+    return qa_source_gap_bridge(db, completed, grade, part) or qa_part3_schedule_bridge(
+        db, completed, grade, part
+    )
+
+
 def catalog(db, uid, grade=1, part=1):
     rows = (
         db.query(MathLesson)
@@ -150,7 +217,7 @@ def catalog(db, uid, grade=1, part=1):
     completed = {p.lesson_key for p in db.query(MathProgress).filter_by(user_id=uid)}
     previous_ready = previous_book_complete(db, completed, grade, part)
     bridge = (
-        None if previous_ready else qa_source_gap_bridge(db, completed, grade, part)
+        None if previous_ready else qa_navigation_bridge(db, completed, grade, part)
     )
     navigation_ready = previous_ready or bridge is not None
     ready = navigation_ready
@@ -210,9 +277,10 @@ def attempt(db, uid, sid, *, lock=False):
         completed = {
             p.lesson_key for p in db.query(MathProgress).filter_by(user_id=uid)
         }
-        if not previous_book_complete(db, completed, 1, 3) and not qa_source_gap_bridge(
-            db, completed, 1, 3
-        ):
+        grade, part = row.snapshot["grade"], row.snapshot["part"]
+        if not previous_book_complete(
+            db, completed, grade, part
+        ) and not qa_navigation_bridge(db, completed, grade, part):
             raise HTTPException(403, "math_source_gap_preview_disabled")
     return row
 

@@ -195,6 +195,38 @@ def audit(source_directory):
                 == saved["image_sha256"],
                 "math_part3_mapping_source_changed",
             )
+    fourth = json.loads((ROOT / "grade1_part4_map.json").read_text())
+    authored_fourth = [l for l in lessons if (l["grade"], l["part"]) == (1, 4)]
+    require(
+        fourth["book_sha256"] == catalog["books"][3]["sha256"]
+        and [t["source_number"] for t in fourth["topics"]] == list(range(112, 145))
+        and [t["path_sequence"] for t in fourth["topics"]] == list(range(1, 34))
+        and len(authored_fourth) == fourth["authored_lessons"]
+        and {t["topic_id"] for t in fourth["topics"] if t["interactive_lesson_created"]}
+        == {l["topic_id"] for l in authored_fourth},
+        "math_part4_source_or_authorship_identity_changed",
+    )
+    with fitz.open(paths[fourth["book_id"]]) as pdf:
+        for t in fourth["topics"]:
+            p = 2 * t["path_sequence"] + 3
+            require(
+                t["body_pdf_locator"] == [p, p + 1]
+                and t["printed_pages"] == [p - 1, p],
+                "math_part4_page_boundary_changed",
+            )
+        for saved in fourth["additional_image_checks"] + [
+            p for t in fourth["topics"] for p in t["boundary_pins"]
+        ]:
+            page = pdf[saved["pdf_page"] - 1]
+            require(
+                hashlib.sha256(page.get_text().encode()).hexdigest()
+                == saved["native_text_sha256"]
+                and hashlib.sha256(
+                    page.get_pixmap(matrix=fitz.Matrix(1.3, 1.3)).tobytes("png")
+                ).hexdigest()
+                == saved["image_sha256"],
+                "math_part4_mapping_source_changed",
+            )
     return {
         "available_pdfs": len(paths),
         "available_pages": sum(b["pdf_pages"] for b in catalog["books"]),
@@ -220,6 +252,11 @@ def audit(source_directory):
         "grade1_part3_schedule_only_rows_not_ready": len(
             third["scheduled_activities_without_body"]
         ),
+        "grade1_part4_mapped_body_topics": len(fourth["topics"]),
+        "grade1_part4_authored_lessons": fourth["authored_lessons"],
+        "grade1_part4_body_review_not_finished": not fourth[
+            "all_body_content_reviewed"
+        ],
         "blocked_sources": catalog["blocked_sources"],
         "full_curriculum_topic_count": None,
         "course_ready": False,

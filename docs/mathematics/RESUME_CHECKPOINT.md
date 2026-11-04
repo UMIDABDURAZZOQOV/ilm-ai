@@ -1,5 +1,49 @@
 # Matematika — davom checkpointi
 
+## 2026-11-04 — IV qism112–116; jami115 lokal dars
+
+Yangi5dars: 30karta,40topshiriq,10sonli tenglik.
+Jami **115dars,674karta,880topshiriq,115misol/345qadam,192sonli tenglik**.
+I41/41,II32/33,III37/37matnli mavzu saqlangan;IV5/33tayyor lokal dars,28tana mavzu qolgan.
+III5nazorat/o‘yin qatori vaII74tana manbasi yo‘qligi saqlanadi. Butun1–11kurs tugamagan;
+umumiy barcha sinflar mavzu/qolganlar soni hali noma’lum.
+
+| Manba № | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|112|1|Kesma va uning uzunligi|5–6|4–5|
+|113|2|Berilgan uzunlikda kesma chizish|7–8|6–7|
+|114|3|Kesma xossalari|9–10|8–9|
+|115|4|Siniq chiziqning uzunligi|11–12|10–11|
+|116|5|Ko‘pburchak|13–14|12–13|
+
+IV2023darslikning33mavzusi112–144PDF5–70/bosma4–69header/footerlari TOC71–72bilan solishtirildi. Faqat112–116to‘liq tana tasvirlari/review/originaldars+test bilan nashrga emas,lokal sinovga tayyor.5originalmodel:intervalchizg‘ich,keraklilengthconstruct,oradaginuqta,bo‘g‘injami,ochiq/yopiqpolygon.33xaritadagi mavzularning qolgan28tasi tayyor deb belgilanmadi. Fizikekranni cmdeb o‘lchash yoki o‘quvchining chizish mahoratini avtomatik tasdiqlash yo‘q. IVuchun yangi explicittestflag old110mavjuddars,aniqmanbaSHAva oldIIgappolicyga tayanadi;urinish policycheck endihaqiqiy grade/partdan foydalanadi.
+
+Haqiqiy testlar:
+
+- Math: 154passed1skipped333.66s;initial153pass1fail359.57s due nonexistent GETroute in new test, corrected to actual POSTstart/answers and final full rerun passed.
+- SQLite targeted: 7passed29.90s;5literal key sets/map/source gap flag scope/UID/prerequisites/flagrevocation/completed result retention.
+- PostgreSQL: 1passed57.87s;all115,seed137XP→1287,replay0,parallel firstreward/UID/streak/immutable import;random owned schema dropped.
+- Flutter targeted: 12passed13s;all5fullflows320px/200percent/ReduceMotion plus5models/strictscope/DTO.
+- Flutter full: 587passed5:06.
+- Analyze: 0issues2.9s;initial6brace-style infos corrected.
+- Web: debugJS67.5s,compile-onlyinvalidtoken/localURL;notbrowser/API/Android.
+- Protected: Biology/Physics/mobileOAuth11passed50.12s;protected worktrees clean and HEADs unchanged.
+- Source audit: 23PDF/2958pages,115reviewed authored topics/230bodypages;33IVheader/footer pairs pinned,remaining28bodies unready.
+- Quality: Ruff passed;all110priorlesson/review/mapJSONbytes unchanged across46files;other22book metadata/inventory unchanged;newAPIfixture no credential/privategrading keys;CLIhelp passed.
+
+Default strict prerequisite saqlanadi. Faqat ikkala serverlocalQAflag va oldingi110mavjud dars
+bajarilgach IVsinash ochiladi. II74yokiIIIcontrol/gamega progress/XP yaratilmaydi;
+previous_book_complete=false,course_ready=false. Flagoffunfinished403;completedresultsaqlanadi.
+Bu normalapp/auth,production API yoki umumiy katalogni o‘zgartirmaydi.
+
+Mustaqil pedagog,pilot,Android/TalkBack va2026–27rasmiydasturmosligi not_verified.
+Standalone positiveCLI bucloudGitancestor guardi sabab bajarilmagan,chetlab o‘tilmagan.
+PDF/OCR/aslrasm/credential Gitga kiritilmagan;frontend/boshqa fanlar/main/production o‘zgarmagan.
+
+**Keyingi: IVqism,manba117 «Ko‘pburchakning perimetri»,path6,PDF15–16/bosma14–15.**
+[Qamrov](PART4_PROGRESS.md),[lokalQA](PART4_LOCAL_QA.md),[checkpoint](checkpoints/grade1_part4_batch1.json).
+
+
 ## 2026-11-04 — III qism: manba36–42; III qism37/37 matnli mavzu; jami 110 lokal dars
 
 Yangi 7 dars: 42 karta, 7 original misol/21 qadam, 56 topshiriq.

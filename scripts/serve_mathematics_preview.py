@@ -42,6 +42,11 @@ def main():
         action="store_true",
         help="Local QA only: test partIII after all73existing lessons; missing74stays incomplete.",
     )
+    parser.add_argument(
+        "--allow-known-part3-schedule-gap",
+        action="store_true",
+        help="Local IV QA only after all110existing lessons; requires part2gap flag too. No control/game completion is invented.",
+    )
     parser.add_argument("--host", choices=["127.0.0.1", "0.0.0.0"], default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8892)
     args = parser.parse_args()
@@ -73,6 +78,9 @@ def main():
         MATHEMATICS_PREVIEW_ENABLED="true",
         MATHEMATICS_QA_SOURCE_GAP_BRIDGE="true"
         if args.allow_known_part2_source_gap
+        else "false",
+        MATHEMATICS_QA_PART3_SCHEDULE_BRIDGE="true"
+        if args.allow_known_part3_schedule_gap
         else "false",
         AUTH_STORAGE="database",
         DATABASE_URL=URL.create(
