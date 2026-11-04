@@ -167,6 +167,19 @@ def audit(source_directory):
         and game["body_pdf_locator"] is None,
         "math_publisher_game_label_discrepancy_hidden",
     )
+    if third.get("full_map_verified"):
+        require(
+            third["authored_lessons"] == 37
+            and third["all_body_content_reviewed"]
+            and third.get("full_file_reviewed_page_count") == 84
+            and {
+                p["pdf_page"]
+                for p in third["additional_image_checks"]
+                + [p for t in third["topics"] for p in t["boundary_pins"]]
+            }
+            == set(range(1, 85)),
+            "math_full_source_review_incomplete",
+        )
     with fitz.open(paths[third["book_id"]]) as pdf:
         checks = third["additional_image_checks"] + [
             p for t in third["topics"] for p in t["boundary_pins"]

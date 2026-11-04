@@ -1,5 +1,47 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-04 — III qism: manba36–42; III qism37/37 matnli mavzu; jami 110 lokal dars
+
+Yangi 7 dars: 42 karta, 7 original misol/21 qadam, 56 topshiriq.
+Jami **110 dars, 644 karta, 840 topshiriq, 182 sonli tenglik**.
+I qism41/41, II qism32/33, III qism **37/37 matnli mavzu**; shu qismda 0 tasi qolgan.
+5 mundarija/nazorat/o‘yin qatori alohida tana kontentisiz tayyor hisoblanmaydi.
+Butun1–11 kurs tugamagan; umumiy mavzu/qolganlar soni noma’lum. Faqat lokal preview.
+
+| Manba № | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|36|31|Massa va massa birliklari|66–67|64–65|
+|37|32|Hajm va hajm birliklari|68–69|66–67|
+|38|33|Hajm va hajm birliklari|70–71|68–69|
+|39|34|Kattaliklar: uzunlik, massa, hajm|72–73|70–71|
+|40|35|Kattaliklar va ularning xossalari|74–75|72–73|
+|41|36|Kattaliklar va ularning xossalari|76–77|74–75|
+|42|37|Masalalar yechish|78–79|76–77|
+
+PDF66–79/bosma64–77 barcha asl tana tasvirlari o‘qildi.7original miqdor modeli yaratildi: takroriykg,litrdagi qo‘shish,sig‘im/jorysuv farqi,8/5/3yo‘qotishsiz quyish,bir xil birlikdagi qo‘shish xossasi,noma’lum birlikli ustun va8×4teng bo‘linish,yakuniy butun/qism/idish sanog‘i/tartib. IIIqismning37matnli mavzusi va84PDFsahifasi review yakunlandi;5control/game tana matnisiz tayyor emas. UIbu farqni aniq ko‘rsatadi. Butun1–11kurs vaIVruntimeprerequisite hali ochilmagan.
+
+Haqiqiy testlar:
+
+- Math: 147passed1skipped294.64s; final typography-only content rechecked by10tests70.80s including PostgreSQL.
+- PostgreSQL: 1passed46.45s; all110,seed137XP→1237,replay0,parallel firstreward/UID/streak/immutableimport; final current-content PG+new9tests10passed70.80s.
+- Flutter targeted: 16passed21s;7fullflows320px/200percent/ReduceMotion; initial15passed1failed spacing assertion corrected and recaptured from final real API.
+- Flutter full: 575passed5:03.
+- Analyze: 0issues2.5s.
+- Web: debug JS65.7s; initial wrong target filename failed, corrected real entrypoint built; compile-only invalid token, no browser/Android/API claim.
+- Protected: Biology/Physics/mobileOAuth11passed39.27s; five protected worktree HEADs unchanged and clean.
+- Source audit: 23PDF/2958pages,110topics/220bodypages,all84IIIpage image pins passed;Ruff passed.
+
+Source audit23PDF/2958sahifa va har bir tayyor darsning to‘liq tanasi/rasm pinlari bilan bajarildi.
+Eski darslar immutable; missingII74ga progress/XP yaratilmagan. Strict prerequisite
+va explicit localQA flag siyosati saqlangan. Frontend, normalapp/auth/Gradle,
+boshqa fanlar, production va main o‘zgarmagan. PDF/OCR/rasm/credential Gitga qo‘shilmaydi.
+Mustaqil pedagog, pilot, realAndroid va rasmiy2026–27moslik hali not_verified.
+Standalone positiveCLI Git guard sabab bu muhitda tekshirilmagan.
+
+**Keyingi: IVqism2023,manba112 «Kesma va uning uzunligi»,path1,PDF5–6/bosma4–5.33IVmavzu112–144boundary xaritasi tayyorlanmoqda;III5nazorat/o‘yin vaII74tugallangan deb belgilanmagan.**
+[Qamrov](docs/mathematics/PART3_PROGRESS.md), [checkpoint](docs/mathematics/checkpoints/grade1_part3_batch7.json).
+
+
 ## 2026-11-04 — III qism: manba31–35; jami 103 lokal dars
 
 Yangi 5 dars: 30 karta, 5 original misol/15 qadam, 40 topshiriq.

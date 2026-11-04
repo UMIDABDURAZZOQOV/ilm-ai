@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-04",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "45b407a08227026d533a12a7644e3aa004af3235",
+  "previous_flutter_commit": "3955b8c53b458cc986884e161723335a12d4e772",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 110,
+    "cards": 644,
+    "questions": 840,
+    "examples": 110,
+    "worked_steps": 330,
+    "notation_entries": 182,
+    "phases": {
+      "guided": 420,
+      "mcq": 110,
+      "frq": 110,
+      "transfer": 200
+    },
+    "response_kinds": {
+      "choice": 269,
+      "short_text": 24,
+      "exact_number": 525,
+      "ordering": 22
+    },
+    "distinct_explorer_modes": 102
+  },
+  "first_book": "41/41_frozen",
+  "second_book": "32/33_frozen_missing74_printed68_69",
+  "third_book": {
+    "mapped_body_topics": 37,
+    "authored_lessons": 37,
+    "remaining_body_topics": 0,
+    "full_body_content_reviewed": true,
+    "schedule_only_rows_not_ready": 5
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "tests": {
+    "Math": "147passed1skipped294.64s; final typography-only content rechecked by10tests70.80s including PostgreSQL",
+    "PostgreSQL": "1passed46.45s; all110,seed137XP→1237,replay0,parallel firstreward/UID/streak/immutableimport; final current-content PG+new9tests10passed70.80s",
+    "Flutter targeted": "16passed21s;7fullflows320px/200percent/ReduceMotion; initial15passed1failed spacing assertion corrected and recaptured from final real API",
+    "Flutter full": "575passed5:03",
+    "Analyze": "0issues2.5s",
+    "Web": "debug JS65.7s; initial wrong target filename failed, corrected real entrypoint built; compile-only invalid token, no browser/Android/API claim",
+    "Protected": "Biology/Physics/mobileOAuth11passed39.27s; five protected worktree HEADs unchanged and clean",
+    "Source audit": "23PDF/2958pages,110topics/220bodypages,all84IIIpage image pins passed;Ruff passed"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 110,
+    "reviewed_body_pages": 220,
+    "interactive_lessons": 110,
+    "theory_cards": 644,
+    "questions": 840,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 37,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "next": {
+    "part": 4,
+    "source_number": 112,
+    "path_sequence": 1,
+    "title": "Kesma va uning uzunligi",
+    "pdf_pages": [
+      5,
+      6
+    ],
+    "printed_pages": [
+      4,
+      5
+    ],
+    "status": "body viewed;33IVsource header/footer rows verified;noIVruntime yet"
+  },
+  "independent_teacher_review": false,
+  "real_android_test": false,
+  "protected_worktrees": "verify before push; no protected mutations authorized",
+  "source_gap_policy": "explicit_server_local_test_only_III_after_all73_existing_lessons",
+  "source_review_notes": [
+    "Source38capacity minus removal lacks initial fullness. Original tasks explicitly state FULL or identify missing data.",
+    "Separate-container volume totals do not assert universal additivity of physical liquid mixtures.",
+    "Conserving8/5/3litre maximal-pour model checks total8, capacity bounds and no discard.",
+    "Count of containers is not liquid volume; kg/litre relabelling is not conversion.",
+    "Two-square split needs explicit8by4rectangle; no area formula.",
+    "All84IIIpages reviewed,37bodylessons;5schedule-only rows remainunready,TOC28/footer29 discrepancy retained.",
+    "All103previous authored lesson/reviewJSONbytes unchanged; no missing74XP.",
+    "IV2023actualnext112/PDF5–6/printed4–5; publisher numbering differs from2024III, no inferred topics."
+  ],
+  "no_production_operations": true
+}

@@ -1,5 +1,8 @@
 # III qism — keyingi aniq manba nuqtasi
 
+Joriy: 37 lokal dars; [eng yangi qamrov](PART3_PROGRESS.md). Pastdagi sonlar tarix.
+**Keyingi: IVqism2023,manba112 «Kesma va uning uzunligi»,path1,PDF5–6/bosma4–5.33IVmavzu112–144boundary xaritasi tayyorlanmoqda;III5nazorat/o‘yin vaII74tugallangan deb belgilanmagan.**
+
 Joriy: 30 lokal dars; [eng yangi qamrov](PART3_PROGRESS.md). Pastdagi sonlar tarix.
 Keyingi source36/path31/PDF[66, 67].
 

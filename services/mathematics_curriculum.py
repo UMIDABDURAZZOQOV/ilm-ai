@@ -43,6 +43,13 @@ EXPLORERS = {
     "measurement_dm_cm_conversion",
     "measurement_rectangles",
     "measurement_mass_balance",
+    "quantity_mass_batches",
+    "quantity_litre_addition",
+    "quantity_capacity_content",
+    "quantity_conserving_pour",
+    "quantity_commutative_units",
+    "quantity_unknown_components",
+    "quantity_course_review",
     "tens_units_20",
     "number_pairs_12",
     "number_pairs_14",
@@ -215,6 +222,7 @@ BATCHES = [
     ("grade1_part3_batch4.json", "grade1_part3_batch4_review.json"),
     ("grade1_part3_batch5.json", "grade1_part3_batch5_review.json"),
     ("grade1_part3_batch6.json", "grade1_part3_batch6_review.json"),
+    ("grade1_part3_batch7.json", "grade1_part3_batch7_review.json"),
 ]
 
 

@@ -1,5 +1,28 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-04 — III qismning barcha37 tana mavzusi
+
+PDF66–79/bosma64–77 manba36–42: original massalar, litr va sig‘im,
+8/5/3yo‘qotishsiz quyish, birliklar, butun/qism va tartib faoliyatlari.
+PDF70–71da sig‘imdan olingan suyuqlik ayiriladigan topshiriqda boshlang‘ich
+to‘lalik ochiq aytilmagan. Original darsda FULLsharti beriladi yoki ma’lumot
+yetishmasligi qayd etiladi; bu noaniqlik yashirilmaydi. Turli moddalar fizik
+aralashmasi uchun hajmlar doim qo‘shiladi degan qoida kiritilmagan.
+
+IIIqismning74tana va10front/reference/back sahifasi, jami84/84asl tasvir
+tekshirildi. Xaritada har sahifa native/1.3RGBPNG SHA-256 bilan bog‘langan.
+37matnli mavzu tayyor lokal kontent,5control/game qatori tana matnisiz unready.
+TOC81game28/body53printed51game29 tafovuti saqlangan. [Qamrov](PART3_BODY_COMPLETION.md).
+
+IVqism PDF2title Novda2023,PDF3copyright RepyovaI.V./ZemlinaY.V.,ISBN978-9943-9707-2-4;
+shu sahifada nashriyot o‘rnida «Nashriyot nomi» placeholderi turibdi. Uni taxminiy
+nomga almashtirmang. PDF71–72TOC va33juft tana header/footerlari tekshirildi:
+source112–144/PDF5–70/bosma4–69.112–116to‘liq tanasi keyingi mualliflik partiyasi
+uchun o‘qildi; qolgan28tana hali fullreview emas. III2024/IV2023nashrlari sabab
+raqamlar almashadi; yo‘q43–111mavzularni to‘qib to‘ldirmang. Bu qayd IVinteraktiv
+kurs yoki prerequisite tayyorligini bildirmaydi.
+
+
 ## 2026-11-04 — III qism31–35: PDF56–65/bosma54–63
 
 Asl tasvirlar to‘liq o‘qildi.31yo‘l savoli minimal arifmetik natijani so‘raydi, yo‘lning fizik masofasi/vaqti berilmagan.32AB+BC=AC faqat B A va Corasidagi bir to‘g‘ri chiziqda bo‘lganda ishlatiladi.8cmlik o‘lchov bilan12cmmumkin emas degan umumiy da’vo yo‘q —buklash/qisman belgilash sharti berilmagan.33tibbiy o‘sish/yurak jadvali umumiy norma deb nashr qilinmagan, original uzunlik misollari ishlatilgan.34model to‘g‘ri to‘rtburchakning kvadrat ham bo‘lishini taqiqlamaydi.35tarozida ma’lum qo‘shiladigan tosh tanlanadi; taxmin jismni fizik o‘zgartiradi degan xulosa yo‘q; mevalarning universal massasi berilmagan.

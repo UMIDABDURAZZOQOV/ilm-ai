@@ -206,7 +206,8 @@ def test_third_book_cannot_invent_source75_or_turn_toc_only_schedule_into_a_less
     with pytest.raises(ValueError, match="source_identity"):
         validate_document(doc, review)
     mapping = json.loads((ROOT / "grade1_part3_map.json").read_text())
-    assert len(mapping["topics"]) == 37 and not mapping["full_map_verified"]
+    assert len(mapping["topics"]) == 37
+    assert mapping["full_map_verified"] == mapping["all_body_content_reviewed"]
     assert all(
         not t["ready"] and t["body_pdf_locator"] is None
         for t in mapping["scheduled_activities_without_body"]

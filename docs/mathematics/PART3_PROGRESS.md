@@ -1,7 +1,7 @@
 # III qism — tana xaritasi va haqiqiy interaktiv qamrov
 
 2026-11-04. 2024 qayta ishlangan 2-nashr; ISBN978-9943-9706-5-6.
-37 matnli mavzu, 30 lokal dars, 7 qolgan. Butun kitob/kurs tayyor deb belgilanmagan.
+37 matnli mavzu, 37 lokal dars, 0 qolgan. Butun kitob/kurs tayyor deb belgilanmagan.
 Barcha chegaralar tasvirda tekshirildi; to‘liq tana review faqat authored qatorlarda.
 
 | Manba № | Path | Mavzu | PDF | Bosma | Interaktiv |
@@ -36,14 +36,14 @@ Barcha chegaralar tasvirda tekshirildi; to‘liq tana review faqat authored qato
 |33|28|Detsimetr bilan santimetr orasidagi o‘zaro bog‘lanish|60–61|58–59|lokal tayyor|
 |34|29|Masalalar yechish|62–63|60–61|lokal tayyor|
 |35|30|Massa va massa birliklari|64–65|62–63|lokal tayyor|
-|36|31|Massa va massa birliklari|66–67|64–65|yo‘q, tana review kerak|
-|37|32|Hajm va hajm birliklari|68–69|66–67|yo‘q, tana review kerak|
-|38|33|Hajm va hajm birliklari|70–71|68–69|yo‘q, tana review kerak|
-|39|34|Kattaliklar: uzunlik, massa, hajm|72–73|70–71|yo‘q, tana review kerak|
-|40|35|Kattaliklar va ularning xossalari|74–75|72–73|yo‘q, tana review kerak|
-|41|36|Kattaliklar va ularning xossalari|76–77|74–75|yo‘q, tana review kerak|
-|42|37|Masalalar yechish|78–79|76–77|yo‘q, tana review kerak|
+|36|31|Massa va massa birliklari|66–67|64–65|lokal tayyor|
+|37|32|Hajm va hajm birliklari|68–69|66–67|lokal tayyor|
+|38|33|Hajm va hajm birliklari|70–71|68–69|lokal tayyor|
+|39|34|Kattaliklar: uzunlik, massa, hajm|72–73|70–71|lokal tayyor|
+|40|35|Kattaliklar va ularning xossalari|74–75|72–73|lokal tayyor|
+|41|36|Kattaliklar va ularning xossalari|76–77|74–75|lokal tayyor|
+|42|37|Masalalar yechish|78–79|76–77|lokal tayyor|
 
 5 control/game schedule-only qator tayyor dars emas. TOC81 o‘yin28, PDF53/bosma51footer o‘yin29 deydi; ikkala yozuv qayd etilgan. Alohida29tana yaratilmagan.
 II74manbasi yo‘q; explicit localQA ko‘prigi oldingi73mavjud darsdan keyin ishlaydi, missing74ga XP/progress bermaydi.
-[Checkpoint](checkpoints/grade1_part3_batch6.json).
+[Checkpoint](checkpoints/grade1_part3_batch7.json).

@@ -3,10 +3,10 @@
   "book_sha256": "46183895898c54f0554bdc47238b2d9ae8312225712618f20d9a9c9c467b0adf",
   "edition": 2024,
   "mapped_body_topics": 37,
-  "authored_lessons": 30,
+  "authored_lessons": 37,
   "body_page_boundaries_verified": true,
-  "full_map_verified": false,
-  "all_body_content_reviewed": false,
+  "full_map_verified": true,
+  "all_body_content_reviewed": true,
   "topics": [
     {
       "topic_id": "math-g1-p3-t1",
@@ -921,8 +921,8 @@
         64,
         65
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 66,
@@ -951,8 +951,8 @@
         66,
         67
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 68,
@@ -981,8 +981,8 @@
         68,
         69
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 70,
@@ -1011,8 +1011,8 @@
         70,
         71
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 72,
@@ -1041,8 +1041,8 @@
         72,
         73
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 74,
@@ -1071,8 +1071,8 @@
         74,
         75
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 76,
@@ -1101,8 +1101,8 @@
         76,
         77
       ],
-      "verification": "body_headers_and_printed_footers_images_reviewed",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 78,
@@ -1189,7 +1189,8 @@
     "37 distinct native body lessons cover PDF6–79/printed4–77 contiguously. Each pair header/footer image was visually checked; full body review is recorded separately per authored batch.",
     "TOC45 is a scheduling label, not45verified content bodies. Three two-session control blocks and two game rows have no distinct body. Duplicate28 must not be silently renamed29.",
     "No official chapter headings; chapter metadata will use book/part identity instead of inventing chapter names.",
-    "Full body PDF53/printed51 explicitly labels game29, while TOC81 labels it28. Both labels retained with provenance, not silently corrected; no standalone game body or authored29lesson."
+    "Full body PDF53/printed51 explicitly labels game29, while TOC81 labels it28. Both labels retained with provenance, not silently corrected; no standalone game body or authored29lesson.",
+    "All84source page images reviewed:37numbered two-page bodies, cover/frontmatter/intro/colophon/TOC/endpaper reference summaries. Full_map_verified is source-map closure, not course/publication or scheduled-control completion.5control/game rows remain unready."
   ],
   "additional_image_checks": [
     {
@@ -1215,6 +1216,43 @@
       "printed_page": 79,
       "native_text_sha256": "f7b227bd9b37c0f122ad3b0bd5970194d16bc21eef4505e9d43e5bdb0138b679",
       "image_sha256": "494cd9523118f3df5c45641d8850cfec3b64fe5c33fd90330a576f1db2098417"
+    },
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "native_text_sha256": "c66086e623a6b0cd8628348dc813bbccf32b2b5aedc9ffdb1b59ba583d978bf4",
+      "image_sha256": "3774f2e774a693cfae39ca40081b0840568fc5d41eda36421561261c5ab8c4e2"
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": null,
+      "native_text_sha256": "472eb2c739d16dedb60883138c871c49d687145b9860f3b497720417a3458e6e",
+      "image_sha256": "6378119b06118e41dd8ae1456c4bc06712272d068259fd5330dce2c4fa69ceec"
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 3,
+      "native_text_sha256": "f9c07233a2951e0acd2785b3a1f8bd86af0ca8317b88b755b4729cafcfc2f774",
+      "image_sha256": "37df8bcbd85f2402309cac1e4600ba218a9952446d5267c6e204d57e5776f83c"
+    },
+    {
+      "pdf_page": 82,
+      "printed_page": null,
+      "native_text_sha256": "5d0051ef2f025f01bba6379c5977f27989cf186766f85406e3f62b366ba6fded",
+      "image_sha256": "a627f4b323868081be53b6998381e5da9255d1c4087cc33ab508114ae66d95ef"
+    },
+    {
+      "pdf_page": 83,
+      "printed_page": null,
+      "native_text_sha256": "559fe2dac5df1bdf6046ef9e7a8473ec5aaccd4dae7062fd2e2d3a2e8f15f7c7",
+      "image_sha256": "b31af27c9a46a65d1e4e38d37ee4c865678d2fe0baad7d372a2dbfd68c36a0f5"
+    },
+    {
+      "pdf_page": 84,
+      "printed_page": null,
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "7e996189169102c34ea6a3fb6a938ac675b4c4f0a5829eaaacf0b0dbdd1d7d6f"
     }
-  ]
+  ],
+  "full_file_reviewed_page_count": 84
 }
