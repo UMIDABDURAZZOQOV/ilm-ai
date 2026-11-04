@@ -1,5 +1,21 @@
 # Ilm AI — Project Context (for Claude)
 
+### Saqlangan joriy Git checkpoint —2026-11-04
+
+Backend kod/kontent: `a8bfe3dae7e6cf3072acf2779889085fc80a31f3`.
+Flutter kod/test: `772386c6d6047a5f2eb6620654d11e406b99d738`.
+Ikkala repo: `feat/mathematics-curriculum`; kod commitlari GitHubga push qilingan.
+Ushbu SHA qo‘shimchasi alohida docs commit bo‘ladi; eski tarix o‘chirilmagan.
+Jami93lokal dars; I41/41,II32/33,III20/37matnli mavzu. Keyingi source23,
+path21,PDF46–47/bosma44–45. Eski darslarni qayta yaratmang. II74manbasi
+yo‘q;5schedule-only qator tayyor emas;1–11kurs tugamagan.
+
+Math125pass/1skip,alohidaPG1pass34.10s,fullFlutter536pass3:33,analyze0,
+debugJSweb42.3s. OwnPG to‘xtatilgan; restartda privateURL portini yangilang,
+parol/URLni logga chiqarmang. SDK/realAndroid/teacher/pilot tasdiqsiz.
+Normalapp/frontend/boshqa fanlar/main/production o‘zgarmagan.
+
+
 ## 2026-11-04 — III qism 18–22: jami 93 lokal dars
 
 Flutter kod/test commit: `772386c6d6047a5f2eb6620654d11e406b99d738`. Backend ushbu checkpoint bilan alohida feature commit.
