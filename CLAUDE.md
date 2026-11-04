@@ -1,5 +1,44 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-04 — III qism: manba31–35; jami 103 lokal dars
+
+Yangi 5 dars: 30 karta, 5 original misol/15 qadam, 40 topshiriq.
+Jami **103 dars, 602 karta, 784 topshiriq, 168 sonli tenglik**.
+I qism41/41, II qism32/33, III qism **30/37 matnli mavzu**; shu qismda 7 tasi qolgan.
+5 mundarija/nazorat/o‘yin qatori alohida tana kontentisiz tayyor hisoblanmaydi.
+Butun1–11 kurs tugamagan; umumiy mavzu/qolganlar soni noma’lum. Faqat lokal preview.
+
+| Manba № | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|31|26|Kesmalarni o‘lchash|56–57|54–55|
+|32|27|Santimetr. Detsimetr|58–59|56–57|
+|33|28|Detsimetr bilan santimetr orasidagi o‘zaro bog‘lanish|60–61|58–59|
+|34|29|Masalalar yechish|62–63|60–61|
+|35|30|Massa va massa birliklari|64–65|62–63|
+
+PDF56–65/bosma54–63 to‘liq asl tasvirda tekshirildi. Original kesma, dm/cm guruhlash, konvertatsiya, kvadrat/to‘rtburchak va tarozi modellari yaratildi. Barcha uzunliklar raqamli model yorliqlariga bog‘langan; ekran santimetr deb o‘lchanmaydi.33darsdagi tibbiy jadval va mevalar massasi umumiy me’yor sifatida ko‘chirilmagan.35tarozi modelida3kgustiga tanlangan ma’lum tosh qo‘shiladi,11kgga tenglashishi matematik tekshiriladi. Ishtirokchi taxmini jism massasini o‘zgartiradi degan noto‘g‘ri fizik tasavvur berilmaydi.
+
+Haqiqiy testlar:
+
+- Math: 138passed1skipped295.51s.
+- PostgreSQL: 1passed42.56s; all103,seed137XP→1167,replay0,parallelreward/immutableimport/UID/streak.
+- Flutter targeted: 11passed16s; all5fullflows320px/200percent/reducemotion.
+- Flutter full: 559passed3:56.
+- Analyze: 0issues2.8s.
+- Web: debug JS42.3s; compile-only local token, not Android/browser/API test.
+- Protected: protected files unchanged, fresh worktree/head check at final checkpoint.
+
+Source audit23PDF/2958sahifa va har bir tayyor darsning to‘liq tanasi/rasm pinlari bilan bajarildi.
+Eski darslar immutable; missingII74ga progress/XP yaratilmagan. Strict prerequisite
+va explicit localQA flag siyosati saqlangan. Frontend, normalapp/auth/Gradle,
+boshqa fanlar, production va main o‘zgarmagan. PDF/OCR/rasm/credential Gitga qo‘shilmaydi.
+Mustaqil pedagog, pilot, realAndroid va rasmiy2026–27moslik hali not_verified.
+Standalone positiveCLI Git guard sabab bu muhitda tekshirilmagan.
+
+**Keyingi: manba36 «Massa va massa birliklari», path31, PDF66–67/bosma64–65.**
+[Qamrov](docs/mathematics/PART3_PROGRESS.md), [checkpoint](docs/mathematics/checkpoints/grade1_part3_batch6.json).
+
+
 ## 2026-11-04 — III qism: manba23–26 va30; jami 98 lokal dars
 
 Yangi 5 dars: 30 karta, 5 original misol/15 qadam, 40 topshiriq.

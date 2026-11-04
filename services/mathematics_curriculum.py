@@ -38,6 +38,11 @@ EXPLORERS = {
     "problem_related_total",
     "problem_weekday_reasoning",
     "measurement_centimetre",
+    "measurement_segments",
+    "measurement_decimetre_intro",
+    "measurement_dm_cm_conversion",
+    "measurement_rectangles",
+    "measurement_mass_balance",
     "tens_units_20",
     "number_pairs_12",
     "number_pairs_14",
@@ -209,6 +214,7 @@ BATCHES = [
     ("grade1_part3_batch3.json", "grade1_part3_batch3_review.json"),
     ("grade1_part3_batch4.json", "grade1_part3_batch4_review.json"),
     ("grade1_part3_batch5.json", "grade1_part3_batch5_review.json"),
+    ("grade1_part3_batch6.json", "grade1_part3_batch6_review.json"),
 ]
 
 

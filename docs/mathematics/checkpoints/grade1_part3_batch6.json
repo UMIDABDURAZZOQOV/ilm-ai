@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-04",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "d8c48ca3456cedd0840c5a3a9072e346aff6d6f5",
+  "previous_flutter_commit": "71b2fc46d9bfa427f3a8c8810578802fbfec2631",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 103,
+    "cards": 602,
+    "questions": 784,
+    "examples": 103,
+    "worked_steps": 309,
+    "notation_entries": 168,
+    "phases": {
+      "guided": 392,
+      "mcq": 103,
+      "frq": 103,
+      "transfer": 186
+    },
+    "response_kinds": {
+      "choice": 257,
+      "short_text": 24,
+      "exact_number": 482,
+      "ordering": 21
+    },
+    "distinct_explorer_modes": 95
+  },
+  "first_book": "41/41_frozen",
+  "second_book": "32/33_frozen_missing74_printed68_69",
+  "third_book": {
+    "mapped_body_topics": 37,
+    "authored_lessons": 30,
+    "remaining_body_topics": 7,
+    "full_body_content_reviewed": false,
+    "schedule_only_rows_not_ready": 5
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "tests": {
+    "Math": "138passed1skipped295.51s",
+    "PostgreSQL": "1passed42.56s; all103,seed137XP→1167,replay0,parallelreward/immutableimport/UID/streak",
+    "Flutter targeted": "11passed16s; all5fullflows320px/200percent/reducemotion",
+    "Flutter full": "559passed3:56",
+    "Analyze": "0issues2.8s",
+    "Web": "debug JS42.3s; localURL/UID, invalid compile-only token; no actual browser/API/Android test",
+    "Protected": "protected files unchanged, fresh worktree/head check at final checkpoint"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 103,
+    "reviewed_body_pages": 206,
+    "interactive_lessons": 103,
+    "theory_cards": 602,
+    "questions": 784,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 30,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "next": {
+    "part": 3,
+    "source_number": 36,
+    "path_sequence": 31,
+    "title": "Massa va massa birliklari",
+    "pdf_pages": [
+      66,
+      67
+    ],
+    "printed_pages": [
+      64,
+      65
+    ]
+  },
+  "independent_teacher_review": false,
+  "real_android_test": false,
+  "protected_worktrees": "verify before push; no protected mutations authorized",
+  "source_gap_policy": "explicit_server_local_test_only_III_after_all73_existing_lessons",
+  "source_review_notes": [
+    "31minimum route is arithmetic-result objective, no physical shortest-distance assumption.",
+    "32AB+BC=AC requires Bbetween AandCon same straight line; explicit source condition retained.",
+    "33age/sex height and heartbeat tables not promoted to medical norms; fictional length models replace health claims.",
+    "34rectangle example does not define all rectangles as non-square; model can become a square.",
+    "35mass measured inkg; no universal fruit mass/size rule. Balance controls a known added weight, not a guess changing unknown actual mass.",
+    "NumericFRQ fixes unit in question; general unit parser and symbolicCAS remain unimplemented."
+  ],
+  "no_production_operations": true,
+  "flutter_commit": "c88786bfcfedcb473ed57b72e8c32fed10844aa2"
+}

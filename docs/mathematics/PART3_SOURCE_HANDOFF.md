@@ -1,5 +1,8 @@
 # III qism — keyingi aniq manba nuqtasi
 
+Joriy: 30 lokal dars; [eng yangi qamrov](PART3_PROGRESS.md). Pastdagi sonlar tarix.
+Keyingi source36/path31/PDF[66, 67].
+
 Joriy: 25 lokal dars; [eng yangi qamrov](PART3_PROGRESS.md). Pastdagi sonlar tarix.
 Keyingi source31/path26/PDF[56, 57].
 

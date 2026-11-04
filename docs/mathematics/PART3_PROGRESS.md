@@ -1,7 +1,7 @@
 # III qism — tana xaritasi va haqiqiy interaktiv qamrov
 
 2026-11-04. 2024 qayta ishlangan 2-nashr; ISBN978-9943-9706-5-6.
-37 matnli mavzu, 25 lokal dars, 12 qolgan. Butun kitob/kurs tayyor deb belgilanmagan.
+37 matnli mavzu, 30 lokal dars, 7 qolgan. Butun kitob/kurs tayyor deb belgilanmagan.
 Barcha chegaralar tasvirda tekshirildi; to‘liq tana review faqat authored qatorlarda.
 
 | Manba № | Path | Mavzu | PDF | Bosma | Interaktiv |
@@ -31,11 +31,11 @@ Barcha chegaralar tasvirda tekshirildi; to‘liq tana review faqat authored qato
 |25|23|Ikki amalli masalalar yechish|50–51|48–49|lokal tayyor|
 |26|24|Murakkab masalalar|52–53|50–51|lokal tayyor|
 |30|25|Uzunlik. Santimetr|54–55|52–53|lokal tayyor|
-|31|26|Kesmalarni o‘lchash|56–57|54–55|yo‘q, tana review kerak|
-|32|27|Santimetr. Detsimetr|58–59|56–57|yo‘q, tana review kerak|
-|33|28|Detsimetr bilan santimetr orasidagi o‘zaro bog‘lanish|60–61|58–59|yo‘q, tana review kerak|
-|34|29|Masalalar yechish|62–63|60–61|yo‘q, tana review kerak|
-|35|30|Massa va massa birliklari|64–65|62–63|yo‘q, tana review kerak|
+|31|26|Kesmalarni o‘lchash|56–57|54–55|lokal tayyor|
+|32|27|Santimetr. Detsimetr|58–59|56–57|lokal tayyor|
+|33|28|Detsimetr bilan santimetr orasidagi o‘zaro bog‘lanish|60–61|58–59|lokal tayyor|
+|34|29|Masalalar yechish|62–63|60–61|lokal tayyor|
+|35|30|Massa va massa birliklari|64–65|62–63|lokal tayyor|
 |36|31|Massa va massa birliklari|66–67|64–65|yo‘q, tana review kerak|
 |37|32|Hajm va hajm birliklari|68–69|66–67|yo‘q, tana review kerak|
 |38|33|Hajm va hajm birliklari|70–71|68–69|yo‘q, tana review kerak|
@@ -46,4 +46,4 @@ Barcha chegaralar tasvirda tekshirildi; to‘liq tana review faqat authored qato
 
 5 control/game schedule-only qator tayyor dars emas. TOC81 o‘yin28, PDF53/bosma51footer o‘yin29 deydi; ikkala yozuv qayd etilgan. Alohida29tana yaratilmagan.
 II74manbasi yo‘q; explicit localQA ko‘prigi oldingi73mavjud darsdan keyin ishlaydi, missing74ga XP/progress bermaydi.
-[Checkpoint](checkpoints/grade1_part3_batch5.json).
+[Checkpoint](checkpoints/grade1_part3_batch6.json).

@@ -1,5 +1,10 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-04 — III qism31–35: PDF56–65/bosma54–63
+
+Asl tasvirlar to‘liq o‘qildi.31yo‘l savoli minimal arifmetik natijani so‘raydi, yo‘lning fizik masofasi/vaqti berilmagan.32AB+BC=AC faqat B A va Corasidagi bir to‘g‘ri chiziqda bo‘lganda ishlatiladi.8cmlik o‘lchov bilan12cmmumkin emas degan umumiy da’vo yo‘q —buklash/qisman belgilash sharti berilmagan.33tibbiy o‘sish/yurak jadvali umumiy norma deb nashr qilinmagan, original uzunlik misollari ishlatilgan.34model to‘g‘ri to‘rtburchakning kvadrat ham bo‘lishini taqiqlamaydi.35tarozida ma’lum qo‘shiladigan tosh tanlanadi; taxmin jismni fizik o‘zgartiradi degan xulosa yo‘q; mevalarning universal massasi berilmagan.
+
+
 ## 2026-11-04 — III qism23–26/30, PDF46–55
 
 To‘liq asl tasvirlar ko‘rildi.23asl sarlavha «Shartni yetishmayotgan ma’lumotlar bilan to‘ldirish»; oldingi93dars checkpointi davom sarlavhasidagi «Murakkab...» nomi xato bo‘lgan. Applicationda u payt23dars hali yo‘q edi; eski93dars kontenti o‘zgarmagan.
