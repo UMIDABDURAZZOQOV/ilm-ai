@@ -1,4 +1,81 @@
-# ILM AI Matematika — dastlabki 5 dars
+# ILM AI Matematika — joriy tekshirilgan davom
+
+## 2026-11-04 — II qismning barcha mavjud32 mavzusi: jami73 lokal dars
+
+1-sinf I qismning **41/41** darsi saqlandi. Shu sessiyada II qismning42–73
+raqamli barcha **32 mavjud mavzusi**6partiyada qo‘shildi:192 karta,32 original
+misol/96qadam,256 topshiriq va62 sonli tenglik. **IIqism33mavzudan32ta**:
+74«Misol va masalalar yechish»ning bosma68–69sahifalari PDFda yo‘q.
+Uning kontenti yoki progressi yaratilmagan. Butun1–11-sinf kursi hali tugallanmagan;
+umumiy mavzular/qolganlar soni noma’lum. Faqat `local_test_preview_only`, `course_ready=false`.
+
+Jami **73 dars,422 karta,73misol/219qadam,544 topshiriq,108 sonli tenglik**.
+Bosqichlar:272 guided,73 MCQ,73 FRQ,126 transfer. Javoblar:172 choice,
+24 short_text,334 exact_number,14 ordering.65 turdagi boshlang‘ich model;
+ular umumiyCAS, ilg‘or grafik yoki haqiqiy3D tizimi degani emas.
+
+Oxirgi69–73partiya PDF59–68/bosma58–67: teskari qo‘shish/ayirish,
+ko‘p komponentli qo‘shish, guruhlash, jadvaldagi noma’lum va qavsli ifodalar.
+Har karta, misol qadami, sonli tenglik, savol va feedback manbaga bog‘langan.
+Yangi5dars30 karta/5misolning15qadami/40 topshiriq/12 tenglikdan iborat.
+Qo‘shishning guruhlash xossasi ayirishga asossiz tatbiq qilinmaydi;
+chapdan-o‘ngga qoida faqat hozir o‘rgatilgan+va−uchun ishlatiladi.
+Darslikdagi noto‘g‘ri tenglikli true/false va xato-topish mashqlari tayyor
+javob kaliti sifatida olinmadi. Mamlakatlar soni, fazogirlar jadvali,
+nafas olish me’yorlari va boshqa mustaqil tasdiqlanmagan tashqi faktlar
+arifmetik ko‘nikmaga mos, aniq shartli original masalalar bilan almashtirildi.
+Kitobning uzun matni yoki rasmi Gitga ko‘chirilmagan.
+
+Texnika: MathAPIga faqat import qilingan kitoblar ro‘yxati, haqiqiy
+bibliografiya, part-local`sequence`dan alohida`source_number`, manbadagi
+jami mavzu soni va gaplar qo‘shildi. Iqism41mavzusi tugamaguncha IIqism
+serverda ham yopiq. IIqism32/33holati keyingi qismni soxta to‘liq deb ochmaydi.
+Import immutable/additive; yangiDBmigration yo‘q. Javob kalitlari/private
+rubric mijozga yuborilmaydi; baholash serverda. Flutterda kitob tanlash,
+o‘nlik/birlik,100jadvali,cho‘t,ikki xonali amallar,jadval va qavs modellari
+qo‘shildi. Kitob almashish timeoutida eski tanlov saqlanadi;422dan keyin
+javob tahrirlanadi. Yopiq kitobda avval prerequisite sababi, mavjud kitobda
+esa yetishmagan manba qaydi ko‘rsatiladi.200%matnda gap xabari sabab yopilish
+sababi ekrandan surilib ketgan holat yakuniy regressionda tuzatildi.
+
+Amalda tekshirildi:
+
+- Math: **100 passed,1 skipped,123.48 s**; skip — alohida ishga tushirilganPGtest.
+- OwnloopbackPostgreSQL16: **1passed,24.42 s**. Barcha73 dars, UUIDreplay,
+  parallel birinchi mukofot, immutable reimport; old137XP→867/73progress,
+  boshqaUIDXP0, qayta bajarish0XP. Bu izolyatsiyalangan test ma’lumoti.
+- To‘liq Flutter: **491 passed,2:36**. Oldingi yakuniy urinish490pass/1failure
+  bo‘ldi; prerequisite xabari ustuvorligi tuzatilib,18targeted va butun491test
+  qayta o‘tdi.320px/200%matn/ReduceMotion bilan barcha32yangi oqim tekshirildi.
+- Analyze: **0 muammo,1.3 s**. DebugJS Mathpreview build: **33.7 s**,
+  lokalAPI/testUID/invalidcompile-onlytoken bilan. HaqiqiyJWT buildga kiritilmadi.
+  Bu haqiqiy brauzer/API yoki Android sinovi emas.
+- Biology/Physics/mobileOAuth himoyasi: **46 passed,102.78 s**.
+- 23 asl PDF/2958 sahifa SHA va73mavzu/146 dars tanasi tasvir/native-text auditi o‘tdi.
+  IIIqismning7 boshlang‘ich pinlari ham alohida qayta tekshirildi, ammo u yerda0 dars.
+- IqismningbarchaJSON/map/reviewlari sessiya oldingi`0a367e0`bilan bir xil;
+  beshta himoyalangan worktree avvalgiHEADda va toza. Normalapp/auth/Gradle,
+  frontend, boshqa fanlar va production o‘zgarmadi. Yangi to‘liq backend da’vosi yo‘q.
+
+**Keyingi:1-sinf III qism,1-dars«Masalaning tarkibi»,PDF6–7/bosma4–5.**
+Bu2024yilgi qayta ishlangan2-nashr; I/IIqism2023. Raqamlash1dan qaytadi,
+uni75deb davom ettirmang. Keyingi sarlavhaPDF8/bosma6. IIIqismning to‘liq
+tana xaritasi hali yo‘q; TOCdagi takror28/nazorat/o‘yin bloklarini taxminan
+sanamang. [Aniq texnik handoff](PART3_SOURCE_HANDOFF.md).
+9-sinfAlgebra/11-sinfIqismtransferi32MiBchegarasida;6-sinfIIva7–10Geometriya
+manbalari yo‘q. Bu cheklovlar mavjud kitoblardagi mualliflikni to‘xtatmaydi.
+
+RealAndroid/SDK, mustaqil o‘qituvchi/pilot va rasmiy2026–27moslik hali
+**not_verified**. Cloudstandalone CLI positive-run Git-directoryguard sabab hali
+sinovdan o‘tmagan; himoya chetlab o‘tilmagan. O‘zimizningPGkonteyneri testdan
+so‘ng to‘xtatiladi; restartda privateURL porti own containerdan yangilansin,
+credential logga chiqmasin. Ikkala repo uchun yangi`gh pr list`hamGitHub GraphQL
+`Forbidden`qaytardi; PR yaratilmagan yoki bor deb da’vo qilinmagan.
+Merge/deploy/productionimport/nashr bajarilmadi.
+
+[Checkpoint](checkpoints/grade1_part2_batch6.json),
+[32 mavzuning to‘liq ro‘yxati](PART2_PROGRESS.md).
+
 
 ## 2026-11-04 — II qism62–68: jami68 dars
 

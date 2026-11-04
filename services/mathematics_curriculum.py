@@ -37,6 +37,10 @@ EXPLORERS = {
     "two_digit_missing_addend",
     "two_digit_subtraction",
     "two_digit_inverse",
+    "multi_addition",
+    "addition_grouping",
+    "multi_addition_table",
+    "brackets_composite",
     "missing_subtrahend",
     "inverse_family",
     "commutative",
@@ -174,6 +178,7 @@ BATCHES = [
     ("grade1_part2_batch3.json", "grade1_part2_batch3_review.json"),
     ("grade1_part2_batch4.json", "grade1_part2_batch4_review.json"),
     ("grade1_part2_batch5.json", "grade1_part2_batch5_review.json"),
+    ("grade1_part2_batch6.json", "grade1_part2_batch6_review.json"),
 ]
 
 

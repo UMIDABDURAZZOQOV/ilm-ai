@@ -1,0 +1,81 @@
+{
+  "book_id": "math-uz-g1-p3",
+  "sha256": "46183895898c54f0554bdc47238b2d9ae8312225712618f20d9a9c9c467b0adf",
+  "pdf_pages": 84,
+  "bibliography": {
+    "authors": [
+      "I. V. Repyova"
+    ],
+    "publisher": "Novda Edutainment",
+    "year": 2024,
+    "isbn": "978-9943-9706-5-6",
+    "verification": "title_and_copyright_page_images_reviewed",
+    "isbn13_checksum_valid": true
+  },
+  "publication": "source_handoff_only",
+  "interactive_lessons": 0,
+  "full_map_verified": false,
+  "next": {
+    "source_number": 1,
+    "title": "Masalaning tarkibi",
+    "pdf_pages": [
+      6,
+      7
+    ],
+    "printed_pages": [
+      4,
+      5
+    ],
+    "next_heading_pdf_page": 8
+  },
+  "edition_note": "PartIII is revised2nd edition2024; partsI/II are2023. Do not infer source_number75 or whole-book page offset from earlier parts.",
+  "toc_ambiguities": [
+    "TOC PDF81 lists27–28control block followed by another28label for game lesson, then30; do not fabricate29 or body pages for control/game sessions. Full body catalogue not yet performed."
+  ],
+  "renderer": "PyMuPDF RGB1.3",
+  "renderer_version": "1.26.6",
+  "image_checks": [
+    {
+      "pdf_page": 3,
+      "printed_page": null,
+      "native_text_sha256": "99a95666ab002b906db79cb4975bf32feeec01b71a4f6511a26f9f17de77f81b",
+      "image_sha256": "3ec17554ead20c100e9269f805b731c9fde8939b13a6bb0a64bf0894babac3c3"
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": null,
+      "native_text_sha256": "82d63539c6659c4894656fae6236af023c71bf0d1b4bdea19e1111ada88d679f",
+      "image_sha256": "00d9f6b7106e234bc04d59a82d9f58e98f8a5161b26424f23be493b29ee6d4af"
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 4,
+      "native_text_sha256": "90681d07109a78736056e5966b1fd9b3514799e3da3b253ad88daa81e8aaf980",
+      "image_sha256": "9b1747286ada98f71520a506c80922518707a674cefff1cb31a168e25a83be38"
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 5,
+      "native_text_sha256": "a19ad74b06bb3af03781eb9d36b75801169fe0c2d2d3481d6d605e3dc3c6e7a9",
+      "image_sha256": "3cfdd840a0a888aa07b6862a8f043fd1df7e4741f987ed70fa2ca37cc32f594d"
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": 6,
+      "native_text_sha256": "27d2bc4952b4eb23fb3939b1af89bf86c98797af0afee1970fac6157ad3e0e49",
+      "image_sha256": "f73200e0f16e2a94e2ed71ce5772d984aaea3e9289266211f4a7ab3032239470"
+    },
+    {
+      "pdf_page": 80,
+      "printed_page": 78,
+      "native_text_sha256": "8c8328ef27fb80f3a87389003323996c5da22b2d2578b0533ebeabd08b38daef",
+      "image_sha256": "5880c90a9e1d4aed019ffd235eafa4c8cef4cbce52e686676af38e11a2c521eb"
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": 79,
+      "native_text_sha256": "f7b227bd9b37c0f122ad3b0bd5970194d16bc21eef4505e9d43e5bdb0138b679",
+      "image_sha256": "494cd9523118f3df5c45641d8850cfec3b64fe5c33fd90330a576f1db2098417"
+    }
+  ]
+}

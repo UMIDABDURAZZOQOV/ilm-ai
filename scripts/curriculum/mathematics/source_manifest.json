@@ -56,7 +56,7 @@
         "isbn": "978-9943-9702-5-0",
         "verification": "pdf3_image_reviewed"
       },
-      "topic_count": null,
+      "topic_count": 33,
       "curriculum_map_status": "first_5_body_image_reviewed_source_42_46_authored_gap74",
       "segment": {
         "original_pdf_pages": [
@@ -88,7 +88,10 @@
           ],
           "note": "No PDF page assigned to missing topic. TOC is not lesson content; do not synthesize §74 from its title."
         }
-      ]
+      ],
+      "available_body_topics": 32,
+      "authored_lessons": 32,
+      "source_review": "all32_available_topic_bodies_images_reviewed_74missing_not_full_book_complete"
     },
     {
       "book_id": "math-uz-g1-p3",
@@ -108,7 +111,7 @@
         "publisher": "Novda Edutainment",
         "year": 2024,
         "isbn": "978-9943-9706-5-6",
-        "verification": "extracted_not_yet_visually_confirmed",
+        "verification": "title_and_copyright_page_images_reviewed",
         "isbn13_checksum_valid": true
       },
       "topic_count": null,
@@ -119,7 +122,8 @@
           84
         ],
         "kind": "complete_supplied_file"
-      }
+      },
+      "source_review": "initial_titles_first_body_boundary_and_toc_images_reviewed_no_lessons_authored"
     },
     {
       "book_id": "math-uz-g1-p4",

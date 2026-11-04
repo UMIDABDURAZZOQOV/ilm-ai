@@ -59,6 +59,7 @@ def available_books(db):
                 "label": f"{grade}-sinf · {roman} qism",
                 "bibliography": source.get("bibliography", {}),
                 "implemented_sections": count,
+                "source_topic_count": source.get("topic_count"),
                 "source_gaps": source.get("source_gaps", []),
             }
         )

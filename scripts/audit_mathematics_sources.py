@@ -141,7 +141,14 @@ def audit(source_directory):
         "theory_cards": sum(len(l["cards"]) for l in lessons),
         "questions": sum(len(l["questions"]) for l in lessons),
         "grade1_part1_all_source_images_reviewed": len(reviewed_book_pages),
-        "grade1_part2_pending_toc_units": len(pending["topics"]),
+        "grade1_part2_toc_units": len(pending["topics"]),
+        "grade1_part2_authored_lessons": pending["authored_lessons"],
+        "grade1_part2_pending_toc_units": len(pending["topics"])
+        - pending["authored_lessons"],
+        "grade1_part2_remaining_available_bodies": pending[
+            "native_body_heading_locators"
+        ]
+        - pending["authored_lessons"],
         "grade1_part2_missing_printed_pages": [68, 69],
         "blocked_sources": catalog["blocked_sources"],
         "full_curriculum_topic_count": None,

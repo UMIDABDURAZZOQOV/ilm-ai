@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-04",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "dcfc5b4",
+  "previous_flutter_commit": "0aecc22",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 73,
+    "cards": 422,
+    "questions": 544,
+    "examples": 73,
+    "worked_steps": 219,
+    "notation_entries": 108,
+    "phases": {
+      "guided": 272,
+      "mcq": 73,
+      "frq": 73,
+      "transfer": 126
+    },
+    "response_kinds": {
+      "choice": 172,
+      "short_text": 24,
+      "exact_number": 334,
+      "ordering": 14
+    },
+    "distinct_explorer_modes": 65
+  },
+  "first_book": "41/41_frozen",
+  "second_book": {
+    "authored": 32,
+    "toc_sections": 33,
+    "available_bodies": 32,
+    "remaining_available": 0,
+    "blocked": 1,
+    "missing_topic": 74,
+    "missing_printed_pages": [
+      68,
+      69
+    ]
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "tests": {
+    "math": "100 passed,1 skipped in123.48s",
+    "postgres": "1 passed in24.42s",
+    "flutter_full": "491 passed in2:36",
+    "flutter_targeted": "18 passed in11s",
+    "analyze": "0issue1.3s",
+    "web": "debug JS preview built in33.7s, invalid compile-only token",
+    "protected": "46 passed in102.78s",
+    "final_gap_assertions": "6 passed in16.06s"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 73,
+    "reviewed_body_pages": 146,
+    "interactive_lessons": 73,
+    "theory_cards": 422,
+    "questions": 544,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "protected_worktrees": {
+    "ilm-ai": {
+      "head": "e2aab00ecac29294600a3ac4e5e95d5299c3eeaf",
+      "status": ""
+    },
+    "ilm-ai-flutter": {
+      "head": "ba2e0e213aa47e8a2968fcbc1dc2b06b018e393d",
+      "status": ""
+    },
+    "ilm-ai-frontend": {
+      "head": "054f0cea9b78a9c791cba5aa478fc3769cbd85b8",
+      "status": ""
+    },
+    "ilm-ai-uzbekistan-history": {
+      "head": "1a4f9823f52cd2bbd738efab5437ecb3b201275d",
+      "status": ""
+    },
+    "ilm-ai-flutter-uzbekistan-history": {
+      "head": "fa6c305c4a56b16f397aa5d73f40b8040f016ed3",
+      "status": ""
+    }
+  },
+  "log_sha256": {
+    "math": "24f4006eaf067eb7cc5c39edaff30e02ebb2618543d446ed4948cc3ddb2db10c",
+    "postgres": "49f52974107455a8497e0c9fc7c74bb8e210ddaca1f4be46ed2937570ed52661",
+    "flutter_full": "0b4f06c4abc8a21bd9b7a2a9388120ae2b5af82d30f17939b6839afd7f10b837",
+    "analyze": "0eb0ef826370d2863e9f11b5eb544a9b1b04e9a9a91a11a83752a081915d7360",
+    "web": "a1efecfd25b50f65757ce5498ad256d1eecda001dd72f06c7c2918227a2f86e0",
+    "protected": "698e1bc5853b5cc9d2045534570a9c24f1a065acb3f8e16e268cf702ae606604",
+    "part3_handoff": "e0a7c59f110a5455f6dfe8c608426422c4e435168c6ec9337748811bd2590e41"
+  },
+  "next": {
+    "grade": 1,
+    "part": 3,
+    "book_id": "math-uz-g1-p3",
+    "source_number": 1,
+    "title": "Masalaning tarkibi",
+    "pdf_pages": [
+      6,
+      7
+    ],
+    "printed_pages": [
+      4,
+      5
+    ],
+    "next_heading_pdf_page": 8,
+    "edition": 2024,
+    "status": "images_read_no_lesson_authored_full_body_map_needed"
+  },
+  "part3_source_handoff": "grade1_part3_source_handoff.json",
+  "part3_lesson_count": 0,
+  "android": "not_tested_SDK_absent",
+  "teacher_review": "not_verified",
+  "pilot": "not_verified",
+  "official_curriculum_2026_2027": "not_verified",
+  "pr_api": "Fresh gh pr list for both repos: api.github.com/graphql Forbidden; no PR created or claimed",
+  "full_backend_regression": "Only current Math100 and protected46; previous first-batch2567 result is historical, not a current full-suite claim.",
+  "own_postgres_after_tests": "stopped; random disposable schemas dropped by tests; refresh dynamic loopback port from own container on restart"
+}

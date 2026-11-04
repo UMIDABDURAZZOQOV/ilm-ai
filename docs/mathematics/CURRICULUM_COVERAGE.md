@@ -1,5 +1,24 @@
 # Qamrov — boshlangan, to‘liq kurs emas
 
+## 2026-11-04 — barcha sinflar bo‘yicha haqiqiy holat
+
+| Sinf | MavjudPDF | InteraktivMathdars | To‘liq sinf qamrovi |
+|---:|---:|---:|---|
+|1|4|73|I:41/41;II:32/33;III/IV:0|
+|2|4|0|not_complete; jami mavzu soni tekshirilmagan|
+|3|4|0|not_complete; jami mavzu soni tekshirilmagan|
+|4|4|0|not_complete; jami mavzu soni tekshirilmagan|
+|5|2|0|not_complete; jami mavzu soni tekshirilmagan|
+|6|1|0|not_complete; jami mavzu soni tekshirilmagan|
+|7|1|0|not_complete; jami mavzu soni tekshirilmagan|
+|8|1|0|not_complete; jami mavzu soni tekshirilmagan|
+|9|0|0|not_complete; jami mavzu soni tekshirilmagan|
+|10|1|0|not_complete; jami mavzu soni tekshirilmagan|
+|11|1|0|not_complete; jami mavzu soni tekshirilmagan|
+
+PDF soni dars yoki tekshirilgan tana soni emas. Barcha1–11kursning jami va qolgan mavzulari hali noma’lum. Yetishmagan manba tafsilotlari SOURCE_CATALOG va PART3_SOURCE_HANDOFFda.
+
+
 ## 2026-11-03 — 1-sinf I qism: 41/41 mavzu
 
 **Birinchi kitobning mavzulari qamrab olindi. Butun 1–11-sinf Matematika kursi hali tugallanmagan.**
