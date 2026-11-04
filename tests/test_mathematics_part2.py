@@ -88,7 +88,7 @@ def test_cross_book_prerequisites_then_all_five_progress_replay_and_account_isol
     complete_part1(client)
     cat = client.get(first.P + "/catalog", params={"grade": 1, "part": 2}).json()
     assert cat["previous_book_complete"] and [
-        l["source_number"] for l in cat["lessons"]
+        l["source_number"] for l in cat["lessons"][:5]
     ] == list(range(42, 47))
     assert cat["lessons"][0]["state"] == "available"
     for number in range(42, 47):

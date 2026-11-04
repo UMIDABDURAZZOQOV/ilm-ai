@@ -17,6 +17,11 @@ EXPLORERS = {
     "number_pairs_12",
     "number_pairs_14",
     "number_pairs_16",
+    "number_pairs_18",
+    "number_pairs_20",
+    "compare_place_value_20",
+    "brackets_single",
+    "brackets_double",
     "missing_subtrahend",
     "inverse_family",
     "commutative",
@@ -150,6 +155,7 @@ BATCHES = [
     ("grade1_part1_batch7.json", "grade1_part1_batch7_review.json"),
     ("grade1_part1_batch8.json", "grade1_part1_batch8_review.json"),
     ("grade1_part2_batch1.json", "grade1_part2_batch1_review.json"),
+    ("grade1_part2_batch2.json", "grade1_part2_batch2_review.json"),
 ]
 
 

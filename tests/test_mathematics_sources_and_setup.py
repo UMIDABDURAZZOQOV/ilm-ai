@@ -33,7 +33,7 @@ def test_missing_sources_are_not_counted_as_complete_and_duplicates_are_one_topi
     assert repeated["canonical_pdf_pages"] == [53, 54]
     assert repeated["duplicate_pdf_pages"] == [55, 56]
     assert mapping["topics"][25]["body_pdf_pages_observed"] == [57, 58]
-    assert len(load_course()) == 46  # TOC locators never become synthetic lessons.
+    assert len(load_course()) == 51  # TOC locators never become synthetic lessons.
 
 
 def test_part2_missing_lesson_is_not_fabricated_from_the_toc():
@@ -43,9 +43,9 @@ def test_part2_missing_lesson_is_not_fabricated_from_the_toc():
     assert mapping["source_gaps"][0]["missing_printed_pages"] == [68, 69]
     assert mapping["topics"][-1]["body_pdf_locator"] is None
     assert mapping["topics"][-1]["verification"] == "source_pages_missing"
-    assert mapping["authored_lessons"] == 5
-    assert all(t["interactive_lesson_created"] for t in mapping["topics"][:5])
-    assert not any(t["interactive_lesson_created"] for t in mapping["topics"][5:])
+    assert mapping["authored_lessons"] == 10
+    assert all(t["interactive_lesson_created"] for t in mapping["topics"][:10])
+    assert not any(t["interactive_lesson_created"] for t in mapping["topics"][10:])
 
 
 def test_missing_pdf_fails_audit_before_any_completeness_claim(tmp_path):

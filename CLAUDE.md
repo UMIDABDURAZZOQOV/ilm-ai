@@ -1,5 +1,26 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-04 — II qism47–51: jami51 dars
+
+I qism41/41 muzlatilgan, II qism42–51dan10 dars tayyor. Yangi partiya30 karta,5original misol/15qadam,40topshiriq va9sonli tenglik; jami51dars,290karta,368topshiriq. Hali butun1–11kurs tugallanmagan, jami mavzular soni noma’lum. Faqat lokal test.
+
+| № | Mavzu | PDF | Bosma |
+|---|---|---|---|
+|47|17 va18 sonlari|15–16|14–15|
+|48|19 va20 sonlari|17–18|16–17|
+|49|Sonlarni taqqoslash|19–20|18–19|
+|50|Qavslar|21–22|20–21|
+|51|Qavslar — ikkita guruh|23–24|22–23|
+
+Asl tasvirlar ko‘rildi; hash/native-text bog‘lanishlari auditi o‘tdi. Qatorning faqat ichki qo‘shni oraliqlari,20dagi ikki o‘nlik, oxirgi raqam bo‘yicha juftlik, sig‘imga aynan tenglik va qavsli hisoblar original mashqlarda yoritildi. Kitobdagi terak/archa kislorod nisbati ilmiy umumlashma sifatida ishlatilmadi. Rasm yonidagi tartib yorliqlari miqdor deb olinmadi. Chapdan o‘ngga qoida faqat shu darsdagi+va−ga tegishli; ikki mustaqil qavsning boshqa to‘g‘ri hisoblash navbati ham mavjudligi tushuntirildi.
+
+Flutter:17/18va19/20tarkib modeli; o‘nliklarni birliklardan oldin taqqoslash; qavsli/qavssiz15−(3+4)=8va15−3+4=16yo‘llarini qadam bilan ko‘rish; ikki qavs natijasidan keyingi tashqi amal. Manba bibliografiyasi/parttanlovi, Ilmo/brend saqlandi. Privategrading/answerkey mijozga yuborilmaydi. Backendda yangi5mavzuning literal javoblari/noto‘g‘ri alternativalari va qavsli muqobil sonli input/decimalcomma tekshirildi.
+
+Haqiqiy natija: Math **74passed,1skipped51.23s**; ownloopbackPostgreSQL16 **1passed13.55s**; to‘liq Flutter **457passed2:00**; analyze **0issue1.8s**; Biology/Physics/mobileOAuth **46passed95.30s**.5yangi oqim320px/200%matn/ReduceMotion bilan o‘tdi. UID1old137XP→647/51progress, UID2XP0; replay0; parallel firstreward va immutable reimport. Sourceauditi23PDF/2958sahifa va51mavzu/102tanasahifasi. To‘liq backend yana ishga tushirilmadi; yangi webbuild hali bajarilmadi.
+
+42–46 checkpointlari GitHubda: backend`0b579f2`, Flutter`b298590`. Hozirgi keyingi52PDF25–26/bosma24–25.52–56PDF25–34tasvirlari ko‘rildi, bu checkpointda import qilinmagan. IIqismda22mavjudbodyqolgan va74bosma68–69manbasizblocked. Beshta himoyalangan worktree HEAD/statuslari avvalgi checkpoint bilan bir xil va toza. Frontend/auth/Gradle/production/boshqafanlar o‘zgarmadi. Android, mustaqil pedagog/pilot/rasmiydastur tekshiruvi hali yo‘q. [Dalil](checkpoints/grade1_part2_batch2.json).
+
+
 ## 2026-11-04 — II qism42–46: jami46 tekshirilgan dars
 
 I qismning41 darsi va barcha JSON/reviewlari byte-for-byte saqlandi. II qismning birinchi5 mavzusi qo‘shildi:30 karta,5 original misol/15 qadam,40 topshiriq va9 sonli tenglik. Jami46 dars,260 karta,328 topshiriq; butun1–11kurs tugallanmagan, jami/qolgan mavzu soni noma’lum. Nashr faqat lokal test, `course_ready=false`.

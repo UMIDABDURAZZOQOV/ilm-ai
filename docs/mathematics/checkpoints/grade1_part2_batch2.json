@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-04",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "0b579f2",
+  "previous_flutter_commit": "b298590",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 51,
+    "cards": 290,
+    "questions": 368,
+    "examples": 51,
+    "worked_steps": 153,
+    "notation_entries": 64,
+    "phases": {
+      "guided": 184,
+      "mcq": 51,
+      "frq": 51,
+      "transfer": 82
+    },
+    "response_kinds": {
+      "choice": 136,
+      "short_text": 24,
+      "exact_number": 198,
+      "ordering": 10
+    }
+  },
+  "first_book": "41/41_frozen",
+  "second_book": {
+    "authored": 10,
+    "toc_sections": 33,
+    "available_bodies": 32,
+    "remaining_available": 22,
+    "blocked": 1
+  },
+  "full_topic_total": null,
+  "tests": {
+    "math": "74 passed,1 skipped in51.23s",
+    "postgres": "1 passed in13.55s",
+    "flutter_full": "457 passed in2min",
+    "analyze": "0issue1.8s",
+    "protected": "46 passed in95.30s"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 51,
+    "reviewed_body_pages": 102,
+    "interactive_lessons": 51,
+    "theory_cards": 290,
+    "questions": 368,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_pending_toc_units": 33,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "protected_worktrees": {
+    "ilm-ai": {
+      "head": "e2aab00ecac29294600a3ac4e5e95d5299c3eeaf",
+      "status": ""
+    },
+    "ilm-ai-flutter": {
+      "head": "ba2e0e213aa47e8a2968fcbc1dc2b06b018e393d",
+      "status": ""
+    },
+    "ilm-ai-frontend": {
+      "head": "054f0cea9b78a9c791cba5aa478fc3769cbd85b8",
+      "status": ""
+    },
+    "ilm-ai-uzbekistan-history": {
+      "head": "1a4f9823f52cd2bbd738efab5437ecb3b201275d",
+      "status": ""
+    },
+    "ilm-ai-flutter-uzbekistan-history": {
+      "head": "fa6c305c4a56b16f397aa5d73f40b8040f016ed3",
+      "status": ""
+    }
+  },
+  "log_sha256": {
+    "math": "bb751f9ba88eddd02d8a7044a3e1c37118706771a318cfae05647a7eee5be7e3",
+    "postgres": "b03c8fa624c6e668eb8719b7c42e66918ae885a779eadced23b768d3e1836615",
+    "flutter_full": "61fab2f3f9b7412be5c9f2cb672b95f563317da5c54213fb62cc0b78a7d3c74a",
+    "analyze": "07edf458490dd48fa3e872ad6b408839373f3e5210b742e1c412f0c46fa8be17",
+    "protected": "49bfacd063c4c700d6cf59092127db01c42361a369e7f166b97bbc42f14bcf53"
+  },
+  "next": {
+    "grade": 1,
+    "part": 2,
+    "source_number": 52,
+    "title": "Bir xonali sonlarni o‘nlikdan o‘tib qo‘shish",
+    "pdf_pages": [
+      25,
+      26
+    ],
+    "printed_pages": [
+      24,
+      25
+    ],
+    "status": "source_images_read_not_imported"
+  },
+  "android": "not_tested_SDK_absent",
+  "teacher_review": "not_verified",
+  "pilot": "not_verified",
+  "official_curriculum": "not_verified"
+}
