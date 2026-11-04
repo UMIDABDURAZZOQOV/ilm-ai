@@ -1,5 +1,15 @@
 # III qism — keyingi aniq manba nuqtasi
 
+## Yangilanish — 2026-11-04
+
+III qismda endi 5 lokal interaktiv dars bor, 37 tana chegarasi tekshirildi.
+Joriy davom:6-dars PDF16–17/bosma14–15. [Hozirgi progress](PART3_PROGRESS.md).
+Pastdagi0dars qaydi oldingi checkpoint tarixi. `grade1_part3_source_handoff.json`
+ham tarixiy boshlang‘ich snapshot, joriy dars soni emas. II74 yo‘q; aniq local-QA
+flagdan tashqari strict prerequisite saqlanadi. [Siyosat va testlar](RESUME_CHECKPOINT.md).
+
+## Oldingi checkpoint (o‘zgartirilmagan tarix)
+
 2026-11-04. Bu fayl davom uchun; III qismda hali **0 interaktiv dars** bor.
 
 Manba: I. V. Repyova, Matematika1-sinf III qism, Novda Edutainment, qayta

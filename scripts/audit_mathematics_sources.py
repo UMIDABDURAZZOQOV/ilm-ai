@@ -130,6 +130,45 @@ def audit(source_directory):
             and pending["source_gaps"][0]["missing_printed_pages"] == [68, 69],
             "math_missing_part2_pages_invented",
         )
+    third = json.loads((ROOT / "grade1_part3_map.json").read_text())
+    require(
+        third["book_sha256"]
+        == next(
+            b["sha256"] for b in catalog["books"] if b["book_id"] == third["book_id"]
+        )
+        and [t["source_number"] for t in third["topics"]]
+        == list(range(1, 12)) + list(range(14, 27)) + list(range(30, 43))
+        and [t["path_sequence"] for t in third["topics"]] == list(range(1, 38))
+        and [p for t in third["topics"] for p in t["body_pdf_locator"]]
+        == list(range(6, 80)),
+        "math_part3_body_map_gap_or_duplicate",
+    )
+    require(
+        third["authored_lessons"]
+        == sum(l["source_refs"][0]["book_id"] == third["book_id"] for l in lessons)
+        and sum(t["interactive_lesson_created"] for t in third["topics"])
+        == third["authored_lessons"]
+        and not any(
+            t["ready"] or t["body_pdf_locator"]
+            for t in third["scheduled_activities_without_body"]
+        ),
+        "math_part3_unreviewed_or_scheduled_content_invented",
+    )
+    with fitz.open(paths[third["book_id"]]) as pdf:
+        checks = third["additional_image_checks"] + [
+            p for t in third["topics"] for p in t["boundary_pins"]
+        ]
+        for saved in checks:
+            page = pdf[saved["pdf_page"] - 1]
+            require(
+                hashlib.sha256(page.get_text().encode()).hexdigest()
+                == saved["native_text_sha256"]
+                and hashlib.sha256(
+                    page.get_pixmap(matrix=fitz.Matrix(1.3, 1.3)).tobytes("png")
+                ).hexdigest()
+                == saved["image_sha256"],
+                "math_part3_mapping_source_changed",
+            )
     return {
         "available_pdfs": len(paths),
         "available_pages": sum(b["pdf_pages"] for b in catalog["books"]),
@@ -150,6 +189,11 @@ def audit(source_directory):
         ]
         - pending["authored_lessons"],
         "grade1_part2_missing_printed_pages": [68, 69],
+        "grade1_part3_mapped_body_topics": len(third["topics"]),
+        "grade1_part3_authored_lessons": third["authored_lessons"],
+        "grade1_part3_schedule_only_rows_not_ready": len(
+            third["scheduled_activities_without_body"]
+        ),
         "blocked_sources": catalog["blocked_sources"],
         "full_curriculum_topic_count": None,
         "course_ready": False,

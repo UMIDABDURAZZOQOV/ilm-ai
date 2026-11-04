@@ -1,5 +1,63 @@
 # Matematika kursi — hali tugallanmagan
 
+## 2026-11-04 — III qism 1–5: jami 78 lokal dars
+
+I qism 41/41 va II qismning 32/33 darsi o‘zgarmagan. III qismning 2024-yilgi
+kitobidan dastlabki **5 dars** qo‘shildi: 30 karta, 5 original misol/15 qadam,
+40 topshiriq va 8 sonli tenglik. Jami **78 dars, 452 karta, 584 topshiriq,
+78 misol/234 qadam, 116 sonli tenglik, 70 boshlang‘ich model turi**.
+Butun 1–11-sinf kursi tugamagan; umumiy qolgan mavzular soni noma’lum.
+Faqat `local_test_preview_only`; pedagog, pilot va real Android tasdig‘i yo‘q.
+
+III qismda 37 ta haqiqiy ikki sahifali mavzu chegarasi tasvirda tekshirildi
+(PDF 6–79 / bosma 4–77). Birinchi 5 darsning to‘liq tanasi o‘qildi; qolgan
+32 mavzuning sarlavha/sahifa chegarasi tekshirilishi ularning to‘liq mazmuni
+tasdiqlandi degani emas. Mundarijadagi nazorat/o‘yin uchun 5 qo‘shimcha qatorning
+alohida tanasi yo‘q; ular tayyor deb sanalmaydi. Raqamlash 1 dan qaytadi:
+1–11, 14–26, 30–42. Takror 28 yoki yo‘q 29 qayta to‘qilmagan.
+[37 chegara va hozirgi darslar](PART3_PROGRESS.md).
+
+II qism 74-mavzusining bosma 68–69-sahifalari hali yo‘q. Oddiy prerequisite
+saqlangan. III qismni lokal sinashga **alohida server flag** qo‘shildi:
+`MATHEMATICS_QA_SOURCE_GAP_BRIDGE=true`, yoki standalone serverda
+`--allow-known-part2-source-gap`. U faqat staging/dev/test, aniq II/III PDF
+SHA jufti va mavjud 73 darsning barchasi bajarilganda ishlaydi. Default o‘chiq;
+client parametri uni yoqolmaydi. `previous_book_complete=false` saqlanadi;
+UIda yetishmagan 74 va sinov rejimi ochiq ko‘rsatiladi. Yetishmagan mavzuga
+progress/XP yaratilmaydi. Flag o‘chsa tugallanmagan urinishning davom etishi
+403 bilan to‘xtaydi, qoralama va progress o‘chmaydi; yana yoqilsa UUID bilan
+aynan o‘sha urinish davom etadi. Boshqa kitob/sinf uchun umumiy bypass emas.
+Normal ilova, auth, fan katalogi yoki production API o‘zgarmadi.
+
+To‘liq manbali karta → misol → mustaqil masala; shart/savol/yechim/javob,
+bitta tarmoqli algoritm, butun/qism, bir shartning turli ko‘rinishi va jadval
+ustuni uchun original interaktiv modellar yaratildi. Yangi savollar kaliti
+literal mustaqil testda; noto‘g‘ri qo‘lyozma manba kaliti deb olinmagan.
+Server javob kalitlari mijozga chiqmaydi; assessment v1 orqaga mos.
+
+Math **107 passed, 1 skipped (112.80 s)**; alohida own-loopback PG16
+**1 passed (22.58 s)**; 78 dars/917 XP (boshlang‘ich 137), replay 0 XP,
+parallel first reward, immutable reimport, boshqa UID himoyasi o‘tdi.
+Flutter yangi to‘liq oqim/model/policy **10 passed (11 s)**, barcha 5 oqim
+320px/200% matn/Reduce Motion bilan; analyze 0 muammo (1.8 s).
+Biology/Physics/mobile OAuth **11 passed (30.18 s)**. 23 PDF/2958 sahifa,
+78 to‘liq dars/156 tana sahifasi va III qismning 74 chegara pinlari auditi o‘tdi.
+To‘liq Flutter **501 passed (2:41)**. Debug JS web build **35.1 s** (lokal URL/UID, invalid compile-only token);
+Wasm dry-run dependency ogohlantirishlari bor, Wasm/brauzer/API/Android
+sinovi o‘tdi degan da’vo yo‘q;
+yangi to‘liq backend to‘plami natijasi da’vo qilinmaydi.
+
+**Keyingi: III qism 6-dars «Butunni topishga doir masalalar»,
+PDF 16–17 / bosma 14–15.** 6–10 tana sahifalari keyingi original partiya uchun
+ko‘rildi, ammo ushbu checkpointda import qilinmagan. Android SDK/adb yo‘q;
+o‘qituvchi/pilot/rasmiy 2026–27 moslik tekshirilmagan. Standalone positive CLI
+Git-directory guard sabab bu cloud muhitida hali sinovdan o‘tmagan; himoya
+chetlab o‘tilmadi. Ikkala repo PR GraphQL ruxsati Forbidden; PR da’vosi yo‘q.
+Boshqa fanlar, frontend, production va main o‘zgarmagan. PDF/rasm/OCR/kalitlar Gitga kiritilmagan.
+
+[Machine checkpoint](checkpoints/grade1_part3_batch1.json).
+
+
 ## Joriy qabul mezonlari
 
 | Mezon | Holat | Haqiqiy chegara |

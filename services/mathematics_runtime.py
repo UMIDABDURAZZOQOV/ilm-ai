@@ -60,6 +60,7 @@ def available_books(db):
                 "bibliography": source.get("bibliography", {}),
                 "implemented_sections": count,
                 "source_topic_count": source.get("topic_count"),
+                "source_body_topic_count": source.get("body_topic_count"),
                 "source_gaps": source.get("source_gaps", []),
             }
         )
@@ -84,6 +85,61 @@ def previous_book_complete(db, completed, grade, part):
     return len(rows) == expected and all(key in completed for (key,) in rows)
 
 
+def qa_source_gap_bridge(db, completed, grade, part):
+    """One explicit local-QA exception; it never completes or rewards missing74.
+
+    Keep the ordinary source-complete prerequisite. Only this reviewed pair of
+    books may be exercised after all existing predecessor lessons are complete.
+    Neither a learner request nor a generic missing-source entry grants access.
+    """
+    if (
+        (grade, part) != (1, 3)
+        or os.getenv("MATHEMATICS_QA_SOURCE_GAP_BRIDGE", "").lower() != "true"
+        or os.getenv("MATHEMATICS_PREVIEW_ENABLED", "").lower() != "true"
+    ):
+        return None
+    try:
+        staging_url(db.get_bind().url)
+    except ValueError:
+        return None
+    source = next(b for b in manifest()["books"] if b["book_id"] == "math-uz-g1-p2")
+    target = next(b for b in manifest()["books"] if b["book_id"] == "math-uz-g1-p3")
+    gaps = source.get("source_gaps", [])
+    if (
+        source["sha256"]
+        != "b45a8a2927f087b976a4c7a0213a8c3ec3f968b736b2a9c057308a8892757c05"
+        or target["sha256"]
+        != "46183895898c54f0554bdc47238b2d9ae8312225712618f20d9a9c9c467b0adf"
+        or source.get("topic_count") != 33
+        or source.get("available_body_topics") != 32
+        or len(gaps) != 1
+        or gaps[0].get("topic_source_number") != 74
+        or gaps[0].get("missing_printed_pages") != [68, 69]
+    ):
+        return None
+    rows = (
+        db.query(MathLesson.key, MathLesson.sequence)
+        .filter_by(grade=1, part=2)
+        .order_by(MathLesson.sequence)
+        .all()
+    )
+    expected = [(f"math-1-2-{n}-r1", n) for n in range(1, 33)]
+    if rows != expected or not all(key in completed for key, _ in rows):
+        return None
+    # The predecessor's own prerequisites remain mandatory too.
+    if not previous_book_complete(db, completed, 1, 2):
+        return None
+    return {
+        "kind": "local_qa_known_source_gap",
+        "previous_book_id": source["book_id"],
+        "missing_source_numbers": [74],
+        "missing_printed_pages": [68, 69],
+        "previous_book_complete": False,
+        "teacher_review": "not_verified",
+        "message": "Lokal sinov: II qismning mavjud 32 darsi bajarilgan. 74-mavzuning bosma 68–69-sahifalari yo‘q; bu mavzu bajarilgan deb belgilanmagan. III qismni sinash yoqilgan, kurs hali to‘liq emas.",
+    }
+
+
 def catalog(db, uid, grade=1, part=1):
     rows = (
         db.query(MathLesson)
@@ -93,7 +149,11 @@ def catalog(db, uid, grade=1, part=1):
     )
     completed = {p.lesson_key for p in db.query(MathProgress).filter_by(user_id=uid)}
     previous_ready = previous_book_complete(db, completed, grade, part)
-    ready = previous_ready
+    bridge = (
+        None if previous_ready else qa_source_gap_bridge(db, completed, grade, part)
+    )
+    navigation_ready = previous_ready or bridge is not None
+    ready = navigation_ready
     books = available_books(db)
     lessons = []
     for index, lesson in enumerate(rows, 1):
@@ -124,6 +184,8 @@ def catalog(db, uid, grade=1, part=1):
             (b for b in books if (b["grade"], b["part"]) == (grade, part)), None
         ),
         "previous_book_complete": previous_ready,
+        "previous_book_navigation_ready": navigation_ready,
+        "source_gap_bridge": bridge,
         "blocked_sources": manifest()["blocked_sources"],
         "lessons": lessons,
     }
@@ -144,6 +206,14 @@ def attempt(db, uid, sid, *, lock=False):
         raise HTTPException(404, "attempt_not_found")
     if row.result is None and utcnow() - aware(row.started_at) > timedelta(hours=24):
         raise HTTPException(409, "attempt_expired")
+    if row.result is None and row.snapshot.get("qa_source_gap_bridge"):
+        completed = {
+            p.lesson_key for p in db.query(MathProgress).filter_by(user_id=uid)
+        }
+        if not previous_book_complete(db, completed, 1, 3) and not qa_source_gap_bridge(
+            db, completed, 1, 3
+        ):
+            raise HTTPException(403, "math_source_gap_preview_disabled")
     return row
 
 
@@ -174,6 +244,7 @@ def public_attempt(db, row):
         ],
         "answers": [a.response for a in answer_rows(db, row)],
         "result": row.result,
+        "source_gap_bridge": doc.get("qa_source_gap_bridge"),
     }
 
 
@@ -197,15 +268,18 @@ def start(db, uid, key, request_id):
         raise HTTPException(
             403,
             "finish_previous_lesson"
-            if course["previous_book_complete"]
+            if course["previous_book_navigation_ready"]
             else "finish_previous_book",
         )
+    snapshot = deepcopy(lesson.document)
+    if course["source_gap_bridge"]:
+        snapshot["qa_source_gap_bridge"] = course["source_gap_bridge"]
     row = MathAttempt(
         id=sid,
         user_id=uid,
         lesson_key=key,
         started_at=utcnow(),
-        snapshot=deepcopy(lesson.document),
+        snapshot=snapshot,
     )
     db.add(row)
     try:
@@ -337,6 +411,7 @@ def complete(db, uid, sid):
         "streak_days": user.streak_days,
         "mastery_rule": "all_authored_guided_mcq_frq_transfer_correct_with_retries",
         "educational_effectiveness": "not_verified",
+        "source_gap_bridge": row.snapshot.get("qa_source_gap_bridge"),
     }
     row.result = result
     db.commit()

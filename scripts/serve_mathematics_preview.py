@@ -37,6 +37,11 @@ def main():
     parser.add_argument("--directory", required=True)
     parser.add_argument("--resume", action="store_true")
     parser.add_argument("--create-only", action="store_true")
+    parser.add_argument(
+        "--allow-known-part2-source-gap",
+        action="store_true",
+        help="Local QA only: test partIII after all73existing lessons; missing74stays incomplete.",
+    )
     parser.add_argument("--host", choices=["127.0.0.1", "0.0.0.0"], default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8892)
     args = parser.parse_args()
@@ -66,6 +71,9 @@ def main():
     os.environ.update(
         ENVIRONMENT="test",
         MATHEMATICS_PREVIEW_ENABLED="true",
+        MATHEMATICS_QA_SOURCE_GAP_BRIDGE="true"
+        if args.allow_known_part2_source_gap
+        else "false",
         AUTH_STORAGE="database",
         DATABASE_URL=URL.create(
             "sqlite", database=str(path / "mathematics_staging.db")

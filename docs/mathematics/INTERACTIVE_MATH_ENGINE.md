@@ -1,5 +1,15 @@
 # Matematika engine — real poydevor va qolgan ishlar
 
+## 2026-11-04 — III qism integratsiyasi
+
+Jami78 lokal dars/70 model. III qism uchun37body-map,5dars.
+[Explicit lokal source-gap QA flag siyosati va regressiyalar](RESUME_CHECKPOINT.md).
+`available_books.source_body_topic_count`, `previous_book_navigation_ready`,
+`source_gap_bridge` qo‘shimcha public fieldlar; eski DTOlar orqaga mos.
+Snapshotda QA provenance saqlanadi; flagoff unfinished attemptni bloklaydi,
+immutable MathLesson hujjati/progress/XPni o‘zgartirmaydi. No migration.
+
+
 ## 2026-11-03 — joriy checkpoint
 
 1-sinf I qism: 41/41 dars, 230 karta, 288 topshiriq. Butun 1–11-sinf kursi hali tugallanmagan.

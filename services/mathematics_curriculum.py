@@ -13,6 +13,11 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "problem_parts",
+    "problem_algorithm",
+    "problem_part_whole",
+    "problem_representations",
+    "problem_table_totals",
     "tens_units_20",
     "number_pairs_12",
     "number_pairs_14",
@@ -179,6 +184,7 @@ BATCHES = [
     ("grade1_part2_batch4.json", "grade1_part2_batch4_review.json"),
     ("grade1_part2_batch5.json", "grade1_part2_batch5_review.json"),
     ("grade1_part2_batch6.json", "grade1_part2_batch6_review.json"),
+    ("grade1_part3_batch1.json", "grade1_part3_batch1_review.json"),
 ]
 
 
@@ -186,12 +192,30 @@ def validate_document(document, review):
     source = next(b for b in manifest()["books"] if b["book_id"] == review["book_id"])
     require(review["book_sha256"] == source["sha256"], "math_source_sha_mismatch")
     topics = {t["topic_id"]: t for t in review["topics"]}
+    body_map = None
+    if review["book_id"] == "math-uz-g1-p3":
+        body_map = {
+            t["topic_id"]: t
+            for t in json.loads((ROOT / "grade1_part3_map.json").read_text())["topics"]
+        }
     require(len(topics) == len(review["topics"]), "duplicate_math_review_topic")
     seen = set()
     for lesson in document["lessons"]:
         require(lesson["key"] not in seen, "duplicate_math_lesson")
         seen.add(lesson["key"])
         topic = topics[lesson["topic_id"]]
+        if body_map is not None:
+            mapped = body_map.get(lesson["topic_id"], {})
+            require(
+                mapped.get("source_number") == lesson.get("source_number")
+                and mapped.get("path_sequence") == lesson["sequence"]
+                and mapped.get("body_pdf_locator") == topic["pdf_pages"]
+                and mapped.get("printed_pages") == topic["printed_pages"]
+                and mapped.get("title") == lesson["title"]
+                and mapped.get("verification") == "body_images_reviewed"
+                and mapped.get("interactive_lesson_created") is True,
+                "math_topic_source_identity_mismatch",
+            )
         require(lesson["explorer"]["type"] in EXPLORERS, "unsupported_math_explorer")
         require(
             topic["verification"] == "body_images_reviewed", "math_topic_unreviewed"
