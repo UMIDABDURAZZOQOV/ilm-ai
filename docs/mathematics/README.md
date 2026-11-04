@@ -1,5 +1,55 @@
 # ILM AI Matematika — joriy tekshirilgan davom
 
+## 2026-11-04 — III qism 18–22: jami 93 lokal dars
+
+Yangi 5 dars: 30 karta, 5 original misol/15 qadam, 40 topshiriq va 11 sonli tenglik.
+Jami **93 dars, 542 karta, 704 topshiriq, 93 misol/279 qadam, 149 sonli tenglik,
+85 boshlang‘ich model turi**. I qism 41/41, II qism 32/33, III qism 20/37 matnli
+mavzu. III qismda 17 matnli mavzu qolgan;5 schedule-only nazorat/o‘yin qatori
+nashrga tayyor hisoblanmaydi. Butun 1–11 kurs tugamagan; barcha sinflarning
+jami va qolgan mavzular soni hali noma’lum. Faqat `local_test_preview_only`.
+
+| Manba № | Path | PDF | Bosma | Asosiy faoliyat |
+|---|---|---|---|---|
+|18|16|36–37|34–35|Ko‘p/kam guruh, farq, to‘ldirish va kamayish tartibi|
+|19|17|38–39|36–37|Nomlangan jadval ustuni, ikkita nol, ifodalar farqi|
+|20|18|40–41|38–39|Original rasmda sanoq, tenglik, asos va o‘zgarish|
+|21|19|42–43|40–41|Hisoblab tartiblash, teskari masala, bir xil belgi, qavs|
+|22|20|44–45|42–43|Uch qism, bir xil farq, ikki bosqich va shakl shartlari|
+
+Barcha 10 tana sahifasi asl tasvirda to‘liq o‘qildi. 19-darsning yo‘ldoshlar
+jadvali vaqtga bog‘liq: 79/82 kabi sonlar 2026-yil ilmiy fakti sifatida berilmadi;
+shu arifmetik ko‘nikmalar original maket javonlari 28/15/0/0 bilan o‘rgatiladi.
+20-darsda haqiqiy yulduz turkumlari populyatsiyasi yoki yorqinlikning universal
+fizik tartibi taxmin qilinmadi; original 7/9/7 yulduz-belgi kartalari ishlatildi.
+21-darsdagi birinchi parvoz yoshlariga mustaqil tarixiy tasdiq da’vo qilinmadi.
+Bitta belgi bir xil qiymatni bildirishi sharti ochiq; yangi umumiyCAS yaratilgani
+degan da’vo yo‘q. 22-darsning ikki bosqichi va doira/kvadrat bog‘lanishi mustaqil
+hisoblandi. [Manba qaydi](SOURCE_REVIEW.md),[qamrov](PART3_PROGRESS.md).
+
+Flutterda ikki miqdorni o‘zgartirish, jadval ustunini tanlash, original belgilarni
+sanash, bitta qiymatga bog‘langan ikki ifoda va bosqichli/shaklli faoliyatlar bor.
+Ikkala miqdor 0 bo‘lganda chizma masshtabi nolga bo‘linmasligi himoyalandi.
+5 yangi oqim 320 px/200% matn/Reduce Motionda;12 targeted test o‘tdi(12 s).
+PostgreSQL 16 **1 passed 34.10 s**:93 dars, seed 137 XP→1067 XP, replay 0, parallel reward,
+immutable reimport, UID va streak himoyasi. Source audit 23 PDF/2958 sahifa/
+93 dars/186 tana sahifasi. Eski 88 darsning JSONlari o‘zgarmagan.
+Matematika **125 passed, 1 skipped (200.66 s)**; PG skip alohida sinov bilan
+qoplandi. Analyze **0 muammo (2.4 s)**. To‘liq Flutter **536 passed (3:33)**. Debug JS web build **42.3 s**
+(lokal URL/UID, invalid compile-only token; haqiqiy brauzer/API/Android sinovi emas). Own PostgreSQL konteyneri testdan keyin to‘xtatildi; Yangi to‘liq backend natijasi da’vo qilinmaydi.
+
+II 74 bosma 68–69 hali yo‘q; strict prerequisite va explicit localQA bridge
+siyosati o‘zgarmagan. Missing 74 ga progress/XP yaratilmagan. Normal app/auth/
+Gradle/frontend/boshqa fanlar/production/main o‘zgarmagan. PDF/OCR/rasm/kalit
+Gitga kiritilmagan. RealAndroid/o‘qituvchi/pilot/rasmiy 2026–27 moslik tasdiqsiz.
+Standalone CLI positive-run bu muhitda Git guard sabab sinovdan o‘tmagan.
+
+**Keyingi: manba 23 «Murakkab masalalar yechish», path 21,
+PDF 46–47/bosma 44–45.** To‘liq tanasi hali ko‘rilmagan; avval asl sahifalarni
+o‘qi, 1–22(12–13 siz) darslarini qaytadan yaratma.
+[Machine checkpoint](checkpoints/grade1_part3_batch4.json).
+
+
 ## 2026-11-04 — III qism: manba 11 va 14–17; jami 88 lokal dars
 
 Yangi 5 dars: 30 karta, 5 original misol/15 qadam, 40 topshiriq va 11 sonli tenglik.

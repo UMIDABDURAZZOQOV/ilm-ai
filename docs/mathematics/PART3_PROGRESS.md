@@ -1,7 +1,7 @@
 # III qism — tana xaritasi va haqiqiy interaktiv qamrov
 
 2026-11-04. 2024 qayta ishlangan 2-nashr; ISBN 978-9943-9706-5-6.
-37 matnli mavzu, 15 lokal dars, 22 qolgan. Butun kitob to‘liq tayyor emas.
+37 matnli mavzu, 20 lokal dars, 17 qolgan. Butun kitob to‘liq tayyor emas.
 Barcha chegaralar sarlavha/bosma sahifa tasvirida; faqat tayyorlar to‘liq o‘qilgan.
 
 | Manba № | Path | Mavzu | PDF | Bosma | Interaktiv |
@@ -21,11 +21,11 @@ Barcha chegaralar sarlavha/bosma sahifa tasvirida; faqat tayyorlar to‘liq o‘
 |15|13|Sonni orttirish va kamaytirishga doir masalalar|30–31|28–29|lokal tayyor|
 |16|14|Sonni orttirish va kamaytirishga doir masalalar|32–33|30–31|lokal tayyor|
 |17|15|Sonni orttirish va kamaytirishga doir masalalar|34–35|32–33|lokal tayyor|
-|18|16|Taqqoslashga doir masalalar|36–37|34–35|yo‘q, tana review kerak|
-|19|17|Taqqoslashga doir masalalar|38–39|36–37|yo‘q, tana review kerak|
-|20|18|Taqqoslashga doir masalalar|40–41|38–39|yo‘q, tana review kerak|
-|21|19|Taqqoslashga doir masalalar|42–43|40–41|yo‘q, tana review kerak|
-|22|20|Murakkab masalalar yechish|44–45|42–43|yo‘q, tana review kerak|
+|18|16|Taqqoslashga doir masalalar|36–37|34–35|lokal tayyor|
+|19|17|Taqqoslashga doir masalalar|38–39|36–37|lokal tayyor|
+|20|18|Taqqoslashga doir masalalar|40–41|38–39|lokal tayyor|
+|21|19|Taqqoslashga doir masalalar|42–43|40–41|lokal tayyor|
+|22|20|Murakkab masalalar yechish|44–45|42–43|lokal tayyor|
 |23|21|Shartni yetishmayotgan ma’lumotlar bilan to‘ldirish|46–47|44–45|yo‘q, tana review kerak|
 |24|22|Nostandart masalalar|48–49|46–47|yo‘q, tana review kerak|
 |25|23|Ikki amalli masalalar yechish|50–51|48–49|yo‘q, tana review kerak|
@@ -48,4 +48,4 @@ Mundarija PDF80–81: 12–13,27–28 nazorat, yana28 o‘yin,43–44 nazorat,45
 
 II74 yo‘qligi saqlanadi. Explicit lokal QA ko‘prigi faqat all73 va aniq source SHA bilan; missing74 uchun 0 progress/XP. Oddiy rejim yopiq.
 
-[Muhim texnika va testlar](checkpoints/grade1_part3_batch3.json). Keyingi source18 / path16 / PDF36–37.
+[Muhim texnika va testlar](checkpoints/grade1_part3_batch4.json). Keyingi source23 / path21 / PDF46–47.

@@ -1,5 +1,30 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-04 — III qism18–22: to‘liq asl tasvirlar
+
+PDF36–45/bosma34–43 o‘qildi.23–26 va30–42 hali mualliflik reviewidan o‘tmagan.
+
+- Source18: ko‘p/kam,farq,complement,count/order/chain. Harbiy tasvirlar va sana
+  umumiy fakt bo‘lib ko‘chirilmagan; original rasm guruhlari ishlatilgan.
+- Source19 PDF38–39: yo‘ldoshlar soni vaqtga bog‘liq. Kitobdagi Yupiter79/Saturn82
+  qiymatlari amaldagi2026 statistika sifatida tasdiqlanmagan; yangi raqamlar
+  ham taxmin qilinmagan. Nomlangan original maket jadvali28/15/0/0 bilan ayni
+  arifmetika o‘rgatiladi. Ikki nol va bir xil/katta miqdor aniq tekshiriladi.
+- Source20 PDF40–41: yorqinlik rasmi sharoitsiz fizik o‘lchov emas; astronomik
+  turkumdagi nuqtalar umumiy populyatsiya deb olinmaydi. Original7/9/7sanash
+  belgilaridan foydalanildi. Kitobning rasm/uzun matni Gitga ko‘chirilmagan.
+- Source21 PDF42–43: birinchi parvoz yoshlariga mustaqil tarixiy tasdiq yo‘q;
+  tekshirilmagan tuzatish ham da’vo qilinmaydi. Original taqqoslash masalalari,
+  bir xil katak bir xil son bo‘lishi sharti va qavslar ishlatilgan. Bu CAS emas.
+- Source22 PDF44–45: uch qism,ikki bosqich,bir xil farq,shakllar bog‘lanishi
+  mustaqil hisoblandi.6uchburchak uchun5doira va7kvadrat; boshlang‘ich3/4dan
+  qo‘shimcha2doira/3kvadrat. Teskari tekshiruvlar original,ko‘chirilmagan.
+
+Source pins va har birlikning PDF/bosma sahifalari batch4_review.json va
+batch4.jsonda. Bu manbaga sodiq original lokal kontent; mustaqil pedagogik
+review,realAndroid,pilot hamda2026–27rasmiy dasturga moslik hali tasdiqlanmagan.
+
+
 ## 2026-11-04 — II qismning barcha mavjud32 mavzusi: jami73 lokal dars
 
 1-sinf I qismning **41/41** darsi saqlandi. Shu sessiyada II qismning42–73
