@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "two_digit_regroup_subtraction",
+    "two_digit_cross_tens_addition",
     "round_tens_addition",
     "round_tens_subtraction",
     "two_digit_regroup_addition",
@@ -268,6 +270,7 @@ BATCHES = [
     ("grade2_part1_batch1.json", "grade2_part1_batch1_review.json"),
     ("grade2_part1_batch2.json", "grade2_part1_batch2_review.json"),
     ("grade2_part1_batch3.json", "grade2_part1_batch3_review.json"),
+    ("grade2_part1_batch4.json", "grade2_part1_batch4_review.json"),
 ]
 
 

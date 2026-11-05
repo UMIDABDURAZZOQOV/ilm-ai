@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-05",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "c3e6aa5a129c803150d7a4a4816f2af3ba82999f",
+  "flutter_code_commit": "4907fdbf9ab949d3484ad6dd269126dc6f563207",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 164,
+    "cards": 968,
+    "questions": 1272,
+    "examples": 164,
+    "worked_steps": 492,
+    "notation_entries": 284,
+    "distinct_explorer_modes": 140,
+    "response_kinds": {
+      "choice": 379,
+      "short_text": 33,
+      "exact_number": 833,
+      "ordering": 27
+    }
+  },
+  "grades": {
+    "1": {
+      "authored_lessons": 143,
+      "parts": [
+        41,
+        32,
+        37,
+        33
+      ],
+      "unready": "II74printed68–69;III5schedule-onlycontrol/game rows"
+    },
+    "2": {
+      "part1_mapped": 44,
+      "part1_body_units_available": 43,
+      "authored_lessons": 21,
+      "remaining_mapped_units": 23,
+      "remaining_available_body_units": 22,
+      "missing_body_source_numbers": [
+        25
+      ]
+    },
+    "3": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "4": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "5": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "6": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "7": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "8": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "9": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "10": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "11": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    }
+  },
+  "tests": {
+    "Backend targeted": "37passed26.26s;all four grade2batches, source/setup and coreAPI",
+    "PostgreSQL": "1passed63.79s;all164,seed137XP→1777,replay0,parallel reward/UID/streak/immutable import;owned random schema removed",
+    "Flutter targeted": "20passed17s;both regrouping batches,11fullflows320px/200percent/ReduceMotion plus old/new model invariants",
+    "Analyze": "0issues2.0s",
+    "Last full suites": "Math207pass1skip512.78s and Flutter675pass5:39 at158lessons; current targeted andPG cover164; no backendruntime/grading changes",
+    "Last web": "debugJS40.3s at074d5cd;not rebuilt for this incremental model branch extension",
+    "Protected": "Biology/Physics/mobileOAuth11passed36.40s",
+    "Source": "23PDF2958pages;164authored topics328bodypages;2I21/44units including real unnumbered summary;source25missing",
+    "Quality": "Ruff/format/whitespace passed;prior158content JSON unchanged,other22bookmetadata unchanged;publicAPIprivacy passed"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 164,
+    "reviewed_body_pages": 328,
+    "interactive_lessons": 164,
+    "theory_cards": 968,
+    "questions": 1272,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 37,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "grade1_part4_mapped_body_topics": 33,
+    "grade1_part4_authored_lessons": 33,
+    "grade1_part4_all_source_images_reviewed": 74,
+    "grade1_part4_body_review_not_finished": false,
+    "grade2_part1_curriculum_units": 44,
+    "grade2_part1_available_body_units": 43,
+    "grade2_part1_authored_lessons": 21,
+    "grade2_part1_missing_printed_pages": [
+      54,
+      55
+    ],
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "source_notes": [
+    "FullPDF35–46/printed34–45read; body title/number order preserved including actual unnumbered summary.",
+    "Mineral/jobs/transport data replaced by original stated mathematical counters; disjoint/exhaustive condition explicit where needed.",
+    "Source summary geometry with one side label not assumed regular; original shapes state all required lengths.",
+    "No physical compass sensor, genericpacking solver or unverified place-name/biological classification introduced.",
+    "Next source21–24PDF47–54read for next batch, not yet authored; source25printed54–55missing is not filled by guesses."
+  ],
+  "next": {
+    "topic_id": "math-g2-p1-t21",
+    "source_number": 21,
+    "curriculum_sequence": 22,
+    "title": "Sonlarni qo‘shish (6 + 25)",
+    "kind": "numbered_topic",
+    "printed_pages": [
+      46,
+      47
+    ],
+    "body_pdf_locator": [
+      47,
+      48
+    ],
+    "boundary_pins": [
+      {
+        "pdf_page": 47,
+        "native_text_sha256": "7a3aa407369b4eb7418dac9729c20cdfcd7662839e3c166c8bf335b612dfc205",
+        "image_sha256": "e1f35a8ae2b54881fa66d15649f885c34ff39649b97cf37d2c8699560b4cb4ed",
+        "printed_page": 46
+      },
+      {
+        "pdf_page": 48,
+        "native_text_sha256": "d663d83cc5a894d144c841403b7167fb4e1a1de2870399865973da36b7177c02",
+        "image_sha256": "7534110074ce843955b73746d5c94a1383b9b647c1d42511eb1c93915b1d74f3",
+        "printed_page": 47
+      }
+    ],
+    "verification": "header_footer_images_reviewed_body_pending",
+    "interactive_lesson_created": false,
+    "path_sequence": 22
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "independent_teacher_review": false,
+  "student_pilot": false,
+  "real_android_test": false,
+  "no_production_operations": true
+}

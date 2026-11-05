@@ -1,5 +1,45 @@
 # Matematika — davom checkpointi
 
+## 2026-11-05 — 2-sinf I qism: path 16–21, jami 164 lokal dars
+
+Yangi partiya: **6 dars, 36 karta, 48 savol, 6 misol/18 qadam**.
+Jami **164 dars, 968 karta, 1272 savol, 492 ishlangan qadam, 284 sonli tenglik**.
+1-sinfning 143 darsi saqlandi. 2-sinf I qismda 21/44 birlik tayyor; 23 birlik qolgan,
+shundan 22 mavjud tana va §25ning bosma54–55 manbasi yo‘q bitta mavzu.
+
+| Manba | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|16|16|Sonlarni qo‘shish (21 + 39)|35–36|34–35|
+|17|17|Ayirish (50 − 22)|37–38|36–37|
+|18|18|Ayirish (50 − 22)|39–40|38–39|
+|raqamsiz|19|Mavzu bo‘yicha yakuniy dars|41–42|40–41|
+|19|20|Sonlarni qo‘shish (25 + 6)|43–44|42–43|
+|20|21|Sonlarni qo‘shish (25 + 6)|45–46|44–45|
+
+§16–20 va PDF41–42dagi haqiqiy raqamsiz yakuniy dars qo‘shildi:6dars. Source19path20 va source20path21 bo‘lib, manba va Skill Path tartibi alohida saqlandi. Katta birlik yig‘indisida ortiqcha birliklarni saqlash hamda yaxlit sondan ikki xonali ayriluvchini olish uchun ikkita model tarmog‘i qo‘shildi. Birliklarning18gacha chizmasi ikki qatorga joylashadi;100chegarasi va eski3model qayta tekshirildi. Jadvaldan aniq so‘z/harfni olish qisqaFRQ serverda baholanadi; oldindan noma’lum yoki bahsli bitta-yorliqli geometriya o‘rniga tomonlar to‘liq berildi. Oldingi158dars saqlandi.
+
+Haqiqiy tekshiruvlar:
+
+- Backend targeted: 37passed26.26s;all four grade2batches, source/setup and coreAPI.
+- PostgreSQL: 1passed63.79s;all164,seed137XP→1777,replay0,parallel reward/UID/streak/immutable import;owned random schema removed.
+- Flutter targeted: 20passed17s;both regrouping batches,11fullflows320px/200percent/ReduceMotion plus old/new model invariants.
+- Analyze: 0issues2.0s.
+- Last full suites: Math207pass1skip512.78s and Flutter675pass5:39 at158lessons; current targeted andPG cover164; no backendruntime/grading changes.
+- Last web: debugJS40.3s at074d5cd;not rebuilt for this incremental model branch extension.
+- Protected: Biology/Physics/mobileOAuth11passed36.40s.
+- Source: 23PDF2958pages;164authored topics328bodypages;2I21/44units including real unnumbered summary;source25missing.
+- Quality: Ruff/format/whitespace passed;prior158content JSON unchanged,other22bookmetadata unchanged;publicAPIprivacy passed.
+
+**Keyingi: path 22, manba 21 «Sonlarni qo‘shish (6 + 25)», PDF 47–48, bosma 46–47.**
+
+Butun 1–11 kurs tugallanmagan; barcha sinflarning jami/qolgan mavzu soni noma’lum.
+Mustaqil pedagog, o‘quvchi piloti, 2026–27 rasmiy dastur va real Android/TalkBack tasdiqlanmagan.
+Faqat alohida lokal/test preview; normalapp/OAuth/umumiy katalog/frontend va production o‘zgarmadi.
+Boshqa fanlar va oldingi darslarning kontenti saqlandi. PDF/rasm/OCR/credential Gitga kiritilmadi.
+Main merge, production DB/import/migratsiya/deploy/nashr bajarilmadi.
+[Manba qamrovi](GRADE2_PART1_PROGRESS.md), [checkpoint](checkpoints/grade2_part1_batch4.json).
+
+
 ## 2026-11-05 — 2-sinf I qism: path 11–15, jami 158 lokal dars
 
 Yangi partiya: **5 dars, 30 karta, 40 savol, 5 misol/15 qadam**.

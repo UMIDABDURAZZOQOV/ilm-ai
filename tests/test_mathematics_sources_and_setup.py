@@ -33,7 +33,7 @@ def test_missing_sources_are_not_counted_as_complete_and_duplicates_are_one_topi
     assert repeated["canonical_pdf_pages"] == [53, 54]
     assert repeated["duplicate_pdf_pages"] == [55, 56]
     assert mapping["topics"][25]["body_pdf_pages_observed"] == [57, 58]
-    assert len(load_course()) == 158  # TOC locators never become synthetic lessons.
+    assert len(load_course()) == 164  # TOC locators never become synthetic lessons.
 
 
 def test_part2_missing_lesson_is_not_fabricated_from_the_toc():
