@@ -1,5 +1,9 @@
 # 2-sinf II qism — joriy manba va darslar
 
+## 2026-11-06 — checkpoint201
+
+201lokal dars/1210karta/1586savol. IIqism15/34;19birlik qolgan. Yangi§52–56manbali ayirish,aralash hisob,uchta qo‘shiluvchi va teng kataklar. Keyingi§57,path16,PDF35–36/bosma34–35. [Haqiqiy testlar](QA_REPORT.md). Kurs/Android/pedagogik tasdiq hali tugallanmagan.
+
 §47–51 ham lokal test darslariga aylantirildi: **10/34**, 24 birlik qolgan. Eski jadvaldagi keyingi5qator holati ushbu yangi yozuv bilan yangilanadi. §52–56 manbalari ko‘rilgan, darslari bu checkpointda hali sanalmaydi.
 
 ## Oldingi checkpoint191 — 2026-11-05
@@ -24,11 +28,11 @@ Yangi default-offpairedlocalQAflag ikkalaSHA va43real oldingi darsni talab qilad
 |49|8|19–20|18–19|Lokal dars|
 |50|9|21–22|20–21|Lokal dars|
 |51|10|23–24|22–23|Lokal dars|
-|52|11|25–26|24–25|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
-|53|12|27–28|26–27|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
-|54|13|29–30|28–29|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
-|55|14|31–32|30–31|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
-|56|15|33–34|32–33|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
+|52|11|25–26|24–25|Lokal dars|
+|53|12|27–28|26–27|Lokal dars|
+|54|13|29–30|28–29|Lokal dars|
+|55|14|31–32|30–31|Lokal dars|
+|56|15|33–34|32–33|Lokal dars|
 |57|16|35–36|34–35|Faqat chegara tekshirilgan,dars yo‘q|
 |Raqamsiz|17|37–38|36–37|Faqat chegara tekshirilgan,dars yo‘q|
 |58|18|39–40|38–39|Faqat chegara tekshirilgan,dars yo‘q|

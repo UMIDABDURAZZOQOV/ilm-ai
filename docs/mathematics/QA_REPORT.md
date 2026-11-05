@@ -1,5 +1,45 @@
 # Matematika QA — tekshirilgan checkpointlar
 
+## 2026-11-06 — 2-sinf II qism §52–56: jami 201 lokal dars
+
+**201 dars, 1210 karta, 1586 savol, 201 misol / 603 qadam, 358 sonli tekshiruv.**
+Yangi 5 dars: 30 karta, 40 savol, 5 misol / 15 qadam. II qism **15/34**, 19 birlik hali tayyor emas.
+Oldingi196dars saqlandi; Iqismning yo‘q§25/path26/bosma54–55 uchun progress yoki XP yaratilmadi.
+
+|§|Path|PDF|Bosma|Asosiy usul|
+|---|---|---|---|---|
+|52|11|25–26|24–25|O‘nlikni birlikka almashtirib ayirish|
+|53|12|27–28|26–27|Ikki donor xonani yangilash; yig‘indini ayirish|
+|54|13|29–30|28–29|Yaxlit yuzlikdagi nolli xonalar orqali ayirish|
+|55|14|31–32|30–31|Aralash amallar, ifodalarni tartiblash, tenglama|
+|56|15|33–34|32–33|Bir nechta sonni ustunda qo‘shish; teng kataklar|
+
+Asl10sahifa to‘liq ko‘rildi. 463−158=305;634−278=356;700−286=414;
+126+238+147=511 va215+167+128=510 mustaqil qayta hisoblandi.
+Yuzlik yoki o‘nlik olingach donor kamayadi. 21birlikdan2o‘nlik o‘tishi alohida o‘rgatiladi.
+Shartli sport og‘irligi/ish kunlari real normaga aylantirilmadi; poyga yo‘lining qoldig‘i raqibdan ustunlik deb olinmadi.
+Original6katakli model fizik yer o‘lchovi yoki chizish ko‘nikmasi tasdig‘i emas.
+
+Flutter: `three_digit_subtract_explorer.dart`dagi4ayirish/aralash rejim,3qo‘shiluvchi modeli va teng kataklar modeli.
+Donor yangilanishi,teskari tekshiruv,oldingi/keyingi qadam,namuna reset va0natijali xonalar ko‘rsatiladi.
+164asosiy model; kartadagi qo‘shimcha variantlar bilan166tur. Ilmo va brend saqlandi.
+Yangi flag/API/grader yoki production kirishi qo‘shilmadi; mavjud ikkala default-off QA flag va43haqiqiy oldingi dars talabi o‘zgarishsiz.
+
+Haqiqiy tekshiruvlar:
+
+- Joriy backend target/regression: **109passed254.40s**. Uchta IIqism partiyasi,server literal/wrong/equivalent/ordering,resume,prerequisite,XP/replay,parser/CLI/source va14grade-scope hamda11Biology/Physics/mobileOAuth holati.
+- PostgreSQL: **1passed140.04s**; barcha201dars,137XP→2147,parallel reward/UID/streak/replay/takror import. O‘z random schema olib tashlandi va konteyner to‘xtatildi.
+- Flutter: **43passed47s**, barcha uch IIqism partiyasi va model testlari; yangi9model testi alohida5sda o‘tdi. 320px,200%matn,Reduce Motion. Avvalgi196kodining to‘liqFlutter yugurishi762passed7:27; joriy201uchun butunFlutter suite qayta bajarilmadi.
+- Analyze0issue; debugJSweb57.9s. Bu Android/browser/API sinovi emas.
+- Sourceaudit23PDF2958sahifa,201ko‘rilgan mavzu/407asosiy sahifa; yangi10sahifa hash/pinlari tekshirildi.
+- Ruff,whitespace,publicfixtureprivacy o‘tdi. Oldingi83kontent/manba fayli va5himoyalangan worktree o‘zgarmadi.
+- Oldingi to‘liq backend yugurishida sinf bo‘yicha ajratilmagan eski test xato dars tanlagan; grade scope tuzatildi. Joriy109test ichida tegishli14test qayta o‘tdi. Joriy201uchun butunbackend suite qayta bajarilmadi; eski xato yashirilmagan.
+
+**Keyingi §57,path16,PDF35–36/bosma34–35.** §57,raqamsiz summary va§58–60ningPDF35–44sahifalari ko‘rildi; bu checkpointda hali dars emas.
+Butun1–11kurs tugallanmagan; globaljami/qolgan mavzular noma’lum.
+O‘qituvchi/o‘quvchi piloti,2026–27moslik,realAndroid/TalkBack va standaloneCLIpositive sinovlari tasdiqsiz.
+Veb-sayt,boshqa fanlar,main va production o‘zgarmadi. PDF/rasm/OCR yoki credential Gitga qo‘shilmadi.
+
 ## 2026-11-06 — 2-sinf II qism §47–51, jami 196 lokal dars
 
 **196 dars, 1 180 karta, 1 546 savol, 196 misol / 588 qadam, 348 sonli tekshiruv.**

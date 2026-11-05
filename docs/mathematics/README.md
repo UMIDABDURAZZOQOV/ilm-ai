@@ -1,5 +1,9 @@
 # ILM AI Matematika — joriy tekshirilgan davom
 
+## 2026-11-06 — checkpoint201
+
+201lokal dars/1210karta/1586savol. IIqism15/34;19birlik qolgan. Yangi§52–56manbali ayirish,aralash hisob,uchta qo‘shiluvchi va teng kataklar. Keyingi§57,path16,PDF35–36/bosma34–35. [Haqiqiy testlar](QA_REPORT.md). Kurs/Android/pedagogik tasdiq hali tugallanmagan.
+
 ## 2026-11-06 — yangi lokal checkpoint: 196 dars
 
 2-sinf II qism §47–51 qo‘shildi: II qism 10/34, 24 birlik qolgan.
