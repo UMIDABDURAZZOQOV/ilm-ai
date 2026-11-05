@@ -72,7 +72,11 @@ def test_all_literal_answers_and_wrong_alternatives(number):
 
 
 def test_bracket_equivalent_input_and_wrong_precedence_are_distinguished():
-    lessons = {l["source_number"]: l for l in load_course() if l["part"] == 2}
+    lessons = {
+        l["source_number"]: l
+        for l in load_course()
+        if (l["grade"], l["part"]) == (1, 2)
+    }
     spec = lessons[50]["questions"][5]["grading"]
     assert grade_answer(spec, {"value": "15 - (3 + 4)"}) == "correct"
     assert grade_answer(spec, {"value": "15 - 3 + 4"}) == "incorrect"

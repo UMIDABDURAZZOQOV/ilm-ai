@@ -1,5 +1,12 @@
 # ILM AI Matematika — joriy tekshirilgan davom
 
+## 2026-11-06 — yangi lokal checkpoint: 196 dars
+
+2-sinf II qism §47–51 qo‘shildi: II qism 10/34, 24 birlik qolgan.
+Jami196dars/1180karta/1546savol. Eski191dars saqlandi. Keyingi §52,path11,PDF25–26/bosma24–25.
+Haqiqiy test natijalari va eski testdagi grade scope tuzatishi [QA_REPORT.md](QA_REPORT.md)da.
+Butun1–11kurs/realAndroid/pedagogik tasdiq tugallanmagan; production o‘zgarmadi.
+
 ## Joriy checkpoint191 — 2026-11-05
 
 191lokal dars,1 150karta,1 506savol.2-sinf Iqism43/44,yetishmayotgan§25saqlandi.

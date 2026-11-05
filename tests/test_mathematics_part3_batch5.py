@@ -167,7 +167,9 @@ def test_footer29_and_toc28_remain_explicit_unready_without_invented_lesson():
     assert game["body_footer_pdf_page"] == 53 and game["body_footer_printed_page"] == 51
     assert game["body_pdf_locator"] is None and not game["ready"]
     assert not any(
-        l.get("source_number") == 29 for l in load_course() if l["part"] == 3
+        l.get("source_number") == 29
+        for l in load_course()
+        if (l["grade"], l["part"]) == (1, 3)
     )
     title = next(l for l in load_course() if l["key"] == "math-1-3-21-r1")["title"]
     assert title == "Shartni yetishmayotgan ma’lumotlar bilan to‘ldirish"

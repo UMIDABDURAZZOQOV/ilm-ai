@@ -99,7 +99,7 @@ def test_independent_literal_answers_wrong_values_and_aliases(n):
 
 def test_real_body_map_keeps_toc73_discrepancy_and_rejects_renumbering():
     m = json.loads((ROOT / "grade2_part2_map.json").read_text())
-    assert len(m["topics"]) == 34 and m["authored_lessons"] == 5
+    assert len(m["topics"]) == 34 and m["authored_lessons"] == 10
     assert [
         t["source_number"] for t in m["topics"] if t["source_number"] is not None
     ] == list(range(42, 73))
@@ -141,7 +141,7 @@ def test_all43_real_predecessors_no_missing_progress_and_revocation(
     assert cat["source_gap_bridge"]["completed_predecessor_lessons"] == 43
     assert cat["source_gap_bridge"]["missing_source_numbers"] == [25]
     assert cat["source_sequence_gap_bridge"] is None and not cat["course_ready"]
-    assert [l["state"] for l in cat["lessons"]] == ["available"] + ["locked"] * 4
+    assert [l["state"] for l in cat["lessons"]] == ["available"] + ["locked"] * 9
     assert start(client, 2).status_code == 403
     pending = start(client).json()
     sid = pending["attempt_id"]

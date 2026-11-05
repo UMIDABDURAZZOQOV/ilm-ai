@@ -1,5 +1,9 @@
 # 2-sinf II qism — manbali darslar va lokal sinov
 
+## 2026-11-06 — amaldagi qo‘shimcha
+
+II qism endi **10/34** lokal dars: §42–51 / path1–10. Jami196dars,1180karta,1546savol. Yangi §47–51 taqqoslash,ordering,uch xonali qo‘shishni o‘rgatadi. Keyingi §52/PDF25–26. Ikkala avvalgi default-off flag va43haqiqiy Iqism darsi talabi saqlandi. To‘liq test tafsiloti [QA_REPORT.md](QA_REPORT.md)da. Quyidagi dastlabki5dars tafsiloti tarix sifatida saqlangan.
+
 Faqat alohida development/test preview. Normal mobil katalog yoki productionni yoqmaydi.
 
 ## Tayyorlangan partiya

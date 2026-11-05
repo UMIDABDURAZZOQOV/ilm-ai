@@ -1,6 +1,8 @@
 # 2-sinf II qism — joriy manba va darslar
 
-## Joriy checkpoint191 — 2026-11-05
+§47–51 ham lokal test darslariga aylantirildi: **10/34**, 24 birlik qolgan. Eski jadvaldagi keyingi5qator holati ushbu yangi yozuv bilan yangilanadi. §52–56 manbalari ko‘rilgan, darslari bu checkpointda hali sanalmaydi.
+
+## Oldingi checkpoint191 — 2026-11-05
 
 191lokal dars,1 150karta,1 506savol.2-sinf Iqism43/44,yetishmayotgan§25saqlandi.
 IIqism5/34lokal dars,29tana kontenti hali tayyor emas. Actual31numbered+2summary+1logical;
@@ -17,16 +19,16 @@ Yangi default-offpairedlocalQAflag ikkalaSHA va43real oldingi darsni talab qilad
 |44|3|9–10|8–9|Lokal dars|
 |45|4|11–12|10–11|Lokal dars|
 |46|5|13–14|12–13|Lokal dars|
-|47|6|15–16|14–15|Faqat chegara tekshirilgan,dars yo‘q|
-|48|7|17–18|16–17|Faqat chegara tekshirilgan,dars yo‘q|
-|49|8|19–20|18–19|Faqat chegara tekshirilgan,dars yo‘q|
-|50|9|21–22|20–21|Faqat chegara tekshirilgan,dars yo‘q|
-|51|10|23–24|22–23|Faqat chegara tekshirilgan,dars yo‘q|
-|52|11|25–26|24–25|Faqat chegara tekshirilgan,dars yo‘q|
-|53|12|27–28|26–27|Faqat chegara tekshirilgan,dars yo‘q|
-|54|13|29–30|28–29|Faqat chegara tekshirilgan,dars yo‘q|
-|55|14|31–32|30–31|Faqat chegara tekshirilgan,dars yo‘q|
-|56|15|33–34|32–33|Faqat chegara tekshirilgan,dars yo‘q|
+|47|6|15–16|14–15|Lokal dars|
+|48|7|17–18|16–17|Lokal dars|
+|49|8|19–20|18–19|Lokal dars|
+|50|9|21–22|20–21|Lokal dars|
+|51|10|23–24|22–23|Lokal dars|
+|52|11|25–26|24–25|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
+|53|12|27–28|26–27|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
+|54|13|29–30|28–29|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
+|55|14|31–32|30–31|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
+|56|15|33–34|32–33|Asl sahifalar ko‘rilgan, dars hali qo‘shilmagan|
 |57|16|35–36|34–35|Faqat chegara tekshirilgan,dars yo‘q|
 |Raqamsiz|17|37–38|36–37|Faqat chegara tekshirilgan,dars yo‘q|
 |58|18|39–40|38–39|Faqat chegara tekshirilgan,dars yo‘q|

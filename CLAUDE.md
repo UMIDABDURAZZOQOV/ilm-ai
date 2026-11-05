@@ -1,5 +1,51 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-06 — 2-sinf II qism §47–51, jami 196 lokal dars
+
+**196 dars, 1 180 karta, 1 546 savol, 196 misol / 588 qadam, 348 sonli tekshiruv.**
+Yangi 5 dars: 30 karta, 40 savol (2 tartiblash), 5 misol / 15 qadam, 10 tenglik.
+Oldingi 191 dars o‘zgarmadi. II qism 10/34; 24 birlik hali darsga aylantirilmagan.
+
+| § | Path | PDF | Bosma | Usul |
+|---|---|---|---|---|
+|47|6|15–16|14–15|Birinchi farqli xona; 21/210; yo‘l jami va farqi|
+|48|7|17–18|16–17|Xonalar soni; kamida; bir xil qo‘shiluvchi; vaqt|
+|49|8|19–20|18–19|O‘sish/kamayish; yoyilmalar; zaxira qoldig‘i|
+|50|9|21–22|20–21|Xonalarni tekis qo‘shish, o‘tkazishsiz|
+|51|10|23–24|22–23|Birlik/o‘nlikdan o‘tkazish; shartli budjet|
+
+Asl 10 sahifa ko‘rildi. Neytral original misollar manbaga bog‘langan; tarixiy piramida haqidagi ma’lumotlar,
+ish vaqti normasi, kasb tasnifi yoki narxlar tekshirilgan tashqi fakt deb olinmadi.
+Mundarija §73 / haqiqiy raqamsiz summary farqi va I qismning yo‘q §25 / bosma54–55 kamchiligi saqlandi.
+Yangi QA ruxsati qo‘shilmadi: avvalgi ikkala default-off flag, 43 haqiqiy I qism darsi va II ichki prerequisite ishlaydi.
+
+Flutterda `three_digit_explorer.dart`: xona bo‘yicha taqqoslash, raqamlar soni, o‘sish/kamayish,
+ustunda o‘tkazishsiz va o‘tkazish bilan qo‘shish. Qo‘shiluvchilar o‘ngdan tekislanadi;
+268+157=425 da ikkala o‘tkazish, 245+326=571 da bitta o‘tkazish mustaqil testlandi.
+Oldinga/orqaga bosqichlar, namuna almashtirish va tenglik/0/21/210 holatlari bor.
+159 asosiy model, karta darajasidagi variant bilan 160 tur. Server javob kaliti mijozga berilmadi.
+
+Haqiqiy tekshiruvlar:
+
+- Yangi backend: 7 passed, 47.13 s; real chain, xato feedback, ordering, resume, replay va XP.
+- To‘liq Math yugurishi: 275 passed, 1 failed, 1 skipped (800.79 s). Bitta eski test grade filtri yo‘qligi uchun boshqa sinfning §50 sini tanlagan.
+- Shu ildiz sabab tuzatildi: II va III qism testlariga `grade=1` filtri qo‘shildi. Tegishli ikkala fayl qayta bajarildi: **14 passed, 46.45 s**. Dastur/kontent yoki grader bu sabab bilan o‘zgarmadi. To‘liq yugurish natijasi yashirilmagan.
+- PostgreSQL: **1 passed, 148.36 s**; barcha 196 dars; seed137XP→2097; takror import/replay/parallel reward/UID/streak. Faqat o‘z random schema ishlatilib olib tashlandi; o‘z konteyneri to‘xtatildi.
+- Biology/Physics/mobile OAuth: **11 passed, 43.01 s**.
+- Flutter to‘liq: **762 passed**; yangi 13 test: **13 passed, 19 s**; 320px/200%/Reduce Motion. Analyze: **0 issue, 2.7 s**.
+- Source audit: 23PDF / 2958sahifa; 196 ko‘rilgan mavzu / 397 asosiy sahifa. Barcha yangi pinlar tekshirildi.
+- Ruff/whitespace va public fixture privacy o‘tdi. Oldingi 81 kontent/manba fayli o‘zgarmadi; 5 himoyalangan worktree toza/HEADlari o‘zgarishsiz.
+
+Boshida yangi test yordamchisidagi `ordered_ids` maydoni haqiqiy `order` kontraktiga moslandi;
+fixture capture uchun mavjud QA flagni kerakli paytda yoqish tuzatildi. Mustaqil baholash API o‘zgarmadi.
+
+**Keyingi §52, path11, PDF25–26 / bosma24–25.** §52–56 ning PDF25–34 sahifalari ham to‘liq ko‘rildi;
+keyingi kontent xususiy authoring faylida tayyorlanmoqda, bu checkpointda hali dars sifatida sanalmaydi.
+52–54 da donor xonani kamaytirish va nol orqali guruhlash; 56 da 21 birlikdan 2 o‘nlik o‘tishi alohida tekshirilsin.
+Mavjud progress, Ilmo, brend, veb-sayt va boshqa fanlar saqlandi. Production/main o‘zgarmadi.
+Android/TalkBack, o‘qituvchi va o‘quvchi piloti, 2026–27 mosligi tasdiqsiz; butun 1–11 kursi tugallanmagan.
+Global jami/qolgan son hali noma’lum. PDF/rasm/OCR yoki credential Gitga kiritilmadi.
+
 ## Git checkpoint 191 — 2026-11-05
 
 Backend kod/kontent: `4743891e01783273b82f4431536ce3c37730389a`. Flutter: `dc970704d69b47df7d6864f2170851b2fa08ca32`.
