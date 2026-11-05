@@ -155,7 +155,7 @@ def test_grade2_map_keeps_missing25_and_actual_unnumbered_bodies():
     from services.mathematics_curriculum import ROOT, validate_document
 
     m = json.loads((ROOT / "grade2_part1_map.json").read_text())
-    assert len(m["topics"]) == 44 and m["authored_lessons"] == 25
+    assert len(m["topics"]) == 44 and m["authored_lessons"] == 30
     assert [t["source_number"] for t in m["topics"] if t["source_number"]] == list(
         range(1, 42)
     )

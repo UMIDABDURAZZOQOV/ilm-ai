@@ -4,6 +4,7 @@ All answers are server graded. No existing subject router or schema is changed.
 An answer request UUID is an idempotency key; a new UUID permits a real retry.
 """
 
+import json
 import os
 from copy import deepcopy
 from datetime import timedelta
@@ -12,7 +13,7 @@ from fastapi import HTTPException
 from sqlalchemy import func, inspect, update
 from sqlalchemy.exc import IntegrityError
 
-from services.mathematics_curriculum import digest, manifest, staging_url
+from services.mathematics_curriculum import ROOT, digest, manifest, staging_url
 from services.mathematics_grading import MathInputError, grade_answer
 from services.mathematics_models import (
     MathAnswer,
@@ -207,6 +208,86 @@ def qa_navigation_bridge(db, completed, grade, part):
     )
 
 
+def qa_grade2_source_sequence_gap(db, completed, grade, part):
+    """Explicit local QA past missing source25, without completing path26.
+
+    This is a within-book gap, separate from previous-book navigation. All25
+    actual predecessors are mandatory. Reviewed later bodies keep their real
+    path IDs; an absent body never receives a row, attempt, progress or XP.
+    """
+    if (
+        (grade, part) != (2, 1)
+        or os.getenv("MATHEMATICS_QA_GRADE2_PART1_SOURCE_GAP", "").lower() != "true"
+        or os.getenv("MATHEMATICS_PREVIEW_ENABLED", "").lower() != "true"
+    ):
+        return None
+    try:
+        staging_url(db.get_bind().url)
+        source = next(b for b in manifest()["books"] if b["book_id"] == "math-uz-g2-p1")
+        mapping = json.loads((ROOT / "grade2_part1_map.json").read_text())
+        missing = mapping["topics"][25]
+        gap = source["source_gaps"]
+        sha = "31124258de8a1432c1ce15006ff6465f818cf9c10fa86cbaf5dc6566c4c64f54"
+        if (
+            source["sha256"] != sha
+            or mapping["book_sha256"] != sha
+            or source.get("topic_count") != 44
+            or source.get("body_topic_count") != 43
+            or len(gap) != 1
+            or gap[0].get("topic_source_number") != 25
+            or gap[0].get("missing_printed_pages") != [54, 55]
+            or gap[0].get("before") != {"pdf_page": 54, "printed_page": 53}
+            or gap[0].get("after") != {"pdf_page": 55, "printed_page": 56}
+            or gap[0].get("ready") is not False
+            or missing.get("source_number") != 25
+            or missing.get("path_sequence") != 26
+            or missing.get("printed_pages") != [54, 55]
+            or missing.get("body_pdf_locator") is not None
+            or missing.get("interactive_lesson_created") is not False
+        ):
+            return None
+    except (ValueError, OSError, KeyError, IndexError, StopIteration):
+        return None
+    rows = (
+        db.query(MathLesson)
+        .filter_by(grade=2, part=1)
+        .order_by(MathLesson.sequence)
+        .all()
+    )
+    if [(l.key, l.sequence) for l in rows[:25]] != [
+        (f"math-2-1-{n}-r1", n) for n in range(1, 26)
+    ] or not all(l.key in completed for l in rows[:25]):
+        return None
+    for index, lesson in enumerate(rows[25:], 27):
+        topic = next(
+            (t for t in mapping["topics"] if t["path_sequence"] == index), None
+        )
+        if (
+            lesson.sequence != index
+            or lesson.key != f"math-2-1-{index}-r1"
+            or not topic
+            or topic.get("interactive_lesson_created") is not True
+            or topic.get("verification") != "body_images_reviewed"
+            or not topic.get("body_pdf_locator")
+            or lesson.document.get("topic_id") != topic["topic_id"]
+            or lesson.document.get("source_number") != topic["source_number"]
+        ):
+            return None
+    return {
+        "kind": "local_qa_within_book_source_gap",
+        "book_id": source["book_id"],
+        "grade": 2,
+        "part": 1,
+        "missing_source_numbers": [25],
+        "missing_path_sequences": [26],
+        "missing_printed_pages": [54, 55],
+        "completed_predecessor_lessons": 25,
+        "missing_topic_completed": False,
+        "teacher_review": "not_verified",
+        "message": "Lokal sinov: avvalgi 25 ta mavjud dars bajarilgan. 25-mavzuning bosma 54–55-sahifalari yo‘q; unga dars, progress yoki XP yozilmadi. Keyingi mavjud mavzularni sinash yoqilgan. Kurs hali to‘liq emas.",
+    }
+
+
 def catalog(db, uid, grade=1, part=1):
     rows = (
         db.query(MathLesson)
@@ -220,11 +301,13 @@ def catalog(db, uid, grade=1, part=1):
         None if previous_ready else qa_navigation_bridge(db, completed, grade, part)
     )
     navigation_ready = previous_ready or bridge is not None
+    sequence_bridge = qa_grade2_source_sequence_gap(db, completed, grade, part)
     ready = navigation_ready
     books = available_books(db)
     lessons = []
     for index, lesson in enumerate(rows, 1):
-        ready = ready and lesson.sequence == index
+        expected = index + (1 if sequence_bridge and index >= 26 else 0)
+        ready = ready and lesson.sequence == expected
         done = lesson.key in completed
         lessons.append(
             {
@@ -253,6 +336,7 @@ def catalog(db, uid, grade=1, part=1):
         "previous_book_complete": previous_ready,
         "previous_book_navigation_ready": navigation_ready,
         "source_gap_bridge": bridge,
+        "source_sequence_gap_bridge": sequence_bridge,
         "blocked_sources": manifest()["blocked_sources"],
         "lessons": lessons,
     }
@@ -281,6 +365,14 @@ def attempt(db, uid, sid, *, lock=False):
         if not previous_book_complete(
             db, completed, grade, part
         ) and not qa_navigation_bridge(db, completed, grade, part):
+            raise HTTPException(403, "math_source_gap_preview_disabled")
+    if row.result is None and row.snapshot.get("qa_source_sequence_gap_bridge"):
+        completed = {
+            p.lesson_key for p in db.query(MathProgress).filter_by(user_id=uid)
+        }
+        if not qa_grade2_source_sequence_gap(
+            db, completed, row.snapshot["grade"], row.snapshot["part"]
+        ):
             raise HTTPException(403, "math_source_gap_preview_disabled")
     return row
 
@@ -313,6 +405,7 @@ def public_attempt(db, row):
         "answers": [a.response for a in answer_rows(db, row)],
         "result": row.result,
         "source_gap_bridge": doc.get("qa_source_gap_bridge"),
+        "source_sequence_gap_bridge": doc.get("qa_source_sequence_gap_bridge"),
     }
 
 
@@ -328,6 +421,14 @@ def start(db, uid, key, request_id):
     if not lesson or db.get(User, uid) is None:
         raise HTTPException(404, "lesson_or_user_not_found")
     course = catalog(db, uid, lesson.grade, lesson.part)
+    if (
+        (lesson.grade, lesson.part) == (2, 1)
+        and lesson.sequence > 26
+        and not course["source_sequence_gap_bridge"]
+    ):
+        # A completed badge permits result viewing, not a new attempt after
+        # server-side QA authorization is revoked.
+        raise HTTPException(403, "math_source_gap_preview_disabled")
     state = next(
         (l["state"] for l in course["lessons"] if l["key"] == key),
         "locked",
@@ -342,6 +443,8 @@ def start(db, uid, key, request_id):
     snapshot = deepcopy(lesson.document)
     if course["source_gap_bridge"]:
         snapshot["qa_source_gap_bridge"] = course["source_gap_bridge"]
+    if lesson.sequence > 26 and course["source_sequence_gap_bridge"]:
+        snapshot["qa_source_sequence_gap_bridge"] = course["source_sequence_gap_bridge"]
     row = MathAttempt(
         id=sid,
         user_id=uid,

@@ -1,5 +1,49 @@
 # Matematika QA — tekshirilgan checkpointlar
 
+## 2026-11-05 — 2-sinf I qism §26–30, jami173 lokal dars
+
+**173dars,1 022karta,1 344savol,173misol/519qadam,302sonli tenglik,145explorer turi.**
+Yangi besh dars:30karta,40savol,5misol/15qadam va10sonli tenglik.
+1-sinf143darsi saqlandi;2-sinf Iqism30/44birlik (29raqamlangan va1haqiqiy raqamsiz yakuniy dars).
+14birlik qolgan:13mavjud tana va§25ning bosma54–55manbasi yo‘q1mavzu.
+
+| Manba | Path | PDF | Bosma |
+|---|---|---|---|
+|26|27|55–56|56–57|
+|27|28|57–58|58–59|
+|28|29|59–60|60–61|
+|29|30|61–62|62–63|
+|30|31|63–64|64–65|
+
+Asl sahifalar to‘liq ko‘rildi. Original misollar,har bir savolga mos bosqichli hintlar,
+MCQ/sonli FRQ va serverda yechim/tekshiruv saqlandi. Yangi modellar:ustundagi xona qiymati,
+ikki xonali sondan o‘nlik ochib ayirish,ayriluvchini qismlarga ajratish,carrydan qolgan birliklar.
+Ustun/bo‘lak modellarida orqaga qadam,presetreset,semantika va320px/200%matn tekshiruvlari bor.
+
+`MATHEMATICS_QA_GRADE2_PART1_SOURCE_GAP=true` faqat explicit lokal/test ruxsati.
+Aniq kitobSHA/map/gap,barcha25haqiqiy oldingi dars va keyingi darslarning oddiy prerequisite tartibi tekshiriladi.
+§25/path26uchun dars,attempt,progress yokiXPyo‘q. Raqamlash siljitilmagan.
+Version1APIga alohida ixtiyoriy `source_sequence_gap_bridge` qo‘shildi;oldingi kitob bridgekontrakti o‘zgarmadi.
+Flag o‘chganda unfinished urinish/resume/answer/complete va yangi replay bloklanadi;
+tugallangan aynan shu urinish natijasi va eskiXPsaqlanadi. Mijoz ruxsat bera olmaydi.
+Flutter katalog va darsda manba kamchiligini ko‘rsatadi;`course_ready=false`.
+CLIflag:`--allow-known-grade2-part1-source-gap`;flag berilmasa o‘chiq.
+
+Haqiqiy test natijalari: **Math225pass/1skip582.55s; yakuniyCLI/API12pass18.76s; protectedbilan17pass57.85s; PostgreSQL173dars1pass79.09s (137XP→1867,replay0); Flutter706pass6:03; analyze0(2.3s); debugJSweb44.6s. CLIyangiopt-in testi fullcollectiondan keyin qo‘shilgan va alohida12testda o‘tgan. Sourceaudit23PDF/2958sahifa,173reviewedbody/346sahifa tasdiqlandi**.
+Dastlabki GETresume testi mavjud bo‘lmagan routega murojaat qilgan;amaldagi UUIDli POSTstart bilan tuzatildi.
+Oraliq fullrun darslar/mode registry hali yozilayotgan paytda boshlangan va yiqilgan;
+bu run yakuniy dalil emas. Yakuniy dalillar alohida currentcheckpoint loglaridan olinadi.
+
+**Keyingi:§31,path32,PDF65–66/bosma66–67.** Bu mavzu oldin manba tasvirida ko‘rilgan,lekin darsi yaratilmagan.
+Butun1–11kurs tugallanmagan;global jami/qolgan mavzu soni hali noma’lum.
+Mustaqil pedagog,o‘quvchi piloti,2026–27dastur,realAndroid/TalkBack va standaloneCLI positive sandbox tasdiqsiz.
+64oldingi kontent/reviewJSON byteidentical;other22book metadata/inventory va5himoyalangan worktree saqlangan.
+PDF/rasm/OCR/credentialGitga qo‘shilmadi;frontend,productionDB/import/deploy,mainmerge va nashr bajarilmadi.
+[Partiya dalili](checkpoints/grade2_part1_batch6.json),[lokalQA](GRADE2_PART1_LOCAL_QA.md).
+
+
+### Oldingi checkpointlar (saqlangan tarix)
+
 ## 2026-11-05 — 2-sinf I qism: path 22–25, jami 168 lokal dars
 
 Yangi partiya: **4 dars, 24 karta, 32 savol, 4 misol/12 qadam**.

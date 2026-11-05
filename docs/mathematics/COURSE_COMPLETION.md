@@ -1,5 +1,16 @@
 # Matematika kursi — hali tugallanmagan
 
+## Joriy checkpoint — 2026-11-05
+
+173lokal dars,1 022karta,1 344savol.2-sinf Iqism§26–30/path27–31yaratildi:
+30/44birlik tayyor,14qolgan (13mavjud tana,1yo‘q§25/bosma54–55).
+Keyingi§31,path32,PDF65–66/bosma66–67. §25uchun dummyprogress/XPyo‘q;
+keyingi mavjud mavzularga alohida default-off lokalQAflag va25haqiqiy prerequisite talab qilinadi.
+Bu butun1–11kurs tugallanganini anglatmaydi.
+[Yangi partiya/testlar](QA_REPORT.md),[checkpoint](checkpoints/grade2_part1_batch6.json),
+[lokalQA](GRADE2_PART1_LOCAL_QA.md). Oldingi yozuvlar quyida tarix sifatida saqlandi.
+
+
 ## 2026-11-05 — 2-sinf I qism: path 22–25, jami 168 lokal dars
 
 Yangi partiya: **4 dars, 24 karta, 32 savol, 4 misol/12 qadam**.

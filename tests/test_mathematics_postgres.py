@@ -19,6 +19,7 @@ from test_mathematics_grade2_part1_batch2 import finish_new as finish_grade2_sec
 from test_mathematics_grade2_part1_batch3 import finish_new as finish_grade2_third
 from test_mathematics_grade2_part1_batch4 import finish_new as finish_grade2_fourth
 from test_mathematics_grade2_part1_batch5 import finish_new as finish_grade2_fifth
+from test_mathematics_grade2_part1_batch6 import finish_new as finish_grade2_sixth
 from test_mathematics_part2 import finish_second
 from test_mathematics_part2_batch2 import finish_new as finish_second_new
 from test_mathematics_part2_batch3 import finish_new as finish_second_third
@@ -188,12 +189,18 @@ def test_math_postgres_immutable_import_first_book_and_parallel_reward(monkeypat
             for number in range(22, 26):
                 assert finish_grade2_fifth(client, number)[-1]["xp_awarded"] == 10
             assert finish_grade2_fifth(client, 25)[-1]["xp_awarded"] == 0
+            strict_grade2 = client.get(P + "/catalog", params={"grade": 2}).json()
+            assert strict_grade2["lessons"][-1]["state"] == "locked"
+            monkeypatch.setenv("MATHEMATICS_QA_GRADE2_PART1_SOURCE_GAP", "true")
+            for number in range(27, 32):
+                assert finish_grade2_sixth(client, number)[-1]["xp_awarded"] == 10
+            assert finish_grade2_sixth(client, 31)[-1]["xp_awarded"] == 0
             grade2 = client.get(P + "/catalog", params={"grade": 2}).json()
             assert all(l["state"] == "completed" for l in grade2["lessons"])
             assert grade2["book"]["source_gaps"][0]["missing_printed_pages"] == [54, 55]
         with factory.begin() as db:
-            assert db.get(User, 1).xp_total == 1817 and db.get(User, 2).xp_total == 0
-            assert import_course(db) == {"created": 0, "skipped": 168}
+            assert db.get(User, 1).xp_total == 1867 and db.get(User, 2).xp_total == 0
+            assert import_course(db) == {"created": 0, "skipped": 173}
     finally:
         engine.dispose()
         with admin.begin() as connection:

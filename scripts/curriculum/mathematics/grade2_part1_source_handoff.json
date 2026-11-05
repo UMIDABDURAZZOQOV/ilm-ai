@@ -45,7 +45,7 @@
     66,
     67
   ],
-  "status": "full_source_images_viewed_not_authored_or_tested",
+  "status": "sources26_30_authored_source31_image_review_only",
   "count_as_ready": false,
   "independent_teacher_review": false,
   "topics": [
@@ -75,7 +75,9 @@
           "image_sha256": "07858aedad38911b6d862be6fc949a7e12c8d6e6148f56fd600e40fb209dc762",
           "printed_page": 57
         }
-      ]
+      ],
+      "interactive_lesson_created": true,
+      "count_as_ready": true
     },
     {
       "topic_id": "math-g2-p1-t27",
@@ -103,7 +105,9 @@
           "image_sha256": "e830d2ff414205878cfb7e3eb7ca8349de270060bd37f6ad9f4fd9a1315300f2",
           "printed_page": 59
         }
-      ]
+      ],
+      "interactive_lesson_created": true,
+      "count_as_ready": true
     },
     {
       "topic_id": "math-g2-p1-t28",
@@ -131,7 +135,9 @@
           "image_sha256": "cfe5b58ebecc6243633d0f2ff16c38cd22f09f3e3d10ed9c06fb7b983c860b79",
           "printed_page": 61
         }
-      ]
+      ],
+      "interactive_lesson_created": true,
+      "count_as_ready": true
     },
     {
       "topic_id": "math-g2-p1-t29",
@@ -159,7 +165,9 @@
           "image_sha256": "ad0508357e21533412d34723dff4e124ba3bfcc13186f6501e5846554d844e7b",
           "printed_page": 63
         }
-      ]
+      ],
+      "interactive_lesson_created": true,
+      "count_as_ready": true
     },
     {
       "topic_id": "math-g2-p1-t30",
@@ -187,7 +195,9 @@
           "image_sha256": "27bfdf0fbcc6413927a4f4d261529b93a3293a394ff39f8c3d48ad47d934b44a",
           "printed_page": 65
         }
-      ]
+      ],
+      "interactive_lesson_created": true,
+      "count_as_ready": true
     },
     {
       "topic_id": "math-g2-p1-t31",
@@ -215,7 +225,9 @@
           "image_sha256": "d3314f8dcc5e80eacc1c4c6e45f277ef31dda1984ec1a3331943d0c918a553d6",
           "printed_page": 67
         }
-      ]
+      ],
+      "interactive_lesson_created": false,
+      "count_as_ready": false
     }
   ],
   "review_notes": [
@@ -227,5 +239,12 @@
     "Source31:commutation/grouping incolumns. Putting a larger addend on top is a convenient presentation choice, not a mathematical requirement.",
     "No missing source25body is invented from identically titled source26; source26 remains path27. No fake progress/XP for missing path26."
   ],
-  "runtime_handoff": "Current strict lesson.sequence==index prevents navigating across missing path26. Before testing later lesson completion, preserve source gap; use a narrowly scoped explicit local-QA policy with sourceSHA/map verification, all25earlier lessons, no missing progress/XP, request cannot enable it, revocation blocks unfinished attempts but preserves completed results. Do not silently renumber or alter production policies."
+  "runtime_handoff": "Implemented default-off local server flag MATHEMATICS_QA_GRADE2_PART1_SOURCE_GAP; exact book/gap/all25prerequisites and revocable attempts; see docs/mathematics/GRADE2_PART1_LOCAL_QA.md. No fake source25 progress. Source31 is not authored.",
+  "ready_source_numbers": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ]
 }

@@ -1,5 +1,16 @@
 # 2-sinf I qism — joriy manba va dars qamrovi
 
+## Joriy checkpoint — 2026-11-05
+
+173lokal dars,1 022karta,1 344savol.2-sinf Iqism§26–30/path27–31yaratildi:
+30/44birlik tayyor,14qolgan (13mavjud tana,1yo‘q§25/bosma54–55).
+Keyingi§31,path32,PDF65–66/bosma66–67. §25uchun dummyprogress/XPyo‘q;
+keyingi mavjud mavzularga alohida default-off lokalQAflag va25haqiqiy prerequisite talab qilinadi.
+Bu butun1–11kurs tugallanganini anglatmaydi.
+[Yangi partiya/testlar](QA_REPORT.md),[checkpoint](checkpoints/grade2_part1_batch6.json),
+[lokalQA](GRADE2_PART1_LOCAL_QA.md). Oldingi yozuvlar quyida tarix sifatida saqlandi.
+
+
 2026-11-05. Hozirgi yakuniy test dalillari checkpoint JSON va QA_REPORT.mdda saqlanadi.
 **25/44 interaktiv birlik**: source1–24 va PDF41–42dagi haqiqiy raqamsiz yakuniy dars.
 2-sinfning 25-raqamli mavzusi yaratilmagan: uning bosma54–55 manbasi yo‘q.

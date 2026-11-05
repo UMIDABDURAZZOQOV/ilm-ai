@@ -1,5 +1,18 @@
 # 2-sinf I qism — yo‘q sahifadan keyingi xavfsiz davom
 
+## Joriy checkpoint — 2026-11-05
+
+173lokal dars,1 022karta,1 344savol.2-sinf Iqism§26–30/path27–31yaratildi:
+30/44birlik tayyor,14qolgan (13mavjud tana,1yo‘q§25/bosma54–55).
+Keyingi§31,path32,PDF65–66/bosma66–67. §25uchun dummyprogress/XPyo‘q;
+keyingi mavjud mavzularga alohida default-off lokalQAflag va25haqiqiy prerequisite talab qilinadi.
+Bu butun1–11kurs tugallanganini anglatmaydi.
+[Yangi partiya/testlar](QA_REPORT.md),[checkpoint](checkpoints/grade2_part1_batch6.json),
+[lokalQA](GRADE2_PART1_LOCAL_QA.md). Oldingi yozuvlar quyida tarix sifatida saqlandi.
+
+§26–30hozir dars/test partiyasida;§31esa faqat manba ko‘rigi. Quyidagi dastlabki handoff tarixi saqlandi.
+
+
 2026-11-05. §21–24 yangi partiya testlarida. Tayyor darslar deb faqat yakuniy tekshiruvlaridan o‘tgan checkpoint sonlari olinadi.
 
 §25ning bosma54–55 sahifalari manbada yo‘q. Buni §26 bilan almashtirish, path26ga dummy dars/progress/XP yozish yoki keyingi pathlarni yashirincha siljitish mumkin emas.

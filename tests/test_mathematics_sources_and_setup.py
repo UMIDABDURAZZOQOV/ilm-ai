@@ -33,7 +33,7 @@ def test_missing_sources_are_not_counted_as_complete_and_duplicates_are_one_topi
     assert repeated["canonical_pdf_pages"] == [53, 54]
     assert repeated["duplicate_pdf_pages"] == [55, 56]
     assert mapping["topics"][25]["body_pdf_pages_observed"] == [57, 58]
-    assert len(load_course()) == 168  # TOC locators never become synthetic lessons.
+    assert len(load_course()) == 173  # TOC locators never become synthetic lessons.
 
 
 def test_part2_missing_lesson_is_not_fabricated_from_the_toc():
@@ -75,3 +75,11 @@ def test_production_cli_is_rejected_before_any_directory_or_database_write(
     with pytest.raises(SystemExit) as result:
         main()
     assert result.value.code == 2 and not target.exists()
+
+
+def test_grade2_gap_flag_is_explicit_cli_opt_in_only(monkeypatch, capsys):
+    monkeypatch.setattr(sys, "argv", ["serve_mathematics_preview", "--help"])
+    with pytest.raises(SystemExit) as result:
+        main()
+    assert result.value.code == 0
+    assert "--allow-known-grade2-part1-source-gap" in capsys.readouterr().out
