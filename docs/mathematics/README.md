@@ -1,5 +1,15 @@
 # ILM AI Matematika — joriy tekshirilgan davom
 
+## Joriy checkpoint178 — 2026-11-05
+
+178lokal dars,1 052karta,1 384savol.2-sinf Iqism35/44birlik,9qolgan:
+8mavjud tana va1yo‘q§25/bosma54–55. Keyingi§36,path37,PDF75–76/bosma76–77.
+§31–35ning asl sahifalari asosida5yangi dars va yig‘indidan ayirish modeli qo‘shildi.
+173oldingi dars saqlandi;global1–11kurs tugallanmagan. [Haqiqiy testlar](QA_REPORT.md),
+[checkpoint](checkpoints/grade2_part1_batch7.json),[ilmiy review](GRADE2_PART1_SCIENTIFIC_REVIEW.md),
+[keyingi manba](GRADE2_PART1_NEXT_SOURCE.md). Quyidagi oldingi yozuvlar tarix sifatida saqlandi.
+
+
 ## Joriy checkpoint — 2026-11-05
 
 173lokal dars,1 022karta,1 344savol.2-sinf Iqism§26–30/path27–31yaratildi:

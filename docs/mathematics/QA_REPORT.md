@@ -1,5 +1,51 @@
 # Matematika QA — tekshirilgan checkpointlar
 
+## 2026-11-05 — 2-sinf I qism §31–35, jami178 lokal dars
+
+**178dars,1 052karta,1 384savol,178misol/534qadam,312sonli tenglik,146explorer turi.**
+Yangi partiya:5dars,30karta,40savol,5misol/15qadam,10sonli tenglik.
+Ushbu davomda ikki partiya bilan§26–35:10dars,60karta,80savol yaratildi.
+1-sinf143darsi saqlandi.2-sinf Iqism35/44birlik tayyor (34raqamlangan va1haqiqiy raqamsiz yakuniy dars).
+9birlik qolgan:8mavjud tana va§25ning bosma54–55manbasi yo‘q1mavzu.
+
+| Manba | Path | PDF | Bosma |
+|---|---|---|---|
+|31|32|65–66|66–67|
+|32|33|67–68|68–69|
+|33|34|69–70|70–71|
+|34|35|71–72|72–73|
+|35|36|73–74|74–75|
+
+Har sahifa asl tasvirida tekshirildi. O‘rin almashtirish/guruhlash,ustunda o‘nlikni ochish,
+og‘zaki hisob,yig‘indidan ayirish,matnli ifoda va qator/ustun jamlari uchun original darslar.
+Mustaqil FRQlar ishlangan namunalardan boshqa sonlarga ega. Har savolda yo‘naltiruvchi hint va serverda yechim.
+Yangi `sum_remove_part`modeli jami yoki ikki qo‘shiluvchidan bir martadan ayirishning8yaroqli yo‘lini ko‘rsatadi;
+manfiy qoldiq talab qiladigan alohida qo‘shiluvchi yo‘li tanlanmaydi.320px/200%matn,back/reset va katta matn sinovlari bor.
+
+[Ilmiy review](GRADE2_PART1_SCIENTIFIC_REVIEW.md):§31dagi katta-son-oldin yozuv tavsiya,majburiy matematik qoida emas;
+§32algoritmidagi «ayriluvchi» satri o‘rnida qarz aynan kamayuvchining birliklariga ochiladi;
+§34–35da butun sonlardagi formula bilan ushbu nonnegative dars doirasi farqlanadi.
+OriginalPDF o‘zgartirilmagan,ta’rifdagi tafovut yashirilmagan. Mustaqil o‘qituvchi hali tasdiqlamagan.
+
+Source25/path26yo‘q;dummylesson/attempt/progress/XPyaratilmadi. Oldingi exactSHA/default-off localQAflag,
+25haqiqiy predecessor,replay0XP,UID,snapshotrevocation va completedresult saqlanishi o‘zgarmadi.
+173eski darsning kontenti saqlandi;eski batch6testining faqat keyingi pathlar bo‘yicha qattiq uzunligi dinamik qilindi.
+Oldingi72source/contentfayl,oldingiFlutterfixturelar va boshqa22kitob metadata/inventory byteidentical.
+
+Haqiqiy testlar: **Math232pass/1skip605.66s; yangi/oldingi gapAPI12pass31.22s; PostgreSQL178dars1pass86.58s(137XP→1917,replay0); Flutter717pass5:57 va yangi11targetpass13s; analyze0(2.5s); debugJS43.4s; Biology/Physics/mobileOAuth11pass35.82s. Sourceaudit23PDF/2958sahifa,178reviewedtopic/356tanasahifa tasdiqlandi;5himoyalanganworktreeclean vaHEADlari o‘zgarmagan**.
+Yakuniy fullrun oldidan oraliq runlar kutilgan path uzunligi va original mustaqilFRQ refinementi uchun to‘xtatildi;
+ular muvaffaqiyatli yakuniy run deb hisoblanmadi. Analyzerning ikki teststyleinfo si qavslar bilan tuzatildi.
+
+**Keyingi§36,path37,PDF75–76/bosma76–77**,asl tana tasvirlari ko‘rildi,lekin dars hali yo‘q.
+[Sodda aniq handoff](GRADE2_PART1_NEXT_SOURCE.md),[partiya dalili](checkpoints/grade2_part1_batch7.json).
+Butun1–11kurs tugallanmagan;globaljami/qolgan mavzu soni noma’lum. AndroidSDK/realAndroid/TalkBack,
+independentteacher/pilot/2026–27alignment va standaloneCLIpositive sandbox tasdiqsiz.
+Faqat alohida lokal/testpreview;frontend,boshqa fanlar va production o‘zgarmadi. PDF/rasm/OCR/credentialGitga kiritilmadi.
+Mainmerge,productionDB/import/migratsiya/deploy/nashr yo‘q. O‘zPGcontaineri testdan keyin to‘xtatildi.
+
+
+### Oldingi checkpointlar (saqlangan tarix)
+
 ## 2026-11-05 — 2-sinf I qism §26–30, jami173 lokal dars
 
 **173dars,1 022karta,1 344savol,173misol/519qadam,302sonli tenglik,145explorer turi.**

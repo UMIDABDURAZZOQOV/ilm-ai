@@ -1,5 +1,64 @@
 # 2-sinf I qism — joriy manba va dars qamrovi
 
+## Joriy checkpoint178 — 2026-11-05
+
+178lokal dars,1 052karta,1 384savol.2-sinf Iqism35/44birlik,9qolgan:
+8mavjud tana va1yo‘q§25/bosma54–55. Keyingi§36,path37,PDF75–76/bosma76–77.
+§31–35ning asl sahifalari asosida5yangi dars va yig‘indidan ayirish modeli qo‘shildi.
+173oldingi dars saqlandi;global1–11kurs tugallanmagan. [Haqiqiy testlar](QA_REPORT.md),
+[checkpoint](checkpoints/grade2_part1_batch7.json),[ilmiy review](GRADE2_PART1_SCIENTIFIC_REVIEW.md),
+[keyingi manba](GRADE2_PART1_NEXT_SOURCE.md). Quyidagi oldingi yozuvlar tarix sifatida saqlandi.
+
+| Manba | Path | PDF | Bosma | Joriy holat |
+|---|---|---|---|---|
+|1|1|5–6|4–5|Lokal dars testlangan|
+|2|2|7–8|6–7|Lokal dars testlangan|
+|3|3|9–10|8–9|Lokal dars testlangan|
+|4|4|11–12|10–11|Lokal dars testlangan|
+|5|5|13–14|12–13|Lokal dars testlangan|
+|6|6|15–16|14–15|Lokal dars testlangan|
+|7|7|17–18|16–17|Lokal dars testlangan|
+|8|8|19–20|18–19|Lokal dars testlangan|
+|9|9|21–22|20–21|Lokal dars testlangan|
+|10|10|23–24|22–23|Lokal dars testlangan|
+|11|11|25–26|24–25|Lokal dars testlangan|
+|12|12|27–28|26–27|Lokal dars testlangan|
+|13|13|29–30|28–29|Lokal dars testlangan|
+|14|14|31–32|30–31|Lokal dars testlangan|
+|15|15|33–34|32–33|Lokal dars testlangan|
+|16|16|35–36|34–35|Lokal dars testlangan|
+|17|17|37–38|36–37|Lokal dars testlangan|
+|18|18|39–40|38–39|Lokal dars testlangan|
+|Raqamsiz|19|41–42|40–41|Lokal dars testlangan|
+|19|20|43–44|42–43|Lokal dars testlangan|
+|20|21|45–46|44–45|Lokal dars testlangan|
+|21|22|47–48|46–47|Lokal dars testlangan|
+|22|23|49–50|48–49|Lokal dars testlangan|
+|23|24|51–52|50–51|Lokal dars testlangan|
+|24|25|53–54|52–53|Lokal dars testlangan|
+|25|26|—|54–55|Manba yo‘q|
+|26|27|55–56|56–57|Lokal dars testlangan|
+|27|28|57–58|58–59|Lokal dars testlangan|
+|28|29|59–60|60–61|Lokal dars testlangan|
+|29|30|61–62|62–63|Lokal dars testlangan|
+|30|31|63–64|64–65|Lokal dars testlangan|
+|31|32|65–66|66–67|Lokal dars testlangan|
+|32|33|67–68|68–69|Lokal dars testlangan|
+|33|34|69–70|70–71|Lokal dars testlangan|
+|34|35|71–72|72–73|Lokal dars testlangan|
+|35|36|73–74|74–75|Lokal dars testlangan|
+|36|37|75–76|76–77|Manba xaritalangan,dars yo‘q|
+|37|38|77–78|78–79|Manba xaritalangan,dars yo‘q|
+|38|39|79–80|80–81|Manba xaritalangan,dars yo‘q|
+|39|40|81–82|82–83|Manba xaritalangan,dars yo‘q|
+|Raqamsiz|41|83–84|84–85|Manba xaritalangan,dars yo‘q|
+|40|42|85–86|86–87|Manba xaritalangan,dars yo‘q|
+|41|43|87–88|88–89|Manba xaritalangan,dars yo‘q|
+|Raqamsiz|44|89–95|90–96|Manba xaritalangan,dars yo‘q|
+
+### Oldingi checkpointlar (saqlangan tarix)
+
+
 ## Joriy checkpoint — 2026-11-05
 
 173lokal dars,1 022karta,1 344savol.2-sinf Iqism§26–30/path27–31yaratildi:
