@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-05",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "126a4e5b9267c6de70694f9e56ade0e9d362df3d",
+  "flutter_code_commit": "38fb40077e86e7ced9261dfc97d461af028d5357",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 125,
+    "cards": 734,
+    "questions": 960,
+    "examples": 125,
+    "worked_steps": 375,
+    "notation_entries": 210,
+    "distinct_explorer_modes": 117,
+    "response_kinds": {
+      "choice": 308,
+      "short_text": 29,
+      "exact_number": 600,
+      "ordering": 23
+    }
+  },
+  "parts": {
+    "I": "41/41frozen",
+    "II": "32/33frozen;74missingprinted68–69",
+    "III": "37/37bodyfrozen;5scheduledrowsunready",
+    "IV": {
+      "mapped_body_topics": 33,
+      "authored_lessons": 15,
+      "remaining_body_topics": 18,
+      "all_body_content_reviewed": false
+    }
+  },
+  "tests": {
+    "Math": "166passed1skipped340.91s",
+    "Backend targeted": "19passed62.47s acrossIVfirst3batches;6newliteral/APItests",
+    "PostgreSQL": "1passed50.87s;all125,seed137XP→1387,replay0,parallelreward/UID/streak/immutable import;owned schema dropped",
+    "Flutter targeted": "13passed13s;5fullflows320px/200percent/ReduceMotion;geometry data and model invariants",
+    "Flutter full": "611passed4:16",
+    "Analyze": "0issues2.0s",
+    "Web": "debugJS58.4s;invalidcompile-onlytoken/localURL;notAndroid/browser/APItest",
+    "Protected": "Biology/Physics/mobileOAuth11passed42.29s;protected worktrees checked at final",
+    "Source audit": "23PDF/2958pages;125reviewed authored topics/250bodypages;IV33mapped/15authored/18unready",
+    "Quality": "Ruff/format/whitespace passed;prior120JSONbytes unchanged across50files;other22book metadata/inventories unchanged;public fixture privacy scan passed"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 125,
+    "reviewed_body_pages": 250,
+    "interactive_lessons": 125,
+    "theory_cards": 734,
+    "questions": 960,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 37,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "grade1_part4_mapped_body_topics": 33,
+    "grade1_part4_authored_lessons": 15,
+    "grade1_part4_body_review_not_finished": true,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "source_review_notes": [
+    "FullPDF25–34/printed24–33reviewed. Original vectors,markers and tasks,not source artwork/handwriting.",
+    "Four simple closed sides/vertices;room corner incidence12 differs from8unique objects.",
+    "Interior/boundary/exterior separate;common interior requires both interiors. SourceB naming matches originalmodelB.",
+    "Congruence independent of current alignment;equalP18for6by3and5by4does not imply same shape.",
+    "Original tangram square4by4exact7polygons,5triangles2quadrilaterals;areas4/4/1/2/1/2/2sum16;1600non-edge samplepoints coveredonce. Numerical QA only,no learner areaformula.",
+    "Tangram UI guided fixed-target placement only,not arbitrary packing/freehand construction certification.",
+    "Mirror model on0–6grid includesvertical/horizontal/diagonal;49points peraxis double reflection returns original;axisfixedpoints/bounds checked.",
+    "Symmetry equal-parts wording refined to mirror/fold condition;no universal biological/font symmetry assumptions.",
+    "Next127–132full source images viewed;newcontent not yet authored. Variables positive/nonnegative domains and elapsed-day ambiguity need explicit conditions."
+  ],
+  "next": {
+    "topic_id": "math-g1-p4-t127",
+    "source_number": 127,
+    "path_sequence": 16,
+    "title": "Simmetriya o‘qlariga ega bo‘lgan yassi shakllar",
+    "body_pdf_locator": [
+      35,
+      36
+    ],
+    "printed_pages": [
+      34,
+      35
+    ],
+    "verification": "header_footer_images_reviewed_body_pending",
+    "interactive_lesson_created": false,
+    "boundary_pins": [
+      {
+        "pdf_page": 35,
+        "printed_page": 34,
+        "native_text_sha256": "7d103ca368a48858470aebbd290cd4a1949ba361ffd10670ea131723af01ccf3",
+        "image_sha256": "d617a6f2b6644a90f6d6a799189c321832aec28b4e98163a34e92921ca6c2f6d"
+      },
+      {
+        "pdf_page": 36,
+        "printed_page": 35,
+        "native_text_sha256": "7b3091423ced2ab050e2fe58b97d62a29d87d20b63a8a3800bd9e4cac47c2cd9",
+        "image_sha256": "23721f17dfaab895cbd07cd02f36e787197ae10609f43ec2c06337e5b11482ee"
+      }
+    ]
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "independent_teacher_review": false,
+  "real_android_test": false,
+  "protected_worktrees": "clean,HEADs unchanged; verify again before push",
+  "no_production_operations": true
+}

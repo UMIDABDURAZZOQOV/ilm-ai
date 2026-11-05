@@ -1,5 +1,49 @@
 # ILM AI Matematika — joriy tekshirilgan davom
 
+## 2026-11-05 — IV qism122–126; jami125 lokal dars
+
+Yangi5dars: 30karta,40topshiriq,10sonli tenglik.
+Jami **125dars,734karta,960topshiriq,125misol/375qadam,210sonli tenglik**.
+I41/41,II32/33,III37/37matnli mavzu saqlangan;IV15/33tayyor lokal dars,18tana mavzu qolgan.
+III5nazorat/o‘yin qatori vaII74tana manbasi yo‘qligi saqlanadi. Butun1–11kurs tugamagan;
+umumiy barcha sinflar mavzu/qolganlar soni hali noma’lum.
+
+| Manba № | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|122|11|To‘rtburchaklar|25–26|24–25|
+|123|12|Sohalar va chegaralar|27–28|26–27|
+|124|13|Teng shakllar|29–30|28–29|
+|125|14|Alohida berilgan qismlardan shakllar tuzish|31–32|30–31|
+|126|15|Simmetriya|33–34|32–33|
+
+Yangi5darsda4tomon/4uch,chegarani yopish,devorburchagining ikki devorga tegishi,ichki/chegara/tashqi joylar,ustma-ust moslik va tengPning yetarli emasligi,tangram7qism,oynadagi aks o‘rgatiladi.5originalmodel qo‘shildi. Tangram berilgan kvadratsxemaga yo‘l-yo‘riqli joylashtirish bo‘lib,umumiyerkinassemblysolverdeb e’lon qilinmaydi. Simmetriya oddiytengbo‘lak emas,buklaganda moslik bilan aniqlashtirildi. Nazariykoordinataalgebrasi/yuzaformulasi/LLMqo‘shilmadi. Old120lesson/reviewimmutablesaqlangan.
+
+Haqiqiy testlar:
+
+- Math: 166passed1skipped340.91s.
+- Backend targeted: 19passed62.47s acrossIVfirst3batches;6newliteral/APItests.
+- PostgreSQL: 1passed50.87s;all125,seed137XP→1387,replay0,parallelreward/UID/streak/immutable import;owned schema dropped.
+- Flutter targeted: 13passed13s;5fullflows320px/200percent/ReduceMotion;geometry data and model invariants.
+- Flutter full: 611passed4:16.
+- Analyze: 0issues2.0s.
+- Web: debugJS58.4s;invalidcompile-onlytoken/localURL;notAndroid/browser/APItest.
+- Protected: Biology/Physics/mobileOAuth11passed42.29s;protected worktrees checked at final.
+- Source audit: 23PDF/2958pages;125reviewed authored topics/250bodypages;IV33mapped/15authored/18unready.
+- Quality: Ruff/format/whitespace passed;prior120JSONbytes unchanged across50files;other22book metadata/inventories unchanged;public fixture privacy scan passed.
+
+Default strict prerequisite saqlanadi. Faqat ikkala serverlocalQAflag va oldingi110mavjud dars
+bajarilgach IVsinash ochiladi. II74yokiIIIcontrol/gamega progress/XP yaratilmaydi;
+previous_book_complete=false,course_ready=false. Flagoffunfinished403;completedresultsaqlanadi.
+Bu normalapp/auth,production API yoki umumiy katalogni o‘zgartirmaydi.
+
+Mustaqil pedagog,pilot,Android/TalkBack va2026–27rasmiydasturmosligi not_verified.
+Standalone positiveCLI bucloudGitancestor guardi sabab bajarilmagan,chetlab o‘tilmagan.
+PDF/OCR/aslrasm/credential Gitga kiritilmagan;frontend/boshqa fanlar/main/production o‘zgarmagan.
+
+**Keyingi: IVqism,manba127 «Simmetriya o‘qlariga ega bo‘lgan yassi shakllar»,path16,PDF35–36/bosma34–35.**
+[Qamrov](PART4_PROGRESS.md),[lokalQA](PART4_LOCAL_QA.md),[checkpoint](checkpoints/grade1_part4_batch3.json).
+
+
 ## 2026-11-05 — IV qism117–121; jami120 lokal dars
 
 Yangi5dars: 30karta,40topshiriq,8sonli tenglik.

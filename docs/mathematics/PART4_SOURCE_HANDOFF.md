@@ -1,5 +1,21 @@
 # IV qism — keyingi manba review uchun qayd
 
+## Joriy2026-11-05 — 125darslik checkpoint
+
+112–126/path1–15tayyor. Oldingi122–126pendingyozuvi tarix;ularbody/review/kontent/testbilan
+qamrab olindi. Keyingi127«Simmetriya o‘qlariga ega bo‘lgan yassi shakllar»,PDF35–36/bosma34–35.
+127–132PDF35–46asl tasvirlari ko‘rildi;kontent/validator/test hali yo‘q. IV18mavzu qolgan.
+127:kvadrat4,kvadratbo‘lmaganto‘rtburchak2,doira4danhamko‘poq;noaniqrasmdanregularliktaxminqilmang.
+128:7hajmli model/asosiy nomlar;konus/silindrningko‘rinishlari,whole-minus-parts,simuzunligisaqlanishi.
+Universalpredmetshakli,yuza/hajmformulasi yoki kitobdaaytilmaganqirrasanog‘ini talabqilmang.
+129:genderbo‘yichasportjadvali medical/performance normaemas;originalshartlimaketjadvalidanfoydalaning.
+Qadamuzunligiqiyosifaqataynibiryo‘l/harbirishtirokchidao‘zgarmasqadamshartibilan.
+130–131:ifoda/tenglama,harfniqiymatigaalmashtirish. LotinharfiningEnglishpronunciationkalitiniyashirinprerequisiteqilmang.
+131shishasig‘imidanishsuvni taxminqilmang;originalmasaladaqism/butunni aniqbering.
+132:s+musbat>sfaqatmusbatqo‘shimchada;h−musbat<huchunhmoschegarada;sonlar0–100doirasi ochiq.
+Kunningyarmidachiqibkunningyarmidaqaytishdasanalar yo‘qbo‘lsa elapsedtimeaniqemas;taxminiy0/24soatkalitqo‘ymang.
+
+
 ## Joriy checkpoint2026-11-05
 
 112–121/path1–10 tayyor lokal dars. Pastdagi117–121reviewqaydlari tarix;

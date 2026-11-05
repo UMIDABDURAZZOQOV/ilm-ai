@@ -1,8 +1,8 @@
 # IV qism — haqiqiy manba va interaktiv qamrov
 
 2026-11-05.33mavzu112–144,2023nashr;III2024nashridan raqamlash farqi taxminiy dars bilan to‘ldirilmaydi.
-10/33lokal dars,23tana mavzu hali interaktiv emas. Barcha66tana header/footerlari asl tasvirda tekshirilgan.
-To‘liq tana review faqat 10authored mavzuda. Butun1–11kurs tugallanmagan.
+15/33lokal dars,18tana mavzu hali interaktiv emas. Barcha66tana header/footerlari asl tasvirda tekshirilgan.
+To‘liq tana review faqat 15authored mavzuda. Butun1–11kurs tugallanmagan.
 
 PDF2Novda2023title;PDF3copyrightda literal«Nashriyot nomi»placeholderi. Repyova/Zemlina bibliografik yozuvi va title/colophonRepyova alohida provenance bilan saqlangan.
 ISBN978-9943-9707-2-4checksumvalid. AslPDFsha:ad74352212d1b91604b14b9f24307a37d0181ccab5f1fc2b38ad61c12fe52fb3.
@@ -19,11 +19,11 @@ ISBN978-9943-9707-2-4checksumvalid. AslPDFsha:ad74352212d1b91604b14b9f24307a37d0
 |119|8|To‘g‘ri to‘rtburchak va kvadrat|19–20|18–19|lokal tayyor|
 |120|9|To‘g‘ri to‘rtburchak va kvadrat|21–22|20–21|lokal tayyor|
 |121|10|Burchak|23–24|22–23|lokal tayyor|
-|122|11|To‘rtburchaklar|25–26|24–25|tana review va mualliflik kerak|
-|123|12|Sohalar va chegaralar|27–28|26–27|tana review va mualliflik kerak|
-|124|13|Teng shakllar|29–30|28–29|tana review va mualliflik kerak|
-|125|14|Alohida berilgan qismlardan shakllar tuzish|31–32|30–31|tana review va mualliflik kerak|
-|126|15|Simmetriya|33–34|32–33|tana review va mualliflik kerak|
+|122|11|To‘rtburchaklar|25–26|24–25|lokal tayyor|
+|123|12|Sohalar va chegaralar|27–28|26–27|lokal tayyor|
+|124|13|Teng shakllar|29–30|28–29|lokal tayyor|
+|125|14|Alohida berilgan qismlardan shakllar tuzish|31–32|30–31|lokal tayyor|
+|126|15|Simmetriya|33–34|32–33|lokal tayyor|
 |127|16|Simmetriya o‘qlariga ega bo‘lgan yassi shakllar|35–36|34–35|tana review va mualliflik kerak|
 |128|17|Hajmli shakllar|37–38|36–37|tana review va mualliflik kerak|
 |129|18|Tenglik va tengsizliklar|39–40|38–39|tana review va mualliflik kerak|
