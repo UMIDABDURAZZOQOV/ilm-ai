@@ -1,5 +1,13 @@
 # Ilm AI — Project Context (for Claude)
 
+## Git checkpoint206 — 2026-11-06
+
+Backend kod/kontent: `f3724cbc92391328e7f23656f78b7b6798182abb`; Flutter: `7976cbb031effa26da074c2bf14c0b02370fe5b8`.
+Ikkalasi `feat/mathematics-curriculum` branchiga push qilindi. 206 lokal dars; sessiyada 15 yangi dars.
+II qism 20/34; keyingi §61 / path21 / PDF45–46 / bosma44–45. U millimetrni boshlaydi; darsi hali yozilmagan.
+Joriy 20 backend +25 protected/scope +55 Flutter +1 PostgreSQL testi o‘tdi. 0 analyze issue; debugJS web yig‘ildi.
+Butun 1–11 kursi, real Android va pedagogik tasdiq hali tayyor emas. Manba yetishmovchiligi va chegaralar quyida saqlandi.
+
 ## 2026-11-06 — 2-sinf II qism path 16–20: jami 206 lokal dars
 
 **206 dars, 1241 tushuntirish kartasi, 1626 savol, 206 misol / 618 qadam, 368 sonli tekshiruv.**
