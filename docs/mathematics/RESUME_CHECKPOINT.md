@@ -1,5 +1,59 @@
 # Matematika — davom checkpointi
 
+## 2026-11-05 — 2-sinf I qismning barcha mavjud tanalari:43/44, jami186lokal dars
+
+**186dars,1 120karta,1 466savol,186misol/558qadam,328sonli tenglik.**
+Yangi8dars:§36–41,haqiqiy raqamsiz yakuniy dars va bitta yakuniy amaliy to‘plam;
+68karta,82savol,8misol/24qadam,16sonli tenglik.1-sinfning143darsi va oldingi178dars kontenti saqlandi.
+2-sinf Iqism40raqamlangan dars,2haqiqiy summary,1amaliy to‘plam —43mavjud birlik.
+**§25/path26/bosma54–55yo‘q;44dan shu1birlik tayyor emas.** Hech qanday dummyprogress/XPyo‘q.
+Manbasi mavjud qolgan birliklar0ta. Bu mustaqil o‘qituvchi yoki foydalanuvchi o‘zlashtirishi tasdig‘i emas.
+
+| Manba | Path | PDF | Bosma | Raqamli qamrov |
+|---|---|---|---|---|
+|36|37|75–76|76–77|Sondan yig‘indini ayirish|
+|37|38|77–78|78–79|Vaqt,qoldiq va teng tomonli masalalar|
+|38|39|79–80|80–81|Teskari jadval,takroriy guruhlar|
+|39|40|81–82|82–83|Kirim/sarf va birliklar|
+|Raqamsiz|41|83–84|84–85|Venn,aniq so‘zlardagi harflar|
+|40|42|85–86|86–87|Amaliy matn,tenglama,raqamli chizma|
+|41|43|87–88|88–89|Ifoda,tartib,teskari komponentlar|
+|Raqamsiz|44|89–95|90–96|Bitta to‘plamda26original raqamli moslashtirish|
+
+Barcha21yangi body sahifasi asl tasvirda ko‘rildi.26mashqli to‘plamda har karta va savol
+alohida source_activity raqami/PDF/bosma sahifasiga bog‘langan;sourcevalidator o‘chirilgan,
+takrorlangan yoki noto‘g‘ri sahifaga ko‘chgan itemni rad etadi.26mashq26dars deb sanalmaydi,
+completion faqat10XP,replay0XP. Barcha mustaqil sonli javoblar va muqobil yozuvlar serverda baholanadi.
+Taqvimda yil yo‘qligi,Vennyorlig‘i va chekli qator qoidasi taxmin bilan to‘ldirilmagan.
+Raqamsiz summaryning yo‘q25-mavzuga so‘zqidirish havolasi o‘rniga aniq kitob/daftar/qalam so‘zlari berildi.
+
+Yangi modellar:sondan yig‘indini uch yo‘l bilan ayirish;ikki chiziqli original strelka;
+original4hududli xaritada6to‘g‘ri ranglash;uch aniq Vennsektori.
+Jami149defaultlessonmode,per-cardregionmodelini qo‘shganda150amaldagi tur.
+Kartada faqat mos ko‘rgazma chiqadi;amaliy26kartaga bitta strelka takrorlanmaydi.
+Private grading/expected/aliases/model_rule/yechimlar dastlabki mijozDTOga chiqmaydi.
+Kerakli factrefni bir martadan yuborish amaliy boshlang‘ich JSONproyeksiyasini750300dan61984baytga tushirdi;
+bu haqiqiy telefon,tarmoq yoki framebench emas.
+
+Haqiqiy testlar: **Math242pass/1skip695.87s;yakuniyAPI/source+protected21pass111.31s;PostgreSQL186dars1pass200.19s (137XP→1997,replay0);Flutter735pass7:32;qo‘shimcha18model/flowpass24s;analyze0(1.8s);debugJS36.1s;sourceaudit23PDF/2958sahifa,186body/377sahifa**.
+Dastlabki analyzerdagi2brace-styleinfo tuzatildi;yakuniy analyze0.
+74oldingi source/contentfayl,oldingiFlutterfixturelar,boshqa22kitob metadata/inventory saqlangan;
+5himoyalangan worktreeHEADlari va tozaligi o‘zgarmagan. O‘zPGcontaineri testdan keyin to‘xtatildi.
+
+**Keyingi:2-sinf IIqism§42 «Yuzlik. Yuzliklar bilan hisoblash»,PDF5–6/bosma4–5.**
+ManbaSHA,bibliografiya,birinchi body va mundarija asl tasvirda tekshirildi.
+34mundarija nomzodi —bu hali to‘liq bodyxaritasi yoki tayyor darslar emas;IIqismda0dars.
+I qismdagi yo‘q§25tufayli standartIIprerequisite yopiq;bu partiyada yangiIIbridge ochilmadi.
+Keyingi xaritalash/ayrim default-off exactpair QAbridge sinovlari uchun handoff bor.
+[Amaliy26qamrov](GRADE2_PART1_PRACTICAL_COVERAGE.md),[IIqismpreflight](GRADE2_PART2_PREFLIGHT.md),
+[checkpoint](checkpoints/grade2_part1_batch8.json).
+Butun1–11kurs tugallanmagan;globaljami/qolgan son hali noma’lum. Teacher/pilot/2026–27alignment,
+realAndroid/TalkBack,qo‘lda chizma va standaloneCLIpositive sandbox tasdiqsiz.
+Frontend,productionDB/import/deploy,mainmerge va PlayMarketga tegilmadi. PDF/rasm/OCR/credentialGitga kiritilmadi.
+
+
+### Oldingi checkpointlar (saqlangan tarix)
+
 ## Tasdiqlangan Git checkpoint178 — 2026-11-05
 
 Backend kod/kontent: `96923e9692f00653f32c4c9dc3ef75dca555410f`. Flutter: `e1062fbb33e8377b0301bc4ebd7444ec4c481b16`.

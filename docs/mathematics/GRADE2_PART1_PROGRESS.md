@@ -1,5 +1,65 @@
 # 2-sinf I qism — joriy manba va dars qamrovi
 
+## Joriy checkpoint186 — 2026-11-05
+
+186lokal dars,1 120karta,1 466savol.2-sinf Iqismning barcha43mavjud bodybirligi yaratildi.
+44dan1birlik —yo‘q§25/path26/bosma54–55—yaratilmadi,unga progress/XPyo‘q.
+Yakuniy26mashq bitta to‘plamdagi26original raqamli moslashtirish,26alohida dars emas.
+KeyingiIIqism§42,PDF5–6/bosma4–5;faqat preflight,0dars va34TOCnomzodi,hali fullmap emas.
+Butun1–11kurs,realAndroid,pedagog/physicalskill/pilot/2026–27tasdiqlanmagan.
+[Testlar](QA_REPORT.md),[checkpoint](checkpoints/grade2_part1_batch8.json),
+[26mashq qamrovi](GRADE2_PART1_PRACTICAL_COVERAGE.md),[keyingiIIqism](GRADE2_PART2_PREFLIGHT.md).
+Quyidagi oldingi yozuvlar tarix sifatida saqlandi.
+
+| Manba | Path | PDF | Bosma | Joriy holat |
+|---|---|---|---|---|
+|1|1|5–6|4–5|Lokal raqamli dars|
+|2|2|7–8|6–7|Lokal raqamli dars|
+|3|3|9–10|8–9|Lokal raqamli dars|
+|4|4|11–12|10–11|Lokal raqamli dars|
+|5|5|13–14|12–13|Lokal raqamli dars|
+|6|6|15–16|14–15|Lokal raqamli dars|
+|7|7|17–18|16–17|Lokal raqamli dars|
+|8|8|19–20|18–19|Lokal raqamli dars|
+|9|9|21–22|20–21|Lokal raqamli dars|
+|10|10|23–24|22–23|Lokal raqamli dars|
+|11|11|25–26|24–25|Lokal raqamli dars|
+|12|12|27–28|26–27|Lokal raqamli dars|
+|13|13|29–30|28–29|Lokal raqamli dars|
+|14|14|31–32|30–31|Lokal raqamli dars|
+|15|15|33–34|32–33|Lokal raqamli dars|
+|16|16|35–36|34–35|Lokal raqamli dars|
+|17|17|37–38|36–37|Lokal raqamli dars|
+|18|18|39–40|38–39|Lokal raqamli dars|
+|Raqamsiz|19|41–42|40–41|Lokal raqamli dars|
+|19|20|43–44|42–43|Lokal raqamli dars|
+|20|21|45–46|44–45|Lokal raqamli dars|
+|21|22|47–48|46–47|Lokal raqamli dars|
+|22|23|49–50|48–49|Lokal raqamli dars|
+|23|24|51–52|50–51|Lokal raqamli dars|
+|24|25|53–54|52–53|Lokal raqamli dars|
+|25|26|—|54–55|Manba yo‘q|
+|26|27|55–56|56–57|Lokal raqamli dars|
+|27|28|57–58|58–59|Lokal raqamli dars|
+|28|29|59–60|60–61|Lokal raqamli dars|
+|29|30|61–62|62–63|Lokal raqamli dars|
+|30|31|63–64|64–65|Lokal raqamli dars|
+|31|32|65–66|66–67|Lokal raqamli dars|
+|32|33|67–68|68–69|Lokal raqamli dars|
+|33|34|69–70|70–71|Lokal raqamli dars|
+|34|35|71–72|72–73|Lokal raqamli dars|
+|35|36|73–74|74–75|Lokal raqamli dars|
+|36|37|75–76|76–77|Lokal raqamli dars|
+|37|38|77–78|78–79|Lokal raqamli dars|
+|38|39|79–80|80–81|Lokal raqamli dars|
+|39|40|81–82|82–83|Lokal raqamli dars|
+|Raqamsiz|41|83–84|84–85|Lokal raqamli dars|
+|40|42|85–86|86–87|Lokal raqamli dars|
+|41|43|87–88|88–89|Lokal raqamli dars|
+|Raqamsiz|44|89–95|90–96|Lokal raqamli dars|
+
+### Oldingi checkpointlar (saqlangan tarix)
+
 ## Joriy checkpoint178 — 2026-11-05
 
 178lokal dars,1 052karta,1 384savol.2-sinf Iqism35/44birlik,9qolgan:

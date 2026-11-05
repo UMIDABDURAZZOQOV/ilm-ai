@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-05",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "fce625ee969839c6531ea5790972b2dd13906564",
+  "backend_code_commit": null,
+  "flutter_code_commit": "3371488a6e842a0e3a293040dd562c75d66faf50",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 186,
+    "cards": 1120,
+    "questions": 1466,
+    "examples": 186,
+    "worked_steps": 558,
+    "notation_entries": 328,
+    "distinct_default_explorer_modes": 149,
+    "distinct_explorer_modes_including_per_card": 150,
+    "response_kinds": {
+      "choice": 409,
+      "short_text": 38,
+      "exact_number": 988,
+      "ordering": 31
+    }
+  },
+  "grades": {
+    "1": {
+      "authored_lessons": 143,
+      "cards": 842,
+      "questions": 1104,
+      "parts": [
+        41,
+        32,
+        37,
+        33
+      ],
+      "unready": "II74printed68–69;III5schedule-onlycontrol/game rows"
+    },
+    "2": {
+      "authored_lessons": 43,
+      "cards": 278,
+      "questions": 362,
+      "part1_mapped": 44,
+      "part1_available_body_units": 43,
+      "part1_authored": 43,
+      "remaining_available_body_units": 0,
+      "remaining_mapped_units": 1,
+      "missing_body_source_numbers": [
+        25
+      ],
+      "numbered_authored": 40,
+      "unnumbered_summary_lessons": 2,
+      "unnumbered_practical_collections": 1,
+      "practical_digital_adaptations": 26,
+      "source_gap_not_completed": true,
+      "physical_drawing_skill_verified": false,
+      "part2_authored": 0
+    },
+    "3": {
+      "authored_lessons": 0,
+      "cards": 0,
+      "questions": 0
+    },
+    "4": {
+      "authored_lessons": 0,
+      "cards": 0,
+      "questions": 0
+    },
+    "5": {
+      "authored_lessons": 0,
+      "cards": 0,
+      "questions": 0
+    },
+    "6": {
+      "authored_lessons": 0,
+      "cards": 0,
+      "questions": 0
+    },
+    "7": {
+      "authored_lessons": 0,
+      "cards": 0,
+      "questions": 0
+    },
+    "8": {
+      "authored_lessons": 0,
+      "cards": 0,
+      "questions": 0
+    },
+    "9": {
+      "authored_lessons": 0,
+      "cards": 0,
+      "questions": 0
+    },
+    "10": {
+      "authored_lessons": 0,
+      "cards": 0,
+      "questions": 0
+    },
+    "11": {
+      "authored_lessons": 0,
+      "cards": 0,
+      "questions": 0
+    }
+  },
+  "tests": {
+    "Math full": "242passed1skipped695.87s",
+    "Final current API/source and protected": "21passed111.31s;10newcourse/source/practical checks and11Biology/Physics/mobileOAuth",
+    "PostgreSQL": "1passed200.19s;all186lesson flows,seed137XP→1997,replay0,parallelfirstreward/UID/streak/immutableimport;ownedrandomschema removed",
+    "Flutter full": "735passed7:32",
+    "Flutter new models andflows": "18passed24s;8flowsincluding26questionpractical andall4newmodels",
+    "Analyze": "0issues1.8s;initial2brace-style infos corrected",
+    "Web": "debugJS36.1s;invalidcompile-onlytoken/localURL;notAndroid/browser/APItest",
+    "Source": "23PDF2958pages;186reviewedtopics/377bodypages;all43availablegrade2I bodies and26original practical adaptations linked",
+    "Quality": "Ruff/format/whitespace;74oldsource/contentfiles andother22bookmetadata/inventories unchanged;5protectedworktrees clean unchangedHEADs;publicfixtureprivacy passed"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 186,
+    "reviewed_body_pages": 377,
+    "interactive_lessons": 186,
+    "theory_cards": 1120,
+    "questions": 1466,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 37,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "grade1_part4_mapped_body_topics": 33,
+    "grade1_part4_authored_lessons": 33,
+    "grade1_part4_all_source_images_reviewed": 74,
+    "grade1_part4_body_review_not_finished": false,
+    "grade2_part1_curriculum_units": 44,
+    "grade2_part1_available_body_units": 43,
+    "grade2_part1_authored_lessons": 43,
+    "grade2_part1_missing_printed_pages": [
+      54,
+      55
+    ],
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "next": {
+    "grade": 2,
+    "part": 2,
+    "source_number": 42,
+    "title": "Yuzlik. Yuzliklar bilan hisoblash",
+    "pdf_pages": [
+      5,
+      6
+    ],
+    "printed_pages": [
+      4,
+      5
+    ],
+    "source_images_viewed": true,
+    "interactive_lesson_created": false,
+    "preflight_only": true,
+    "body_map_complete": false,
+    "toc_candidate_units": 34
+  },
+  "source_gap_policy": "Unchanged default-off exact grade2I/source25/path26/SHA/all25actualpredecessors policy. Missing body gets no lesson,attempt,progress orXP. No new partIIbridge or prerequisite bypass.",
+  "practical_coverage": "All26source objectives have original digital adaptations and per-item exact PDF/printed locators;not26lessons,not physical construction/teacher certification.",
+  "payload_measurement": {
+    "unit": "UTF8JSONserialization_bytes_not_network_benchmark",
+    "practical_initial": 61984,
+    "redundant_full_reference_projection": 750300
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "independent_teacher_review": false,
+  "student_pilot": false,
+  "real_android_test": false,
+  "official_2026_2027_alignment": false,
+  "no_production_operations": true,
+  "owned_postgres": "stopped_after_successful_tests",
+  "standalone_cli_positive_sandbox": "not_verified:syntheticGitancestor guard notbypassed",
+  "missing_sources": "9Algebra/11I transfer blocked32MiB;6II and Geometry7–10missing"
+}

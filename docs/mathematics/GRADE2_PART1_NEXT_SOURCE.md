@@ -1,5 +1,18 @@
 # Keyingi mavjud manba — §36, path37
 
+## Joriy checkpoint186 — 2026-11-05
+
+186lokal dars,1 120karta,1 466savol.2-sinf Iqismning barcha43mavjud bodybirligi yaratildi.
+44dan1birlik —yo‘q§25/path26/bosma54–55—yaratilmadi,unga progress/XPyo‘q.
+Yakuniy26mashq bitta to‘plamdagi26original raqamli moslashtirish,26alohida dars emas.
+KeyingiIIqism§42,PDF5–6/bosma4–5;faqat preflight,0dars va34TOCnomzodi,hali fullmap emas.
+Butun1–11kurs,realAndroid,pedagog/physicalskill/pilot/2026–27tasdiqlanmagan.
+[Testlar](QA_REPORT.md),[checkpoint](checkpoints/grade2_part1_batch8.json),
+[26mashq qamrovi](GRADE2_PART1_PRACTICAL_COVERAGE.md),[keyingiIIqism](GRADE2_PART2_PREFLIGHT.md).
+Quyidagi oldingi yozuvlar tarix sifatida saqlandi.
+
+### Oldingi checkpointlar (saqlangan tarix)
+
 2026-11-05. §31–35partiyasidan keyingi aniq davom: **«Sondan yig‘indini ayirish»**.
 Kitob: `math-uz-g2-p1`,SHA-256
 `31124258de8a1432c1ce15006ff6465f818cf9c10fa86cbaf5dc6566c4c64f54`.

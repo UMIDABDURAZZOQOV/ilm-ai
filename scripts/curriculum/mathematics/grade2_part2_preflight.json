@@ -1,0 +1,128 @@
+{
+  "book_id": "math-uz-g2-p2",
+  "book_sha256": "1acb4fd5b341567a30a91f48dd336fa224bca9717d9b2d6f667e25abef5faefa",
+  "pdf_pages": 82,
+  "status": "read_only_preflight_not_a_complete_curriculum_map",
+  "publication": "not_published",
+  "interactive_lesson_created": false,
+  "count_as_ready": false,
+  "renderer": "PyMuPDF RGB1.3 alpha=false",
+  "renderer_version": "1.26.6",
+  "title_page_author": "I. V. Repyova",
+  "bibliographic_authors": [
+    "I. V. Repyova",
+    "Y. V. Zemlina"
+  ],
+  "publisher": "Novda Edutainment",
+  "year": 2023,
+  "isbn": "978-9943-9703-6-6",
+  "verification": "title_copyright_first_body_and_toc_images_viewed",
+  "toc_candidate_numbered_sections": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+  ],
+  "toc_unnumbered_candidates": [
+    {
+      "title": "Mavzu bo‘yicha yakuniy dars",
+      "printed_start": 36,
+      "pdf_locator_if_offset_holds": 37
+    },
+    {
+      "title": "Mantiqiy masalalar",
+      "printed_start": 70,
+      "pdf_locator_if_offset_holds": 71
+    }
+  ],
+  "toc_candidate_unit_count": 34,
+  "body_headers_all_compared": false,
+  "all_body_content_reviewed": false,
+  "first_available_topic": {
+    "source_number": 42,
+    "title": "Yuzlik. Yuzliklar bilan hisoblash",
+    "pdf_pages": [
+      5,
+      6
+    ],
+    "printed_pages": [
+      4,
+      5
+    ],
+    "full_body_images_viewed": true,
+    "interactive_lesson_created": false
+  },
+  "pins": [
+    {
+      "pdf_page": 2,
+      "printed_page": null,
+      "native_text_sha256": "7b5779eeee804f4c3906e3d8c7db946bdb12a0ebebc60fff8be52cd1b61731f7",
+      "image_sha256": "d8276cd5faa6796640692e5c2e9923d9fbcbaefcc5eec1ea9cf2bf6dfc11ad86"
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": null,
+      "native_text_sha256": "b4c78c6378adaf1fcd891f5285125c2ee0d7c6c9e1f406b88144a654703a7f24",
+      "image_sha256": "b4d4b9549f91fa56529c05d3905318252124ff0b732d024cf1ee45b024451ba9"
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "native_text_sha256": "7aef10ddcc76def12b01fc745370a8c7a999f6771e51d6ada8e44ddc95db414d",
+      "image_sha256": "66b394de3c21dd06650bbb3b18d39d101bacecc54597b026fc5b556a8f4fcf44"
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 5,
+      "native_text_sha256": "f47cb1e1b436ac11de48910f7290b5c7ca60d53a6f9864e3e8f28df2d22e2dd0",
+      "image_sha256": "778160b2c2d65459d82207cce9c209e09ea8cfaa70c5ee91d01b70c6318e4888"
+    },
+    {
+      "pdf_page": 78,
+      "printed_page": 77,
+      "native_text_sha256": "692d664a0b56430aa84b3183648afb5ad75f4cf8686dcdbbea101259ca02b8f6",
+      "image_sha256": "d523bac46872ddacb675715baff55c8398c911ca0b0005ecddf461366c5a0982"
+    },
+    {
+      "pdf_page": 79,
+      "printed_page": 78,
+      "native_text_sha256": "1b0008ab019af5d3aa5b8a576e60f47b2f320b1d77a0dc888f6448d66dcb98e8",
+      "image_sha256": "b1f40e7a7e030ab3ee74d5328e0952738360c6447ad13c3911a4f710c1a43e4a"
+    }
+  ],
+  "review_notes": [
+    "Title author vs bibliographic coauthor distinction preserved. This artifact does not alter existing source_manifest metadata for the other22books.",
+    "32numbered+1summary+1logicalcollection=34TOCcandidates,not verified body/course counts. Remaining source boundaries and body presence require independent review.",
+    "First42body covers100as1hundred,10tens;200–900and1000as10hundreds,100tens,addition/subtraction of hundreds,time sums and grouped quantities.1000has4digits,not3.",
+    "Neutral original counting situations may replace the military scenario while preserving mathematics;no real force/operational claims or copied artwork.",
+    "Current preview strictly locks partII while source25missing in partI. No dummy progress,renumbering or general prerequisite relaxation allowed. A separately tested default-off exact source-pair localQA bridge is future work,not implemented by this preflight."
+  ]
+}

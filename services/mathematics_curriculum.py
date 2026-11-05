@@ -13,6 +13,10 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "number_remove_sum",
+    "arrow_two_lines",
+    "three_colour_regions",
+    "venn_distinct_sectors",
     "sum_remove_part",
     "column_place_value",
     "split_two_digit_subtraction",
@@ -280,6 +284,7 @@ BATCHES = [
     ("grade2_part1_batch5.json", "grade2_part1_batch5_review.json"),
     ("grade2_part1_batch6.json", "grade2_part1_batch6_review.json"),
     ("grade2_part1_batch7.json", "grade2_part1_batch7_review.json"),
+    ("grade2_part1_batch8.json", "grade2_part1_batch8_review.json"),
 ]
 
 
@@ -382,6 +387,42 @@ def validate_document(document, review):
             len(lesson["cards"]) >= 5 and bool(lesson["examples"]),
             "incomplete_math_instruction",
         )
+        for card in lesson["cards"]:
+            require(
+                "show_explorer" not in card or type(card["show_explorer"]) is bool,
+                "math_invalid_card_explorer_visibility",
+            )
+            require(
+                "explorer_type" not in card or card["explorer_type"] in EXPLORERS,
+                "unsupported_math_card_explorer",
+            )
+        if lesson["topic_id"] == "math-g2-p1-practical-90-96":
+            # A digital adaptation for each real source activity, not26lessons.
+            activities = topic.get("source_activities", [])
+            pages = (
+                [89] * 4
+                + [90] * 4
+                + [91] * 4
+                + [92] * 4
+                + [93] * 4
+                + [94] * 3
+                + [95] * 3
+            )
+            require(
+                len(activities) == 26
+                and activities == mapped.get("source_activities")
+                and all(
+                    a.get("number") == i
+                    and a.get("pdf_pages") == [p]
+                    and a.get("printed_pages") == [p + 1]
+                    and bool(a.get("objective"))
+                    for i, (a, p) in enumerate(zip(activities, pages), 1)
+                )
+                and [c.get("source_activity") for c in lesson["cards"]] == activities
+                and [q["public"].get("source_activity") for q in lesson["questions"]]
+                == activities,
+                "math_practical_activity_coverage_mismatch",
+            )
         require(
             {q["public"]["phase"] for q in lesson["questions"]}
             >= {"guided", "mcq", "frq", "transfer"},
