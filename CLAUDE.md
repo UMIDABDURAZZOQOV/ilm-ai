@@ -1,5 +1,21 @@
 # Ilm AI — Project Context (for Claude)
 
+## Tasdiqlangan Git checkpoint186 — 2026-11-05
+
+Backend kod/kontent:`cdbebcec0b5d4f0e1e5d9b4f820895cc55c1652b`. Flutter:`3371488a6e842a0e3a293040dd562c75d66faf50`.
+Ikkala repo`feat/mathematics-curriculum`branchiga push qilindi;aniqSHAyozuvi alohida docscommitda saqlanadi.
+**186lokal dars,1 120karta,1 466savol.2-sinf Iqism43/44:manbasi mavjud barcha43birlik raqamli dars.**
+Yo‘q§25/path26/bosma54–55uchun dars/attempt/progress/XPyo‘q.26yakuniy mashq bittato‘plamdagi26moslashtirish,26dars emas.
+Yangi§36–41+summary+practical:8dars,68karta,82savol. Oldingi178dars saqlandi.
+Math242pass/1skip695.87s;yakuniyAPI/source+protected21pass111.31s;PG186dars1pass200.19s;
+Flutter735pass7:32;new18targetpass24s;analyze0(1.8s);debugJS36.1s.
+23PDF/2958sahifa;186reviewedtopic/377bodypage;74oldsource/contentfayl va boshqa22bookmetadata saqlandi.
+5himoyalangan worktreeclean/HEADlariunchanged. O‘zPGcontaineri to‘xtatilgan;faqat o‘zrandomschema ishlatilib o‘chirildi.
+**Keyingi2-sinf IIqism§42 «Yuzlik. Yuzliklar bilan hisoblash»,PDF5–6/bosma4–5.**
+IIqismpreflight:34TOCnomzodi,fullmapemas,0dars. StandartIIprerequisite yo‘q§25sabab yopiq;nextsafeQAbridge haliyo‘q.
+Butun1–11kurs tugallanmagan. Teacher/pilot/physicaldrawing/2026–27/realAndroid/TalkBack/standaloneCLIpositive tasdiqsiz.
+
+
 ## 2026-11-05 — 2-sinf I qismning barcha mavjud tanalari:43/44, jami186lokal dars
 
 **186dars,1 120karta,1 466savol,186misol/558qadam,328sonli tenglik.**
