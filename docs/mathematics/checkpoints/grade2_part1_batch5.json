@@ -230,5 +230,7 @@
     "source_images_viewed": true,
     "interactive_lesson_created": false
   },
-  "runtime_blocker": "Missing source25/path26 remains absent; strictsequence blocks later navigation. Next safe source-authoring and narrowly scoped local-QA prerequisite work specified in GRADE2_PART1_SOURCE_HANDOFF.md; no fake progress."
+  "runtime_blocker": "Missing source25/path26 remains absent; strictsequence blocks later navigation. Next safe source-authoring and narrowly scoped local-QA prerequisite work specified in GRADE2_PART1_SOURCE_HANDOFF.md; no fake progress.",
+  "backend_code_commit": "c84a5e7deac15b5851a169970a0782288f2529b3",
+  "owned_postgres": "stopped_after_successful_tests"
 }

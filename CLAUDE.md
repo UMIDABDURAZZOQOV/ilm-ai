@@ -1,5 +1,37 @@
 # Ilm AI — Project Context (for Claude)
 
+## Tasdiqlangan Git checkpoint — 2026-11-05
+
+Backend kod/kontent: `c84a5e7deac15b5851a169970a0782288f2529b3`. Flutter: `3ed7cfce68a640a028d30de5fd7e46e25950aa5d`.
+Ikkala repo `feat/mathematics-curriculum` branchida GitHubga push qilingan.
+Ushbu aniqSHA yozuvi alohida docscommitda saqlanadi.
+
+**168 lokal dars, 992 karta, 1 304 savol, 168 misol/504 qadam, 292 sonli tenglik.**
+1-sinf143dars saqlandi. 2-sinf I qismda24raqamlangan mavzu va1haqiqiy raqamsiz yakuniy dars tayyor.
+SkillPath25 — source24. Source25/path26ning bosma54–55 sahifalari yo‘q va dars/progress/XP yaratilmagan.
+2-sinf I qismda19birlik qolgan:18mavjud tana va1manbasi yo‘q mavzu.
+Boshqa sinflar, barcha1–11kurs va production release tugallanmagan.
+
+Keyingi mavjud manba **§26,path27,PDF55–56/bosma56–57**.
+§26–31/PDF55–66to‘liq asl sahifalari ko‘rildi, ammo interaktiv darslari hali yaratilmagan.
+Qat’iy prerequisite yo‘q path26dan keyingi navigatsiyani ochmaydi. Source25o‘rniga §26ni qo‘yish
+va dummy progress yozish mumkin emas. Keyingi xavfsiz lokal siyosat va manba qaydlari
+[handoff](docs/mathematics/GRADE2_PART1_SOURCE_HANDOFF.md)da; yangi source-gap ruxsati bu partiyada yaratilmagan.
+
+Haqiqiy testlar: Math219pass/1skip675.32s; PostgreSQL168dars oqimi1pass81.94s;
+Flutter yakuniy692pass5:55, qo‘shimcha54regressionpass59s; analyze0(2.0s);
+debugJSweb56.3s(finalappkoddan keyin yig‘ilgan); protected11pass48.02s.
+Initialsourcecaptiontest2typedfindermismatchdan yiqildi; source_number va pathni ajratadigan
+kuchliroq tekshiruvlar bilan tuzatildi, final54va692testo‘tdi.
+
+AndroidSDK/realAndroid/TalkBack, mustaqil pedagog, o‘quvchi piloti va2026–27dastur mosligi tasdiqsiz.
+OwnPG `ilm-mathematics-staging-18395d26` sinovdan keyin to‘xtatilgan. Keyingi lokal sinovda
+restartdan so‘ng private `pg.url`dagi dinamik loopbackportni yangilang;URL/parolni logga chiqarmang.
+Faqat o‘zimizning tasodifiy test schemalar ishlatildi va o‘chirildi;productionDBga tegilmadi.
+Besh himoyalangan backend/Flutter/frontend/historyworktree o‘zgarmagan. Mainmerge/deploy/nashr yo‘q.
+PDF/rasm/OCR/credentialGitga kiritilmadi. [168dars dalili](docs/mathematics/checkpoints/grade2_part1_batch5.json).
+
+
 ## 2026-11-05 — 2-sinf I qism: path 22–25, jami 168 lokal dars
 
 Yangi partiya: **4 dars, 24 karta, 32 savol, 4 misol/12 qadam**.
