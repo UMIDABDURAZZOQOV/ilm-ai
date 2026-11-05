@@ -3,10 +3,10 @@
   "book_sha256": "ad74352212d1b91604b14b9f24307a37d0181ccab5f1fc2b38ad61c12fe52fb3",
   "edition": 2023,
   "mapped_body_topics": 33,
-  "authored_lessons": 27,
+  "authored_lessons": 33,
   "body_page_boundaries_verified": true,
-  "full_map_verified": false,
-  "all_body_content_reviewed": false,
+  "full_map_verified": true,
+  "all_body_content_reviewed": true,
   "header_footer_reviewed_page_count": 66,
   "full_body_reviewed_topics": [
     112,
@@ -35,7 +35,13 @@
     135,
     136,
     137,
-    138
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144
   ],
   "topics": [
     {
@@ -861,8 +867,8 @@
         58,
         59
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 59,
@@ -891,8 +897,8 @@
         60,
         61
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 61,
@@ -921,8 +927,8 @@
         62,
         63
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 63,
@@ -951,8 +957,8 @@
         64,
         65
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 65,
@@ -981,8 +987,8 @@
         66,
         67
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 67,
@@ -1011,8 +1017,8 @@
         68,
         69
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "boundary_pins": [
         {
           "pdf_page": 69,
@@ -1031,6 +1037,12 @@
   ],
   "additional_image_checks": [
     {
+      "pdf_page": 1,
+      "review_note": "Front cover, grade1partIV original source identity.",
+      "native_text_sha256": "42d5d31594f7c80e9ca4c891b594aa2997e9f63bf716a7b0b0a38cab0776a34c",
+      "image_sha256": "307a734730c0f00701de21151419acdd5c279d48bac2b804b59af89c24eb67b2"
+    },
+    {
       "pdf_page": 2,
       "printed_page": null,
       "native_text_sha256": "62b8959b15e12929464253307c2b58e0ac4b3ca6f8ad66446933e994137866cb",
@@ -1041,6 +1053,12 @@
       "printed_page": null,
       "native_text_sha256": "f4635df0d414824cace7de362b8362283529e15736437f35aad85acd5800c91d",
       "image_sha256": "e153476e73f345d1dc5bf2e851f73fcbbf3c587769a4b6997bc2357508e84211"
+    },
+    {
+      "pdf_page": 4,
+      "review_note": "Muqaddima printed3, scope equations/quantities/geometric properties; not an extra numbered lesson.",
+      "native_text_sha256": "e71e8e365ce0e49a4632a6b6a47efbd11b5d76f239c17f7248a9e69e39b16ba7",
+      "image_sha256": "f5e0cc3a03e656faa88db7cddcec09675a046083af7340a28b7595febaedbd85"
     },
     {
       "pdf_page": 71,
@@ -1059,6 +1077,12 @@
       "printed_page": null,
       "native_text_sha256": "2378c4a644a3a8a08cf9ff4b3fc6a4318ad000b7f893ac70d3edeac42437c9c0",
       "image_sha256": "6d4ff5ccc7ca4d83a71f51d560005f8df229068859a0f1905f021a5b0403e74b"
+    },
+    {
+      "pdf_page": 74,
+      "review_note": "Back cover image without an instructional topic.",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "7f326815b30372257d0b35bef68fad6360f0ed3bcf62a88e337c8ae19061e142"
     }
   ],
   "edition_transition": {
@@ -1067,5 +1091,6 @@
     "first_source_number": 112,
     "note": "Numbering belongs to supplied editions; no invented43–111missing topics. Boundary-only review is not full body review or interactive completion."
   },
-  "publication": "local_test_preview_only"
+  "publication": "local_test_preview_only",
+  "full_file_reviewed_page_count": 74
 }

@@ -1,8 +1,8 @@
 # IV qism — haqiqiy manba va interaktiv qamrov
 
 2026-11-05.33mavzu112–144,2023nashr;III2024nashridan raqamlash farqi taxminiy dars bilan to‘ldirilmaydi.
-27/33lokal dars,6tana mavzu hali interaktiv emas. Barcha66tana header/footerlari asl tasvirda tekshirilgan.
-To‘liq tana review faqat 27authored mavzuda. Butun1–11kurs tugallanmagan.
+33/33lokal dars,0tana mavzu hali interaktiv emas. Barcha66tana header/footerlari asl tasvirda tekshirilgan.
+To‘liq tana review faqat 33authored mavzuda. Butun1–11kurs tugallanmagan.
 
 PDF2Novda2023title;PDF3copyrightda literal«Nashriyot nomi»placeholderi. Repyova/Zemlina bibliografik yozuvi va title/colophonRepyova alohida provenance bilan saqlangan.
 ISBN978-9943-9707-2-4checksumvalid. AslPDFsha:ad74352212d1b91604b14b9f24307a37d0181ccab5f1fc2b38ad61c12fe52fb3.
@@ -36,12 +36,12 @@ ISBN978-9943-9707-2-4checksumvalid. AslPDFsha:ad74352212d1b91604b14b9f24307a37d0
 |136|25|Rim raqamlari|53–54|52–53|lokal tayyor|
 |137|26|Tenglamalar|55–56|54–55|lokal tayyor|
 |138|27|Tenglamalar|57–58|56–57|lokal tayyor|
-|139|28|Tenglamalar|59–60|58–59|tana review va mualliflik kerak|
-|140|29|Masalalarni tenglamalar yordamida yechish|61–62|60–61|tana review va mualliflik kerak|
-|141|30|Kesma va uning uzunligi|63–64|62–63|tana review va mualliflik kerak|
-|142|31|Takrorlash|65–66|64–65|tana review va mualliflik kerak|
-|143|32|Takrorlash|67–68|66–67|tana review va mualliflik kerak|
-|144|33|Takrorlash|69–70|68–69|tana review va mualliflik kerak|
+|139|28|Tenglamalar|59–60|58–59|lokal tayyor|
+|140|29|Masalalarni tenglamalar yordamida yechish|61–62|60–61|lokal tayyor|
+|141|30|Kesma va uning uzunligi|63–64|62–63|lokal tayyor|
+|142|31|Takrorlash|65–66|64–65|lokal tayyor|
+|143|32|Takrorlash|67–68|66–67|lokal tayyor|
+|144|33|Takrorlash|69–70|68–69|lokal tayyor|
 
 Bir xil nomli117/118,119/120,137–139,142–144mustaqil raqamlangan tana mavzularidir;bir-birining nusxasi deb o‘chirilmadi.
 [LokalQA va manba cheklovlari](PART4_LOCAL_QA.md).

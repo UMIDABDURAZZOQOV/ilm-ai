@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-05",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "92cf03cf5242bc276da2dfff61fc467628a0f6c9",
+  "flutter_code_commit": "d00ace71585fbb7a0a8c8f776ac559cbd09327b3",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 143,
+    "cards": 842,
+    "questions": 1104,
+    "examples": 143,
+    "worked_steps": 429,
+    "notation_entries": 242,
+    "distinct_explorer_modes": 135,
+    "response_kinds": {
+      "choice": 352,
+      "short_text": 32,
+      "exact_number": 694,
+      "ordering": 26
+    }
+  },
+  "parts": {
+    "I": "41/41frozen",
+    "II": "32/33frozen;74missingprinted68–69",
+    "III": "37/37bodyfrozen;5scheduledrowsunready",
+    "IV": {
+      "mapped_body_topics": 33,
+      "authored_lessons": 33,
+      "remaining_body_topics": 0,
+      "all_body_content_reviewed": true
+    }
+  },
+  "tests": {
+    "Math": "188 passed, 1 skipped in510.91s",
+    "Backend targeted": "21 passed94.46s before additional full-source closure test; final closure covered by full Math andPG run",
+    "PostgreSQL": "9 passed114.84s including8 new content/closure/API tests; all143 lessons, seed137XP→1567, replay0, UID/streak/parallel reward/immutable import. InitialPG run failed53.44s because test setup tried139 before117–138; duplicate early loop removed; prerequisite correctly rejected early access",
+    "Flutter targeted": "13 passed17s; six full flows320px/200percent/reduce motion and six model invariants",
+    "Flutter full": "651 passed5:07",
+    "Analyze": "0 issues2.8s",
+    "Web": "debugJS38.4s; localURL and invalid compile-only token; not Android/browser/API testing",
+    "Protected": "Biology/Physics/mobileOAuth11 passed37.94s; five protected worktrees clean and unchanged at previous checkpoint, checked again before push",
+    "Source audit": "23PDF/2958pages;143 reviewed authored topics/286bodypages; IV33/33body and all74source page images verified, closure guard enabled",
+    "Quality": "Ruff/format/whitespace passed;57 prior immutable content/mapJSON unchanged, other22metadata/inventories unchanged, atomic public fixture privacy passed"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 143,
+    "reviewed_body_pages": 286,
+    "interactive_lessons": 143,
+    "theory_cards": 842,
+    "questions": 1104,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 37,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "grade1_part4_mapped_body_topics": 33,
+    "grade1_part4_authored_lessons": 33,
+    "grade1_part4_all_source_images_reviewed": 74,
+    "grade1_part4_body_review_not_finished": false,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "source_review_notes": [
+    "FullPDF59–70/printed58–69 viewed; covers1/4/74 and all earlier extras provide74/74source image closure.",
+    "Source141heading Kesma va uning uzunligi differs from body inverse stories; no invented extra geometry curriculum.",
+    "Missing parameter values not replaced by guessed unique root; root must satisfy original equality.",
+    "Inverse groups explicitly disjoint/exhaustive; initial/removed/remaining has no hidden changes.",
+    "Source143alphabet-chain convention not specified and not turned into a guessed single-key question.",
+    "Source144adjacent3 versus all-pair6 segments distinguished, AD+CB overlaps CD; positive part sliders preserve four distinct points.",
+    "II74 printed68–69 andIII5schedule-only rows still unready; no fake progress or reward.",
+    "Next grade2I§1PDF5–6/printed4–5; supplied source100pages. Its source25printed54–55missing, verified adjacentPDF54/55 and all91body header/footer images; separate map/batch follows."
+  ],
+  "next": null,
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "independent_teacher_review": false,
+  "real_android_test": false,
+  "protected_worktrees": "clean,HEADs unchanged; verify again before push",
+  "no_production_operations": true,
+  "next_book": {
+    "grade": 2,
+    "part": 1,
+    "source_number": 1,
+    "pdf_pages": [
+      5,
+      6
+    ],
+    "printed_pages": [
+      4,
+      5
+    ],
+    "status": "source_images_reviewed_not_authored_yet"
+  }
+}

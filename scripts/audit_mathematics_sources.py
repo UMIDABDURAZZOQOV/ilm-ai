@@ -206,6 +206,22 @@ def audit(source_directory):
         == {l["topic_id"] for l in authored_fourth},
         "math_part4_source_or_authorship_identity_changed",
     )
+    if fourth.get("full_map_verified"):
+        require(
+            fourth["authored_lessons"] == 33
+            and fourth["all_body_content_reviewed"]
+            and fourth.get("full_file_reviewed_page_count") == 74
+            and all(
+                t["verification"] == "body_images_reviewed" for t in fourth["topics"]
+            )
+            and {
+                p["pdf_page"]
+                for p in fourth["additional_image_checks"]
+                + [p for t in fourth["topics"] for p in t["boundary_pins"]]
+            }
+            == set(range(1, 75)),
+            "math_part4_full_source_review_incomplete",
+        )
     with fitz.open(paths[fourth["book_id"]]) as pdf:
         for t in fourth["topics"]:
             p = 2 * t["path_sequence"] + 3
@@ -254,6 +270,9 @@ def audit(source_directory):
         ),
         "grade1_part4_mapped_body_topics": len(fourth["topics"]),
         "grade1_part4_authored_lessons": fourth["authored_lessons"],
+        "grade1_part4_all_source_images_reviewed": fourth.get(
+            "full_file_reviewed_page_count", 0
+        ),
         "grade1_part4_body_review_not_finished": not fourth[
             "all_body_content_reviewed"
         ],

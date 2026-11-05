@@ -1,5 +1,60 @@
 # Matematika — davom checkpointi
 
+## Davom nuqtasi — 2026-11-05
+
+IV qism112–144ning33/33 tana mavzusi yaratildi va sinovdan o‘tdi.
+Jami143 lokal dars; II74 va III5 jadval qatori hali tayyor emas.
+Keyingi: **2-sinf, I qism, §1 «Takrorlash», PDF5–6/bosma4–5**.
+Dastlabki§1–5ningPDF5–14 asl sahifalari ko‘rilgan; kelgusi partiya yozilmoqda.
+2-sinf I qismdagi§25ningbosma54–55 sahifalari yo‘q: PDF54/bosma53dan
+PDF55/bosma56ga o‘tadi. Bu kamchilik alohida kataloglanadi, taxminiy dars yaratilmaydi.
+Butun1–11 kurs, pedagogik ekspertiza va Android sinovi tugallanmagan.
+
+
+## 2026-11-05 — IV qism139–144; jami143 lokal dars
+
+Yangi6dars: 36karta,48topshiriq,12sonli tenglik.
+Jami **143dars,842karta,1104topshiriq,143misol/429qadam,242sonli tenglik**.
+I41/41,II32/33,III37/37matnli mavzu saqlangan;IV33/33tayyor lokal dars,0tana mavzu qolgan.
+III5nazorat/o‘yin qatori vaII74tana manbasi yo‘qligi saqlanadi. Butun1–11kurs tugamagan;
+umumiy barcha sinflar mavzu/qolganlar soni hali noma’lum.
+
+| Manba № | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|139|28|Tenglamalar|59–60|58–59|
+|140|29|Masalalarni tenglamalar yordamida yechish|61–62|60–61|
+|141|30|Kesma va uning uzunligi|63–64|62–63|
+|142|31|Takrorlash|65–66|64–65|
+|143|32|Takrorlash|67–68|66–67|
+|144|33|Takrorlash|69–70|68–69|
+
+IV qismning §139–144 darslari yaratildi. Endi ushbu kitobning33/33 haqiqiy tana mavzusi original nazariya, misol, mashq, MCQ/FRQ va manba bilan qamrab olingan. Barcha74 PDF sahifasining image/text hash pinlari auditdan o‘tdi. Yangi modellar ildizning asl tenglikni rost qilishi, to‘rtta teskari tenglik, dastlabki/olingan/qolgan miqdor, hisoblab tartiblash, qavsli ifodaning tildagi ma’nosi va3 qo‘shni/6 barcha kesmani ajratadi. §141 literal sarlavhasi saqlandi, uning haqiqiy teskari-masala mazmuni o‘qitildi. Oldingi137 darsning immutable kontenti o‘zgarmadi. Bu butun1–11 kursning tugashi emas.
+
+Haqiqiy testlar:
+
+- Math: 188 passed, 1 skipped in510.91s.
+- Backend targeted: 21 passed94.46s before additional full-source closure test; final closure covered by full Math andPG run.
+- PostgreSQL: 9 passed114.84s including8 new content/closure/API tests; all143 lessons, seed137XP→1567, replay0, UID/streak/parallel reward/immutable import. InitialPG run failed53.44s because test setup tried139 before117–138; duplicate early loop removed; prerequisite correctly rejected early access.
+- Flutter targeted: 13 passed17s; six full flows320px/200percent/reduce motion and six model invariants.
+- Flutter full: 651 passed5:07.
+- Analyze: 0 issues2.8s.
+- Web: debugJS38.4s; localURL and invalid compile-only token; not Android/browser/API testing.
+- Protected: Biology/Physics/mobileOAuth11 passed37.94s; five protected worktrees clean and unchanged at previous checkpoint, checked again before push.
+- Source audit: 23PDF/2958pages;143 reviewed authored topics/286bodypages; IV33/33body and all74source page images verified, closure guard enabled.
+- Quality: Ruff/format/whitespace passed;57 prior immutable content/mapJSON unchanged, other22metadata/inventories unchanged, atomic public fixture privacy passed.
+
+Default strict prerequisite saqlanadi. Faqat ikkala serverlocalQAflag va oldingi110mavjud dars
+bajarilgach IVsinash ochiladi. II74yokiIIIcontrol/gamega progress/XP yaratilmaydi;
+previous_book_complete=false,course_ready=false. Flagoffunfinished403;completedresultsaqlanadi.
+Bu normalapp/auth,production API yoki umumiy katalogni o‘zgartirmaydi.
+
+Mustaqil pedagog,pilot,Android/TalkBack va2026–27rasmiydasturmosligi not_verified.
+Standalone positiveCLI bucloudGitancestor guardi sabab bajarilmagan,chetlab o‘tilmagan.
+PDF/OCR/aslrasm/credential Gitga kiritilmagan;frontend/boshqa fanlar/main/production o‘zgarmagan.
+
+[Qamrov](PART4_PROGRESS.md),[lokalQA](PART4_LOCAL_QA.md),[checkpoint](checkpoints/grade1_part4_batch6.json).
+
+
 ## 2026-11-05 — IV qism133–138; jami137 lokal dars
 
 Yangi6dars: 36karta,48topshiriq,10sonli tenglik.

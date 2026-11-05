@@ -113,22 +113,19 @@ def test_independently_computed_source_aligned_answers_and_wrong_inputs(n):
         )
 
 
-def test_33_map_rows_are_not_33_ready_lessons_or_invented_edition_gaps():
+def test_33_body_rows_are_reviewed_without_inventing_edition_gaps():
     m = json.loads((ROOT / "grade1_part4_map.json").read_text())
     assert [t["source_number"] for t in m["topics"]] == list(range(112, 145))
     assert [t["path_sequence"] for t in m["topics"]] == list(range(1, 34))
     assert (
-        m["authored_lessons"] == 27
-        and not m["full_map_verified"]
-        and not m["all_body_content_reviewed"]
+        m["authored_lessons"] == 33
+        and m["full_map_verified"]
+        and m["all_body_content_reviewed"]
     )
     assert [
         t["source_number"] for t in m["topics"] if t["interactive_lesson_created"]
-    ] == list(range(112, 139))
-    assert all(
-        t["verification"] == "header_footer_images_reviewed_body_pending"
-        for t in m["topics"][27:]
-    )
+    ] == list(range(112, 145))
+    assert all(t["verification"] == "body_images_reviewed" for t in m["topics"])
     assert (
         m["topics"][5]["title"] == m["topics"][6]["title"]
         and m["topics"][5]["topic_id"] != m["topics"][6]["topic_id"]
@@ -161,7 +158,7 @@ def test_scoped_iv_flag_never_completes_gaps_or_skips_prerequisites(
     )
     assert (
         cat["book"]["source_topic_count"] == 33
-        and cat["book"]["implemented_sections"] == 27
+        and cat["book"]["implemented_sections"] == 33
     )
     assert cat["source_gap_bridge"]["schedule_only_rows_not_completed"] == 5
     assert cat["source_gap_bridge"]["earlier_source_gap"]["missing_source_numbers"] == [

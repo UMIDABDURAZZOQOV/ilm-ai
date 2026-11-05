@@ -1,5 +1,16 @@
 # IV qism — keyingi manba review uchun qayd
 
+## Davom nuqtasi — 2026-11-05
+
+IV qism112–144ning33/33 tana mavzusi yaratildi va sinovdan o‘tdi.
+Jami143 lokal dars; II74 va III5 jadval qatori hali tayyor emas.
+Keyingi: **2-sinf, I qism, §1 «Takrorlash», PDF5–6/bosma4–5**.
+Dastlabki§1–5ningPDF5–14 asl sahifalari ko‘rilgan; kelgusi partiya yozilmoqda.
+2-sinf I qismdagi§25ningbosma54–55 sahifalari yo‘q: PDF54/bosma53dan
+PDF55/bosma56ga o‘tadi. Bu kamchilik alohida kataloglanadi, taxminiy dars yaratilmaydi.
+Butun1–11 kurs, pedagogik ekspertiza va Android sinovi tugallanmagan.
+
+
 ## 2026-11-05 — §133–138 yakuniy testlari, keyingi §139–144
 
 Yangi partiya sinovdan o‘tgach jami 137 lokal dars, IV qism27/33 bo‘ladi.
