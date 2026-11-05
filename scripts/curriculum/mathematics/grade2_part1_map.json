@@ -1,0 +1,1522 @@
+{
+  "book_id": "math-uz-g2-p1",
+  "book_sha256": "31124258de8a1432c1ce15006ff6465f818cf9c10fa86cbaf5dc6566c4c64f54",
+  "supplied_pdf_pages": 100,
+  "numbered_topics_in_toc": 41,
+  "numbered_body_topics_available": 40,
+  "unnumbered_summary_units": 2,
+  "unnumbered_activity_collections": 1,
+  "total_curriculum_units": 44,
+  "available_body_units": 43,
+  "authored_lessons": 5,
+  "boundary_page_count": 91,
+  "all_body_content_reviewed": false,
+  "full_map_verified": false,
+  "bibliography": {
+    "title_page_author": "I. V. Repyova",
+    "bibliographic_record_authors": [
+      "I. V. Repyova",
+      "Y. V. Zemlina"
+    ],
+    "copyright_author": "I. V. Repyova",
+    "publisher": "Novda Edutainment",
+    "year": 2023,
+    "isbn": "978-9943-9687-2-1",
+    "verification": "title_and_colophon_images_reviewed",
+    "isbn13_checksum_valid": true
+  },
+  "topics": [
+    {
+      "topic_id": "math-g2-p1-t1",
+      "source_number": 1,
+      "curriculum_sequence": 1,
+      "title": "Takrorlash",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        4,
+        5
+      ],
+      "body_pdf_locator": [
+        5,
+        6
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 5,
+          "native_text_sha256": "bd44b50e40486c6c3f69947ee7302a71064756b3f091492184b25e2f24e157bb",
+          "image_sha256": "6b926849a9735d8f0f243a0fe4008e29175caf2c1188895fcbde5fb9728286e1",
+          "printed_page": 4
+        },
+        {
+          "pdf_page": 6,
+          "native_text_sha256": "2280263612bf8ba36953723109c09afa2ef49f769708229636625f49b43f95a4",
+          "image_sha256": "10ed6c29c9340fea7c309219b79d8b38733d0d2e3ca6b2674456edf88f53c0d3",
+          "printed_page": 5
+        }
+      ],
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
+      "path_sequence": 1
+    },
+    {
+      "topic_id": "math-g2-p1-t2",
+      "source_number": 2,
+      "curriculum_sequence": 2,
+      "title": "Takrorlash",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        6,
+        7
+      ],
+      "body_pdf_locator": [
+        7,
+        8
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 7,
+          "native_text_sha256": "8ba88b47ca8ecaf4ff736f4ebdc2a642cf3297fa032bef0e05e9f472addefffd",
+          "image_sha256": "78d9601c9bacd260def711ddc7fc97977c4d73ddd3dec9228e6aaed13ce072e9",
+          "printed_page": 6
+        },
+        {
+          "pdf_page": 8,
+          "native_text_sha256": "c846059720d8eca89479dcc13537889e63b62f5f839290868ccfa038f7ef822c",
+          "image_sha256": "3fb2786ba3954a4a21b86dc5185c2bc12c40343e6dc16683a086461414d7622c",
+          "printed_page": 7
+        }
+      ],
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
+      "path_sequence": 2
+    },
+    {
+      "topic_id": "math-g2-p1-t3",
+      "source_number": 3,
+      "curriculum_sequence": 3,
+      "title": "Takrorlash",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        8,
+        9
+      ],
+      "body_pdf_locator": [
+        9,
+        10
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 9,
+          "native_text_sha256": "105d947f28b41ca3e8acbfc671c9cd24247b2b54f2de1dd5fd1aa6c021977454",
+          "image_sha256": "e84a6ea7be219b1fecf023a94a894392fc5a4d0d6c3866c3282f7bfd6c9854f7",
+          "printed_page": 8
+        },
+        {
+          "pdf_page": 10,
+          "native_text_sha256": "233fedfc855fb433110f3e2582a61bdd0cdb1b00b292946178add2c6615e4292",
+          "image_sha256": "89df9c5f7ebc50bddf280195e3df0df68261f8159177a4f5a0f78c8a1191477b",
+          "printed_page": 9
+        }
+      ],
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
+      "path_sequence": 3
+    },
+    {
+      "topic_id": "math-g2-p1-t4",
+      "source_number": 4,
+      "curriculum_sequence": 4,
+      "title": "Takrorlash",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        10,
+        11
+      ],
+      "body_pdf_locator": [
+        11,
+        12
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 11,
+          "native_text_sha256": "68a6772291cfeacdd9bcead8e541b1b770c16ce5cbfd51b0c1d689c8dfb83b38",
+          "image_sha256": "8445c13903f1f4fc7a90301d8c62eca6dd84aaaf52a11b39be346765d34a01fb",
+          "printed_page": 10
+        },
+        {
+          "pdf_page": 12,
+          "native_text_sha256": "0778827db6bfb25787b82df9e0c90bff4fc3048e12d1c59f215f1ebabef9ce25",
+          "image_sha256": "a460a8b999ec92e7c29769a1675e59ee4d228f6f6bb6549f060c883c0d45708a",
+          "printed_page": 11
+        }
+      ],
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
+      "path_sequence": 4
+    },
+    {
+      "topic_id": "math-g2-p1-t5",
+      "source_number": 5,
+      "curriculum_sequence": 5,
+      "title": "Takrorlash",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        12,
+        13
+      ],
+      "body_pdf_locator": [
+        13,
+        14
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 13,
+          "native_text_sha256": "5aae0e4dd7053e362395566f062dce21f06b9af32b0a33f4973781c164313525",
+          "image_sha256": "657977546d37bcd81d6584ecee871bd535b4c20fe504388d7e7240bf90a89cc4",
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 14,
+          "native_text_sha256": "94fda59083765140680a546cfac89d7b759e560bc9f6c21d45b1d444aa4160a9",
+          "image_sha256": "f6b0dd780d494ef41f80cc724e4c013ef87a7f50fc773ae54a54899b22cad73e",
+          "printed_page": 13
+        }
+      ],
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
+      "path_sequence": 5
+    },
+    {
+      "topic_id": "math-g2-p1-t6",
+      "source_number": 6,
+      "curriculum_sequence": 6,
+      "title": "Takrorlash",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        14,
+        15
+      ],
+      "body_pdf_locator": [
+        15,
+        16
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 15,
+          "native_text_sha256": "99c4c77d39ca73b7dc73f782785f51a7b70758c90850de2170a6fb716a83bcd5",
+          "image_sha256": "547d2396ff03ac7c90104d38842a000def15fc030ef8ceebcbc72c419bc2d6e8",
+          "printed_page": 14
+        },
+        {
+          "pdf_page": 16,
+          "native_text_sha256": "38f6e92ecb5085618d1d63923cb3d620124641ca3c4fc228544e24d2c6ff87c3",
+          "image_sha256": "ed41d7fbcd0143130e68d6f45e033c49bc3ff365a51f248c3c423f7fd43c690d",
+          "printed_page": 15
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 6
+    },
+    {
+      "topic_id": "math-g2-p1-t7",
+      "source_number": 7,
+      "curriculum_sequence": 7,
+      "title": "Takrorlash",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        16,
+        17
+      ],
+      "body_pdf_locator": [
+        17,
+        18
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 17,
+          "native_text_sha256": "406a860d19be4803fce5ad6dbb1ce61b1305addbebc7de3a323989f22fc4e6c5",
+          "image_sha256": "467ac00e5ccb5cc0f33860ae467108677d541f91d435e1296508661f6207a2a4",
+          "printed_page": 16
+        },
+        {
+          "pdf_page": 18,
+          "native_text_sha256": "1fe8b0dadf3100d8f14dcf390209c34137b68edcb623fb85d7d4eb77487487cb",
+          "image_sha256": "f93d6a1dbb93129a5a606e18b3e75c12f578e4d23a7c04a9cc23766e8f794215",
+          "printed_page": 17
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 7
+    },
+    {
+      "topic_id": "math-g2-p1-t8",
+      "source_number": 8,
+      "curriculum_sequence": 8,
+      "title": "Takrorlash",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        18,
+        19
+      ],
+      "body_pdf_locator": [
+        19,
+        20
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 19,
+          "native_text_sha256": "a57678a691d2f3d7b3702cb535ac497d859df9bd14fc624f487cb5e44cd1e7cf",
+          "image_sha256": "62c9564ffb53c71647e0662d77ab9f96c951c6918bc17a279bc6461da20068ae",
+          "printed_page": 18
+        },
+        {
+          "pdf_page": 20,
+          "native_text_sha256": "19be293b147d20ddad1958c66586b74f1c419ad2e7e29e02c78f1e27605fce0b",
+          "image_sha256": "40c1bbaef42bac1bd0b94e4a6756b058a6ebcd830ef377369ebbbcc9dfcfb080",
+          "printed_page": 19
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 8
+    },
+    {
+      "topic_id": "math-g2-p1-t9",
+      "source_number": 9,
+      "curriculum_sequence": 9,
+      "title": "Sonlarni qo‘shish va ayirish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        20,
+        21
+      ],
+      "body_pdf_locator": [
+        21,
+        22
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 21,
+          "native_text_sha256": "50fc359c264bfdc0f2fb3fcc58f6b7e48efd1c018899d2d7344a2b08ffa39004",
+          "image_sha256": "db144870102ef157c660f74a5a28dd21b0c956a2317a912222d801532496e60f",
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 22,
+          "native_text_sha256": "da10bcedca3ac5fcee0982b191fb18f35975cca503c165fb9543a98fd7c84475",
+          "image_sha256": "948db351f039f21a8d877d208faed0070227b36e939e680863876880782267bf",
+          "printed_page": 21
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 9
+    },
+    {
+      "topic_id": "math-g2-p1-t10",
+      "source_number": 10,
+      "curriculum_sequence": 10,
+      "title": "Sonlarni qo‘shish va ayirish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        22,
+        23
+      ],
+      "body_pdf_locator": [
+        23,
+        24
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 23,
+          "native_text_sha256": "231cdf2a0ed647b93cd4f9689b59f124cd3436a46c033fc19826eec18497291c",
+          "image_sha256": "93243fce9d89ac04d98f3895a8161805cdcc3e873753f2d32931e6e83d6ebd46",
+          "printed_page": 22
+        },
+        {
+          "pdf_page": 24,
+          "native_text_sha256": "8f0ffeb6d8f085c4b6a1371172a866e1080143c3ec30f127b22f90c5e317b60a",
+          "image_sha256": "67087957abc47d69e434b12b6f852d758f24e6cf0f23553f3bf3aceae132058d",
+          "printed_page": 23
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 10
+    },
+    {
+      "topic_id": "math-g2-p1-t11",
+      "source_number": 11,
+      "curriculum_sequence": 11,
+      "title": "Yaxlit songacha qo‘shish (31 + 9)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        24,
+        25
+      ],
+      "body_pdf_locator": [
+        25,
+        26
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 25,
+          "native_text_sha256": "21d11551f569e05b4352316b6be415f9edfefb29e4369da317031c8c68617aee",
+          "image_sha256": "14e2bb9283145465dfcf8cee3f241c52ac623e56ecca11d8a5e924315589e173",
+          "printed_page": 24
+        },
+        {
+          "pdf_page": 26,
+          "native_text_sha256": "701e01328b58f8bad875edbd50b896a5f333b53f21b285fa6684dc29c4d0c0ae",
+          "image_sha256": "d7dafb7b54a0028ac27d9c84046aa413d0a7c5da9ef4367eb598a7163050894d",
+          "printed_page": 25
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 11
+    },
+    {
+      "topic_id": "math-g2-p1-t12",
+      "source_number": 12,
+      "curriculum_sequence": 12,
+      "title": "Yaxlit songacha qo‘shish (31 + 9)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        26,
+        27
+      ],
+      "body_pdf_locator": [
+        27,
+        28
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 27,
+          "native_text_sha256": "d7dc66faba4be1b327fae297bb6b6563a91c14bd4fb3adedbcea4ff5bd221e56",
+          "image_sha256": "b60cb161dbdd5fad1d5d392f07a3bce2da197eacdf82aba74d63fbd88071516c",
+          "printed_page": 26
+        },
+        {
+          "pdf_page": 28,
+          "native_text_sha256": "a044a280d88bd0106b78357a955609d044719c2b80d1d70a1c553c6d9d87ab81",
+          "image_sha256": "43469645aeffb48e562a586b13ec4a876864b20b08d1345ce1a662b907a05b7f",
+          "printed_page": 27
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 12
+    },
+    {
+      "topic_id": "math-g2-p1-t13",
+      "source_number": 13,
+      "curriculum_sequence": 13,
+      "title": "Yaxlit sondan ayirish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        28,
+        29
+      ],
+      "body_pdf_locator": [
+        29,
+        30
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 29,
+          "native_text_sha256": "495f1c78dbef3f083df1bce8b14d0f4a2920a88c7cd150da6a3a78d8fcea726f",
+          "image_sha256": "1e41ce9959a8fcdd6c36aae2543ec20c00e458009c6b9a30158f985cd563f86d",
+          "printed_page": 28
+        },
+        {
+          "pdf_page": 30,
+          "native_text_sha256": "95460c784bc645bf9fada2fe220992bbaee937f91ae626b513a04c87d73d9b44",
+          "image_sha256": "094f43b70dddd647298cb9aa6ab103eaaec7fc1c86ee8921633ee4c36c5191ff",
+          "printed_page": 29
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 13
+    },
+    {
+      "topic_id": "math-g2-p1-t14",
+      "source_number": 14,
+      "curriculum_sequence": 14,
+      "title": "Sonlarni ayirish (30 − 7)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        30,
+        31
+      ],
+      "body_pdf_locator": [
+        31,
+        32
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 31,
+          "native_text_sha256": "ee640f9ebba97b197b1742ec39941b6416b7fb6081b9fbb9aa9a4a386b43fc7a",
+          "image_sha256": "a1325eb589270a13e5d1f1889f26e0324983f14d739a2a33fc2e54e54500f1a9",
+          "printed_page": 30
+        },
+        {
+          "pdf_page": 32,
+          "native_text_sha256": "dea93d30a8d0b349f25cecce73f12417c9d164ed9dbb803f491fb9d7b4134872",
+          "image_sha256": "84ac94a167f1b61aa5850c45277571e54b89e8dc802b96acaeef1a62714fb559",
+          "printed_page": 31
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 14
+    },
+    {
+      "topic_id": "math-g2-p1-t15",
+      "source_number": 15,
+      "curriculum_sequence": 15,
+      "title": "Sonlarni qo‘shish (21 + 39)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        32,
+        33
+      ],
+      "body_pdf_locator": [
+        33,
+        34
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 33,
+          "native_text_sha256": "d936b8b9921888e46888e208d0833a54e2926d25ae85b56513f0321a017290e0",
+          "image_sha256": "ab24e1be3fb83620785f035dc12e86cbd81f49f9001209c2f6034b528aaabb23",
+          "printed_page": 32
+        },
+        {
+          "pdf_page": 34,
+          "native_text_sha256": "006483f8ce2e641e7c760e96666db7e01ee66b69cedbcd58e3b55b68e0bce411",
+          "image_sha256": "24aff427f055aeb7bd89ff48b891c862a03ab92e918cb3840ee7a07782bef1b5",
+          "printed_page": 33
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 15
+    },
+    {
+      "topic_id": "math-g2-p1-t16",
+      "source_number": 16,
+      "curriculum_sequence": 16,
+      "title": "Sonlarni qo‘shish (21 + 39)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        34,
+        35
+      ],
+      "body_pdf_locator": [
+        35,
+        36
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 35,
+          "native_text_sha256": "05d4a6de52e5ed57edb89c0159c66fbf8e94eb4ec8f9cd2d431851b985809e7b",
+          "image_sha256": "1d29e3d8e95de65548c70a31d3342426e1e88398c9d88f17cd1c1e12c86112be",
+          "printed_page": 34
+        },
+        {
+          "pdf_page": 36,
+          "native_text_sha256": "aa7cbca70292ccb7f80e6fdd8e78982ee7daa05f15844a205c636435c7a6ad8b",
+          "image_sha256": "938a54fa4631be5436c71a3bd971ba19878d807eb49e4ceed4b8684655207f2e",
+          "printed_page": 35
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 16
+    },
+    {
+      "topic_id": "math-g2-p1-t17",
+      "source_number": 17,
+      "curriculum_sequence": 17,
+      "title": "Ayirish (50 − 22)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        36,
+        37
+      ],
+      "body_pdf_locator": [
+        37,
+        38
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 37,
+          "native_text_sha256": "cf2117a82dccc7616c03266dcebf9defe9d2d55a8a298c517b3376f166511935",
+          "image_sha256": "e346ef89f1dc45b7583832e339e88370cf524dcfd11ca4d87c52322e313e7150",
+          "printed_page": 36
+        },
+        {
+          "pdf_page": 38,
+          "native_text_sha256": "7051217eb01c7e419af994d6c42dfea4202045d3f1f62e1abf311e9e0279c22c",
+          "image_sha256": "e40dbb3bf811f8acf1a6f19b1baac25ab38339c78f3256a71f53698b65432018",
+          "printed_page": 37
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 17
+    },
+    {
+      "topic_id": "math-g2-p1-t18",
+      "source_number": 18,
+      "curriculum_sequence": 18,
+      "title": "Ayirish (50 − 22)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        38,
+        39
+      ],
+      "body_pdf_locator": [
+        39,
+        40
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 39,
+          "native_text_sha256": "9406117582e2e0068d2c161deee7fc69b0fa9fa920f38c8cd517f9f978d67807",
+          "image_sha256": "dc06260f87010ac10a1b5e4b8da92b932a3cfa930af53d68243de16b9d9a44be",
+          "printed_page": 38
+        },
+        {
+          "pdf_page": 40,
+          "native_text_sha256": "94ed7e809e9dc5934cbe48c454154cb5543c076b785e676bbcecefd554d1620f",
+          "image_sha256": "68e67ef2d1605979d183a2a925daf6cef18671e958e5c566d67e99e1efe32e45",
+          "printed_page": 39
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 18
+    },
+    {
+      "topic_id": "math-g2-p1-review-40",
+      "source_number": null,
+      "curriculum_sequence": 19,
+      "title": "Mavzu bo‘yicha yakuniy dars",
+      "kind": "unnumbered_summary",
+      "printed_pages": [
+        40,
+        41
+      ],
+      "body_pdf_locator": [
+        41,
+        42
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 41,
+          "native_text_sha256": "1b49496872ce5d2f5d36c47607439fe7aa684b49180250b557392aec966373fb",
+          "image_sha256": "673df25a55e92594fd231a0bdf5ef682b2c5411a7795eebffdbcf2478ccd1142",
+          "printed_page": 40
+        },
+        {
+          "pdf_page": 42,
+          "native_text_sha256": "fe53eb01c054b75f3c7be3a4548ef75407da880f62dbc4d7e3acd40ac6f8f748",
+          "image_sha256": "475e6ddc804144ffbae23e68b7fb3d33d2ee9466229ee6a6ebff42c3d60db88c",
+          "printed_page": 41
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 19
+    },
+    {
+      "topic_id": "math-g2-p1-t19",
+      "source_number": 19,
+      "curriculum_sequence": 20,
+      "title": "Sonlarni qo‘shish (25 + 6)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        42,
+        43
+      ],
+      "body_pdf_locator": [
+        43,
+        44
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 43,
+          "native_text_sha256": "d11471197f7c7b35583cde4b4fef92659a7a821a81c2c9392ab6d4312dd55397",
+          "image_sha256": "8e9c54e88955e071f8811c5d3df6c93f4f176a646d5e213aa5d366153e784dad",
+          "printed_page": 42
+        },
+        {
+          "pdf_page": 44,
+          "native_text_sha256": "0b4390196ca74ffea02a0917ddb9508bd72104d7124b5e523d0a1ef38b38571d",
+          "image_sha256": "dfb75bdbf97503b01ecb203221fc65026ba09aeac2308ba96d35fd9e5e1e466e",
+          "printed_page": 43
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 20
+    },
+    {
+      "topic_id": "math-g2-p1-t20",
+      "source_number": 20,
+      "curriculum_sequence": 21,
+      "title": "Sonlarni qo‘shish (25 + 6)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        44,
+        45
+      ],
+      "body_pdf_locator": [
+        45,
+        46
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 45,
+          "native_text_sha256": "0c10214259f4a4dc733200ee8d5249f188e115e81de5e8b9b1fef0cffec756aa",
+          "image_sha256": "b521ea3a6556dcf05db2c4e38559e6574ee5babc93d21d38193ccb1f62ee19f8",
+          "printed_page": 44
+        },
+        {
+          "pdf_page": 46,
+          "native_text_sha256": "1b01ce04ffa40bdaf1c2ea13f429bc16001d2aa35752adebb28d5b20359e7fdd",
+          "image_sha256": "3842d5a08105b92b570d9d0e04b5cdfcda6581d4e7830cc6e6de8bd4a5bc11ec",
+          "printed_page": 45
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 21
+    },
+    {
+      "topic_id": "math-g2-p1-t21",
+      "source_number": 21,
+      "curriculum_sequence": 22,
+      "title": "Sonlarni qo‘shish (6 + 25)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        46,
+        47
+      ],
+      "body_pdf_locator": [
+        47,
+        48
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 47,
+          "native_text_sha256": "7a3aa407369b4eb7418dac9729c20cdfcd7662839e3c166c8bf335b612dfc205",
+          "image_sha256": "e1f35a8ae2b54881fa66d15649f885c34ff39649b97cf37d2c8699560b4cb4ed",
+          "printed_page": 46
+        },
+        {
+          "pdf_page": 48,
+          "native_text_sha256": "d663d83cc5a894d144c841403b7167fb4e1a1de2870399865973da36b7177c02",
+          "image_sha256": "7534110074ce843955b73746d5c94a1383b9b647c1d42511eb1c93915b1d74f3",
+          "printed_page": 47
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 22
+    },
+    {
+      "topic_id": "math-g2-p1-t22",
+      "source_number": 22,
+      "curriculum_sequence": 23,
+      "title": "Sonlarni ayirish (33 − 7)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        48,
+        49
+      ],
+      "body_pdf_locator": [
+        49,
+        50
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 49,
+          "native_text_sha256": "79e72206cd37237a0e10ceb5734c5fc00444388079cddf754bc6fa5eed859b12",
+          "image_sha256": "6bc6e665241597437dc6c866719e47a4af78380dd0e71ba829e3fb96e8c411a4",
+          "printed_page": 48
+        },
+        {
+          "pdf_page": 50,
+          "native_text_sha256": "f19f34d0cb78d9ffa1066b6f6cdb43fde4d539f412c280731607d8bb3c40256e",
+          "image_sha256": "1442abe7406cfdaaba993f8fd11789190cd1cbfa9de95115d5f0d9f7c7de26b5",
+          "printed_page": 49
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 23
+    },
+    {
+      "topic_id": "math-g2-p1-t23",
+      "source_number": 23,
+      "curriculum_sequence": 24,
+      "title": "Sonlarni ayirish (43 − 7)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        50,
+        51
+      ],
+      "body_pdf_locator": [
+        51,
+        52
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 51,
+          "native_text_sha256": "d9dc2ff59c419af2792168d3746991f78f7ca81e362b7ae205be08e0e35356d6",
+          "image_sha256": "512290366e08a2b5e1da5a460f857e17f7a8bb87a80e2beb26b5c532b560c8ba",
+          "printed_page": 50
+        },
+        {
+          "pdf_page": 52,
+          "native_text_sha256": "d75514ec494708fdb961f7911a3fe6f0cecd0ded479df91dffbab58870571fb2",
+          "image_sha256": "bc36ca4894ae11fc0629ba54086842977f46e46407e4ba31eb8a7966e6248a46",
+          "printed_page": 51
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 24
+    },
+    {
+      "topic_id": "math-g2-p1-t24",
+      "source_number": 24,
+      "curriculum_sequence": 25,
+      "title": "Sonlarni ayirish (43 − 7)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        52,
+        53
+      ],
+      "body_pdf_locator": [
+        53,
+        54
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 53,
+          "native_text_sha256": "9804fe2bd33aff7e0863a22d3113e1fbfbfa5464892a0052f8ff8319f5efe4cb",
+          "image_sha256": "0b33d946b3ae217515d4fc9f76c61fd488c379061596e265bc84a3ae68b48a9c",
+          "printed_page": 52
+        },
+        {
+          "pdf_page": 54,
+          "native_text_sha256": "87409a956d3f1114e3664fef78d0938f7151702fa377fdd0249aa920c476f274",
+          "image_sha256": "bf70e43f478b0fea6e98dad01224d5d39ede83099645cb900082660221110139",
+          "printed_page": 53
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 25
+    },
+    {
+      "topic_id": "math-g2-p1-t25",
+      "source_number": 25,
+      "curriculum_sequence": 26,
+      "title": "Sonlarni qo‘shish (28 + 14)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        54,
+        55
+      ],
+      "body_pdf_locator": null,
+      "boundary_pins": [],
+      "verification": "missing_body_source",
+      "interactive_lesson_created": false,
+      "path_sequence": 26
+    },
+    {
+      "topic_id": "math-g2-p1-t26",
+      "source_number": 26,
+      "curriculum_sequence": 27,
+      "title": "Sonlarni qo‘shish (28 + 14)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        56,
+        57
+      ],
+      "body_pdf_locator": [
+        55,
+        56
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 55,
+          "native_text_sha256": "e4c7fa21b5ad5b27082c2681cb606ab43f796c23098adf316d8c5de6e6461b95",
+          "image_sha256": "5c66505f4edc483ebfbfccd5c1cee30429cf24ac5938f58b768c419962ee3cf9",
+          "printed_page": 56
+        },
+        {
+          "pdf_page": 56,
+          "native_text_sha256": "3e9d375179e7e5d09f276e68c604ddd5acea1e693b0b3721b1d6005dd39f11c2",
+          "image_sha256": "07858aedad38911b6d862be6fc949a7e12c8d6e6148f56fd600e40fb209dc762",
+          "printed_page": 57
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 27
+    },
+    {
+      "topic_id": "math-g2-p1-t27",
+      "source_number": 27,
+      "curriculum_sequence": 28,
+      "title": "Ustun ko‘rinishida qo‘shish va ayirish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        58,
+        59
+      ],
+      "body_pdf_locator": [
+        57,
+        58
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 57,
+          "native_text_sha256": "33165fc70654045eace26f52e0ec97b4dbe8bd162f3511ccf7d93a70316cde60",
+          "image_sha256": "f1f5b3f26696bb71992afea889c9a9b9750903b16bcd77a2788ce5efc492d684",
+          "printed_page": 58
+        },
+        {
+          "pdf_page": 58,
+          "native_text_sha256": "43bb6d37c17d9db493f1b2c94255cd43d13921a8ad0952059a587de304bb5932",
+          "image_sha256": "e830d2ff414205878cfb7e3eb7ca8349de270060bd37f6ad9f4fd9a1315300f2",
+          "printed_page": 59
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 28
+    },
+    {
+      "topic_id": "math-g2-p1-t28",
+      "source_number": 28,
+      "curriculum_sequence": 29,
+      "title": "Sonlarni ayirish (43 − 16)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        60,
+        61
+      ],
+      "body_pdf_locator": [
+        59,
+        60
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 59,
+          "native_text_sha256": "81b72c59ba18db563a9912e093bd2698988688f91c7efdf867b31cd526c2b4fd",
+          "image_sha256": "05d8667458275c42b34a94a7416cf768abdc545d565a5d5b8569160c3f49256f",
+          "printed_page": 60
+        },
+        {
+          "pdf_page": 60,
+          "native_text_sha256": "0361912f073bca7ba6f658ecbdfe9197cd2841a18365b08a086cb734bbf67b9f",
+          "image_sha256": "cfe5b58ebecc6243633d0f2ff16c38cd22f09f3e3d10ed9c06fb7b983c860b79",
+          "printed_page": 61
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 29
+    },
+    {
+      "topic_id": "math-g2-p1-t29",
+      "source_number": 29,
+      "curriculum_sequence": 30,
+      "title": "Sonlarni ayirish (43 − 16)",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        62,
+        63
+      ],
+      "body_pdf_locator": [
+        61,
+        62
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 61,
+          "native_text_sha256": "941f15b07c145cd5278e73760cfc7d50e707b5f8dd3a45f78e922f9d451daf77",
+          "image_sha256": "12e9b53eeb09c9536c3f47f73a6cd2136b104f1ee89100a1a6d392bdf7ec6308",
+          "printed_page": 62
+        },
+        {
+          "pdf_page": 62,
+          "native_text_sha256": "c568fb48b3eaa0390745dadf5c50ee08be36b4c76055b87d06e2adc1761fa4d0",
+          "image_sha256": "ad0508357e21533412d34723dff4e124ba3bfcc13186f6501e5846554d844e7b",
+          "printed_page": 63
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 30
+    },
+    {
+      "topic_id": "math-g2-p1-t30",
+      "source_number": 30,
+      "curriculum_sequence": 31,
+      "title": "Ustun ko‘rinishida qo‘shish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        64,
+        65
+      ],
+      "body_pdf_locator": [
+        63,
+        64
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 63,
+          "native_text_sha256": "692757aa0cfc49808d8108aab554d91f16e4eae5057e5f68224f0d1d563e1c3f",
+          "image_sha256": "5921f958f1583df37e21bc959501466a21537be3a3dc6eccb533e0de6632f258",
+          "printed_page": 64
+        },
+        {
+          "pdf_page": 64,
+          "native_text_sha256": "86ba1cbea88243e66436d6689f2e5703759e05688ec4a200ad16bdccc7d099d5",
+          "image_sha256": "27bfdf0fbcc6413927a4f4d261529b93a3293a394ff39f8c3d48ad47d934b44a",
+          "printed_page": 65
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 31
+    },
+    {
+      "topic_id": "math-g2-p1-t31",
+      "source_number": 31,
+      "curriculum_sequence": 32,
+      "title": "Qo‘shishning xossalari",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        66,
+        67
+      ],
+      "body_pdf_locator": [
+        65,
+        66
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 65,
+          "native_text_sha256": "76ffd2c21940768b71f6be3bbd4d8fa47513eee079ce821e3413719bf218a34e",
+          "image_sha256": "e21ad42403063bca38e67dfec8272bc94b8f63660df1c71e2b837dec013146a7",
+          "printed_page": 66
+        },
+        {
+          "pdf_page": 66,
+          "native_text_sha256": "de7662133d5c2bc08181af11d6d176d613db9e074930efb928590dc518786929",
+          "image_sha256": "d3314f8dcc5e80eacc1c4c6e45f277ef31dda1984ec1a3331943d0c918a553d6",
+          "printed_page": 67
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 32
+    },
+    {
+      "topic_id": "math-g2-p1-t32",
+      "source_number": 32,
+      "curriculum_sequence": 33,
+      "title": "Ustun ko‘rinishida ayirish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        68,
+        69
+      ],
+      "body_pdf_locator": [
+        67,
+        68
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 67,
+          "native_text_sha256": "1251a18a386424753c833ea6b2cff9dae32b7b79f3a3e7bbd19dd2f35a86d9e7",
+          "image_sha256": "73deda565de7ef1007f1bdab70eae0be33cc268c4bd61f060a2923c2c779a0e4",
+          "printed_page": 68
+        },
+        {
+          "pdf_page": 68,
+          "native_text_sha256": "b614886c2c821a2bca490dca7a35eafc9ffb73cff7d062260e149d9788e75208",
+          "image_sha256": "fbb56da458b5a03e2f014f38d3656a5e16d16c3d103d6ac22b86b41620f0dbae",
+          "printed_page": 69
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 33
+    },
+    {
+      "topic_id": "math-g2-p1-t33",
+      "source_number": 33,
+      "curriculum_sequence": 34,
+      "title": "Og‘zaki hisoblash usullari",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        70,
+        71
+      ],
+      "body_pdf_locator": [
+        69,
+        70
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 69,
+          "native_text_sha256": "4a31b839e7542bf155c7016273d443433e9945045defa99f3a3be73f3b1715c0",
+          "image_sha256": "cdc066770e256f42342b723c2055e57b57dd8807fa3b7741570a74a6adbbdcc6",
+          "printed_page": 70
+        },
+        {
+          "pdf_page": 70,
+          "native_text_sha256": "48fe50c0cf3d845212303cde1b2ffe757c65a5032fcc312468b5bfeb6eb786bc",
+          "image_sha256": "dff5693b1ead86576fd22f7f6bc8869fdb537339e528dd907d2e5ff33e96de34",
+          "printed_page": 71
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 34
+    },
+    {
+      "topic_id": "math-g2-p1-t34",
+      "source_number": 34,
+      "curriculum_sequence": 35,
+      "title": "Yig‘indidan sonni ayirish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        72,
+        73
+      ],
+      "body_pdf_locator": [
+        71,
+        72
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 71,
+          "native_text_sha256": "cb31194f209feae46ffaa6ab63f048384b751b78976c0684c054768a05e1efc9",
+          "image_sha256": "cfac3d99b56ec7c10c5f58ee6821161b40a62782434031d22f35aa3767bbcf50",
+          "printed_page": 72
+        },
+        {
+          "pdf_page": 72,
+          "native_text_sha256": "2bcbb1f7d6afa87c0191228acedf27ed83bbd205231a2260c636deca67d4b729",
+          "image_sha256": "58755f05280a1792b76b3f73acb09c5adf768e044d47e86dc23a0d1b6c6edce3",
+          "printed_page": 73
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 35
+    },
+    {
+      "topic_id": "math-g2-p1-t35",
+      "source_number": 35,
+      "curriculum_sequence": 36,
+      "title": "Yig‘indidan sonni ayirish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        74,
+        75
+      ],
+      "body_pdf_locator": [
+        73,
+        74
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 73,
+          "native_text_sha256": "4c80d0be43f098c7ecd6f2d16d2127802dbd2ea8ca10d2e6c1739152bcc7f643",
+          "image_sha256": "7e216947168cbff5b38ea66d7e6b5f9626fff3f584a27eeaeb81f1893466afb4",
+          "printed_page": 74
+        },
+        {
+          "pdf_page": 74,
+          "native_text_sha256": "c76e444a01459a940f2031ab4b43c1b683d06753e4e7e57a2a619d00b6eaf2a8",
+          "image_sha256": "5ee994758e2661cd990acdc1ba3b0ddcb3475d90b494b7fc1942412f3bedfd0b",
+          "printed_page": 75
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 36
+    },
+    {
+      "topic_id": "math-g2-p1-t36",
+      "source_number": 36,
+      "curriculum_sequence": 37,
+      "title": "Sondan yig‘indini ayirish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        76,
+        77
+      ],
+      "body_pdf_locator": [
+        75,
+        76
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 75,
+          "native_text_sha256": "f7dc62547cd6fd484e41f3b731b193efb9e90cc5e296d210c61c2a7733456b9e",
+          "image_sha256": "1428624415c361fe60d65e6578904d264f8a1113657776bd093369af4f99a632",
+          "printed_page": 76
+        },
+        {
+          "pdf_page": 76,
+          "native_text_sha256": "d65b6f0284d8e28a8ff3ce3e7b573ea83b3d3ba39073b37fa4ea8636aa4a9363",
+          "image_sha256": "c57463e1b7bc7ef8e8dd8b96615566d6f37e85b5d1557067c93b8468386e0c00",
+          "printed_page": 77
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 37
+    },
+    {
+      "topic_id": "math-g2-p1-t37",
+      "source_number": 37,
+      "curriculum_sequence": 38,
+      "title": "Sondan yig‘indini ayirish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        78,
+        79
+      ],
+      "body_pdf_locator": [
+        77,
+        78
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 77,
+          "native_text_sha256": "f93cfdd51966245facbfe63af5a4380c74c96f0e22f3c924103cfe0273410cd1",
+          "image_sha256": "71da2f8e21f62f0c486f6bcf1023192155f5dc18a5ca8b63a596dc268eb82e22",
+          "printed_page": 78
+        },
+        {
+          "pdf_page": 78,
+          "native_text_sha256": "1fd752eac3736b8eee4224aa855ff09b9cfc4cf009c09d29033838cc55d3f70b",
+          "image_sha256": "0baa329120a1df322b1817733ef2992fb61c94af688900d8228abc1279fd6edc",
+          "printed_page": 79
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 38
+    },
+    {
+      "topic_id": "math-g2-p1-t38",
+      "source_number": 38,
+      "curriculum_sequence": 39,
+      "title": "Masalalar yechish va o‘tilgan mavzularni mustahkamlash",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        80,
+        81
+      ],
+      "body_pdf_locator": [
+        79,
+        80
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 79,
+          "native_text_sha256": "cfdafbaf48c7b777a7d2a751cf87fb1e84ea79764eee242707f28b7a126baabd",
+          "image_sha256": "ee81af9e064b723e8d61c599cc5afc3783c6802aff443752d7875abc01a1e417",
+          "printed_page": 80
+        },
+        {
+          "pdf_page": 80,
+          "native_text_sha256": "7b7e2261b4fc704c050ea6ed88c668002a45e354f0924125782037b077ec5472",
+          "image_sha256": "44960700b4469d21bc45306ad4f86ce3ad45dd4564316e5d63323688475cf1fa",
+          "printed_page": 81
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 39
+    },
+    {
+      "topic_id": "math-g2-p1-t39",
+      "source_number": 39,
+      "curriculum_sequence": 40,
+      "title": "Masalalar yechish",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        82,
+        83
+      ],
+      "body_pdf_locator": [
+        81,
+        82
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 81,
+          "native_text_sha256": "986873126112250cc342f7b22599c2b6a0edc82c9ac0f553d4cc4d59af58ec92",
+          "image_sha256": "47e0cbf9702d681eca43167266691cfbdb0ceb3e248eb2ebe49405f9a1048f29",
+          "printed_page": 82
+        },
+        {
+          "pdf_page": 82,
+          "native_text_sha256": "fade351165b8d6e8108389e7129452c05d3783caf99552247e6d86633c6faaf3",
+          "image_sha256": "6d7f065c100f36521a3b7b5992be71b508ec1328adf49222c4007494b073a827",
+          "printed_page": 83
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 40
+    },
+    {
+      "topic_id": "math-g2-p1-review-84",
+      "source_number": null,
+      "curriculum_sequence": 41,
+      "title": "Mavzu bo‘yicha yakuniy dars",
+      "kind": "unnumbered_summary",
+      "printed_pages": [
+        84,
+        85
+      ],
+      "body_pdf_locator": [
+        83,
+        84
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 83,
+          "native_text_sha256": "1669cfea8c18377c7e4a94ff9a938322c77112cc9c84d129343d39b1eda3c7ca",
+          "image_sha256": "ef6f79bb8e87685f45a116b0dfb3577e4ddbc147462216c78f96cce61769514f",
+          "printed_page": 84
+        },
+        {
+          "pdf_page": 84,
+          "native_text_sha256": "08422b0c47912bdcd43b09a98982fe76fd6f4b084b1d366a18489879d42347bf",
+          "image_sha256": "074a7b60d4872ae53d777b4d7f300945a011374aa95b6aeb8918059a88383084",
+          "printed_page": 85
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 41
+    },
+    {
+      "topic_id": "math-g2-p1-t40",
+      "source_number": 40,
+      "curriculum_sequence": 42,
+      "title": "Amaliy topshiriqlar",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        86,
+        87
+      ],
+      "body_pdf_locator": [
+        85,
+        86
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 85,
+          "native_text_sha256": "441faf28a7b033bdbfbda1930b750b5bd146c2217061b2e93cf1621ded369eb6",
+          "image_sha256": "df301ce4bbecb88f97fad02c15da30e30ffb3fed27c76bd583b9bb97e3ab59e1",
+          "printed_page": 86
+        },
+        {
+          "pdf_page": 86,
+          "native_text_sha256": "8d9281dd0ba10ce4e2406041c6292fb7749051b1c8c48faff7d6253c99e310a1",
+          "image_sha256": "8cd53a78cf77d1df9903c9c2d3881d67742e8a02163fb3666ca092eb5c350eb8",
+          "printed_page": 87
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 42
+    },
+    {
+      "topic_id": "math-g2-p1-t41",
+      "source_number": 41,
+      "curriculum_sequence": 43,
+      "title": "Amaliy topshiriqlar",
+      "kind": "numbered_topic",
+      "printed_pages": [
+        88,
+        89
+      ],
+      "body_pdf_locator": [
+        87,
+        88
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 87,
+          "native_text_sha256": "804f0fea07de9f25aa3f24df420558bcc42802cc59f00030fa963fbdc3281be7",
+          "image_sha256": "013640acc3f499f16df033ace2c95651f87345bd09a1fd32239113047bd15492",
+          "printed_page": 88
+        },
+        {
+          "pdf_page": 88,
+          "native_text_sha256": "d58fe32fe657fc5b5479b06d7aa58f4411d6a30a4938973873575962438384bb",
+          "image_sha256": "c55752f71314a4965aaf5e2a3b452f3c909440c7bfcccd380ccaee94dfc716f5",
+          "printed_page": 89
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 43
+    },
+    {
+      "topic_id": "math-g2-p1-practical-90-96",
+      "source_number": null,
+      "curriculum_sequence": 44,
+      "title": "Amaliy topshiriqlar",
+      "kind": "unnumbered_activity_collection",
+      "printed_pages": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "body_pdf_locator": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "boundary_pins": [
+        {
+          "pdf_page": 89,
+          "native_text_sha256": "bf751708330fb95b9d68aa0ae31ce69ac90c247665e2cdf633b846fe4a452a0b",
+          "image_sha256": "cb058c4e8529787b58de05f5202823b5988d542d44c11ff97a7f7e333bce8536",
+          "printed_page": 90
+        },
+        {
+          "pdf_page": 90,
+          "native_text_sha256": "23ff3d5652fca6e2353e06896e52b99033077e1e69130b5eff5257676165e522",
+          "image_sha256": "e2465242246bea54b8b06fbcbc2f0161a07843c704ba9d637872704cbd20f156",
+          "printed_page": 91
+        },
+        {
+          "pdf_page": 91,
+          "native_text_sha256": "d645e317dc9cc156f5056f284474c4f6a383e3e2459515d52c7a4c09eb61cb29",
+          "image_sha256": "ec418c9a8b8d2d33a5f592a677cd84377e4e43e7256f4e1e6f35791547b58957",
+          "printed_page": 92
+        },
+        {
+          "pdf_page": 92,
+          "native_text_sha256": "5132eb1152c7985b63d1c6e234ac0211157a736d1445673a6fbc6ca6ab3aa994",
+          "image_sha256": "41aed49e11d1ed26e99cea93e5c8d8f6cb4f914a21669d3d6d64e1dbe2aaa142",
+          "printed_page": 93
+        },
+        {
+          "pdf_page": 93,
+          "native_text_sha256": "2f7e138ab7ab570418a8434196226f37415753b872bf511c9a3814de5a0e14ca",
+          "image_sha256": "73afc68539019763ad6b757241c09b46cecedf497e940c22c04b4b7cfe92bd5e",
+          "printed_page": 94
+        },
+        {
+          "pdf_page": 94,
+          "native_text_sha256": "00ef8c8bf4edb4a9dc5f890db5405671711e7fc92fc992a77be124af8864ffe8",
+          "image_sha256": "2ced3bfc36ff90585f5447caa7f2a1519433e6e10e9c7086f6dbf993549234d3",
+          "printed_page": 95
+        },
+        {
+          "pdf_page": 95,
+          "native_text_sha256": "4a450125d053039777d7f5ff51f366792304aec5160276d7534ec4e749f5103a",
+          "image_sha256": "05807673c2db048344dbee986ad14040cf81d7c4daabf30882ce8e5827ce53fb",
+          "printed_page": 96
+        }
+      ],
+      "verification": "header_footer_images_reviewed_body_pending",
+      "interactive_lesson_created": false,
+      "path_sequence": 44
+    }
+  ],
+  "additional_image_checks": [
+    {
+      "pdf_page": 2,
+      "native_text_sha256": "ae01a2668aaa66c2cad175f9d8dcba67eb82b230c6c0f1359756bdbd31126a16",
+      "image_sha256": "6a7b64096c16ed1f48fe04c5c05c6f3a2591f4d1676ed9fa3460181e40661e90"
+    },
+    {
+      "pdf_page": 3,
+      "native_text_sha256": "5c24c91a596b7b592c71312b5d7c8d33ccc6879fe72a414c46c15e2e785aae32",
+      "image_sha256": "d8ea69b6c6bc60755783ff1038ad239b83a9aaca438d8c1884808fca3742988f"
+    },
+    {
+      "pdf_page": 4,
+      "native_text_sha256": "abad470fc7d83d645a68580a90e141bc29b57d15a6dc924bbd904a2fb8595ddc",
+      "image_sha256": "00b607139f688404e0a23a429f1c40cde5e203a44cafa712b56770fcf3741b5d"
+    },
+    {
+      "pdf_page": 96,
+      "native_text_sha256": "a0be4fb339d52aadd58ccbab38ad4fdb8c0ab24575791dfcc4203d74d2bf3a00",
+      "image_sha256": "c1a118a1139416be958b9b2b3e8c846093cba07fd60e7e7e3aa8c452c971b96e"
+    },
+    {
+      "pdf_page": 97,
+      "native_text_sha256": "4cd5f837c6f080885d9695b1640530fa5295614c3d91d008739035e3ddd4baca",
+      "image_sha256": "27deff3ab3eca635b4411e07396c73c16733da9f619576f4799b9070658cf78c"
+    }
+  ],
+  "source_gaps": [
+    {
+      "kind": "missing_numbered_body",
+      "topic_id": "math-g2-p1-t25",
+      "topic_source_number": 25,
+      "missing_printed_pages": [
+        54,
+        55
+      ],
+      "before": {
+        "pdf_page": 54,
+        "printed_page": 53
+      },
+      "after": {
+        "pdf_page": 55,
+        "printed_page": 56
+      },
+      "verification": "adjacent_full_source_images_and_all_body_header_footer_inventory_reviewed",
+      "ready": false
+    }
+  ],
+  "review_notes": [
+    "Only table-of-contents metadata plus actual91header/footer images; not full-body scientific/pedagogical verification.",
+    "Numbered1–41 includes source25whose printed54–55 are absent. Retain missing curriculum row, no inferred original pages.",
+    "Two unnumbered summary units have real bodies40–41and84–85; final unnumbered practical collection90–96 has26numbered exercises, counted as one source collection not26lessons.",
+    "Repeated review titles1–8 are distinct numbered source units; no title deduplication.",
+    "PDF1–54 printed numbering−1 where printed;PDF55–95 printed numbering+1 after missing54–55. No global constant-offset mapping.",
+    "First1–5fullbodiesPDF5–14viewed for authoring; they are not authored or tested yet.",
+    "Source1weather categories may overlap in real observations; original mathematical partition must explicitly classify each day once.",
+    "Source2botanical classifications not universalfacts, original shape/color Venn counters replace ambiguous natural categories.",
+    "Source3distinct intersecting straight lines need explicit nonparallel condition; physical drawing skill not automatically certified.",
+    "Source4perimeter is flat boundary; no3Dmesh area or animalfeeding norm. Source5horse3metres12metresdoesnotfitsix; original one-dimensional allocated segments, not animal-care advice."
+  ]
+}

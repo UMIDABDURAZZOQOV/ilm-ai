@@ -200,18 +200,44 @@
         "publisher": "Novda Edutainment",
         "year": 2023,
         "isbn": "978-9943-9687-2-1",
-        "verification": "extracted_not_yet_visually_confirmed",
-        "isbn13_checksum_valid": true
+        "verification": "title_and_colophon_images_reviewed",
+        "isbn13_checksum_valid": true,
+        "title_page_author": "I. V. Repyova",
+        "copyright_author": "I. V. Repyova"
       },
-      "topic_count": null,
-      "curriculum_map_status": "pending_full_body_review",
+      "topic_count": 44,
+      "curriculum_map_status": "44units_43body_boundaries_5original_lessons_missing25printed54_55_local_preview",
       "segment": {
         "original_pdf_pages": [
           1,
           100
         ],
         "kind": "complete_supplied_file"
-      }
+      },
+      "body_topic_count": 43,
+      "available_body_topics": 43,
+      "authored_lessons": 5,
+      "source_gaps": [
+        {
+          "kind": "missing_numbered_body",
+          "topic_id": "math-g2-p1-t25",
+          "topic_source_number": 25,
+          "missing_printed_pages": [
+            54,
+            55
+          ],
+          "before": {
+            "pdf_page": 54,
+            "printed_page": 53
+          },
+          "after": {
+            "pdf_page": 55,
+            "printed_page": 56
+          },
+          "verification": "adjacent_full_source_images_and_all_body_header_footer_inventory_reviewed",
+          "ready": false
+        }
+      ]
     },
     {
       "book_id": "math-uz-g2-p2",

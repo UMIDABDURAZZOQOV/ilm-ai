@@ -243,6 +243,57 @@ def audit(source_directory):
                 == saved["image_sha256"],
                 "math_part4_mapping_source_changed",
             )
+    second_grade = json.loads((ROOT / "grade2_part1_map.json").read_text())
+    source2 = next(
+        b for b in catalog["books"] if b["book_id"] == second_grade["book_id"]
+    )
+    authored2 = [l for l in lessons if (l["grade"], l["part"]) == (2, 1)]
+    require(
+        second_grade["book_sha256"] == source2["sha256"]
+        and len(second_grade["topics"]) == source2["topic_count"] == 44
+        and second_grade["authored_lessons"] == len(authored2)
+        and [t["source_number"] for t in second_grade["topics"] if t["source_number"]]
+        == list(range(1, 42))
+        and {
+            t["topic_id"]
+            for t in second_grade["topics"]
+            if t["interactive_lesson_created"]
+        }
+        == {l["topic_id"] for l in authored2}
+        and [p for t in second_grade["topics"] for p in (t["body_pdf_locator"] or [])]
+        == list(range(5, 96)),
+        "math_grade2_map_or_authored_identity_changed",
+    )
+    missing2 = next(t for t in second_grade["topics"] if t["source_number"] == 25)
+    require(
+        missing2["body_pdf_locator"] is None
+        and missing2["printed_pages"] == [54, 55]
+        and not missing2["interactive_lesson_created"]
+        and source2["source_gaps"][0]["missing_printed_pages"] == [54, 55]
+        and not second_grade["all_body_content_reviewed"]
+        and not second_grade["full_map_verified"],
+        "math_grade2_missing_body_invented",
+    )
+    with fitz.open(paths[second_grade["book_id"]]) as pdf:
+        for saved in second_grade["additional_image_checks"] + [
+            p for t in second_grade["topics"] for p in t["boundary_pins"]
+        ]:
+            page = pdf[saved["pdf_page"] - 1]
+            require(
+                hashlib.sha256(page.get_text().encode()).hexdigest()
+                == saved["native_text_sha256"]
+                and hashlib.sha256(
+                    page.get_pixmap(matrix=fitz.Matrix(1.3, 1.3)).tobytes("png")
+                ).hexdigest()
+                == saved["image_sha256"],
+                "math_grade2_mapping_source_changed",
+            )
+            if "printed_page" in saved:
+                n = saved["pdf_page"]
+                require(
+                    saved["printed_page"] == (n - 1 if n <= 54 else n + 1),
+                    "math_grade2_page_offset_changed",
+                )
     return {
         "available_pdfs": len(paths),
         "available_pages": sum(b["pdf_pages"] for b in catalog["books"]),
@@ -276,6 +327,10 @@ def audit(source_directory):
         "grade1_part4_body_review_not_finished": not fourth[
             "all_body_content_reviewed"
         ],
+        "grade2_part1_curriculum_units": 44,
+        "grade2_part1_available_body_units": 43,
+        "grade2_part1_authored_lessons": len(authored2),
+        "grade2_part1_missing_printed_pages": [54, 55],
         "blocked_sources": catalog["blocked_sources"],
         "full_curriculum_topic_count": None,
         "course_ready": False,

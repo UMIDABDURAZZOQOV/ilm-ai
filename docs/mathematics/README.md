@@ -1,5 +1,61 @@
 # ILM AI Matematika — joriy tekshirilgan davom
 
+## 2026-11-05 — 2-sinfga o‘tildi: I qism§1–5, jami 148 lokal dars
+
+1-sinf IV qismi 33/33 tana mavzusi bilan saqlandi. 2-sinf I qismning dastlabki 5 darsi
+30 karta, 40 savol, 5 misol/15 qadam va 10 sonli tenglik bilan qo‘shildi.
+Jami **148 dars, 872 karta, 1 144 savol, 148 misol/444 qadam, 252 sonli tenglik**.
+Mavjud 135 original model turidan 5 tasi tegishli yangi mavzularda qayta ishlatildi;
+Flutter sinf tanlash va manba kamchiligi holatini mavjud UI orqali qo‘llab-quvvatladi.
+
+| 2-sinf manba№ | Mazmun | PDF | Bosma |
+|---|---|---|---|
+|1|20doirasidagi sanoq/tartib, jadval, farq va o‘sish tartibi|5–6|4–5|
+|2|100doirasi, xona birliklari, ustma-ust xossalar, bog‘liq jami|7–8|6–7|
+|3|Nuqta/chiziq, kesishish sharti, uzunlik/o‘sish va tenglamalar|9–10|8–9|
+|4|Qo‘shish xossasi/belgilar, perimetr/siniq chiziq, jadval|11–12|10–11|
+|5|Sonli/harfli ifoda, berilgan qiymatlar/juftliklar, qoldiq|13–14|12–13|
+
+2-sinf I qismda 44 manba birligi bor:41 raqamlangan mavzu, 2 raqamsiz yakuniy dars,
+1 raqamsiz amaliy to‘plam. Mavjud 43 tana birligi 91 sahifani qamraydi.
+**§25bosma54–55 sahifalari yo‘q**: PDF54/bosma53dan PDF55/bosma56ga o‘tadi.
+Buni tasdiqlash uchun barcha tana sarlavha/footerlari va shu o‘tishning to‘liq tasvirlari ko‘rildi.
+Bu mavzuga kontent yoki progress yaratilmagan. Hozir 2-sinf I qismda 5 tayyor,
+39 qolgan: 38 mavjud tana birligi va 1 manbasi yo‘q mavzu.
+
+Oldingi 143 dars va boshqa fanlar o‘zgarmadi. Sinfni alohida tanlash birinchi kitob
+qismini boshlashga ruxsat beradigan mavjud policy; u1-sinf bajarilganini yozmaydi.
+Server baholashi, replay0XP, UID himoyasi va prerequisite tekshiruvlari saqlangan.
+Normalapp/main/auth/umumiy mobil katalog yoki veb-saytga o‘zgartirish yo‘q.
+
+Haqiqiy testlar:
+
+- math: 195 passed, 1 skipped in 516.36s (0:08:36).
+- backend_targeted: 9passed10.33s;7newliteral/API/map tests plus2oldcross-booktests.
+- postgres: 1passed57.19s;all148,seed137→1617XP,replay0,parallel reward/UID/streak/immutableimport;owned random schema removed.
+- flutter_targeted: 7passed12s;5full flows320px/200percent/ReduceMotion,DTO and missing-source/grade-choice UI.
+- flutter_full: 05:11 +658: All tests passed!.
+- analyze: 0issues2.5s; initial unused test import removed.
+- web: previous successful debugJS38.4s atFlutterd00ace7; Flutter application source unchanged in this batch, not rerun;noAndroid/browser/APIclaim.
+- protected: 11passed40.89s;Biology/Physics/mobileOAuth;5protected worktrees clean with originalHEADs.
+- source: 23PDF/2958pages,148topics/296bodypages;2I44mapped,43bodyunits,5authored,source25printed54–55missing.
+- quality: Ruff/format/whitespace passed;prior143content/mapJSON unchanged across60files,other22metadata/inventories unchanged;atomicpublicfixtureprivacy passed.
+
+Keyingi **2-sinf I qism§6 «Takrorlash», PDF15–16/bosma14–15**.
+§6–10/PDF15–24 asl sahifalari ko‘rilgan, lekin darslari hali yozilmagan.
+Source review: §8dagi o‘rgimchakning hasharot deb tasniflanishini ko‘chirmang;
+«foydali/zararli» kontekstga bog‘liq. Original matematik rang/shakl toifalari ishlatilsin.
+Boshqa qaydlar va barcha44qator [GRADE2_PART1_PROGRESS.md](GRADE2_PART1_PROGRESS.md)da.
+
+Butun 1–11 kurs tugallanmagan; barcha sinflarning jami/qolgan mavzu soni hali noma’lum.
+II74vaIII5schedule-onlyqatorlari,9Algebra/11Itransferbloklari,6II/7–10Geometrymanbalari ochiq.
+Mustaqil pedagogik ekspertiza, o‘quvchi piloti, 2026–27 rasmiy dastur va realAndroid/TalkBack
+tekshiruvlari bajarilmagan. Standalone positiveCLI Gitancestor guardi chetlab o‘tilmagan;
+SQLite/TestClient va izolyatsiyalangan PostgreSQL tekshiruvlari ishlatilgan.
+PDF/rasm/OCR yoki credential Gitga qo‘shilmagan. Mainmerge/productionDB/deploy/nashr bajarilmadi.
+[Checkpoint dalili](checkpoints/grade2_part1_batch1.json).
+
+
 ## 2026-11-05 — IV qism139–144; jami143 lokal dars
 
 Yangi6dars: 36karta,48topshiriq,12sonli tenglik.

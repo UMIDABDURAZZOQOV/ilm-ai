@@ -262,6 +262,7 @@ BATCHES = [
     ("grade1_part4_batch4.json", "grade1_part4_batch4_review.json"),
     ("grade1_part4_batch5.json", "grade1_part4_batch5_review.json"),
     ("grade1_part4_batch6.json", "grade1_part4_batch6_review.json"),
+    ("grade2_part1_batch1.json", "grade2_part1_batch1_review.json"),
 ]
 
 
@@ -270,11 +271,13 @@ def validate_document(document, review):
     require(review["book_sha256"] == source["sha256"], "math_source_sha_mismatch")
     topics = {t["topic_id"]: t for t in review["topics"]}
     body_map = None
-    if review["book_id"] in {"math-uz-g1-p3", "math-uz-g1-p4"}:
+    if review["book_id"] in {"math-uz-g1-p3", "math-uz-g1-p4", "math-uz-g2-p1"}:
         body_map = {
             t["topic_id"]: t
             for t in json.loads(
-                (ROOT / f"grade1_part{source['part']}_map.json").read_text()
+                (
+                    ROOT / f"grade{source['grade']}_part{source['part']}_map.json"
+                ).read_text()
             )["topics"]
         }
     require(len(topics) == len(review["topics"]), "duplicate_math_review_topic")

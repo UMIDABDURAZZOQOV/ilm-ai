@@ -77,7 +77,13 @@ def test_cross_book_prerequisites_then_all_five_progress_replay_and_account_isol
     cat = client.get(first.P + "/catalog", params={"grade": 1, "part": 2}).json()
     assert not cat["previous_book_complete"] and {
         b["book_id"] for b in cat["available_books"]
-    } == {"math-uz-g1-p1", "math-uz-g1-p2", "math-uz-g1-p3", "math-uz-g1-p4"}
+    } == {
+        "math-uz-g1-p1",
+        "math-uz-g1-p2",
+        "math-uz-g1-p3",
+        "math-uz-g1-p4",
+        "math-uz-g2-p1",
+    }
     assert all(l["state"] == "locked" for l in cat["lessons"])
     blocked = client.post(
         first.P + "/lessons/math-1-2-1-r1/start",
