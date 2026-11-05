@@ -1,5 +1,50 @@
 # Matematika — davom checkpointi
 
+## 2026-11-05 — IV qism127–132; jami131 lokal dars
+
+Yangi6dars: 36karta,48topshiriq,10sonli tenglik.
+Jami **131dars,770karta,1008topshiriq,131misol/393qadam,220sonli tenglik**.
+I41/41,II32/33,III37/37matnli mavzu saqlangan;IV21/33tayyor lokal dars,12tana mavzu qolgan.
+III5nazorat/o‘yin qatori vaII74tana manbasi yo‘qligi saqlanadi. Butun1–11kurs tugamagan;
+umumiy barcha sinflar mavzu/qolganlar soni hali noma’lum.
+
+| Manba № | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|127|16|Simmetriya o‘qlariga ega bo‘lgan yassi shakllar|35–36|34–35|
+|128|17|Hajmli shakllar|37–38|36–37|
+|129|18|Tenglik va tengsizliklar|39–40|38–39|
+|130|19|Sonli va harfiy ifodalar|41–42|40–41|
+|131|20|Ifoda|43–44|42–43|
+|132|21|Ifodalarning qiymatlarini taqqoslash|45–46|44–45|
+
+Yangi6dars:simmetriyao‘qlarini aniqshaklda tekshirish,7hajmlimodel va konus/silindrko‘rinishi,tenglik/tengsizlik,sonli/harfiyifoda,harflibilanbutun/qism hamda aynixniikkalatomongaqo‘yibtaqqoslash.6originalmodel qo‘shildi. Barchaarifmetikkontrollarchegaralangan,nol/manfiybo‘lmaslikshartlarianiqlashtirilgan. Studentkartalaridantexnikparser/CASatamalarichiqarildi;qo‘llanishchegaralari review/docsdasaqlangan. Yarimkuniborasidanasanalarbo‘lmasa taxminiyjavobyo‘q. Old125lesson/reviewimmutablesaqlangan.
+
+Haqiqiy testlar:
+
+- Math: 173passed1skipped389.63s.
+- Backend targeted: 20passed68.45s acrossIV1/3/4batches;7newliteral/APItests.
+- PostgreSQL: 1passed57.84s;all131,seed137XP→1447,replay0,parallelfirstreward/UID/streak/immutableimport;final copy-edit+PG+new7tests8passed69.99s.
+- Flutter targeted: 13passed15s;6fullflows320px/200percent/ReduceMotion and6model invariants;final API fixture13passed14s.
+- Flutter full: 624passed4:29.
+- Analyze: 0issues2.5s.
+- Web: debugJS58.0s;invalidcompile-onlytoken/localURL;notAndroid/browser/API.
+- Protected: Biology/Physics/mobileOAuth11passed44.38s;protected worktrees checked before final push.
+- Source audit: 23PDF/2958pages;131reviewed authored topics/262bodypages;IV33mapped/21authored/12unready.
+- Quality: Ruff/format/whitespace passed;earlier125JSONbytes unchanged across52files;other22book metadata/inventories unchanged;atomicpublicAPIfixture privatekey scan passed.
+
+Default strict prerequisite saqlanadi. Faqat ikkala serverlocalQAflag va oldingi110mavjud dars
+bajarilgach IVsinash ochiladi. II74yokiIIIcontrol/gamega progress/XP yaratilmaydi;
+previous_book_complete=false,course_ready=false. Flagoffunfinished403;completedresultsaqlanadi.
+Bu normalapp/auth,production API yoki umumiy katalogni o‘zgartirmaydi.
+
+Mustaqil pedagog,pilot,Android/TalkBack va2026–27rasmiydasturmosligi not_verified.
+Standalone positiveCLI bucloudGitancestor guardi sabab bajarilmagan,chetlab o‘tilmagan.
+PDF/OCR/aslrasm/credential Gitga kiritilmagan;frontend/boshqa fanlar/main/production o‘zgarmagan.
+
+**Keyingi: IVqism,manba133 «Ifodaning qiymatini hisoblash»,path22,PDF47–48/bosma46–47.**
+[Qamrov](PART4_PROGRESS.md),[lokalQA](PART4_LOCAL_QA.md),[checkpoint](checkpoints/grade1_part4_batch4.json).
+
+
 ## 2026-11-05 — IV qism122–126; jami125 lokal dars
 
 Yangi5dars: 30karta,40topshiriq,10sonli tenglik.

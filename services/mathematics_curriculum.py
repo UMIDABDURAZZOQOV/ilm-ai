@@ -13,6 +13,12 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "geometry_shape_axes",
+    "geometry_solid_views",
+    "algebra_compare_sums",
+    "algebra_expression_kind",
+    "algebra_parts_variables",
+    "algebra_value_comparison",
     "geometry_quadrilateral",
     "geometry_regions",
     "geometry_congruent_overlay",
@@ -241,6 +247,7 @@ BATCHES = [
     ("grade1_part4_batch1.json", "grade1_part4_batch1_review.json"),
     ("grade1_part4_batch2.json", "grade1_part4_batch2_review.json"),
     ("grade1_part4_batch3.json", "grade1_part4_batch3_review.json"),
+    ("grade1_part4_batch4.json", "grade1_part4_batch4_review.json"),
 ]
 
 

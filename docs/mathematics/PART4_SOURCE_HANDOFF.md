@@ -1,5 +1,23 @@
 # IV qism — keyingi manba review uchun qayd
 
+## Joriy2026-11-05 — 131darslik checkpoint
+
+112–132/path1–21tayyor;oldingi127–132pendingyozuvtarix. Keyingi133/path22,
+PDF47–48/bosma46–47. IV12mavzuqolgan. 133–138PDF47–58asl tasvirlario‘qildi;
+kontent/validator/test haliyo‘q. RomanjadvalI,V,X,L,Cva1–100manbada tasdiqlangan.
+133:ifodaqiymati,harfqiymatiyetsa/yetmasa,shartlijami,o‘zgarmasuchlar.
+Nechakesma savolidaqo‘shnibo‘lakmi/yokiharbirjuftuchmi aniqaytilsin.
+Kontrastdush/yalangoyoqyurishni medicaltavsiyagaaylantirmang;originalmatematikssenariy.
+134:qo‘shishningo‘rinalmashtirish/guruhlashxossalari,katakliqismlarni joylash.
+Sleep/vitamin/healthbandlarinibarcha bolalaruchunmustaqiltasdiqlangannormademang.
+135:hammaIKKIxonalisonyani10–99;100kirmaydi. Qat’iy<,>uchlarikiritilmaydi.
+Dori-rasmlarnirealpreparatidentifikatsiyasi/tibbiytanlovemas,originalranglibloknaqshibilanalmashtiring.
+136:jadvaldagicanonicalIV/IX/XL/XC,1–100;ortiqchaD/Mqo‘shmang. QisqaFRQaniqjadvalyozuvinishartsin.
+137–138:butun/qismnomlari,teskariamallarvaasltenglamagaqaytaqo‘yibtekshirish;
+138darsdao‘rgatilgan6qadamtartibinigeneralboshqato‘g‘riusullargaqarshiyagonahaqiqatdemang.
+Idishsig‘iminijorysuvdeyolmaysiz;aralashmavolumeniuniversalqo‘shiluvchanfizikqoidaqilmang.
+
+
 ## Joriy2026-11-05 — 125darslik checkpoint
 
 112–126/path1–15tayyor. Oldingi122–126pendingyozuvi tarix;ularbody/review/kontent/testbilan
