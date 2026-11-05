@@ -1,5 +1,32 @@
 # Matematika — davom checkpointi
 
+## Saqlangan Git checkpoint — 2026-11-05
+
+Backend kontent va testlar: `a85e0ca8f6ca131b63021bcac244e51c3a350f83`. Flutter test/fixture checkpoint: `7c5a501ca70a071674c933e7e4e0d281022ea55d`.
+Ikkalasi `feat/mathematics-curriculum` branchida. Ushbu yozuv faqat hujjat commitida saqlanadi.
+
+Haqiqiy qamrov: **153 lokal dars, 902 karta, 1 184 savol, 153 misol/459 qadam**.
+1-sinf: I41, II32, III37 tana, IV33 dars. 2-sinf I qism: §1–10 tayyor.
+2-sinf I qismning xaritalangan44 birligidan34 tasi qolgan;33 mavjud tana va1 manbasi yo‘q §25.
+Butun1–11 kursning jami/qolgan mavzular soni noma’lum va kurs tugallanmagan.
+
+Keyingi **2-sinf I qism §11 «Yaxlit songacha qo‘shish (31 + 9)», PDF25–26/bosma24–25**.
+Asl ikki sahifa ko‘rildi; dars hali yozilmagan. [Davom xaritasi](GRADE2_PART1_PROGRESS.md).
+
+So‘nggi partiya: backend24pass13.86s, PostgreSQL153dars oqimi1pass62.17s,
+Flutter14pass16s, analyze0(1.7s), protected11pass30.52s. Oxirgi to‘liq Math195pass/1skip
+va Flutter658pass148dars checkpointida bajarilgan; so‘ng runtime/grading o‘zgarmadi,
+153dars uchun yangi kontent/coreAPI/PG va ikkala2-sinf Flutter partiyasi tekshirildi.
+DebugJSweb38.4s oldingi ayni ilova kodi uchun; AndroidSDK/realtelefon/pedagog/pilot tasdiqsiz.
+
+OwnPG konteyneri yakuniy PG tekshiruvidan keyin to‘xtatildi. Keyingi lokal sinovda
+faqat `ilm-mathematics-staging-18395d26`ni ishga tushiring va private `pg.url`dagi
+loopback portni dockerinspect natijasi bilan yangilang; URL/parolni logga chiqarmang.
+Besh himoyalangan backend/Flutter/frontend/historyworktree HEADlari o‘zgarmagan va toza.
+Mainmerge, productionDB/migration/import/deploy yoki nashr bajarilmadi.
+PDF/rasm/OCR/credentialGitga kiritilmadi. [Dalil](checkpoints/grade2_part1_batch2.json).
+
+
 ## 2026-11-05 — 2-sinf I qism §6–10: jami 153 lokal dars
 
 Yangi partiya: **5 dars, 30 karta, 40 savol, 5 misol/15 qadam, 10 sonli tenglik**.

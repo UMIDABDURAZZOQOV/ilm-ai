@@ -217,5 +217,7 @@
   "independent_teacher_review": false,
   "student_pilot": false,
   "real_android_test": false,
-  "no_production_operations": true
+  "no_production_operations": true,
+  "backend_code_commit": "a85e0ca8f6ca131b63021bcac244e51c3a350f83",
+  "owned_postgres": "stopped_after_successful_local_tests"
 }
