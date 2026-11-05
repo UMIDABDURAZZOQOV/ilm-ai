@@ -1,5 +1,9 @@
 # Matematika — davom checkpointi
 
+## Git checkpoint196 — 2026-11-06
+
+Backend kod/kontent: `f739a34f4a77a4a5cdf478ead4bac4a26a93d009`; Flutter: `a01b00aa4ea40d9518cf2c4de28a4d87b0191a8c`. Ikkalasi `feat/mathematics-curriculum` branchiga push qilindi. 196lokal dars; keyingi §52/path11/PDF25–26. To‘liq Math yugurishidagi eski grade-scope test xatosi tuzatilib,tegishli14test qayta o‘tdi; tafsilot quyida. Kurs/Android/pedagogik tasdiq hali tugallanmagan.
+
 ## 2026-11-06 — 2-sinf II qism §47–51, jami 196 lokal dars
 
 **196 dars, 1 180 karta, 1 546 savol, 196 misol / 588 qadam, 348 sonli tekshiruv.**
