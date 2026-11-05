@@ -1,5 +1,18 @@
 # Ilm AI — Project Context (for Claude)
 
+## Tasdiqlangan Git checkpoint178 — 2026-11-05
+
+Backend kod/kontent: `96923e9692f00653f32c4c9dc3ef75dca555410f`. Flutter: `e1062fbb33e8377b0301bc4ebd7444ec4c481b16`.
+Ikkala repo `feat/mathematics-curriculum` branchiga push qilindi. Bu aniqSHA yozuvi alohida docscommitda saqlanadi.
+**178lokal dars,1 052karta,1 384savol;2-sinf Iqism35/44.**
+Ushbu davomda§26–35qo‘shildi.9birlik qoldi:8mavjud tana va1yo‘q§25/bosma54–55.
+Keyingi§36,path37,PDF75–76/bosma76–77;asl tasvirlari ko‘rildi,lekin darsi yozilmagan.
+Math232pass/1skip605.66s;Flutter717pass5:57;PG178dars1pass86.58s;analyze0;debugJS43.4s;protected11pass35.82s.
+§25uchun dars/attempt/progress/XPyo‘q;default-off exactlocalQAflag va25haqiqiy predecessor talab qilinadi.
+O‘zPGcontaineri to‘xtatilgan;faqat o‘zrandomschema ishlatildi/o‘chirildi.5himoyalanganworktreeclean/HEADlarunchanged.
+Butun1–11kurs tugallanmagan;teacher/pilot/2026–27/Android/TalkBack/standaloneCLIpositive tasdiqsiz.
+
+
 ## 2026-11-05 — 2-sinf I qism §31–35, jami178 lokal dars
 
 **178dars,1 052karta,1 384savol,178misol/534qadam,312sonli tenglik,146explorer turi.**
