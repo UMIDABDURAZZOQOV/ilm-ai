@@ -261,7 +261,7 @@
     "interactive_lesson_created": false
   },
   "runtime_blocker": "Missing source25/path26 remains absent; no dummy progress/XP. Default-off local-QA policy implemented/tested after all25actual predecessors. Production stays disabled.",
-  "backend_code_commit": null,
+  "backend_code_commit": "6679b7a4883389958d49d8bf763c4a7d271b9506",
   "owned_postgres": "stopped_after_successful_tests",
   "source_gap_policy": {
     "flag": "MATHEMATICS_QA_GRADE2_PART1_SOURCE_GAP",
@@ -283,6 +283,5 @@
     "NoAndroidSDK/realAndroid/TalkBack",
     "StandaloneCLI positive sandbox blocked by syntheticGitancestor guard;notbypassed",
     "9Algebra/11I transfer blocked32MiB;6II/Geometry7–10missing"
-  ],
-  "backend_code_commit_note": "Exact code SHA recorded in following documentation seal commit."
+  ]
 }

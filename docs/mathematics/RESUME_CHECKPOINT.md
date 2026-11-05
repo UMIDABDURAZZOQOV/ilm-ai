@@ -1,5 +1,15 @@
 # Matematika — davom checkpointi
 
+## Tasdiqlangan Git checkpoint173 — 2026-11-05
+
+Backend kod/kontent: `6679b7a4883389958d49d8bf763c4a7d271b9506`. Flutter: `616ef7ef002ef2f7e6a377051fab372c4e45ce83`.
+Ikkala repo `feat/mathematics-curriculum` branchiga push qilindi. Bu yozuv alohida docscommitda saqlanadi.
+173dars;2-sinf Iqism30/44. Keyingi§31,path32,PDF65–66/bosma66–67.
+§25/path26/bosma54–55yo‘q;default-off lokalQAflag25haqiqiy predecessor talab qiladi,dummyprogress/XPyo‘q.
+Math225pass/1skip;yakuniyCLI/API12pass;Flutter706pass;PG173dars1pass;analyze0;debugJS44.6s.
+Android/o‘qituvchi/pilot/2026–27alignment tasdiqsiz;butun1–11kurs tugallanmagan.
+
+
 ## 2026-11-05 — 2-sinf I qism §26–30, jami173 lokal dars
 
 **173dars,1 022karta,1 344savol,173misol/519qadam,302sonli tenglik,145explorer turi.**
