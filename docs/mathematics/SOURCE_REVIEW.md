@@ -1,5 +1,49 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-05 — IV qism117–121; jami120 lokal dars
+
+Yangi5dars: 30karta,40topshiriq,8sonli tenglik.
+Jami **120dars,704karta,920topshiriq,120misol/360qadam,200sonli tenglik**.
+I41/41,II32/33,III37/37matnli mavzu saqlangan;IV10/33tayyor lokal dars,23tana mavzu qolgan.
+III5nazorat/o‘yin qatori vaII74tana manbasi yo‘qligi saqlanadi. Butun1–11kurs tugamagan;
+umumiy barcha sinflar mavzu/qolganlar soni hali noma’lum.
+
+| Manba № | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|117|6|Ko‘pburchakning perimetri|15–16|14–15|
+|118|7|Ko‘pburchakning perimetri|17–18|16–17|
+|119|8|To‘g‘ri to‘rtburchak va kvadrat|19–20|18–19|
+|120|9|To‘g‘ri to‘rtburchak va kvadrat|21–22|20–21|
+|121|10|Burchak|23–24|22–23|
+
+117–121originaldarslar perimetrni bir marta aylanib sanash,noma’lum tomon,kvadrat/to‘g‘ri to‘rtburchak oilasi,ichki/tashqi chegara,faqatparallel tekisqog‘oz joylashishi,nur va burchak taqqoslashni qamraydi.5originalmodel qo‘shildi.121ga sun’iy sonli formula/gradus talabi qo‘shilmadi;obyektiv qisqaFRQapostrof variantlari serverda baholanadi. O‘tmas burchak yuqori chegarasi to‘g‘ri chiziqdek ochilishdan kichik deb aniq yozildi. Manbadagi o‘tkirni ikkita rangga takrorlash taxminiy javob kalitiga aylantirilmadi. Normalapp/QAflagarxitekturasi/old115kontent o‘zgarmadi.
+
+Haqiqiy testlar:
+
+- Math: 160passed1skipped336.35s.
+- Backend targeted: 13passed53.35s acrossIVfirst2batches;6newliteral/APItests.
+- PostgreSQL: 1passed45.54s after initial47.87s assertion failure: old5prefix all-complete check moved after10lessons;all120,seed137→1337XP,replay0,parallel reward/immutable import;final wording+PG+new6tests7passed110.09s.
+- Flutter targeted: 11passed11s;5fullflows320px/200percent/ReduceMotion,5model invariants and DTO.
+- Flutter full: 598passed4:10.
+- Analyze: 0issues2.3s.
+- Web: debugJS57.1s,invalidcompile-onlytoken/localURL;notAndroid/browser/API.
+- Protected: Biology/Physics/mobileOAuth11passed42.55s;protected worktrees unchanged.
+- Source audit: 23PDF/2958pages;120reviewed topics/240bodypages;IV33mapped/10authored/23unready.
+- Quality: Ruff and whitespace passed;earlier115lesson/reviewJSONbytes unchanged;public fixture privacy scan passed.
+
+Default strict prerequisite saqlanadi. Faqat ikkala serverlocalQAflag va oldingi110mavjud dars
+bajarilgach IVsinash ochiladi. II74yokiIIIcontrol/gamega progress/XP yaratilmaydi;
+previous_book_complete=false,course_ready=false. Flagoffunfinished403;completedresultsaqlanadi.
+Bu normalapp/auth,production API yoki umumiy katalogni o‘zgartirmaydi.
+
+Mustaqil pedagog,pilot,Android/TalkBack va2026–27rasmiydasturmosligi not_verified.
+Standalone positiveCLI bucloudGitancestor guardi sabab bajarilmagan,chetlab o‘tilmagan.
+PDF/OCR/aslrasm/credential Gitga kiritilmagan;frontend/boshqa fanlar/main/production o‘zgarmagan.
+
+**Keyingi: IVqism,manba122 «To‘rtburchaklar»,path11,PDF25–26/bosma24–25.**
+[Qamrov](PART4_PROGRESS.md),[lokalQA](PART4_LOCAL_QA.md),[checkpoint](checkpoints/grade1_part4_batch2.json).
+
+
 ## 2026-11-04 — IV qism112–116; jami115 lokal dars
 
 Yangi5dars: 30karta,40topshiriq,10sonli tenglik.

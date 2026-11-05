@@ -1,5 +1,8 @@
 # IV qism — faqat lokal QA
 
+2026-11-05:joriy IV10/33, jami120lokal dars. [Batch2dalili](checkpoints/grade1_part4_batch2.json).
+Keyingi122/PDF25–26/bosma24–25. Quyidagi112–116raqamlari birinchi partiya tarixi.
+
 2026-11-04. Hozir 112–116 / path1–5 interaktiv; keyingi117, PDF15–16/bosma14–15.
 Qolgan28 mavzu header/footer xaritasi bilan cheklangan, tayyor dars emas.
 IV qism 2023-yilgi nashr; III qism 2024 qayta ishlangan nashr.

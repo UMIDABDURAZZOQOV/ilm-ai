@@ -1,5 +1,20 @@
 # IV qism — keyingi manba review uchun qayd
 
+## Joriy checkpoint2026-11-05
+
+112–121/path1–10 tayyor lokal dars. Pastdagi117–121reviewqaydlari tarix;
+ular shu partiyada asl sahifa/review/kontent/test bilan qamrab olindi.
+Keyingi122«To‘rtburchaklar»,PDF25–26/bosma24–25;keyingi5lik122–126/PDF25–34.
+Bu10sahifa tasvirlari ko‘rilgan,lekin yangi dars/validator/test hali tayyor emas.
+122yopiq4tomon/4uch va burchaklar;123ichki/chegara/tashqi hamda umumiy soha;
+124ustma-ust moslik,tengPning tengshakl emasligi;125tangram7qism(5uchburchak,
+1kvadrat,1parallelogramm),12katakli turli to‘rtburchaklar;126oynadek aks.
+126dagi«ikkita birxilqism»ta’rifini faqatikki tengbo‘lak borligi bilan cheklamang:
+simmetriya uchun o‘qbo‘ylab buklaganda moslik kerak. Shriftga bog‘liq harf yoki
+biologikbuyumning taxminiy simmetriyasini universal aniq fakt sifatida baholamang.
+Mualliflikpartiyasi oldidan sahifalarni qayta tekshiring;map-only qatorni tayyor demang.
+
+
 2026-11-04. Joriy tayyor kontent112–116, keyingi117. Quyidagi qaydlar
 117–121asl sahifalari ko‘rilganida topildi; ular hali tayyor interaktiv
 dars yoki yakuniy pedagogik review deb sanalmaydi. Har darsdan oldin tasvirlarni qayta tekshiring.

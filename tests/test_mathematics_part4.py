@@ -118,16 +118,16 @@ def test_33_map_rows_are_not_33_ready_lessons_or_invented_edition_gaps():
     assert [t["source_number"] for t in m["topics"]] == list(range(112, 145))
     assert [t["path_sequence"] for t in m["topics"]] == list(range(1, 34))
     assert (
-        m["authored_lessons"] == 5
+        m["authored_lessons"] == 10
         and not m["full_map_verified"]
         and not m["all_body_content_reviewed"]
     )
     assert [
         t["source_number"] for t in m["topics"] if t["interactive_lesson_created"]
-    ] == list(ANSWERS)
+    ] == list(range(112, 122))
     assert all(
         t["verification"] == "header_footer_images_reviewed_body_pending"
-        for t in m["topics"][5:]
+        for t in m["topics"][10:]
     )
     assert (
         m["topics"][5]["title"] == m["topics"][6]["title"]
@@ -161,7 +161,7 @@ def test_scoped_iv_flag_never_completes_gaps_or_skips_prerequisites(
     )
     assert (
         cat["book"]["source_topic_count"] == 33
-        and cat["book"]["implemented_sections"] == 5
+        and cat["book"]["implemented_sections"] == 10
     )
     assert cat["source_gap_bridge"]["schedule_only_rows_not_completed"] == 5
     assert cat["source_gap_bridge"]["earlier_source_gap"]["missing_source_numbers"] == [

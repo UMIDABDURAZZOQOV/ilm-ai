@@ -13,6 +13,11 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "geometry_perimeter_trace",
+    "geometry_perimeter_missing",
+    "geometry_rectangle_perimeter",
+    "geometry_parallel_paper_fit",
+    "geometry_angle_comparison",
     "geometry_ruler_interval",
     "geometry_construct_segment",
     "geometry_segment_partition",
@@ -229,6 +234,7 @@ BATCHES = [
     ("grade1_part3_batch6.json", "grade1_part3_batch6_review.json"),
     ("grade1_part3_batch7.json", "grade1_part3_batch7_review.json"),
     ("grade1_part4_batch1.json", "grade1_part4_batch1_review.json"),
+    ("grade1_part4_batch2.json", "grade1_part4_batch2_review.json"),
 ]
 
 

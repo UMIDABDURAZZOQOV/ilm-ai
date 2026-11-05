@@ -1,8 +1,8 @@
 # IV qism — haqiqiy manba va interaktiv qamrov
 
-2026-11-04.33mavzu112–144,2023nashr;III2024nashridan raqamlash farqi taxminiy dars bilan to‘ldirilmaydi.
-5/33lokal dars,28tana mavzu hali interaktiv emas. Barcha66tana header/footerlari asl tasvirda tekshirilgan.
-To‘liq tana review faqat 5authored mavzuda. Butun1–11kurs tugallanmagan.
+2026-11-05.33mavzu112–144,2023nashr;III2024nashridan raqamlash farqi taxminiy dars bilan to‘ldirilmaydi.
+10/33lokal dars,23tana mavzu hali interaktiv emas. Barcha66tana header/footerlari asl tasvirda tekshirilgan.
+To‘liq tana review faqat 10authored mavzuda. Butun1–11kurs tugallanmagan.
 
 PDF2Novda2023title;PDF3copyrightda literal«Nashriyot nomi»placeholderi. Repyova/Zemlina bibliografik yozuvi va title/colophonRepyova alohida provenance bilan saqlangan.
 ISBN978-9943-9707-2-4checksumvalid. AslPDFsha:ad74352212d1b91604b14b9f24307a37d0181ccab5f1fc2b38ad61c12fe52fb3.
@@ -14,11 +14,11 @@ ISBN978-9943-9707-2-4checksumvalid. AslPDFsha:ad74352212d1b91604b14b9f24307a37d0
 |114|3|Kesma xossalari|9–10|8–9|lokal tayyor|
 |115|4|Siniq chiziqning uzunligi|11–12|10–11|lokal tayyor|
 |116|5|Ko‘pburchak|13–14|12–13|lokal tayyor|
-|117|6|Ko‘pburchakning perimetri|15–16|14–15|tana review va mualliflik kerak|
-|118|7|Ko‘pburchakning perimetri|17–18|16–17|tana review va mualliflik kerak|
-|119|8|To‘g‘ri to‘rtburchak va kvadrat|19–20|18–19|tana review va mualliflik kerak|
-|120|9|To‘g‘ri to‘rtburchak va kvadrat|21–22|20–21|tana review va mualliflik kerak|
-|121|10|Burchak|23–24|22–23|tana review va mualliflik kerak|
+|117|6|Ko‘pburchakning perimetri|15–16|14–15|lokal tayyor|
+|118|7|Ko‘pburchakning perimetri|17–18|16–17|lokal tayyor|
+|119|8|To‘g‘ri to‘rtburchak va kvadrat|19–20|18–19|lokal tayyor|
+|120|9|To‘g‘ri to‘rtburchak va kvadrat|21–22|20–21|lokal tayyor|
+|121|10|Burchak|23–24|22–23|lokal tayyor|
 |122|11|To‘rtburchaklar|25–26|24–25|tana review va mualliflik kerak|
 |123|12|Sohalar va chegaralar|27–28|26–27|tana review va mualliflik kerak|
 |124|13|Teng shakllar|29–30|28–29|tana review va mualliflik kerak|
