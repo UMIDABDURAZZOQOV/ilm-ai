@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-05",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "6cd27014f963e67b1e1c5b9d7879c9eb295389ca",
+  "flutter_code_commit": "3ed7cfce68a640a028d30de5fd7e46e25950aa5d",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 168,
+    "cards": 992,
+    "questions": 1304,
+    "examples": 168,
+    "worked_steps": 504,
+    "notation_entries": 292,
+    "distinct_explorer_modes": 141,
+    "response_kinds": {
+      "choice": 383,
+      "short_text": 34,
+      "exact_number": 859,
+      "ordering": 28
+    }
+  },
+  "grades": {
+    "1": {
+      "authored_lessons": 143,
+      "parts": [
+        41,
+        32,
+        37,
+        33
+      ],
+      "unready": "II74printed68–69;III5schedule-onlycontrol/game rows"
+    },
+    "2": {
+      "part1_mapped": 44,
+      "part1_body_units_available": 43,
+      "authored_lessons": 25,
+      "remaining_mapped_units": 19,
+      "remaining_available_body_units": 18,
+      "missing_body_source_numbers": [
+        25
+      ]
+    },
+    "3": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "4": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "5": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "6": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "7": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "8": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "9": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "10": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    },
+    "11": {
+      "authored_lessons": 0,
+      "mapped_topics": null
+    }
+  },
+  "tests": {
+    "Math full": "219passed1skipped675.32s;final168lesson course",
+    "Backend targeted": "42passed37.02s;all grade2batches,source/setup/coreAPI;missing path26 returns404,no fake source25progress",
+    "PostgreSQL": "1passed81.94s;all168,seed137XP→1817,replay0,parallelfirstreward/UID/streak/immutableimport;random owned schema removed",
+    "Flutter targeted": "27passed31s for regrouping/currentcontent; after source-caption/provenance refinements54passed59s across all5grade2batches andcorepreview;focused2numbering tests passed3s",
+    "Flutter full": "692passed5:55 after final caption and typedfinder fixes",
+    "Analyze": "0issues2.0s",
+    "Web": "debugJS56.3s;build timestamp follows final application edits;invalidcompile-onlytoken/localURL;notAndroid/browser/APItest",
+    "Protected": "Biology/Physics/mobileOAuth11passed48.02s;protected worktrees clean with unchangedHEADs",
+    "Source": "23PDF2958pages;168authored reviewed topics336bodypages;2I25/44ready (24numbered plus1real summary),19remainingincluding1missing source;next6source bodies viewed,notauthored",
+    "Quality": "Ruff/format/whitespace passed;68previous JSONcontent files unchanged,other22metadata/inventories unchanged,publicfixtureprivacy passed"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 168,
+    "reviewed_body_pages": 336,
+    "interactive_lessons": 168,
+    "theory_cards": 992,
+    "questions": 1304,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 37,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "grade1_part4_mapped_body_topics": 33,
+    "grade1_part4_authored_lessons": 33,
+    "grade1_part4_all_source_images_reviewed": 74,
+    "grade1_part4_body_review_not_finished": false,
+    "grade2_part1_curriculum_units": 44,
+    "grade2_part1_available_body_units": 43,
+    "grade2_part1_authored_lessons": 25,
+    "grade2_part1_missing_printed_pages": [
+      54,
+      55
+    ],
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "source_notes": [
+    "FullPDF47–54/printed46–53reviewed; source21–24 map to paths22–25 after the actual unnumbered summary.",
+    "Source25printed54–55absent;no lesson/path26/progress/reward created. Missing start404 is explicitly tested.",
+    "Nonround exchange43=30+13 retains old3units; subtraction,reverse steps,model reset and100boundary regressions passed.",
+    "Device times and repeated sales are explicit original conditions,not universal appliance or product-statistics claims;categories use exact mutually exclusive predicates when needed.",
+    "Nextavailable source26path27PDF55–56/printed56–57 andsources26–31fullPDF55–66viewed,not authored/tested. Detailed source/runtime handoff saved; strict sequence currently blocks crossing absent path26. No newsource-gap runtime permission implemented.",
+    "Independent teacher,pilot,official2026–27curriculum alignment,realAndroid/TalkBack not verified;only local/testpreview and safe ephemeraldata used."
+  ],
+  "next": {
+    "topic_id": "math-g2-p1-t25",
+    "source_number": 25,
+    "curriculum_sequence": 26,
+    "title": "Sonlarni qo‘shish (28 + 14)",
+    "kind": "numbered_topic",
+    "printed_pages": [
+      54,
+      55
+    ],
+    "body_pdf_locator": null,
+    "boundary_pins": [],
+    "verification": "missing_body_source",
+    "interactive_lesson_created": false,
+    "path_sequence": 26
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "independent_teacher_review": false,
+  "student_pilot": false,
+  "real_android_test": false,
+  "no_production_operations": true,
+  "next_available_source": {
+    "grade": 2,
+    "part": 1,
+    "source_number": 26,
+    "path_sequence": 27,
+    "pdf_pages": [
+      55,
+      56
+    ],
+    "printed_pages": [
+      56,
+      57
+    ],
+    "source_images_viewed": true,
+    "interactive_lesson_created": false
+  },
+  "runtime_blocker": "Missing source25/path26 remains absent; strictsequence blocks later navigation. Next safe source-authoring and narrowly scoped local-QA prerequisite work specified in GRADE2_PART1_SOURCE_HANDOFF.md; no fake progress."
+}

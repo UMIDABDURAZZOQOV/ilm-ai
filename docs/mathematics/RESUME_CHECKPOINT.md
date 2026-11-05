@@ -1,5 +1,44 @@
 # Matematika — davom checkpointi
 
+## 2026-11-05 — 2-sinf I qism: path 22–25, jami 168 lokal dars
+
+Yangi partiya: **4 dars, 24 karta, 32 savol, 4 misol/12 qadam**.
+Jami **168 dars, 992 karta, 1304 savol, 504 ishlangan qadam, 292 sonli tenglik**.
+1-sinfning 143 darsi saqlandi. 2-sinf I qismda 25/44 birlik tayyor; 19 birlik qolgan,
+shundan 18 mavjud tana va §25ning bosma54–55 manbasi yo‘q bitta mavzu.
+
+| Manba | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|21|22|Sonlarni qo‘shish (6 + 25)|47–48|46–47|
+|22|23|Sonlarni ayirish (33 − 7)|49–50|48–49|
+|23|24|Sonlarni ayirish (43 − 7)|51–52|50–51|
+|24|25|Sonlarni ayirish (43 − 7)|53–54|52–53|
+
+§21–24ning4darsi bilan2-sinfning1–24raqamlangan mavzusi va bitta haqiqiy raqamsiz yakuniy darsi qamrab olindi. Yaxlit bo‘lmagan sondan ayirish modeli avvalgi birliklarni saqlab,bir o‘nlikni ochadi. Raqamsiz yakuniy darsda sun’iy19-mavzu subtitle olib tashlandi. Katalogprovenans testlari endi source25yo‘qligini va path25ningsource24ekanini aniq ajratadi;lazywidgetko‘rinishiga qarab manba yo‘q deb xulosa qilmaydi. Initial2newcaption assertionsfailed because catalogkeys wereValueKey<dynamic> while finder usedValueKey<String>;typedfinders andAPI source_number assertions corrected, final54targeted and692fullpassed. Barcha oldingi164darsning kontenti va progressshartnomalari saqlandi.
+
+Haqiqiy tekshiruvlar:
+
+- Math full: 219passed1skipped675.32s;final168lesson course.
+- Backend targeted: 42passed37.02s;all grade2batches,source/setup/coreAPI;missing path26 returns404,no fake source25progress.
+- PostgreSQL: 1passed81.94s;all168,seed137XP→1817,replay0,parallelfirstreward/UID/streak/immutableimport;random owned schema removed.
+- Flutter targeted: 27passed31s for regrouping/currentcontent; after source-caption/provenance refinements54passed59s across all5grade2batches andcorepreview;focused2numbering tests passed3s.
+- Flutter full: 692passed5:55 after final caption and typedfinder fixes.
+- Analyze: 0issues2.0s.
+- Web: debugJS56.3s;build timestamp follows final application edits;invalidcompile-onlytoken/localURL;notAndroid/browser/APItest.
+- Protected: Biology/Physics/mobileOAuth11passed48.02s;protected worktrees clean with unchangedHEADs.
+- Source: 23PDF2958pages;168authored reviewed topics336bodypages;2I25/44ready (24numbered plus1real summary),19remainingincluding1missing source;next6source bodies viewed,notauthored.
+- Quality: Ruff/format/whitespace passed;68previous JSONcontent files unchanged,other22metadata/inventories unchanged,publicfixtureprivacy passed.
+
+**Keyingi: path 26, manba 25 «Sonlarni qo‘shish (28 + 14)», PDF yo‘q, bosma 54–55.**
+
+Butun 1–11 kurs tugallanmagan; barcha sinflarning jami/qolgan mavzu soni noma’lum.
+Mustaqil pedagog, o‘quvchi piloti, 2026–27 rasmiy dastur va real Android/TalkBack tasdiqlanmagan.
+Faqat alohida lokal/test preview; normalapp/OAuth/umumiy katalog/frontend va production o‘zgarmadi.
+Boshqa fanlar va oldingi darslarning kontenti saqlandi. PDF/rasm/OCR/credential Gitga kiritilmadi.
+Main merge, production DB/import/migratsiya/deploy/nashr bajarilmadi.
+[Manba qamrovi](GRADE2_PART1_PROGRESS.md), [checkpoint](checkpoints/grade2_part1_batch5.json).
+
+
 ## 2026-11-05 — 2-sinf I qism: path 16–21, jami 164 lokal dars
 
 Yangi partiya: **6 dars, 36 karta, 48 savol, 6 misol/18 qadam**.
