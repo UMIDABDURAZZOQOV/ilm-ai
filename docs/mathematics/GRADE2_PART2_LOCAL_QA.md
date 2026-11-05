@@ -1,5 +1,11 @@
 # 2-sinf II qism — manbali darslar va lokal sinov
 
+## 2026-11-06 — checkpoint 206
+
+206 lokal dars/1241 karta/1626 savol. IIqism 20/34;14 birlik qolgan. Sessiyada 15 yangi dars qo‘shildi.
+Keyingi§61/path 21/PDF 45–46/bosma 44–45:millimetr. 1-sinf 143,2-sinf 63;3–11 hali 0 mualliflik darsi.
+[Haqiqiy testlar](QA_REPORT.md). Butun 1–11 kurs/Android/pedagogik tasdiq tugallanmagan. Production o‘zgarmadi.
+
 ## 2026-11-06 — amaldagi qo‘shimcha
 
 II qism endi **10/34** lokal dars: §42–51 / path1–10. Jami196dars,1180karta,1546savol. Yangi §47–51 taqqoslash,ordering,uch xonali qo‘shishni o‘rgatadi. Keyingi §52/PDF25–26. Ikkala avvalgi default-off flag va43haqiqiy Iqism darsi talabi saqlandi. To‘liq test tafsiloti [QA_REPORT.md](QA_REPORT.md)da. Quyidagi dastlabki5dars tafsiloti tarix sifatida saqlangan.

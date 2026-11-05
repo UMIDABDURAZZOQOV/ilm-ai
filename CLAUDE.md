@@ -1,5 +1,65 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-06 — 2-sinf II qism path 16–20: jami 206 lokal dars
+
+**206 dars, 1241 tushuntirish kartasi, 1626 savol, 206 misol / 618 qadam, 368 sonli tekshiruv.**
+Bu partiya: 5 dars,31 karta,40 savol,5 misol/15 qadam. Ushbu sessiyadagi uch partiya jami 15 dars/91 karta/120 savol.
+II qism **20/34**, qolgan 14 birlik hali tayyor emas. Iqism 43/44;yo‘q§25/path 26/bosma 54–55 uchun dars/progress/XPyo‘q.
+1-sinf 143,2-sinf 63 lokal dars;3–11-sinflarda mualliflik darslari hali 0. Butun 1–11 kurs tugallanmagan.
+
+|Manba|Path|PDF|Bosma|O‘quv faoliyati|
+|---|---|---|---|---|
+|§57|16|35–36|34–35|Bog‘liq amallar,tarozi,ikki oy/do‘kon jadvali,zaxira|
+|Raqamsiz yakuniy dars|17|37–38|36–37|Tadbir guruhlari,o‘rinlar,to‘g‘ri to‘rtburchak,tartiblash|
+|§58|18|39–40|38–39|1 m=10 dm=100 cm;mos birliklar va perimetr|
+|§59|19|41–42|40–41|Aralash uzunlik,nolli dm,qattiq chegarali shart,diagramma|
+|§60|20|43–44|42–43|m/dm/cmda qo‘shish va donor xonali ayirish|
+
+10 asl sahifa to‘liq ko‘rildi. Raqamsiz yakuniy darsga soxta§raqami berilmadi.
+Original 214+186+225+175=800,shartli 500 o‘rindan 400 mehmon uchun 100 qoldiq,
+276 cm+348 cm=624 cmva 632 cm−278 cm=354 cmmustaqil tekshirildi.
+Manbadagi tarixiy binolar,odamlarning rekord bo‘ylari,attraksion/lift shartlari,dinozavr o‘lchovlari,
+kasblar yoki haqiqiy savdo ma’lumoti tekshirilgan tashqi fakt deb o‘rgatilmadi. Original shartlar aniq belgilangan.
+Fikr bildirish,jismoniy chizish,bo‘y yoki xona o‘lchash natijasi avtomatik o‘zlashtirilgan deb belgilanmaydi.
+
+Flutter yangi `metric_length_explorer.dart`: metr birliklari,aralash yozuv,unit-column amallar va original sun’iy diagramma.
+1 cmli 100 teng qismli chiziqda har 10 cm 1 dm;butun metrlar bilan faqat qoldiq ajratiladi.
+Ekran haqiqiy kalibrlangan chizg‘ich emas. 208 cmva 280 cmnolli xonalari saqlanadi.
+Diagramma 0–200 cmoralig‘ida bir xil masshtabda;A 150,B 135,C 168,D 122 faqat o‘quv ma’lumoti.
+167 asosiy model,qo‘shimcha karta variantlari bilan 170 tur. Oldingi Ilmo,brend vaUI saqlandi.
+Normalmain/katalog/OAuth o‘zgarmadi. Oldingi ikkala default-off QA flag,43 haqiqiy Iqism prerequisite vaUID/idempotency saqlandi.
+
+Haqiqiy tekshiruvlar:
+
+- Joriy backend: **20 passed 134.83 s** — yangi partiya,oldingiayirish partiyasi,serverliteral/wrong/equivalent/ordering,resume/replay/XP,CLI/manba.
+- Joriy protected va grade-scope regression: **25 passed** — Biology,Physics,mobileOAuth va oldinambiguous bo‘lgan ikkala test fayli.
+- PostgreSQL: **1 passed 158.64 s**;barcha 206 dars,seed 137 XP→2197,replay 0,parallel reward,UID,streak,takror import. Faqat o‘z random schema ishlatildi va olib tashlandi;konteyner to‘xtatildi.
+- Flutter: **55 passed 38 s**,barcha 20 IIqism darsi va modellari;5 yangi metr testi alohida 3 sda o‘tdi. 320 px/200%matn/Reduce Motion.
+- Analyze: **0 issue 2.5 s**. DebugJSweb: **44.1 s**;bu browser/API yoki Android sinovi emas.
+- Sourceaudit: **23 PDF/2958 sahifa,206 ko‘rilgan mavzu/417 asosiy sahifa**;hash,pin,PDF/bosma mapping va haqiqiy 34 birlik saqlandi.
+- Ruff/format/whitespace/publicfixtureprivacy o‘tdi. Oldingi 85 kontent/manba fayli,qolgan 22 kitob metadata/inventory va 5 himoyalangan worktree o‘zgarmadi.
+
+Joriy 206 uchun butunbackend/Flutter suite qayta bajarilmadi. Oldingi 196 Flutterfull 762 passed 7:27.
+Oldingi fullbackendda 1 eski test grade filtri yo‘qligi uchun boshqa sinf darsini tanlagan;
+filtr tuzatildi va tegishli 14 test joriy 25 test ichida qayta o‘tdi. Avvalgi muvaffaqiyatsizlik tarixda saqlandi.
+201 checkpointdagi 109 backendtest/43 Fluttertest ham avval o‘tgan;ular joriy yangi to‘liq yugurish deb ko‘rsatilmagan.
+
+O‘zgargan joriy modullar: `grade2_part2_batch4.json`,review,map/manifest/inventory;
+`mathematics_curriculum.py`dagi alohida batch/model ro‘yxati;backendliteral/API/PGtestlari;
+Flutter `metric_length_explorer.dart`,model/repository ro‘yxatlari,haqiqiy publicSQLiteDTOfixture va testlar.
+Baholash parseri,boshqa fanlar,veb-sayt yoki productionga tegilmadi. PDF/rasm/OCR yoki credential Gitga kiritilmadi.
+
+**Aniq davom nuqtasi: §61,path 21,PDF 45–46/bosma 44–45.** Asl ikkala sahifa ko‘rildi,dars hali yozilmagan.
+Keyingi yangi birlik **millimetr**:1 cm=10 mm,1 dm=100 mm.
+Noaniq chizg‘ich endpointlarini past-resolutionpikseldan aniqmmdeb taxmin qilmang;kerak bo‘lsa katta render/original aniq yorliqli model ishlating.
+Qizil kitob sonlari va hasharot haqiqiy o‘lchamlari universal/current biological fact sifatida qabul qilinmasin.
+Biologiya kontenti o‘zgartirilmaydi;digital uchburchak physical chizg‘ich ko‘nikmasini tasdiqlamaydi.
+
+Globaljami/qolgan mavzular soni hali noma’lum. 9 Algebra va 11 Iqism transfer 32 MiBbloklangan;
+6 IIva 7–10 Geometriyamanbalari yetishmaydi. O‘qituvchi/o‘quvchi piloti,2026–27 moslik,
+realAndroid/TalkBack,framebench va standaloneCLIpositive tasdiqsiz. Course_ready=false.
+mainmerge,deploy,nashr yoki productionDBamali bajarilmadi.
+
 ## Git checkpoint201 — 2026-11-06
 
 Backend: `c29491112b75aedc7b96386cc32bf946423a1a6e`; Flutter: `4da4afe814cb3e31fd0b753062d00890d3c34992`. Ikkalasi `feat/mathematics-curriculum` branchiga push qilindi. 201lokal dars;keyingi§57/path16/PDF35–36. Joriy109backend/43Flutter/1PGtest o‘tdi. Butun1–11kurs/Android/pedagogik tasdiq tayyor emas.

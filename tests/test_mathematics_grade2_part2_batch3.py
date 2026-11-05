@@ -156,7 +156,7 @@ def test_real_chain_ordering_resume_wrong_feedback_and_replay(preview, monkeypat
         )
         assert finish_new(client, n)[-1]["xp_awarded"] == 0
     cat = client.get(root.P + "/catalog", params={"grade": 2, "part": 2}).json()
-    assert all(l["state"] == "completed" for l in cat["lessons"])
+    assert all(l["state"] == "completed" for l in cat["lessons"][:15])
     assert not cat["previous_book_complete"] and cat["source_gap_bridge"][
         "missing_source_numbers"
     ] == [25]

@@ -1,5 +1,13 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-06 — II qism §47–60 va raqamsiz summary
+
+PDF15–44/bosma14–43ning30asl sahifasi qayta ko‘rildi;15original dars. Source47jadvalidagi21→2H1T0U ataylab noto‘g‘ri dastur chiqishi,to‘g‘risi0H2T1U;bu kitob erratumi deb belgilangan emas.
+Taqqoslashlar xonalardan;donor olingach kamayadi;21birlikdan2o‘nlik o‘tishi mumkin. Miqdorlar va aralash uzunliklar mustaqil hisoblandi.
+Ish normasi,piramida/binolar,odam rekordlari,ovqat/attraksion/lift sharti yoki hayvon o‘lchovi tekshirilgan real fakt sifatida ishlatilmadi. Shartli original misollar va synthetic diagramma aniq belgilangan.
+Source57table400+400=800;summaryguest400/500capacity;1m=10dm=100cm;208cm2m0dm8cm;276+348=624;632−278=354mustaqil tekshirildi.
+Mundarijadagi§73ningactualPDF69–70da raqamsizsummaryekani saqlandi. Source61PDF45–46ko‘rildi,mm darsi haliyo‘q;aniq rulerendpoint/physical o‘lcham pastresolutiondan taxmin qilinmaydi. RedBook sonlari currentbiologik fakt emas. Teacherreviewhaliyo‘q.
+
 ## 2026-11-05 — 2-sinf I qism: path 22–25, jami 168 lokal dars
 
 Yangi partiya: **4 dars, 24 karta, 32 savol, 4 misol/12 qadam**.

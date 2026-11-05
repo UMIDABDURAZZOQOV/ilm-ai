@@ -13,6 +13,10 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "metre_conversion",
+    "metre_mixed_lengths",
+    "metre_length_operations",
+    "metric_height_chart",
     "subtract_three_regroup",
     "subtract_three_double",
     "subtract_round_hundred",
@@ -304,6 +308,7 @@ BATCHES = [
     ("grade2_part2_batch1.json", "grade2_part2_batch1_review.json"),
     ("grade2_part2_batch2.json", "grade2_part2_batch2_review.json"),
     ("grade2_part2_batch3.json", "grade2_part2_batch3_review.json"),
+    ("grade2_part2_batch4.json", "grade2_part2_batch4_review.json"),
 ]
 
 
