@@ -1,5 +1,49 @@
 # Qamrov — boshlangan, to‘liq kurs emas
 
+## 2026-11-05 — IV qism133–138; jami137 lokal dars
+
+Yangi6dars: 36karta,48topshiriq,10sonli tenglik.
+Jami **137dars,806karta,1056topshiriq,137misol/411qadam,230sonli tenglik**.
+I41/41,II32/33,III37/37matnli mavzu saqlangan;IV27/33tayyor lokal dars,6tana mavzu qolgan.
+III5nazorat/o‘yin qatori vaII74tana manbasi yo‘qligi saqlanadi. Butun1–11kurs tugamagan;
+umumiy barcha sinflar mavzu/qolganlar soni hali noma’lum.
+
+| Manba № | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|133|22|Ifodaning qiymatini hisoblash|47–48|46–47|
+|134|23|Matematik amallarning xossalari|49–50|48–49|
+|135|24|Sonli va harfiy tengsizliklar|51–52|50–51|
+|136|25|Rim raqamlari|53–54|52–53|
+|137|26|Tenglamalar|55–56|54–55|
+|138|27|Tenglamalar|57–58|56–57|
+
+§133–138 uchun sonli qiymat, qo‘shish xossalari, qat’iy ikki xonali tengsizliklar, rim yozuvi va tenglamalarni o‘rgatuvchi oltita original model qo‘shildi. 10–99 doirasi va qat’iy chegaralar, nol yig‘indi, I/V/X/L/C va IV/IX/XL/XC yozuvlari mustaqil testdan o‘tdi. Rim modeli umumiy formula yoki ramziy ifoda baholagichi emas. §138 tartiblash aynan darsdagi olti qadamni so‘raydi; boshqa asosli yechim yo‘llari inkor etilmaydi. Tibbiy kontekstlar original matematik belgi/quti misollariga almashtirildi. Oldingi131 darsning immutable kontenti o‘zgarmadi.
+
+Haqiqiy testlar:
+
+- Math: 180 passed, 1 skipped in 432.61s; earlier run begun before final FRQ copy-edit had 2 stale-answer failures, final full rerun passed.
+- Backend targeted and PostgreSQL: 8 passed in 97.36s after final FRQ134=18; all137 lessons, seed137XP→1507, replay0, parallel first reward/UID/streak/immutable import; isolated owned schema removed.
+- Flutter targeted: 14 passed in15s; 6 full flows at320px/200percent/reduce motion, 6 model tests and canonical Roman1–100 independent arithmetic/bounds.
+- Flutter full: 638 passed in4:53.
+- Analyze: 0 issues in2.0s.
+- Web: debugJS build passed38.0s; invalid compile-only token and localURL; not Android/browser/API validation.
+- Protected: Biology/Physics/mobileOAuth11 passed39.80s; five protected worktrees clean with unchanged HEADs.
+- Source audit: 23PDF/2958pages;137 reviewed authored topics/274bodypages; IV33mapped/27authored/6unready.
+- Quality: Ruff/format/whitespace passed; frozen previous JSON unchanged, other22book metadata/inventories unchanged; atomic public API fixture privacy passed.
+
+Default strict prerequisite saqlanadi. Faqat ikkala serverlocalQAflag va oldingi110mavjud dars
+bajarilgach IVsinash ochiladi. II74yokiIIIcontrol/gamega progress/XP yaratilmaydi;
+previous_book_complete=false,course_ready=false. Flagoffunfinished403;completedresultsaqlanadi.
+Bu normalapp/auth,production API yoki umumiy katalogni o‘zgartirmaydi.
+
+Mustaqil pedagog,pilot,Android/TalkBack va2026–27rasmiydasturmosligi not_verified.
+Standalone positiveCLI bucloudGitancestor guardi sabab bajarilmagan,chetlab o‘tilmagan.
+PDF/OCR/aslrasm/credential Gitga kiritilmagan;frontend/boshqa fanlar/main/production o‘zgarmagan.
+
+**Keyingi: IVqism,manba139 «Tenglamalar»,path28,PDF59–60/bosma58–59.**
+[Qamrov](PART4_PROGRESS.md),[lokalQA](PART4_LOCAL_QA.md),[checkpoint](checkpoints/grade1_part4_batch5.json).
+
+
 ## 2026-11-05 — IV qism127–132; jami131 lokal dars
 
 Yangi6dars: 36karta,48topshiriq,10sonli tenglik.

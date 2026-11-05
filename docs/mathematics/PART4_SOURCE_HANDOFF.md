@@ -1,5 +1,33 @@
 # IV qism — keyingi manba review uchun qayd
 
+## 2026-11-05 — §133–138 yakuniy testlari, keyingi §139–144
+
+Yangi partiya sinovdan o‘tgach jami 137 lokal dars, IV qism27/33 bo‘ladi.
+§139–144 uchun PDF59–70/bosma58–69 ning barcha asl tasvirlari ko‘rildi.
+Bu manba review keyingi darslarning avtomatik tayyorligini anglatmaydi.
+
+- §139: o‘zgaruvchi va ildiz ta’rifi, barcha ma’lum qismlar, parametr qiymatlari,
+  jadval va asl tenglikda tekshiruv. Berilmagan parametr uchun sonli ildiz taxmin qilinmasin.
+- §140: butun/ikki qismning to‘rtta bog‘liq tengligi va teskari masalalar.
+  Guruhlar alohida va butunni to‘liq qoplashi shartda aniq bo‘lsin.
+- §141: manba sarlavhasi «Kesma va uning uzunligi», ammo PDF63–64 matni
+  asosan dastlabki/olingan/qolgan sanoqlar va teskari masalalardir. Literal sarlavhani
+  saqlang, nomiga qarab qo‘shimcha geometriya mazmunini o‘ylab topmang.
+  Rasmdagi kitob/toptok sanog‘i noaniq bo‘lsa original aniq sonli model ishlatilsin.
+- §142: uch qismli qoldiq, hisoblab o‘sish tartibi, takrorlanuvchi naqsh,
+  birlik/asbobni moslash va tangram. Rasmli idish sig‘imini universal2l demang.
+- §143: kamayish tartibi, qatnashmagan qism, fizik kesma taqqoslash,
+  qavsli ifodalarni til bilan moslash. Manba harf zanjirining yozuv konvensiyasi
+  aytilmagan: bitta taxminiy alfavit javob kaliti qilinmasin.
+- §144: juft natijalarni ajratib tartiblash, kelganlardan oldingi sanoq,
+  A–C–D–B tartibida3 qo‘shni bo‘lak va6 barcha juft-uchli kesma.
+  AD+CB da CD ikki marta sanaladi; savol qo‘shni yoki barcha kesmani aniq ajratsin.
+
+PDF1 muqova, PDF4/bosma3 muqaddima va PDF74 orqa muqova ham asl tasvirida ko‘rildi.
+Keyingi partiyada ularga hash pinlari qo‘shilgach, barcha74sahifa qamrovi tekshiriladi.
+Pedagogik ekspertiza va haqiqiy Android testi hali bajarilmagan.
+
+
 ## Joriy2026-11-05 — 131darslik checkpoint
 
 112–132/path1–21tayyor;oldingi127–132pendingyozuvtarix. Keyingi133/path22,

@@ -123,9 +123,9 @@ def test_all131_progress_xp_and_no_extra_reward_or_control_completion(
         assert finish_new(client, n)[-1]["xp_awarded"] == 10
     assert finish_new(client, 132)[-1]["xp_awarded"] == 0
     cat = client.get(first.P + "/catalog", params={"part": 4}).json()
-    assert len(cat["lessons"]) == 21 and all(
-        l["state"] == "completed" for l in cat["lessons"]
-    )
+    assert {l["key"] for l in cat["lessons"] if l["state"] == "completed"} == {
+        f"math-1-4-{i}-r1" for i in range(1, 22)
+    }
     assert not cat["previous_book_complete"] and not cat["course_ready"]
     assert cat["source_gap_bridge"]["schedule_only_rows_not_completed"] == 5
     with factory.begin() as db:

@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-05",
+  "branch": "feat/mathematics-curriculum",
+  "previous_backend_commit": "c448a02bac71aedf26a544c58f02b413707fe91e",
+  "flutter_code_commit": "9be77d191c016824b6a2f90d8410affa19ef318f",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "stats": {
+    "lessons": 137,
+    "cards": 806,
+    "questions": 1056,
+    "examples": 137,
+    "worked_steps": 411,
+    "notation_entries": 230,
+    "distinct_explorer_modes": 129,
+    "response_kinds": {
+      "choice": 341,
+      "short_text": 32,
+      "exact_number": 659,
+      "ordering": 24
+    }
+  },
+  "parts": {
+    "I": "41/41frozen",
+    "II": "32/33frozen;74missingprinted68–69",
+    "III": "37/37bodyfrozen;5scheduledrowsunready",
+    "IV": {
+      "mapped_body_topics": 33,
+      "authored_lessons": 27,
+      "remaining_body_topics": 6,
+      "all_body_content_reviewed": false
+    }
+  },
+  "tests": {
+    "Math": "180 passed, 1 skipped in 432.61s; earlier run begun before final FRQ copy-edit had 2 stale-answer failures, final full rerun passed",
+    "Backend targeted and PostgreSQL": "8 passed in 97.36s after final FRQ134=18; all137 lessons, seed137XP→1507, replay0, parallel first reward/UID/streak/immutable import; isolated owned schema removed",
+    "Flutter targeted": "14 passed in15s; 6 full flows at320px/200percent/reduce motion, 6 model tests and canonical Roman1–100 independent arithmetic/bounds",
+    "Flutter full": "638 passed in4:53",
+    "Analyze": "0 issues in2.0s",
+    "Web": "debugJS build passed38.0s; invalid compile-only token and localURL; not Android/browser/API validation",
+    "Protected": "Biology/Physics/mobileOAuth11 passed39.80s; five protected worktrees clean with unchanged HEADs",
+    "Source audit": "23PDF/2958pages;137 reviewed authored topics/274bodypages; IV33mapped/27authored/6unready",
+    "Quality": "Ruff/format/whitespace passed; frozen previous JSON unchanged, other22book metadata/inventories unchanged; atomic public API fixture privacy passed"
+  },
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 137,
+    "reviewed_body_pages": 274,
+    "interactive_lessons": 137,
+    "theory_cards": 806,
+    "questions": 1056,
+    "grade1_part1_all_source_images_reviewed": 94,
+    "grade1_part2_toc_units": 33,
+    "grade1_part2_authored_lessons": 32,
+    "grade1_part2_pending_toc_units": 1,
+    "grade1_part2_remaining_available_bodies": 0,
+    "grade1_part2_missing_printed_pages": [
+      68,
+      69
+    ],
+    "grade1_part3_mapped_body_topics": 37,
+    "grade1_part3_authored_lessons": 37,
+    "grade1_part3_schedule_only_rows_not_ready": 5,
+    "grade1_part4_mapped_body_topics": 33,
+    "grade1_part4_authored_lessons": 27,
+    "grade1_part4_body_review_not_finished": true,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "source_review_notes": [
+    "PDF47–58/bosma46–57 fully viewed; original explanations and numbers, not textbook exercises copied verbatim.",
+    "FRQ134 uses independent a8,b7,c3=18 after avoiding repetition of worked15; final backend/API fixture retested.",
+    "All two-digit integer solutions use10–99, strict endpoints excluded, real-valued intervals not claimed.",
+    "Roman range1–100 only; canonical table and aliases, no D/M or general symbolic Roman-expression grader.",
+    "Equation model31−x=12 uses19 independently ofFRQ13835−x=18=17; candidate role bounds and reset tested.",
+    "Source139–144/PDF59–70 and covers1/4/74 fully viewed for next batch; not counted authored yet.",
+    "II74 printed68–69 and III5schedule-only rows still unready; whole course and release not complete."
+  ],
+  "next": {
+    "topic_id": "math-g1-p4-t139",
+    "source_number": 139,
+    "path_sequence": 28,
+    "title": "Tenglamalar",
+    "body_pdf_locator": [
+      59,
+      60
+    ],
+    "printed_pages": [
+      58,
+      59
+    ],
+    "verification": "header_footer_images_reviewed_body_pending",
+    "interactive_lesson_created": false,
+    "boundary_pins": [
+      {
+        "pdf_page": 59,
+        "printed_page": 58,
+        "native_text_sha256": "3279cc8f8841aadd8145d9fd43f7aeb577f64066548b4bffd947aeb9a3d09199",
+        "image_sha256": "429af6f677ceb4982ade0a1fdb0c20bf10b3660fde23cf20533c16fa269720ac"
+      },
+      {
+        "pdf_page": 60,
+        "printed_page": 59,
+        "native_text_sha256": "789b0da9d8c8a58bc028440149ad40719c2b9be96e0d2b7ed39f8bd8c80d2d0c",
+        "image_sha256": "5be051b7976e5917bca0d9c7b499b9db646782136072bc3acf2b1640fd840c39"
+      }
+    ]
+  },
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "independent_teacher_review": false,
+  "real_android_test": false,
+  "protected_worktrees": "clean,HEADs unchanged; verify again before push",
+  "no_production_operations": true
+}
