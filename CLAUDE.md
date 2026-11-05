@@ -1,5 +1,26 @@
 # Ilm AI — Project Context (for Claude)
 
+## Saqlangan Git checkpoint —2026-11-05
+
+Backend kontent/kod: `d40db74a9d2536e51dbba4c12b75627d9b98ec7f`. Flutter: `3e0457ffbaacb8a8c34bbd449c5397371978259f`.
+Ikkalasi `feat/mathematics-curriculum`branchida GitHubga push qilingan.
+Ushbu aniqSHAqo‘shimchasi keyingi docscommitda saqlanadi.
+Jami120lokal dars;I41/41,II32/33,III37/37matnli mavzu,IV10/33.
+704karta,920topshiriq,120misol/360qadam,200sonli tenglik,112modelturi.
+Keyingi **IV122«To‘rtburchaklar»,path11,PDF25–26/bosma24–25**.
+122–126asl tasvirlari ko‘rilgan;[sourcehandoff](docs/mathematics/PART4_SOURCE_HANDOFF.md)dagi
+reviewqaydlarini o‘qing. Ular hali kontent yoki avtomatik testdan o‘tgan dars emas.
+II74bosma68–69vaIII5schedule-onlycontrol/game hali unready;1–11kurs tugamagan.
+
+Math160pass/1skip336.35s;finalcontent+PG7pass110.09s;fullFlutter598pass4:10,
+analyze0(2.3s),debugJSweb57.1s;protected11pass42.55s.
+OwnPG to‘xtatilgan;restartda privateURLdagi dinamikloopbackportni yangilang,
+URL/parolni logga chiqarmang. SDK/realAndroid/TalkBack/pedagog/pilot tasdiqsiz.
+Frontend va4himoyalangan backend/Flutter/historyworktreeHEADlari o‘zgarmagan,
+toza. Mainmerge,productionDBimport/migration/deploy yoki nashr bajarilmadi.
+PDF/OCR/rasm/credentialGitga kiritilmadi. [Batch2dalili](docs/mathematics/checkpoints/grade1_part4_batch2.json).
+
+
 ## 2026-11-05 — IV qism117–121; jami120 lokal dars
 
 Yangi5dars: 30karta,40topshiriq,8sonli tenglik.
