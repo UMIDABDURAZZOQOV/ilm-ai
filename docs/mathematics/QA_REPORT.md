@@ -1,5 +1,13 @@
 # Matematika QA — tekshirilgan checkpointlar
 
+## Git checkpoint211 — 2026-11-06
+
+Backend kod/kontent: `65d775674f3e5875dc3c8150b5ed0dea159baa65`; Flutter: `7cc66bc7678341a269a264d4a72a351d6ca6c7c3`.
+Ikkalasi `feat/mathematics-curriculum` branchiga push qilindi. 211 lokal dars; ushbu sessiyada 20 yangi dars.
+II qism25/34;keyingi§66/path26/PDF55–56/bosma54–55. Dars hali yozilmagan;431kgxomashyo sarfi kraxmal chiqimi emas.
+Joriy44backendtest,67Fluttertest+yakuniy7flow,211darsli1PostgreSQLtest o‘tdi. Analyze0;debugJSweb63.3s.
+O‘zPGkonteyneri to‘xtatilgan. Butun1–11kurs/realAndroid/pedagogik tasdiq hali tugallanmagan. Tafsilot va manba cheklovlari quyida.
+
 ## 2026-11-06 — 2-sinf II qism §61–65: jami 211 lokal dars
 
 **211 dars, 1271 karta, 1666 savol, 211 misol / 633 qadam, 378 sonli tekshiruv.**
