@@ -1,5 +1,7 @@
 # 2-sinf I qism — manba xaritasi va davom nuqtasi
 
+Joriy: §1–10 tayyor; keyingi §11, PDF25–26/bosma24–25. Pastdagi §6–10 review qaydlari tarix; ular partiya2da original kontent va testlar bilan qamrab olindi.
+
 2026-11-05. Berilgan PDF100 sahifa; SHA-256 `31124258de8a1432c1ce15006ff6465f818cf9c10fa86cbaf5dc6566c4c64f54`.
 I.V.Repyova, Novda Edutainment, Toshkent2023; ISBN978-9943-9687-2-1.
 Title va copyrightda Repyova, bibliografik yozuvda Repyova/Zemlina ko‘rsatilgan; farq yashirilmadi.
@@ -9,8 +11,8 @@ Title va copyrightda Repyova, bibliografik yozuvda Repyova/Zemlina ko‘rsatilga
 Mundarijada41 raqamlangan mavzu,2 raqamsiz yakuniy dars va1 raqamsiz amaliy to‘plam: **44 birlik**.
 §25ningbosma54–55 sahifalari yo‘q. Qolgan43 birlikning91 tana sahifasi header/footerlari asl tasvirda tekshirildi.
 Oxirgi amaliy to‘plam PDF89–95/bosma90–96dagi26 topshiriqdan iborat;26alohida dars deb ko‘paytirilmadi.
-Mundarija xaritasi to‘liq dars mazmuni review emas. Dastlabki§1–5 original kontenti va yakuniy avtomatik testlari o‘tdi.
-Jami5 lokal dars tayyor,39 birlik qoldi:38 mavjud tana,1 manbasi yo‘q birlik.
+Mundarija xaritasi to‘liq dars mazmuni review emas. Dastlabki§1–10 original kontenti va yakuniy avtomatik testlari o‘tdi.
+Jami10 lokal dars tayyor,34 birlik qoldi:33 mavjud tana,1 manbasi yo‘q birlik.
 
 ## Bosma/PDF farqi
 
@@ -26,11 +28,11 @@ Jami5 lokal dars tayyor,39 birlik qoldi:38 mavjud tana,1 manbasi yo‘q birlik.
 |3|3|Takrorlash|9–10|8–9|lokal sinovga tayyor|
 |4|4|Takrorlash|11–12|10–11|lokal sinovga tayyor|
 |5|5|Takrorlash|13–14|12–13|lokal sinovga tayyor|
-|6|6|Takrorlash|15–16|14–15|faqat chegara review|
-|7|7|Takrorlash|17–18|16–17|faqat chegara review|
-|8|8|Takrorlash|19–20|18–19|faqat chegara review|
-|9|9|Sonlarni qo‘shish va ayirish|21–22|20–21|faqat chegara review|
-|10|10|Sonlarni qo‘shish va ayirish|23–24|22–23|faqat chegara review|
+|6|6|Takrorlash|15–16|14–15|lokal sinovga tayyor|
+|7|7|Takrorlash|17–18|16–17|lokal sinovga tayyor|
+|8|8|Takrorlash|19–20|18–19|lokal sinovga tayyor|
+|9|9|Sonlarni qo‘shish va ayirish|21–22|20–21|lokal sinovga tayyor|
+|10|10|Sonlarni qo‘shish va ayirish|23–24|22–23|lokal sinovga tayyor|
 |11|11|Yaxlit songacha qo‘shish (31 + 9)|25–26|24–25|faqat chegara review|
 |12|12|Yaxlit songacha qo‘shish (31 + 9)|27–28|26–27|faqat chegara review|
 |13|13|Yaxlit sondan ayirish|29–30|28–29|faqat chegara review|

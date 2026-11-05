@@ -1,5 +1,54 @@
 # Matematika QA — tekshirilgan checkpointlar
 
+## 2026-11-05 — 2-sinf I qism §6–10: jami 153 lokal dars
+
+Yangi partiya: **5 dars, 30 karta, 40 savol, 5 misol/15 qadam, 10 sonli tenglik**.
+Jami **153 dars, 902 karta, 1 184 savol, 153 misol/459 qadam, 262 sonli tenglik**.
+1-sinfning 143 darsi saqlandi; IV qism 33/33 tana mavzusi bilan yakunlangan.
+2-sinf I qismda 10/44 manba birligi interaktiv: 34 birlik qolgan, shundan 33 tasining
+manba tanasi mavjud, §25ning bosma 54–55 sahifalari yo‘q.
+
+| Manba | Mazmun | PDF | Bosma |
+|---|---|---|---|
+|6|Tenglama komponentlari, cm/dm, teng guruh, perimetr, uch guruh|15–16|14–15|
+|7|Teskari masalalar, farq, mantiq jadvali, perimetr o‘zgarishi|17–18|16–17|
+|8|Ustma-ust xossalar, bog‘liq jami, turli ichki nuqtalar, ayni harf|19–20|18–19|
+|9|Xona birliklari, qo‘shish/ayirish, natijalar zanjiri, taqqoslash|21–22|20–21|
+|10|Kamlik ifodasi, bir nechta qo‘shiluvchi, o‘rta nuqta, joylashtirish|23–24|22–23|
+
+Mavjud beshta model mavzuga mos ravishda qayta ishlatildi. Yangi Flutter runtime kodi,
+OAuth, umumiy katalog, boshqa fanlar, frontend yoki production yo‘liga o‘zgarish yo‘q.
+Source8dagi o‘rgimchakni hasharot sifatida tasniflash xatosi ko‘chirilmadi; aniq rang/shakl
+xossalari olindi. Sug‘orish/oziqlantirish/mahsuldorlik me’yorlari haqida universal da’volar yo‘q.
+Joylashtirish faqat ochiq berilgan chiziqli uzunlik modeli, tashqi hoshiyalar shartsiz qo‘shilmaydi.
+Oldingi 148 darsning kontenti va revisionlari o‘zgarmadi.
+
+Haqiqiy tekshiruvlar:
+
+- backend_targeted: 24passed13.86s;both grade2batches, source/setup and core preview API tests.
+- postgres: 1passed62.17s;all153 lessons,seed137XP→1667,replay0,parallel first reward/UID/streak/immutable import;owned random schema removed. Initial stale5lesson cumulative expectation failed58.14s, corrected to complete6–10 before asserting all done.
+- flutter_targeted: 14passed16s;grade2I1–10fullflows320px/200percent/ReduceMotion,DTO/source-gap/gradechoice.
+- analyze: 0issues1.7s.
+- last_full_math: 195passed1skip516.36s at148lesson checkpoint dce5228; no runtime/grading changes after it, current153targeted andPG regressions executed.
+- last_full_flutter: 658passed5:11 atFlutterb5f6941; application source unchanged, only additional test and API fixture; current14targeted passed.
+- web: debugJS38.4s atd00ace7; application source unchanged; not rebuilt in this content-only batch; noAndroid/browserclaim.
+- protected: 11passed30.52s;Biology/Physics/mobileOAuth.
+- source: 23PDF2958pages;153reviewed topics306bodypages;2I44mapped10authored34remaining,including missing25printed54–55.
+- quality: Ruff/format/whitespace passed;62previous JSON immutable files unchanged, other22bookmetadata/inventories unchanged;public fixture privacy passed.
+
+**Keyingi: 2-sinf I qism §11 «Yaxlit songacha qo‘shish (31 + 9)», PDF25–26/bosma24–25.**
+Ikkala asl sahifa ko‘rildi. Qo‘lyozma yoki qush nomi/turi tayyor matematik javob kaliti emas.
+Keyingi darsda o‘n birlikni bir o‘nlikka birlashtirish, yaxlit natijani ajratib kamayish tartibi,
+nomalum va bog‘liq jami shartlari, to‘g‘ri to‘rtburchakning uzunroq tomoni qamraladi.
+Bu dars hali yozilmagan va testlangan darslar soniga kiritilmagan.
+
+Butun 1–11 kurs tugallanmagan; jami/qolgan barcha mavzular soni hali noma’lum.
+II74/III5 jadval qatorlari, 2-sinf I§25, bloklangan/yetishmayotgan manbalar ochiq.
+Mustaqil o‘qituvchi, o‘quvchi piloti, 2026–27 rasmiy dastur va Android/TalkBack tasdiqlanmagan.
+PDF/OCR/rasmlar va maxfiy ma’lumotlar Gitga qo‘shilmagan. Mainmerge/productionDB/deploy/nashr yo‘q.
+[2-sinf qamrovi](GRADE2_PART1_PROGRESS.md), [checkpoint](checkpoints/grade2_part1_batch2.json).
+
+
 ## 2026-11-05 — 2-sinfga o‘tildi: I qism§1–5, jami 148 lokal dars
 
 1-sinf IV qismi 33/33 tana mavzusi bilan saqlandi. 2-sinf I qismning dastlabki 5 darsi

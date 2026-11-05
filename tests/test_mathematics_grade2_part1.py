@@ -112,9 +112,9 @@ def test_grade_choice_prerequisites_progress_replay_and_uid_isolation(preview):
     cat = client.get(first.P + "/catalog", params={"grade": 2}).json()
     assert cat["grade"] == 2 and cat["previous_book_complete"]
     assert cat["book"]["source_topic_count"] == 44
-    assert cat["book"]["implemented_sections"] == 5
+    assert cat["book"]["implemented_sections"] == 10
     assert cat["book"]["source_gaps"][0]["missing_printed_pages"] == [54, 55]
-    assert [l["state"] for l in cat["lessons"]] == ["available"] + ["locked"] * 4
+    assert [l["state"] for l in cat["lessons"]] == ["available"] + ["locked"] * 9
     assert (
         client.post(
             first.P + "/lessons/math-2-1-2-r1/start",
@@ -126,7 +126,9 @@ def test_grade_choice_prerequisites_progress_replay_and_uid_isolation(preview):
         assert finish_new(client, n)[-1]["xp_awarded"] == 10
     assert finish_new(client, 5)[-1]["xp_awarded"] == 0
     complete = client.get(first.P + "/catalog", params={"grade": 2}).json()
-    assert all(l["state"] == "completed" for l in complete["lessons"])
+    assert {l["key"] for l in complete["lessons"] if l["state"] == "completed"} == {
+        f"math-2-1-{i}-r1" for i in range(1, 6)
+    }
     assert not complete["course_ready"]
     first_grade = client.get(first.P + "/catalog").json()
     assert all(l["state"] != "completed" for l in first_grade["lessons"])
@@ -135,7 +137,7 @@ def test_grade_choice_prerequisites_progress_replay_and_uid_isolation(preview):
         params={"grade": 2},
         headers={"Authorization": "Bearer " + tokens.create_access_token(2)},
     ).json()
-    assert [l["state"] for l in other["lessons"]] == ["available"] + ["locked"] * 4
+    assert [l["state"] for l in other["lessons"]] == ["available"] + ["locked"] * 9
     with factory() as db:
         assert db.query(MathProgress).filter_by(user_id=1).count() == 5
         assert db.get(User, 1).xp_total == 187 and db.get(User, 2).xp_total == 0
@@ -149,7 +151,7 @@ def test_grade2_map_keeps_missing25_and_actual_unnumbered_bodies():
     from services.mathematics_curriculum import ROOT, validate_document
 
     m = json.loads((ROOT / "grade2_part1_map.json").read_text())
-    assert len(m["topics"]) == 44 and m["authored_lessons"] == 5
+    assert len(m["topics"]) == 44 and m["authored_lessons"] == 10
     assert [t["source_number"] for t in m["topics"] if t["source_number"]] == list(
         range(1, 42)
     )
