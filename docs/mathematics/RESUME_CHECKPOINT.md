@@ -1,5 +1,13 @@
 # Matematika — davom checkpointi
 
+## Git checkpoint 191 — 2026-11-05
+
+Backend kod/kontent: `4743891e01783273b82f4431536ce3c37730389a`. Flutter: `dc970704d69b47df7d6864f2170851b2fa08ca32`.
+Ikkalasi `feat/mathematics-curriculum` branchiga push qilindi. Ushbu SHA va yakuniy test yozuvi alohida hujjat commitida saqlanadi.
+191 lokal dars; 2-sinf II qism 5/34, keyingi §47 / path6 / PDF 15–16 / bosma 14–15.
+Yakuniy backend 269 passed / 1 optional PG skipped; PostgreSQL alohida 1 passed; Flutter 749 passed va yakuniy 14 target passed.
+O‘z PostgreSQL konteyneri to‘xtatilgan. Butun 1–11 kursi va real Android/pedagogik tasdiq hali tayyor emas.
+
 ## 2026-11-05 — 2-sinf II qism §42–46: jami 191 lokal dars
 
 **191 dars, 1 150 tushuntirish kartasi, 1 506 savol, 191 yechilgan misol va 573 izohli qadam.**
