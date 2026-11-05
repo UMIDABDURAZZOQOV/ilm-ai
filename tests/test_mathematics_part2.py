@@ -83,6 +83,7 @@ def test_cross_book_prerequisites_then_all_five_progress_replay_and_account_isol
         "math-uz-g1-p3",
         "math-uz-g1-p4",
         "math-uz-g2-p1",
+        "math-uz-g2-p2",
     }
     assert all(l["state"] == "locked" for l in cat["lessons"])
     blocked = client.post(

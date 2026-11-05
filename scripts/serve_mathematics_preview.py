@@ -53,6 +53,11 @@ def main():
         help="Local grade2I QA only after all25existing predecessors. Missing source25/path26 stays incomplete and receives no XP.",
     )
     parser.add_argument("--host", choices=["127.0.0.1", "0.0.0.0"], default="127.0.0.1")
+    parser.add_argument(
+        "--allow-known-grade2-part2-preview",
+        action="store_true",
+        help="Local grade2II QA after all43actual I lessons; requires grade2I gap flag too. Missing25 remains incomplete.",
+    )
     parser.add_argument("--port", type=int, default=8892)
     args = parser.parse_args()
     if os.getenv("ENVIRONMENT") == "production" or not 1024 <= args.port <= 65535:
@@ -89,6 +94,9 @@ def main():
         else "false",
         MATHEMATICS_QA_GRADE2_PART1_SOURCE_GAP="true"
         if args.allow_known_grade2_part1_source_gap
+        else "false",
+        MATHEMATICS_QA_GRADE2_PART2_PREVIEW="true"
+        if args.allow_known_grade2_part2_preview
         else "false",
         AUTH_STORAGE="database",
         DATABASE_URL=URL.create(

@@ -1,5 +1,17 @@
 # Matematika kursi — hali tugallanmagan
 
+## Joriy checkpoint191 — 2026-11-05
+
+191lokal dars,1 150karta,1 506savol.2-sinf Iqism43/44,yetishmayotgan§25saqlandi.
+IIqism5/34lokal dars,29tana kontenti hali tayyor emas. Actual31numbered+2summary+1logical;
+TOC73actualraqamsiz yakuniy dars bo‘lib chiqdi,soxta73yaratilmadi.
+Keyingi§47,path6,PDF15–16/bosma14–15,fullbodyviewed,notauthored.
+Yangi default-offpairedlocalQAflag ikkalaSHA va43real oldingi darsni talab qiladi.
+[Haqiqiy testlar](QA_REPORT.md),[checkpoint](checkpoints/grade2_part2_batch1.json),
+[IIqismlokalQA](GRADE2_PART2_LOCAL_QA.md). Global1–11kurs hali tugallanmagan.
+
+### Oldingi checkpointlar (saqlangan tarix)
+
 ## Joriy checkpoint186 — 2026-11-05
 
 186lokal dars,1 120karta,1 466savol.2-sinf Iqismning barcha43mavjud bodybirligi yaratildi.

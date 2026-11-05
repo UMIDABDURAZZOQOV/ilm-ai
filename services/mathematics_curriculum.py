@@ -13,6 +13,11 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "hundreds_thousand",
+    "three_digit_place",
+    "zero_tens_place",
+    "zero_units_place",
+    "full_place_groups",
     "number_remove_sum",
     "arrow_two_lines",
     "three_colour_regions",
@@ -285,6 +290,7 @@ BATCHES = [
     ("grade2_part1_batch6.json", "grade2_part1_batch6_review.json"),
     ("grade2_part1_batch7.json", "grade2_part1_batch7_review.json"),
     ("grade2_part1_batch8.json", "grade2_part1_batch8_review.json"),
+    ("grade2_part2_batch1.json", "grade2_part2_batch1_review.json"),
 ]
 
 
@@ -293,7 +299,12 @@ def validate_document(document, review):
     require(review["book_sha256"] == source["sha256"], "math_source_sha_mismatch")
     topics = {t["topic_id"]: t for t in review["topics"]}
     body_map = None
-    if review["book_id"] in {"math-uz-g1-p3", "math-uz-g1-p4", "math-uz-g2-p1"}:
+    if review["book_id"] in {
+        "math-uz-g1-p3",
+        "math-uz-g1-p4",
+        "math-uz-g2-p1",
+        "math-uz-g2-p2",
+    }:
         body_map = {
             t["topic_id"]: t
             for t in json.loads(

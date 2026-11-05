@@ -34,6 +34,13 @@ def exact_number(value):
     if type(value) is not str or not 0 < len(value) <= 160:
         raise MathInputError("invalid_expression")
     value = value.translate(str.maketrans({"−": "-", "×": "*", "÷": "/", ",": "."}))
+    # Standard space-grouped *whole literals* such as1 000 or1 NBSP000.
+    # Do not concatenate arbitrary adjacent tokens or alter expression grammar.
+    literal = value.strip()
+    if re.fullmatch(
+        r"[+-]?[0-9]{1,3}(?:[ \u00a0\u202f][0-9]{3})+(?:\.[0-9]+)?", literal
+    ):
+        value = re.sub(r"[ \u00a0\u202f]", "", literal)
     if re.search(r"[^0-9.()+*/\-\s]", value):
         raise MathInputError("invalid_expression")
     tokens = re.findall(r"[0-9]+(?:\.[0-9]+)?|[()+*/-]", value)

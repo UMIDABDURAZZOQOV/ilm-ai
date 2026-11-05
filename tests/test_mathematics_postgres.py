@@ -22,6 +22,7 @@ from test_mathematics_grade2_part1_batch5 import finish_new as finish_grade2_fif
 from test_mathematics_grade2_part1_batch6 import finish_new as finish_grade2_sixth
 from test_mathematics_grade2_part1_batch7 import finish_new as finish_grade2_seventh
 from test_mathematics_grade2_part1_batch8 import finish_new as finish_grade2_eighth
+from test_mathematics_grade2_part2 import finish_new as finish_grade2_part2
 from test_mathematics_part2 import finish_second
 from test_mathematics_part2_batch2 import finish_new as finish_second_new
 from test_mathematics_part2_batch3 import finish_new as finish_second_third
@@ -203,12 +204,16 @@ def test_math_postgres_immutable_import_first_book_and_parallel_reward(monkeypat
             for number in range(37, 45):
                 assert finish_grade2_eighth(client, number)[-1]["xp_awarded"] == 10
             assert finish_grade2_eighth(client, 44)[-1]["xp_awarded"] == 0
+            monkeypatch.setenv("MATHEMATICS_QA_GRADE2_PART2_PREVIEW", "true")
+            for number in range(1, 6):
+                assert finish_grade2_part2(client, number)[-1]["xp_awarded"] == 10
+            assert finish_grade2_part2(client, 5)[-1]["xp_awarded"] == 0
             grade2 = client.get(P + "/catalog", params={"grade": 2}).json()
             assert all(l["state"] == "completed" for l in grade2["lessons"])
             assert grade2["book"]["source_gaps"][0]["missing_printed_pages"] == [54, 55]
         with factory.begin() as db:
-            assert db.get(User, 1).xp_total == 1997 and db.get(User, 2).xp_total == 0
-            assert import_course(db) == {"created": 0, "skipped": 186}
+            assert db.get(User, 1).xp_total == 2047 and db.get(User, 2).xp_total == 0
+            assert import_course(db) == {"created": 0, "skipped": 191}
     finally:
         engine.dispose()
         with admin.begin() as connection:

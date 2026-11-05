@@ -1,5 +1,12 @@
 # 2-sinf II qism — keyingi bosqich uchun manba ko‘rigi
 
+## Joriy ko‘rik — oldingi preflightdan keyin
+
+IIqismning haqiqiy34chegara birligi xaritalandi:31raqamlangan,2raqamsiz yakuniy dars,1mantiqiy to‘plam.
+Mundarijadagi§73tanada raqamsiz yakuniy dars ekanligi aniqlandi.5original dars yaratildi,29tana authoringni kutadi.
+[Yangilangan manba/lokalQA](GRADE2_PART2_LOCAL_QA.md). Quyidagi0dars/TOCnomzodlari preflighttarixi sifatida saqlandi.
+
+
 Bu **to‘liq curriculum xaritasi yoki tayyor kurs emas**. II qismda hali0interaktiv dars.
 Fayl foydalanuvchi bergan asl `2-sinf 2-Sinf Matematika (2-qism).pdf`,82PDFsahifa.
 SHA-256:`1acb4fd5b341567a30a91f48dd336fa224bca9717d9b2d6f667e25abef5faefa`.

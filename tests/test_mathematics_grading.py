@@ -88,3 +88,37 @@ def test_each_objective_choice_is_explicit_not_client_correctness():
         grade_answer(spec, {"choice_id": "b", "is_correct": True})
     with pytest.raises(MathInputError):
         grade_answer(spec, {"choice_id": "unissued"})
+
+
+@pytest.mark.parametrize(
+    "text,expected",
+    [
+        ("1 000", 1000),
+        ("12 345", 12345),
+        ("1\u00a0000", 1000),
+        ("1\u202f000", 1000),
+        ("1 000 000", 1000000),
+        ("-1 000", -1000),
+        ("1,000", 1),
+    ],
+)
+def test_standard_grouped_integer_literals_keep_decimal_comma_semantics(text, expected):
+    assert exact_number(text) == expected
+
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        "1 00",
+        "12 34",
+        "1 0 00",
+        "1 000+2",
+        "2 1/2",
+        "1_000",
+        "1\t000",
+        "1 000__import__('os')",
+    ],
+)
+def test_spacing_does_not_enable_arbitrary_concatenation_or_code(text):
+    with pytest.raises(MathInputError):
+        exact_number(text)

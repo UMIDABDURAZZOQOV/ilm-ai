@@ -1,5 +1,76 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-05 — 2-sinf II qism §42–46: jami 191 lokal dars
+
+**191 dars, 1 150 tushuntirish kartasi, 1 506 savol, 191 yechilgan misol va 573 izohli qadam.**
+Yangi partiya: 5 dars, 30 karta, 40 savol, 5 misol va 15 qadam, 10 tekshirilgan sonli tenglik.
+Oldingi 186 dars, 79 kontent/manba fayli va mavjud progress/XP shartnomalari saqlandi.
+
+| Manba | Path | PDF sahifalari | Bosma sahifalar | O‘quv maqsadi |
+|---|---|---|---|---|
+| §42 | 1 | 5–6 | 4–5 | Yuzlik, o‘nlik va ming chegarasi |
+| §43 | 2 | 7–8 | 6–7 | Uch xonali son va to‘liq o‘nliklar |
+| §44 | 3 | 9–10 | 8–9 | O‘nlik xonasidagi nol |
+| §45 | 4 | 11–12 | 10–11 | Birlik noli: 604, 640 va 64 farqi |
+| §46 | 5 | 13–14 | 12–13 | Xona raqami, to‘liq guruh, jadval va jami |
+
+Asl 10 sahifa to‘liq ko‘rildi; original neytral tushuntirish va topshiriqlar manbaga bog‘landi.
+Kitobning kasb, harbiy guruh, transport, tarif yoki sog‘liq mavzusidagi shartlari umumiy real fakt deb olinmadi.
+1000 to‘rt xonali; bitta ming va o‘nta to‘liq yuzlik farqlanadi. Nol xonalari ham tekshiriladi.
+Flutterdagi besh yangi interaktiv model bitta original painter/widgetdan foydalanadi;
+320 px, 200% matn va Reduce Motion sharoitlarida tekshirildi. Ilmo, brend va oldingi UI saqlandi.
+Jami 154 asosiy model turi, karta darajasidagi tanlov bilan 155 tur mavjud.
+
+**Manba xaritasidagi farq:** II qismdagi 73 asosiy sahifaning sarlavha va sahifa raqamlari asl tasvirlardan tekshirildi.
+34 haqiqiy birlik: §42–72 bo‘yicha 31 raqamlangan mavzu, 2 raqamsiz yakuniy dars, 1 mantiqiy mashqlar to‘plami.
+Mundarijadagi §73 o‘rnida PDF 69–70 / bosma 68–69 da raqamsiz yakuniy dars bor.
+Soxta §73 yaratilmadi. **5/34 lokal dars tayyor; 29 birlikning to‘liq mazmun ko‘rigi va darslari hali tayyor emas.**
+Mantiqiy to‘plam ichidagi alohida mashqlar soni hali aniqlanmagan. Xarita to‘liq mazmun tekshiruviga teng emas.
+
+**Baholashdagi tasdiqlangan tuzatish:** `1000` qabul qilinib, `1 000` rad etilishi qayta hosil qilindi.
+Faqat butun sonli literalning standart uch raqamli guruhlari uchun bo‘shliq, NBSP va tor NBSP tan olinadi.
+`1 00`, `12 34`, `2 1/2` va `1 000+2` rad etiladi; `1000+2` eski ifoda qoidasi bilan ishlaydi.
+Vergul kasr ajratuvchisi bo‘lib qoladi: `1,000` qiymati 1. Parser hajm/chuqurlik/bit cheklovlari saqlandi.
+Bu faqat Matematika parseriga tegishli; boshqa fanlarning baholashi o‘zgarmadi.
+
+**Xavfsiz lokal kirish:** yangi `MATHEMATICS_QA_GRADE2_PART2_PREVIEW` odatda o‘chiq.
+Oldingi `MATHEMATICS_QA_GRADE2_PART1_SOURCE_GAP` ham yoqilgan bo‘lishi kerak.
+Aniq ikki kitob SHA/map identifikatorlari va o‘sha foydalanuvchining barcha 43 haqiqiy I qism darsi yakuni talab qilinadi.
+Yo‘q §25 / path26 / bosma 54–55 uchun dars, urinish, progress yoki XP yaratilmadi.
+II qism ichidagi prerequisite saqlanadi. Mijoz flag bera olmaydi; UID chegarasi tekshiriladi.
+Flaglardan biri o‘chsa tugallanmagan start/resume/answer/complete va yangi replay bloklanadi.
+Tugallangan aynan shu urinish natijasi va oldingi XP saqlanadi. `previous_book_complete=false` qoladi;
+`previous_book_navigation_ready` faqat lokal QA istisnosida ochiladi. Eski API v1 kontrakti saqlandi.
+
+**Haqiqiy test natijalari:**
+
+- Yakuniy Matematika backend: **269 passed, 1 skipped, 619.84 s**. Umumiy yugurishda PostgreSQL URL bo‘lmagani uchun PG testi skip; u alohida bajarildi.
+- Tuzatishdan keyingi parser va yangi API: **64 passed, 40.32 s**.
+- API/CLI/manba va Biology/Physics/mobile OAuth regressionlari: **24 passed, 95.65 s**.
+- Izolyatsiyalangan PostgreSQL: **1 passed, 117.56 s**; 191 dars, boshlang‘ich 137 XP → 2047 XP; replay 0 XP, parallel reward, UID, streak va takror import tekshirildi. Faqat o‘z tasodifiy schema ishlatilib olib tashlandi.
+- Flutter to‘liq: **749 passed, 7:02**; yakuniy guruhlangan javob bilan yangi testlar **14 passed, 15 s**.
+- `flutter analyze`: **0 issue, 2.6 s**; debug JS web build **42.4 s**. Bu Android yoki brauzer/API sinovi emas.
+- Manba auditi: **23 PDF, 2958 sahifa, 191 ko‘rilgan mavzu, 387 asosiy sahifa**; yangi xaritadagi sahifa/hash bog‘lanishlari tekshirildi.
+- Ruff va whitespace tekshiruvlari o‘tdi. Eski Flutter fixturelari va qolgan 22 kitob metadata/inventorylari saqlandi. Besh himoyalangan worktree toza va HEADlari o‘zgarishsiz.
+
+Asosiy fayllar: `grade2_part2_map.json`, `grade2_part2_batch1.json` va review,
+`mathematics_curriculum.py`, `mathematics_runtime.py`, `mathematics_grading.py`,
+`serve_mathematics_preview.py`, source audit va tegishli backend/Flutter testlari;
+Flutterda `thousand_place_explorer.dart` hamda model/repository ro‘yxatlari.
+
+**Aniq davom nuqtasi: 2-sinf II qism §47, path6, PDF 15–16 / bosma 14–15.**
+Asl ikkala sahifa ko‘rildi; darsi hali yozilmagan. Jadvaldagi 21 → 2 yuzlik, 1 o‘nlik, 0 birlik
+ataylab tekshirish uchun berilgan noto‘g‘ri dastur chiqishi; 21 ning to‘g‘ri tarkibi 0 yuzlik, 2 o‘nlik, 1 birlik.
+Robotning oldinga/orqaga yo‘llari uchun jami yo‘l va yo‘nalishlar farqini almashtirmang.
+[Lokal QA va manba tafsiloti](docs/mathematics/GRADE2_PART2_LOCAL_QA.md), [mashina o‘qiydigan checkpoint](docs/mathematics/checkpoints/grade2_part2_batch1.json).
+
+Butun 1–11-sinf kursi tugallanmagan; global jami va qolgan mavzular soni hali noma’lum.
+Mustaqil o‘qituvchi, o‘quvchi piloti, 2026–27 dastur mosligi, fizik ko‘nikma, Android/TalkBack va standalone CLI positive sinovi tasdiqlanmagan.
+Sintetik Git ajdodlari sabab CLI guardi chetlab o‘tilmadi; TestClient va o‘z PostgreSQL schema sinovlari ishlatildi.
+Veb-sayt, boshqa fanlar, production va main o‘zgartirilmadi. PDF, asl tasvir, OCR/transkript yoki credential Gitga kiritilmadi.
+
+### Oldingi checkpointlar (saqlangan tarix)
+
 ## Tasdiqlangan Git checkpoint186 — 2026-11-05
 
 Backend kod/kontent:`cdbebcec0b5d4f0e1e5d9b4f820895cc55c1652b`. Flutter:`3371488a6e842a0e3a293040dd562c75d66faf50`.

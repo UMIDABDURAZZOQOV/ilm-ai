@@ -294,6 +294,42 @@ def audit(source_directory):
                     saved["printed_page"] == (n - 1 if n <= 54 else n + 1),
                     "math_grade2_page_offset_changed",
                 )
+    part2 = json.loads((ROOT / "grade2_part2_map.json").read_text())
+    part2_source = next(b for b in catalog["books"] if b["book_id"] == part2["book_id"])
+    authored_part2 = [l for l in lessons if (l["grade"], l["part"]) == (2, 2)]
+    require(
+        part2["book_sha256"] == part2_source["sha256"]
+        and len(part2["topics"]) == part2_source["topic_count"] == 34
+        and part2["authored_lessons"] == len(authored_part2)
+        and [
+            t["source_number"]
+            for t in part2["topics"]
+            if t["source_number"] is not None
+        ]
+        == list(range(42, 73))
+        and [p for t in part2["topics"] for p in t["body_pdf_locator"]]
+        == list(range(5, 78))
+        and {t["topic_id"] for t in part2["topics"] if t["interactive_lesson_created"]}
+        == {l["topic_id"] for l in authored_part2}
+        and part2["topics"][32]["source_number"] is None
+        and part2["topics"][32]["body_pdf_locator"] == [69, 70]
+        and part2["source_gaps"][0]["toc_source_number"] == 73,
+        "math_grade2_part2_map_identity_changed",
+    )
+    with fitz.open(paths[part2["book_id"]]) as pdf:
+        for topic in part2["topics"]:
+            for saved in topic["boundary_pins"]:
+                page = pdf[saved["pdf_page"] - 1]
+                require(
+                    saved["printed_page"] == saved["pdf_page"] - 1
+                    and hashlib.sha256(page.get_text().encode()).hexdigest()
+                    == saved["native_text_sha256"]
+                    and hashlib.sha256(
+                        page.get_pixmap(matrix=fitz.Matrix(1.3, 1.3)).tobytes("png")
+                    ).hexdigest()
+                    == saved["image_sha256"],
+                    "math_grade2_part2_mapping_source_changed",
+                )
     return {
         "available_pdfs": len(paths),
         "available_pages": sum(b["pdf_pages"] for b in catalog["books"]),
@@ -331,6 +367,11 @@ def audit(source_directory):
         "grade2_part1_available_body_units": 43,
         "grade2_part1_authored_lessons": len(authored2),
         "grade2_part1_missing_printed_pages": [54, 55],
+        "grade2_part2_body_units": 34,
+        "grade2_part2_numbered_bodies": 31,
+        "grade2_part2_unnumbered_summaries": 2,
+        "grade2_part2_authored_lessons": len(authored_part2),
+        "grade2_part2_toc73_actual_summary": True,
         "blocked_sources": catalog["blocked_sources"],
         "full_curriculum_topic_count": None,
         "course_ready": False,

@@ -203,9 +203,66 @@ def qa_part3_schedule_bridge(db, completed, grade, part):
 
 
 def qa_navigation_bridge(db, completed, grade, part):
-    return qa_source_gap_bridge(db, completed, grade, part) or qa_part3_schedule_bridge(
-        db, completed, grade, part
+    return (
+        qa_source_gap_bridge(db, completed, grade, part)
+        or qa_part3_schedule_bridge(db, completed, grade, part)
+        or qa_grade2_previous_book_gap(db, completed, grade, part)
     )
+
+
+def qa_grade2_previous_book_gap(db, completed, grade, part):
+    """Local grade2II only, after all43actual I bodies; never finish missing25."""
+    if (grade, part) != (2, 2) or os.getenv(
+        "MATHEMATICS_QA_GRADE2_PART2_PREVIEW", ""
+    ).lower() != "true":
+        return None
+    # Reuses the exact I-source/SHA/gap/map/preview/staging/flag guard.
+    if not qa_grade2_source_sequence_gap(db, completed, 2, 1):
+        return None
+    expected = [f"math-2-1-{n}-r1" for n in [*range(1, 26), *range(27, 45)]]
+    rows = db.query(MathLesson.key).filter_by(grade=2, part=1).all()
+    if {key for (key,) in rows} != set(expected) or not set(expected) <= completed:
+        return None
+    try:
+        target = next(b for b in manifest()["books"] if b["book_id"] == "math-uz-g2-p2")
+        mapping = json.loads((ROOT / "grade2_part2_map.json").read_text())
+        sha = "1acb4fd5b341567a30a91f48dd336fa224bca9717d9b2d6f667e25abef5faefa"
+        if (
+            target["sha256"] != sha
+            or mapping["book_sha256"] != sha
+            or target.get("topic_count") != 34
+        ):
+            return None
+        lessons = (
+            db.query(MathLesson)
+            .filter_by(grade=2, part=2)
+            .order_by(MathLesson.sequence)
+            .all()
+        )
+        for index, lesson in enumerate(lessons, 1):
+            topic = mapping["topics"][index - 1]
+            if (
+                lesson.key != f"math-2-2-{index}-r1"
+                or lesson.sequence != index
+                or topic["path_sequence"] != index
+                or lesson.document["topic_id"] != topic["topic_id"]
+                or lesson.document.get("source_number") != topic["source_number"]
+                or topic.get("verification") != "body_images_reviewed"
+                or topic.get("interactive_lesson_created") is not True
+            ):
+                return None
+    except (OSError, ValueError, KeyError, IndexError, StopIteration, TypeError):
+        return None
+    return {
+        "kind": "local_qa_known_source_gap",
+        "previous_book_id": "math-uz-g2-p1",
+        "missing_source_numbers": [25],
+        "missing_printed_pages": [54, 55],
+        "completed_predecessor_lessons": 43,
+        "previous_book_complete": False,
+        "teacher_review": "not_verified",
+        "message": "Lokal sinov: I qismning mavjud 43 darsi bajarilgan. 25-mavzuning bosma 54–55-sahifalari yo‘q; unga progress yoki XP berilmadi. II qismni sinash yoqilgan, butun kurs hali to‘liq emas.",
+    }
 
 
 def qa_grade2_source_sequence_gap(db, completed, grade, part):
@@ -433,6 +490,12 @@ def start(db, uid, key, request_id):
         (l["state"] for l in course["lessons"] if l["key"] == key),
         "locked",
     )
+    if (
+        (lesson.grade, lesson.part) == (2, 2)
+        and state == "completed"
+        and not course["previous_book_navigation_ready"]
+    ):
+        raise HTTPException(403, "math_source_gap_preview_disabled")
     if state == "locked":
         raise HTTPException(
             403,

@@ -1,0 +1,52 @@
+# 2-sinf II qism — joriy manba va darslar
+
+## Joriy checkpoint191 — 2026-11-05
+
+191lokal dars,1 150karta,1 506savol.2-sinf Iqism43/44,yetishmayotgan§25saqlandi.
+IIqism5/34lokal dars,29tana kontenti hali tayyor emas. Actual31numbered+2summary+1logical;
+TOC73actualraqamsiz yakuniy dars bo‘lib chiqdi,soxta73yaratilmadi.
+Keyingi§47,path6,PDF15–16/bosma14–15,fullbodyviewed,notauthored.
+Yangi default-offpairedlocalQAflag ikkalaSHA va43real oldingi darsni talab qiladi.
+[Haqiqiy testlar](QA_REPORT.md),[checkpoint](checkpoints/grade2_part2_batch1.json),
+[IIqismlokalQA](GRADE2_PART2_LOCAL_QA.md). Global1–11kurs hali tugallanmagan.
+
+| Manba | Path | PDF | Bosma | Joriy holat |
+|---|---|---|---|---|
+|42|1|5–6|4–5|Lokal dars|
+|43|2|7–8|6–7|Lokal dars|
+|44|3|9–10|8–9|Lokal dars|
+|45|4|11–12|10–11|Lokal dars|
+|46|5|13–14|12–13|Lokal dars|
+|47|6|15–16|14–15|Faqat chegara tekshirilgan,dars yo‘q|
+|48|7|17–18|16–17|Faqat chegara tekshirilgan,dars yo‘q|
+|49|8|19–20|18–19|Faqat chegara tekshirilgan,dars yo‘q|
+|50|9|21–22|20–21|Faqat chegara tekshirilgan,dars yo‘q|
+|51|10|23–24|22–23|Faqat chegara tekshirilgan,dars yo‘q|
+|52|11|25–26|24–25|Faqat chegara tekshirilgan,dars yo‘q|
+|53|12|27–28|26–27|Faqat chegara tekshirilgan,dars yo‘q|
+|54|13|29–30|28–29|Faqat chegara tekshirilgan,dars yo‘q|
+|55|14|31–32|30–31|Faqat chegara tekshirilgan,dars yo‘q|
+|56|15|33–34|32–33|Faqat chegara tekshirilgan,dars yo‘q|
+|57|16|35–36|34–35|Faqat chegara tekshirilgan,dars yo‘q|
+|Raqamsiz|17|37–38|36–37|Faqat chegara tekshirilgan,dars yo‘q|
+|58|18|39–40|38–39|Faqat chegara tekshirilgan,dars yo‘q|
+|59|19|41–42|40–41|Faqat chegara tekshirilgan,dars yo‘q|
+|60|20|43–44|42–43|Faqat chegara tekshirilgan,dars yo‘q|
+|61|21|45–46|44–45|Faqat chegara tekshirilgan,dars yo‘q|
+|62|22|47–48|46–47|Faqat chegara tekshirilgan,dars yo‘q|
+|63|23|49–50|48–49|Faqat chegara tekshirilgan,dars yo‘q|
+|64|24|51–52|50–51|Faqat chegara tekshirilgan,dars yo‘q|
+|65|25|53–54|52–53|Faqat chegara tekshirilgan,dars yo‘q|
+|66|26|55–56|54–55|Faqat chegara tekshirilgan,dars yo‘q|
+|67|27|57–58|56–57|Faqat chegara tekshirilgan,dars yo‘q|
+|68|28|59–60|58–59|Faqat chegara tekshirilgan,dars yo‘q|
+|69|29|61–62|60–61|Faqat chegara tekshirilgan,dars yo‘q|
+|70|30|63–64|62–63|Faqat chegara tekshirilgan,dars yo‘q|
+|71|31|65–66|64–65|Faqat chegara tekshirilgan,dars yo‘q|
+|72|32|67–68|66–67|Faqat chegara tekshirilgan,dars yo‘q|
+|Raqamsiz|33|69–70|68–69|Faqat chegara tekshirilgan,dars yo‘q|
+|Raqamsiz|34|71–77|70–76|Faqat chegara tekshirilgan,dars yo‘q|
+
+Barcha73body sahifasining header/footeri ko‘rildi,birinchi10sahifaning to‘liq mazmuni authoring uchun ko‘rildi.
+Mundarija34nomzodini actualbody34bilan faqat son orqali tenglashtirmang:identity73farqi qayd etilgan.
+Mantiqiy to‘plamning ichki mashqlari to‘liq o‘qilmagani uchun soni taxmin qilinmagan.

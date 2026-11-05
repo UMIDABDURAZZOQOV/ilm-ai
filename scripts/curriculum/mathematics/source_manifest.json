@@ -258,18 +258,41 @@
         "publisher": "Novda Edutainment",
         "year": 2023,
         "isbn": "978-9943-9703-6-6",
-        "verification": "extracted_not_yet_visually_confirmed",
+        "verification": "title_copyright_and_toc_images_reviewed_author_distinction_preserved",
         "isbn13_checksum_valid": true
       },
-      "topic_count": null,
-      "curriculum_map_status": "pending_full_body_review",
+      "topic_count": 34,
+      "curriculum_map_status": "34actual_boundary_units_31numbered_2summary_1logical_5original_lessons_toc73mismatch",
       "segment": {
         "original_pdf_pages": [
           1,
           82
         ],
         "kind": "complete_supplied_file"
-      }
+      },
+      "body_topic_count": 34,
+      "authored_lessons": 5,
+      "source_gaps": [
+        {
+          "kind": "toc_body_heading_mismatch",
+          "toc_source_number": 73,
+          "toc_printed_page": 68,
+          "toc_title": "Soatlar va minutlar ishtirok etgan ifodalarni hisoblash",
+          "actual_pdf_pages": [
+            69,
+            70
+          ],
+          "actual_printed_pages": [
+            68,
+            69
+          ],
+          "actual_heading": "Mavzu bo‘yicha yakuniy dars",
+          "actual_topic_id": "math-g2-p2-unnumbered_summary-68",
+          "verification": "toc_and_body_heading_images_reviewed",
+          "ready": false,
+          "note": "No numbered73body invented. Actual unnumbered summary retained;intent of missing numbered TOC heading unverified."
+        }
+      ]
     },
     {
       "book_id": "math-uz-g2-p3",
