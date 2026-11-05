@@ -1,5 +1,51 @@
 # 2-sinf II qism — joriy manba va darslar
 
+## Checkpoint211 — 2026-11-06
+
+25/34 lokal dars,9birlik qolgan.31raqamlangan+2summary+1logical. TOC73actualraqamsizsummary.
+Keyingi§66/path26/PDF55–56/bosma54–55;harfiy ifodalar. Handoff:431kgxomashyo sarfi,kraxmal chiqimi noma’lum.
+
+|Manba|Path|PDF|Bosma|Holat|
+|---|---|---|---|---|
+|42|1|5–6|4–5|Lokal dars|
+|43|2|7–8|6–7|Lokal dars|
+|44|3|9–10|8–9|Lokal dars|
+|45|4|11–12|10–11|Lokal dars|
+|46|5|13–14|12–13|Lokal dars|
+|47|6|15–16|14–15|Lokal dars|
+|48|7|17–18|16–17|Lokal dars|
+|49|8|19–20|18–19|Lokal dars|
+|50|9|21–22|20–21|Lokal dars|
+|51|10|23–24|22–23|Lokal dars|
+|52|11|25–26|24–25|Lokal dars|
+|53|12|27–28|26–27|Lokal dars|
+|54|13|29–30|28–29|Lokal dars|
+|55|14|31–32|30–31|Lokal dars|
+|56|15|33–34|32–33|Lokal dars|
+|57|16|35–36|34–35|Lokal dars|
+|Raqamsiz summary|17|37–38|36–37|Lokal dars|
+|58|18|39–40|38–39|Lokal dars|
+|59|19|41–42|40–41|Lokal dars|
+|60|20|43–44|42–43|Lokal dars|
+|61|21|45–46|44–45|Lokal dars|
+|62|22|47–48|46–47|Lokal dars|
+|63|23|49–50|48–49|Lokal dars|
+|64|24|51–52|50–51|Lokal dars|
+|65|25|53–54|52–53|Lokal dars|
+|66|26|55–56|54–55|Asl sahifalar ko‘rildi,dars yo‘q|
+|67|27|57–58|56–57|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+|68|28|59–60|58–59|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+|69|29|61–62|60–61|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+|70|30|63–64|62–63|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+|71|31|65–66|64–65|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+|72|32|67–68|66–67|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+|Raqamsiz summary|33|69–70|68–69|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+|Mantiqiy to‘plam|34|71–77|70–76|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+
+## Saqlangan oldingi checkpointlar
+
+# 2-sinf II qism — joriy manba va darslar
+
 ## Checkpoint206 — 2026-11-06
 
 20/34lokal dars,14birlik qolgan. Actual31numbered+2summary+1logical;TOC73actualraqamsiz yakuniy dars. Iqismmissing25saqlangan.

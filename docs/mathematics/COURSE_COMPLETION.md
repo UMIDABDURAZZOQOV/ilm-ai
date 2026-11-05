@@ -1,5 +1,11 @@
 # Matematika kursi — hali tugallanmagan
 
+## 2026-11-06 — checkpoint 211
+
+211 lokal dars/1271 karta/1666 savol. IIqism 25/34;9 birlik qolgan. Sessiyada 20 yangi dars.
+Keyingi§66/path 26/PDF 55–56/bosma 54–55:harfiy ifodalar. Xomashyo sarfi 431 kgkraxmal chiqimi emas;source-reviewni o‘qing.
+[Haqiqiy testlar](QA_REPORT.md). Butun 1–11 kurs/Android/pedagogik tasdiq tugallanmagan. Production o‘zgarmadi.
+
 ## 2026-11-06 — checkpoint 206
 
 206 lokal dars/1241 karta/1626 savol. IIqism 20/34;14 birlik qolgan. Sessiyada 15 yangi dars qo‘shildi.

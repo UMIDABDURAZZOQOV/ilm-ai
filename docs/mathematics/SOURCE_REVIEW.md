@@ -1,5 +1,11 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-06 — §61–65 va keyingi §66 noaniqligi
+
+PDF 45–54/bosma 44–53 ning 10 asl sahifasi tekshirildi;5 original dars.1 cm=10 mm,1 dm=100 mm;yo‘l perimetri,aniq raqam amali va qavs tarmoqlari mustaqil hisoblandi. Noaniq raster endpointlari yoki geografik scale taxmin qilinmadi. Ochiqso‘zi/abbreviaturaoralig‘i to‘g‘rilandi;004 savoli aniq sonliqiymat haqida.
+Keyingi§66,PDF 55–56/bosma 54–55 hali dars emas. Task 8 rawpotato 750−476=274 kg,corn 280−123=157 kg,total 431 kg. Bu **sarflangan xomashyo**,tayyor kraxmal chiqimi emas. Kitob mahsulot chiqimnisbati yoki namlik/yo‘qotishlarini bermagan.431 kgni tayyor kraxmal sifatida avtomatik baholamang. Miqdoriy arifmetikani xomashyo sarfi sifatida originalizatsiya qiling yoki mahsulot miqdorini aniqlab bo‘lmasligini ayting;teacherreviewpending. Kimyofayllarini o‘zgartirmang.
+Bu IIqism bosma 54–55,Iqismdagi missing 54–55 bilan bir manba emas;SHA/part saqlanadi. Hozirgi 25 IIlesson vaoldingi 43 Ilesson progressi o‘zgarmaydi.
+
 ## 2026-11-06 — II qism §47–60 va raqamsiz summary
 
 PDF15–44/bosma14–43ning30asl sahifasi qayta ko‘rildi;15original dars. Source47jadvalidagi21→2H1T0U ataylab noto‘g‘ri dastur chiqishi,to‘g‘risi0H2T1U;bu kitob erratumi deb belgilangan emas.

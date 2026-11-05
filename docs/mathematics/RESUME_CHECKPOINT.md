@@ -1,5 +1,62 @@
 # Matematika — davom checkpointi
 
+## 2026-11-06 — 2-sinf II qism §61–65: jami 211 lokal dars
+
+**211 dars, 1271 karta, 1666 savol, 211 misol / 633 qadam, 378 sonli tekshiruv.**
+Bu partiya: 5 dars, 30 karta, 40 savol, 5 misol / 15 qadam. Sessiyada to‘rt partiya: **20 yangi dars,121 karta,160 savol**.
+II qism **25/34**, qolgan 9 birlik: §66–72,ikkinchi raqamsiz yakuniy dars va mantiqiy mashqlar to‘plami.
+I qism 43/44; yo‘q §25/path 26/bosma 54–55 uchun dars,progress yoki XP yaratilmadi.
+1-sinf 143,2-sinf 68 lokal dars.3–11-sinflarning yangi mualliflik darslari hali 0. Butun 1–11 kurs tugallanmagan.
+
+|§|Path|PDF|Bosma|O‘quv maqsadi|
+|---|---|---|---|---|
+|61|21|45–46|44–45|1 cm=10 mm,1 dm=100 mm; nol xonalari,yorliqli uzunlik|
+|62|22|47–48|46–47|Aralash mmamallari;chizma va real masofa farqi|
+|63|23|49–50|48–49|Ochiq/yopiq yo‘l;bo‘g‘in,uch,perimetr|
+|64|24|51–52|50–51|Aniq son/raqam/rang o‘zgartirish qoidasi;teskari amal|
+|65|25|53–54|52–53|Ifoda/qiymat;qavs va ikki tarmoqli hisob|
+
+Asl 10 sahifa qayta ko‘rildi. Original 341 mm,101/110 mm,632−278=354 mm,30/20 mmyo‘l,
+624→264/426 va 400→004→4,240+167−(500−238)=145 mustaqil tekshirildi.
+Chizmadagi masofadan real shahar yo‘li masshtabsiz chiqarilmadi. Ekran fizik chizg‘ich emas.
+Qizil kitob sonlari,hasharot o‘lchovlari,ob-havo o‘rtachasi yoki suzish hodisasi universal real fakt deb o‘rgatilmadi.
+Rangni o‘zgartirish sonni oshirish emas; raqamlar almashuvida aynan qaysi xona ekani aytiladi.
+400 dan 004 yozuvi olingach savol uning **sonli qiymati** haqida;exact-numbergrader canonicalyozuvni majburlamaydi.
+Ochiq so‘zi va birliklar oralig‘i yakuniy matnda tuzatildi; baholash javoblari o‘zgarmadi.
+
+Flutter: mavjudmetr modelini birliklarga mos qayta ishlatish (dm/cm/mm),originalbir masshtabli ochiq/yopiq yo‘l,
+aniq raqam/son amali va qavs tarmoqlari. `_metricLabel`eski m/dm/cmko‘rinishini ham saqlaydi.
+172 asosiy model,qo‘shimcha karta variantlari bilan 175 tur. Ilmo va brend o‘zgarmadi.
+Normalmain,katalog,OAuth,APIv 1,servergrader va oldingi ikkala default-offQAflag/prerequisite shartlari saqlandi.
+
+Haqiqiy yakuniy tekshiruvlar:
+
+- Backend partiya/oldingi partiya/CLI-source: **20 passed 156.88 s**. Yakuniy matndan keyin yangi partiya,QAflag/UID/revocation,oldingi grade-scope va Biology/Physics/OAuth: **44 passed 221.06 s**.
+- PostgreSQL yakuniy matn bilan: **1 passed 199.30 s**,barcha 211 dars;seed 137 XP→2247;replay 0,parallel reward,UID,streak,takror import. O‘z random schema olib tashlandi;konteyner to‘xtatildi.
+- Flutter: **67 passed 56 s**,barcha 25 IIqism darsi va modellar. Yakuniy publicSQLiteDTO bilan yangi partiya yana **7 passed 16 s**. Metr+millimetr model testlari alohida **10 passed 4 s**.320 px/200%matn/ReduceMotion.
+- Analyze: **0 issue 3.0 s**. DebugJSweb: **63.3 s**. Bu Android/browser/API sinovi emas.
+- Sourceaudit: **23 PDF/2958 sahifa,211 mavzu/427 asosiy sahifa**;yangi 10 manba pinlari/PDF-bosma mappingi tasdiqlandi.
+- Ruff/format/whitespace,publicfixtureprivacy o‘tdi. Oldingi 87 kontent/manba fayli va 5 himoyalangan worktree o‘zgarmadi.
+
+Joriy 211 uchun butunbackend/Flutter suite qayta bajarilmadi;oldingi 196 Flutterfull 762 passed 7:27.
+Oldingi fullbackenddagi grade-filter test xatosi tuzatilgan va tegishli 14 test yakuniy 44 ichida qayta o‘tdi.
+Yangi Dart curly-brace linti tuzatildi. Testlar bajarilmagan umumiy yoki Android holatlari tayyor deb ko‘rsatilmagan.
+
+O‘zgargan modullar: `grade2_part2_batch5.json`,review,map/manifest/inventory,BATCHES/EXPLORERS;
+`metric_length_explorer.dart`,`operation_path_explorer.dart`,model/repository ro‘yxatlari;
+haqiqiypublicSQLiteDTOfixture,backendliteral/API/PG vaFlutterregressionlar. Yangi grader yoki runtimeDBschema qo‘shilmadi.
+Veb-sayt,boshqa fanlar,main va production o‘zgarmadi. PDF/rasm/OCR/credentialGitga kiritilmadi.
+
+**Aniq davom nuqtasi: §66,path 26,PDF 55–56/bosma 54–55,harfiy ifodalar/o‘zgaruvchilar.** Ikkala asl sahifa ko‘rildi;dars hali yozilmagan.
+Bu IIqismning bosma 54–55 sahifalari;ular Iqismdagi yo‘q 54–55 o‘rnini bosmaydi. KitobSHA/part vaIDlar alohida.
+Source 66 task 8:750→476 kgkartoshkadan 274 kg,280→123 kgmakkajo‘xoridan 157 kgxomashyo sarflangan;431 kg —xomashyo sarfi.
+**Kraxmal mahsulot chiqimi berilmagan.431 kgni kraxmal javobi deb belgilamang.** Reviewda noaniqlik saqlandi;originalxomashyo/inventory arifmetikasi yoki aniqlab bo‘lmaydigan mahsulot savoli sifatida ajrating.
+Kimyo branchiga tegmang. Ruxsat etilgan oddiy ishlar uchun yangi tasdiq kutilmaydi;keyingi darslar aynan shu joydan davom etadi.
+
+Globaljami/qolgan mavzular soni noma’lum.9 Algebra/11 Iqismtransfer 32 MiBbloklangan;6 IIva 7–10 Geometriyamanbalari yetishmaydi.
+O‘qituvchi/o‘quvchi piloti,2026–27 moslik,realAndroid/TalkBack va standaloneCLIpositive tasdiqsiz;course_ready=false.
+Productiondeploy/import/migratsiya,mainmerge yoki nashr bajarilmadi.
+
 ## Git checkpoint206 — 2026-11-06
 
 Backend kod/kontent: `f3724cbc92391328e7f23656f78b7b6798182abb`; Flutter: `7976cbb031effa26da074c2bf14c0b02370fe5b8`.
