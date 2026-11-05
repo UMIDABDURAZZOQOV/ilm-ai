@@ -1,5 +1,7 @@
 # 2-sinf I qism — manba xaritasi va davom nuqtasi
 
+Joriy 2026-11-05: 15 interaktiv birlik. Oldingi yuqori qaydlar tarix. Keyingi path16, manba16, PDF[35, 36], bosma[34, 35].
+
 Joriy: §1–10 tayyor; keyingi §11, PDF25–26/bosma24–25. Pastdagi §6–10 review qaydlari tarix; ular partiya2da original kontent va testlar bilan qamrab olindi.
 
 2026-11-05. Berilgan PDF100 sahifa; SHA-256 `31124258de8a1432c1ce15006ff6465f818cf9c10fa86cbaf5dc6566c4c64f54`.
@@ -33,11 +35,11 @@ Jami10 lokal dars tayyor,34 birlik qoldi:33 mavjud tana,1 manbasi yo‘q birlik.
 |8|8|Takrorlash|19–20|18–19|lokal sinovga tayyor|
 |9|9|Sonlarni qo‘shish va ayirish|21–22|20–21|lokal sinovga tayyor|
 |10|10|Sonlarni qo‘shish va ayirish|23–24|22–23|lokal sinovga tayyor|
-|11|11|Yaxlit songacha qo‘shish (31 + 9)|25–26|24–25|faqat chegara review|
-|12|12|Yaxlit songacha qo‘shish (31 + 9)|27–28|26–27|faqat chegara review|
-|13|13|Yaxlit sondan ayirish|29–30|28–29|faqat chegara review|
-|14|14|Sonlarni ayirish (30 − 7)|31–32|30–31|faqat chegara review|
-|15|15|Sonlarni qo‘shish (21 + 39)|33–34|32–33|faqat chegara review|
+|11|11|Yaxlit songacha qo‘shish (31 + 9)|25–26|24–25|lokal sinovga tayyor|
+|12|12|Yaxlit songacha qo‘shish (31 + 9)|27–28|26–27|lokal sinovga tayyor|
+|13|13|Yaxlit sondan ayirish|29–30|28–29|lokal sinovga tayyor|
+|14|14|Sonlarni ayirish (30 − 7)|31–32|30–31|lokal sinovga tayyor|
+|15|15|Sonlarni qo‘shish (21 + 39)|33–34|32–33|lokal sinovga tayyor|
 |16|16|Sonlarni qo‘shish (21 + 39)|35–36|34–35|faqat chegara review|
 |17|17|Ayirish (50 − 22)|37–38|36–37|faqat chegara review|
 |18|18|Ayirish (50 − 22)|39–40|38–39|faqat chegara review|

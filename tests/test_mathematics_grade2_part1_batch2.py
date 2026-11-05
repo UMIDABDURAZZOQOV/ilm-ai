@@ -105,11 +105,11 @@ def test_grade_choice_prerequisites_progress_replay_and_uid_isolation(preview):
     cat = client.get(first.P + "/catalog", params={"grade": 2}).json()
     assert cat["grade"] == 2 and cat["previous_book_complete"]
     assert cat["book"]["source_topic_count"] == 44
-    assert cat["book"]["implemented_sections"] == 10
+    assert cat["book"]["implemented_sections"] == len(cat["lessons"])
     assert cat["book"]["source_gaps"][0]["missing_printed_pages"] == [54, 55]
     assert [l["state"] for l in cat["lessons"]] == ["completed"] * 5 + ["available"] + [
         "locked"
-    ] * 4
+    ] * (len(cat["lessons"]) - 6)
     assert (
         client.post(
             first.P + "/lessons/math-2-1-7-r1/start",
@@ -132,7 +132,9 @@ def test_grade_choice_prerequisites_progress_replay_and_uid_isolation(preview):
         params={"grade": 2},
         headers={"Authorization": "Bearer " + tokens.create_access_token(2)},
     ).json()
-    assert [l["state"] for l in other["lessons"]] == ["available"] + ["locked"] * 9
+    assert [l["state"] for l in other["lessons"]] == ["available"] + ["locked"] * (
+        len(other["lessons"]) - 1
+    )
     with factory() as db:
         assert db.query(MathProgress).filter_by(user_id=1).count() == 10
         assert db.get(User, 1).xp_total == 237 and db.get(User, 2).xp_total == 0

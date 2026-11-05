@@ -1,5 +1,45 @@
 # Matematika QA — tekshirilgan checkpointlar
 
+## 2026-11-05 — 2-sinf I qism: path 11–15, jami 158 lokal dars
+
+Yangi partiya: **5 dars, 30 karta, 40 savol, 5 misol/15 qadam**.
+Jami **158 dars, 932 karta, 1224 savol, 474 ishlangan qadam, 272 sonli tenglik**.
+1-sinfning 143 darsi saqlandi. 2-sinf I qismda 15/44 birlik tayyor; 29 birlik qolgan,
+shundan 28 mavjud tana va §25ning bosma54–55 manbasi yo‘q bitta mavzu.
+
+| Manba | Path | Mavzu | PDF | Bosma |
+|---|---|---|---|---|
+|11|11|Yaxlit songacha qo‘shish (31 + 9)|25–26|24–25|
+|12|12|Yaxlit songacha qo‘shish (31 + 9)|27–28|26–27|
+|13|13|Yaxlit sondan ayirish|29–30|28–29|
+|14|14|Sonlarni ayirish (30 − 7)|31–32|30–31|
+|15|15|Sonlarni qo‘shish (21 + 39)|33–34|32–33|
+
+§11–15 original darslari va uchta yangi o‘nlik modeli qo‘shildi. Model o‘nta birlikni bir o‘nlikka va bitta o‘nlikni o‘nta birlikka almashtirishni bosqichma-bosqich ko‘rsatadi. 100=10o‘nlik chegarasi, misol almashganda qadam reseti, oldingi qadamga qaytish va miqdor saqlanishi testlandi. Raqam yozish bilan nol qo‘shish, yaxlit natijalarni filtrlash, shartli taqvim, diagramma masshtabi va perimetr mustaqil savollarda tekshirildi. Source15formulasi kattalashtirilgan asl tasvirda32+28=60 ekanligi tasdiqlandi; past sifatli ko‘rinishdagi2/1 noaniqligi ilmiy xato deb e’lon qilinmadi. Barcha avvalgi153dars saqlandi.
+
+Haqiqiy tekshiruvlar:
+
+- Math full: 207 passed,1 skipped512.78s.
+- Backend targeted: 30passed20.38s including grade2I1–15 literal answers, wrong answers, source identities, coreAPI and progress.
+- PostgreSQL: 1passed67.84s;all158 lessons,seed137XP→1717,replay0,parallelreward/UID/streak/immutableimport;owned random schema removed.
+- Flutter targeted: 10passed13s;5fullflows320px/200percent/ReduceMotion,DTO/source-gap and3regroupingmodel invariants.
+- Flutter full: 675passed5:39.
+- Analyze: 0issues3.2s after braces and unused test helper cleanup.
+- Web: debugJS40.3s;localURL,invalidcompile-onlytoken;notAndroid/browser/APItest.
+- Protected: Biology/Physics/mobileOAuth11passed50.06s.
+- Source: 23PDF2958pages;158reviewed authored topics316bodypages;2I15/44ready;missing25unready.
+- Quality: Ruff/format/whitespace passed;prior153JSONcontent immutable;public API fixture privacy passed.
+
+**Keyingi: path 16, manba 16 «Sonlarni qo‘shish (21 + 39)», PDF 35–36, bosma 34–35.**
+
+Butun 1–11 kurs tugallanmagan; barcha sinflarning jami/qolgan mavzu soni noma’lum.
+Mustaqil pedagog, o‘quvchi piloti, 2026–27 rasmiy dastur va real Android/TalkBack tasdiqlanmagan.
+Faqat alohida lokal/test preview; normalapp/OAuth/umumiy katalog/frontend va production o‘zgarmadi.
+Boshqa fanlar va oldingi darslarning kontenti saqlandi. PDF/rasm/OCR/credential Gitga kiritilmadi.
+Main merge, production DB/import/migratsiya/deploy/nashr bajarilmadi.
+[Manba qamrovi](GRADE2_PART1_PROGRESS.md), [checkpoint](checkpoints/grade2_part1_batch3.json).
+
+
 ## 2026-11-05 — 2-sinf I qism §6–10: jami 153 lokal dars
 
 Yangi partiya: **5 dars, 30 karta, 40 savol, 5 misol/15 qadam, 10 sonli tenglik**.
