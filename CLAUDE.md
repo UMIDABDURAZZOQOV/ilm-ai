@@ -1,5 +1,39 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-06 — Beta unified identity and catalogue QA
+
+Work remains in `feat/beta-subject-switch-ai-help`; main, production and subject
+branches are unchanged. Flutter now consumes the existing unfiltered subject
+catalogue in onboarding/main/quick switch, keeping unsupported grades visible
+and locked. `/beta/skills/subjects` already derives `grades` from ready lesson
+content; no catalogue data, source validation or database schema was changed.
+Live verified ranges: Biology 5–11, Physics/World history 6–11, Chemistry/
+Uzbekistan history 7–11; mathematics/native language remain unavailable.
+
+Google OAuth now resolves verified provider `sub` before legacy verified-email
+linking, so changed email/display name reuses the existing account/progress.
+Conflicting provider IDs and ambiguous legacy identities fail closed. The
+provider URL requests account choice. Existing state, PKCE, verified-email,
+refresh, ownership and local Beta authentication gates remain. Google is still
+unconfigured; the single Flutter registration action honestly uses the runtime
+installation credential on this local server. It does not claim Google account
+selection or cross-device restoration. No real AI key is configured.
+
+Validation: **53 passed** in `identity-acceptance-20261106.log` (disposable SQLite;
+new/reused/different identity, changed email, ambiguous ID, account choice and
+existing auth/PKCE/refresh/ownership/grading regressions). **14 passed, 12 deselected**
+in `grade-lock-backend-final.log` (owned copied SQLite Beta/help tests; PostgreSQL
+not run). Both have one existing Starlette/httpx deprecation warning. Earlier
+new-test failures were reused OAuth-state fixtures, fixed with unique test state;
+no replay protection was weakened.
+
+Local server was resumed from `../ilm-ai-beta-local` on loopback 8930; health
+returned `ok / integrated_beta`. Current operational PID, final APK/code receipt,
+read-only endpoint checks and restart progress fingerprints are recorded in
+central `../ilm-ai/CLAUDE.md` and local artifacts. ADB currently lists no phone;
+do not claim installation or optimized handset performance acceptance.
+
+
 ## 2026-10-31 22:16 +05 — Lokal backend va haqiqiy Samsung tayyor
 
 `STUDY_HELP_ACCEPTANCE.md` to‘liq, original `ilm-ai/CLAUDE.md`ning tegishli

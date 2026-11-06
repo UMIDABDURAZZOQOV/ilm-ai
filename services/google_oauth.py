@@ -5,7 +5,7 @@ from starlette.concurrency import run_in_threadpool
 from typing import Tuple
 from authlib.integrations.starlette_client import OAuth
 from fastapi import Request, HTTPException
-from services.users import find_user_by_email, create_user_with_oauth
+from services.users import find_user_by_email, find_user_by_oauth, create_user_with_oauth
 from services.tokens import create_access_token, create_refresh_token
 
 GOOGLE_TOKEN_URL = "https://oauth2.googleapis.com/token"
@@ -73,6 +73,7 @@ async def get_google_auth_url(request: Request, redirect_uri: str, challenge: st
         'scope': 'openid email profile',
         'state': state,
         'access_type': 'offline',
+        'prompt': 'select_account',
     }
     auth_url = auth_endpoint + '?' + urllib.parse.urlencode(params)
     return (auth_url, state)
@@ -142,10 +143,13 @@ async def handle_google_callback(request: Request, redirect_uri: str, mobile: bo
         google_id = user_info.get('sub')
         picture = user_info.get('picture', '')
 
-        # Check if user exists by email
-        existing_user = find_user_by_email(email)
+        # Google's verified subject is stable even when email/display name changes.
+        # Preserve the existing verified-email linking path for older accounts.
+        existing_user = find_user_by_oauth('google', google_id) or find_user_by_email(email)
 
         if existing_user:
+            if existing_user.get('oauth_provider') not in (None, '', 'google'):
+                raise HTTPException(400, "Google identity does not match this account")
             if (existing_user.get('oauth_provider') == 'google' and
                     existing_user.get('oauth_provider_id') and
                     existing_user['oauth_provider_id'] != google_id):
@@ -153,7 +157,7 @@ async def handle_google_callback(request: Request, redirect_uri: str, mobile: bo
             # User exists, generate tokens for existing user
             user_id = existing_user['id']
             # Update OAuth provider info if not set
-            if not existing_user.get('oauth_provider'):
+            if not existing_user.get('oauth_provider') or not existing_user.get('oauth_provider_id'):
                 from services.users import update_user_oauth_info
                 update_user_oauth_info(user_id, 'google', google_id, picture)
             # Existing users who never went through onboarding still need a name+age.

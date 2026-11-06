@@ -113,6 +113,29 @@ def find_user_by_email(email: str) -> Optional[Dict[str, Any]]:
     return next((u for u in _load_users_from_file() if u.get("email") == email), None)
 
 
+def find_user_by_oauth(provider: str, provider_id: str) -> Optional[Dict[str, Any]]:
+    """Resolve a verified provider identity independently of mutable email/name.
+
+    Ambiguous legacy data fails closed rather than selecting another learner.
+    """
+    if not provider or not provider_id:
+        return None
+    if USE_DB:
+        with SessionLocal() as db:
+            rows = db.query(UserModel).filter(
+                UserModel.oauth_provider == provider,
+                UserModel.oauth_provider_id == provider_id,
+            ).limit(2).all()
+            if len(rows) > 1:
+                raise ValueError('ambiguous_oauth_identity')
+            return {c: getattr(rows[0], c) for c in rows[0].__table__.columns.keys()} if rows else None
+    rows = [u for u in _load_users_from_file()
+            if u.get('oauth_provider') == provider and u.get('oauth_provider_id') == provider_id]
+    if len(rows) > 1:
+        raise ValueError('ambiguous_oauth_identity')
+    return rows[0] if rows else None
+
+
 def find_user_by_id(user_id: int) -> Optional[Dict[str, Any]]:
     if USE_DB:
         db = SessionLocal()

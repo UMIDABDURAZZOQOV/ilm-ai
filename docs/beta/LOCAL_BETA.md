@@ -1,5 +1,12 @@
 # ILM AI Beta — lokal telefon sinovi
 
+2026-11-06: Beta registration now has one main action. Unconfigured Google is
+explicitly identified; local device identity, secure tokens and saved progress
+are reused. Google provider lookup uses verified `sub` first and requests an
+account chooser once staging OAuth is configured. All subject cards remain
+visible for every selected grade; readiness grades come from the existing full
+catalogue. See Flutter `docs/BETA_GRADE_AVAILABILITY.md` and central CLAUDE.md.
+
 **2026-10-31 yangilanish:** joriy alohida branch `feat/beta-subject-switch-ai-help`.
 Learn ichida Fanlar orqali tez fan/sinf almashtirish va savolga bog‘langan
 manbali izoh/chat ulandi. Haqiqiy AI token hozir yo‘q; tokensiz rejim aniq
