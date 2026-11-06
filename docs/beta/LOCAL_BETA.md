@@ -21,7 +21,7 @@ lokal beta hamda sozlash talablarini tayyorlashni so‘radi.
 
 - Backend: `C:\Users\Page\Desktop\Projects\ilm-ai-beta`.
 - Flutter: `C:\Users\Page\Desktop\Projects\ilm-ai-flutter-beta`.
-- Ikkalasining branchi: `beta/android-integrated-five-subjects`.
+- Ikkalasining joriy branchi: `feat/beta-subject-switch-ai-help`.
 - Android package: `com.ilmai.app.beta`, nomi **ILM AI Beta**.
 - Asosiy entrypoint: `lib/main.dart`; odatiy ILM AI splash/onboarding/navigatsiya.
 - API: `http://127.0.0.1:8930`; faqat loopback. LAN/tashqi proxy bloklangan.
@@ -69,8 +69,12 @@ lokal server ishlagan va reverse ulanishi mavjud paytda onlayn mashqlarni ishlat
 
 ## Kirish va odatiy foydalanish
 
-Til → Ilmo/onboarding → login ekranida **Ichki beta orqali davom etish**.
-Google tugmasi mavjud, lekin uning hali sozlanmagani aniq yozilgan.
+Til → Ilmo welcome → bitta **RO‘YXATDAN O‘TISH** tugmasi.
+Google sozlangan bo‘lsa mavjud provayder oqimi ochiladi. Hozir sozlanmaganligi
+va shu qurilmadagi ichki Beta akkaunti ishlatilishi ekranda aniq yoziladi.
+Yangi akkaunt autentifikatsiyadan keyin onboardingni tugatadi; avval tugatgan
+akkaunt Learn ekraniga kiradi. Haqiqiy saqlangan sessiya kirish ekranini chetlab
+o‘tadi. Alohida “Menda akkaunt bor” yoki ikkinchi Google/local auth tugmasi yo‘q.
 QA pairing kodi yoki alohida QA bosh menyusi yo‘q.
 
 Ilova birinchi kirishda qurilmaning xavfsiz xotirasiga tasodifiy credential
@@ -92,7 +96,7 @@ tasdiqlangan javoblar va XP server bazasida saqlanadi.
 | O‘zbekiston tarixi | 7–11 | 172 |
 | Jahon tarixi | 6–11 | 219 |
 
-Matematika/Ona tili — **Tez kunda**, kirish o‘chirilgan. Biologiyada FRQ yo‘q;
+Matematika/Ona tili ham ko‘rinadi — **Hozircha mavjud emas**, qulf bilan. Biologiyada FRQ yo‘q;
 uning mavjud v1 nazariya/MCQ tizimi saqlangan. Qolgan fanlarda faqat avvalgi
 tekshirilgan, mavzuga tegishli FRQ va editorlar ishlatiladi. Yangi AI kontent yo‘q.
 Tarixdagi ochiq mulohaza vazifalari avtomatik baholanadi deb ko‘rsatilmaydi.
