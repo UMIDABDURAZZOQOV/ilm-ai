@@ -122,27 +122,20 @@ def test_biology_lesson_and_daily_use_owned_issued_reviewed_questions(beta_api):
 
 def test_provider_output_is_only_whitelisted_evidence_and_no_environment_key(monkeypatch):
     from services.study_help import HelpRequest, respond, configure_provider
-    import sys
-    from types import SimpleNamespace
     from services import study_help
     context=dict(subject='kimyo',grade=7,source_refs=[{'book_id':'reviewed','printed_pages':[5]}],
         evidence=[{'id':'e1','kind':'feedback','text':'Verified explanation','source_refs':[{'printed_pages':[5]}]}])
     request=HelpRequest(subject='kimyo',grade=7)
     configure_provider()
     monkeypatch.setenv('OPENAI_API_KEY','must-not-be-used')
-    monkeypatch.setitem(sys.modules,'openai',None)
     assert respond(context,request)['provider_status']=='unconfigured'
-    class FakeClient:
-        def __init__(self,**kwargs): self.chat=SimpleNamespace(completions=self)
-        def __enter__(self): return self
-        def __exit__(self,*args): pass
-        def create(self,**kwargs):
-            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps({'ids':['invented']})))])
-    monkeypatch.setitem(sys.modules,'openai',SimpleNamespace(OpenAI=FakeClient))
-    monkeypatch.setattr(study_help,'_provider',{'api_key':'unit-test-only','model':'configured-model'})
+    class FakeSelector:
+        def select(self,context):
+            return ['invented']
+    monkeypatch.setattr(study_help,'_provider',FakeSelector())
     result=respond(context,request)
     assert result['provider_status']=='unavailable' and result['evidence']==context['evidence']
-    assert 'unit-test-only' not in json.dumps(result)
+    assert 'api_key' not in json.dumps(result)
 
 
 def test_request_bounds_and_private_configuration(tmp_path):
@@ -153,3 +146,27 @@ def test_request_bounds_and_private_configuration(tmp_path):
         with pytest.raises(ValidationError): HelpRequest(**kwargs)
     configure_provider()
     with pytest.raises(ValueError): configure_provider(__file__)
+
+
+@pytest.mark.parametrize('ids', [['missing'], ['e1', 'e1'], 'e1', [1], ['e1'] * 13, None])
+def test_invalid_selected_ids_never_replace_reviewed_evidence(monkeypatch, ids):
+    from services import study_help
+    class Selector:
+        def select(self, context):
+            return ids
+    monkeypatch.setattr(study_help, '_provider', Selector())
+    evidence = [dict(id='e1', kind='feedback', text='Reviewed grader explanation', source_refs=[{'page': 5}])]
+    selected, status = study_help.select_evidence(dict(evidence=evidence), 'private student message', 'uz')
+    assert selected == evidence and status == 'unavailable'
+
+
+def test_valid_selection_preserves_required_grader_feedback(monkeypatch):
+    from services import study_help
+    class Selector:
+        def select(self, context):
+            return ['e2']
+    monkeypatch.setattr(study_help, '_provider', Selector())
+    evidence = [dict(id='e1', kind='feedback', text='Reviewed feedback'),
+                dict(id='e2', kind='cards', text='Reviewed teaching material')]
+    selected, status = study_help.select_evidence(dict(evidence=evidence), 'ignored free-form text', 'uz')
+    assert selected == evidence and status == 'selected'

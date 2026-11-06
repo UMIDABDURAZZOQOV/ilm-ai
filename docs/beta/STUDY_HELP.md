@@ -1,5 +1,18 @@
 # Beta: fan almashtirish va manbali izoh — 2026-10-31
 
+
+## 2026-11-06 - Provider configuration supersedes historical single-key instructions
+
+The user supplied Google AI Studio credentials. They were not used or saved;
+Gemini's under-18 client restriction prevents activating them in this school app.
+The optional existing OpenAI selector now requires a reviewed private config,
+not the historical api_key/model pair below. It never forwards student free-form
+messages/answers/IDs or accepts generated prose. Bounded standby on authorized
+transport/service failures is tested; quota/rate errors pause/fall back instead
+of sweeping accounts. Read [AI provider readiness](AI_PROVIDER_READINESS.md)
+for exact configuration, limits, migration and production blockers. Older
+configuration/inference statements below are historical and superseded.
+
 ## Audit va qabul qilingan yo‘l
 
 Branch: `feat/beta-subject-switch-ai-help`, backend va Flutter alohida beta
