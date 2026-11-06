@@ -1,5 +1,31 @@
 # AI provider readiness — 2026-11-06
 
+## Latest confirmed model: NVIDIA Muse Glimmer trial
+
+The user corrected the provider again and supplied the NVIDIA-hosted
+`meta/muse-glimmer-30b` page. The model, hosted endpoint and evaluation terms
+were verified in official documentation. Earlier Google/HF attributions below
+are superseded; the actual supplied credential issuer remains unverified.
+The old disclosed strings were not saved or transmitted and do not match this
+integration's supported NVIDIA Build `nvapi-` credential format. This is not a
+live rejection or proof of a different issuer.
+
+Optional **internal Beta only** NVIDIA adapter and hidden Windows provisioning
+are implemented. Private config supports 1–8 authorized standby keys, strict
+source-only input and evidence-ID output, no generated scientific prose, bounded
+transport and no quota/account hopping. Runtime and config both reject usage
+outside `ENVIRONMENT=test` + `ILM_BETA_ENABLED=true`. NVIDIA's linked trial
+terms §§1.2–1.4 exclude production; free hosted trial must not be enabled for
+Play release traffic. No paid partner or subscription was activated.
+
+See [NVIDIA setup/status](NVIDIA_TRIAL_SETUP.md) for verified endpoint, model,
+terms, credential handoff and exactly what remains blocked. New completed
+combined regression: **152 passed, 6 PostgreSQL cases deselected, 1 existing
+Starlette warning, 74.99s**; Ruff passed. Tests used synthetic credentials,
+mock HTTP and disposable SQLite copies. No actual inference or new APK.
+Server8930 was not restarted and remains source-fallback-only. No live provider
+integration, credential validation or production signoff is claimed.
+
 ## Latest user correction: provider identity remains unverified
 
 The user subsequently retracted the Google AI Studio identification and named

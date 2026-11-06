@@ -1,5 +1,45 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-06 — NVIDIA Muse Glimmer: internal Beta adapter, not live
+
+Latest user choice: use **one** NVIDIA key (provisioning default1). Fresh health8930 returned200/integrated_beta. No NVIDIA_API_KEY/NGC_API_KEY environment entry or expected private nvidia-trial.json was found; no secret was printed. Actual activation still awaits private credentials.
+
+The user corrected the issuer to NVIDIA and supplied the official model page
+https://build.nvidia.com/meta/muse-glimmer-30b . Model and exact hosted API
+https://integrate.api.nvidia.com/v1/chat/completions are confirmed. Earlier
+Google/HF identifications below are historical and superseded. The old exposed
+credential strings were never saved/transmitted. They are not in this adapter's
+supported NVIDIA Build nvapi- format; actual issuer/authentication is unverified.
+A new private NVIDIA config path has been requested; never request keys in chat.
+
+Implemented on isolated qa/play-release-audit-20261106: optional nvidia_trial
+selector, fixed Muse model/endpoint, reviewed source-only inputs and JSON IDs,
+no model prose/reasoning/tools, strict whitelist/local grader feedback preserved,
+1-8 authorized standby keys, <=2 bounded transport attempts and no quota hopping.
+429 pauses the whole pool,402/403 stop until operator reconfiguration. Config and
+runtime both require ENVIRONMENT=test + ILM_BETA_ENABLED=true, internal_evaluation
+and free_only=true. NVIDIA linked API Trial terms1.2-1.4 exclude production use.
+No paid partner, card, subscription, account quota rotation or Play activation.
+
+Windows configure_nvidia_trial.ps1 hides each key, rejects foreign/duplicate
+formats and writes only a new owner-ACL private folder outside Git. Actual API
+keys/config still not provisioned; no real network inference was performed.
+Technical provenance references are not automated legal/account verification.
+The separate Cloudflare adapter is an unused alternative; user has no account.
+
+Completed combined regression: **152 passed,6 PostgreSQL cases deselected,
+1 existing Starlette warning,74.99s**. NVIDIA,previous provider/config regressions,
+Windows real ACL/fake1-or8-key provisioning and disposable reviewed SQLite Beta
+feedback/source-ID/quota preservation passed. Ruff/whitespace checks passed.
+Earlier standalone126 tests overlap this run; do not sum. No full backend,
+Flutter/PG rerun,new APK,real provider acceptance or production readiness claim.
+
+Existing loopback8930 server not restarted; adapter code is not hot-reloaded.
+No production/backend deploy,Play upload,main/subject-branch or learner-progress
+write. Prior release NO-GO blockers remain. Details: backend docs/beta/
+NVIDIA_TRIAL_SETUP.md and AI_PROVIDER_READINESS.md. Local evidence:
+ilm-ai-beta-artifacts/nvidia-provider-regression-20261106.txt.
+
 ## 2026-11-06 — Free-only AI and corrected provider identity
 
 The user requires **free usage only** and authorized provider setup. They now

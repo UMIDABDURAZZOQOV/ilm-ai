@@ -45,7 +45,13 @@ def load_provider(filename):
         provider = data.get("provider")
         if provider == "cloudflare":
             expected |= {"account_id", "free_only", "free_plan_review_reference"}
-        if set(data) != expected or provider not in {"openai", "cloudflare"}:
+        if provider == "nvidia_trial":
+            expected |= {"free_only", "usage", "trial_review_reference"}
+        if set(data) != expected or provider not in {
+            "openai",
+            "cloudflare",
+            "nvidia_trial",
+        }:
             raise ValueError
         model, review, keys = (
             data["model"],
@@ -68,6 +74,20 @@ def load_provider(filename):
             raise ValueError
         if len(set(keys)) != len(keys):
             raise ValueError
+        if provider == "nvidia_trial":
+            from services.nvidia_study_help import NVIDIA_MODEL, trial_allowed
+
+            if (
+                not trial_allowed()
+                or data["free_only"] is not True
+                or data["usage"] != "internal_evaluation"
+                or model != NVIDIA_MODEL
+                or any(not k.startswith("nvapi-") for k in keys)
+                or not isinstance(data["trial_review_reference"], str)
+                or not data["trial_review_reference"].strip()
+                or len(data["trial_review_reference"]) > 500
+            ):
+                raise ValueError
         if provider == "cloudflare":
             from services.cloudflare_study_help import (
                 CloudflareEvidenceSelector,
@@ -90,6 +110,10 @@ def load_provider(filename):
         raise ValueError("invalid_private_ai_config_or_audience_not_reviewed") from None
     if provider == "cloudflare":
         return CloudflareEvidenceSelector(keys[0], data["account_id"])
+    if provider == "nvidia_trial":
+        from services.nvidia_study_help import NvidiaTrialEvidenceSelector
+
+        return NvidiaTrialEvidenceSelector(keys)
     return EvidenceSelector(keys, model)
 
 
