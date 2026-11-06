@@ -1,5 +1,48 @@
 # AI provider readiness — 2026-11-06
 
+## Latest user correction: provider identity remains unverified
+
+The user subsequently retracted the Google AI Studio identification and named
+Hugging Face. Treat the earlier attribution below as historical, not confirmed.
+No supplied credential has been transmitted or persisted. The disclosed strings
+do not match the documented `hf_` User Access Token format; this is a format
+mismatch, not a live authentication result and not proof of another issuer.
+See [HF access tokens](https://huggingface.co/docs/hub/security-tokens).
+An actual HF token in a private file and account/provider/model configuration
+are still needed before activation. Never guess the issuer or send credentials
+to several providers to discover which one accepts them.
+
+[HF pricing](https://huggingface.co/docs/inference-providers/pricing) currently
+documents $0.10 monthly free-user credits, subject to change. This is a limited
+experimentation allowance, not unlimited free production inference. No credit
+purchase, paid plan, custom-provider billing or automatic quota hopping is
+authorized by the user's free-only requirement. No HF adapter or live HF
+authentication/inference is claimed. The user also confirmed they have no
+Cloudflare account; its optional adapter is prepared infrastructure only.
+
+Validation of the optional adapter/private provisioning and existing reviewed
+study-help regression: **102 passed, 5 PostgreSQL cases deselected, 1 existing
+Starlette warning, 48.83s**. Transport used synthetic tokens and mocks; the beta
+fixture used a disposable SQLite backup opened from the existing owned source
+in read-only mode. No real provider call or phone-progress write. Ruff and
+whitespace checks passed. Earlier interrupted/fixture-order runs are superseded
+by this completed run; these counts overlap earlier suites and must not be added.
+
+## Free-only follow-up
+
+The user now explicitly requires no paid usage. A separate optional Cloudflare
+Workers AI adapter and private Windows provisioning helper are implemented;
+neither account signup nor real token provisioning has succeeded. No inference
+provider is enabled. The existing OpenAI configuration described below is
+historical optional infrastructure, not the selected free-only setup.
+
+Read [Cloudflare Free setup](CLOUDFLARE_FREE_SETUP.md) for the strict config,
+verified current public allowance, actual-plan verification requirement, scoped
+credential handoff, model/audience review and activation limits. A local
+`free_only` flag cannot certify the remote account's billing plan. Only a verified
+Workers Free account may be used. Quota exhaustion falls back to reviewed text;
+no card, tariff upgrade, prepaid credit, account rotation or paid fallback.
+
 ## Actual state and decision
 
 The user confirmed the supplied credentials belong to **Google AI Studio**.

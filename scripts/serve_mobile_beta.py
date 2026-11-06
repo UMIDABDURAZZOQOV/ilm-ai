@@ -150,7 +150,7 @@ def main():
     parser.add_argument('--resume',action='store_true')
     parser.add_argument('--port',type=int,default=8930)
     parser.add_argument('--oauth-config-file')
-    parser.add_argument('--ai-config-file', help='Audience-reviewed private OpenAI selector config outside checkout; omitted = reviewed fallback')
+    parser.add_argument('--ai-config-file', help='Audience-reviewed private evidence-selector config outside checkout; omitted = reviewed fallback')
     args=parser.parse_args()
     path=sandbox_directory(args.directory,args.resume)
     configure(path,args.resume,args.port,args.oauth_config_file)

@@ -1,5 +1,16 @@
 # Beta: fan almashtirish va manbali izoh — 2026-10-31
 
+## 2026-11-06 — Free-only/provider correction
+
+Latest requirements and actual credential status are in
+[AI_PROVIDER_READINESS.md](AI_PROVIDER_READINESS.md). The user corrected the
+issuer to Hugging Face; the supplied credential format has not been verified.
+No provider is activated. An optional Cloudflare Free adapter is implemented
+and tested, but the user has no Cloudflare account. It is not a live integration
+or an automatically selected substitute. The historical config below remains
+superseded; do not copy exposed credentials into it. New regression102 passed,
+5 PostgreSQL cases deselected/1 existing warning; no Flutter/APK change.
+
 
 ## 2026-11-06 - Provider configuration supersedes historical single-key instructions
 

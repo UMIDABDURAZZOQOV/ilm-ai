@@ -1,7 +1,7 @@
 """Optional evidence selector; no free-form student data or generated prose.
 
-Only explicit, audience-reviewed OpenAI configuration is supported. Google AI
-Studio credentials must not be sent to OpenAI or used in this school client.
+Only explicit, audience-reviewed provider configuration is supported. Google AI
+Studio credentials must not be sent to another provider or used in this client.
 Limits below are per process, not a production distributed billing guarantee.
 """
 
@@ -40,9 +40,12 @@ def load_provider(filename):
             raise ValueError
         data = json.loads(path.read_text(encoding="utf-8-sig"))
         expected = {"provider", "model", "api_keys", "audience_review_reference"}
-        if not isinstance(data, dict) or set(data) != expected:
+        if not isinstance(data, dict):
             raise ValueError
-        if data["provider"] != "openai":
+        provider = data.get("provider")
+        if provider == "cloudflare":
+            expected |= {"account_id", "free_only", "free_plan_review_reference"}
+        if set(data) != expected or provider not in {"openai", "cloudflare"}:
             raise ValueError
         model, review, keys = (
             data["model"],
@@ -65,8 +68,28 @@ def load_provider(filename):
             raise ValueError
         if len(set(keys)) != len(keys):
             raise ValueError
+        if provider == "cloudflare":
+            from services.cloudflare_study_help import (
+                CloudflareEvidenceSelector,
+                FREE_MODEL,
+            )
+            import re
+
+            if (
+                data["free_only"] is not True
+                or len(keys) != 1
+                or model != FREE_MODEL
+                or not isinstance(data["account_id"], str)
+                or not re.fullmatch(r"[a-f0-9]{32}", data["account_id"])
+                or not isinstance(data["free_plan_review_reference"], str)
+                or not data["free_plan_review_reference"].strip()
+                or len(data["free_plan_review_reference"]) > 500
+            ):
+                raise ValueError
     except (ValueError, TypeError, OSError, UnicodeError):
         raise ValueError("invalid_private_ai_config_or_audience_not_reviewed") from None
+    if provider == "cloudflare":
+        return CloudflareEvidenceSelector(keys[0], data["account_id"])
     return EvidenceSelector(keys, model)
 
 

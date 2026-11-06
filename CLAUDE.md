@@ -1,5 +1,44 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-06 — Free-only AI and corrected provider identity
+
+The user requires **free usage only** and authorized provider setup. They now
+retract the earlier Google AI Studio attribution and name Hugging Face. Treat
+old provider-identification statements below as historical. No exposed key was
+saved or transmitted. Their disclosed format does not match documented HF
+`hf_` User Access Tokens; this is not a live auth test or proof of another issuer.
+The actual model/Space URL has been requested to resolve the correct endpoint
+and token type. HF currently documents limited $0.10/month Free experimentation
+credits, not unlimited production inference. No paid plan, credits purchase,
+provider/account quota hopping or automatic billing change is authorized.
+
+Optional Cloudflare Workers AI backend support is now prepared on the isolated
+`qa/play-release-audit-20261106` branch: fixed Llama3.3 model/endpoint, one scoped
+account/token, strict private free-only config, source-evidence IDs only,
+no student messages/answers/IDs sent externally, bounded response/timeout/calls,
+no retries or redirects, daily-free-quota pause and reviewed fallback. Windows
+interactive provisioning hides the token and writes only a new owner-ACL folder
+outside Git. A free_only flag cannot verify a remote billing plan; real Workers
+Free verification is required. User confirmed no Cloudflare account exists.
+Browser automation failed to initialize even after reset; no account/token was
+created. This remains an optional alternative, not the user's live HF setup.
+
+Completed regression: **102 passed, 5 PostgreSQL cases deselected, 1 existing
+Starlette warning, 48.83s**. Includes real Windows ACL checks with synthetic
+credentials and disposable SQLite Beta reviewed-answer/feedback/quota tests.
+Ruff and whitespace checks pass. Initial temp-folder permission and fixture-order
+runs were corrected in test execution/isolation; no runtime guard was weakened.
+No real external inference, HF adapter, free-account billing validation, new APK,
+Flutter analyze/full suite/PG rerun or production acceptance is claimed.
+
+Current loopback server verified: 127.0.0.1:8930, PID22220, health200,
+{"status":"ok","mode":"integrated_beta"}. It was not restarted; new adapter
+code is not live. Phone login/progress and existing APK/AAB remain unchanged.
+No Play upload, production deploy/DB write, main/subject-branch mutation or paid
+service activation. Prior production NO-GO blockers remain. Details: backend
+`docs/beta/AI_PROVIDER_READINESS.md`, `CLOUDFLARE_FREE_SETUP.md`; local regression
+receipt `ilm-ai-beta-artifacts/cloudflare-provider-regression-20261106.txt`.
+
 ## 2026-11-06 - AI provider and final-readiness follow-up (NO-GO)
 
 The new 195-line user brief was read fully with credential redaction. The user
