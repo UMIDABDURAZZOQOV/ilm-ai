@@ -51,9 +51,18 @@ karta, pullik hamkor endpoint yoki avtomatik kredit xaridini yoqmaydi.
   output 256 token. Reasoning va tools o‘chirilgan; qaytgan reasoning tashlanadi.
   Prompt JSON so‘raydi; endpointda schema kafolati tekshirilgan deb aytilmaydi.
 - Process uchun 2 parallel, 20/min, 1000/UTC-kun request limiti.
-  401 yoki transport/headersiz 5xx uchun ko‘pi bilan bitta authorized standby
-  urinish. **429 butun poolni pauza qiladi; 402/403 operator qayta sozlaguncha
-  poolni to‘xtatadi. Kvota tugaganda boshqa akkauntga o‘tish yo‘q.**
+  Foydalanuvchining keyingi aniq buyrug‘i bilan **402/429 olgan kalitdan keyingi
+  kalitga avtomatik o‘tish qo‘shildi**. 402 kalit qayta sozlanguncha o‘chiriladi;
+  429 aynan shu kalitni kamida60s yoki kattaroq Retry-After muddatiga sovitadi.
+  Har requestda har bir kalit ko‘pi bilan bir marta, jami ko‘pi bilan8 urinish.
+  Hammasi tugagan/sovigan bo‘lsa reviewed fallback; cheksiz sweep yo‘q.
+  Birinchi7 quota xatosidan keyin8-kalit muvaffaqiyati test bilan tekshiriladi.
+  Bu har bir credentialning alohida kvotasi borligini isbotlamaydi: bir hisobga
+  bog‘langan kalitlarda umumiy limit bo‘lishi mumkin; real hisoblar tekshirilmagan.
+- 401 yoki transport/headersiz5xx uchun ko‘pi bilan2 transient urinish saqlanadi.
+  403 permission rad javobi butun poolni to‘xtatadi;5xx Retry-After umumiy pauza.
+  12s admission oynasidan keyin yangi urinish boshlanmaydi; network timeoutlar
+  alohida3/6s, bu o‘lchangan hard end-to-end deadline emas.
   Retry-After uyqu bilan threadni band qilmaydi. Bu durable/distributed billing
   accounting yoki qat’iy umumiy latency kafolati emas.
 
@@ -74,10 +83,10 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\configure_nvid
   -PrivateDirectory 'C:\Users\Page\Desktop\Projects\ilm-ai-nvidia-private' `
   -AudienceReviewReference '<haqiqiy audience/model review qaydi>' `
   -TrialReviewReference '<haqiqiy internal trial review qaydi>' `
-  -KeyCount 1
+  -KeyCount 8
 ```
 
-Agar haqiqatan sakkiz mos va ruxsatli NVIDIA kaliti bo‘lsa `-KeyCount 8`.
+Agar faqat bitta mos NVIDIA kaliti bo‘lsa `-KeyCount 1`.
 Skript har birini yashirin so‘raydi; duplicate/foreign-format qiymatni rad etadi.
 Yangi papkaga joriy Windows userining protected ACLini o‘rnatib,
 `nvidia-trial.json` yaratadi. Eski papka/fayl almashtirilmaydi. Bu owner-ACL bilan
@@ -93,7 +102,7 @@ APK qayta buildi server adapteri uchun kerak emas. Main/subject branchlari,
 production backend/DB, Play upload, foydalanuvchi progressi o‘zgartirilmaydi.
 Oldingi production NO-GO bloklovchilari saqlanadi.
 
-## Yakuniy tekshiruv
+## Oldingi tekshiruv — quota failover o‘zgarishidan avval
 
 **152 passed, 6 PostgreSQL cases deselected, 1 existing Starlette warning,
 74.99s.** NVIDIA/OpenAI/Cloudflare transport va private-config regressiyasi,
@@ -101,3 +110,18 @@ Windowsda 1/8 fake-key provisioning/ACL, reviewed SQLite Beta API, whitelisted
 evidence, grader feedback, wrong IDs va quota fallback o‘tdi. Real token/tarmoq
 inference yo‘q. Full backend/Flutter/PG qayta ishga tushirilmadi. Ruff va
 whitespace tekshiruvi o‘tdi. Secretlar Git/APKga kiritilmadi.
+
+## 402/429 failover yakuniy tekshiruvi
+
+Foydalanuvchi alohida buyruq bilan sakkiz kalit orasida kvota failoverini so‘radi;
+oldingi NVIDIA pool-stop siyosati shu talab bilan almashtirildi. OpenAI va
+Cloudflare kvota siyosatlari o‘zgarmadi. **157 passed,6 PostgreSQL cases
+deselected,1 existing Starlette warning,54.68s**. Targeted131 shu to‘plam bilan
+kesishadi; jamlamang. Testlar:402/429→keyingi kalit, keyingi requestda ishlaydigan
+kalitni saqlash, birinchi7 tugab8-si ishlashi, hammasi tugaganda bir marta8dan
+ortiq sinamaslik, Retry-After bo‘yicha tiklanish, permissions/global cooldown,
+12s admission oynasi va reviewed Beta feedback regressiyasi.
+
+Kalitlar sinovda sun’iy, HTTP mock; haqiqiy sakkiz NVIDIA kaliti hali ulangan
+emas. Mavjud server restart qilinmadi; bu source commit hali telefonda live
+API muvaffaqiyati emas. Ruff/whitespace o‘tdi; production/Play/main o‘zgarmadi.

@@ -163,11 +163,19 @@ class EvidenceSelector:
                 raise SelectorUnavailable
             for offset in range(len(self._keys)):
                 index = (self._next + offset) % len(self._keys)
-                if index not in self._disabled and index not in excluded:
+                if (
+                    index not in self._disabled
+                    and index not in excluded
+                    and self._key_ready(index, now)
+                ):
                     self._minute.append(now)
                     self._daily_calls += 1
                     return index
             raise SelectorUnavailable
+
+    def _key_ready(self, index, now):
+        """Called under the admission lock; providers may impose key cooldowns."""
+        return True
 
     def select(self, context):
         # These values come from reviewed server material. Never forward the

@@ -1,5 +1,35 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-06 — User-requested NVIDIA quota failover supersedes pool-stop
+
+The user explicitly requests using the next of up to8 configured credentials
+when the preceding free quota is exhausted. Implemented for NVIDIA only:
+HTTP402 disables the exhausted key until reconfiguration; HTTP429 cools only
+that key for max(60s,Retry-After) and tries the next eligible credential.
+Each key at most once/request,max8 distinct attempts. Successful standby stays
+selected on subsequent requests. All8 unavailable returns reviewed fallback;
+no endless retry loop and no paid route. Shared/account-wide credit cannot be
+multiplied by key count; actual independent account entitlements are unverified.
+403 still stops the pool;5xx Retry-After remains global.401/transport/headersless
+5xx retain the2 transient-failure bound. New network attempts stop after a12s
+admission window; connect/read timeouts are separate,not a measured hard overall
+deadline. Base selector adds a locked eligibility hook; default OpenAI/Cloudflare
+behavior unchanged. Existing source/privacy/progress/internal-trial guards stay.
+
+Completed combined regression **157 passed,6 PostgreSQL cases deselected,
+1 existing Starlette warning,54.68s**; Ruff and whitespace passed. Covers7 failed
+keys→8th succeeds,sticky standby,all8 fail without looping,key Retry-After expiry,
+permission/global cooldown,deadline and actual reviewed SQLite Beta feedback.
+Targeted131 tests overlap; do not sum. Only synthetic keys and mocked upstream;
+no real provider inference,APK rebuild or production deploy. Receipt:
+ilm-ai-beta-artifacts/nvidia-quota-failover-regression-20261106.txt.
+
+This supersedes earlier single-key preference and NVIDIA no-quota-failover notes.
+Private real NVIDIA credentials still absent; the old exposed values were never
+saved or sent. Source is not hot-reloaded; local8930 server was not restarted.
+No main/subject branch,production DB,Play upload or learner-progress write.
+NVIDIA_TRIAL_SETUP.md documents -KeyCount8 provisioning and remaining activation.
+
 ## 2026-11-06 — NVIDIA Muse Glimmer: internal Beta adapter, not live
 
 Latest user choice: use **one** NVIDIA key (provisioning default1). Fresh health8930 returned200/integrated_beta. No NVIDIA_API_KEY/NGC_API_KEY environment entry or expected private nvidia-trial.json was found; no secret was printed. Actual activation still awaits private credentials.

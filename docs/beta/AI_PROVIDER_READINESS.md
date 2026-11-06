@@ -13,15 +13,20 @@ live rejection or proof of a different issuer.
 Optional **internal Beta only** NVIDIA adapter and hidden Windows provisioning
 are implemented. Private config supports 1–8 authorized standby keys, strict
 source-only input and evidence-ID output, no generated scientific prose, bounded
-transport and no quota/account hopping. Runtime and config both reject usage
+transport. The user's subsequent explicit request changes NVIDIA only:
+402/429 automatically selects the next configured credential, with exhausted-key
+disablement and per-key Retry-After cooldown. A request tries each key at most
+once (max8); all unavailable returns reviewed fallback.403 remains pool-blocking;
+5xx Retry-After is global; transient-failure limit2 remains. Shared quota is not
+multiplied by having more keys. Runtime and config both reject usage
 outside `ENVIRONMENT=test` + `ILM_BETA_ENABLED=true`. NVIDIA's linked trial
 terms §§1.2–1.4 exclude production; free hosted trial must not be enabled for
 Play release traffic. No paid partner or subscription was activated.
 
 See [NVIDIA setup/status](NVIDIA_TRIAL_SETUP.md) for verified endpoint, model,
 terms, credential handoff and exactly what remains blocked. New completed
-combined regression: **152 passed, 6 PostgreSQL cases deselected, 1 existing
-Starlette warning, 74.99s**; Ruff passed. Tests used synthetic credentials,
+combined regression after quota failover: **157 passed, 6 PostgreSQL cases
+deselected, 1 existing Starlette warning, 54.68s**; Ruff passed. Tests used synthetic credentials,
 mock HTTP and disposable SQLite copies. No actual inference or new APK.
 Server8930 was not restarted and remains source-fallback-only. No live provider
 integration, credential validation or production signoff is claimed.

@@ -159,14 +159,84 @@ def test_fixed_endpoint_source_only_payload_and_no_reasoning_exposed(nvidia_tran
     assert not any(key in json.dumps(payload) for key in KEYS)
 
 
-@pytest.mark.parametrize("status", [402, 403, 429])
-def test_quota_rate_or_permission_never_sweeps_eight_accounts(nvidia_transport, status):
-    nvidia_transport.statuses = [status]
+def test_permission_failure_stops_pool(nvidia_transport):
+    nvidia_transport.statuses = [403]
     selector = NvidiaTrialEvidenceSelector(KEYS)
     for _ in range(2):
         with pytest.raises(SelectorUnavailable):
             selector.select(CONTEXT)
     assert len(nvidia_transport.calls) == 1
+
+
+@pytest.mark.parametrize("status", [402, 429])
+def test_exhausted_or_throttled_key_automatically_uses_next(nvidia_transport, status):
+    nvidia_transport.statuses = [status, 200]
+    selector = NvidiaTrialEvidenceSelector(KEYS)
+    assert selector.select(CONTEXT) == ["e1"]
+    assert len(nvidia_transport.calls) == 2
+    assert (
+        nvidia_transport.calls[0][1]["headers"]["Authorization"] == "Bearer " + KEYS[0]
+    )
+    assert (
+        nvidia_transport.calls[1][1]["headers"]["Authorization"] == "Bearer " + KEYS[1]
+    )
+    assert selector.select(CONTEXT) == ["e1"]
+    assert (
+        nvidia_transport.calls[2][1]["headers"]["Authorization"] == "Bearer " + KEYS[1]
+    )
+
+
+@pytest.mark.parametrize("status", [402, 429])
+def test_all_eight_exhausted_or_throttled_stop_without_infinite_retries(
+    nvidia_transport, status
+):
+    nvidia_transport.statuses = [status]
+    selector = NvidiaTrialEvidenceSelector(KEYS)
+    for _ in range(2):
+        with pytest.raises(SelectorUnavailable):
+            selector.select(CONTEXT)
+    assert len(nvidia_transport.calls) == 8
+    assert (
+        len({kw["headers"]["Authorization"] for _, kw in nvidia_transport.calls}) == 8
+    )
+
+
+def test_key_retry_after_is_respected_and_later_recovers(nvidia_transport):
+    now = [100.0]
+    nvidia_transport.statuses = [429]
+    nvidia_transport.headers = {"Retry-After": "180"}
+    selector = NvidiaTrialEvidenceSelector(KEYS, clock=lambda: now[0])
+    with pytest.raises(SelectorUnavailable):
+        selector.select(CONTEXT)
+    assert len(nvidia_transport.calls) == 8
+    now[0] = 279.0
+    with pytest.raises(SelectorUnavailable):
+        selector.select(CONTEXT)
+    assert len(nvidia_transport.calls) == 8
+    now[0] = 280.0
+    nvidia_transport.statuses = [200]
+    assert selector.select(CONTEXT) == ["e1"]
+    assert len(nvidia_transport.calls) == 9
+
+
+def test_last_of_eight_keys_can_succeed_after_seven_quota_failures(nvidia_transport):
+    nvidia_transport.statuses = [402] * 7 + [200]
+    selector = NvidiaTrialEvidenceSelector(KEYS)
+    assert selector.select(CONTEXT) == ["e1"]
+    assert len(nvidia_transport.calls) == 8
+    assert (
+        nvidia_transport.calls[-1][1]["headers"]["Authorization"] == "Bearer " + KEYS[7]
+    )
+
+
+def test_no_new_attempt_after_admission_deadline(nvidia_transport, monkeypatch):
+    from services import nvidia_study_help
+
+    ticks = iter([100.0, 113.0])
+    monkeypatch.setattr(nvidia_study_help.time, "monotonic", lambda: next(ticks))
+    with pytest.raises(SelectorUnavailable):
+        NvidiaTrialEvidenceSelector(KEYS).select(CONTEXT)
+    assert nvidia_transport.calls == []
 
 
 @pytest.mark.parametrize("status", [401, 500, 503])
