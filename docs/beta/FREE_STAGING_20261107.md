@@ -165,3 +165,17 @@ Free service. No artificial keepalive or repeated monitoring loop is left runnin
 idle staging can sleep. Build spend limit $0 was confirmed by the owner, not a
 universal bandwidth/billing guarantee. No paid compute/database/HA/disk was enabled.
 See [Render Free usage limits](https://render.com/docs/free#monthly-usage-limits).
+
+## Later cold-host / full-CI evidence (supersedes pending-only notes)
+
+After idle, a real HTTPS health request took188.41s before returning the exact
+23d9ed3/contract2 response; catalogue then returned200 in5.81s with external DB
+access closed. Local Beta stayed200 and the owned test PG was confirmed stopped.
+This is a measured Free cold-wake limitation, not a resolved production startup
+SLA. No keepalive is left running to consume shared Free instance hours.
+
+The oldest full Linux CI finished:5224 passed,2 failed,64 skipped,77 fixture errors,
+4481.79s. Its two frozen-file failures and fixture-root causes were diagnosed;
+see [the exact runtime review and fixture corrections](SHARED_RUNTIME_INTEGRATION_REVIEW_20261107.md).
+Known-obsolete three runs were canceled (202 accepted) before starting a corrected
+run. The first failure remains recorded; no full-suite pass is claimed.

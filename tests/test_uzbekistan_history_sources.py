@@ -97,9 +97,9 @@ def test_tamper_is_rejected(change):
 
 
 def test_parallel_source_baseline_is_unchanged():
-    import hashlib
     import json
     from pathlib import Path
+    from tests.protected_baseline import assert_protected_file
 
     root = Path(__file__).resolve().parents[1]
     baseline = json.loads(
@@ -108,10 +108,7 @@ def test_parallel_source_baseline_is_unchanged():
         ).read_text()
     )
     for record in baseline["protected_files"]:
-        assert (
-            hashlib.sha256((root / record["path"]).read_bytes()).hexdigest()
-            == record["sha256"]
-        ), record["path"]
+        assert_protected_file(root, record["path"], record["sha256"], "uzbekistan_history")
 
 
 @pytest.mark.parametrize(

@@ -10,7 +10,6 @@ from uuid import uuid4
 
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
-import httpx
 import jwt
 import pytest
 from sqlalchemy import create_engine, event
@@ -62,16 +61,15 @@ def history(tmp_path, monkeypatch):
         with factory() as db:
             yield db
     app.dependency_overrides[database.get_db] = get_db
-    class FreshHistoryAuth(httpx.Auth):
-        def auth_flow(self, request):
-            # Keep real JWT verification; long/suspended runs need a fresh default.
-            # Explicit owner/expired-token headers must retain their exact meaning.
-            if 'Authorization' not in request.headers:
-                request.headers['Authorization'] = f'Bearer {tokens.create_access_token(1)}'
-            yield request
+    def fresh_history_auth(request):
+        # Callable auth is supported by both TestClient transports (httpx/httpx2).
+        # Keep real JWT verification and preserve explicit owner/expired headers.
+        if 'Authorization' not in request.headers:
+            request.headers['Authorization'] = f'Bearer {tokens.create_access_token(1)}'
+        return request
 
     with TestClient(app) as client:
-        client.auth = FreshHistoryAuth()
+        client.auth = fresh_history_auth
         yield client, factory, monkeypatch
     engine.dispose()
 

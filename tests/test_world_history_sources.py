@@ -1,5 +1,5 @@
 from copy import deepcopy
-import hashlib
+from tests.protected_baseline import assert_protected_file
 
 import pytest
 
@@ -107,7 +107,7 @@ def test_all_674_existing_biology_and_chemistry_lessons_and_runtime_are_unchange
     assert document['chemistry_lessons'] == 268
     assert len(document['files']) == 687
     for name, digest in document['files'].items():
-        assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest() == digest, name
+        assert_protected_file(ROOT, name, digest, "world_history")
 
 
 @pytest.mark.parametrize('year,era,expected', [(1,'CE',1),(100,'CE',1),(101,'CE',2),(1,'BCE',1),(100,'BCE',1),(101,'BCE',2)])

@@ -24,7 +24,7 @@ jobs:
       - name: Import check
         run: python -m compileall -q routers services
       - name: Run tests
-        run: python -m pytest -q
+        run: python -m pytest -q --durations=20
       - name: Build Docker image
         uses: docker/build-push-action@v5
         with:

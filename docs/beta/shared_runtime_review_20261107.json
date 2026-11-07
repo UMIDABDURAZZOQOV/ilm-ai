@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review": "Authorized Beta/production integration runtime-only review; original subject content baselines remain frozen.",
+  "files": [
+    {
+      "path": "services/curriculum.py",
+      "original_baselines": {
+        "world_history": "61125d769d2f1e7c7a712a3939887abb9816facf64fe58119f5b11119d078911",
+        "uzbekistan_history": "77a75b166fc738a04059f445fab414455af6b82f1a7739f3a682355ef853f629"
+      },
+      "current_lf_sha256": "840ba3fa5f3743147ac9990d78aaa5bb559204e0991afbede3f82ab3acedded1",
+      "reviewed_source_commit": "23d9ed355d916586e6cebf7fb2de3613348b4935",
+      "reason": "Transaction-scoped catalog cache; identical lesson validator and immutable content/ID/progress behavior; PG import/reimport/137XP rehearsals passed."
+    },
+    {
+      "path": "services/db.py",
+      "original_baselines": {
+        "world_history": "a779e22c57490d79228e2af9387f1f882b76d43619a6579a541f7284dfc90bd5"
+      },
+      "current_lf_sha256": "95c53a47a77c0c87d5a0b80dce2ea6bbb2a6879d839b912770857607a6fa311a",
+      "reviewed_source_commit": "23d9ed355d916586e6cebf7fb2de3613348b4935",
+      "reason": "No import-time production ALTER operations; explicit Alembic rollout, database URL normalization retained."
+    },
+    {
+      "path": "main.py",
+      "original_baselines": {
+        "world_history": "ad85243481330cbd5070d7bda3968f2f4b5c5a578a743b38c64f4cbd602f6332"
+      },
+      "current_lf_sha256": "49a3052a46358712e0c704462289f9a00069bcc0b6d60a891ff54c7b43ee7fb3",
+      "reviewed_source_commit": "23d9ed355d916586e6cebf7fb2de3613348b4935",
+      "reason": "Reviewed mobile mounting, explicit schema policy, secure sessions, safe lifecycle and source warmup; legacy route fixture and actual main PG acceptance preserved."
+    }
+  ]
+}

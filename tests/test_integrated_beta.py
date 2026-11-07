@@ -1,5 +1,4 @@
 """Real integrated contracts on owned SQLite and fresh PostgreSQL schemas."""
-import hashlib
 import json
 import os
 from pathlib import Path
@@ -13,14 +12,24 @@ from scripts import serve_mobile_beta as server
 
 @pytest.fixture(scope='module', params=['sqlite','postgres'])
 def beta_api(request, tmp_path_factory):
+    patch=pytest.MonkeyPatch()
+    request.addfinalizer(patch.undo)
+    original_env=dict(os.environ)
     path=tmp_path_factory.mktemp('integrated-'+request.param)/'owned'
     server.configure(path,False,8930)
+    for name,value in dict(os.environ).items():
+        if original_env.get(name)==value:
+            continue
+        if name in original_env:
+            os.environ[name]=original_env[name]
+        else:
+            os.environ.pop(name,None)
+        patch.setenv(name,value)
     from services import db as database, tokens, users, mobile_oauth
     from services.beta_models import BetaBase
     from sqlalchemy import create_engine,text
     from sqlalchemy.engine import make_url
     from sqlalchemy.orm import sessionmaker
-    patch=pytest.MonkeyPatch()
     patch.setattr(tokens,'JWT_SECRET',os.environ['JWT_SECRET'])
     admin=None
     if request.param=='postgres':
@@ -33,10 +42,19 @@ def beta_api(request, tmp_path_factory):
         with admin.begin() as connection: connection.execute(text(f'CREATE SCHEMA "{schema}"'))
         engine=create_engine(url,connect_args={'options':f'-csearch_path={schema}'})
         factory=sessionmaker(bind=engine,autoflush=False,autocommit=False)
-        for module in (database,tokens,users,mobile_oauth): patch.setattr(module,'SessionLocal',factory)
+        for module in (database,tokens,users,mobile_oauth):
+            patch.setattr(module,'SessionLocal',factory)
         patch.setattr(database,'engine',engine)
         server.initialize(path,seed_user=False)
     else:
+        # Full-suite collection may already have imported services.db using CI's
+        # default URL. Never reuse that cached engine for this owned Beta fixture.
+        engine=create_engine('sqlite:///'+str(path/server.DB_NAME),
+                             connect_args={'check_same_thread':False,'timeout':30})
+        factory=sessionmaker(bind=engine,autoflush=False,autocommit=False)
+        for module in (database,tokens,users,mobile_oauth):
+            patch.setattr(module,'SessionLocal',factory)
+        patch.setattr(database,'engine',engine)
         source=os.getenv('ILM_BETA_REVIEWED_DB_FILE')
         if source:
             source=Path(source)
@@ -46,8 +64,6 @@ def beta_api(request, tmp_path_factory):
             origin.backup(target); target.close(); origin.close()
         else:
             server.initialize(path,seed_user=False)
-        engine=database.engine
-        factory=database.SessionLocal
     BetaBase.metadata.create_all(engine)
     from starlette.testclient import TestClient
     client=TestClient(server.create_app(),base_url='http://127.0.0.1:8930',client=('127.0.0.1',12345))
