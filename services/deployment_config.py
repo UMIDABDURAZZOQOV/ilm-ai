@@ -7,6 +7,14 @@ from urllib.parse import urlsplit
 PRODUCTION_HOST = "ilm-ai-backend-256x.onrender.com"
 
 
+def staging_auth_setup_pending(env):
+    """Explicit staging-only infrastructure mode, never authentication bypass."""
+    return (
+        env.get("DEPLOYMENT_STAGE") == "staging"
+        and env.get("STAGING_AUTH_SETUP_PENDING") == "true"
+    )
+
+
 def https_origin(value):
     try:
         uri = urlsplit(value)
@@ -86,10 +94,24 @@ def staging_errors(env):
         "distinct_staging_signing_secrets_required",
     )
     require(
-        bool(env.get("GOOGLE_CLIENT_ID", "").endswith(".apps.googleusercontent.com"))
-        and bool(env.get("GOOGLE_CLIENT_SECRET")),
-        "dedicated_google_client_required",
+        env.get("STAGING_AUTH_SETUP_PENDING", "false") in {"true", "false"},
+        "explicit_staging_auth_setup_mode_required",
     )
+    if staging_auth_setup_pending(env):
+        require(
+            not env.get("GOOGLE_CLIENT_ID") and not env.get("GOOGLE_CLIENT_SECRET"),
+            "pending_auth_credentials_must_be_empty",
+        )
+        require(
+            env.get("ACCOUNT_DELETION_ENABLED", "false") == "false",
+            "pending_auth_deletion_must_be_disabled",
+        )
+    else:
+        require(
+            bool(env.get("GOOGLE_CLIENT_ID", "").endswith(".apps.googleusercontent.com"))
+            and bool(env.get("GOOGLE_CLIENT_SECRET")),
+            "dedicated_google_client_required",
+        )
     require(env.get("AUTH_STORAGE") == "database", "persistent_auth_storage_required")
     require(
         env.get("MOBILE_REVIEWED_RELEASE") == "true",
@@ -159,6 +181,8 @@ def staging_errors(env):
 
 def require_staging_config(env=None):
     env = os.environ if env is None else env
+    if env.get("STAGING_AUTH_SETUP_PENDING") == "true" and env.get("DEPLOYMENT_STAGE") != "staging":
+        raise RuntimeError("pending_auth_mode_is_staging_only")
     if env.get("DEPLOYMENT_STAGE") == "staging":
         errors = staging_errors(env)
         if errors:

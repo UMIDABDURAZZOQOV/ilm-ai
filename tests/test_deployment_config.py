@@ -40,6 +40,42 @@ def test_valid_configuration_is_offline_only(config):
     require_staging_config(config)
 
 
+def test_explicit_pending_mode_keeps_auth_closed_and_isolated(config):
+    config.update(STAGING_AUTH_SETUP_PENDING="true", GOOGLE_CLIENT_ID="", GOOGLE_CLIENT_SECRET="")
+    assert staging_errors(config) == []
+    require_staging_config(config)
+    config["BETA_TEST_AUTH_ENABLED"] = "true"
+    assert "test_and_preview_auth_must_be_disabled" in staging_errors(config)
+
+
+@pytest.mark.parametrize("key,value", [
+    ("GOOGLE_CLIENT_ID", "fixture.apps.googleusercontent.com"),
+    ("GOOGLE_CLIENT_SECRET", "synthetic-only"),
+    ("ACCOUNT_DELETION_ENABLED", "true"),
+    ("STAGING_AUTH_SETUP_PENDING", "yes"),
+])
+def test_pending_mode_rejects_credentials_deletion_and_implicit_values(config, key, value):
+    config.update(STAGING_AUTH_SETUP_PENDING="true", GOOGLE_CLIENT_ID="", GOOGLE_CLIENT_SECRET="")
+    config[key] = value
+    assert staging_errors(config)
+
+
+def test_pending_mode_cannot_be_used_in_production(config):
+    config.update(STAGING_AUTH_SETUP_PENDING="true", DEPLOYMENT_STAGE="production")
+    with pytest.raises(RuntimeError, match="pending_auth_mode_is_staging_only"):
+        require_staging_config(config)
+
+
+def test_pending_health_does_not_claim_auth_readiness(monkeypatch):
+    from services.release_status import public_status
+    monkeypatch.setenv("DEPLOYMENT_STAGE", "staging")
+    monkeypatch.setenv("STAGING_AUTH_SETUP_PENDING", "true")
+    assert public_status()["authentication_ready"] is False
+    assert public_status()["oauth_setup_pending"] is True
+    monkeypatch.delenv("DEPLOYMENT_STAGE")
+    assert "authentication_ready" not in public_status()
+
+
 def test_enabled_deletion_requires_private_policy_storage_and_test_sender(config):
     config["ACCOUNT_DELETION_ENABLED"] = "true"
     assert {

@@ -4,7 +4,7 @@ from urllib.parse import parse_qs, urlparse
 
 from routers import auth
 from services import mobile_oauth
-from test_release_hardening import setup
+pytest_plugins = ["test_release_hardening"]
 
 
 def test_reverse_proxy_callback_keeps_original_https_redirect(setup, monkeypatch):
@@ -45,6 +45,18 @@ def test_mobile_redirect_configuration_is_public_but_credentials_are_not(setup, 
     assert response.status_code == 200
     assert response.json()["redirect_uri"].startswith("https://staging.example.test/")
     assert not {"client_secret", "access_token", "refresh_token"}.intersection(response.json())
+
+
+def test_pending_staging_does_not_enable_login_or_exchange(setup, monkeypatch):
+    client, _ = setup
+    monkeypatch.setenv("DEPLOYMENT_STAGE", "staging")
+    monkeypatch.setenv("STAGING_AUTH_SETUP_PENDING", "true")
+    monkeypatch.setattr(auth, "is_google_oauth_enabled", lambda: False)
+    assert client.get("/auth/mobile/config").json()["google_configured"] is False
+    assert client.get("/auth/google-login").status_code == 503
+    assert client.post("/auth/mobile/exchange", json={
+        "code": "not-issued", "code_verifier": "a" * 43,
+    }).status_code in {400, 422}
 
 
 def test_staging_callback_targets_separate_app_without_tokens(setup, monkeypatch):

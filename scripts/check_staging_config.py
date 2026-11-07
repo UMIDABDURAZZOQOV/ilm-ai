@@ -7,13 +7,14 @@ import sys
 from dotenv import dotenv_values
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from services.deployment_config import staging_errors
+from services.deployment_config import staging_auth_setup_pending, staging_errors
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--env-file", required=True, type=Path)
     args = parser.parse_args()
+    env = {}
     try:
         env = dotenv_values(args.env_file, interpolate=False, encoding="utf-8-sig")
         errors = staging_errors(env)
@@ -23,6 +24,8 @@ def main():
         json.dumps(
             {
                 "configuration_valid": not errors,
+                "oauth_setup_pending": staging_auth_setup_pending(env),
+                "oauth_acceptance_tested": False,
                 "failed_checks": errors,
                 "network_tested": False,
                 "server_started": False,

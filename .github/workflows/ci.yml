@@ -31,7 +31,6 @@ jobs:
             context: .
             push: false
             tags: ilm-ai:ci
-        continue-on-error: true
 
   # Production deployment is a separately approved Render operator action.
   # The former echo-only deploy job performed no deployment and misleadingly
