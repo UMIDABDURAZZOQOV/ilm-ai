@@ -50,7 +50,9 @@ Local implementation, 2026-11-07. **Not enabled on production or the running
    delivery; test real delivery, expiry, retry and provider failure.
 5. Check `GET /account/deletion/config` (`available=true`) and the external web page
    through the actual HTTPS origin. Add that deployed URL in Play Console only
-   after real acceptance. The page is code in this repo, **not currently hosted**.
+   after real acceptance. The page is now hosted on isolated HTTPS staging (200), but its capability
+   config returns available=false. Production still runs old code. No real OTP
+   delivery or account deletion acceptance is implied.
 6. Cleanup retry is scheduled every minute when enabled on the normal runtime.
    Staging intentionally disables general scheduling: invoke
    `services.account_deletion_worker.process_pending(db)` from an isolated operator

@@ -2,9 +2,42 @@
 
 Staging: https://ilm-ai-103-stage-8b0727.onrender.com
 
-Google kirishi hozir **o‘chirilgan**. Katalog/HTTPS sinovi muvaffaqiyatli o‘tgani
-haqiqiy akkaunt orqali kirish ishlaganini anglatmaydi. Production client/serverga
-o‘zgartirish kiritmang.
+## 2026-11-08 — configured, two real accounts accepted
+
+Real HTTPS staging on Samsung SM-A125F now accepts two owner-approved Google
+accounts, independent onboarding, restart/session restoration, A→B→A logout/login,
+MCQ/FRQ and saved progress. A returned to30 XP/two lessons/20-XP goal; B independently
+started atzero and completed Chemistry7 at12/12,+20 XP/one lesson/10-XP goal.
+A's Chemistry result was11/12 and Physics5/6; correct/incorrect feedback and
+optional reviewed explanations were observed. No identities or tokens are reported.
+
+Three real fixes are accepted: route-extra restoration (`e3571d3`), reviewed
+profile404 (`d587f9b`) and native FRQ semantics (`23f696f`, following470313d).
+Current Flutter source23f696f: **1375 full tests passed** (serial38:33),105 default
+targeted/10 reviewed contracts passed, full analyze **No issues found**.
+Backend Live d587f9b: **5334 passed,65 skipped,21 warnings**, import/Docker passed
+in CI42395951490. Awake exact-Live public preflight9/9 passed. Counts overlap and
+must not be summed; the earlier interrupted Flutter attempt is retained separately.
+
+Current installed artifact: `ILM-AI-Staging-1.0.3-code4-23f696f.apk`,180506516 bytes
+(172.14 MiB), SHA2560268df56e4bee55d097dbb885a3b46c0ade13dd04322eda463257419c430abe2.
+Separate staging package, install-r Success, no clear/uninstall, bounded credential
+scan zero matches. Private OAuth file still has the doubled.json.json extension
+and matches active staging. Free hosting/DB, auto-deploy off, deletion/test-auth/
+preview flags off; no external AI key. Verified fallback works.
+
+**Production NO-GO**: Live e97c029/main remains unchanged. Production baseline/
+verified backup restore/migration/import/deploy approval, actual deletion sender/
+policy/storage acceptance, Play-signed1.0.2 update/OAuth compatibility, provider
+audience/configuration, exposed operator-key rotation and stable performance/
+final production artifact acceptance remain. Free idle wake/timeouts are retained
+as failures; no current cold-start SLA or artificial keepalive is claimed.
+See backend `docs/beta/GOOGLE_STAGING_ACCEPTANCE_20261107.md` and
+`docs/beta/PRODUCTION_READINESS_20261108.md` for current evidence and release gates.
+
+
+The original setup below is for deliberate future client rotation only.
+Production OAuth remains unchanged.
 
 ## Google Cloud’da
 
