@@ -1,5 +1,8 @@
 ﻿.env
 __pycache__/
+.env.*
+*.private.env
+!deploy/staging.env.example
 *.py[co]
 *.pyo
 .venv/

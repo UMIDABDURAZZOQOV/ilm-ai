@@ -13,23 +13,26 @@ live rejection or proof of a different issuer.
 Optional **internal Beta only** NVIDIA adapter and hidden Windows provisioning
 are implemented. Private config supports 1–8 authorized standby keys, strict
 source-only input and evidence-ID output, no generated scientific prose, bounded
-transport. The user's subsequent explicit request changes NVIDIA only:
-402/429 automatically selects the next configured credential, with exhausted-key
-disablement and per-key Retry-After cooldown. A request tries each key at most
-once (max8); all unavailable returns reviewed fallback.403 remains pool-blocking;
-5xx Retry-After is global; transient-failure limit2 remains. Shared quota is not
-multiplied by having more keys. Runtime and config both reject usage
+transport. **2026-11-07: the latest final-production brief supersedes the earlier
+quota-hopping request.** 402/403 stop the entire provider pool;429 pauses the
+pool for Retry-After (at least60s). None of these hops to another account/key.
+Only401, connection failure or5xx without Retry-After may try an authorized
+standby, at most2 attempts. Shared quota is not multiplied by having more keys.
+Runtime and config both reject usage
 outside `ENVIRONMENT=test` + `ILM_BETA_ENABLED=true`. NVIDIA's linked trial
 terms §§1.2–1.4 exclude production; free hosted trial must not be enabled for
 Play release traffic. No paid partner or subscription was activated.
 
 See [NVIDIA setup/status](NVIDIA_TRIAL_SETUP.md) for verified endpoint, model,
 terms, credential handoff and exactly what remains blocked. New completed
-combined regression after quota failover: **157 passed, 6 PostgreSQL cases
+historical combined regression before the latest policy correction: **157 passed, 6 PostgreSQL cases
 deselected, 1 existing Starlette warning, 54.68s**; Ruff passed. Tests used synthetic credentials,
 mock HTTP and disposable SQLite copies. No actual inference or new APK.
 Server8930 was not restarted and remains source-fallback-only. No live provider
 integration, credential validation or production signoff is claimed.
+
+Current focused staging/OAuth/NVIDIA/preflight regression:94 passed,1 existing
+Starlette warning,22.30s on2026-11-07. Synthetic credentials/mock HTTP only.
 
 ## Latest user correction: provider identity remains unverified
 

@@ -5,9 +5,10 @@
 The user supplied the official NVIDIA Muse Glimmer page, superseding the earlier
 issuer guesses below. Read [NVIDIA_TRIAL_SETUP.md](NVIDIA_TRIAL_SETUP.md).
 An optional internal-test-only adapter supports source-bound selection and up
-to8 authorized standby keys. A later explicit user request enables NVIDIA
-402/429 key failover with per-key cooldown/exhaustion and max8 distinct attempts;
-shared/provider quota is not assumed independent. Real NVIDIA private
+to8 authorized standby keys. **2026-11-07: final-production requirements supersede
+the previous quota-hopping request.** 402/403 stop the pool and429 pauses it;
+none advances to another account/key. Authorized standby is bounded to2 attempts
+for401, connection failure or5xx without Retry-After. Real NVIDIA private
 credentials have not been supplied; no live provider call/restart occurred.
 Hosted free trial is not production access. Combined regression152 passed,
 6 PostgreSQL cases deselected/1 existing warning; no app/APK or progress change.

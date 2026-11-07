@@ -4,49 +4,52 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 from dotenv import load_dotenv
+load_dotenv()
+from services.deployment_config import require_staging_config, mobile_app_scheme
+require_staging_config()
+mobile_app_scheme()
 from routers import auth, files, chat, quiz, plan, telegram_link, gaps, payments, feedback, evaluation, sat_ielts, assistant, notifications, review, ielts, math_solver, skills, mock_exam, classes, parent, tutor, vocab, course, studio, college, insights, share, decks
 from services.monitoring import init_monitoring
 from services.db import engine, Base
-from services.scheduler import start_scheduler
+from services.scheduler import start_scheduler, stop_scheduler
 from services import telegram_webhook
 
-load_dotenv()
 init_monitoring()
 from services.access_log_redaction import install_auth_access_redaction
 install_auth_access_redaction()
-
-# Auto-create tables in DB on startup
-Base.metadata.create_all(bind=engine)
-
-# Seed the SAT/IELTS question bank on a fresh (empty) database — production
-# Postgres starts empty, so without this the Question Bank shows 0 questions.
-from services.seed_bank import seed_question_bank_if_empty
-seed_question_bank_if_empty()
-
-# Seed the Milliy Sertifikat skill tree (Ona tili + Tarix) on a fresh database.
-from services.seed_skilltree_bank import seed_skilltree_if_empty
-seed_skilltree_if_empty()
-
-# Seed the calibrated placement bank (CEFR for languages, 1-5 for the rest).
-from services.seed_placement_bank import seed_placement_if_needed
-seed_placement_if_needed()
-
-# Seed Cambridge IELTS 21 Academic (4 full tests: 320 questions + answer keys).
-from services.seed_ielts21 import seed_ielts21_if_needed
-seed_ielts21_if_needed()
-
-# Spread placeholder-skill ("General"/null) questions across real taxonomy skills
-# so every question is reachable by topic in the Question Bank.
-from services.retag_bank import retag_general_questions, clean_question_text
-clean_question_text()
-retag_general_questions()
-
-start_scheduler()
 
 IS_PRODUCTION = os.environ.get("ENVIRONMENT") == "production"
 SECRET_KEY = os.environ.get("SECRET_KEY", "your-secret-key-change-in-production")
 from services.security_config import require_production_secret
 require_production_secret("SECRET_KEY", SECRET_KEY, "your-secret-key-change-in-production")
+
+# Production schema/imports are explicit operator actions, never import-time writes.
+if not IS_PRODUCTION:
+    # Auto-create tables in DB on startup
+    Base.metadata.create_all(bind=engine)
+
+    # Seed the SAT/IELTS question bank on a fresh (empty) database — production
+    # Postgres starts empty, so without this the Question Bank shows 0 questions.
+    from services.seed_bank import seed_question_bank_if_empty
+    seed_question_bank_if_empty()
+
+    # Seed the Milliy Sertifikat skill tree (Ona tili + Tarix) on a fresh database.
+    from services.seed_skilltree_bank import seed_skilltree_if_empty
+    seed_skilltree_if_empty()
+
+    # Seed the calibrated placement bank (CEFR for languages, 1-5 for the rest).
+    from services.seed_placement_bank import seed_placement_if_needed
+    seed_placement_if_needed()
+
+    # Seed Cambridge IELTS 21 Academic (4 full tests: 320 questions + answer keys).
+    from services.seed_ielts21 import seed_ielts21_if_needed
+    seed_ielts21_if_needed()
+
+    # Spread placeholder-skill ("General"/null) questions across real taxonomy skills
+    # so every question is reachable by topic in the Question Bank.
+    from services.retag_bank import retag_general_questions, clean_question_text
+    clean_question_text()
+    retag_general_questions()
 
 app = FastAPI(title="Ilm AI Backend", version="0.3.0")
 
@@ -94,7 +97,10 @@ app.include_router(notifications.router)
 app.include_router(review.router)
 app.include_router(math_solver.router)
 app.include_router(skills.router)
-from routers.mobile_skills import router as mobile_skills_router
+if os.getenv("MOBILE_REVIEWED_RELEASE") == "true":
+    from routers.reviewed_mobile import router as mobile_skills_router
+else:
+    from routers.mobile_skills import router as mobile_skills_router
 app.include_router(mobile_skills_router)
 app.include_router(mock_exam.router)
 app.include_router(classes.router)
@@ -119,17 +125,30 @@ def root():
 @app.post("/health")
 @app.head("/health")
 def health():
-    return {"status": "ok"}
+    from services.release_status import public_status
+    return public_status()
 
 
 # ── Telegram bot in webhook mode (runs inside this web service) ────────────────
+
+@app.on_event('startup')
+async def _scheduler_startup():
+    # Preserve existing production reminders, without import-time jobs or any
+    # outbound notifications from the isolated staging environment.
+    if os.getenv('DEPLOYMENT_STAGE') != 'staging':
+        start_scheduler()
+
+
+@app.on_event('shutdown')
+async def _scheduler_shutdown():
+    stop_scheduler()
 
 @app.on_event("startup")
 async def _telegram_startup():
     try:
         await telegram_webhook.start_webhook()
-    except Exception as e:  # noqa: BLE001 — never block API startup on the bot
-        logging.getLogger(__name__).warning("Telegram webhook setup failed: %s", e)
+    except Exception:  # noqa: BLE001 — never log raw bot/token transport errors
+        logging.getLogger(__name__).warning("Telegram webhook setup failed")
 
 
 @app.on_event("shutdown")

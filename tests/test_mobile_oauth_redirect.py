@@ -45,3 +45,22 @@ def test_mobile_redirect_configuration_is_public_but_credentials_are_not(setup, 
     assert response.status_code == 200
     assert response.json()["redirect_uri"].startswith("https://staging.example.test/")
     assert not {"client_secret", "access_token", "refresh_token"}.intersection(response.json())
+
+
+def test_staging_callback_targets_separate_app_without_tokens(setup, monkeypatch):
+    client, _ = setup
+    monkeypatch.setenv('DEPLOYMENT_STAGE', 'staging')
+    monkeypatch.setenv('MOBILE_RELEASE_APP_SCHEME', 'ilmai-staging')
+    mobile_oauth.save_state('staging-state', 'https://testserver/auth/google-callback-mobile', 'a' * 43)
+    monkeypatch.setattr(auth, 'is_google_oauth_enabled', lambda: True)
+
+    async def exchange(request, redirect_uri, mobile=False):
+        assert mobile_oauth.consume_state('staging-state', redirect_uri) == 'a' * 43
+        return {'code': 'one-use-staging-grant'}
+
+    monkeypatch.setattr(auth, 'handle_google_callback', exchange)
+    response = client.get('/auth/google-callback-mobile?code=code&state=staging-state',
+                          follow_redirects=False)
+    uri = urlparse(response.headers['location'])
+    assert uri.scheme == 'ilmai-staging' and uri.netloc == 'auth' and uri.path == '/callback'
+    assert set(parse_qs(uri.query)) == {'code', 'state'}

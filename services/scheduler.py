@@ -110,3 +110,10 @@ def start_scheduler():
     if os.environ.get("RENDER_EXTERNAL_URL"):
         _scheduler.add_job(_keep_alive, "interval", minutes=10, id="keep_alive")
     _scheduler.start()
+
+
+def stop_scheduler():
+    global _scheduler
+    if _scheduler is not None:
+        _scheduler.shutdown(wait=False)
+        _scheduler = None

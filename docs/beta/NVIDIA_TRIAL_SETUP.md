@@ -51,14 +51,11 @@ karta, pullik hamkor endpoint yoki avtomatik kredit xaridini yoqmaydi.
   output 256 token. Reasoning va tools o‘chirilgan; qaytgan reasoning tashlanadi.
   Prompt JSON so‘raydi; endpointda schema kafolati tekshirilgan deb aytilmaydi.
 - Process uchun 2 parallel, 20/min, 1000/UTC-kun request limiti.
-  Foydalanuvchining keyingi aniq buyrug‘i bilan **402/429 olgan kalitdan keyingi
-  kalitga avtomatik o‘tish qo‘shildi**. 402 kalit qayta sozlanguncha o‘chiriladi;
-  429 aynan shu kalitni kamida60s yoki kattaroq Retry-After muddatiga sovitadi.
-  Har requestda har bir kalit ko‘pi bilan bir marta, jami ko‘pi bilan8 urinish.
-  Hammasi tugagan/sovigan bo‘lsa reviewed fallback; cheksiz sweep yo‘q.
-  Birinchi7 quota xatosidan keyin8-kalit muvaffaqiyati test bilan tekshiriladi.
-  Bu har bir credentialning alohida kvotasi borligini isbotlamaydi: bir hisobga
-  bog‘langan kalitlarda umumiy limit bo‘lishi mumkin; real hisoblar tekshirilmagan.
+  **2026-11-07: oxirgi final-production brifi avvalgi kvotadan kalit almashtirish
+  talabini bekor qiladi.** 402/403 butun poolni to‘xtatadi;429 butun poolni
+  kamida60s yoki kattaroq Retry-After muddatiga pauza qiladi. Kvota tugaganda
+  boshqa akkaunt/kalitga o‘tilmaydi; tekshirilgan dars izohiga qaytiladi.
+  Kalitlar soni mustaqil bepul kvotalar sonini anglatmaydi.
 - 401 yoki transport/headersiz5xx uchun ko‘pi bilan2 transient urinish saqlanadi.
   403 permission rad javobi butun poolni to‘xtatadi;5xx Retry-After umumiy pauza.
   12s admission oynasidan keyin yangi urinish boshlanmaydi; network timeoutlar

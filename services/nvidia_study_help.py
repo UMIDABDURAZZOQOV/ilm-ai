@@ -1,6 +1,6 @@
 """NVIDIA-hosted free trial: internal Beta evaluation only, never production.
 
-Authorized credential failover, no subscriptions, paid fallback or generated facts.
+No quota/account hopping, subscriptions, paid fallback or model-generated facts.
 An explicit private reviewed config is required; no environment-key discovery.
 """
 
@@ -31,10 +31,6 @@ def trial_allowed():
 class NvidiaTrialEvidenceSelector(EvidenceSelector):
     def __init__(self, keys, **kwargs):
         super().__init__(keys, NVIDIA_MODEL, **kwargs)
-        self._key_paused_until = {}
-
-    def _key_ready(self, index, now):
-        return now >= self._key_paused_until.get(index, 0)
 
     def _select(self, body):
         if not trial_allowed():
@@ -59,14 +55,8 @@ class NvidiaTrialEvidenceSelector(EvidenceSelector):
             "tool_choice": "none",
         }
         attempted = set()
-        transient_failures = 0
-        # Each credential at most once per request. Never repeatedly sweep the
-        # pool: exhausted keys stay disabled; throttled keys respect Retry-After.
-        # This does not turn shared/account-wide quota into independent credit.
-        admission_deadline = time.monotonic() + 12
-        for _ in range(len(self._keys)):
-            if not trial_allowed() or time.monotonic() >= admission_deadline:
-                raise SelectorUnavailable
+        # Authorized standby for invalid credentials/transport only, never quota.
+        for _ in range(2):
             index = self._reserve(attempted)
             attempted.add(index)
             try:
@@ -85,28 +75,13 @@ class NvidiaTrialEvidenceSelector(EvidenceSelector):
                             with self._lock:
                                 if status == 401:
                                     self._disabled.add(index)
-                                elif status == 402:
-                                    self._disabled.add(index)
-                                    self._next = (index + 1) % len(self._keys)
-                                elif status == 403:
+                                elif status in {402, 403}:
                                     self._quota_exhausted = True
                                 elif status == 429 or 500 <= status <= 599:
                                     retry = response.headers.get(
                                         "retry-after"
                                     ) or response.headers.get("Retry-After")
-                                    if status == 429:
-                                        self._key_paused_until[index] = max(
-                                            self._key_paused_until.get(index, 0),
-                                            self._clock()
-                                            + max(
-                                                60,
-                                                _retry_after(
-                                                    SimpleNamespace(response=response)
-                                                ),
-                                            ),
-                                        )
-                                        self._next = (index + 1) % len(self._keys)
-                                    elif retry is not None:
+                                    if status == 429 or retry is not None:
                                         self._paused_until = max(
                                             self._paused_until,
                                             self._clock()
@@ -119,19 +94,14 @@ class NvidiaTrialEvidenceSelector(EvidenceSelector):
                                         )
                                     else:
                                         self._next = (index + 1) % len(self._keys)
-                            if status in {402, 429}:
-                                continue
                             if status == 401 or (
                                 500 <= status <= 599 and retry is None
                             ):
-                                transient_failures += 1
-                                if transient_failures >= 2:
-                                    raise SelectorUnavailable
                                 continue
                             raise SelectorUnavailable
                         # Bound the entire envelope, including ignored reasoning.
                         chunks, size = [], 0
-                        deadline = min(time.monotonic() + 8, admission_deadline)
+                        deadline = time.monotonic() + 8
                         for chunk in response.iter_content(chunk_size=4096):
                             size += len(chunk)
                             if size > 32768 or time.monotonic() > deadline:
@@ -173,9 +143,6 @@ class NvidiaTrialEvidenceSelector(EvidenceSelector):
             except requests.Timeout:
                 raise SelectorUnavailable from None
             except requests.ConnectionError:
-                transient_failures += 1
-                if transient_failures >= 2:
-                    raise SelectorUnavailable from None
                 continue
             except Exception:
                 # Never propagate raw HTTP bodies, reasoning or bearer tokens.

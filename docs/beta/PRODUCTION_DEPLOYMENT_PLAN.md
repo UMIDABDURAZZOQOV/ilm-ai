@@ -1,5 +1,15 @@
 # Existing Play update: deployment and rollback plan
 
+## 2026-11-07 implementation checkpoint
+
+Read [HTTPS staging preparation](HTTPS_STAGING.md) and the current
+[fix progress](FINAL_FIX_PROGRESS_20261107.md) first. The startup writes described
+in the historical audit below are now guarded out of `ENVIRONMENT=production`
+in local source. No live deployment was changed. Additive migration0015 covers
+the12 existing Chemistry/history engine tables; source publication has a separate
+fail-closed dependency and Flutter opt-in. Hosted PostgreSQL/OAuth acceptance,
+publication import, deletion, store declarations and signed upgrade remain open.
+
 Status: **NO-GO**, 2026-11-06. This is a plan, not an executed deployment or
 permission to upload to Play. Preserve `com.ilmai.app`, the existing signing
 identity, users' IDs/provider identities and persistent database/secrets.

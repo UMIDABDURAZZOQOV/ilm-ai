@@ -99,7 +99,8 @@ def add_profile_picture_column():
 
 
 # Try to add the column on import
-add_profile_picture_column()
+if not IS_PRODUCTION:
+    add_profile_picture_column()
 
 
 def migrate_sqlite_columns():
@@ -240,8 +241,10 @@ def migrate_postgres_columns():
         print(f"Postgres migration error: {e}")
 
 
-migrate_sqlite_columns()
-migrate_postgres_columns()
+if not IS_PRODUCTION:
+    migrate_sqlite_columns()
+if not IS_PRODUCTION:
+    migrate_postgres_columns()
 
 
 def make_password_nullable():
@@ -300,5 +303,6 @@ def make_password_nullable():
         print(f"Error making password nullable: {e}")
 
 
-make_password_nullable()
+if not IS_PRODUCTION:
+    make_password_nullable()
 

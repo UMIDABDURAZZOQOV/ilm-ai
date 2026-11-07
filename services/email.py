@@ -1,4 +1,5 @@
 import os
+import logging
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -49,7 +50,7 @@ def _send_via_brevo(to_email: str, subject: str, html: str, text: str) -> bool:
         timeout=15,
     )
     if resp.status_code >= 400:
-        raise RuntimeError(f"Brevo API {resp.status_code}: {resp.text[:200]}")
+        raise RuntimeError('email_provider_delivery_failed')
     return True
 
 
@@ -63,7 +64,7 @@ def _send_via_resend(to_email: str, subject: str, html: str, text: str) -> bool:
         timeout=15,
     )
     if resp.status_code >= 400:
-        raise RuntimeError(f"Resend API {resp.status_code}: {resp.text[:200]}")
+        raise RuntimeError('email_provider_delivery_failed')
     return True
 
 
@@ -112,12 +113,9 @@ def _send_via_gmail(to_email: str, subject: str, html: str, text: str) -> bool:
 
 def send_verification_code(to_email: str, code: str, purpose: str = "signup") -> bool:
     """
-    Send a 6-digit verification code by email. Tries Resend first (best
-    deliverability), then Gmail SMTP, then a console fallback for local dev.
-
-    Returns True if actually sent, False if no provider is configured (dev
-    fallback: the code is printed to the console instead, so the flow can
-    still be tested end-to-end without any email credentials).
+    Send a verification code through a configured delivery provider.
+    Returns False if delivery fails. Codes and recipients never enter logs,
+    monitoring contexts or a console fallback, including local development.
     """
     if purpose == "signup":
         subject = "Ilm AI — Emailingizni tasdiqlang"
@@ -137,12 +135,11 @@ def send_verification_code(to_email: str, code: str, purpose: str = "signup") ->
         if not enabled:
             continue
         try:
-            sender()
-            return True
-        except Exception as e:
-            from services.monitoring import track_error
-            track_error(e, context={"operation": "send_verification_code", "provider": name, "to_email": to_email, "purpose": purpose})
-            print(f"[email] {name} send failed for {to_email}: {e}")
+            if sender():
+                return True
+        except Exception:
+            # Raw SDK exceptions may embed bodies, bearer tokens or recipients.
+            logging.getLogger(__name__).warning('email_delivery_failed provider=%s', name)
 
-    print(f"[email] No email provider configured/working — {purpose} code for {to_email}: {code}")
+    logging.getLogger(__name__).warning('email_delivery_unavailable')
     return False

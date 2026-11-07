@@ -489,7 +489,8 @@ async def google_callback_mobile(request: Request, code: str | None = None,
     else:
         from urllib.parse import urlencode
         query = urlencode({"code": result["code"], "state": state})
-    return RedirectResponse(url=f"ilmai://auth/callback?{query}")
+    from services.deployment_config import mobile_app_scheme
+    return RedirectResponse(url=f"{mobile_app_scheme()}://auth/callback?{query}")
 
 
 class MobileExchangeRequest(BaseModel):

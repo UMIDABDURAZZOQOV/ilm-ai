@@ -3,7 +3,7 @@ uvicorn[standard]
 python-multipart
 pypdf
 google-genai
-python-dotenv
+python-dotenv>=1.2
 numpy
 scikit-learn
 python-telegram-bot[job-queue]>=21.0

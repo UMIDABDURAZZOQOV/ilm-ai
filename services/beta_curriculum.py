@@ -48,7 +48,9 @@ def adapter(db, slug):
     if slug not in ADAPTERS:
         raise HTTPException(404, 'subject_not_available')
     item = ADAPTERS[slug]
-    item[0].preview_gate(db)
+    from services.reviewed_mobile_release import authorized
+    if not authorized(db, slug):
+        item[0].preview_gate(db)
     return item
 
 
