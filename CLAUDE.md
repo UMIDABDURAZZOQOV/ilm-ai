@@ -1,5 +1,13 @@
 # Ilm AI — Project Context (for Claude)
 
+## 2026-11-07 — 225 checkpoint feature branchga qaytarildi
+
+`feat/mathematics-grade2-part3`dagi tekshirilgan ishlar `feat/mathematics-curriculum`ga **fast-forward** bilan saqlandi (17f7dd2gacha).
+Flutter kodi `30b8ac2`; backend dars kodi `5ef2642`. Main/production merge yoki deploy qilinmadi.
+225snapshotidagi yakuniy Matematika xarita testi1passed0.46s; handoff/source/inventory3passed0.76s.
+To‘liq220backend natijasi va baselinePhysics sandbox cheklovi quyida ochiq qayd etilgan; butun1–11kurs tayyor emas.
+Davom nuqtasi:2-sinf III§78/path6/PDF15–16/bosma14–15. Keyingi§78–82manba reviewi saqlandi, darslari hali0.
+
 ## 2026-11-07 — checkpoint225: yakuniy Git/test qaydi
 
 Backend kod/kontent: `5ef2642`; Flutter: `30b8ac2`. Qo‘shimcha source-review va test natijalari ushbu hujjat commitida.

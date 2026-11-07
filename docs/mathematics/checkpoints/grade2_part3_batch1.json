@@ -115,7 +115,9 @@
     "InventoryFinal": "1passed0.50s;460review-pinned;next10viewed/unready",
     "Quality": "96oldcurriculumfiles byte-identical;5protected worktrees unchanged",
     "NextSourceReview": "2passed0.30s;source78–82ten fullimage pins;0additional lessons",
-    "FullBackend220": "220 snapshot full:2841passed,10skipped,2failed,1996.53s. Math completed-body assertion fixed and isolated rerun passed;Physics sandbox positive test still fails syntheticGitancestor guard, reproduced on baseline d2f9379 (1failed0.98s). Not all-green;guard not bypassed."
+    "FullBackend220": "220 snapshot full:2841passed,10skipped,2failed,1996.53s. Math completed-body assertion fixed and isolated rerun passed;Physics sandbox positive test still fails syntheticGitancestor guard, reproduced on baseline d2f9379 (1failed0.98s). Not all-green;guard not bypassed.",
+    "FinalMap225": "1passed0.46s",
+    "HandoffFinal": "3passed0.76s"
   },
   "source_audit": {
     "available_pdfs": 23,
@@ -260,5 +262,8 @@
     "lessons": 14,
     "cards": 111,
     "questions": 149
-  }
+  },
+  "primary_backend_branch": "feat/mathematics-curriculum",
+  "implementation_branch": "feat/mathematics-grade2-part3",
+  "fast_forward_checkpoint": "17f7dd2"
 }
