@@ -13,6 +13,11 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "geometry_line_ray_segment",
+    "geometry_flat_plane",
+    "geometry_angle_kinds",
+    "geometry_rect_square",
+    "geometry_equal_angles",
     "clock_offsets_overnight",
     "mixed_review_quantities",
     "book2_final_summary",
@@ -403,6 +408,7 @@ BATCHES = [
     ("grade2_part2_batch5.json", "grade2_part2_batch5_review.json"),
     ("grade2_part2_batch6.json", "grade2_part2_batch6_review.json"),
     ("grade2_part2_batch7.json", "grade2_part2_batch7_review.json"),
+    ("grade2_part3_batch1.json", "grade2_part3_batch1_review.json"),
 ]
 
 
@@ -416,6 +422,7 @@ def validate_document(document, review):
         "math-uz-g1-p4",
         "math-uz-g2-p1",
         "math-uz-g2-p2",
+        "math-uz-g2-p3",
     }:
         body_map = {
             t["topic_id"]: t

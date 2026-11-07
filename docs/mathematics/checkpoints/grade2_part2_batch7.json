@@ -2,8 +2,8 @@
   "date": "2026-11-07",
   "branch": "feat/mathematics-curriculum",
   "previous_backend_commit": "a4d9a6c71b2ce4a1c55a3b46e7f9d5a46c581455",
-  "backend_code_commit": null,
-  "flutter_code_commit": null,
+  "backend_code_commit": "e0e52c130f315f9193ff45ce5fabdb9c729f7a56",
+  "flutter_code_commit": "b11486dae9d3e1b0552d9ac8ea45e389c34059a0",
   "publication": "local_test_preview_only",
   "course_ready": false,
   "stats": {
@@ -110,7 +110,7 @@
     "Source": "23PDF2958pages220topics450bodypages;91frozen files;5protected worktrees unchanged",
     "Analyze": "0issues2.1s",
     "Web": "debugJS56.0s;notAndroid/browser/API",
-    "Part3Preflight": "1passed0.46s;48boundaries not lessons"
+    "Part3Preflight": "1passed0.26s;48boundaries not lessons"
   },
   "source_audit": {
     "available_pdfs": 23,
@@ -249,7 +249,7 @@
   "standalone_cli_positive_sandbox": "not_verified:syntheticGitancestor guard notbypassed",
   "missing_sources": "9Algebra/11I transfer blocked32MiB;6II and Geometry7–10missing",
   "confirmed_additional_fix": "Math-only closed numeric parser accepts standard whole literals 1 000/NBSP/narrowNBSP without concatenating arbitrary tokens;decimal comma and resource/security limits preserved",
-  "pushed_feature_code_commits": false,
+  "pushed_feature_code_commits": true,
   "owned_postgresql_container_stopped": true,
   "session_added": {
     "lessons": 9,

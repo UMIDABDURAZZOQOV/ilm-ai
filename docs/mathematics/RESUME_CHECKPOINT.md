@@ -1,5 +1,67 @@
 # Matematika — davom checkpointi
 
+## 2026-11-07 — 2-sinf III qism §73–77, jami 225 lokal dars
+
+**225 dars, 1382 karta, 1815 savol, 232 misol / 696 qadam, 406 sonli tekshiruv.**
+Yangi partiya: **5 dars, 30 karta, 40 savol, 5 misol / 15 qadam**.
+1-sinf 143 dars; 2-sinf 82 dars: I qism43/44, II qism34/34, III qism **5/48**.
+III qismda hali **43 birlik** yozilmagan. 3–11-sinflar mualliflik darslari hali 0; butun kurs tugallanmadi.
+
+| § | Path | PDF | Bosma | O‘quv modeli |
+|---|---|---|---|---|
+|73|1|5–6|4–5|To‘g‘ri chiziq/nur/kesma; oxirgi nuqtalar va yo‘nalish|
+|74|2|7–8|6–7|Cheklangan yassi sirt va cheksiz tekislik tasviri|
+|75|3|9–10|8–9|O‘tkir/to‘g‘ri/o‘tmas burchak; butun burilish|
+|76|4|11–12|10–11|Kvadratning to‘g‘ri to‘rtburchakka tegishliligi, perimetr|
+|77|5|13–14|12–13|Teng burchaklarda uch va ikkala nur yo‘nalishini moslash|
+
+Asl 10 sahifa va bibliografiya tasvirlari o‘qildi. Original izohlar, shartlar va sonlar ishlatildi;
+kitobning bezak rasmlari, uzun matni va qo‘lyozma javoblari ko‘chirilmadi.
+§75 task1 dagi «ikki chekli kesma butun tekislikni bo‘ladi» noaniqligi takrorlanmaydi:
+chekli kesmalar chetidan aylanib o‘tish mumkin; dars umumiy uchli nurlar va ular orasidagi ochilishni o‘rgatadi.
+Burchak turi chizilgan nur uzunligiga yoki butun shaklning burilishiga bog‘lanmadi.
+Kvadrat — barcha tomonlari teng to‘g‘ri to‘rtburchak; kvadratni to‘g‘ri to‘rtburchaklar ichidan chiqarish xatosi yo‘q.
+Daraja o‘lchovi yoki Pifagor formulasi bu partiyada talab qilinmaydi. Sonli tekshiruvlar mavjud arifmetik masalalarga tegishli.
+
+Flutter: `grade2_geometry_explorer.dart`, 5 ta asl interaktiv model.
+Chiziq turini almashtirish/burish, tekislik tasvirini kengaytirish, ochilish/nur uzunligini ajratish,
+kvadrat tomoni locki va perimetr, turli uzunlikdagi nurlarni ustma-ust taqqoslash.
+Barcha modelda semantika va katta matn bor; haqiqiy chizg‘ich/goniya/qog‘oz mashqi bajarildi deb da’vo qilinmaydi.
+Ilmo, brend, odatiy API, boshqa fanlar va XP/streak hisoblash o‘zgarmadi.
+
+Qo‘shimcha haqiqiy metadata tuzatishi: `page_inventory.json` dagi eski boshlang‘ich `not_visually_reviewed`/null bosma sahifa yozuvlari
+review fayllaridagi aniq tasvir/hash dalillari bilan moslashtirildi. **Faqat 460 ta review bilan tasdiqlangan sahifa** yangilandi;
+III qismning PDF15–24 sahifalari alohida «tasvir ko‘rilgan, kontent tayyor emas» statusida, bu460 hisobiga qo‘shilmagan. PDF/bosma/hash bog‘lanishi barcha reviewlar uchun avtomatik testdan o‘tdi.
+Dars kontenti yoki foydalanuvchi progressi qayta yozilmadi.
+
+Haqiqiy tekshiruvlar:
+
+- Yangi backend va preflight: **8 passed, 76.78 s**. II qismning barcha34 darsidan III ga haqiqiy o‘tish,
+  source73–77 tartibi, noto‘g‘ri/muqobil sonli javoblar, sahifa identity, replay, 82 ta progress, 137→957 XP,
+  ikkinchi UID0, streak3 va missing I§25 yo‘qligi tekshirildi.
+- Backend regressiyalari: **35 passed, 90.68 s** — barcha review/inventory pinlari, Biology, Physics, mobile OAuth, source/CLI himoyalari.
+- Flutter: **21 passed, 22 s** — barcha5 III dars, oldingi II yakuniy4 dars, 32 faoliyatli DTO va eski26 mashqli format.
+  Alohida5 geometriya model testi **5 passed, 2 s**, 320px/200% matn va 248px ichki joyda.
+- Yakuniy II→III chain: **1 passed, 82.39 s**; inventory yakuniy1passed0.50s. 96 eski kontent fayli va5 himoyalangan worktree saqlandi.
+- Analyze: **0 issue, 1.6 s**; debugJS web build **51.5 s** (Android/browser/API testi emas). 220 snapshotining oldingi to‘liq Flutter suite natijasi 838 passed6:09;
+  bu yangi225 snapshotining to‘liq suite natijasi deb ko‘rsatilmaydi.
+- Sourceaudit: **23 PDF, 2958 sahifa, 225 mavzu / 460 asosiy sahifa**; original PDF/text/image SHA pinlari tekshirildi.
+- PostgreSQL: **1 passed, 175.30 s**; barcha225 dars,137→2387XP, replay0, parallel/UID/streak/immutable import. O‘z random schema olib tashlandi, o‘z konteyneri to‘xtatildi.
+  Oldingi220 snapshoti PG1passed183.47s,137→2337XP bilan ham tekshirilgan.
+- 220 snapshotining umumiy backend suite dastlabki worktreeda davom etmoqda. Yangiliklar uni o‘zgartirmaslik uchun
+  `/workspace/ilm-ai-mathematics-part3`, `feat/mathematics-grade2-part3` izolyatsiyalangan worktreeda bajarildi.
+  To‘liq suite yakuni va feature branchga fast-forward alohida checkpointda qayd etiladi; main merge qilinmaydi.
+
+Keyingi: **§78, path6, PDF15–16/bosma14–15**, so‘ng§79–82/PDF17–24.
+Ushbu keyingi10 asl sahifa ham o‘qildi, lekin ularga dars yozilmagani uchun225 hisobiga qo‘shilmadi.
+§78 da o‘lchash topshirig‘idan Pifagor teoremasini yashirin kiritmang. §79 net bilan qoplashni perimetr bilan aralashtirmang;
+faqat chet bo‘ylab arqon kabi aniq shartlarda chiziqli uzunlik so‘rang. §81–82 yuz va perimetrni ajrating;
+yarim katak faqat aynan teng ikkiga bo‘linganda yarim, istalgan qisman katakni yarim deb sanamang.
+
+2-sinf I§25 va oldingi1-sinf manba/schedule cheklovlari saqlandi. 9Algebra/11Itransfer,6IIva7–10Geometriya manbalari cheklangan.
+Mustaqil pedagog, pilot,2026–27 moslik va real Android/TalkBack tekshiruvlari bajarilmagan.
+PDF/OCR/asl rasmlar/credential Gitga kiritilmadi. Veb-sayt, boshqa fanlar, production va foydalanuvchi DBga tegilmadi.
+
 ## 2026-11-07 — 2-sinf II qism yakuni: 34/34 lokal o‘quv birligi
 
 Jami **220 dars, 1352 karta, 1775 savol, 227 ishlangan misol / 681 qadam, 396 sonli tekshiruv**.

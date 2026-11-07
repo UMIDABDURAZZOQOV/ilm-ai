@@ -25,7 +25,11 @@ def test_part3_real48_boundaries_do_not_create_any_completed_lessons():
     assert sum(t["body_images_reviewed"] for t in d["topics"]) == 5
     assert not d["all_body_content_reviewed"] and not d["course_ready"]
     assert d["authored_lessons"] == 0
-    assert not any(l["grade"] == 2 and l["part"] == 3 for l in load_course())
+    mapping = json.loads((ROOT / "grade2_part3_map.json").read_text())
+    assert (
+        sum(l["grade"] == 2 and l["part"] == 3 for l in load_course())
+        == mapping["authored_lessons"]
+    )
     assert (
         d["topics"][22]["source_number"] == 94
         and d["topics"][23]["source_number"] == 95

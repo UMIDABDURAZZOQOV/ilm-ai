@@ -222,7 +222,10 @@ def test_real_all34_chain_replay_identity_and_part3_prerequisite(preview, monkey
         "missing_source_numbers"
     ] == [25]
     third = client.get(root.P + "/catalog", params={"grade": 2, "part": 3}).json()
-    assert third["previous_book_complete"] and third["lessons"] == []
+    assert third["previous_book_complete"]
+    assert [l["state"] for l in third["lessons"]] == ["available"] + ["locked"] * (
+        len(third["lessons"]) - 1
+    )
     with factory() as db:
         assert db.query(MathProgress).filter_by(user_id=1).count() == 77
         assert not db.query(MathProgress).filter_by(lesson_key="math-2-1-26-r1").first()

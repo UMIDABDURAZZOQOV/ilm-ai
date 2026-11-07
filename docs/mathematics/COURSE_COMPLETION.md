@@ -1,5 +1,12 @@
 # Matematika kursi — hali tugallanmagan
 
+## 2026-11-07 — checkpoint225
+
+225 lokal dars / 1382 karta / 1815 savol. III qism5/48;43 birlik hali yozilmagan. II qism34/34 saqlandi.
+Keyingi §78/path6/PDF15–16/bosma14–15. Asl keyingi10 sahifa o‘qildi, hali darslari yo‘q.
+[Haqiqiy testlar](QA_REPORT.md), [checkpoint](checkpoints/grade2_part3_batch1.json).
+Butun1–11 kurs/Android/pedagogik tasdiq hali tugallanmagan.
+
 ## 2026-11-07 — checkpoint220
 
 220 lokal dars / 1352 karta / 1775 savol. II qism **34/34**; mantiqiy 32 faoliyat bitta darsda, 43 savol bilan.
