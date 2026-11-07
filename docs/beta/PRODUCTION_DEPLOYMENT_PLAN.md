@@ -1,5 +1,15 @@
 # Existing Play update: deployment and rollback plan
 
+## Latest hosted checkpoint ? 2026-11-07
+
+See [the current Free staging evidence](FREE_STAGING_20261107.md). Authenticated
+Render reads now prove Live e97c029 on main lacks the mobile routers. Release
+branch was safely pushed; isolated Free HTTPS staging is actually live with
+Alembic0017/1381 lessons and no users. Google remains explicitly unconfigured;
+normal preflight correctly stays NO-GO. Production's46-table Neon schema is
+unversioned: no blind initial upgrade/stamp. No production mutation/deploy or
+Play upload. This supersedes older unavailable-hosting/unknown-SHA/no-push notes.
+
 ## Focused production404 diagnosis,2026-11-07
 
 Read [source/deployment evidence and operator sequence](PRODUCTION_404_DEPLOYMENT_20261107.md)

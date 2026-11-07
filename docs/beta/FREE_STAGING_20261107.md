@@ -20,7 +20,7 @@ Release branch `release/ilm-ai-1.0.3-recovery-20261107` was safely pushed at
 Production's linked branch and Live deployment were unchanged after that push.
 No PR preview, force push, or main push was used. Outgoing objects were checked
 for source PDFs, private database/credential artifacts and known secret formats;
-only synthetic `nvapi-synthetic-test-only-*` fixture literals were accepted.
+only synthetic deterministic synthetic fixture literals were accepted.
 
 ## OAuth setup pending is not authentication acceptance
 
@@ -129,3 +129,39 @@ schema: **do not run initial CREATE migrations or blindly stamp head**. A verifi
 backup/restore, baseline reconciliation and additive migration rehearsal against
 a structural clone are required before the owner can approve production rollout.
 No production schema/data mutation was performed.
+
+## Corrected startup deployment acceptance
+
+`23d9ed355d916586e6cebf7fb2de3613348b4935` is confirmed Live on staging,
+deploy `dep-dbnip9s9v7es73cstifg`, observed2026-11-07T13:54:46Z. The first
+requests after that new process became ready: health200/exact SHA/contract2 in
+0.80s; grade5 catalogue200 in4.06s; grade7 catalogue200 in2.52s; all five subjects
+and correct locks; unauthorized tree401 in1.22s; Google configfalse in1.31s.
+No initialization/import was rerun in this deployment. Normal source/DB guards
+still execute, caches remain process-local, and idle wake/startup may still take
+minutes on Free compute. This is not a device/startup SLA or production GO.
+
+Local8930 Beta still responds200. Fresh read-only digest of all46 account/progress
+tables exactly matches both prior `production-focus-beta-preservation` and
+`blockers-beta-preservation-current` snapshots. ADB is empty. Central CLAUDE and
+production audit handoffs were updated; no new APK/AAB was necessary for these
+backend-only changes.
+
+The observed46-table production structural clone was then rehearsed on loopback
+PG with synthetic data: a0012 baseline hypothesis followed by additive0013–0017,
+1381-lesson import/reimport, unchanged user42/137 XP/progress and0 reimport inserts.
+No production rows were read/copied or changed. See the precise scope and remaining
+baseline/backup gates in [the unversioned schema report](PRODUCTION_UNVERSIONED_SCHEMA_20261107.md).
+Dedicated Google client setup steps: [operator guide](GOOGLE_STAGING_OPERATOR_SETUP.md).
+
+After initialization, the new staging database's temporary operator IPv4 rule
+was removed: external access is now disabled; the same-region staging service
+uses its private internal TLS connection. Plans remain Free, HA/autoscaling off,
+auto deploy off, Google credentials absent. Final hosted receipt records actual
+Live hashes for staging and production without credential values.
+
+Free staging shares this workspace's750 monthly instance hours with its existing
+Free service. No artificial keepalive or repeated monitoring loop is left running;
+idle staging can sleep. Build spend limit $0 was confirmed by the owner, not a
+universal bandwidth/billing guarantee. No paid compute/database/HA/disk was enabled.
+See [Render Free usage limits](https://render.com/docs/free#monthly-usage-limits).
