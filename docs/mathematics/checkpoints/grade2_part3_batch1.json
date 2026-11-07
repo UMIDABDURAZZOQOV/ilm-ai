@@ -2,8 +2,8 @@
   "date": "2026-11-07",
   "branch": "feat/mathematics-grade2-part3",
   "previous_backend_commit": "e0e52c130f315f9193ff45ce5fabdb9c729f7a56",
-  "backend_code_commit": null,
-  "flutter_code_commit": null,
+  "backend_code_commit": "5ef26425b2ffd893027a68288cc1471a90112382",
+  "flutter_code_commit": "30b8ac24260985168e27814fe6427c452d24632e",
   "publication": "local_test_preview_only",
   "course_ready": false,
   "stats": {
@@ -110,11 +110,12 @@
     "Flutter": "21passed22s incl5IIIflows/oldII32andI26;5models2s;220priorfull838passed6:09",
     "Analyze": "0issues1.6s final",
     "Source": "23PDF2958pages225topics460bodypages",
-    "FullBackend220": "running in original untouched worktree;known old map assertion rerun1passed0.60s",
     "Web": "debugJS51.5s;notAndroid/browser/API",
     "FinalPreviousBookChain": "1passed82.39s",
     "InventoryFinal": "1passed0.50s;460review-pinned;next10viewed/unready",
-    "Quality": "96oldcurriculumfiles byte-identical;5protected worktrees unchanged"
+    "Quality": "96oldcurriculumfiles byte-identical;5protected worktrees unchanged",
+    "NextSourceReview": "2passed0.30s;source78–82ten fullimage pins;0additional lessons",
+    "FullBackend220": "220 snapshot full:2841passed,10skipped,2failed,1996.53s. Math completed-body assertion fixed and isolated rerun passed;Physics sandbox positive test still fails syntheticGitancestor guard, reproduced on baseline d2f9379 (1failed0.98s). Not all-green;guard not bypassed."
   },
   "source_audit": {
     "available_pdfs": 23,
@@ -253,7 +254,7 @@
   "standalone_cli_positive_sandbox": "not_verified:syntheticGitancestor guard notbypassed",
   "missing_sources": "9Algebra/11I transfer blocked32MiB;6II and Geometry7–10missing",
   "confirmed_additional_fix": "Math-only closed numeric parser accepts standard whole literals 1 000/NBSP/narrowNBSP without concatenating arbitrary tokens;decimal comma and resource/security limits preserved",
-  "pushed_feature_code_commits": false,
+  "pushed_feature_code_commits": true,
   "owned_postgresql_container_stopped": true,
   "session_added": {
     "lessons": 14,

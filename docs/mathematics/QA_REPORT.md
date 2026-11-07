@@ -1,5 +1,22 @@
 # Matematika QA — tekshirilgan checkpointlar
 
+## 2026-11-07 — checkpoint225: yakuniy Git/test qaydi
+
+Backend kod/kontent: `5ef2642`; Flutter: `30b8ac2`. Qo‘shimcha source-review va test natijalari ushbu hujjat commitida.
+225 lokal dars; III qism5/48; keyingi§78/path6/PDF15–16/bosma14–15. Kurs hali1–11gacha tugallanmagan.
+
+220 snapshotida umumiy backend: **2841 passed,10 skipped,2 failed,1996.53s**.
+Matematikaning eski «all_body_content_reviewed=false» assertioni tuzatildi va alohida test qayta o‘tdi.
+QolganPhysics `test_local_sandbox_creates_only_private_test_data_and_resume_preserves_it` testi
+`syntheticGit` ajdod papka himoyasi sabab yiqildi. **Boshlang‘ich d2f9379commitida ham1failed0.98s** bilan takrorlandi;
+bu yangiMatematika kontentidan kelib chiqmagan. Fizika kodi/testi o‘zgartirilmadi, himoya chetlab o‘tilmadi.
+Umumiy suite barcha testlari yashil deb e’lon qilinmaydi; ixtiyoriyPG testlari uchun skiplar ham saqlangan.
+
+225 snapshotining haqiqiy yangi/tegishli backend,35regression,225darsliPG,21Flutter,analyze vaweb natijalari quyida.
+Oxirgi source/preflight/inventory handoff: **3passed0.76s**; keyingi10sahifa pinlari bor,0qo‘shimcha tayyor dars.
+Yangi qism alohida worktreeda bajarildi; umumiy backend tugagach mavjud matematika feature branchiga faqat fast-forward qilinadi.
+Production/main/veb/boshqa fanlar/foydalanuvchi ma’lumotlari o‘zgartirilmaydi.
+
 ## 2026-11-07 — 2-sinf III qism §73–77, jami 225 lokal dars
 
 **225 dars, 1382 karta, 1815 savol, 232 misol / 696 qadam, 406 sonli tekshiruv.**
@@ -48,12 +65,13 @@ Haqiqiy tekshiruvlar:
 - Sourceaudit: **23 PDF, 2958 sahifa, 225 mavzu / 460 asosiy sahifa**; original PDF/text/image SHA pinlari tekshirildi.
 - PostgreSQL: **1 passed, 175.30 s**; barcha225 dars,137→2387XP, replay0, parallel/UID/streak/immutable import. O‘z random schema olib tashlandi, o‘z konteyneri to‘xtatildi.
   Oldingi220 snapshoti PG1passed183.47s,137→2337XP bilan ham tekshirilgan.
-- 220 snapshotining umumiy backend suite dastlabki worktreeda davom etmoqda. Yangiliklar uni o‘zgartirmaslik uchun
+- 220 snapshotining umumiy backend suite natijasi2841passed/10skipped/2failed; Matematika assertioni tuzatildi, Physics environment guard bazada ham takrorlandi. Yangiliklar snapshotni o‘zgartirmaslik uchun
   `/workspace/ilm-ai-mathematics-part3`, `feat/mathematics-grade2-part3` izolyatsiyalangan worktreeda bajarildi.
   To‘liq suite yakuni va feature branchga fast-forward alohida checkpointda qayd etiladi; main merge qilinmaydi.
 
 Keyingi: **§78, path6, PDF15–16/bosma14–15**, so‘ng§79–82/PDF17–24.
 Ushbu keyingi10 asl sahifa ham o‘qildi, lekin ularga dars yozilmagani uchun225 hisobiga qo‘shilmadi.
+`grade2_part3_next_source_review.json` da ularning10tasvir/text hash pini va aniq pedagogik qarorlar saqlandi;2source/preflight test0.30sda o‘tdi.
 §78 da o‘lchash topshirig‘idan Pifagor teoremasini yashirin kiritmang. §79 net bilan qoplashni perimetr bilan aralashtirmang;
 faqat chet bo‘ylab arqon kabi aniq shartlarda chiziqli uzunlik so‘rang. §81–82 yuz va perimetrni ajrating;
 yarim katak faqat aynan teng ikkiga bo‘linganda yarim, istalgan qisman katakni yarim deb sanamang.

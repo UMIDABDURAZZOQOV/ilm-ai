@@ -104,13 +104,14 @@
     }
   },
   "tests": {
-    "Backend": "12passed87.96s new;1passed0.60s map final;full suite running, not claimed passed",
+    "Backend": "12passed87.96s new;1passed0.60s map correction;see FullBackend220 results",
     "PG": "1passed183.47s;220lessons;137→2337XP;replay/parallel/UID/streak/import;ownschema removed/container stopped",
     "Flutter": "838passed6:09 full;23passed18s new",
     "Source": "23PDF2958pages220topics450bodypages;91frozen files;5protected worktrees unchanged",
     "Analyze": "0issues2.1s",
     "Web": "debugJS56.0s;notAndroid/browser/API",
-    "Part3Preflight": "1passed0.26s;48boundaries not lessons"
+    "Part3Preflight": "1passed0.26s;48boundaries not lessons",
+    "FullBackend220": "220 snapshot full:2841passed,10skipped,2failed,1996.53s. Math completed-body assertion fixed and isolated rerun passed;Physics sandbox positive test still fails syntheticGitancestor guard, reproduced on baseline d2f9379 (1failed0.98s). Not all-green;guard not bypassed."
   },
   "source_audit": {
     "available_pdfs": 23,

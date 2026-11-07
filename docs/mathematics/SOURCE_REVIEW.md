@@ -48,12 +48,13 @@ Haqiqiy tekshiruvlar:
 - Sourceaudit: **23 PDF, 2958 sahifa, 225 mavzu / 460 asosiy sahifa**; original PDF/text/image SHA pinlari tekshirildi.
 - PostgreSQL: **1 passed, 175.30 s**; barcha225 dars,137→2387XP, replay0, parallel/UID/streak/immutable import. O‘z random schema olib tashlandi, o‘z konteyneri to‘xtatildi.
   Oldingi220 snapshoti PG1passed183.47s,137→2337XP bilan ham tekshirilgan.
-- 220 snapshotining umumiy backend suite dastlabki worktreeda davom etmoqda. Yangiliklar uni o‘zgartirmaslik uchun
+- 220 snapshotining umumiy backend suite natijasi2841passed/10skipped/2failed; Matematika assertioni tuzatildi, Physics environment guard bazada ham takrorlandi. Yangiliklar snapshotni o‘zgartirmaslik uchun
   `/workspace/ilm-ai-mathematics-part3`, `feat/mathematics-grade2-part3` izolyatsiyalangan worktreeda bajarildi.
   To‘liq suite yakuni va feature branchga fast-forward alohida checkpointda qayd etiladi; main merge qilinmaydi.
 
 Keyingi: **§78, path6, PDF15–16/bosma14–15**, so‘ng§79–82/PDF17–24.
 Ushbu keyingi10 asl sahifa ham o‘qildi, lekin ularga dars yozilmagani uchun225 hisobiga qo‘shilmadi.
+`grade2_part3_next_source_review.json` da ularning10tasvir/text hash pini va aniq pedagogik qarorlar saqlandi;2source/preflight test0.30sda o‘tdi.
 §78 da o‘lchash topshirig‘idan Pifagor teoremasini yashirin kiritmang. §79 net bilan qoplashni perimetr bilan aralashtirmang;
 faqat chet bo‘ylab arqon kabi aniq shartlarda chiziqli uzunlik so‘rang. §81–82 yuz va perimetrni ajrating;
 yarim katak faqat aynan teng ikkiga bo‘linganda yarim, istalgan qisman katakni yarim deb sanamang.
