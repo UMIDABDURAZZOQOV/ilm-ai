@@ -66,3 +66,14 @@ New isolated Free database: `dpg-dbnib9dg1s2s73cpgab0-a`, PostgreSQL16, Oregon,
 name `ilm-ai-103-staging-8b0727`, expires `2026-12-07T13:20:37Z`. Autoscaling and
 HA are off; external access is restricted to the operator's single IPv4 address.
 Creation succeeded; schema/import acceptance is recorded only after completion.
+
+`scripts/initialize_fresh_render_staging.py` is an explicit one-time staging build
+action bound to the new internal `dpg-*` identity, staging-only Render service,
+empty users/content and strict pending-auth config. It refuses the production
+service, external/other URLs, existing learner content and unknown schema; errors
+never echo credentials. It reuses actual Alembic and source-validated importer,
+without weakening the existing local-only import CLI. Remove this one-time action
+from the new staging Build Command after it completes. Normal app startup still
+does not migrate or import.13 offline target-guard cases passed. The external
+operator run completed Alembic0017, then was interrupted during source validation
+before import writes; its import must not be reported as passed.
