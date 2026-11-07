@@ -43,6 +43,8 @@ def init_monitoring():
 
 def before_send_transaction(transaction, hint):
     """Filter and modify transactions before sending to Sentry."""
+    if '/account/deletion/' in str(transaction.get('request', {}).get('url', '')) or '/account/deletion/' in str(transaction.get('transaction', '')):
+        return None
     # Filter out health check transactions
     if transaction.get("transaction", "").startswith("/health"):
         return None
@@ -57,6 +59,9 @@ def before_send_transaction(transaction, hint):
 
 def before_send_event(event, hint):
     """Filter and modify events before sending to Sentry."""
+    # Verification material must never reach telemetry, even SDK exception bodies.
+    if '/account/deletion/' in str(event.get('request', {}).get('url', '')) or '/account/deletion/' in str(event.get('transaction', '')):
+        return None
     # Filter out health check errors
     if event.get("transaction", "").startswith("/health"):
         return None

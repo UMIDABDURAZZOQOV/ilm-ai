@@ -123,7 +123,8 @@ def exchange_grant(code, verifier):
         if not claimed:
             raise HTTPException(400, "invalid_or_expired_login_code")
         user = db.get(User, row.user_id)
-        if not user:
+        from services.account_ownership import DELETED_PROVIDER
+        if not user or user.oauth_provider == DELETED_PROVIDER:
             raise HTTPException(400, "invalid_or_expired_login_code")
         # Tokens are issued only on the HTTPS exchange, never into a custom URI.
         from services.tokens import create_access_token, REFRESH_EXPIRE_DAYS

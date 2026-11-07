@@ -40,8 +40,10 @@ def load_chat_history(user_id: int) -> list[dict]:
 
 
 def save_chat_history(user_id: int, history: list[dict]) -> None:
-    with open(_chat_history_path(user_id), "w", encoding="utf-8") as f:
-        json.dump(history[-MAX_HISTORY * 2:], f, ensure_ascii=False, indent=2)
+    from services.account_write_guard import active_account_file_write
+    with active_account_file_write(user_id):
+        with open(_chat_history_path(user_id), "w", encoding="utf-8") as f:
+            json.dump(history[-MAX_HISTORY * 2:], f, ensure_ascii=False, indent=2)
 
 
 def append_chat_message(user_id: int, role: str, content: str) -> None:

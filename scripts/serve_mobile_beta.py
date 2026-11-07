@@ -93,6 +93,8 @@ def create_app():
         return RedirectResponse(uri._replace(scheme='ilmai-beta').geturl(),status_code=response.status_code)
 
     app.include_router(auth)
+    from routers.account_deletion import install as install_account_deletion
+    install_account_deletion(app)
     app.include_router(integrated)
     app.include_router(original_mobile)
     lock = threading.Lock()

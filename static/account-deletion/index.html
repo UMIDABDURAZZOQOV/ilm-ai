@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="uz"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ILM AI — Akkauntni o‘chirish</title><link rel="stylesheet" href="/account-deletion.css"><script src="/account-deletion.js" defer></script></head>
+<body><main><p class="brand">ILM AI</p><h1>Akkauntni o‘chirish</h1>
+<p>ILM AI akkauntingiz, shaxsiy profilingiz, dars progressingiz, javoblaringiz, XP va saqlangan materiallaringizni o‘chirishni shu yerdan boshlashingiz mumkin. Ilovani qayta o‘rnatish shart emas.</p>
+<p>Avval akkauntingizdagi emailga yuborilgan kod bilan shaxsingizni tasdiqlaysiz. O‘chirish qaytarilmaydi. Keyin shu Google akkaunt bilan kirsangiz, eski progress qaytmaydi, yangi profil yaratiladi.</p>
+<form id="request-form"><label for="email">Akkaunt emailingiz</label><input id="email" name="email" type="email" autocomplete="email" maxlength="200" required><button type="submit">Tasdiqlash kodini olish</button></form>
+<form id="confirm-form" hidden><label for="code">Emaildagi 6 xonali kod</label><input id="code" name="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required>
+<p>Kod 10 daqiqa amal qiladi. Kodni hech kimga bermang.</p><label for="confirmation">Butunlay o‘chirishni tasdiqlash uchun DELETE deb yozing</label><input id="confirmation" name="confirmation" pattern="DELETE" maxlength="6" autocomplete="off" required><button class="danger" type="submit">Akkauntni butunlay o‘chirish</button></form>
+<p id="status" role="status" aria-live="polite"></p>
+<details><summary>Qaysi ma’lumotlar o‘chiriladi va nima saqlanishi mumkin?</summary>
+<p>Profil, autentifikatsiya sessiyalari, o‘quv progressi, javoblar, XP, yuklangan materiallardan hosil qilingan shaxsiy ma’lumotlar, shaxsiy suhbat va saqlangan fayllar o‘chiriladi. Boshqa o‘quvchilarning akkauntlari va umumiy darslik kontenti o‘chirilmaydi.</p>
+<p>Real to‘lovlari bo‘lgan akkauntlarda moliyaviy saqlash talablari operator tomonidan alohida ko‘rib chiqiladi; bunday so‘rov yakunlandi deb ko‘rsatilmaydi. Faylni o‘chirish vaqtincha imkonsiz bo‘lsa, akkaunt yopiladi va tozalash qayta bajariladi.</p>
+<p>Eski tokenlar va akkaunt raqami qayta ishlatilmasligi uchun asl email, ism va Google identifikatorisiz minimal xavfsizlik qaydi saqlanadi. Zaxira nusxalar, uchinchi tomon tizimlari va majburiy moliyaviy saqlashning aniq muddatlari operator privacy siyosatida tasdiqlanishi kerak; bu sahifa ularning tugaganini bildirmaydi.</p></details>
+</main></body></html>

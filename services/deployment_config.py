@@ -1,6 +1,7 @@
 """Pure staging configuration checks; never connect or echo secret values."""
 
 import os
+from pathlib import PurePosixPath, PureWindowsPath
 from urllib.parse import urlsplit
 
 PRODUCTION_HOST = "ilm-ai-backend-256x.onrender.com"
@@ -50,7 +51,8 @@ def staging_errors(env):
         "exact_mobile_callback_required",
     )
     require(
-        env.get("MOBILE_RELEASE_APP_SCHEME") == "ilmai-staging", "isolated_app_scheme_required"
+        env.get("MOBILE_RELEASE_APP_SCHEME") == "ilmai-staging",
+        "isolated_app_scheme_required",
     )
     require(env.get("ALLOWED_ORIGINS") == origin, "exact_staging_cors_required")
     require(
@@ -128,6 +130,30 @@ def staging_errors(env):
         "unreviewed_external_integrations_must_be_disabled",
     )
     require(env.get("PAYMENT_TEST_MODE") == "true", "payment_test_mode_required")
+    if env.get("ACCOUNT_DELETION_ENABLED") == "true":
+        deletion_secret = env.get("ACCOUNT_DELETION_SECRET", "")
+        require(
+            len(deletion_secret) >= 32 and deletion_secret not in secrets,
+            "dedicated_account_deletion_secret_required",
+        )
+        require(
+            bool(env.get("ACCOUNT_DELETION_POLICY_REFERENCE", "").strip()),
+            "account_deletion_policy_review_required",
+        )
+        storage = env.get("ACCOUNT_DELETION_STORAGE_ROOT", "")
+        require(
+            PurePosixPath(storage).is_absolute()
+            or PureWindowsPath(storage).is_absolute(),
+            "absolute_account_deletion_storage_required",
+        )
+        require(
+            bool(
+                (env.get("BREVO_API_KEY") and env.get("BREVO_FROM_EMAIL"))
+                or (env.get("RESEND_API_KEY") and env.get("RESEND_FROM"))
+                or (env.get("GMAIL_ADDRESS") and env.get("GMAIL_APP_PASSWORD"))
+            ),
+            "dedicated_account_deletion_test_sender_required",
+        )
     return errors
 
 

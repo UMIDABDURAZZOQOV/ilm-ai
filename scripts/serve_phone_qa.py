@@ -76,8 +76,9 @@ def initialize(path, *, seed_user=True):
             db.add(User(id=UID, name='Telefon QA', email='phone-qa@example.test', xp_total=0, email_verified=True))
             db.flush()
         biology = load_lesson_set()
+        catalog_cache = {}
         for lesson in biology:
-            import_curriculum(db, catalog, lesson, allow_source_upgrade=True)
+            import_curriculum(db, catalog, lesson, allow_source_upgrade=True, catalog_cache=catalog_cache)
         physics = load_course()
         for batch in physics:
             import_batch(db, batch)

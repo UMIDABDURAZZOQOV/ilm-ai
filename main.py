@@ -54,7 +54,8 @@ if not IS_PRODUCTION:
 app = FastAPI(title="Ilm AI Backend", version="0.3.0")
 
 # Add session middleware for OAuth
-app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY)
+app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY,
+                   https_only=IS_PRODUCTION, same_site="lax")
 
 # ALLOWED_ORIGINS: comma-separated list of origins allowed to make credentialed
 # requests (the web frontend). Mobile app requests don't send an Origin header
@@ -80,6 +81,8 @@ app.add_middleware(
 )
 
 app.include_router(auth.router)
+from routers.account_deletion import install as install_account_deletion
+install_account_deletion(app)
 app.include_router(files.router)
 app.include_router(chat.router)
 app.include_router(quiz.router)

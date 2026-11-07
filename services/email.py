@@ -120,6 +120,9 @@ def send_verification_code(to_email: str, code: str, purpose: str = "signup") ->
     if purpose == "signup":
         subject = "Ilm AI — Emailingizni tasdiqlang"
         intro = "Ro'yxatdan o'tishni yakunlash uchun quyidagi kodni kiriting:"
+    elif purpose == 'account_deletion':
+        subject = 'ILM AI — Akkauntni o‘chirishni tasdiqlash'
+        intro = 'Akkauntingiz va o‘quv progressingizni butunlay o‘chirishni tasdiqlash uchun kod. Bu so‘rovni siz yubormagan bo‘lsangiz, kodni hech kimga bermang.'
     else:
         subject = "Ilm AI — Parolni tiklash kodi"
         intro = "Parolingizni tiklash uchun quyidagi kodni kiriting:"

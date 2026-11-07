@@ -13,6 +13,24 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def test_production_and_staging_browser_sessions_require_secure_cookies():
+    tree = ast.parse((ROOT / "main.py").read_text(encoding="utf-8-sig"))
+    middleware = [
+        node
+        for node in ast.walk(tree)
+        if isinstance(node, ast.Call)
+        and isinstance(node.func, ast.Attribute)
+        and node.func.attr == "add_middleware"
+        and node.args
+        and isinstance(node.args[0], ast.Name)
+        and node.args[0].id == "SessionMiddleware"
+    ]
+    assert len(middleware) == 1
+    options = {item.arg: item.value for item in middleware[0].keywords}
+    assert ast.unparse(options["https_only"]) == "IS_PRODUCTION"
+    assert ast.literal_eval(options["same_site"]) == "lax"
+
+
 def execute_guarded_calls(filename, names, production):
     tree = ast.parse((ROOT / filename).read_text(encoding="utf-8-sig"))
     guarded = [

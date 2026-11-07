@@ -25,6 +25,7 @@ USE_DB = os.environ.get("AUTH_STORAGE", "database") != "legacy_json"
 if USE_DB:
     from services.db import SessionLocal
     from services.models import RefreshToken as RefreshTokenModel
+    from services.models import User as UserModel
 
 
 def _load_refresh():
@@ -74,7 +75,13 @@ def create_refresh_token(user_id: int) -> str:
 def verify_access_token(token: str) -> Optional[int]:
     try:
         p = jwt.decode(token, JWT_SECRET, algorithms=["HS256"])
-        return int(p.get("sub"))
+        user_id = int(p.get("sub"))
+        if USE_DB:
+            from services.account_ownership import DELETED_PROVIDER
+            with SessionLocal() as db:
+                if db.query(UserModel.oauth_provider).filter(UserModel.id == user_id).scalar() == DELETED_PROVIDER:
+                    return None
+        return user_id
     except Exception:
         return None
 
@@ -94,6 +101,9 @@ def rotate_refresh_token(token: str):
         ).returning(RefreshTokenModel.user_id)).scalar_one_or_none()
         if user_id is None:
             return None
+        from services.account_ownership import DELETED_PROVIDER
+        if db.query(UserModel.oauth_provider).filter(UserModel.id == user_id).scalar() == DELETED_PROVIDER:
+            return None
         replacement = secrets.token_urlsafe(32)
         db.add(RefreshTokenModel(token=replacement, user_id=user_id,
                                 exp=int(time.time()) + REFRESH_EXPIRE_DAYS * 86400))
@@ -108,6 +118,9 @@ def verify_refresh_token(token: str) -> Optional[int]:
         try:
             rt = db.query(RefreshTokenModel).filter(RefreshTokenModel.token == token).first()
             if not rt:
+                return None
+            from services.account_ownership import DELETED_PROVIDER
+            if db.query(UserModel.oauth_provider).filter(UserModel.id == rt.user_id).scalar() == DELETED_PROVIDER:
                 return None
             if int(time.time()) > int(rt.exp):
                 db.delete(rt)

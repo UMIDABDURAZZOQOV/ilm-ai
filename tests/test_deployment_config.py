@@ -40,6 +40,26 @@ def test_valid_configuration_is_offline_only(config):
     require_staging_config(config)
 
 
+def test_enabled_deletion_requires_private_policy_storage_and_test_sender(config):
+    config["ACCOUNT_DELETION_ENABLED"] = "true"
+    assert {
+        "dedicated_account_deletion_secret_required",
+        "account_deletion_policy_review_required",
+        "absolute_account_deletion_storage_required",
+        "dedicated_account_deletion_test_sender_required",
+    } <= set(staging_errors(config))
+    config.update(
+        ACCOUNT_DELETION_SECRET="c" * 40,
+        ACCOUNT_DELETION_POLICY_REFERENCE="synthetic reviewed policy fixture",
+        ACCOUNT_DELETION_STORAGE_ROOT="/isolated-staging",
+        BREVO_API_KEY="synthetic-mail-key",
+        BREVO_FROM_EMAIL="owned@example.test",
+    )
+    assert staging_errors(config) == []
+    config["ACCOUNT_DELETION_SECRET"] = config["JWT_SECRET"]
+    assert staging_errors(config) == ["dedicated_account_deletion_secret_required"]
+
+
 def test_unassigned_env_value_is_rejected_without_traceback(config):
     config["DATABASE_URL"] = None
     assert staging_errors(config) == ["configuration_values_must_be_strings"]

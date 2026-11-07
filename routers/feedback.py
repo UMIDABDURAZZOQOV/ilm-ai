@@ -1,5 +1,6 @@
 import json
 import os
+from pathlib import Path
 from datetime import datetime
 
 from fastapi import APIRouter
@@ -28,7 +29,9 @@ def submit_feedback(data: FeedbackRequest):
         "submitted_at": datetime.utcnow().isoformat() + "Z",
     }
     path = f"{DATA_DIR}/feedback.jsonl"
-    with open(path, "a", encoding="utf-8") as f:
-        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    from services.private_file_lock import exclusive_file_lock
+    with exclusive_file_lock(Path(path).with_suffix('.lock')):
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
     return {"message": "Thank you for your feedback!"}

@@ -126,13 +126,7 @@ def activity_courses(db):
     )
 
 
-def import_curriculum(db, catalog, lesson, *, allow_source_upgrade=False):
-    """Caller controls one transaction. Never deletes or rewrites legacy progress.
-
-    Published lessons are immutable; changed content requires a new reviewed key.
-    Startup never calls this function; the CLI only allows explicit local SQLite.
-    """
-    book, source_topic = validate_lesson(catalog, lesson)
+def _prepare_catalog(db, catalog, allow_source_upgrade):
     subject = db.query(SkillSubject).filter_by(slug="biologiya").first()
     if not subject:
         subject = SkillSubject(
@@ -230,6 +224,25 @@ def import_curriculum(db, catalog, lesson, *, allow_source_upgrade=False):
                     )
                 )
     db.flush()
+    return chapter_map
+
+
+def import_curriculum(db, catalog, lesson, *, allow_source_upgrade=False, catalog_cache=None):
+    """Caller controls one transaction. Never deletes or rewrites legacy progress.
+
+    Published lessons are immutable; changed content requires a new reviewed key.
+    Startup never calls this function; the CLI only allows explicit local SQLite.
+    """
+    book, source_topic = validate_lesson(catalog, lesson)
+    if catalog_cache is None:
+        chapter_map = _prepare_catalog(db, catalog, allow_source_upgrade)
+    else:
+        if not catalog_cache:
+            catalog_cache.update(db=db, catalog=catalog,
+                chapters=_prepare_catalog(db, catalog, allow_source_upgrade))
+        if catalog_cache['db'] is not db or catalog_cache['catalog'] is not catalog:
+            raise ValueError('catalog_cache_must_be_scoped_to_one_import_transaction')
+        chapter_map = catalog_cache['chapters']
     checksum = hashlib.sha256(
         json.dumps(lesson, sort_keys=True, ensure_ascii=False).encode()
     ).hexdigest()

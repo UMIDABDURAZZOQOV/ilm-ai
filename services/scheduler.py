@@ -104,6 +104,9 @@ def start_scheduler():
     _scheduler = BackgroundScheduler(timezone=TZ)
     _scheduler.add_job(_check_daily_reminders, "interval", seconds=60, id="push_daily_reminder")
     _scheduler.add_job(_check_due_reviews, "cron", hour=8, minute=0, id="push_due_reviews")
+    if os.getenv('ACCOUNT_DELETION_ENABLED') == 'true':
+        from services.account_deletion_worker import scheduled_cleanup
+        _scheduler.add_job(scheduled_cleanup, 'interval', minutes=1, id='account_file_cleanup')
     # Evening streak-saver nudge (19:00 Tashkent), Duolingo-style.
     _scheduler.add_job(_telegram_streak_reminders, "cron", hour=19, minute=0, id="tg_streak_reminder")
     # Keep the free instance awake so the Telegram webhook never sleeps.

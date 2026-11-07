@@ -64,7 +64,9 @@ def load_users() -> List[Dict[str, Any]]:
     if USE_DB:
         db = SessionLocal()
         try:
-            res = db.query(UserModel).all()
+            from services.account_ownership import DELETED_PROVIDER
+            from sqlalchemy import or_
+            res = db.query(UserModel).filter(or_(UserModel.oauth_provider.is_(None), UserModel.oauth_provider != DELETED_PROVIDER)).all()
             return [{c: getattr(u, c) for c in u.__table__.columns.keys()} for u in res]
         finally:
             db.close()
@@ -81,6 +83,9 @@ def save_users(users: List[Dict[str, Any]]) -> None:
                 if uid is not None:
                     obj = db.query(UserModel).filter(UserModel.id == uid).first()
                 if obj:
+                    from services.account_ownership import DELETED_PROVIDER
+                    if obj.oauth_provider == DELETED_PROVIDER:
+                        continue
                     for k, v in u.items():
                         if k in obj.__table__.columns.keys():
                             setattr(obj, k, v)
@@ -141,7 +146,8 @@ def find_user_by_id(user_id: int) -> Optional[Dict[str, Any]]:
         db = SessionLocal()
         try:
             u = db.query(UserModel).filter(UserModel.id == user_id).first()
-            if not u:
+            from services.account_ownership import DELETED_PROVIDER
+            if not u or u.oauth_provider == DELETED_PROVIDER:
                 return None
             return {c: getattr(u, c) for c in u.__table__.columns.keys()}
         finally:
