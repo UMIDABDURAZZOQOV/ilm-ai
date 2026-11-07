@@ -54,10 +54,16 @@ retags questions during import. Existing production reminders start through the
 application lifecycle and are disabled in staging. Reviewed migrations/imports
 must be completed explicitly before acceptance. Pinned additive migration
 `0015_reviewed_subject_schemas` now creates the12 existing Chemistry/history
-engine tables and rejects conflicting schemas before any DDL; its SQLite tests
-passed. Actual PostgreSQL migration acceptance, reviewed publication import
-tooling and account deletion are still outstanding at this
-checkpoint; a new empty database is not yet a complete working staging service.
+engine tables and rejects conflicting schemas before any DDL. The full Alembic
+chain through0017, five-subject import of1381 lessons, idempotent reimport and
+synthetic137 XP preservation now passed in a fresh real loopback PostgreSQL
+schema (`blockers-postgres-publication-20261107.log`). This is not hosted staging
+or an existing production schema/backup rehearsal. Explicit importer tooling and
+app/public-web deletion are implemented and synthetically tested; see
+[deletion requirements](ACCOUNT_DELETION.md). Deletion remains off on8930 and
+production until policy, mailbox, storage and worker acceptance. Browser session
+cookies are secure in production/staging (`https_only`, SameSite Lax). The actual
+HTTPS proxy/cookie/Google round trip still needs hosted acceptance.
 
 Offline check (does not connect to any database/server):
 
@@ -116,7 +122,7 @@ provision hosting. Port8930/local Beta is not stopped or repurposed.
 | Catalogue | All five subjects visible for grades5–11; locks/labels from actual imported availability; no fabricated lessons |
 | Lessons | Theory, MCQ/FRQ correct/incorrect, explanation only after checked feedback, retry/draft, idempotent completion/XP |
 | Data | Preferences/progress isolation and restoration, no production data in staging |
-| Deletion | Verified in-app and public web deletion, full data lifecycle/revocation, other users unaffected — implementation pending |
+| Deletion | App/public-web implementation and synthetic lifecycle tests exist; real mailbox, HTTPS, backup/retention and device acceptance remain |
 | Contract | All missing404 routes resolved by the intended deployed commit, old clients still compatible |
 | Resilience | Timeout/offline, interrupted submit, retry, concurrent reward, source/grader drift rejected |
 | Device | Real Android profile/release cold/warm startup, scrolling, large text, edge-to-edge, back navigation, signed upgrade |

@@ -1,5 +1,58 @@
 # Existing Play update: deployment and rollback plan
 
+## Current blocker implementation (2026-11-07)
+
+This section supersedes the historical open engineering items below. New local
+code includes verified app/public-web deletion, migrations0016/0017 and a pinned
+55-table runtime foundation, plus an explicit transactional publication importer.
+See [deletion deployment requirements](ACCOUNT_DELETION.md). Full current command
+results belong in FINAL_FIX_PROGRESS_20261107.md; unfinished runs are not passes.
+Backend functional commit: `b4e138a`. Actual full-chain Alembic plus1381-lesson
+import/reimport/XP-preservation acceptance passed on isolated real PostgreSQL.
+This does not establish the current production schema revision or authorize a
+production upgrade. A fresh-install rehearsal is not backup/restore acceptance
+for an existing deployment. Final read-only production preflight at10:07:32Z
+still reports the mobile404 blockers. No hosted migration/deploy was executed.
+
+The production read-only OpenAPI inventory has187 paths and no `/mobile/*` or
+`/auth/mobile/*` contract, while legacy `/auth/google-login` and `/skills/subjects`
+exist. This confirms deployment/contract divergence, not an exact deployed Git
+revision. Hosting admin access was not found; no deployment was attempted.
+
+Operator sequence after separate authorization:
+
+1. Record the actual Render service repository, branch, root, build/start command
+   (`uvicorn main:app`), deployed commit and approved DB identity. Compare with
+   this isolated feature branch; retain the existing secrets, package and users.
+2. Provision/approve an isolated HTTPS origin and PostgreSQL role/database. Fill
+   the private staging template, dedicated Google client/callback, test mailbox,
+   storage and deletion policy. Run `scripts/check_staging_config.py` before
+   launch. Nothing here provisions paid resources or approves a public deployment.
+3. Inventory Alembic/schema state before upgrading. Fresh schemas now require
+   `0017_runtime_foundation`;0011 has a fresh-install-only guard for its previously
+   missing SAT table. Existing already-applied0011 is not rerun. Conflicts fail
+   review; no production create_all, destructive downgrade or blanket stamp.
+4. Validate manifests with `python scripts/import_reviewed_publication.py`.
+   Local rehearsal apply accepts only a private URL file pointing to loopback
+   PostgreSQL staging. It refuses production/hosted writes and does not migrate
+   tables. Hosted publication requires a separately approved operator transaction
+   using `services.reviewed_publication_import.import_reviewed_publication(db)`.
+   Import preserves existing lesson IDs, users, sessions and progress; mismatched
+   content/private rubrics require review rather than overwriting live lessons.
+5. Activate reviewed `/mobile` publication only with exact imported coverage and
+   an explicit review reference. Keep preview/test-login flags disabled. Activate
+   deletion only after real OTP delivery, policy/storage/worker acceptance.
+6. Test actual HTTPS/Google new/returning users, expired sessions, deletion,
+   account isolation, five subjects and signed upgrade on owned staging accounts.
+   Preserve legacy `/skills` and auth contracts. Do not infer old Play-client
+   compatibility from only current-client mocks.
+7. Re-run public preflight, health revision, catalogue and deletion capability
+   through the real origin. Separate permission is still required for production
+   migrations/deployments and Play upload. Keep application rollback additive;
+   never restore an old DB over new learner progress.
+
+No final five-subject production AAB or GO is authorized by this checklist.
+
 ## 2026-11-07 implementation checkpoint
 
 Read [HTTPS staging preparation](HTTPS_STAGING.md) and the current
