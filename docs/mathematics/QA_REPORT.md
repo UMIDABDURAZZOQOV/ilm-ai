@@ -1,5 +1,54 @@
 # Matematika QA — tekshirilgan checkpointlar
 
+## 2026-11-07 — 2-sinf II qism §66–70, jami 216 lokal dars
+
+**216 dars, 1302 karta, 1708 savol, 216 misol / 648 qadam, 388 sonli tekshiruv.**
+Yangi 5 dars:31 karta,42 savol,5 misol/15 qadam. IIqism **30/34**,4 birlik hali tayyor emas.
+1-sinf 143,2-sinf 73 lokal dars;I qismmissing§25/bosma 54–55 saqlandi. IIqismning ayni bosma raqamlari uni almashtirmaydi.
+
+|§|Path|PDF|Bosma|Usul|
+|---|---|---|---|---|
+|66|26|55–56|54–55|O‘zgaruvchilar,qiymat qo‘yish,sarf/chiqim farqi|
+|67|27|57–58|56–57|Tenglama,0 ildiz,qavsli ildiz,oraliqlar|
+|68|28|59–60|58–59|Teskari amal,uchkatakli 400↔004,tartib|
+|69|29|61–62|60–61|Analogsoat,1 h 60 min,soat milining uzluksiz siljishi|
+|70|30|63–64|62–63|60 asosli davomiylik,same-dayoraliq,tayanchvaqt|
+
+Asl 10 sahifa ko‘rildi. Source 66 task 8 da 431 kgxomashyo sarfi aniqlanadi,kraxmal mahsulot miqdori emas;
+oxirgi savol yetishmayotgan chiqim ma’lumotini alohida tekshiradi. Kimyo kontentiga tegilmadi.
+Source 67 dagi 450−250=250 ataylab tekshiriladigan noto‘g‘ri tenglik,erratum deb olinmadi.
+Teskari raqam yozuvida 400→004→400 uchkatak saqlansa qaytadi;faqat 4 qiymatidan 400 ni yagona tiklash mumkin emas.
+
+Flutter: `variable_inverse_explorer.dart`,`clock_time_explorer.dart` va 5 yangi model.
+MathClockReading 6:20 uchun soat burchagi 190°,minut 120°;3:30 da 105°/180°.
+Soat mili yaxlit soatda qotib qolmaydi;12:55+5 min=1:00. Soat modeli 12 soatlik vaam/pmni o‘zi ko‘rsatmaydi.
+Davomiylik modeli 245 min=4 h 5 min,250−95=155 min=2 h 35 minni 60 asosda tushuntiradi.
+Yangi o‘quvchi oqimlarida server/XP implementation matni qo‘shilmadi;ular tushuntirish namunalari.
+177 asosiy model,qo‘shimcha kartalar bilan 180 tur. Ilmo,brend,normalAPI/OAuth,QAflag/progress/XPshartnomalari o‘zgarmadi.
+
+Haqiqiy testlar:
+
+- Backendyakuniy: **50 passed 183.26 s**; yangi partiya,QAflag/UID/revoke,source/CLI,14 oldgrade-scope va 11 Biology/Physics/OAuth. Dastlabki ikki partiya targeti **14 passed 138.82 s**.
+- PostgreSQL: **1 passed 145.70 s**,barcha 216 dars,137 XP→2297;replay 0,parallelreward,UID/streak,immutableimport. O‘z randomschema olib tashlandi,konteyner to‘xtatildi.
+- Flutter: **80 passed 1:10**,barcha 30 IIqism darsi/modellari; yangi target **13 passed 10 s**,10 savolli§70 oqimi ham o‘tdi.320 px/200%matn/ReduceMotion.
+- Analyze: **0 issue 1.6 s**;debugJSweb **58.2 s**. Bu Android/browser/API sinovi emas.
+- Sourceaudit 23 PDF 2958 sahifa,216 mavzu/437 asosiy sahifa;PDF/bosma/hashpinlar tekshirildi.
+- Oldingi 89 kontent/manba fayli saqlandi;publicfixturegrading/token kalitlarini oshkor qilmaydi.5 himoyalanganworktree o‘zgarmadi.
+- Yangi clockternarysyntax vaDartcurly-brace diagnosticlari testdan oldin tuzatildi. Joriybutunbackend/Fluttersuite qayta yugurtirilmadi;joriytarget/regressionlar haqiqiy.
+
+Manba katalogi qo‘shimchasi: `grade2_part2_logical_source_catalog.json` —PDF 71–77/bosma 70–76 da 32 haqiqiy raqamlangan mashq.
+Hamma 7 sahifa ko‘rildi;0 raqamli adaptatsiya,bu 32 dars degani emas. Katalogtesti mapping/offset/barcha 32 raqamni tekshiradi.
+Mavjud clientsource_activitykontrakti Iqism uchun 26 mashq/pdf+1 ga xos;IIqism 32 mashq/pdf−1 uchun keyingi partiyada backward-compatiblebook-aware qo‘shimcha kerak.
+
+**Keyingi §71,path 31,PDF 65–66/bosma 64–65.** Keyingi§72,raqamsizsummary(PDF 69–70) va mantiqiyto‘plam(PDF 71–77)ham to‘liq ko‘rildi,darslari hali yo‘q.
+71 da ertasi-kun oraliq,clockoffset,tayanchvaqt va ketma-ket ishlar;uyqushartini universal medicalnorma qilmang.
+72 da kosmik vaqt/haroratlarni tekshirilgan fakt demang;neytral original arifmetik shartlardan foydalaning.
+32 mantiqiy mashqning subpartlari,yo‘qotishsiz aylantirish,katak qoplash,ikki-pallali og‘irlik va 3/7 minutehourglass intervalini aniq talqin qilish talab qilinadi.
+
+Butun 1–11 kurs hali tugallanmagan;3–11 mualliflik darslari 0,globaljami/qolgan noma’lum.
+9 Algebra/11 Itransfer,6 IIva 7–10 Geometriyamanba kamchiliklari saqlandi. Teacher/pilot/2026–27/realAndroid/TalkBack tasdiqsiz.
+PDF/rasm/OCR/credentialGitga kiritilmadi;veb-sayt,boshqa fanlar,main,production vauserdata o‘zgarmadi.
+
 ## Git checkpoint211 — 2026-11-06
 
 Backend kod/kontent: `65d775674f3e5875dc3c8150b5ed0dea159baa65`; Flutter: `7cc66bc7678341a269a264d4a72a351d6ca6c7c3`.

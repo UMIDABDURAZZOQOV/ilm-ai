@@ -7,7 +7,7 @@
   "numbered_body_topics": 31,
   "unnumbered_summary_topics": 2,
   "unnumbered_activity_collections": 1,
-  "authored_lessons": 25,
+  "authored_lessons": 30,
   "full_map_verified": false,
   "all_body_content_reviewed": false,
   "all_body_boundaries_reviewed": true,
@@ -941,10 +941,10 @@
           "image_sha256": "c19f09b53fcc122f13edfa8883bbc436827b51d7a8b73847e5533d21cc644467"
         }
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "full_source_images_viewed_for_handoff": true,
-      "handoff_note": "PDF55–56/printed54–55 seen;letter expressions/variables and substituting values. IIpages54–55 are distinct from missing Ipages54–55. Source66task8 gives raw potato750→476kg and corn280→123kg:known consumption274+157=431kg,not proven starch product yield;conversion/yield data absent. Do not grade431kg as starch output. Use original raw-inventory arithmetic or mark yield unknown;no Chemistry branch changes. Not authored."
+      "handoff_note": "Authored with431kgrawconsumption distinguished from unknown starch yield;teacherreviewpending."
     },
     {
       "topic_id": "math-g2-p2-t67",
@@ -975,8 +975,8 @@
           "image_sha256": "e4ee9afbcad156fad2cdfa3c964f9e41e2a4b459fc6463e77ea09464dca757a4"
         }
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g2-p2-t68",
@@ -1007,8 +1007,8 @@
           "image_sha256": "436b974854a18bca93421ee8a3066a8c138bfc0c2bb00d70596b627ce5bebdc3"
         }
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g2-p2-t69",
@@ -1039,8 +1039,8 @@
           "image_sha256": "bc61a877f38ab4e698140fcc84a34b435559e13acb4e27429285d4016cbac5a1"
         }
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g2-p2-t70",
@@ -1071,8 +1071,8 @@
           "image_sha256": "07e24e525c17ecbf62a90b3a6afa046d39838da5895349840d1e3c623e3b77ac"
         }
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g2-p2-t71",
@@ -1104,7 +1104,9 @@
         }
       ],
       "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false
+      "interactive_lesson_created": false,
+      "full_source_images_viewed_for_handoff": true,
+      "handoff_note": "PDF65–66/printed64–65 seen;overnight durations,base60borrow,clockoffset and sequential travel/lesson durations. Not authored;do not present sleep target as universal medical advice."
     },
     {
       "topic_id": "math-g2-p2-t72",
@@ -1240,7 +1242,362 @@
         }
       ],
       "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false
+      "interactive_lesson_created": false,
+      "source_activities": [
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 1,
+          "pdf_pages": [
+            71
+          ],
+          "printed_pages": [
+            70
+          ],
+          "objective": "Sonlarni1–15tartibida tanish"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 2,
+          "pdf_pages": [
+            71
+          ],
+          "printed_pages": [
+            70
+          ],
+          "objective": "Berilgan yozuvlarda yetishmayotgan raqam"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 3,
+          "pdf_pages": [
+            71
+          ],
+          "printed_pages": [
+            70
+          ],
+          "objective": "Aks/tartibdan kodni tiklash"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 4,
+          "pdf_pages": [
+            71
+          ],
+          "printed_pages": [
+            70
+          ],
+          "objective": "Raqam va son so‘zlari shartlarini tekshirish"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 5,
+          "pdf_pages": [
+            71
+          ],
+          "printed_pages": [
+            70
+          ],
+          "objective": "Qoidasini aniq berib ketma-ketlikni davom ettirish"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 6,
+          "pdf_pages": [
+            72
+          ],
+          "printed_pages": [
+            71
+          ],
+          "objective": "Xona birliklari orasidagi farqlar"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 7,
+          "pdf_pages": [
+            72
+          ],
+          "printed_pages": [
+            71
+          ],
+          "objective": "Oldin/keyin munosabatidan tartib"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 8,
+          "pdf_pages": [
+            72
+          ],
+          "printed_pages": [
+            71
+          ],
+          "objective": "Ikki tanlovning barcha juftlari"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 9,
+          "pdf_pages": [
+            72
+          ],
+          "printed_pages": [
+            71
+          ],
+          "objective": "Yil-kun bog‘lanishini aniq shartda qo‘llash"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 10,
+          "pdf_pages": [
+            72
+          ],
+          "printed_pages": [
+            71
+          ],
+          "objective": "Detallardan butunni tanish"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 11,
+          "pdf_pages": [
+            72
+          ],
+          "printed_pages": [
+            71
+          ],
+          "objective": "Uch natija va jami gollar sharti"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 12,
+          "pdf_pages": [
+            73
+          ],
+          "printed_pages": [
+            72
+          ],
+          "objective": "Takrorlanuvchi ranglar ketma-ketligi"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 13,
+          "pdf_pages": [
+            73
+          ],
+          "printed_pages": [
+            72
+          ],
+          "objective": "Tashqari/qolgan so‘zini tushunish"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 14,
+          "pdf_pages": [
+            73
+          ],
+          "printed_pages": [
+            72
+          ],
+          "objective": "Ikki palladagi massalar tengligi"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 15,
+          "pdf_pages": [
+            73
+          ],
+          "printed_pages": [
+            72
+          ],
+          "objective": "Qatlamlar ustma-ust tartibi"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 16,
+          "pdf_pages": [
+            73
+          ],
+          "printed_pages": [
+            72
+          ],
+          "objective": "Chap/o‘ng va shaxsning o‘zini sanash"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 17,
+          "pdf_pages": [
+            74
+          ],
+          "printed_pages": [
+            73
+          ],
+          "objective": "Katakli maydonni bo‘shliqsiz qoplash"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 18,
+          "pdf_pages": [
+            74
+          ],
+          "printed_pages": [
+            73
+          ],
+          "objective": "Teng bo‘linishli chizmadan uzunlik"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 19,
+          "pdf_pages": [
+            74
+          ],
+          "printed_pages": [
+            73
+          ],
+          "objective": "Teskari o‘lchash va o‘lchash usuli"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 20,
+          "pdf_pages": [
+            74
+          ],
+          "printed_pages": [
+            73
+          ],
+          "objective": "Berilgan yo‘l algoritmi"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 21,
+          "pdf_pages": [
+            74
+          ],
+          "printed_pages": [
+            73
+          ],
+          "objective": "Uch obyektga turli raqamlarni joylashtirish"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 22,
+          "pdf_pages": [
+            75
+          ],
+          "printed_pages": [
+            74
+          ],
+          "objective": "Bir xil kublar soni va teng massa"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 23,
+          "pdf_pages": [
+            75
+          ],
+          "printed_pages": [
+            74
+          ],
+          "objective": "Uch idishning tartibiy shartlari"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 24,
+          "pdf_pages": [
+            75
+          ],
+          "printed_pages": [
+            74
+          ],
+          "objective": "Tutash yo‘lni kuzatish"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 25,
+          "pdf_pages": [
+            75
+          ],
+          "printed_pages": [
+            74
+          ],
+          "objective": "Yetti massani teng to‘rt guruhga ajratish"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 26,
+          "pdf_pages": [
+            76
+          ],
+          "printed_pages": [
+            75
+          ],
+          "objective": "Rasm qiymatlaridan ifoda hisoblash"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 27,
+          "pdf_pages": [
+            76
+          ],
+          "printed_pages": [
+            75
+          ],
+          "objective": "Ikki xususiyatli ketma-ketlik"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 28,
+          "pdf_pages": [
+            76
+          ],
+          "printed_pages": [
+            75
+          ],
+          "objective": "Turli belgilar o‘rniga turli raqamlar"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 29,
+          "pdf_pages": [
+            77
+          ],
+          "printed_pages": [
+            76
+          ],
+          "objective": "Ikki vaqt oralig‘i bilan aniq davomiylik"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 30,
+          "pdf_pages": [
+            77
+          ],
+          "printed_pages": [
+            76
+          ],
+          "objective": "Soat va minut ifodalarining tengligi"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 31,
+          "pdf_pages": [
+            77
+          ],
+          "printed_pages": [
+            76
+          ],
+          "objective": "Ko‘zgudagi soatni o‘qish"
+        },
+        {
+          "book_id": "math-uz-g2-p2",
+          "number": 32,
+          "pdf_pages": [
+            77
+          ],
+          "printed_pages": [
+            76
+          ],
+          "objective": "Burishga nisbatan juft shakllar"
+        }
+      ],
+      "source_activity_count": 32
     }
   ],
   "review_notes": [

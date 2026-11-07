@@ -1,5 +1,11 @@
 # 2-sinf II qism — joriy manba va darslar
 
+## 2026-11-07 — checkpoint 216
+
+216 lokal dars/1302 karta/1708 savol. IIqism 30/34;4 birlik qolgan. Yangi§66–70 harfiyifoda,ildiz,inverseva 60 asosli soat.
+Keyingi§71/path 31/PDF 65–66/bosma 64–65. Mantiqiyto‘plamda 32 manbamashqi kataloglandi,0 adaptatsiya;32 dars emas.
+[Haqiqiy testlar](QA_REPORT.md).1–11 kurs/Android/teacherreviewtugallanmagan;productiono‘zgarmadi.
+
 ## Checkpoint211 — 2026-11-06
 
 25/34 lokal dars,9birlik qolgan.31raqamlangan+2summary+1logical. TOC73actualraqamsizsummary.
@@ -32,11 +38,11 @@ Keyingi§66/path26/PDF55–56/bosma54–55;harfiy ifodalar. Handoff:431kgxomashy
 |63|23|49–50|48–49|Lokal dars|
 |64|24|51–52|50–51|Lokal dars|
 |65|25|53–54|52–53|Lokal dars|
-|66|26|55–56|54–55|Asl sahifalar ko‘rildi,dars yo‘q|
-|67|27|57–58|56–57|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
-|68|28|59–60|58–59|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
-|69|29|61–62|60–61|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
-|70|30|63–64|62–63|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+|66|26|55–56|54–55|Lokal dars|
+|67|27|57–58|56–57|Lokal dars|
+|68|28|59–60|58–59|Lokal dars|
+|69|29|61–62|60–61|Lokal dars|
+|70|30|63–64|62–63|Lokal dars|
 |71|31|65–66|64–65|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
 |72|32|67–68|66–67|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
 |Raqamsiz summary|33|69–70|68–69|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
@@ -78,11 +84,11 @@ Keyingi§61,path21,PDF45–46/bosma44–45;sahifalar ko‘rildi,mm darsi hali yo
 |63|23|49–50|48–49|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
 |64|24|51–52|50–51|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
 |65|25|53–54|52–53|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
-|66|26|55–56|54–55|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
-|67|27|57–58|56–57|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
-|68|28|59–60|58–59|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
-|69|29|61–62|60–61|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
-|70|30|63–64|62–63|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
+|66|26|55–56|54–55|Lokal dars|
+|67|27|57–58|56–57|Lokal dars|
+|68|28|59–60|58–59|Lokal dars|
+|69|29|61–62|60–61|Lokal dars|
+|70|30|63–64|62–63|Lokal dars|
 |71|31|65–66|64–65|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
 |72|32|67–68|66–67|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
 |Raqamsiz summary|33|69–70|68–69|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
@@ -135,11 +141,11 @@ Yangi default-offpairedlocalQAflag ikkalaSHA va43real oldingi darsni talab qilad
 |63|23|49–50|48–49|Faqat chegara tekshirilgan,dars yo‘q|
 |64|24|51–52|50–51|Faqat chegara tekshirilgan,dars yo‘q|
 |65|25|53–54|52–53|Faqat chegara tekshirilgan,dars yo‘q|
-|66|26|55–56|54–55|Faqat chegara tekshirilgan,dars yo‘q|
-|67|27|57–58|56–57|Faqat chegara tekshirilgan,dars yo‘q|
-|68|28|59–60|58–59|Faqat chegara tekshirilgan,dars yo‘q|
-|69|29|61–62|60–61|Faqat chegara tekshirilgan,dars yo‘q|
-|70|30|63–64|62–63|Faqat chegara tekshirilgan,dars yo‘q|
+|66|26|55–56|54–55|Lokal dars|
+|67|27|57–58|56–57|Lokal dars|
+|68|28|59–60|58–59|Lokal dars|
+|69|29|61–62|60–61|Lokal dars|
+|70|30|63–64|62–63|Lokal dars|
 |71|31|65–66|64–65|Faqat chegara tekshirilgan,dars yo‘q|
 |72|32|67–68|66–67|Faqat chegara tekshirilgan,dars yo‘q|
 |Raqamsiz|33|69–70|68–69|Faqat chegara tekshirilgan,dars yo‘q|

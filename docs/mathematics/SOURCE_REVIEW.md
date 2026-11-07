@@ -1,5 +1,12 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-07 — §66–70 talqinlari va yakuniy to‘plam katalogi
+
+431 kgxomashyo/kraxmal farqi yangi darsda ochiq o‘rgatiladi va ma’lumot yetmasligi baholanadi. False 450−250=250 intentionalexercise.
+400↔004 uchkatakreversalyo‘qotishsiz;canonical 4 qisqartirilsa original 400 ni yakka tiklash mumkin emas. Fizikto‘kib-qaytarish yo‘qotishsiz deb shartberilsa miqdor saqlanadi,universaljarayon deb olinmaydi.
+1 h 60 min,soat mili fractionalposition va day/durationfarqi tekshirildi;actualphysicalclock yoki huquqiyishme’yori da’vo qilinmadi.
+PDF 71–77 ning 32 mashqi sourcecatalogda;haliadaptatsiya 0. NumberwordsO/O-apostrophefarqi,finitepatternning noaniqligi,physicalruler/asteroidfacts,electricaltracing,3/7 timerinterval va rotationalpairingnotes katalogda.
+
 ## 2026-11-06 — §61–65 va keyingi §66 noaniqligi
 
 PDF 45–54/bosma 44–53 ning 10 asl sahifasi tekshirildi;5 original dars.1 cm=10 mm,1 dm=100 mm;yo‘l perimetri,aniq raqam amali va qavs tarmoqlari mustaqil hisoblandi. Noaniq raster endpointlari yoki geografik scale taxmin qilinmadi. Ochiqso‘zi/abbreviaturaoralig‘i to‘g‘rilandi;004 savoli aniq sonliqiymat haqida.
