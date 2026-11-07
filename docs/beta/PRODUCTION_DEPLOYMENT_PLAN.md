@@ -1,5 +1,17 @@
 # Existing Play update: deployment and rollback plan
 
+## Focused production404 diagnosis,2026-11-07
+
+Read [source/deployment evidence and operator sequence](PRODUCTION_404_DEPLOYMENT_20261107.md)
+before any hosting action. Queried remote main `e881930` lacks the mobile source
+and router registration; the candidate QA branch is not remote. Echo-only CI
+deploy was removed locally; no real deployment was added. Exact Render Live SHA/
+linked branch/auto-deploy/settings and production DB backup/revision require
+inspection first. Source/tests/CI commit `cd778f6`;140 targeted regressions and
+actual main:app/whole-chain/import PG acceptance passed. Final12:22:31Z live GET
+probe still reports mobile404/unknown SHA/NO-GO. Do not redeploy the old main,
+blindly push/merge, regenerate secrets or apply a new-resource Blueprint.
+
 ## Current blocker implementation (2026-11-07)
 
 This section supersedes the historical open engineering items below. New local
