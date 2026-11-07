@@ -1,0 +1,44 @@
+name: Read-only mobile deployment preflight
+
+on:
+  workflow_dispatch:
+    inputs:
+      origin:
+        description: Approved HTTPS API origin (no credentials or path)
+        required: true
+        default: https://ilm-ai-backend-256x.onrender.com
+        type: string
+      revision:
+        description: Exact approved deployed Git SHA (40 lowercase hex characters)
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      API_ORIGIN: ${{ inputs.origin }}
+      EXPECTED_REVISION: ${{ inputs.revision }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests
+      - name: Verify deployed revision, Google config and five-subject contracts
+        run: >-
+          python scripts/mobile_release_preflight.py
+          --origin "$API_ORIGIN"
+          --expected-revision "$EXPECTED_REVISION"
+          --output mobile-contract-receipt.json
+      - name: Save read-only receipt even when the contract is blocked
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mobile-contract-receipt
+          path: mobile-contract-receipt.json
+          if-no-files-found: ignore

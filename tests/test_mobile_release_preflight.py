@@ -79,3 +79,38 @@ def test_legacy_biology_only_catalogue_does_not_pass():
         return good_get(url, **kwargs)
 
     assert check("https://example.test", get)["decision"] == "NO-GO"
+
+
+@pytest.mark.parametrize("revision", ["short", "A" * 40, "private-token", "f" * 41])
+def test_revision_input_is_strict_and_not_reflected(revision):
+    with pytest.raises(ValueError) as error:
+        check("https://example.test", good_get, expected_revision=revision)
+    assert str(error.value) == "expected_revision_must_be_full_lowercase_git_sha"
+
+
+@pytest.mark.parametrize(
+    "identity,accepted",
+    [
+        ({"revision": "a" * 40, "mobile_contract_version": 2}, True),
+        ({"revision": "b" * 40, "mobile_contract_version": 2}, False),
+        ({"revision": "a" * 7, "mobile_contract_version": 2}, False),
+        ({"revision": "a" * 40, "mobile_contract_version": 1}, False),
+        ({"revision": "a" * 40, "mobile_contract_version": True}, False),
+        ({"revision": "PRIVATE-VALUE", "mobile_contract_version": "PRIVATE"}, False),
+        ({}, False),
+    ],
+)
+def test_expected_deployment_requires_exact_public_identity(identity, accepted):
+    calls = []
+
+    def get(url, **kwargs):
+        calls.append(url)
+        if url.endswith("/health"):
+            return response(200, {"status": "ok", **identity})
+        return good_get(url, **kwargs)
+
+    result = check("https://example.test", get, expected_revision="a" * 40)
+    assert result["contract_ready"] is accepted
+    assert result["production_signoff"] is False
+    assert len(calls) == 8  # One health request, never authenticated or mutating.
+    assert "PRIVATE" not in str(result)

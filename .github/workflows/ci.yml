@@ -6,9 +6,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
+      ENVIRONMENT: test
+      PYTHON_DOTENV_DISABLED: '1'
       GEMINI_API_KEY: dummy
       TELEGRAM_BOT_TOKEN: dummy
-      DATABASE_URL: sqlite:////tmp/ilm-ci.db
+      DATABASE_URL: sqlite:////tmp/chemistry_staging_world_history_staging_uzbekistan_history_staging_ci.db
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
@@ -31,12 +33,7 @@ jobs:
             tags: ilm-ai:ci
         continue-on-error: true
 
-  deploy:
-    name: Deploy to Production
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Deploying...
-        run: echo "Deploying to production server (e.g., VPS or Railway)"
-        # Here we would typically use an action like 'appleboy/ssh-action' or 'railway deploy'
+  # Production deployment is a separately approved Render operator action.
+  # The former echo-only deploy job performed no deployment and misleadingly
+  # appeared successful. This workflow tests/builds only; see the manual
+  # mobile-contract-preflight workflow for read-only post-deployment evidence.

@@ -8,6 +8,7 @@ import argparse
 from datetime import datetime, timezone
 import json
 from pathlib import Path
+import re
 from urllib.parse import urlsplit
 
 import requests
@@ -38,7 +39,11 @@ def origin(value):
     return value.rstrip("/")
 
 
-def check(base, get=requests.get):
+def check(base, get=requests.get, *, expected_revision=None):
+    if expected_revision is not None and not re.fullmatch(
+        r"[0-9a-f]{40}", expected_revision
+    ):
+        raise ValueError("expected_revision_must_be_full_lowercase_git_sha")
     base = origin(base)
     report = {
         "checked_utc": datetime.now(timezone.utc).isoformat(),
@@ -66,9 +71,43 @@ def check(base, get=requests.get):
             pass
         report["checks"].append(item)
 
-    probe(
-        "health", "/health", lambda d: isinstance(d, dict) and d.get("status") == "ok"
+    identity = {}
+
+    def health(data):
+        if not isinstance(data, dict):
+            return False
+        revision = data.get("revision")
+        identity["revision"] = (
+            revision
+            if isinstance(revision, str) and re.fullmatch(r"[0-9a-f]{40}", revision)
+            else "unknown"
+        )
+        identity["mobile_contract_version"] = (
+            data.get("mobile_contract_version")
+            if type(data.get("mobile_contract_version")) is int
+            else None
+        )
+        return data.get("status") == "ok"
+
+    probe("health", "/health", health)
+    report["observed_revision"] = identity.get("revision", "unknown")
+    report["observed_mobile_contract_version"] = identity.get(
+        "mobile_contract_version"
     )
+    if expected_revision is not None:
+        report["expected_revision"] = expected_revision
+        report["checks"].append(
+            dict(
+                name="deployed_revision_and_contract",
+                path="/health",
+                status=report["checks"][0]["status"],
+                passed=(
+                    report["checks"][0]["passed"]
+                    and identity.get("revision") == expected_revision
+                    and identity.get("mobile_contract_version") == 2
+                ),
+            )
+        )
     probe(
         "mobile_pkce_v2_google",
         "/auth/mobile/config",
@@ -139,8 +178,16 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--origin", required=True)
     parser.add_argument("--output", type=Path)
+    parser.add_argument(
+        "--expected-revision",
+        help="Require the exact approved40-character deployed SHA and mobile contract2",
+    )
     args = parser.parse_args()
-    report = check(args.origin)
+    try:
+        report = check(args.origin, expected_revision=args.expected_revision)
+    except ValueError as error:
+        # Fixed validation messages only; never echo a malformed URL/credential.
+        parser.exit(2, str(error) + "\n")
     encoded = json.dumps(report, indent=2)
     if args.output:
         args.output.write_text(encoded + "\n", encoding="utf8")
