@@ -144,8 +144,11 @@ def outline(db, uid, slug, grade):
 
 def append_progress(db, uid, profile):
     subjects = profile['subjects']
-    for slug, (runtime, model, progress, _) in ADAPTERS.items():
-        runtime.preview_gate(db)
+    for slug in ADAPTERS:
+        # Use the same capability-checked adapter as tree/start/answer routes.
+        # Reviewed publication retains its authorization; local previews still
+        # have to pass their original runtime gate.
+        _, model, progress, _ = adapter(db, slug)
         total = db.query(model).filter_by(subject=slug).count()
         completed, stars = 0, 0
         for row in db.query(progress).join(model, model.key == progress.lesson_key).filter(progress.user_id == uid, model.subject == slug):

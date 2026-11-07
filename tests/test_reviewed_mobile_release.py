@@ -120,6 +120,27 @@ def test_release_all_five_catalogues_and_owner_scoped_engines(released):
     assert client.post("/beta/auth/test-login", json={}).status_code == 404
 
 
+def test_release_profile_uses_reviewed_authorization_with_preview_flags_off(released):
+    from services.models import User
+    from routers import physics_preview
+
+    client, factory, account = released
+    with factory() as db:
+        existing_xp = db.get(User, account['user_id']).xp_total
+    response = client.get(f"/mobile/skills/{account['user_id']}/profile")
+    assert response.status_code == 200, response.text
+    profile = response.json()
+    assert {s['slug'] for s in profile['subjects']} == {
+        'biologiya', 'fizika', 'kimyo', 'jahon_tarixi', 'ozbekiston_tarixi'
+    }
+    assert profile['xp_total'] == existing_xp
+    assert profile['lessons_completed'] == sum(s['completed'] for s in profile['subjects'])
+    with factory() as db:
+        assert db.get(User, account['user_id']).xp_total == existing_xp
+    assert client.get(f"/mobile/skills/{account['user_id'] + 1}/profile").status_code == 403
+    assert client.get(physics_preview.router.prefix + '/catalog', params={'grade': 6}).status_code == 404
+
+
 def test_missing_approval_disabled_feature_and_prod_sqlite_fail_closed(
     released, monkeypatch
 ):
