@@ -1,246 +1,174 @@
-# 🎓 Ilm AI — Personal AI Learning Companion
- 
+# 🎓 Ilm AI — Your Personal AI Learning Companion
 
->
-> Ilm AI is a RAG-based intelligent learning platform that turns your documents into a personal tutor. Upload your materials and let AI quiz you, explain your mistakes, detect your knowledge gaps, and build a personalized learning plan.
- 
----
- 
-## 🌐 Live Demo
- 
-- **Frontend:** *(https://github.com/UMIDABDURAZZOQOV/ilm-ai-frontend)*
-- **Backend API Docs:** *(http://127.0.0.1:8000/docs)*
----
- 
-## 📸 Screenshots
- 
-### 🏠 Frontend
- 
-<img width="1538" height="759" alt="project5" src="https://github.com/user-attachments/assets/6fc5ed50-12dc-4b90-abe1-350bbced02a4" />
-<img width="1565" height="757" alt="project1" src="https://github.com/user-attachments/assets/1044172b-e296-47ca-9da5-e6889e61711b" />
-<img width="1562" height="750" alt="project2" src="https://github.com/user-attachments/assets/93fdd955-40a1-49a4-86df-7007493794b9" />
-<img width="1560" height="769" alt="project3" src="https://github.com/user-attachments/assets/df9197e1-b7ba-4d6b-bdd7-90c01adae89b" />
-<img width="1540" height="766" alt="project4" src="https://github.com/user-attachments/assets/edb64623-2d38-4359-b389-0f617df51d27" />
+**Ilm AI** is a multilingual, AI-powered learning platform designed to make personalized education more accessible to learners in Uzbekistan. It brings together document-grounded AI tutoring, practice tools, learning analytics, and exam preparation in a connected web and mobile experience.
 
+**Languages:** Uzbek · Russian · English  
+**Status:** Active development — web platform available; Flutter app in development / pre-release
 
- 
-## ✨ Features
- 
-- 📄 **Document Upload** — Upload PDF, DOCX, TXT files and train your AI tutor
-- 💬 **RAG Chat** — Answers strictly grounded in your uploaded materials, with citations
-- 🧠 **Quiz Mode** — 3 difficulty levels (easy / medium / hard), with explanations after each answer
-- 📈 **Knowledge Gap Detection** — Identifies concepts you consistently struggle with across sessions
-- 📅 **Learning Plan Generator** — Creates a day-by-day study plan based on your goal and deadline
-- 📱 **Telegram Bot** — Daily reminders, on-demand quizzes, streak notifications
-- 💳 **Payment** — Premium subscription via Payme / Click
-- 🌐 **Multilingual** — Uzbek, Russian, English
----
+### 🌐 Explore the project
 
+| Component | Link |
+| --- | --- |
+| Web app | [ilm-ai-edu.vercel.app](https://ilm-ai-edu.vercel.app) |
+| Backend API | [ilm-ai](https://github.com/UMIDABDURAZZOQOV/ilm-ai) |
+| Web frontend | [ilm-ai-frontend](https://github.com/UMIDABDURAZZOQOV/ilm-ai-frontend) |
+| Flutter mobile app | [ilm-ai-flutter](https://github.com/UMIDABDURAZZOQOV/ilm-ai-flutter) |
 
-### 🔐 Authentication
- 
-<img width="1569" height="772" alt="project7" src="https://github.com/user-attachments/assets/fdb799c4-0b2d-45ea-aa68-337420a118e1" />
-<img width="1566" height="774" alt="project6" src="https://github.com/user-attachments/assets/465f7381-656c-45cd-bd9f-65f81df08254" />
+> This repository contains the **Python backend and core application services**. The web interface and Flutter app are maintained in separate repositories and communicate with the same API.
 
- 
-## � Integrations
+## ✨ What Ilm AI does
 
-The project includes three major integrations for production deployment:
+### 📚 Learn from your own materials
+- Upload learning materials and ask questions about their content.
+- Use **Retrieval-Augmented Generation (RAG)** to retrieve relevant passages before generating responses.
+- Create quizzes, explanations, flashcards, and study plans from learning materials.
+- Track quiz history, progress, and areas that need more practice.
 
-### 🔐 Google OAuth
-- **Status:** ✅ Fully implemented
-- **Location:** `services/google_oauth.py`, `routers/auth.py`
-- **Setup:** See [INTEGRATIONS_SETUP.md](INTEGRATIONS_SETUP.md#-google-oauth-sozlash)
-- **Features:**
-  - User registration/login with Google account
-  - JWT token generation
-  - CSRF protection with state tokens
-  - Automatic user creation on first login
+### 🤖 AI learning companion
+- Personalized AI assistance with text, image, and voice interactions.
+- Multilingual explanations and follow-up questions.
+- Learning tools including summaries, knowledge maps, mock tests, and study aids.
+- Voice features and some advanced tools depend on configured external services.
 
-### 💳 Payment Gateways (Payme/Click)
-- **Status:** ✅ Fully implemented (supports both test and production modes)
-- **Location:** `services/payments.py`, `routers/payments.py`
-- **Setup:** See [INTEGRATIONS_SETUP.md](INTEGRATIONS_SETUP.md#-paymeclick-tolov-sozlash)
-- **Features:**
-  - Payme payment integration
-  - Click payment integration
-  - Webhook handling for both gateways
-  - Test mode for development
-  - Premium subscription activation
+### 📝 Exam preparation and guided learning
+- Practice and study experiences for SAT, IELTS, and Uzbekistan's **Milliy Sertifikat** subjects.
+- Subject-based lessons, quizzes, progress tracking, and gamification.
+- Practice analytics and AI-assisted explanations where supported.
 
-### 📊 Sentry Monitoring
-- **Status:** ✅ Fully implemented
-- **Location:** `services/monitoring.py`
-- **Setup:** See [INTEGRATIONS_SETUP.md](INTEGRATIONS_SETUP.md#-sentry-monitoring-sozlash)
-- **Features:**
-  - Error tracking and alerting
-  - Performance monitoring
-  - User context tracking
-  - Custom event tracking (signups, logins, payments, quizzes)
-  - LLM call performance monitoring
-  - Sensitive data sanitization
+> **Feature availability varies by platform.** Certain exam-preparation experiences are web-first or web-only; some content and integrations remain under development and require further quality checks.
 
-For detailed integration setup instructions, see [INTEGRATIONS_SETUP.md](INTEGRATIONS_SETUP.md).
+### 📱 Web, mobile, and messaging
+- Responsive web experience.
+- Flutter mobile application with shared backend services.
+- Telegram bot integrations for study interactions and reminders.
 
----
+## 🧠 How the AI works
 
-## �🛠 Tech Stack
- 
-### Backend
-| Layer | Technology |
-|-------|-----------|
-| Framework | FastAPI (Python) |
-| Database | PostgreSQL + pgvector |
-| Migrations | Alembic |
-| LLM | Google Gemini |
-| Auth | JWT |
-| Payments | Payme, Click |
-| Messaging | Telegram Bot API |
- 
-### Frontend
-| Layer | Technology |
-|-------|-----------|
-| Languages | HTML, CSS, JavaScript |
-| Repo | [ilm-ai-frontend](https://github.com/UMIDABDURAZZOQOV/ilm-ai-frontend) |
- 
-### Infrastructure
-| Layer | Technology |
-|-------|-----------|
-| Container | Docker + Docker Compose |
-| CI/CD | GitHub Actions |
- 
----
- 
-## 🚀 Quick Start
- 
-### Docker (Recommended)
- 
+Ilm AI uses a document-grounded question-answering pipeline:
+
+1. A learner uploads study material.
+2. The backend processes and organizes the content.
+3. Text is represented as embeddings for semantic retrieval.
+4. Relevant content is retrieved for a learner's question.
+5. An LLM generates a response using the retrieved context.
+6. Related learning features use study results to suggest practice and next steps.
+
+The runtime AI layer was **migrated from Google Gemini to OpenAI in August 2026**. Some historical filenames and documentation still reflect the earlier provider. Model choices are configurable through environment variables; offline content-generation workflows may use different providers.
+
+## 🛠 Tech stack
+
+| Area | Technologies |
+| --- | --- |
+| Backend | Python, FastAPI, SQLAlchemy, Uvicorn |
+| Database | PostgreSQL, SQLite for local fallback |
+| AI | OpenAI API, embeddings, RAG, multimodal processing |
+| Web | Next.js 14, TypeScript, Tailwind CSS |
+| Mobile | Flutter, Dart, Riverpod, go_router, Dio |
+| Authentication | Google OAuth, JWT |
+| Integrations | Telegram Bot API, payment and monitoring integrations |
+| Deployment | Render (backend), Vercel (web) |
+| Tooling | Docker, Docker Compose, GitHub Actions |
+
+## 🏗 Repository structure
+
+```text
+ilm-ai/
+├── main.py                 # FastAPI application entry point
+├── routers/                # HTTP routes and API endpoints
+├── services/               # Business logic, AI, retrieval, persistence
+├── telegram_bot/           # Telegram bot integration
+├── scripts/                # Development and data utilities
+├── alembic/                # Migration-related files
+├── migrations/             # Additional migration utilities
+├── tests/                  # Test suite
+├── data/                   # Data and development fixtures
+├── .github/workflows/      # Automation and CI workflows
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── .env.example            # Configuration template — no real secrets
+```
+
+The structure may evolve as the project develops. See the repository for the current source of truth.
+
+## 🚀 Getting started (backend)
+
+### Prerequisites
+- Python and pip
+- Docker and Docker Compose (optional)
+- Access to the external services required by the features you intend to run
+
+### Run locally
+
 ```bash
-# Clone the repository
 git clone https://github.com/UMIDABDURAZZOQOV/ilm-ai.git
 cd ilm-ai
- 
-# Start all services
-docker compose up -d
-```
- 
-### Manual Setup
- 
-```bash
-# Install dependencies
+
+python -m venv .venv
+# Windows PowerShell:
+.venv\Scripts\Activate.ps1
+# macOS / Linux:
+# source .venv/bin/activate
+
 pip install -r requirements.txt
- 
-# Run database migrations
-alembic upgrade head
- 
-# Start backend
-python main.py
- 
-# Start Telegram bot (separate terminal)
+```
+
+Copy `.env.example` to `.env` and configure the necessary environment variables. **Never commit `.env`, access tokens, API keys, or private user data.**
+
+```bash
+python -m uvicorn main:app --reload
+```
+
+API documentation (local): **http://127.0.0.1:8000/docs**
+
+Start the Telegram bot separately if configured:
+
+```bash
 python run_telegram_bot.py
 ```
 
-### 📊 Core Features Backend
- 
-<img width="1561" height="762" alt="project11" src="https://github.com/user-attachments/assets/d92a4152-b643-4aef-8bea-c66e122b19b6" />
-<img width="1580" height="759" alt="project12" src="https://github.com/user-attachments/assets/b3cb7968-5e95-4adb-8c84-3401bcfc035b" />
-<img width="1579" height="759" alt="project13" src="https://github.com/user-attachments/assets/fae69333-0db5-49f8-8384-0a34ff51c1f4" />
-<img width="1586" height="767" alt="project8" src="https://github.com/user-attachments/assets/51af07aa-b3d6-409d-a4ac-ff03edbd2972" />
-<img width="1590" height="769" alt="project9" src="https://github.com/user-attachments/assets/c9b1e40f-4471-409f-9881-18d5840eed9f" />
-<img width="1567" height="773" alt="project10" src="https://github.com/user-attachments/assets/c8e293fe-1a78-4bb6-b959-3e5c517ce7d3" />
+**Note:** Some features need external credentials and database configuration. The local SQLite fallback is not a substitute for production PostgreSQL configuration.
+
+### Docker
+
+```bash
+docker compose up -d
+```
+
+Review `docker-compose.yml` and your environment configuration before running services.
+
+### Web frontend and Flutter
+
+The interfaces are maintained separately:
+
+- [Web setup and source](https://github.com/UMIDABDURAZZOQOV/ilm-ai-frontend)
+- [Flutter setup and source](https://github.com/UMIDABDURAZZOQOV/ilm-ai-flutter)
+
+Both clients use the backend API. Follow each repository's setup instructions for platform-specific configuration.
+
+## 🔐 Privacy and security
+
+Ilm AI handles learning materials and account data. Developers deploying this project should:
+
+- Keep environment variables, signing credentials, and service keys private.
+- Configure OAuth, CORS, authentication, and database access securely.
+- Review the active AI provider's data handling and sharing settings before processing real learner materials.
+- Use appropriately licensed or original educational content.
+- Test integrations thoroughly before enabling them for real users.
+
+See the deployed product's [privacy policy](https://ilm-ai-edu.vercel.app/privacy) for product-facing information.
+
+## 📌 Project status
+
+- **Web platform:** Deployed; individual features may still be refined.
+- **Backend:** Deployed and actively maintained.
+- **Flutter app:** Developed and tested; **not described here as publicly released on Google Play**.
+- **README:** Updated to reflect the newer OpenAI-based runtime, Next.js web client, and Flutter mobile codebase.
 
 
- 
-### Windows PowerShell Scripts
- 
-```powershell
-# Start everything at once
-./start_all.ps1
- 
-# Or start individually
-./start_backend.ps1
-./start_bot.ps1
-./start_frontend.ps1
-```
- 
----
- 
-## 📁 Project Structure
- 
-```
-ilm-ai/
-├── main.py                  # FastAPI entry point
-├── run_telegram_bot.py      # Telegram bot runner
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-├── alembic.ini
-│
-├── routers/                 # API endpoints
-│   ├── auth.py
-│   ├── chat.py
-│   ├── files.py
-│   ├── quiz.py
-│   ├── plan.py
-│   ├── gaps.py
-│   ├── payments.py
-│   ├── feedback.py
-│   └── telegram_link.py
-│
-├── services/                # Business logic
-│   ├── db.py
-│   ├── models.py
-│   ├── users.py
-│   ├── tokens.py
-│   ├── quiz_engine.py
-│   ├── quiz_history.py
-│   ├── gap_detection.py
-│   ├── payments.py
-│   └── subscriptions.py
-│
-├── telegram_bot/            # Telegram bot
-│   └── bot.py
-│
-├── alembic/                 # Database migrations
-│   └── versions/
-│       └── 0001_initial.py
-│
-├── diary/                   # Weekly progress diary
-│   ├── 2026-05-28.md
-│   ├── 2026-05-29.md
-│   ├── 2026-05-31.md
-│   └── 2026-06-01.md
-│
-├── tests/
-│   └── test_smoke.py
-│
-└── assets/                  # Screenshots
-```
- 
----
- 
-## 🗓 Project Milestones
- 
-| Week | Milestone | Status |
-|------|-----------|--------|
-| Week 1 | Auth + File Upload + Basic RAG Chat | ✅ Done |
-| Week 2 | Quiz Mode + Learning Plan + Telegram Bot | ✅ Done |
-| Week 3 | Knowledge Gap Detection + Payment + Mobile UI | ✅ Done |
- 
----
- 
-## 📓 Development Diary
- 
-Weekly progress diary is available in the `diary/` folder. Each entry covers what was done, problems encountered, solutions found, and next steps.
- 
----
- 
-## 👤 Author
- 
-**Umid Abdurazzoqov**
-AI Mentorship Program — AI Incubator Uzbekistan 2025
+## 👤 Project author
+
+**Umidjon Abdurazzakov**  
 GitHub: [@UMIDABDURAZZOQOV](https://github.com/UMIDABDURAZZOQOV)
- 
----
- 
-*Built with ❤️ during the AI Incubator Mentorship Program, Uzbekistan 2026*
+
+
