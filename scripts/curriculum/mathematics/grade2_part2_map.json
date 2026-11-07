@@ -7,9 +7,9 @@
   "numbered_body_topics": 31,
   "unnumbered_summary_topics": 2,
   "unnumbered_activity_collections": 1,
-  "authored_lessons": 30,
-  "full_map_verified": false,
-  "all_body_content_reviewed": false,
+  "authored_lessons": 34,
+  "full_map_verified": true,
+  "all_body_content_reviewed": true,
   "all_body_boundaries_reviewed": true,
   "reviewed_boundary_pages": [
     5,
@@ -1103,8 +1103,8 @@
           "image_sha256": "9721a315bf2a03835500bd7d0b7bb234caa7ebc15fc85a245a16b0fd86c21c50"
         }
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "full_source_images_viewed_for_handoff": true,
       "handoff_note": "PDF65–66/printed64–65 seen;overnight durations,base60borrow,clockoffset and sequential travel/lesson durations. Not authored;do not present sleep target as universal medical advice."
     },
@@ -1137,8 +1137,8 @@
           "image_sha256": "dbf275813a6fd0cd97de45016efbec30c7366ff22c77757387ee63dcdecab033"
         }
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g2-p2-unnumbered_summary-68",
@@ -1169,8 +1169,8 @@
           "image_sha256": "8e72489f8b0df894615979c39b7efd06423720adc4457bf2a40233102cda3ead"
         }
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true
     },
     {
       "topic_id": "math-g2-p2-unnumbered_activity_collection-70",
@@ -1241,8 +1241,8 @@
           "image_sha256": "2d701d052ab38a21cbf9ff255a738a240b9ca9eacd86ea57991c7d83be7e79c2"
         }
       ],
-      "verification": "header_footer_images_reviewed_body_pending",
-      "interactive_lesson_created": false,
+      "verification": "body_images_reviewed",
+      "interactive_lesson_created": true,
       "source_activities": [
         {
           "book_id": "math-uz-g2-p2",
@@ -1597,12 +1597,47 @@
           "objective": "Burishga nisbatan juft shakllar"
         }
       ],
-      "source_activity_count": 32
+      "source_activity_count": 32,
+      "source_activity_question_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 3,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 3,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 2,
+        "22": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 2,
+        "27": 1,
+        "28": 6,
+        "29": 1,
+        "30": 1,
+        "31": 1,
+        "32": 1
+      }
     }
   ],
   "review_notes": [
     "All73bodypage headers/footers viewed in private contact sheets;native text alone not treated as verified. Full lesson bodies reviewed separately before authoring.",
     "TOC lists32numbered+1summary+1collection;actual bodies31numbered+2summaries+1collection. Counts equal34but identities differ. Future body review must preserve discrepancy.",
     "Logical collection activity count unverified until full body review. All TOC/body-only pending units excluded from ready lessons."
-  ]
+  ],
+  "logical_activity_count": 32
 }

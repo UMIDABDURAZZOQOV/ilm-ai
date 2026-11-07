@@ -1,5 +1,12 @@
 # 2-sinf II qism — manbali darslar va lokal sinov
 
+## 2026-11-07 — checkpoint220
+
+220 lokal dars / 1352 karta / 1775 savol. II qism **34/34**; mantiqiy 32 faoliyat bitta darsda, 43 savol bilan.
+III qism 48 chegarali preflight, hali 0 dars; keyingi §73/path1/PDF5–6/bosma4–5.
+[Haqiqiy testlar](QA_REPORT.md), [checkpoint](checkpoints/grade2_part2_batch7.json).
+Butun 1–11 kurs / real Android / pedagogik tasdiq tugallanmagan. Production o‘zgarmadi.
+
 ## 2026-11-07 — checkpoint 216
 
 216 lokal dars/1302 karta/1708 savol. IIqism 30/34;4 birlik qolgan. Yangi§66–70 harfiyifoda,ildiz,inverseva 60 asosli soat.

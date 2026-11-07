@@ -1,5 +1,12 @@
 # 2-sinf II qism — joriy manba va darslar
 
+## 2026-11-07 — checkpoint220
+
+220 lokal dars / 1352 karta / 1775 savol. II qism **34/34**; mantiqiy 32 faoliyat bitta darsda, 43 savol bilan.
+III qism 48 chegarali preflight, hali 0 dars; keyingi §73/path1/PDF5–6/bosma4–5.
+[Haqiqiy testlar](QA_REPORT.md), [checkpoint](checkpoints/grade2_part2_batch7.json).
+Butun 1–11 kurs / real Android / pedagogik tasdiq tugallanmagan. Production o‘zgarmadi.
+
 ## 2026-11-07 — checkpoint 216
 
 216 lokal dars/1302 karta/1708 savol. IIqism 30/34;4 birlik qolgan. Yangi§66–70 harfiyifoda,ildiz,inverseva 60 asosli soat.
@@ -43,8 +50,8 @@ Keyingi§66/path26/PDF55–56/bosma54–55;harfiy ifodalar. Handoff:431kgxomashy
 |68|28|59–60|58–59|Lokal dars|
 |69|29|61–62|60–61|Lokal dars|
 |70|30|63–64|62–63|Lokal dars|
-|71|31|65–66|64–65|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
-|72|32|67–68|66–67|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
+|71|31|65–66|64–65|Lokal dars|
+|72|32|67–68|66–67|Lokal dars|
 |Raqamsiz summary|33|69–70|68–69|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
 |Mantiqiy to‘plam|34|71–77|70–76|Chegara tekshirilgan,to‘liq kontent/dars hali yo‘q|
 
@@ -89,8 +96,8 @@ Keyingi§61,path21,PDF45–46/bosma44–45;sahifalar ko‘rildi,mm darsi hali yo
 |68|28|59–60|58–59|Lokal dars|
 |69|29|61–62|60–61|Lokal dars|
 |70|30|63–64|62–63|Lokal dars|
-|71|31|65–66|64–65|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
-|72|32|67–68|66–67|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
+|71|31|65–66|64–65|Lokal dars|
+|72|32|67–68|66–67|Lokal dars|
 |Raqamsiz summary|33|69–70|68–69|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
 |Mantiqiy to‘plam|34|71–77|70–76|Chegarasi tekshirildi,to‘liq kontent/dars hali yo‘q|
 
@@ -146,8 +153,8 @@ Yangi default-offpairedlocalQAflag ikkalaSHA va43real oldingi darsni talab qilad
 |68|28|59–60|58–59|Lokal dars|
 |69|29|61–62|60–61|Lokal dars|
 |70|30|63–64|62–63|Lokal dars|
-|71|31|65–66|64–65|Faqat chegara tekshirilgan,dars yo‘q|
-|72|32|67–68|66–67|Faqat chegara tekshirilgan,dars yo‘q|
+|71|31|65–66|64–65|Lokal dars|
+|72|32|67–68|66–67|Lokal dars|
 |Raqamsiz|33|69–70|68–69|Faqat chegara tekshirilgan,dars yo‘q|
 |Raqamsiz|34|71–77|70–76|Faqat chegara tekshirilgan,dars yo‘q|
 

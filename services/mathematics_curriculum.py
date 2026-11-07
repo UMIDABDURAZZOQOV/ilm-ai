@@ -13,6 +13,21 @@ ROOT = Path(__file__).resolve().parents[1] / "scripts/curriculum/mathematics"
 SHAPES = {"circle", "square", "triangle", "rectangle", "sphere", "cube"}
 COLORS = {"indigo", "yellow", "turquoise"}
 EXPLORERS = {
+    "clock_offsets_overnight",
+    "mixed_review_quantities",
+    "book2_final_summary",
+    "logic_digit_search",
+    "logic_periodic_patterns",
+    "logic_menu_pairs",
+    "logic_tiling_lab",
+    "logic_layer_stack",
+    "logic_scaled_bars",
+    "logic_grid_route",
+    "logic_constraint_boxes",
+    "logic_equal_bags",
+    "logic_hourglass_interval",
+    "logic_mirror_clock",
+    "logic_rosette_pairs",
     "three_digit_variable_values",
     "three_digit_equation_root",
     "inverse_operations_three_digits",
@@ -214,6 +229,48 @@ def manifest():
 
 
 def validate_scene(scene):
+    if scene["type"] == "clock_diagram":
+        import math
+
+        require(
+            set(scene) == {"type", "hour_hand", "minute_hand", "mirrored"}
+            and type(scene["mirrored"]) is bool,
+            "invalid_math_clock",
+        )
+        for key in ["hour_hand", "minute_hand"]:
+            vector = scene[key]
+            require(
+                type(vector) is list
+                and len(vector) == 2
+                and all(
+                    type(v) in {int, float} and math.isfinite(v) and -1 <= v <= 1
+                    for v in vector
+                )
+                and abs(sum(v * v for v in vector) - 1) < 1e-6,
+                "invalid_math_clock_vector",
+            )
+        return
+    if scene["type"] == "rosette_set":
+        require(set(scene) == {"type", "patterns"}, "invalid_math_rosettes")
+        patterns = scene["patterns"]
+        require(
+            type(patterns) is list
+            and 3 <= len(patterns) <= 9
+            and len(patterns) % 2 == 1
+            and all(
+                type(p) is dict
+                and set(p) == {"id", "colors"}
+                and type(p["id"]) is str
+                and bool(p["id"])
+                and type(p["colors"]) is list
+                and len(p["colors"]) == 6
+                and all(c in COLORS for c in p["colors"])
+                for p in patterns
+            )
+            and len({p["id"] for p in patterns}) == len(patterns),
+            "invalid_math_rosettes",
+        )
+        return
     require(scene["type"] in {"shape_board", "bars"}, "unsupported_math_visual")
     items = scene["items"]
     require(
@@ -237,8 +294,32 @@ def validate_scene(scene):
 
 
 def model_answer(public, rule):
-    items = public["visual"]["items"]
     op = rule["test"]
+    if op == "clock_minutes":
+        import math
+
+        scene = public["visual"]
+        require(scene["type"] == "clock_diagram", "math_clock_rule_scene")
+        x, y = scene["minute_hand"]
+        minutes = (math.degrees(math.atan2(x, -y)) % 360) / 6
+        require(abs(minutes - round(minutes)) < 1e-6, "math_clock_noninteger_minute")
+        return str(round(minutes) % 60)
+    if op == "rotation_unpaired":
+        from collections import Counter
+
+        patterns = public["visual"]["patterns"]
+
+        def canonical(colors):
+            return min(tuple(colors[i:] + colors[:i]) for i in range(6))
+
+        counts = Counter(canonical(p["colors"]) for p in patterns)
+        alone = [p["id"] for p in patterns if counts[canonical(p["colors"])] == 1]
+        require(
+            len(alone) == 1 and all(n in {1, 2} for n in counts.values()),
+            "ambiguous_math_rosette_pair",
+        )
+        return alone[0]
+    items = public["visual"]["items"]
     if op == "count":
         return str(
             sum("shape" not in rule or i["shape"] == rule["shape"] for i in items)
@@ -321,6 +402,7 @@ BATCHES = [
     ("grade2_part2_batch4.json", "grade2_part2_batch4_review.json"),
     ("grade2_part2_batch5.json", "grade2_part2_batch5_review.json"),
     ("grade2_part2_batch6.json", "grade2_part2_batch6_review.json"),
+    ("grade2_part2_batch7.json", "grade2_part2_batch7_review.json"),
 ]
 
 
@@ -379,13 +461,26 @@ def validate_document(document, review):
             "math_review_page_mapping_mismatch",
         )
         for ref in refs.values():
+            ref_pdf, ref_printed = topic["pdf_pages"], topic["printed_pages"]
+            if lesson["topic_id"] == "math-g2-p2-unnumbered_activity_collection-70":
+                activity = next(
+                    (
+                        a
+                        for a in topic.get("source_activities", [])
+                        if ref["fact_id"]
+                        == lesson["topic_id"] + f"-activity-{a['number']}"
+                    ),
+                    None,
+                )
+                require(activity is not None, "math_logical_fact_activity_missing")
+                ref_pdf, ref_printed = activity["pdf_pages"], activity["printed_pages"]
             require(
                 ref["book_id"] == review["book_id"]
                 and ref["grade"] == lesson["grade"]
                 and ref["part"] == lesson["part"]
                 and ref["topic_id"] == lesson["topic_id"]
-                and ref["pdf_pages"] == topic["pdf_pages"]
-                and ref["printed_pages"] == topic["printed_pages"],
+                and ref["pdf_pages"] == ref_pdf
+                and ref["printed_pages"] == ref_printed,
                 "math_fact_pages_outside_review",
             )
         require(
@@ -436,6 +531,56 @@ def validate_document(document, review):
             require(
                 "explorer_type" not in card or card["explorer_type"] in EXPLORERS,
                 "unsupported_math_card_explorer",
+            )
+        if lesson["topic_id"] == "math-g2-p2-unnumbered_activity_collection-70":
+            activities = topic.get("source_activities", [])
+            pages = (
+                [71] * 5
+                + [72] * 6
+                + [73] * 5
+                + [74] * 5
+                + [75] * 4
+                + [76] * 3
+                + [77] * 4
+            )
+            require(
+                len(activities) == 32
+                and activities == mapped.get("source_activities")
+                and all(
+                    a.get("book_id") == "math-uz-g2-p2"
+                    and a.get("number") == n
+                    and a.get("pdf_pages") == [p]
+                    and a.get("printed_pages") == [p - 1]
+                    and bool(a.get("objective"))
+                    for n, (a, p) in enumerate(zip(activities, pages), 1)
+                )
+                and [c.get("source_activity") for c in lesson["cards"]] == activities,
+                "math_logical_activity_coverage_mismatch",
+            )
+            from collections import Counter
+
+            expected_counts = {
+                str(n): {6: 3, 14: 3, 21: 2, 26: 2, 28: 6}.get(n, 1)
+                for n in range(1, 33)
+            }
+            actual_counts = Counter()
+            for q in lesson["questions"]:
+                activity = q["public"].get("source_activity")
+                require(
+                    activity in activities, "math_logical_activity_coverage_mismatch"
+                )
+                actual_counts[str(activity["number"])] += 1
+                require(
+                    q["source_refs"]
+                    == [refs[lesson["topic_id"] + f"-activity-{activity['number']}"]],
+                    "math_logical_question_fact_mismatch",
+                )
+            require(
+                dict(actual_counts) == expected_counts
+                and topic.get("source_activity_question_counts") == expected_counts
+                and mapped.get("source_activity_question_counts") == expected_counts
+                and len(lesson["questions"]) == 43,
+                "math_logical_activity_coverage_mismatch",
             )
         if lesson["topic_id"] == "math-g2-p1-practical-90-96":
             # A digital adaptation for each real source activity, not26lessons.

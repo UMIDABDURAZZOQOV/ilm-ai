@@ -1,5 +1,63 @@
 # Manba review — hozirgi chegaralar
 
+## 2026-11-07 — 2-sinf II qism yakuni: 34/34 lokal o‘quv birligi
+
+Jami **220 dars, 1352 karta, 1775 savol, 227 ishlangan misol / 681 qadam, 396 sonli tekshiruv**.
+Ushbu partiya: **4 dars, 50 karta, 67 savol, 11 misol / 33 qadam**. 1-sinf 143, 2-sinf 77 dars.
+Bu butun 1–11-sinf kursi tugallandi degani emas. 3–11-sinflarning mualliflik darslari hali 0.
+
+| Birlik | Path | PDF | Bosma | Natija |
+|---|---|---|---|---|
+| §71 | 31 | 65–66 | 64–65 | Tun orqali vaqt, orqadagi soat, tayyorgarlik va tanaffus |
+| §72 | 32 | 67–68 | 66–67 | Masala, noma’lum komponent, uzunlik va davomiylik |
+| Raqamsiz yakuniy dars | 33 | 69–70 | 68–69 | Guruh, ildiz, perimetr va aniq vaqt oralig‘i |
+| Mantiqiy masalalar | 34 | 71–77 | 70–76 | 32 faoliyat, 32 karta, 43 tekshiruv, 8 misol |
+
+**32 faoliyat bitta to‘plam darsida**, 32 alohida dars emas. Barcha 13 asl sahifa ko‘rildi.
+Har faoliyat uchun kitob ID, haqiqiy PDF/bosma sahifa va alohida fact reference saqlandi.
+6-, 14-, 21-, 26-, 28-faoliyat subqismlari ham qamraldi. Mavjud I qismning 26 mashqli, PDF+1 formati saqlandi;
+yangi II qismning 32 mashqli formati faqat shu kitob/to‘plamga tegishli, PDF−1 mapping bilan tekshiriladi.
+
+Muhim manba talqinlari:
+
+- §71 dagi dam olish oralig‘i tibbiy tavsiya deb o‘rgatilmaydi. Tun, sana va soat xatosining yo‘nalishi aniq.
+- §72 dagi kosmik harorat/vaqtlar tekshirilgan astronomik fakt sifatida yodlatilmaydi; original neytral arifmetik shartlar ishlatildi.
+- II qism mundarijasidagi «73» haqiqiy raqamsiz yakuniy darsga tegishli. III qismning haqiqiy §73 mavzusi esa «To‘g‘ri chiziq, nur, kesma»; ular birlashtirilmadi.
+- Mantiqiy 23-da «chapda» yonma-yon degani emas: suv o‘ngda ekani aniqlanadi, sutning yagona joyi taxmin qilinmaydi.
+- 29-da 3 va 7 minutli qum soatlarining **3 dan 7 gacha** oralig‘i 4 minut; boshlash zahotidan 4 minut deb aytilmaydi.
+- 31-da butun soat tasviri aks etadi; soat mili minutlarga mos siljigan. 32-da faqat burish orqali juftlash, ko‘zguga aks ettirish alohida amal.
+- Kod tiklash mashqi `AB 203` ni tanlash orqali ishlaydi. Mavjud faqat harfli short-text grammatika raqamli kod uchun kengaytirilmadi.
+
+Flutter: `book2_logic_explorer.dart` va 15 qo‘shimcha model. To‘rt tutash detal bilan 20 katakni qoplash,
+bir martalik yuklarni teng guruhlash, tartibli qidirish, shartlarni tekshirish, masshtab, yo‘l, soat va naqshlar.
+Tiling chetdan chiqish/overlapni rad etadi; yuk bir paytda ikki guruhda bo‘lmaydi.
+Yangi `clock_diagram` va `rosette_set` vizuallari preview v1 ga qo‘shimcha: mos Flutter build kerak.
+Javob kalitlari/model qoidalari public savol DTOsiga berilmaydi. Normal API, XP/streak, OAuth va boshqa fanlar o‘zgarmadi.
+Dars ichidagi 248 px joyda aniqlangan ustun/qator dropdown overflowi to‘g‘rilandi.
+
+Haqiqiy tekshiruvlar:
+
+- Yangi backend: **12 passed, 87.96 s**; barcha 77 ta 2-sinf progress yozuvi, missing I§25 yo‘q, 137→907 XP, replay 0, boshqa UID 0, streak saqlandi. To‘liq II dan keyin III prerequisite ochilishi tekshirildi.
+- Eski xarita testining «hali tana tekshirilmagan» assertioni II yakuniga moslashtirildi: **1 passed, 0.60 s**. Mundarija tafovuti saqlandi.
+- PostgreSQL: **1 passed, 183.47 s**; barcha 220 dars, 137→2337 XP, parallel/replay/UID/streak/immutable import. O‘z random schema olib tashlandi, o‘z konteyneri to‘xtatildi.
+- Flutter to‘liq: **838 passed, 6:09**. Yangi alohida testlar **23 passed, 18 s**, 320 px/200% matn/Reduce Motion; 43 savolli oqim ham o‘tdi.
+- Analyze: **0 issue, 2.1 s**; debugJS web build **56.0 s**. Bu Android/browser/API sinovi emas.
+- Source audit: **23 PDF, 2958 sahifa, 220 mavzu / 450 tekshirilgan asosiy sahifa**. 91 oldingi kontent/manba fayli byte-for-byte saqlandi; 5 himoyalangan worktree o‘zgarmadi.
+- Umumiy backend suite shu snapshotda ishlamoqda; tugamaguncha muvaffaqiyatli deb hisoblanmaydi. Bir eski xarita assertioni yuqorida qayta tekshirildi. Yakuniy natija keyingi Git sealda qayd etiladi.
+
+Keyingi manba: **2-sinf III qism, §73, path1, PDF5–6/bosma4–5**.
+`grade2_part3_preflight.json` da 48 haqiqiy sarlavha/chegara: 44 raqamlangan §73–116, 3 raqamsiz yakuniy, 1 mantiqiy to‘plam.
+Mundarija PDF102–103 va haqiqiy sarlavha/bosma footer tasvirlari solishtirildi. Faqat birinchi 5 mavzuning 10 to‘liq sahifasi o‘qildi;
+**III qismda hali 0 ro‘yxatga olingan dars**, qolgan tana/faktlar to‘liq tekshirilgan deb belgilanmadi.
+§94 va §95 haqiqatan bir xil nomli, alohida sahifa/raqamdagi mavzular; bittasini nusxalab ikki dars qilmaslik kerak.
+§75 task1 dagi ikki chekli kesma butun tekislikni bo‘lishi haqidagi noaniqlik takrorlanmaydi; umumiy uchli nurlar orqali tushuntiriladi.
+
+2-sinf I qism §25/bosma54–55 hali yo‘q. 1-sinfdagi avval qayd etilgan manba/schedule cheklovlari ham saqlandi.
+9-sinf Algebra/11-sinf I qism transferi, 6-sinf II va 7–10 Geometriya manbalari cheklangan.
+Mustaqil pedagog, pilot, 2026–27 dastur mosligi, real Android/TalkBack tasdiqlanmagan.
+CLI synthetic-Git-path himoyasi chetlab o‘tilmadi. PDF, OCR, asl rasmlar va credential Gitga kiritilmadi.
+Veb-sayt, boshqa fanlar, production DB/deploy, main va mavjud foydalanuvchi ma’lumotlariga tegilmadi.
+
 ## 2026-11-07 — §66–70 talqinlari va yakuniy to‘plam katalogi
 
 431 kgxomashyo/kraxmal farqi yangi darsda ochiq o‘rgatiladi va ma’lumot yetmasligi baholanadi. False 450−250=250 intentionalexercise.

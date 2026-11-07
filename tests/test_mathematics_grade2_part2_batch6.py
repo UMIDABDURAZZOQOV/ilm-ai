@@ -165,7 +165,7 @@ def test_real_chain_ordering_resume_wrong_feedback_and_replay(preview, monkeypat
         )
         assert finish_new(client, n)[-1]["xp_awarded"] == 0
     cat = client.get(root.P + "/catalog", params={"grade": 2, "part": 2}).json()
-    assert all(l["state"] == "completed" for l in cat["lessons"])
+    assert all(l["state"] == "completed" for l in cat["lessons"][:30])
     assert not cat["previous_book_complete"] and cat["source_gap_bridge"][
         "missing_source_numbers"
     ] == [25]
@@ -185,10 +185,10 @@ def test_readonly_logical_catalog_has32_real_source_activities_not_lessons():
         [71] * 5 + [72] * 6 + [73] * 5 + [74] * 5 + [75] * 4 + [76] * 3 + [77] * 4
     )
     assert catalog["numbered_activities"] == 32
-    assert catalog["original_digital_adaptations"] == 0
-    assert catalog["publication"] == "source_catalog_only"
+    assert catalog["original_digital_adaptations"] == 32
+    assert catalog["publication"] == "original_digital_adaptations_local_test_only"
     assert catalog["source_activities"] == mapping["topics"][-1]["source_activities"]
-    assert not mapping["topics"][-1]["interactive_lesson_created"]
+    assert mapping["topics"][-1]["interactive_lesson_created"]
     for n, (a, p) in enumerate(
         zip(catalog["source_activities"], expected_pages, strict=True), 1
     ):
