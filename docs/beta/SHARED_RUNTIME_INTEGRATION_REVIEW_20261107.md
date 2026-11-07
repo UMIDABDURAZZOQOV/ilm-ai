@@ -45,3 +45,10 @@ teardown/skip. Production/local-only/source gates are unchanged. The targeted
 cached-engine/real-auth/expiry scenarios passed3 tests with the CI transport.
 Broader targeted and corrected full CI results must be recorded separately; an
 old failed run or pending rerun is never described as full-suite success.
+
+Broader exact-transport run:70 passed,16 optional PostgreSQL skipped,1 existing
+anyio alias deprecation warning,305.87s. It preloads the wrong global CI-style DB
+before testing integrated Beta, reviewed publication, study-help and NVIDIA
+fallback with httpx2 2.16.0. Guards were not weakened. Fix commit ffa5b55 is on the
+release branch; the corrected full CI remains in progress. No app code changed
+in these fixture/preservation corrections, so staging retains tested23d9ed3.
