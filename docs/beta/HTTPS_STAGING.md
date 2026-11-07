@@ -39,8 +39,10 @@ imports. `PYTHON_DOTENV_DISABLED=1` prevents implicit production `.env` discover
 (requires python-dotenv>=1.2; locally verified1.2.2). Use distinct strong
 `SECRET_KEY` and `JWT_SECRET`; never reuse existing production secrets. Keep
 `AUTH_STORAGE=database`, test-login/preview flags disabled and payment test mode
-enabled. Optional external AI/bot/monitoring integrations stay unset. The reviewed
-lesson explanation fallback does not require an AI token. NVIDIA trial is not
+enabled. Optional external AI/bot/monitoring integrations stay unset.
+`MOBILE_RELEASE_APP_SCHEME=ilmai-staging` setting is separate from the legacy
+local Beta wrapper's `MOBILE_APP_SCHEME`; it cannot change that wrapper's login.
+Reviewed lesson explanation fallback does not require an AI token. NVIDIA trial is not
 enabled for production/staging; quota exhaustion stops provider use.
 
 `MOBILE_PUBLICATION_REVIEW_REFERENCE` records operator provenance for pinned

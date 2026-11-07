@@ -63,9 +63,11 @@ Counts below are per command and overlap; do not add them as unique tests.
 | Final scheme/config regression, including legacy Beta callback |34 passed,1 warning,11.86s|
 | Flutter session/performance/release hardening |38 passed|
 | Flutter five-subject reviewed staging UI/API |44 passed,18s test phase|
+| Flutter local Beta UI/API final regression |44 passed,21s test phase|
 | Login light/dark goldens after inspected button text change |2 passed,2s|
 | Full Flutter final rerun |1347 passed,6m40s; first run's3 old-label/golden failures corrected|
 | Final flutter analyze |No issues found,90s; preceding braces lint corrected|
+| Android Beta debug APK |Built205.9s; package.beta/code4/target36; v2 signature verifies|
 | Ruff new/modified policy/publication/tests |passed|
 
 `scripts/check_staging_config.py --env-file deploy/staging.env.example`
@@ -79,6 +81,15 @@ establishes these live statuses. It does not prove the deployed commit/root caus
 
 ADB device list is empty on2026-11-07. No new phone install, physical QA, signed
 upgrade, device performance acceptance or progress mutation was performed.
+
+New local Beta artifact (not production AAB):
+`ilm-ai-beta-artifacts/ILM-AI-Beta-1.0.3-code4-d00ce86.apk`,209809731bytes/200.09MiB,
+Flutter source`d00ce86ffd359a640b0553bb49dd6508f99386fd`, SHA256
+`4dc61f94bf81410c1f96ab5da27bbacc598a7a58aa53200b710d37ceeed57a6e`.
+Package/label/debug/code4/version1.0.3/target36 and v2 debug signature verified.
+Static scan found no PDF/DB/private config/keystore or checked credential/JWT
+literals; this is not a guarantee against every possible secret format.
+Existing future-KGP plugin migration warnings remain; build succeeded.
 
 ## Required next work / release blockers
 
@@ -101,7 +112,13 @@ upgrade, device performance acceptance or progress mutation was performed.
    candidate AAB is not a completed five-subject release. Never upload without
    explicit owner permission.
 
-The earlier local8930 process was no longer running when checked. A controlled
-`--resume` restart from current source is in progress; preservation receipt and
-health checks must be recorded before calling it active. Keep test data/credentials
+The earlier local8930 process was no longer running when checked. It was restored
+with `--resume` from source`ac668bf` (PID22368), listening only on127.0.0.1:8930.
+Health200/ok/integrated_beta; all five catalogue entries and grade5 lock states
+verified; unauthenticated help401 and old tutor404. **46 account/progress table
+counts and hashes are unchanged** before/after resume and public probes. Receipts:
+`local-beta-health-20261107.json`, `beta-resume-before-20261107.json`,
+`beta-resume-after-20261107.json` in the sibling artifacts directory.
+Google remains unconfigured; no test account/attempt/reward was created by probes.
+Keep test data/credentials
 out of Git/APKs and preserve ongoing learner progress.
