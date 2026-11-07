@@ -77,3 +77,55 @@ from the new staging Build Command after it completes. Normal app startup still
 does not migrate or import.13 offline target-guard cases passed. The external
 operator run completed Alembic0017, then was interrupted during source validation
 before import writes; its import must not be reported as passed.
+
+## Hosted outcome (supersedes unprovisioned staging notes)
+
+Free service `srv-dbniform8hqs73caemig` is live at
+`https://ilm-ai-103-stage-8b0727.onrender.com`, initially deployed from
+`686bf921c62c0f0d332ba9b401e8936e82805a23`. Auto deploy and previews are off.
+Its one-time initialization completed Alembic0017 and imported Biology406,
+Physics316, Chemistry268, Uzbekistan History172, World History219:1381 lessons.
+Users0; progress rows modified0. The completed initialization action was removed
+from future Build Commands. No production DB or user data was copied or written.
+
+Real TLS chain/hostname verification succeeded with TLS1.3, certificate valid
+through2026-12-20. Read-only hosted checks: health200 with exact SHA/contract2;
+five subjects visible and correctly locked at every grade5–11; all subject grade
+routes200; profile/tree without credentials401; unknown exchange grant400;
+test-login404/no such route;46 mobile paths registered. Warm catalogue responses
+were1.47–2.13s from this workstation, not device benchmarks.
+
+The first catalogue request timed out after120s, although server logs later show
+its200 completion. Local source-cache profile49s under cProfile identified the
+strict whole-source validators as expensive. The fix prepares the SAME existing
+process-local validated caches before reviewed startup accepts traffic. Validation
+failure blocks startup; no source/DB/auth check is removed.13 startup/warmup tests
+passed. This prevents early successful health before source preparation, **not**
+the Free plan's idle spin-up latency. Cold hosted reacceptance is recorded only
+after the corrected commit is deployed and probed.
+
+Google remains unconfigured: config says false, login503, health explicitly says
+authentication_ready:false. Normal release preflight correctly exits1/NO-GO on
+that check, while its other8 checks pass. Dedicated staging client/test-account
+journeys, deletion/mailbox, device/profile/signed upgrade and live NVIDIA remain
+unaccepted. The owner has been given the exact Google Web OAuth redirect:
+`https://ilm-ai-103-stage-8b0727.onrender.com/auth/google-callback-mobile`.
+Only a private local credential-file path is requested, never secret chat text.
+
+One additional synthetic legacy-format session test passed: old HS256 access and
+stored refresh restore the same profile, cross-account access stays403, refresh
+rotates once, logout revokes replacement,137 XP/progress remain and onboarding
+is not repeated. This is not a Play-signed1.0.2 binary acceptance test. The old
+Flutter main source expects tokens in callback URI; hardened backend requires
+PKCE. The local code3 APK contains PKCE/exchange strings and was rebuilt after
+the published release, so it cannot prove the actual Play1.0.2 auth contract.
+Do not reintroduce bearer tokens in callback URLs to hide this rollout gate.
+
+Production schema was inventoried in a TLS client connection with PostgreSQL
+default_transaction_read_only=on, statement/lock timeouts and no user-row reads.
+46 public tables, existing users/refresh columns, no Alembic version table and
+no new curriculum/OAuth-grant/deletion tables. This is an existing unversioned
+schema: **do not run initial CREATE migrations or blindly stamp head**. A verified
+backup/restore, baseline reconciliation and additive migration rehearsal against
+a structural clone are required before the owner can approve production rollout.
+No production schema/data mutation was performed.

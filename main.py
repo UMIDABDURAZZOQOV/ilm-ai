@@ -135,6 +135,13 @@ def health():
 # ── Telegram bot in webhook mode (runs inside this web service) ────────────────
 
 @app.on_event('startup')
+async def _reviewed_mobile_startup():
+    # Fill the same strict source caches before advertising ready health.
+    from services.mobile_source_warmup import prepare_reviewed_mobile
+    await prepare_reviewed_mobile()
+
+
+@app.on_event('startup')
 async def _scheduler_startup():
     # Preserve existing production reminders, without import-time jobs or any
     # outbound notifications from the isolated staging environment.
