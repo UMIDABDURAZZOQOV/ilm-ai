@@ -5,12 +5,27 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:18
+        env:
+          POSTGRES_DB: ilm_ci_staging
+          POSTGRES_USER: ilm_ci
+          POSTGRES_PASSWORD: ci_ephemeral_not_a_service_secret
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U ilm_ci -d ilm_ci_staging"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 6
     env:
       ENVIRONMENT: test
       PYTHON_DOTENV_DISABLED: '1'
       GEMINI_API_KEY: dummy
       TELEGRAM_BOT_TOKEN: dummy
       DATABASE_URL: sqlite:////tmp/chemistry_staging_world_history_staging_uzbekistan_history_staging_ci.db
+      ILM_TEST_POSTGRES_URL_FILE: ${{ github.workspace }}/.ci-postgres-url.private
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
@@ -20,17 +35,44 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt pytest httpx
+          pip install -r requirements.txt -r requirements-source-review.txt pytest httpx
+          python -m pip check
+      - name: Configure isolated loopback test database
+        shell: bash
+        run: |
+          umask 077
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          Path(os.environ['ILM_TEST_POSTGRES_URL_FILE']).write_text(
+              'postgresql://ilm_ci:ci_ephemeral_not_a_service_secret@127.0.0.1:5432/ilm_ci_staging'
+          )
+          PY
       - name: Import check
         run: python -m compileall -q routers services
       - name: Run tests
-        run: python -m pytest -q --durations=20
+        run: python -m pytest -q -ra --junitxml=ci-test-results.xml --durations=20
+      - name: Remove disposable database URL file
+        if: always()
+        run: python -c "import os,pathlib; pathlib.Path(os.environ['ILM_TEST_POSTGRES_URL_FILE']).unlink(missing_ok=True)"
       - name: Build Docker image
         uses: docker/build-push-action@v5
         with:
             context: .
             push: false
             tags: ilm-ai:ci
+      - name: Record dependency versions
+        if: always()
+        run: python -m pip list --format=json > ci-dependency-versions.json
+      - name: Upload test and dependency evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-release-test-evidence
+          path: |
+            ci-test-results.xml
+            ci-dependency-versions.json
+          if-no-files-found: warn
 
   # Production deployment is a separately approved Render operator action.
   # The former echo-only deploy job performed no deployment and misleadingly
