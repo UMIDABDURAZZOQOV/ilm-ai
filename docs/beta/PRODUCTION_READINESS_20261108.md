@@ -1,7 +1,28 @@
 # ILM AI1.0.3 — current production release gates (2026-11-08)
 
-This is a readiness record for updating existing `com.ilmai.app`, not a first
+## Latest accepted deletion correction
 
+Staging Live597b5ac8a989d2c177ee22403f34ea36d7f6918e,
+deploy dep-dboabch5efls73da7sj0: exact-source9/9 public contracts passed after
+an honestly retained deploy-time timeout. No env/schema/DB change in deployment.
+Owner-controlled Google reauth, separate final third-account deletion and same
+Google relogin passed on Samsung with app source7a2e37e. A TLS read-only staging
+DB check confirmed completed cleanup, personal-field scrubbing, zero owned rows
+across40 tables/old refresh tokens, a distinct new zero-XP/zero-progress account,
+and protected A30 XP/two lessons/B20 XP/one lesson preserved. ACL closed again.
+Minimal immutable ID tombstone remains by design; no original provider subject.
+
+New-source local backend110 regressions plus14 OAuth/migration tests passed.
+Full CI42500888563 is still running; parent5356 pass is not its result.
+Flutter1393 full tests passed in44:00, targeted37, analyze clean384.7s.
+Native7a2e37e APK installed-r Success; matching AAB77581578 bytes passed signing,
+package/version/callback/16KiB/secret checks. Earlier pending Google-deletion and
+native-build notes below are historical. Production remains NO-GO: existing
+production API/DB baseline/backup/migration/import/deploy approvals, privacy and
+manual-support/retention/storage operations, signed-upgrade, provider and stable
+performance gates remain. Production Livee97c029/main/Play are unchanged.
+
+This is a readiness record for updating existing `com.ilmai.app`, not a first
 publication and not permission to deploy or upload. Preserve1.0.3/code4 and the
 existing verified signing identity. **Production remains NO-GO.**
 

@@ -14,8 +14,9 @@ returned to the app, but backend verification denied the response; no proof or
 DELETE request was issued. The third disposable account remains intact.
 
 The backend correction below uses fresh application OAuth issuance, not Google
-Account session age.17 real-RSA/privacy regression tests passed; the broader
-SQLite/PostgreSQL suite and new-source full CI are pending at this checkpoint.
+Account session age.110 SQLite/PostgreSQL/RSA/privacy tests passed, plus14
+OAuth redirect/migration regressions passed (separate set). Full CI42500888563
+is still running for597b5ac8a989d2c177ee22403f34ea36d7f6918e.
 Never reuse the parent's5356 CI pass as a result for this runtime correction.
 
 Current production candidate `ILM-AI-1.0.3-code4-7a2e37e-NO-GO.aab` is77581578
@@ -23,7 +24,27 @@ bytes, SHA256 `0b34f08354eeeae7167478f998074f4a6bd5f52e39834ce2f006c9f47199b911`
 Bundletool/JAR signature, existing upload certificate, package/version, exact
 callback filters,16KiB native alignment and bounded secret checks passed.
 This is artifact verification, not production deployment or Google acceptance.
-Flutter full suite is still running; targeted37 and analyze clean are observed.
+Flutter source7a2e37e full suite:1393 passed in44:00; targeted37 and analyze
+clean384.7s. Counts overlap and are not summed.
+
+Follow-up staging deploy dep-dboabch5efls73da7sj0 is actually Live at597b5ac;
+exact-source public preflight9/9 passed. Earlier deploy-time timeout is retained
+as a failed sample, not called a clean startup. No env/schema/DB mutation was
+performed; production Live e97c029 and Free/off/closed-DB controls unchanged.
+Owner completed a new third-account Google flow and separately pressed final
+deletion. Actual exchange200/confirm200 and app logout observed. Same-account
+Google relogin opens fresh onboarding, which persists after restart.
+
+TLS read-only staging DB verification confirms the actual Google deletion job
+is complete, original personal fields/provider subject removed, only a minimal
+non-reusable ID tombstone retained, and zero owned rows across40 reviewed tables
+(including refresh tokens). New login creates a distinct profile with age unset,
+zero XP and zero progress rows. Protected A30 XP/two completed lessons and
+B20 XP/one completed lesson remain. No user IDs/PII/credentials are in receipts.
+Temporary operator-only staging DB ACL was closed in finally; no production
+database connection or data mutation. This completes the real third-account
+Google app deletion/relogin test, not a production deployment/privacy signoff.
+Phone remains in the new third account's fresh onboarding; no age was invented.
 
 ## Runtime contracts
 
