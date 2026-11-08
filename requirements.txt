@@ -9,6 +9,7 @@ scikit-learn
 python-telegram-bot[job-queue]>=21.0
 python-docx
 PyJWT
+cryptography
 SQLAlchemy>=1.4
 psycopg2-binary
 pgvector

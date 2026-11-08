@@ -215,6 +215,10 @@ def _purge_owned_rows(db, user):
     if "email_verification_codes" in names:
         target = table("email_verification_codes")
         db.execute(delete(target).where(target.c.email == user.email))
+    if "account_deletion_manual_requests" in names:
+        target = table("account_deletion_manual_requests")
+        email_tag = digest("email:" + user.email.strip().lower())
+        db.execute(delete(target).where(or_(target.c.account_hash == email_tag, target.c.contact_hash == email_tag)))
     db.execute(update(User).where(User.referred_by == user.id).values(referred_by=None))
 
 
@@ -251,6 +255,7 @@ def confirm_deletion(db, request_id, code, confirmation):
             DeletionChallenge.attempts < 5,
         )
         .values(attempts=DeletionChallenge.attempts + 1)
+        .execution_options(synchronize_session=False)
         .returning(DeletionChallenge.id)
     ).scalar_one_or_none()
     if claimed is None:

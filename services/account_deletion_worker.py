@@ -2,7 +2,7 @@
 
 from datetime import timedelta
 import os
-from sqlalchemy import delete, select
+from sqlalchemy import delete, select, inspect
 from services.account_models import DeletionJob, DeletionChallenge, DeletionRateBucket
 from services.account_deletion import finish_cleanup, require_ready
 from services.study import utcnow
@@ -22,6 +22,15 @@ def process_pending(db, limit=50):
         .all()
     )
     completed = sum(finish_cleanup(db, job)["state"] == "deleted" for job in jobs)
+    if inspect(db.get_bind()).has_table("account_deletion_reauth"):
+        from services.deletion_reauth_models import DeletionReauth
+
+        # Proof bindings reference challenges; expire bindings before challenges.
+        db.execute(
+            delete(DeletionReauth)
+            .where(DeletionReauth.expires_at < utcnow() - timedelta(days=1))
+            .execution_options(synchronize_session=False)
+        )
     db.execute(
         delete(DeletionChallenge).where(
             DeletionChallenge.expires_at < utcnow() - timedelta(days=1)

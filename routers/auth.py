@@ -30,6 +30,10 @@ EMAIL_PATTERN = re.compile(r"^[^\s@]+@[^\s@]+\.[^\s@]+$")
 REQUIRE_EMAIL_VERIFICATION = os.environ.get("REQUIRE_EMAIL_VERIFICATION", "true").strip().lower() not in ("false", "0", "no", "off")
 
 
+def email_free_authentication():
+    return os.getenv("EMAIL_FREE_AUTHENTICATION") == "true"
+
+
 class SignupRequest(BaseModel):
     name: str
     email: str
@@ -79,8 +83,9 @@ def signup(data: SignupRequest):
 
     # Verification temporarily disabled → activate the account and log the user
     # in immediately, with no email code (see REQUIRE_EMAIL_VERIFICATION).
-    if not REQUIRE_EMAIL_VERIFICATION:
-        set_email_verified(user["id"], True)
+    if email_free_authentication() or not REQUIRE_EMAIL_VERIFICATION:
+        if not email_free_authentication():
+            set_email_verified(user["id"], True)
         return {
             "message": "Signup successful",
             "verification_required": False,
@@ -105,7 +110,7 @@ def login(data: LoginRequest):
     if not user:
         raise HTTPException(status_code=401, detail="Invalid email or password")
 
-    if REQUIRE_EMAIL_VERIFICATION and not user.get("oauth_provider") and not user.get("email_verified"):
+    if not email_free_authentication() and REQUIRE_EMAIL_VERIFICATION and not user.get("oauth_provider") and not user.get("email_verified"):
         # Send a fresh code so the /verify-email screen the frontend redirects to
         # always has a valid one (the signup code may have expired). issue_code is
         # rate-limited internally, so rapid retries won't spam the inbox.
@@ -258,6 +263,10 @@ class PasswordResetConfirm(BaseModel):
 
 @router.post("/password-reset/request")
 def password_reset_request(data: PasswordResetRequest):
+    if email_free_authentication():
+        from services.email import is_email_configured
+        if not is_email_configured():
+            raise HTTPException(503, "secure_password_recovery_requires_delivery_service")
     user = find_user_by_email(data.email)
     if user and not user.get("oauth_provider"):
         issue_code(data.email, "password_reset")
@@ -468,6 +477,9 @@ async def google_callback_mobile(request: Request, code: str | None = None,
     (used by the web frontend), this endpoint must issue an HTTP redirect —
     returning JSON here would leave the in-app browser stuck on a blank page.
     """
+    if state and state.startswith("del_"):
+        from routers.account_deletion import google_deletion_callback_response
+        return await google_deletion_callback_response(state, code, error)
     if not is_google_oauth_enabled():
         raise HTTPException(
             status_code=503,

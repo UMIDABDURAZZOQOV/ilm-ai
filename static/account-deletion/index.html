@@ -3,10 +3,14 @@
 <title>ILM AI — Akkauntni o‘chirish</title><link rel="stylesheet" href="/account-deletion.css"><script src="/account-deletion.js" defer></script></head>
 <body><main><p class="brand">ILM AI</p><h1>Akkauntni o‘chirish</h1>
 <p>ILM AI akkauntingiz, shaxsiy profilingiz, dars progressingiz, javoblaringiz, XP va saqlangan materiallaringizni o‘chirishni shu yerdan boshlashingiz mumkin. Ilovani qayta o‘rnatish shart emas.</p>
-<p>Avval akkauntingizdagi emailga yuborilgan kod bilan shaxsingizni tasdiqlaysiz. O‘chirish qaytarilmaydi. Keyin shu Google akkaunt bilan kirsangiz, eski progress qaytmaydi, yangi profil yaratiladi.</p>
-<form id="request-form"><label for="email">Akkaunt emailingiz</label><input id="email" name="email" type="email" autocomplete="email" maxlength="200" required><button type="submit">Tasdiqlash kodini olish</button></form>
-<form id="confirm-form" hidden><label for="code">Emaildagi 6 xonali kod</label><input id="code" name="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required>
-<p>Kod 10 daqiqa amal qiladi. Kodni hech kimga bermang.</p><label for="confirmation">Butunlay o‘chirishni tasdiqlash uchun DELETE deb yozing</label><input id="confirmation" name="confirmation" pattern="DELETE" maxlength="6" autocomplete="off" required><button class="danger" type="submit">Akkauntni butunlay o‘chirish</button></form>
+<p>Google akkauntingiz bilan qayta kiring yoki joriy parolingizni tekshirtiring. So‘ng butunlay o‘chirishni alohida tasdiqlaysiz. Email-kod majburiy emas. O‘chirish qaytarilmaydi; keyingi ro‘yxatdan o‘tishda eski progress qaytmaydi.</p>
+<button id="google-button" type="button" disabled>Google orqali akkauntni tasdiqlash</button>
+<details><summary>Email va parol orqali tasdiqlash</summary>
+<form id="password-form"><label for="email">Akkaunt emailingiz</label><input id="email" type="email" autocomplete="username" maxlength="200" required><label for="password">Joriy parol</label><input id="password" type="password" autocomplete="current-password" maxlength="1024" required><button type="submit" disabled>Parolni tekshirish</button></form></details>
+<form id="confirm-form" hidden><p>Akkaunt tekshirildi. Tasdiq 5 daqiqa amal qiladi. Bu bosqich hali akkauntni o‘chirmadi.</p><label for="confirmation">Butunlay o‘chirish uchun DELETE deb yozing</label><input id="confirmation" pattern="DELETE" maxlength="6" autocomplete="off" required><button class="danger" type="submit">Akkauntni butunlay o‘chirish</button></form>
+<details><summary>Akkauntga kira olmayapsizmi? Tekshiriladigan o‘chirish so‘rovi</summary>
+<p>Ushbu so‘rov akkauntni o‘chirmaydi. Operator shaxsingiz va akkauntga egalikni alohida tekshiradi. Faqat emailni bilish yetarli emas. Parol, Google kodi yoki maxfiy hujjat yubormang.</p>
+<form id="manual-form"><label for="account-email">Akkaunt emailingiz</label><input id="account-email" type="email" maxlength="200" required><label for="contact-email">Siz bilan bog‘lanish mumkin bo‘lgan email</label><input id="contact-email" type="email" maxlength="200" required><label for="reason">Muammoni qisqa tushuntiring (maxfiy ma’lumotsiz)</label><textarea id="reason" minlength="10" maxlength="1000" required></textarea><button type="submit" disabled>Tekshiruv uchun so‘rov yuborish</button></form></details>
 <p id="status" role="status" aria-live="polite"></p>
 <details><summary>Qaysi ma’lumotlar o‘chiriladi va nima saqlanishi mumkin?</summary>
 <p>Profil, autentifikatsiya sessiyalari, o‘quv progressi, javoblar, XP, yuklangan materiallardan hosil qilingan shaxsiy ma’lumotlar, shaxsiy suhbat va saqlangan fayllar o‘chiriladi. Boshqa o‘quvchilarning akkauntlari va umumiy darslik kontenti o‘chirilmaydi.</p>

@@ -1,5 +1,10 @@
 # Staging akkaunt o‘chirish — bepul email yuboruvchini tayyorlash
 
+**Superseded2026-11-08:** yangi talabga ko‘ra sender majburiy emas. Google/parol
+qayta tasdiqlash yo‘li [email-free handoff](EMAIL_FREE_AUTH_DELETION_20261108.md)da.
+Bu eski yo‘riqnoma faqat kelajakdagi ixtiyoriy transactional/password-recovery
+xizmati uchun;10,000 foydalanuvchida ham avtomatik yoqilmaydi.
+
 2026-11-08: ikki haqiqiy Google akkaunti, MCQ/FRQ va progress alohidaligi tekshirildi.
 Keyingi to‘siq: haqiqiy email-kod yetkazilishi va akkaunt o‘chirish siyosati/storage
 tekshiruvi. Staging `/account-deletion`200, `/account/deletion/config`200 va

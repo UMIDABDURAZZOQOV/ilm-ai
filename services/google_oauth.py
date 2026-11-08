@@ -145,7 +145,14 @@ async def handle_google_callback(request: Request, redirect_uri: str, mobile: bo
 
         # Google's verified subject is stable even when email/display name changes.
         # Preserve the existing verified-email linking path for older accounts.
-        existing_user = find_user_by_oauth('google', google_id) or find_user_by_email(email)
+        existing_user = find_user_by_oauth('google', google_id)
+        if not existing_user:
+            existing_user = find_user_by_email(email)
+            if (os.getenv("EMAIL_FREE_AUTHENTICATION") == "true" and existing_user
+                    and not existing_user.get("oauth_provider") and not existing_user.get("email_verified")):
+                # An unverified password signup must not claim someone else's
+                # Google identity or silently share that person's progress.
+                raise HTTPException(409, "account_link_requires_verified_identity")
 
         if existing_user:
             if existing_user.get('oauth_provider') not in (None, '', 'google'):

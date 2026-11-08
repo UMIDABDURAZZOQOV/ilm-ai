@@ -108,7 +108,9 @@ def staging_errors(env):
         )
     else:
         require(
-            bool(env.get("GOOGLE_CLIENT_ID", "").endswith(".apps.googleusercontent.com"))
+            bool(
+                env.get("GOOGLE_CLIENT_ID", "").endswith(".apps.googleusercontent.com")
+            )
             and bool(env.get("GOOGLE_CLIENT_SECRET")),
             "dedicated_google_client_required",
         )
@@ -168,20 +170,24 @@ def staging_errors(env):
             or PureWindowsPath(storage).is_absolute(),
             "absolute_account_deletion_storage_required",
         )
-        require(
-            bool(
-                (env.get("BREVO_API_KEY") and env.get("BREVO_FROM_EMAIL"))
-                or (env.get("RESEND_API_KEY") and env.get("RESEND_FROM"))
-                or (env.get("GMAIL_ADDRESS") and env.get("GMAIL_APP_PASSWORD"))
-            ),
-            "dedicated_account_deletion_test_sender_required",
-        )
+        if env.get("EMAIL_FREE_ACCOUNT_DELETION") != "true":
+            require(
+                bool(
+                    (env.get("BREVO_API_KEY") and env.get("BREVO_FROM_EMAIL"))
+                    or (env.get("RESEND_API_KEY") and env.get("RESEND_FROM"))
+                    or (env.get("GMAIL_ADDRESS") and env.get("GMAIL_APP_PASSWORD"))
+                ),
+                "dedicated_account_deletion_test_sender_required",
+            )
     return errors
 
 
 def require_staging_config(env=None):
     env = os.environ if env is None else env
-    if env.get("STAGING_AUTH_SETUP_PENDING") == "true" and env.get("DEPLOYMENT_STAGE") != "staging":
+    if (
+        env.get("STAGING_AUTH_SETUP_PENDING") == "true"
+        and env.get("DEPLOYMENT_STAGE") != "staging"
+    ):
         raise RuntimeError("pending_auth_mode_is_staging_only")
     if env.get("DEPLOYMENT_STAGE") == "staging":
         errors = staging_errors(env)
