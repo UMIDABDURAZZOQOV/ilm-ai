@@ -69,8 +69,13 @@ def signing_key():
     [
         "valid",
         "wrong_nonce",
-        "stale_auth",
+        "old_google_session_fresh_app_response",
         "missing_auth_time",
+        "stale_issued_at",
+        "token_issued_before_flow",
+        "missing_issued_at",
+        "invalid_issued_at_type",
+        "future_issued_at",
         "wrong_audience",
         "wrong_issuer",
         "wrong_azp",
@@ -94,10 +99,22 @@ def test_google_requires_verified_fresh_identity(monkeypatch, signing_key, mutat
     )
     if mutation == "wrong_nonce":
         claims["nonce"] = "another-flow"
-    if mutation == "stale_auth":
+    if mutation == "old_google_session_fresh_app_response":
         claims["auth_time"] = now - 3600
     if mutation == "missing_auth_time":
         claims.pop("auth_time")
+    if mutation == "stale_issued_at":
+        claims["iat"] = now - 600
+        claims.pop("auth_time")
+    if mutation == "token_issued_before_flow":
+        claims["iat"] = now - 120
+        claims.pop("auth_time")
+    if mutation == "missing_issued_at":
+        claims.pop("iat")
+    if mutation == "invalid_issued_at_type":
+        claims["iat"] = True
+    if mutation == "future_issued_at":
+        claims["iat"] = now + 3600
     if mutation == "wrong_audience":
         claims["aud"] = "other.apps.googleusercontent.com"
     if mutation == "wrong_issuer":
@@ -131,7 +148,11 @@ def test_google_requires_verified_fresh_identity(monkeypatch, signing_key, mutat
 
     monkeypatch.setattr(service.requests, "post", post)
     monkeypatch.setattr(service.requests, "get", get)
-    if mutation == "valid":
+    if mutation in {
+        "valid",
+        "old_google_session_fresh_app_response",
+        "missing_auth_time",
+    }:
         assert (
             service.verify_google_identity(
                 "fixture-code",
@@ -147,3 +168,15 @@ def test_google_requires_verified_fresh_identity(monkeypatch, signing_key, mutat
                 service.sha("owned-nonce"),
                 utcnow() - timedelta(seconds=5),
             )
+
+
+def test_reauth_failure_logs_only_fixed_categories(caplog):
+    marker = "never-log-this-provider-token-or-identity"
+    with caplog.at_level("WARNING", logger=service.__name__):
+        service.log_google_failure(HTTPException(400, marker))
+        service.log_google_failure(jwt.DecodeError(marker))
+        service.log_google_failure(service.requests.RequestException(marker))
+    assert marker not in caplog.text
+    assert "provider_rejected" in caplog.text
+    assert "invalid_signed_identity" in caplog.text
+    assert "provider_connection_failed" in caplog.text

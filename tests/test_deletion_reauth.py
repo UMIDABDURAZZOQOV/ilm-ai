@@ -240,8 +240,9 @@ def test_google_subject_pkce_state_one_use_and_no_login_grants(
     assert response.status_code == 200, response.text
     state = response.json()["state"]
     assert (
-        "max_age=0" in response.json()["auth_url"]
+        "prompt=select_account" in response.json()["auth_url"]
         and "nonce=" in response.json()["auth_url"]
+        and "max_age=" not in response.json()["auth_url"]
     )
     monkeypatch.setattr(service, "verify_google_identity", lambda *args: subject)
     import asyncio

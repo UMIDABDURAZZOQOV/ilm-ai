@@ -4,6 +4,7 @@ from datetime import timedelta
 import hashlib
 import hmac
 import json
+import logging
 import os
 import re
 import secrets
@@ -27,6 +28,31 @@ from services.deletion_reauth_models import DeletionReauth, ManualDeletionReques
 from services.models import User
 from services.study import utcnow, aware
 from services.mobile_oauth import pkce_challenge
+
+logger = logging.getLogger(__name__)
+
+
+def log_google_failure(error):
+    """Only allowlisted categories; never exception text, codes or token claims."""
+    if isinstance(error, HTTPException):
+        known = {
+            "google_reauthentication_failed",
+            "invalid_google_identity",
+            "google_verification_unavailable",
+            "recent_google_authentication_required",
+        }
+        reason = (
+            error.detail
+            if isinstance(error.detail, str) and error.detail in known
+            else "provider_rejected"
+        )
+    elif isinstance(error, jwt.PyJWTError):
+        reason = "invalid_signed_identity"
+    elif isinstance(error, requests.RequestException):
+        reason = "provider_connection_failed"
+    else:
+        reason = "verification_failed"
+    logger.warning("Google deletion reauthentication denied: %s", reason)
 
 
 def sha(value):
@@ -179,8 +205,6 @@ def begin_google(db, challenge, peer, *, uid=None, surface="web"):
         state=state,
         nonce=nonce,
         prompt="select_account",
-        max_age="0",
-        claims=json.dumps({"id_token": {"auth_time": {"essential": True}}}),
     )
     return {
         "auth_url": "https://accounts.google.com/o/oauth2/v2/auth?" + urlencode(params),
@@ -225,16 +249,31 @@ def verify_google_identity(code, nonce_hash, created_at):
         algorithms=["RS256"],
         audience=google_oauth.GOOGLE_CLIENT_ID,
         issuer=["https://accounts.google.com", "accounts.google.com"],
-        options={"require": ["sub", "aud", "iss", "exp", "iat", "nonce", "auth_time"]},
+        options={"require": ["sub", "aud", "iss", "exp", "iat", "nonce"]},
         leeway=30,
     )
-    auth_time = claims["auth_time"]
+    issued_at = claims["iat"]
+    auth_time = claims.get("auth_time")
     now = utcnow().timestamp()
+    # Google Account auth_time describes the browser/device's Google session,
+    # not this application's reauthentication. Google does not support forcing
+    # Google Account reauth, and these optional claims require verified-app setup.
+    # Require a newly signed, nonce-bound response issued during this exact flow.
+    # Do not substitute an old/cached ID token or claim fresh password/MFA entry.
     if (
-        not isinstance(auth_time, int)
-        or isinstance(auth_time, bool)
-        or not now - 300 <= auth_time <= now + 30
-        or auth_time < aware(created_at).timestamp() - 30
+        not isinstance(issued_at, int)
+        or isinstance(issued_at, bool)
+        or not now - 300 <= issued_at <= now + 30
+        or issued_at < aware(created_at).timestamp() - 30
+        or (
+            auth_time is not None
+            and (
+                not isinstance(auth_time, int)
+                or isinstance(auth_time, bool)
+                or auth_time < 0
+                or auth_time > issued_at + 30
+            )
+        )
         or not hmac.compare_digest(sha(claims["nonce"]), nonce_hash)
         or (claims.get("azp") and claims["azp"] != google_oauth.GOOGLE_CLIENT_ID)
         or not isinstance(claims["sub"], str)
@@ -269,9 +308,11 @@ async def google_callback(db, state, code, error=None):
         subject = await run_in_threadpool(
             verify_google_identity, code, row.nonce_hash, row.created_at
         )
-    except HTTPException:
+    except HTTPException as error:
+        log_google_failure(error)
         raise
-    except Exception:
+    except Exception as error:
+        log_google_failure(error)
         raise HTTPException(400, "google_reauthentication_failed") from None
     # Strict provider-subject ownership, never email/name linking or account creation.
     user = db.execute(

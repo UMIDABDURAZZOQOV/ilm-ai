@@ -1,19 +1,23 @@
 # ILM AI1.0.3 — current production release gates (2026-11-08)
 
 This is a readiness record for updating existing `com.ilmai.app`, not a first
+
 publication and not permission to deploy or upload. Preserve1.0.3/code4 and the
 existing verified signing identity. **Production remains NO-GO.**
 
 ## Confirmed current backend
 
 - Recovery branch: `release/ilm-ai-1.0.3-recovery-20261107`.
-- Staging Live source: `d587f9b56cb9aa54fb35f6bbf92af9dcf7a285f9`.
+- Staging Live source: `fd44385d40a5b0258ee0206c6daa64ef31408362` (email-free
+  deletion update; see dedicated acceptance report).
 - Staging service: `srv-dbniform8hqs73caemig`; deploy
-  `dep-dbnlssm417fc73e49rn0`; Free, auto-deploy off.
+  `dep-dbnvte0u01pc73dt17rg`; Free, auto-deploy off.
 - Production service: `srv-d99id4mcjfls738a8l80`, still Live
   `e97c029f341da172fc753ab07b44b783cdf13b5f`, linked to `main` with auto-deploy on.
-- New source full Linux CI42395951490: **5334 passed,65 skipped,21 warnings**,
+- Parent-source full Linux CI42395951490: **5334 passed,65 skipped,21 warnings**,
   5731.06s; import and Docker build successful. Skipped cases are not passes.
+  Current fd44385 CI42446994077 succeeded:5356 passed,75 skipped,21 warnings
+  in6150.04s; import and Docker build passed. This is separately observed evidence.
 - Final awake-server preflight9/9 passes at the exact Live source. Earlier
   resume-timeout preflight is retained separately as a failed performance sample.
 - Dedicated Google Web client, isolated Free PostgreSQL and strict staging config
@@ -35,7 +39,7 @@ No opening grade was guessed from the user's illustrative examples.
 | Learning/progress | Five-subject locks; both accounts complete MCQ/FRQ; correct/incorrect fallback and native semantics accepted; current Flutter1375 full tests/analyze clean | Actual production configuration and Play-signed update acceptance; see dedicated report |
 | New routers | Full CI and exact staging contracts pass; real profile404 fixed without preview bypass | Production still old404; final separately authorized service update only after other gates |
 | Existing production database | Read-only inventory:46 unversioned tables; isolated fresh-chain/import and synthetic structural rehearsal already tested | Reconcile actual baseline, verified backup/restore and explicit migration/import approval; never blanket stamp/create_all |
-| Account deletion | SQLite/PostgreSQL local tests; stage flag remains off | Public staging HTML/config200 with available=false; real OTP sender/mailbox, retention/privacy/storage/worker acceptance and owned deletion journey still required |
+| Account deletion | New email-free staging enabled after additive0018/verified staging backup restore; HTTPS password/web acceptance29/29, two synthetic accounts actually deleted | Real third-account Google fresh reauth/deletion/relogin, support/retention/privacy/storage/worker acceptance still required; email sender is no longer a mandatory deletion prerequisite |
 | Performance | Free HTTPS service resumed only after timeout/retry; app did not falsely report success | Stable hosting/cold-start acceptance and real release/profile measurement; no paid resource is authorized |
 | External AI | Verified lesson fallback works on phone; no provider credential in APK | Valid private provider config plus audience/privacy/limits acceptance; no quota circumvention |
 | Signing/update | Existing package/signing and latest Play code3 previously checked; targetcode4 | Actual Play-signed1.0.2→1.0.3 update, data preservation and final candidate artifact scan |
@@ -43,7 +47,7 @@ No opening grade was guessed from the user's illustrative examples.
 
 ## Production mutation approval packet — not yet approved
 
-The backend candidate is `d587f9b...`, not the old `main`. Do not push/merge
+The backend candidate is `fd44385...`, not the old `main`. Do not push/merge
 `main` merely to publish code: its linked production auto-deploy would run.
 The final packet must identify exact source/service, reviewed DB baseline and
 backup restore point, additive migration/import transaction, preserved secrets,
@@ -59,3 +63,16 @@ Current actual phone/source/artifact details belong in
 [Google staging acceptance](GOOGLE_STAGING_ACCEPTANCE_20261107.md). Earlier audit
 sections that say hosting/OAuth are absent or the new-source CI is pending are
 historical and superseded by this checkpoint.
+
+Current email-free runtime/app checkpoints are in
+[email-free authentication/deletion](EMAIL_FREE_AUTH_DELETION_20261108.md).
+Flutter b6f604a full serial1392 passed in11:05, analyze clean; targeted61 and exact
+staging-flag99 passed (counts overlap). The phone-discovered browser-expiry message
+now distinguishes Google interaction expiry from a network/server timeout; OAuth,
+state, identity and PKCE lifetime guards are unchanged. Parent984a825 is historical.
+New separate
+staging APK installed Success with A30 XP/two lessons preserved. A new production
+AAB candidate is being built locally and is not approved for upload. The verified restore relates to the isolated staging backup,
+not the unversioned production database. No mandatory Brevo/Resend setup is pending
+under the owner's revised policy; secure lost-password delivery remains an honest
+optional-infrastructure limitation.
