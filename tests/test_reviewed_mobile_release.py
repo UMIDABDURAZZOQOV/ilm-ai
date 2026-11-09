@@ -144,15 +144,21 @@ def test_release_profile_uses_reviewed_authorization_with_preview_flags_off(rele
 def test_missing_approval_disabled_feature_and_prod_sqlite_fail_closed(
     released, monkeypatch
 ):
-    client, _, _ = released
+    client, factory, _ = released
     monkeypatch.delenv("MOBILE_PUBLICATION_REVIEW_REFERENCE")
     assert client.get("/mobile/skills/config").status_code == 503
     monkeypatch.setenv("MOBILE_PUBLICATION_REVIEW_REFERENCE", "technical fixture")
     monkeypatch.setenv("ENVIRONMENT", "production")
-    assert (
-        client.get("/mobile/skills/config").json()["detail"]
-        == "persistent_release_database_required"
-    )
+    response = client.get("/mobile/skills/config")
+    # Both SQLite and real PostgreSQL fixtures exercise this contract. Only
+    # SQLite must be denied in production mode; reviewed PostgreSQL is valid.
+    with factory() as db:
+        backend = db.get_bind().url.get_backend_name()
+    if backend == "postgresql":
+        assert response.status_code == 200, response.text
+    else:
+        assert response.status_code == 503, response.text
+        assert response.json()["detail"] == "persistent_release_database_required"
     monkeypatch.setenv("ENVIRONMENT", "test")
     monkeypatch.setenv("MOBILE_REVIEWED_RELEASE", "false")
     assert client.get("/mobile/skills/config").status_code == 404

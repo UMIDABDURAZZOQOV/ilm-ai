@@ -16,7 +16,7 @@ adding a key without reviewing data flow, audience, consent and disclosure.
 
 | Data / feature | Candidate code behavior | Required release declaration review |
 | --- | --- | --- |
-| Authentication | Optional Google subject/name/email/picture or existing secure email/password contract; server-signed sessions and encrypted local tokens | Account management; Google and hosting/database processor roles; password hashes are server-side, not plaintext storage |
+| Authentication | Candidate UI uses Google only, per latest owner instruction; verified subject/name/email/picture, server-signed sessions and encrypted local tokens. Legacy password contracts remain for older clients | Account management; Google and hosting/database processor roles; mixed-audience Google policy review remains open |
 | Profile | Name, entered age, subject/grade/preferences | Necessity, consent/child treatment and retention before collection; age after login is not proof of parental consent |
 | Learning | Answers, attempts, progress, XP/activity | App functionality and server synchronization; disclose linked account data |
 | Notifications | Optional Firebase/FCM code; registration only when Firebase initialization succeeds | Inspect actual release configuration/merged manifest and network behavior; dependency presence alone does not prove collection |
@@ -34,9 +34,10 @@ must follow the current Console definitions and applicable processor exceptions.
 ## Draft wording for operator completion
 
 ILM AI uses account and learning information to sign you in, personalize your
-learning choices and synchronize your study results. Google sign-in is optional;
-when chosen, we use the verified Google identity and the profile details authorized
-for that sign-in. Password authentication uses the existing secure server flow.
+learning choices and synchronize your study results. The candidate app uses Google
+sign-in for both registration and returning users. We use the verified Google
+identity and the profile details authorized for that sign-in. The owner explicitly
+removed the optional-password UI; this draft does not claim policy approval.
 Your progress is associated with your authenticated account.
 
 The reviewed lesson assistance in this release can show explanations based on the
@@ -69,8 +70,8 @@ for checking the new release's actual functionality and data handling.
 ## Official references
 
 - [Google API user data policy](https://developers.google.com/terms/api-services-user-data-policy):
-  Google authentication must be optional for a mixed audience; password access
-  alone does not establish compliance with children's privacy obligations.
+  Mixed-audience Google access requirements remain a release-review gate after
+  the owner's Google-only decision. No age declaration was silently changed.
 - [Families requirements](https://support.google.com/googleplay/android-developer/answer/9893335?hl=en):
   declared audience, appropriate content, SDK/API behavior and child data handling
   must match the actual app. Do not silently change the audience to18+.

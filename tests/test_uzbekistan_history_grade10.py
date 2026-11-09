@@ -292,6 +292,8 @@ def test_postgres_grade10_owned_schema_replay_parallel_and_grade7_preserved(
         monkeypatch.setattr(
             tokens, "JWT_SECRET", "grade10-local-pg-only-test-key-over-32-characters"
         )
+        monkeypatch.setattr(tokens, "SessionLocal", factory)
+        monkeypatch.setattr(tokens, "USE_DB", True)
         app = FastAPI()
         app.include_router(router)
 

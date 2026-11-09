@@ -179,8 +179,11 @@ def test_complete_grades5_to11_api_once_only_xp(setup, tmp_path):
     lessons = load_lesson_set()
     bykey = {l["key"]: l for l in lessons}
     with factory.begin() as db:
+        catalog_cache = {}
         for lesson in lessons:
-            import_curriculum(db, catalog, lesson)
+            # Match the real publication importer: prepare unchanged catalogue
+            # rows once per transaction, still validate every lesson/source.
+            import_curriculum(db, catalog, lesson, catalog_cache=catalog_cache)
     xp = events = checkpoints = 0
     for grade in range(5, 12):
         tree = client.get(f"/skills/1/tree?subject=biologiya&grade={grade}").json()

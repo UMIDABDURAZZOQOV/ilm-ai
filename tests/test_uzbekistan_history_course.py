@@ -567,6 +567,8 @@ def preview(tmp_path, monkeypatch):
     monkeypatch.setattr(
         tokens, "JWT_SECRET", "history-tests-only-key-longer-than-32-characters"
     )
+    monkeypatch.setattr(tokens, "SessionLocal", factory)
+    monkeypatch.setattr(tokens, "USE_DB", True)
     client = TestClient(app)
     client.headers["Authorization"] = "Bearer " + tokens.create_access_token(1)
     yield client, factory
@@ -873,6 +875,10 @@ def test_postgres_opt_in_fresh_schema_all_forty_and_parallel_xp(monkeypatch):
         monkeypatch.setattr(
             tokens, "JWT_SECRET", "history-local-pg-test-only-key-over-32-characters"
         )
+        # Token revocation/owner lookup must use the same disposable schema as
+        # the API dependency, never whichever database an earlier test imported.
+        monkeypatch.setattr(tokens, "SessionLocal", factory)
+        monkeypatch.setattr(tokens, "USE_DB", True)
         app = FastAPI()
         app.include_router(router)
 

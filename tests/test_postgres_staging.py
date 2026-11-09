@@ -134,7 +134,13 @@ def test_postgres_all_mobile_content_retry_import_and_parallel_completion(postgr
             return client.post("/mobile" + path, **kwargs)
 
     exercise((MobileClient(), factory), tmp_path)
-    tree = client.get("/mobile/skills/1/tree?subject=biologiya&grade=5").json()
+    # The full406-lesson walkthrough may outlive the fixture access token on a
+    # shared QA host. Start the separate concurrency phase with a fresh owner
+    # token; do not change production expiry or hide a non-200 tree response.
+    client.headers['Authorization'] = 'Bearer ' + tokens.create_access_token(1)
+    response = client.get("/mobile/skills/1/tree?subject=biologiya&grade=5")
+    assert response.status_code == 200, response.text
+    tree = response.json()
     lid = tree["units"][0]["lessons"][0]["id"]
     start = client.post(f"/mobile/skills/lessons/{lid}/start", json={"user_id": 1}).json()
     body = {"user_id": 1, "attempt_id": start["attempt_id"], "results": answers(start)}

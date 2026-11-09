@@ -7,7 +7,8 @@ to change production, its database, or Play Console. Existing package com.ilmai.
 ## Backend coverage
 
 - Runtime597b5ac CI42500888563 succeeded:5362 passed,75 skipped,21 warnings,
-  6189.45s; import and Docker build passed. This is actual current runtime evidence.
+  6189.45s; import and Docker build passed. This is the deployed staging runtime,
+  not the later21d1623 recovery runtime's full-CI acceptance.
 - Expanded PostgreSQL18/PDF CI6899715/42504048745 ran5437 cases, with21 failures
   and11 Windows-only skips. Failures were one expired synthetic token after
   quadratic Chemistry setup,19 fixtures selecting an uninstalled default driver,
@@ -17,9 +18,10 @@ to change production, its database, or Play Console. Existing package com.ilmai.
   batch importer validates every pinned source per invocation; test authentication
   starts after setup; explicit installed psycopg2 driver; isolated database name
   meets the history prefix; owned random schemas removed in fixture teardown.
-- Corrected83-case Windows/PostgreSQL/PDF gap run is in progress. It uses a new
-  disposable loopback database, never the production clone or public staging.
-  Earlier interrupted diagnostic runs are retained, not counted as passes.
+- Corrected83-case gap set actually passed:57 PostgreSQL,15 source-PDF and11
+  WindowsACL cases. One extra SQLite production-guard control passed:84 unique
+  node IDs, not a sum of reruns. Disposable loopback databases dropped in finally;
+  no production clone or public staging used. Earlier failures remain in receipts.
 - New exact-source full CI and final Docker result are still pending.
 
 ### Later corrections from real Windows/PostgreSQL execution
@@ -35,7 +37,14 @@ Canonical UTC wire serialization now covers the four v2 assessment engines witho
 changing expiry instants, grading, rewards or stored rows.26 targeted helper/engine/
 driver/CI contracts passed; real PostgreSQL Physics replay then passed. Subject
 branches are untouched; integration corrections exist only on the recovery branch.
-The remaining critical tests are continuing; do not claim a complete pass yet.
+The83 selected gap cases are now complete. Additional fixture corrections bind
+token ownership/revocation lookups to the same owned history schema, refresh the
+test JWT between the406-lesson walkthrough and separate concurrency phase, and
+assert SQLite-only production rejection only for SQLite. PostgreSQL must remain
+accepted. Biology catalogue preparation is shared per import transaction while
+each lesson's source is still validated. These do not change runtime auth/TTL.
+The separate60-case identity/wire/OAuth regression run also passed; counts overlap
+other suites and are not added to a claimed full backend total. Full CI pending.
 
 ### Historical baseline and locking, private clone only
 
@@ -43,7 +52,11 @@ Fresh0012 metadata comparison found no missing historical tables/columns or type
 nullability differences, but13 missing server defaults. Private rehearsal set only
 those explicit defaults and all original row digests remained unchanged. Review-only
 SQL is outside Git; it was not applied to production. Key/index/constraint differences
-still need semantic review (equivalent unique indexes may have different names).
+were reviewed offline against the encrypted saved schema. Actualix_users_email
+is a full unique btree on non-nullusers.email, with no predicate/expression; its
+logical uniqueness matches the historical column rule. It is structurally an
+index rather than a named unique constraint. No SQL was executed for this review;
+operator baseline/default reconciliation approval still remains required.
 No Google-provider rows required the historical email-verification backfill.
 
 ### Email-only identity linking correction
@@ -98,19 +111,22 @@ Catalogue readiness failed during polling; the poll duration includes ADB overhe
 and is not exact TTI. No current performance GO. Current public staging health and
 catalogue both200, approximately6.9s each; no raw phone logs exported.
 
-Google optional entry and bounded catalogue retry are active Flutter changes.
-Single primary auth CTA retained; secure password login/signup/session contracts
-reused, duplicate guard and cancellation retained.49 focused auth tests passed;
-initial expected golden changes visually reviewed in light/dark. Full new-source
-suite/analyze, new artifacts, phone startup acceptance and signed upgrade pending.
+Latest owner instruction supersedes optional-password UI: Google-only entry is
+restored with one primary CTA. Password choice/form and unused email/signup/reset
+screens are removed. Existing Google subject/PKCE/session/progress are preserved.
+Old profile4c2ab1c and debug22ea794 contain superseded UI. New Google-only68d0697
+APK installed-r Success.54 targeted Flutter tests/analyze passed; actual third
+Google login returned without onboarding, and force-stop/reopen restored session.
+New signed AAB verified with existing upload identity; no upload. Current full
+Flutter suite and phone performance/signed upgrade acceptance remain pending.
 
 ## Privacy / Play / release gates
 
 Owner reports previous Play audience review approved. Supplied wizard text does
 not show checkbox states, Data safety or App access values. No Console settings
 were changed. Google policy requires mixed-audience apps to provide full access
-without mandatory Google sign-in; optional password addresses that gate, not
-parental-consent compliance. Neutral age handling and applicable consent still
+without mandatory Google sign-in; the owner's Google-only decision leaves that
+release policy review unresolved. Neutral age handling and applicable consent still
 need a reviewed product/legal basis. No audience was silently changed to18+.
 
 Public privacy snapshot still names OpenAI data-sharing/model improvement. Current
