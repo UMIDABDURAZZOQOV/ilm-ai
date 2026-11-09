@@ -52,6 +52,8 @@ if not IS_PRODUCTION:
     retag_general_questions()
 
 app = FastAPI(title="Ilm AI Backend", version="0.3.0")
+from services.reliability import install_reliability
+install_reliability(app, engine)
 
 # Add session middleware for OAuth
 app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY,

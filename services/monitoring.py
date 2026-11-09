@@ -54,7 +54,7 @@ def before_send_transaction(transaction, hint):
     if request.get("path", "").startswith("/static"):
         return None
     
-    return transaction
+    return before_send_event(transaction, hint)
 
 
 def before_send_event(event, hint):
@@ -71,36 +71,25 @@ def before_send_event(event, hint):
     if request.get("path", "").startswith("/static"):
         return None
     
-    # Add custom tags
-    environment = os.environ.get("ENVIRONMENT", "development")
-    event["tags"] = event.get("tags", {})
-    event["tags"]["environment"] = environment
-    
-    # Sanitize sensitive data
-    if "request" in event and "data" in event["request"]:
-        if "headers" in event["request"]["data"]:
-            headers = event["request"]["data"]["headers"]
-            # Remove authorization headers
-            if "authorization" in headers:
-                headers["authorization"] = "REDACTED"
-            if "cookie" in headers:
-                headers["cookie"] = "REDACTED"
-        # Sanitize request body
-        if "body" in event["request"]["data"]:
-            body = event["request"]["data"]["body"]
-            if isinstance(body, dict):
-                # Remove sensitive fields
-                sensitive_fields = ["password", "token", "secret", "key", "credit_card"]
-                for field in sensitive_fields:
-                    if field in body:
-                        body[field] = "REDACTED"
-    
-    # Add fingerprint for better error grouping
-    if "exception" in event:
-        exception_type = event["exception"]["values"][0].get("type")
-        exception_message = event["exception"]["values"][0].get("value")
-        event["fingerprint"] = [exception_type, exception_message]
-    
+    # Sentry puts headers/body directly under request, not request.data.headers.
+    # Allowlist diagnostics instead of guessing every credential/PII field name.
+    for key in ('request', 'user', 'extra', 'contexts', 'breadcrumbs', 'logentry',
+                'message', 'spans', 'transaction_info', 'fingerprint'):
+        event.pop(key, None)
+    environment = os.environ.get('ENVIRONMENT', 'development')
+    event['tags'] = {'environment': environment if environment in
+                     {'production', 'test', 'development'} else 'unknown'}
+    if 'transaction' in event:
+        event['transaction'] = 'backend_operation'
+    if 'exception' in event:
+        values = event['exception'].get('values', [])
+        sanitized = []
+        for value in values:
+            name = value.get('type', 'Exception')
+            name = name if isinstance(name, str) and name.isidentifier() and len(name) < 100 else 'Exception'
+            sanitized.append({'type': name, 'value': 'details_redacted'})
+        event['exception'] = {'values': sanitized}
+        event['fingerprint'] = [sanitized[0]['type'] if sanitized else 'Exception']
     return event
 
 
@@ -128,13 +117,9 @@ def track_custom_event(event_name: str, data: Dict[str, Any], level: str = "info
 
 def track_error(error: Exception, context: Dict[str, Any] = None):
     """Track an error with additional context."""
-    import traceback
-    print(f"[error] {type(error).__name__}: {error}" + (f" | context={context}" if context else ""))
-    traceback.print_exception(type(error), error, error.__traceback__)
-
+    import logging
+    logging.getLogger(__name__).error('Backend operation failed (%s)', type(error).__name__)
     sentry_sdk.capture_exception(error)
-    if context:
-        sentry_sdk.set_extra("error_context", context)
 
 
 def log_llm_call(user_id, prompt, response_text, latency_ms, token_count=None, model="gemini-flash-latest", context: Dict[str, Any] = None):

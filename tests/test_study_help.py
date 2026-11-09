@@ -170,3 +170,19 @@ def test_valid_selection_preserves_required_grader_feedback(monkeypatch):
                 dict(id='e2', kind='cards', text='Reviewed teaching material')]
     selected, status = study_help.select_evidence(dict(evidence=evidence), 'ignored free-form text', 'uz')
     assert selected == evidence and status == 'selected'
+
+
+def test_provider_wait_does_not_hold_the_request_database_connection(beta_api, monkeypatch):
+    from services import study_help
+    client, factory, _, _ = beta_api
+    engine = factory.kw['bind']
+    observed = []
+    class Selector:
+        def select(self, context):
+            observed.append(engine.pool.checkedout())
+            return [context['evidence'][0]['id']]
+    monkeypatch.setattr(study_help, '_provider', Selector())
+    result = ask(client, subject='kimyo', grade=7)
+    assert result.status_code == 200, result.text
+    assert result.json()['provider_status'] == 'selected'
+    assert observed == [0]

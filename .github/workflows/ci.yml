@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt -r requirements-source-review.txt pytest httpx
+          pip install -r requirements.txt -r requirements-source-review.txt -r requirements-reliability.txt pytest
           python -m pip check
       - name: Configure isolated loopback test database
         shell: bash

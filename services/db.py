@@ -5,6 +5,7 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base
 from dotenv import load_dotenv
 from services.database_url import normalize_database_url
+from services.database_pool import postgres_engine_options
 
 load_dotenv()
 DATABASE_URL = normalize_database_url(os.environ.get("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/ilm_ai"))
@@ -18,10 +19,9 @@ def check_postgres_port(url: str) -> bool:
         if host == "localhost":
             host = "127.0.0.1"
         port = parsed.port or 5432
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.settimeout(1.0)
-        s.connect((host, port))
-        s.close()
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.settimeout(1.0)
+            s.connect((host, port))
         return True
     except Exception:
         return False
@@ -30,12 +30,14 @@ def check_postgres_port(url: str) -> bool:
 
 # Check if PostgreSQL is available, else fall back to SQLite
 postgres_ok = False
+postgres_options = postgres_engine_options(DATABASE_URL) if DATABASE_URL.startswith('postgresql') else {}
 if DATABASE_URL.startswith("postgresql"):
     postgres_ok = check_postgres_port(DATABASE_URL)
 
 if postgres_ok:
     try:
-        engine = create_engine(DATABASE_URL, echo=False, future=True)
+        engine = create_engine(DATABASE_URL, echo=False, future=True,
+                               **postgres_options)
     except Exception:
         postgres_ok = False
 

@@ -1,0 +1,27 @@
+# Proposed Prometheus rules; NOT deployed or a measured SLA.
+# Scrape /ops/metrics over private networking with an operator-provisioned bearer
+# file. Never put the token in this file, Git or mobile artifacts.
+groups:
+  - name: ilm-api-proposed
+    rules:
+      - alert: IlmCoreErrorBudgetFastBurn
+        expr: sum(rate(ilm_http_requests_total{lane=~"core|auth",status_class="5xx"}[5m])) / clamp_min(sum(rate(ilm_http_requests_total{lane=~"core|auth"}[5m])), 0.01) > 0.0144
+        for: 2m
+        labels:
+          severity: page
+        annotations:
+          summary: Core API five-minute error fraction exceeds 14.4x a 0.1% budget
+      - alert: IlmCoreLatencyHigh
+        expr: histogram_quantile(0.95, sum by (le) (rate(ilm_http_duration_seconds_bucket{lane="core"}[5m]))) > 2
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: Proposed core p95 latency target exceeded
+      - alert: IlmAdmissionSaturated
+        expr: sum(rate(ilm_http_rejected_total[5m])) > 0.1
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: Sustained backpressure; check CPU, pool and external dependencies

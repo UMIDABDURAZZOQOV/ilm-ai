@@ -99,6 +99,11 @@ def _telegram_streak_reminders():
 
 def start_scheduler():
     global _scheduler
+    from services.database_pool import bounded_int
+    if os.getenv('SCHEDULER_ENABLED', 'true') == 'false':
+        return
+    if bounded_int(os.environ, 'APP_WORKERS', 1, 1, 8) > 1:
+        raise RuntimeError('multiple_workers_require_separate_scheduler')
     if _scheduler is not None:
         return
     _scheduler = BackgroundScheduler(timezone=TZ)

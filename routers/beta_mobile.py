@@ -65,6 +65,9 @@ def create_router(prefix, db_dependency):
         else:
             context = help_service.evidence_context(db, uid, data)
         # All DB ownership/source checks finish before optional external inference.
+        # Return the read-only connection before a slow provider can hold the pool.
+        from services.reliability import release_read_transaction
+        release_read_transaction(db)
         return await run_in_threadpool(help_service.respond, context, data)
 
 

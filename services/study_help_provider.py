@@ -145,6 +145,9 @@ class EvidenceSelector:
         self._minute = deque()
         self._day = None
         self._daily_calls = 0
+        self._failures = 0
+        self._circuit_until = 0.0
+        self._half_open = False
 
     def _reserve(self, excluded):
         with self._lock:
@@ -189,9 +192,34 @@ class EvidenceSelector:
         body = json.dumps(payload, ensure_ascii=False)
         if len(body) > 24000 or not self._slots.acquire(blocking=False):
             raise SelectorUnavailable
+        half_open_probe = False
         try:
-            return self._select(body)
+            with self._lock:
+                # A local quota/Retry-After refusal is not a new upstream failure.
+                # Never extend a provider-supplied pause by counting callers.
+                if self._quota_exhausted or self._clock() < self._paused_until:
+                    raise SelectorUnavailable
+                if self._failures >= 3:
+                    if self._clock() < self._circuit_until or self._half_open:
+                        raise SelectorUnavailable
+                    self._half_open = True
+                    half_open_probe = True
+            try:
+                result = self._select(body)
+            except Exception:
+                with self._lock:
+                    self._failures += 1
+                    if self._failures >= 3:
+                        self._circuit_until = self._clock() + 30
+                raise SelectorUnavailable from None
+            with self._lock:
+                self._failures = 0
+                self._circuit_until = 0.0
+            return result
         finally:
+            if half_open_probe:
+                with self._lock:
+                    self._half_open = False
             self._slots.release()
 
     def _select(self, body):
