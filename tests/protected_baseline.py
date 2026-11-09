@@ -1,4 +1,4 @@
-"""Portable frozen baselines plus three explicitly reviewed integration files.
+"""Portable frozen baselines plus six explicitly reviewed integration files.
 
 No lesson/catalogue/source evidence file may use the runtime review exception.
 Original manifests are never rewritten. Unknown byte changes fail closed.
@@ -6,9 +6,13 @@ Original manifests are never rewritten. Unknown byte changes fail closed.
 import hashlib
 import json
 
-REVIEW_SHA256 = "1e608f43ba6b17e35eb2359e6b08ee319a95243f351518d84c36319d818f4bfd"
+REVIEW_SHA256 = "83b9693dca223905b9b5ba3370da9622b4b0a9b0e1e5971904ee44b3b5906cbd"
 REVIEW_PATH = "docs/beta/shared_runtime_review_20261107.json"
-RUNTIME_PATHS = {"services/curriculum.py", "services/db.py", "main.py"}
+RUNTIME_PATHS = {
+    "services/curriculum.py", "services/db.py", "main.py",
+    "services/assessment_runtime.py", "services/chemistry_runtime.py",
+    "services/study.py",
+}
 
 
 def digest(data):

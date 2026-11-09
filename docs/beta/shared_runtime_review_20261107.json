@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "review": "Authorized Beta/production integration runtime-only review; original subject content baselines remain frozen.",
+  "review": "Authorized Beta/production integration runtime-only review; original subject content baselines remain frozen. Extended 2026-11-09 for the exact canonical-UTC replay fix proven on PostgreSQL; no content, grading or XP mutation.",
   "files": [
     {
       "path": "services/curriculum.py",
@@ -29,6 +29,33 @@
       "current_lf_sha256": "49a3052a46358712e0c704462289f9a00069bcc0b6d60a891ff54c7b43ee7fb3",
       "reviewed_source_commit": "23d9ed355d916586e6cebf7fb2de3613348b4935",
       "reason": "Reviewed mobile mounting, explicit schema policy, secure sessions, safe lifecycle and source warmup; legacy route fixture and actual main PG acceptance preserved."
+    },
+    {
+      "path": "services/assessment_runtime.py",
+      "original_baselines": {
+        "uzbekistan_history": "dfd48af68135655baa2a43d6af41107c79587fd616a8e70c4f8e4f7fa48cbb08"
+      },
+      "current_lf_sha256": "dbde37b4c80b1cb4c898100c2be958799ec838ff31d5f7f14c966ffe19a6edc1",
+      "reviewed_source_commit": "95847462f6c24aabc7c4d469be4940498f17bca5",
+      "reason": "Only import iso_utc and serialize the unchanged 24-hour expiry instant in UTC. No grading/source/content/ID/XP/prerequisite changes; 20 cross-engine timezone cases and real PostgreSQL replay accepted."
+    },
+    {
+      "path": "services/chemistry_runtime.py",
+      "original_baselines": {
+        "world_history": "aa450ce09bd1f6ca1fbdb4cdd0b94ed870b8a4d039234d1da67c5cb3178ff572"
+      },
+      "current_lf_sha256": "b79a44d2f0c864d9fa879b04338311b5acb0208d5ae49aa65d6476cfcdca0a08",
+      "reviewed_source_commit": "95847462f6c24aabc7c4d469be4940498f17bca5",
+      "reason": "Only import iso_utc and serialize the unchanged 24-hour expiry instant in UTC. Original textbook manifests remain frozen; unknown runtime bytes still fail closed. No grading/source/content/ID/XP/prerequisite changes."
+    },
+    {
+      "path": "services/study.py",
+      "original_baselines": {
+        "world_history": "73c75fe451c03dadd434c00543238a93b9ee01ba7d6a7c200c8d3ea397565aaa"
+      },
+      "current_lf_sha256": "f4a3310806d6854bf5883cc5acd259ca6969a3ae298ae8347601029bd0a4ce68",
+      "reviewed_source_commit": "95847462f6c24aabc7c4d469be4940498f17bca5",
+      "reason": "Adds only pure iso_utc(value), which normalizes a timestamp's wire timezone without changing its instant. All existing grading, replay, transaction and reward functions remain byte-identical to the parent; no source material changed."
     }
   ]
 }
