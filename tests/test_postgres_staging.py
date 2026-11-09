@@ -93,6 +93,11 @@ def postgres_stage():
     finally:
         patch.undo()
         engine.dispose()
+        # Only the fresh random schema created above belongs to this fixture.
+        # Never leave repeated course imports behind in the shared test database.
+        assert schema.startswith('ilm_mobile_') and len(schema) == 27
+        with admin.begin() as conn:
+            conn.execute(text(f'DROP SCHEMA "{schema}" CASCADE'))
         admin.dispose()
 
 

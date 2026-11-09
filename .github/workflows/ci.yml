@@ -9,13 +9,13 @@ jobs:
       postgres:
         image: postgres:18
         env:
-          POSTGRES_DB: ilm_ci_staging
+          POSTGRES_DB: world_history_staging_ilm_ci
           POSTGRES_USER: ilm_ci
           POSTGRES_PASSWORD: ci_ephemeral_not_a_service_secret
         ports:
           - 5432:5432
         options: >-
-          --health-cmd "pg_isready -U ilm_ci -d ilm_ci_staging"
+          --health-cmd "pg_isready -U ilm_ci -d world_history_staging_ilm_ci"
           --health-interval 10s
           --health-timeout 5s
           --health-retries 6
@@ -45,7 +45,7 @@ jobs:
           import os
           from pathlib import Path
           Path(os.environ['ILM_TEST_POSTGRES_URL_FILE']).write_text(
-              'postgresql://ilm_ci:ci_ephemeral_not_a_service_secret@127.0.0.1:5432/ilm_ci_staging'
+              'postgresql://ilm_ci:ci_ephemeral_not_a_service_secret@127.0.0.1:5432/world_history_staging_ilm_ci'
           )
           PY
       - name: Import check

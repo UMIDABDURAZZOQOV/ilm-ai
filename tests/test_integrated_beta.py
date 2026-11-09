@@ -29,13 +29,14 @@ def beta_api(request, tmp_path_factory):
     from services.beta_models import BetaBase
     from sqlalchemy import create_engine,text
     from sqlalchemy.engine import make_url
+    from services.database_url import normalize_database_url
     from sqlalchemy.orm import sessionmaker
     patch.setattr(tokens,'JWT_SECRET',os.environ['JWT_SECRET'])
     admin=None
     if request.param=='postgres':
         filename=os.getenv('ILM_TEST_POSTGRES_URL_FILE')
         if not filename: pytest.skip('Explicit local PostgreSQL staging URL file is required')
-        url=make_url(Path(filename).read_text().strip())
+        url=make_url(normalize_database_url(Path(filename).read_text().strip()))
         assert url.get_backend_name()=='postgresql' and url.host in {'127.0.0.1','localhost'} and 'staging' in url.database
         admin=create_engine(url)
         schema='beta_integration_'+secrets.token_hex(8)

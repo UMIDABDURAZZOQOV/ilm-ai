@@ -6,10 +6,10 @@ import pytest
 from test_postgres_staging import postgres_stage
 from test_chemistry_lesson import start,answer_all,finish,PREFIX
 from routers.chemistry_preview import router
-from services.chemistry_curriculum import install_schema,import_lesson
+from services.chemistry_curriculum import install_schema,import_reviewed_lessons
 from services.chemistry_validation import load_lessons
 from services.models import User,UserLessonProgress,SkillLesson,SkillQuestion,StudyEvent
-from services import chemistry_runtime as runtime
+from services import chemistry_runtime as runtime, tokens
 
 
 def test_real_postgres_chemistry_schema_import_snapshot_and_parallel_completion(postgres_stage,monkeypatch):
@@ -22,9 +22,15 @@ def test_real_postgres_chemistry_schema_import_snapshot_and_parallel_completion(
              db.query(UserLessonProgress).filter_by(user_id=42).one().stars)
     install_schema(engine);install_schema(engine)
     with factory.begin() as db:
-        for lesson in load_lessons():
-            assert import_lesson(db,lesson)['created'] is True
-            assert import_lesson(db,lesson)['created'] is False
+        # Validate every pinned lesson on each batch invocation, as the real
+        # importer does. Revalidating all268 sources twice for each individual
+        # lesson made setup quadratic and expired the15-minute test access token.
+        created = import_reviewed_lessons(db)
+        assert len(created) == len(load_lessons())
+        assert all(result['created'] is True for result in created)
+        assert all(result['created'] is False for result in import_reviewed_lessons(db))
+    # Authentication starts after long fixture setup; production TTL is unchanged.
+    client.headers['Authorization'] = 'Bearer ' + tokens.create_access_token(1)
     a=start(client);b=start(client)
     assert 'grading_spec' not in str(a) and 'expected' not in str(a)
     answer_all(client,a);answer_all(client,b)
