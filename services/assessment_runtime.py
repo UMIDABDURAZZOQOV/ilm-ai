@@ -22,7 +22,7 @@ from services.assessment_models import (
 )
 from services.models import StudyEvent, StudySession, User
 from services.physics_curriculum import fingerprint, public_book
-from services.study import aware, record_activity, utcnow
+from services.study import aware, iso_utc, record_activity, utcnow
 
 KIND = "assessment_v2"
 SOURCE_SECTIONS = {6: 61, 7: 46, 8: 60, 9: 59, 10: 45, 11: 45}
@@ -152,7 +152,7 @@ def public_attempt(db, row):
         "assessment_version": 2,
         "attempt_id": row.id,
         "lesson_key": row.scope,
-        "expires_at": (aware(row.started_at) + timedelta(hours=24)).isoformat(),
+        "expires_at": iso_utc(aware(row.started_at) + timedelta(hours=24)),
         "title": snap["title"],
         "content": deepcopy(snap["content"]),
         "questions": [

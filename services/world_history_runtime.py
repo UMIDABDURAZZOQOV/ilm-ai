@@ -22,7 +22,7 @@ from services.world_history_models import (
 )
 from services.models import StudyEvent, StudySession, User
 from services.world_history_validation import fingerprint
-from services.study import aware, record_activity, utcnow
+from services.study import aware, iso_utc, record_activity, utcnow
 
 # StudySession.kind is an existing VARCHAR(24); keep its schema untouched.
 KIND = "history_assessment_v2"
@@ -156,7 +156,7 @@ def public_attempt(db, row):
         "assessment_version": 2,
         "attempt_id": row.id,
         "lesson_key": row.scope,
-        "expires_at": (aware(row.started_at) + timedelta(hours=24)).isoformat(),
+        "expires_at": iso_utc(aware(row.started_at) + timedelta(hours=24)),
         "title": snap["title"],
         "content": deepcopy(snap["content"]),
         "questions": [

@@ -13,7 +13,7 @@ from sqlalchemy import inspect, update
 from sqlalchemy.exc import IntegrityError
 
 from services.models import StudyEvent, StudySession, User
-from services.study import aware, record_activity, utcnow
+from services.study import aware, iso_utc, record_activity, utcnow
 from services.uzbekistan_history_grading import grade_answer, normalized_text
 from services.uzbekistan_history_models import (
     HistoryAnswer,
@@ -226,7 +226,7 @@ def public_attempt(db, row):
         "assessment_version": 2,
         "attempt_id": row.id,
         "lesson_key": row.scope,
-        "expires_at": (aware(row.started_at) + timedelta(hours=24)).isoformat(),
+        "expires_at": iso_utc(aware(row.started_at) + timedelta(hours=24)),
         "title": snap["title"],
         "content": deepcopy(snap["content"]),
         "questions": [

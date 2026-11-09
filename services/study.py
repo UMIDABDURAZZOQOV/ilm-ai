@@ -44,6 +44,11 @@ def aware(value):
     return value.replace(tzinfo=timezone.utc) if value.tzinfo is None else value
 
 
+def iso_utc(value):
+    """Stable wire timestamp across new UTC rows and PostgreSQL session zones."""
+    return aware(value).astimezone(timezone.utc).isoformat()
+
+
 def issue(db, user_id, kind, scope, questions, session_id=None):
     if not questions:
         return None

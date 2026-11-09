@@ -54,7 +54,9 @@ def test_postgres_all_reviewed_batches_append_without_legacy_changes(
             },
             text=True,
             capture_output=True,
-            timeout=30,
+            # Full316-lesson source validation is an offline bulk rehearsal,
+            # not an interactive API SLA. Keep it bounded on shared CI/QA hosts.
+            timeout=180,
             check=False,
         )
         assert result.returncode == 0, result.stderr

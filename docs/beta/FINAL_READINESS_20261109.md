@@ -22,6 +22,37 @@ to change production, its database, or Play Console. Existing package com.ilmai.
   Earlier interrupted diagnostic runs are retained, not counted as passes.
 - New exact-source full CI and final Docker result are still pending.
 
+### Later corrections from real Windows/PostgreSQL execution
+
+48 selected cases passed before a30s full-course Physics CLI test budget expired.
+That offline316-lesson source-validation/import rehearsal now has a bounded180s
+budget, preserving all source checks and assertions; it actually passed afterward.
+This changes a test timeout, not production request/identity TTLs.
+
+The next real PostgreSQL test revealed a runtime defect: replay of the same attempt
+serialized the same expiry instant as UTC on creation and+05:00 after DB retrieval.
+Canonical UTC wire serialization now covers the four v2 assessment engines without
+changing expiry instants, grading, rewards or stored rows.26 targeted helper/engine/
+driver/CI contracts passed; real PostgreSQL Physics replay then passed. Subject
+branches are untouched; integration corrections exist only on the recovery branch.
+The remaining critical tests are continuing; do not claim a complete pass yet.
+
+### Historical baseline and locking, private clone only
+
+Fresh0012 metadata comparison found no missing historical tables/columns or type/
+nullability differences, but13 missing server defaults. Private rehearsal set only
+those explicit defaults and all original row digests remained unchanged. Review-only
+SQL is outside Git; it was not applied to production. Key/index/constraint differences
+still need semantic review (equivalent unique indexes may have different names).
+No Google-provider rows required the historical email-verification backfill.
+
+A held reader blocked exclusive DDL as expected:55P03 under250ms lock_timeout,
+approximately352ms observed including overhead. Uncontended hypothetical baseline+
+0018 upgrade took5496ms on the private local clone. This is not a production downtime
+estimate. Use a maintenance/quiescence window and bounded lock/statement deadlines;
+abort/rollback on contention. Private databases were dropped; PG18 clone server
+stopped after rehearsals, encrypted owner-bound backup retained. Production unchanged.
+
 ## Actual backup / restore / migration evidence
 
 Production is PostgreSQL18.6 with46 public tables and no Alembic revision table.
