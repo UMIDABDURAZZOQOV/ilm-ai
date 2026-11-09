@@ -13,12 +13,15 @@ from services import deletion_reauth as service, google_oauth
 from services.study import utcnow
 
 
-def test_unverified_password_signup_cannot_claim_google_identity(monkeypatch):
+@pytest.mark.parametrize('verified', [False, True])
+@pytest.mark.parametrize('email_free', ['true', 'false'])
+@pytest.mark.parametrize('legacy_provider', [None, 'google'])
+def test_password_signup_cannot_claim_google_identity_by_email(monkeypatch, verified, email_free, legacy_provider):
     import asyncio
     from starlette.requests import Request
     from services import mobile_oauth
 
-    monkeypatch.setenv("EMAIL_FREE_AUTHENTICATION", "true")
+    monkeypatch.setenv("EMAIL_FREE_AUTHENTICATION", email_free)
     monkeypatch.setattr(google_oauth, "GOOGLE_CLIENT_ID", "synthetic-client")
     monkeypatch.setattr(google_oauth, "GOOGLE_CLIENT_SECRET", "synthetic-secret")
     monkeypatch.setattr(mobile_oauth, "consume_state", lambda *args: None)
@@ -26,7 +29,7 @@ def test_unverified_password_signup_cannot_claim_google_identity(monkeypatch):
     monkeypatch.setattr(
         google_oauth,
         "find_user_by_email",
-        lambda *args: {"id": 1, "oauth_provider": None, "email_verified": False},
+        lambda *args: {"id": 1, "oauth_provider": legacy_provider, "email_verified": verified},
     )
     monkeypatch.setattr(
         google_oauth.requests,
@@ -62,6 +65,36 @@ def test_unverified_password_signup_cannot_claim_google_identity(monkeypatch):
 @pytest.fixture(scope="module")
 def signing_key():
     return rsa.generate_private_key(public_exponent=65537, key_size=2048)
+
+
+@pytest.mark.parametrize('legacy_email_verified', [False, True])
+def test_existing_google_subject_preserves_account_despite_email_change(monkeypatch, legacy_email_verified):
+    import asyncio
+    from starlette.requests import Request
+    from services import mobile_oauth
+    monkeypatch.setattr(google_oauth, 'GOOGLE_CLIENT_ID', 'synthetic-client')
+    monkeypatch.setattr(google_oauth, 'GOOGLE_CLIENT_SECRET', 'synthetic-secret')
+    monkeypatch.setattr(mobile_oauth, 'consume_state', lambda *args: None)
+    monkeypatch.setattr(google_oauth, 'find_user_by_oauth', lambda provider, subject: {
+        'id': 42, 'oauth_provider': 'google', 'oauth_provider_id': 'verified-sub',
+        'email_verified': legacy_email_verified, 'email': 'old@example.test', 'age': 18,
+    })
+    def forbidden(*args, **kwargs):
+        raise AssertionError('Existing provider identity must not merge or create an account')
+    monkeypatch.setattr(google_oauth, 'find_user_by_email', forbidden)
+    monkeypatch.setattr(google_oauth, 'create_user_with_oauth', forbidden)
+    monkeypatch.setattr(google_oauth, 'create_access_token', lambda uid: 'synthetic-access-'+str(uid))
+    monkeypatch.setattr(google_oauth, 'create_refresh_token', lambda uid: 'synthetic-refresh-'+str(uid))
+    monkeypatch.setattr(google_oauth.requests, 'post', lambda *args, **kwargs:
+                        SimpleNamespace(status_code=200, json=lambda: {'access_token': 'synthetic-provider'}))
+    monkeypatch.setattr(google_oauth.requests, 'get', lambda *args, **kwargs:
+                        SimpleNamespace(status_code=200, json=lambda: {
+                            'email': 'changed@example.test', 'email_verified': True, 'sub': 'verified-sub',
+                        }))
+    request = Request({'type': 'http', 'query_string': b'code=fixture&state=fixture'})
+    result = asyncio.run(google_oauth.handle_google_callback(request, 'https://staging.example.test/auth/google-callback'))
+    assert result['user_id'] == 42
+    assert result['access_token'] == 'synthetic-access-42'
 
 
 @pytest.mark.parametrize(

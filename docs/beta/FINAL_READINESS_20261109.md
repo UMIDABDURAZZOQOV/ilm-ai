@@ -46,6 +46,19 @@ SQL is outside Git; it was not applied to production. Key/index/constraint diffe
 still need semantic review (equivalent unique indexes may have different names).
 No Google-provider rows required the historical email-verification backfill.
 
+### Email-only identity linking correction
+
+Historical password signup could set email_verified without delivered verification.
+Google callback therefore must not trust that boolean to automatically merge an
+existing account by matching email. Any email-only collision now requires the
+existing account's own login/recovery; exact Google provider-subject lookup remains
+first and preserves existing accounts, including changed email/display names.
+No account/progress row is rewritten by this guard. Existing encrypted production
+snapshot aggregate inspection found no missing subjects in Google rows.60 actual
+identity/OAuth/migration/wire regressions passed, including both legacy verification
+flag states and missing Google-subject records. Real hosted current-source acceptance
+is still pending; do not imply deployment or live signoff from these tests.
+
 A held reader blocked exclusive DDL as expected:55P03 under250ms lock_timeout,
 approximately352ms observed including overhead. Uncontended hypothetical baseline+
 0018 upgrade took5496ms on the private local clone. This is not a production downtime
