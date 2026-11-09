@@ -37,6 +37,12 @@ def test_invalid_resource_configuration_fails_closed(name, value):
         postgres_engine_options('postgresql://unused', {name: value})
 
 
+def test_existing_database_url_options_are_preserved_without_disabling_limits():
+    options = postgres_engine_options('postgresql://unused/db?options=-c%20search_path%3Downed', {})
+    assert options['connect_args']['options'].startswith('-c search_path=owned ')
+    assert 'statement_timeout=15000' in options['connect_args']['options']
+
+
 def test_read_connection_is_returned_before_provider_and_pending_writes_are_rejected(tmp_path):
     engine = create_engine('sqlite:///'+str(tmp_path/'owned.db'), poolclass=QueuePool,
                            pool_size=1, max_overflow=0)

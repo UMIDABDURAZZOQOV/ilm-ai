@@ -67,12 +67,12 @@ async def experiment(users, output):
         report.update(status='BLOCKED', reason='insufficient_free_ram_or_disk_no_load_executed')
         output.write_text(json.dumps(report, indent=2)+'\n')
         print(json.dumps(report, indent=2))
-        return
+        return report
     if users > 10:
         report.update(status='BLOCKED', reason='larger_workload_requires_separate_resource_and_operator_review')
         output.write_text(json.dumps(report, indent=2)+'\n')
         print(json.dumps(report, indent=2))
-        return
+        return report
     vm = psutil.virtual_memory()
     report['resource_preflight']['host_ram_bytes'] = vm.total
     peak_rss = process.memory_info().rss
@@ -246,13 +246,37 @@ async def experiment(users, output):
                 await state.shutdown()
     output.write_text(json.dumps(report, indent=2)+'\n')
     print(json.dumps(report, indent=2))
+    return report
+
+
+def completed(report):
+    if report.get('status') != 'SIMULATED' or report.get('aborted') or len(report.get('phases', [])) != 7:
+        return False
+    if any(phase['aborted'] or phase['error_rate'] for phase in report['phases']):
+        return False
+    checks = {row['scenario']:row for row in report.get('chaos', [])}
+    return (
+        checks.get('mock_AI_timeout', {}).get('fallback_all') is True
+        and checks['mock_AI_timeout']['core_status'] == 200
+        and checks.get('simulated_database_outage', {}).get('failure_status') == 503
+        and checks['simulated_database_outage']['restored_status'] == 200
+        and checks.get('simulated_cache_loss', {}).get('uncached_path') is True
+        and checks.get('simulated_network_delay_cancellation', {}).get('inflight_released') is True
+        and checks.get('synthetic_committed_response_lost_then_replayed', {}).get('award_rows') == 1
+        and checks['synthetic_committed_response_lost_then_replayed']['award_sum'] == 10
+    )
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--users', type=int, choices=[1,10,50,100,500,1000], default=10)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--require-complete', action='store_true')
     args = parser.parse_args()
     if args.output.exists() or not args.output.parent.is_dir():
         raise SystemExit('new_existing_parent_output_required')
-    asyncio.run(experiment(args.users, args.output))
+    result = asyncio.run(experiment(args.users, args.output))
+    if result['status'] == 'BLOCKED':
+        raise SystemExit(2)
+    if args.require_complete and not completed(result):
+        raise SystemExit(1)

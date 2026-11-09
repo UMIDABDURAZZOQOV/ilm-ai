@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "review": "Authorized Beta/production integration runtime-only review; original subject content baselines remain frozen. Extended 2026-11-09 for the exact canonical-UTC replay fix proven on PostgreSQL; no content, grading or XP mutation.",
+  "review": "Authorized Beta/production integration runtime-only review; original subject content baselines remain frozen. Extended 2026-11-09 for the exact canonical-UTC replay fix proven on PostgreSQL; no content, grading or XP mutation. Extended 2026-11-09 on isolated reliability branch for exact main/db integration changes in 719ef74.",
   "files": [
     {
       "path": "services/curriculum.py",
@@ -17,18 +17,20 @@
       "original_baselines": {
         "world_history": "a779e22c57490d79228e2af9387f1f882b76d43619a6579a541f7284dfc90bd5"
       },
-      "current_lf_sha256": "95c53a47a77c0c87d5a0b80dce2ea6bbb2a6879d839b912770857607a6fa311a",
-      "reviewed_source_commit": "23d9ed355d916586e6cebf7fb2de3613348b4935",
-      "reason": "No import-time production ALTER operations; explicit Alembic rollout, database URL normalization retained."
+      "current_lf_sha256": "520968ba6e7908ee580e379ef78489159f59e2ff8978891cf3dddfbec19741b8",
+      "reviewed_source_commit": "719ef74430dd67fb91fc3cb8ad5a614b9fc45d70",
+      "reason": "Authorized isolated reliability work: main installs bounded admission, SELECT-1 readiness and opt-in aggregate metrics; db applies bounded per-process PostgreSQL pooling/driver deadlines and closes failed TCP probes. No curriculum/source/grading/XP/prerequisite/provider identity changes or production mutation. Original subject baseline remains unchanged; exact previous and new integration bytes recorded.",
+      "previous_integration_lf_sha256": "95c53a47a77c0c87d5a0b80dce2ea6bbb2a6879d839b912770857607a6fa311a"
     },
     {
       "path": "main.py",
       "original_baselines": {
         "world_history": "ad85243481330cbd5070d7bda3968f2f4b5c5a578a743b38c64f4cbd602f6332"
       },
-      "current_lf_sha256": "49a3052a46358712e0c704462289f9a00069bcc0b6d60a891ff54c7b43ee7fb3",
-      "reviewed_source_commit": "23d9ed355d916586e6cebf7fb2de3613348b4935",
-      "reason": "Reviewed mobile mounting, explicit schema policy, secure sessions, safe lifecycle and source warmup; legacy route fixture and actual main PG acceptance preserved."
+      "current_lf_sha256": "9a62617c3130674647acb4ecacf7487ed956155e90cf0da3ac33047ea96f39db",
+      "reviewed_source_commit": "719ef74430dd67fb91fc3cb8ad5a614b9fc45d70",
+      "reason": "Authorized isolated reliability work: main installs bounded admission, SELECT-1 readiness and opt-in aggregate metrics; db applies bounded per-process PostgreSQL pooling/driver deadlines and closes failed TCP probes. No curriculum/source/grading/XP/prerequisite/provider identity changes or production mutation. Original subject baseline remains unchanged; exact previous and new integration bytes recorded.",
+      "previous_integration_lf_sha256": "49a3052a46358712e0c704462289f9a00069bcc0b6d60a891ff54c7b43ee7fb3"
     },
     {
       "path": "services/assessment_runtime.py",

@@ -50,8 +50,15 @@ jobs:
           PY
       - name: Import check
         run: python -m compileall -q routers services
+      - name: Isolated PostgreSQL reliability faults
+        timeout-minutes: 5
+        run: python -m pytest -q -ra tests/test_reliability_postgres.py --junitxml=ci-reliability-results.xml
+      - name: Bounded synthetic component experiment
+        timeout-minutes: 2
+        run: python scripts/reliability/component_lab.py --users 10 --require-complete --output ci-reliability-component.json
       - name: Run tests
-        run: python -m pytest -q -ra --junitxml=ci-test-results.xml --durations=20
+        # The three real PostgreSQL fault cases ran above, without duplication.
+        run: python -m pytest -q -ra --ignore=tests/test_reliability_postgres.py --junitxml=ci-test-results.xml --durations=20
       - name: Remove disposable database URL file
         if: always()
         run: python -c "import os,pathlib; pathlib.Path(os.environ['ILM_TEST_POSTGRES_URL_FILE']).unlink(missing_ok=True)"
@@ -71,6 +78,8 @@ jobs:
           name: backend-release-test-evidence
           path: |
             ci-test-results.xml
+            ci-reliability-results.xml
+            ci-reliability-component.json
             ci-dependency-versions.json
           if-no-files-found: warn
 

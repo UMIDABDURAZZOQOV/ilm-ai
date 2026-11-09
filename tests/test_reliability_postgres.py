@@ -24,6 +24,8 @@ from services.database_url import normalize_database_url
 def owned_pg():
     filename = os.getenv('ILM_TEST_POSTGRES_URL_FILE')
     if not filename:
+        if os.getenv('CI') == 'true':
+            pytest.fail('isolated_postgres_fixture_required_in_CI')
         pytest.skip('explicit isolated loopback PostgreSQL file required')
     url = make_url(normalize_database_url(Path(filename).read_text().strip()))
     assert url.get_backend_name() == 'postgresql'

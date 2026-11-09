@@ -1,5 +1,6 @@
 """Explicit per-process PostgreSQL budget; no URL/credential logging or retries."""
 import os
+from sqlalchemy.engine import make_url
 
 
 def bounded_int(env, name, default, minimum, maximum):
@@ -23,10 +24,15 @@ def postgres_engine_options(url, env=None):
     statement = bounded_int(env, 'DB_STATEMENT_TIMEOUT_MS', 15000, 1000, 120000)
     lock = bounded_int(env, 'DB_LOCK_TIMEOUT_MS', 2000, 100, 10000)
     idle = bounded_int(env, 'DB_IDLE_TRANSACTION_TIMEOUT_MS', 30000, 1000, 120000)
+    original_options = make_url(url).query.get('options', '')
+    if not isinstance(original_options, str) or len(original_options) > 4096:
+        raise ValueError('invalid_database_url_options')
+    options = (original_options+' ' if original_options else '') + (
+        f'-c statement_timeout={statement} -c lock_timeout={lock} '
+        f'-c idle_in_transaction_session_timeout={idle}')
     return dict(pool_size=size, max_overflow=overflow, pool_timeout=timeout,
                 pool_pre_ping=True, pool_recycle=300, pool_use_lifo=True,
                 hide_parameters=True, connect_args={
                     'connect_timeout': connect,
-                    'options': f'-c statement_timeout={statement} -c lock_timeout={lock} '
-                               f'-c idle_in_transaction_session_timeout={idle}',
+                    'options': options,
                 })

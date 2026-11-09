@@ -33,3 +33,9 @@ def test_capacity_model_is_explicitly_hypothetical_and_separates_registered_user
     assert result['status'] == 'PLANNED'
     assert [r['assumed_peak_concurrent'] for r in result['scenarios']] == [3,25,250,2500]
     assert all(r['assumed_dau'] < r['registered'] for r in result['scenarios'])
+
+
+def test_blocked_aborted_or_partial_lab_cannot_be_reported_complete():
+    assert not lab.completed({'status':'BLOCKED'})
+    assert not lab.completed({'status':'SIMULATED','aborted':True})
+    assert not lab.completed({'status':'SIMULATED','aborted':False,'phases':[]})
