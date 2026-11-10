@@ -135,8 +135,8 @@ def outline(db, uid, slug, grade):
     def source(lesson):
         pages = [page for ref in lesson['source_refs'] for page in ref['printed_pages']]
         return dict(printed_start=min(pages), printed_end=max(pages)) if pages else {}
-    chapters = [dict(title_uz=u['title_uz'], topics=[dict(title_uz=l['title_uz'], kind='topic',
-        ready=True, completed=l['status']=='completed', source=source(l)) for l in u['lessons']]) for u in path['units']]
+    chapters = [dict(title_uz=u['title_uz'], topics=[dict(title_uz=lesson['title_uz'], kind='topic',
+        ready=True, completed=lesson['status']=='completed', source=source(lesson)) for lesson in u['lessons']]) for u in path['units']]
     done = bool(chapters) and all(t['completed'] for c in chapters for t in c['topics'])
     next_grade = next((g['grade'] for g in grades(db, slug)['grades'] if g['grade'] > grade), None)
     return dict(chapters=chapters, completed=done, next_grade=next_grade if done else None)
