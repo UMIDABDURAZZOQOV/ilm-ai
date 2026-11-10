@@ -162,3 +162,42 @@ def append_progress(db, uid, profile):
     profile['strongest'] = max(done, key=lambda s:s['pct'], default=None)
     profile['weakest'] = min(done, key=lambda s:s['pct'], default=None)
     return profile
+
+
+def append_achievements(db, uid, payload):
+    """Include reviewed completions without awarding XP or rewriting progress.
+
+    Legacy tiers cap their progress at each target. The largest tier preserves
+    enough of the legacy count to calculate every existing target after adding
+    the reviewed counts. A completed progress row counts once, including replays.
+    Question totals follow the legacy rule: every completed attempt counts.
+    """
+    from services.models import StudySession
+
+    extra = dict(lessons=0, perfect=0, questions=0)
+    kinds = []
+    for slug in ADAPTERS:
+        runtime, model, progress, _ = adapter(db, slug)
+        kinds.append(runtime.KIND)
+        rows = db.query(progress.best_score_pct).join(
+            model, model.key == progress.lesson_key
+        ).filter(progress.user_id == uid, model.subject == slug,
+                 progress.completed_at.isnot(None)).all()
+        extra['lessons'] += len(rows)
+        extra['perfect'] += sum(score is not None and score >= 90 for (score,) in rows)
+    for (response,) in db.query(StudySession.response).filter(
+        StudySession.user_id == uid, StudySession.kind.in_(kinds),
+        StudySession.completed_at.isnot(None)
+    ):
+        total = response.get('total') if isinstance(response, dict) else None
+        if type(total) is int and total >= 0:
+            extra['questions'] += total
+
+    result = dict(payload, achievements=[dict(a) for a in payload['achievements']])
+    for group, added in extra.items():
+        tiers = [a for a in result['achievements'] if a['group'] == group]
+        value = max((a['progress'] for a in tiers), default=0) + added
+        for achievement in tiers:
+            achievement.update(progress=min(value, achievement['target']),
+                               earned=value >= achievement['target'])
+    return result

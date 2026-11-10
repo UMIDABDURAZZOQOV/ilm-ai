@@ -127,6 +127,13 @@ def create_router(prefix, db_dependency):
         return skills.get_study_preferences(user_id, db)
 
 
+    @router.get('/skills/{user_id}/achievements')
+    async def achievements(request: Request, db: DB, user_id: OWNER):
+        async with bio_scope(request, db):
+            result = skills.get_achievements(user_id, db)
+        return beta.append_achievements(db, user_id, result)
+
+
     @router.post('/skills/{user_id}/preferences')
     def save_preferences(data: Preferences, db: DB, user_id: OWNER):
         values = data.model_dump(exclude_unset=True, exclude_none=True)
