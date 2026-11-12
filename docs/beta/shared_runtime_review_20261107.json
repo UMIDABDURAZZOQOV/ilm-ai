@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "review": "Authorized Beta/production integration runtime-only review; original subject content baselines remain frozen. Extended 2026-11-09 for the exact canonical-UTC replay fix proven on PostgreSQL; no content, grading or XP mutation. Extended 2026-11-09 on isolated reliability branch for exact main/db integration changes in 719ef74.",
+  "review": "Authorized Beta/production integration runtime-only review; original subject content baselines remain frozen. Extended 2026-11-09 for the exact canonical-UTC replay fix proven on PostgreSQL; no content, grading or XP mutation. Extended 2026-11-09 on isolated reliability branch for exact main/db integration changes in 719ef74. Extended 2026-11-13 for the source-first optional NVIDIA startup hook only; original manifests and all six exact path restrictions remain unchanged.",
   "files": [
     {
       "path": "services/curriculum.py",
@@ -27,10 +27,13 @@
       "original_baselines": {
         "world_history": "ad85243481330cbd5070d7bda3968f2f4b5c5a578a743b38c64f4cbd602f6332"
       },
-      "current_lf_sha256": "9a62617c3130674647acb4ecacf7487ed956155e90cf0da3ac33047ea96f39db",
-      "reviewed_source_commit": "719ef74430dd67fb91fc3cb8ad5a614b9fc45d70",
-      "reason": "Authorized isolated reliability work: main installs bounded admission, SELECT-1 readiness and opt-in aggregate metrics; db applies bounded per-process PostgreSQL pooling/driver deadlines and closes failed TCP probes. No curriculum/source/grading/XP/prerequisite/provider identity changes or production mutation. Original subject baseline remains unchanged; exact previous and new integration bytes recorded.",
-      "previous_integration_lf_sha256": "49a3052a46358712e0c704462289f9a00069bcc0b6d60a891ff54c7b43ee7fb3"
+      "current_lf_sha256": "333c912039c4781ad90833a7662c9fd3d91a4c6fd453a9525bcc916697c8a92d",
+      "reviewed_source_commit": "1ae74cb84780411fe66662e18706a8142d5c5b1f",
+      "reason": "Owner-requested optional NVIDIA text explanation integration. Only adds configure_from_environment startup after unchanged mandatory reviewed-source warmup; no network in startup, grading, XP, data schema, provider identity or original subject/source content mutation. Exact existing main bytes are recovered by removing this single hook. Tests preserve source-first/fail-closed order and reject later unknown changes.",
+      "previous_integration_lf_sha256": "9a62617c3130674647acb4ecacf7487ed956155e90cf0da3ac33047ea96f39db",
+      "previous_review_manifest_lf_sha256": "2f88baa8fa73a3eb1d2afc97e86d547c0ae2bdcdf05312b631526ebc8a21a08b",
+      "previous_reviewed_source_commit": "719ef74430dd67fb91fc3cb8ad5a614b9fc45d70",
+      "review_record": "docs/beta/NVIDIA_RUNTIME_REVIEW_20261113.md"
     },
     {
       "path": "services/assessment_runtime.py",
