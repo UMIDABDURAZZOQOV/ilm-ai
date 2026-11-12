@@ -43,6 +43,9 @@ def load_provider(filename):
         if not isinstance(data, dict):
             raise ValueError
         provider = data.get("provider")
+        if provider == "nvidia_explanation":
+            from services.nvidia_explanations import from_reviewed_config
+            return from_reviewed_config(data)
         if provider == "cloudflare":
             expected |= {"account_id", "free_only", "free_plan_review_reference"}
         if provider == "nvidia_trial":

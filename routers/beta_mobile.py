@@ -64,10 +64,14 @@ def create_router(prefix, db_dependency):
                 context = help_service.evidence_context(db, uid, data)
         else:
             context = help_service.evidence_context(db, uid, data)
+        help_service.attach_provider_eligibility(db, uid, context)
         # All DB ownership/source checks finish before optional external inference.
         # Return the read-only connection before a slow provider can hold the pool.
         from services.reliability import release_read_transaction
         release_read_transaction(db)
+        allow_generation = request.headers.get('x-ilm-study-help') == 'nvidia-text-v1'
+        if allow_generation:
+            return await run_in_threadpool(help_service.respond, context, data, True)
         return await run_in_threadpool(help_service.respond, context, data)
 
 

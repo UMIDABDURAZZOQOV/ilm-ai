@@ -154,6 +154,9 @@ def staging_errors(env):
         "unreviewed_external_integrations_must_be_disabled",
     )
     require(env.get("PAYMENT_TEST_MODE") == "true", "payment_test_mode_required")
+    if env.get("STUDY_HELP_CONFIG_FILE"):
+        require(bool(env.get("STAGING_EXTERNAL_AI_REVIEW_REFERENCE", "").strip()),
+                "staging_external_ai_review_required")
     if env.get("ACCOUNT_DELETION_ENABLED") == "true":
         deletion_secret = env.get("ACCOUNT_DELETION_SECRET", "")
         require(

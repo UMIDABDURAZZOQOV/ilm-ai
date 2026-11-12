@@ -40,6 +40,18 @@ def test_valid_configuration_is_offline_only(config):
     require_staging_config(config)
 
 
+def test_private_explanation_file_needs_separate_staging_review_without_weakening_guards(config):
+    config['STUDY_HELP_CONFIG_FILE'] = '/private/nvidia-explanations.json'
+    assert 'staging_external_ai_review_required' in staging_errors(config)
+    config['STAGING_EXTERNAL_AI_REVIEW_REFERENCE'] = 'synthetic explicit review'
+    assert staging_errors(config) == []
+    config['ENVIRONMENT'] = 'test'
+    assert staging_errors(config)  # HTTPS staging still requires production mode.
+    config['ENVIRONMENT'] = 'production'
+    config['NVIDIA_API_KEY'] = 'synthetic-env-secret-must-remain-disabled'
+    assert 'unreviewed_external_integrations_must_be_disabled' in staging_errors(config)
+
+
 def test_explicit_pending_mode_keeps_auth_closed_and_isolated(config):
     config.update(
         STAGING_AUTH_SETUP_PENDING="true", GOOGLE_CLIENT_ID="", GOOGLE_CLIENT_SECRET=""

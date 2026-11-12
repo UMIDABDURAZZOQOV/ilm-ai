@@ -51,6 +51,37 @@ def configure_provider(filename=None):
     _provider = load_provider(filename)
 
 
+def configure_from_environment(env=None):
+    """Normal server opt-in: a private filename, never a secret in an env value."""
+    import os
+    env = os.environ if env is None else env
+    filename = env.get('STUDY_HELP_CONFIG_FILE') or None
+    if filename:
+        from pathlib import Path
+        if not Path(filename).is_absolute():
+            raise ValueError('absolute_private_explanation_config_required')
+    configure_provider(filename)
+    if filename:
+        from services.nvidia_explanations import NvidiaExplanationProvider
+        if not isinstance(_provider, NvidiaExplanationProvider):
+            configure_provider()
+            raise ValueError('hosted_explanation_provider_required')
+
+
+def attach_provider_eligibility(db, uid, context):
+    """Conservative temporary upstream eligibility; no new account architecture.
+
+    This is a deployment safeguard, not a claim that NVIDIA universally bans
+    under18 end users. Children/unknown ages retain verified on-server help
+    pending the separately approved audience/consent implementation.
+    """
+    if getattr(_provider, 'requires_adult_profile', False):
+        from services.models import User
+        user = db.get(User, uid)
+        age = user.age if user else None
+        context['external_ai_eligible'] = type(age) is int and 18 <= age <= 120
+
+
 def throttle(uid):
     with _lock:
         now = time.monotonic()
@@ -86,8 +117,8 @@ def evidence_context(db, uid, data):
         key, grade = row.scope, lesson.grade
     else:
         catalog = runtime.catalog(db, uid, data.grade)
-        available = [l for l in catalog['lessons'] if l['state'] in {'available', 'completed'}]
-        entry = next((l for l in available if l['key'] == data.lesson_key), None) if data.lesson_key else next((l for l in available if l['state'] == 'available'), available[-1] if available else None)
+        available = [entry for entry in catalog['lessons'] if entry['state'] in {'available', 'completed'}]
+        entry = next((item for item in available if item['key'] == data.lesson_key), None) if data.lesson_key else next((item for item in available if item['state'] == 'available'), available[-1] if available else None)
         if entry is None:
             raise HTTPException(403, 'study_help_lesson_locked')
         lesson = db.get(model, entry['key'])
@@ -154,9 +185,9 @@ def biology_context(db, uid, data):
             CurriculumChapter, CurriculumChapter.id == CurriculumTopic.chapter_id).join(
             CurriculumCourse, CurriculumCourse.id == CurriculumChapter.course_id).filter(
             CurriculumCourse.grade == data.grade).order_by(SkillLesson.id).all()
-        available = [(l,lesson_status(db,uid,l)) for l,s,c in candidates if not data.lesson_key or s.content_key == data.lesson_key]
-        chosen = next((l for l,state in available if state == 'unlocked'),
-                      next((l for l,state in reversed(available) if state == 'completed'), None))
+        available = [(item,lesson_status(db,uid,item)) for item,source,_course in candidates if not data.lesson_key or source.content_key == data.lesson_key]
+        chosen = next((item for item,state in available if state == 'unlocked'),
+                      next((item for item,state in reversed(available) if state == 'completed'), None))
         if chosen is None:
             raise HTTPException(403, 'study_help_lesson_locked')
         lesson_id = chosen.id
@@ -202,11 +233,33 @@ def select_evidence(context, message, language):
         return context['evidence'], 'unavailable'
 
 
-def respond(context, data):
+def respond(context, data, allow_generation=False):
     if not context['source_refs'] or not context['evidence']:
         raise HTTPException(409, 'study_help_reviewed_evidence_missing')
-    evidence, status = select_evidence(context, data.message, data.language)
-    return dict(context, evidence=evidence, provider_status=status,
+    public_context = {k:v for k,v in context.items() if k != 'external_ai_eligible'}
+    if callable(getattr(_provider, 'explain', None)):
+        if not allow_generation:
+            # Old Android versions only understand reviewed_evidence. A new
+            # provider config must never break their existing fallback contract.
+            status = 'client_upgrade_required'
+        elif not data.question_key or context.get('answered') is not True:
+            status = 'answer_required'
+        elif context.get('external_ai_eligible') is not True:
+            status = 'audience_unavailable'
+        else:
+            try:
+                generation = _provider.explain(context)
+                return dict(public_context, provider_status='generated', generation=generation,
+                            attempt_id=data.attempt_id, question_key=data.question_key,
+                            mode='generated_explanation', content_language='uz',
+                            scope='current_reviewed_lesson', internet_enabled=False)
+            except Exception:
+                # No provider exception/envelope/reasoning/credential is public.
+                status = 'unavailable'
+        evidence = context['evidence']
+    else:
+        evidence, status = select_evidence(context, data.message, data.language)
+    return dict(public_context, evidence=evidence, provider_status=status,
                 attempt_id=data.attempt_id, question_key=data.question_key,
                 mode='reviewed_evidence', content_language='uz',
                 scope='current_reviewed_lesson', internet_enabled=False)
