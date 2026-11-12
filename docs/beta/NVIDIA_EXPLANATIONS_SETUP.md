@@ -79,7 +79,9 @@ review reference to bypass the service agreement.
 
 ## Normal server startup
 
-`main.py` has a startup hook calling `configure_from_environment()`. With no
+`main.py` configures optional AI only after the mandatory reviewed-source
+warmup. A failed source check prevents AI setup and later startup hooks.
+The new hook calls `configure_from_environment()`. With no
 `STUDY_HELP_CONFIG_FILE`, no provider is loaded or contacted. When supplied, the
 value is an absolute private filename outside Git; only the new explanation
 provider is accepted. Raw `NVIDIA_API_KEY` discovery is deliberately absent.
@@ -159,6 +161,13 @@ most one same-key transient retry are used. Auth/permission/quota/rate responses
 never trigger cross-account rotation. Per-process limits are not a distributed
 billing or capacity guarantee. All provider waits occur after releasing the
 read-only DB connection. Optional inference must not affect grader transactions.
+
+The route also stops waiting after18seconds even if an underlying resolver or
+driver ignores its socket timeout. Its response uses already verified evidence;
+it performs no second provider request. An abandoned worker keeps its inference
+slot until completion, so two stalled transports cannot create an unbounded
+upstream request pool. The wall-clock regression reproduced20.078seconds before
+this change and18.157seconds after; all faults use synthetic transport.
 
 ## Verification
 

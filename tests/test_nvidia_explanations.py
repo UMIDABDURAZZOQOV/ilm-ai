@@ -340,3 +340,48 @@ def test_normal_startup_is_explicit_and_never_discovers_environment_key(tmp_path
     assert isinstance(study_help._provider, NvidiaExplanationProvider)
     assert not explanation_transport.calls
     study_help.configure_provider()
+
+
+@pytest.mark.parametrize('reject_sources', [False, True])
+def test_real_startup_prepares_sources_before_AI_and_never_configures_AI_after_source_failure(monkeypatch, reject_sources):
+    import ast
+    import asyncio
+    import sys
+    from pathlib import Path
+    from types import SimpleNamespace
+    calls, hooks = [], []
+
+    class App:
+        def on_event(self, name):
+            assert name == 'startup'
+            def register(function):
+                hooks.append(function)
+                return function
+            return register
+
+    async def prepare():
+        calls.append('reviewed_sources')
+        if reject_sources:
+            raise RuntimeError('synthetic reviewed source rejection')
+
+    monkeypatch.setitem(sys.modules, 'services.mobile_source_warmup', SimpleNamespace(prepare_reviewed_mobile=prepare))
+    from services import study_help
+    monkeypatch.setattr(study_help, 'configure_from_environment', lambda: calls.append('private_AI_configuration'))
+    path = Path(__file__).resolve().parents[1] / 'main.py'
+    tree = ast.parse(path.read_text(encoding='utf-8-sig'))
+    nodes = [node for node in tree.body if isinstance(node, ast.AsyncFunctionDef)
+             and node.name in {'_reviewed_mobile_startup', '_study_help_startup'}]
+    assert len(nodes) == 2
+    exec(compile(ast.Module(body=nodes, type_ignores=[]), str(path), 'exec'), {'app': App()})
+
+    async def startup():
+        for hook in hooks:
+            await hook()
+
+    if reject_sources:
+        with pytest.raises(RuntimeError, match='synthetic reviewed source rejection'):
+            asyncio.run(startup())
+        assert calls == ['reviewed_sources']
+    else:
+        asyncio.run(startup())
+        assert calls == ['reviewed_sources', 'private_AI_configuration']

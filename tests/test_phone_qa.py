@@ -1,5 +1,6 @@
 """Integration checks use a fresh owned DB outside Git, never the phone's progress."""
 import json
+import os
 from pathlib import Path
 
 import pytest
@@ -8,19 +9,59 @@ from scripts import serve_phone_qa as qa
 
 
 @pytest.fixture(scope='module')
-def sandbox(tmp_path_factory):
+def sandbox(request, tmp_path_factory):
+    # Collection may already have imported services.db. Bind every cached
+    # factory/signing module to this owned sandbox, never the bootstrap DB.
+    from services import db as database, tokens, users, mobile_oauth
+    from sqlalchemy import create_engine
+    from sqlalchemy.orm import sessionmaker
     from starlette.testclient import TestClient
+    patch = pytest.MonkeyPatch()
+    request.addfinalizer(patch.undo)
     root = tmp_path_factory.mktemp('owned') / 'sandbox'
     qa.sandbox_directory(str(root), False)
+    original_env = dict(os.environ)
     qa.configure(root, False, 8925)
+    for name, value in dict(os.environ).items():
+        if original_env.get(name) == value:
+            continue
+        if name in original_env:
+            os.environ[name] = original_env[name]
+        else:
+            os.environ.pop(name, None)
+        patch.setenv(name, value)
+    engine = create_engine('sqlite:///' + str(root / qa.DB_NAME),
+                           connect_args={'check_same_thread': False, 'timeout': 30})
+    factory = sessionmaker(bind=engine, autoflush=False, autocommit=False)
+    request.addfinalizer(engine.dispose)
+    patch.setattr(database, 'engine', engine)
+    for module in (database, tokens, users, mobile_oauth):
+        patch.setattr(module, 'SessionLocal', factory)
+    patch.setattr(tokens, 'JWT_SECRET', os.environ['JWT_SECRET'])
     counts = qa.initialize(root)
     app = qa.create_app(root, counts)
     client = TestClient(app, base_url='http://127.0.0.1:8925', client=('127.0.0.1', 12345))
+    request.addfinalizer(client.close)
     code = json.loads((root / 'pairing.json').read_text())['code']
     response = client.post('/qa/pair', json={'code': code})
     assert response.status_code == 200
     credentials = response.json()
     return root, app, client, credentials
+
+
+def test_sandbox_uses_owned_database_and_private_signing_secret(sandbox):
+    import hashlib
+    from services import db as database, tokens, users, mobile_oauth
+    from services.models import User
+    root, _, _, _ = sandbox
+    expected = (root / qa.DB_NAME).resolve()
+    assert Path(database.engine.url.database).resolve() == expected
+    for module in (database, tokens, users, mobile_oauth):
+        assert module.SessionLocal.kw['bind'] is database.engine
+    private = json.loads((root / 'server.json').read_text())['jwt_secret']
+    assert hashlib.sha256(tokens.JWT_SECRET.encode()).digest() == hashlib.sha256(private.encode()).digest()
+    with database.SessionLocal() as db:
+        assert [row.id for row in db.query(User).all()] == [qa.UID]
 
 
 def test_owned_directory_rejects_git_and_implicit_reuse(tmp_path):

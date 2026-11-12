@@ -137,16 +137,16 @@ def health():
 # ── Telegram bot in webhook mode (runs inside this web service) ────────────────
 
 @app.on_event('startup')
-async def _study_help_startup():
-    from services.study_help import configure_from_environment
-    configure_from_environment()
-
-
-@app.on_event('startup')
 async def _reviewed_mobile_startup():
     # Fill the same strict source caches before advertising ready health.
     from services.mobile_source_warmup import prepare_reviewed_mobile
     await prepare_reviewed_mobile()
+
+
+@app.on_event('startup')
+async def _study_help_startup():
+    from services.study_help import configure_from_environment
+    configure_from_environment()
 
 
 @app.on_event('startup')
