@@ -262,3 +262,71 @@ def test_normal_startup_hook_is_present_without_importing_or_booting_real_app():
     tree = ast.parse(Path(__file__).resolve().parents[1].joinpath("main.py").read_text(encoding="utf-8"))
     hook = next(node for node in tree.body if isinstance(node, ast.AsyncFunctionDef) and node.name == "_study_help_startup")
     assert any(isinstance(node, ast.Call) and isinstance(node.func, ast.Name) and node.func.id == "configure_from_environment" for node in ast.walk(hook))
+
+
+def test_route_deadline_returns_verified_help_while_transport_still_holds_bounded_slots(learner, monkeypatch):
+    import threading
+    import time
+    import requests
+    from routers import beta_mobile
+    from services import study_help
+    from services.nvidia_explanations import NvidiaExplanationProvider
+    client, factory, uid = learner
+    release = threading.Event()
+    finished = threading.Event()
+    calls, pool_counts = [], []
+
+    class BlockedSession:
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args):
+            return False
+
+        def post(self, *args, **kwargs):
+            calls.append(1)
+            pool_counts.append(factory.kw['bind'].pool.checkedout())
+            try:
+                assert release.wait(10), 'Synthetic blocked worker must be released'
+                raise requests.Timeout('synthetic ignored socket timeout')
+            finally:
+                if len(calls) == 2:
+                    finished.set()
+
+    monkeypatch.setattr(requests, 'Session', BlockedSession)
+    monkeypatch.setattr(beta_mobile, 'EXPLANATION_RESPONSE_DEADLINE_SECONDS', .08)
+    provider = NvidiaExplanationProvider(KEY)
+    monkeypatch.setattr(study_help, '_provider', provider)
+    study_help._requests.clear()
+    outline = client.get(f'/beta/skills/{uid}/curriculum', params={'subject': 'biologiya', 'grade': 5}).json()
+    lesson = outline['chapters'][0]['topics'][0]['lesson_ids'][0]
+    issued = client.post(f'/beta/skills/lessons/{lesson}/start', json={'user_id': uid, 'language': 'uz'}).json()
+    question = issued['questions'][0]
+    body = dict(subject='biologiya', grade=5, attempt_id=f"lesson:{issued['attempt_id']}",
+                question_key=str(question['id']), checked=True,
+                selected_answer=question['correct_answer'], language='uz')
+    try:
+        for _ in range(3):
+            started = time.monotonic()
+            result = ask_unchanged(client, factory, uid, body)
+            assert time.monotonic() - started < 2
+            assert result['provider_status'] == 'unavailable'
+            assert result['answered'] and result['is_correct']
+            assert 'generation' not in result and 'external_ai_eligible' not in result
+        # Two stalled workers keep their slots; a third call never creates a
+        # third upstream request and releases the DB before the wait.
+        assert len(calls) == 2 and pool_counts == [0, 0]
+    finally:
+        release.set()
+        assert finished.wait(3)
+        deadline = time.monotonic() + 3
+        while time.monotonic() < deadline:
+            if provider._slots.acquire(False):
+                if provider._slots.acquire(False):
+                    provider._slots.release()
+                    provider._slots.release()
+                    break
+                provider._slots.release()
+            time.sleep(.01)
+        else:
+            raise AssertionError('Synthetic provider workers did not release slots')

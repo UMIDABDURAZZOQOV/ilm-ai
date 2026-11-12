@@ -233,6 +233,17 @@ def select_evidence(context, message, language):
         return context['evidence'], 'unavailable'
 
 
+def reviewed_fallback(context, data, status='unavailable'):
+    """Return already verified evidence without invoking any external provider."""
+    if not context.get('source_refs') or not context.get('evidence'):
+        raise HTTPException(409, 'study_help_reviewed_evidence_missing')
+    public_context = {k:v for k,v in context.items() if k != 'external_ai_eligible'}
+    return dict(public_context, evidence=context['evidence'], provider_status=status,
+                attempt_id=data.attempt_id, question_key=data.question_key,
+                mode='reviewed_evidence', content_language='uz',
+                scope='current_reviewed_lesson', internet_enabled=False)
+
+
 def respond(context, data, allow_generation=False):
     if not context['source_refs'] or not context['evidence']:
         raise HTTPException(409, 'study_help_reviewed_evidence_missing')

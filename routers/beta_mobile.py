@@ -20,6 +20,7 @@ from services.study_help import HelpRequest
 UID = Annotated[int, Depends(get_authenticated_user_id)]
 OWNER = Annotated[int, Depends(verify_user_access)]
 bio_scope = asynccontextmanager(mobile_publication)
+EXPLANATION_RESPONSE_DEADLINE_SECONDS = 18
 SCHEMAS = dict(fizika=physics_preview, kimyo=chemistry_preview, jahon_tarixi=world_history_preview, ozbekiston_tarixi=uzbekistan_history_preview)
 
 def beta_db(db: Session = Depends(get_db)):
@@ -71,7 +72,19 @@ def create_router(prefix, db_dependency):
         release_read_transaction(db)
         allow_generation = request.headers.get('x-ilm-study-help') == 'nvidia-text-v1'
         if allow_generation:
-            return await run_in_threadpool(help_service.respond, context, data, True)
+            # Socket timeouts do not bound every resolver/driver stall. Stop
+            # waiting for optional inference, without cancelling grading or
+            # using the released DB session in the abandoned worker. The
+            # provider's two slots remain held until its real work finishes.
+            import anyio
+            from functools import partial
+            try:
+                with anyio.fail_after(EXPLANATION_RESPONSE_DEADLINE_SECONDS):
+                    return await anyio.to_thread.run_sync(
+                        partial(help_service.respond, context, data, True),
+                        abandon_on_cancel=True)
+            except TimeoutError:
+                return help_service.reviewed_fallback(context, data)
         return await run_in_threadpool(help_service.respond, context, data)
 
 
