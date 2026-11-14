@@ -68,6 +68,11 @@ def configure_from_environment(env=None):
             raise ValueError('hosted_explanation_provider_required')
 
 
+def supports_generation(capability):
+    """Old NVIDIA-only clients must never receive an unknown Gemini envelope."""
+    return capability in getattr(_provider, 'capabilities', {'nvidia-text-v1'})
+
+
 def attach_provider_eligibility(db, uid, context):
     """Conservative temporary upstream eligibility; no new account architecture.
 

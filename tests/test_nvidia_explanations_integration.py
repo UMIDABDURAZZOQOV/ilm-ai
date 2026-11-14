@@ -46,7 +46,7 @@ def state_snapshot(factory, uid):
 def ask_unchanged(client, factory, uid, body):
     before = state_snapshot(factory, uid)
     result = client.post("/beta/study-help", json=body,
-                         headers={'X-ILM-Study-Help': 'nvidia-text-v1'})
+                         headers={'X-ILM-Study-Help': 'reviewed-text-v2'})
     assert result.status_code == 200, result.text
     assert state_snapshot(factory, uid) == before
     return result.json()
@@ -66,12 +66,13 @@ def record_subject(subject, grade, lessons, records, frq):
             handle.write(json.dumps(data, ensure_ascii=False) + "\n")
 
 
+@pytest.mark.parametrize('provider_name', ['nvidia', 'gemini'])
 @pytest.mark.parametrize("subject,grade", [
     ("biologiya", 5), ("fizika", 7), ("kimyo", 7),
     ("ozbekiston_tarixi", 7), ("jahon_tarixi", 6),
 ])
 def test_actual_five_subject_catalogue_post_answer_generation_and_failure_preserve_grading(
-    learner, explanation_transport, monkeypatch, subject, grade,  # noqa: F811
+    learner, explanation_transport, monkeypatch, subject, grade, provider_name,  # noqa: F811
 ):
     from services import study_help
     from services.models import StudySession
@@ -79,6 +80,10 @@ def test_actual_five_subject_catalogue_post_answer_generation_and_failure_preser
     client, factory, uid = learner
     study_help._requests.clear()
     provider = NvidiaExplanationProvider(KEY)
+    if provider_name == 'gemini':
+        from services.gemini_explanations import GeminiExplanationProvider, GEMINI_MODEL
+        provider = GeminiExplanationProvider('AQ.' + 'synthetic-only-' * 3)
+        explanation_transport.envelope_change = {'model': GEMINI_MODEL}
     monkeypatch.setattr(study_help, "_provider", provider)
     observed_pool = []
     explanation_transport.observe = lambda: observed_pool.append(factory.kw["bind"].pool.checkedout())
@@ -90,6 +95,7 @@ def test_actual_five_subject_catalogue_post_answer_generation_and_failure_preser
         assert result["provider_status"] == "generated" and result["mode"] == "generated_explanation"
         assert result["is_correct"] is is_correct and result["source_refs"]
         assert result["generation"]["is_correct"] is is_correct
+        assert result['generation']['provider'] == provider_name
         assert result["generation"]["paragraphs"]
         assert result["evidence"] and all(e["source_refs"] for e in result["evidence"])
         assert "PRIVATE-" not in json.dumps(explanation_transport.calls[-1][1]["json"])
@@ -106,6 +112,14 @@ def test_actual_five_subject_catalogue_post_answer_generation_and_failure_preser
             assert 'generation' not in legacy.json()
             assert len(explanation_transport.calls) == count
             assert state_snapshot(factory, uid) == before
+            older_nvidia_client = client.post('/beta/study-help', json=body,
+                headers={'X-ILM-Study-Help': 'nvidia-text-v1'})
+            assert older_nvidia_client.status_code == 200
+            if provider_name == 'gemini':
+                assert older_nvidia_client.json()['provider_status'] == 'client_upgrade_required'
+                assert len(explanation_transport.calls) == count
+            else:
+                assert older_nvidia_client.json()['generation']['provider'] == 'nvidia'
         questions.append(dict(question_key=body["question_key"], prompt=prompt, kind=kind,
                               is_correct=is_correct, source_refs=result["source_refs"],
                               request_sha256=result["generation"]["request_sha256"],

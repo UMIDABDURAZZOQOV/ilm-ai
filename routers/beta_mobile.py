@@ -70,7 +70,7 @@ def create_router(prefix, db_dependency):
         # Return the read-only connection before a slow provider can hold the pool.
         from services.reliability import release_read_transaction
         release_read_transaction(db)
-        allow_generation = request.headers.get('x-ilm-study-help') == 'nvidia-text-v1'
+        allow_generation = help_service.supports_generation(request.headers.get('x-ilm-study-help'))
         if allow_generation:
             # Socket timeouts do not bound every resolver/driver stall. Stop
             # waiting for optional inference, without cancelling grading or

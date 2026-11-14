@@ -1,7 +1,7 @@
 """Optional evidence selector; no free-form student data or generated prose.
 
 Only explicit, audience-reviewed provider configuration is supported. Google AI
-Studio credentials must not be sent to another provider or used in this client.
+Studio credentials are accepted only by the separate Google-hosted adapter.
 Limits below are per process, not a production distributed billing guarantee.
 """
 
@@ -43,6 +43,9 @@ def load_provider(filename):
         if not isinstance(data, dict):
             raise ValueError
         provider = data.get("provider")
+        if provider == "gemini_explanation":
+            from services.gemini_explanations import from_reviewed_config
+            return from_reviewed_config(data)
         if provider == "nvidia_explanation":
             from services.nvidia_explanations import from_reviewed_config
             return from_reviewed_config(data)
