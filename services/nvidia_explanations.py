@@ -8,6 +8,7 @@ operator-reviewed hosted-use, audience, privacy and free-plan configuration.
 
 import hashlib
 import json
+import logging
 import re
 import time
 import unicodedata
@@ -17,6 +18,8 @@ import requests
 
 from services.nvidia_study_help import NVIDIA_MODEL, NVIDIA_URL
 from services.study_help_provider import EvidenceSelector, SelectorUnavailable, _retry_after
+
+logger = logging.getLogger(__name__)
 
 
 def _json(raw):
@@ -220,6 +223,7 @@ class NvidiaExplanationProvider(EvidenceSelector):
             # Reserve the same key each time; local minute/day quota is shared
             # across explain calls and retries, never an independent key pool.
             self._reserve(set())
+            stage = 'transport'
             try:
                 with requests.Session() as session:
                     session.trust_env = False
@@ -229,6 +233,7 @@ class NvidiaExplanationProvider(EvidenceSelector):
                                       allow_redirects=False, stream=True) as response:
                         status = response.status_code
                         if status != 200:
+                            logger.warning('study_help_provider_response provider=%s status=%d', self.provider_name, status)
                             retry = response.headers.get("Retry-After") or response.headers.get("retry-after")
                             with self._lock:
                                 if status == 401:
@@ -243,12 +248,14 @@ class NvidiaExplanationProvider(EvidenceSelector):
                                 continue
                             raise SelectorUnavailable
                         chunks, size = [], 0
+                        stage = 'response_body'
                         for chunk in response.iter_content(chunk_size=4096):
                             size += len(chunk)
                             if size > 32768 or time.monotonic() > deadline:
                                 raise SelectorUnavailable
                             chunks.append(chunk)
                         envelope = _json(b"".join(chunks))
+                stage = 'envelope'
                 if not isinstance(envelope, dict) or envelope.get("error") or (
                         envelope.get("model") != self.explanation_model):
                     raise SelectorUnavailable
@@ -263,6 +270,7 @@ class NvidiaExplanationProvider(EvidenceSelector):
                         or message.get("refusal") or not isinstance(message.get("content"), str)
                         or len(message["content"].encode("utf-8")) > 16000):
                     raise SelectorUnavailable
+                stage = 'grounding'
                 paragraphs = validated_paragraphs(message["content"], context)
                 return {"provider": self.provider_name, "model": self.explanation_model,
                         "usage": self.usage,
@@ -273,11 +281,16 @@ class NvidiaExplanationProvider(EvidenceSelector):
                         "grounding": "citations_and_quotes_checked_not_semantic_verification",
                         "paragraphs": paragraphs}
             except requests.Timeout:
+                logger.warning('study_help_provider_failure provider=%s stage=timeout', self.provider_name)
                 raise SelectorUnavailable from None
             except requests.ConnectionError:
+                logger.warning('study_help_provider_failure provider=%s stage=connection', self.provider_name)
                 if attempt == 0:
                     continue
                 raise SelectorUnavailable from None
             except Exception:
+                # Never log exception text, headers, URLs, prompts, learner
+                # identifiers or provider bodies; only closed stage constants.
+                logger.warning('study_help_provider_failure provider=%s stage=%s', self.provider_name, stage)
                 raise SelectorUnavailable from None
         raise SelectorUnavailable

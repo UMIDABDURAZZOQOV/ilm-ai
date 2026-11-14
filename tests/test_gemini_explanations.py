@@ -124,3 +124,12 @@ def test_evaluation_cannot_follow_environment_into_production(monkeypatch, googl
     with pytest.raises(ValueError):
         from_reviewed_config(data)
     assert len(google_transport.calls) == 1
+
+
+def test_failure_diagnostics_never_log_provider_body_or_credential(google_transport, caplog):
+    google_transport.statuses=[403]
+    google_transport.raw=json.dumps({'error':{'message':KEY+' PRIVATE-DETAIL'}}).encode()
+    with pytest.raises(SelectorUnavailable):
+        GeminiExplanationProvider(KEY).explain(context())
+    assert 'provider=gemini status=403' in caplog.text
+    assert KEY not in caplog.text and 'PRIVATE-' not in caplog.text
