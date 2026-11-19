@@ -16,6 +16,7 @@ from routers import skills, physics_preview, chemistry_preview, world_history_pr
 
 
 from services.study_help import HelpRequest
+from services.subject_tutor import ChatRequest
 
 UID = Annotated[int, Depends(get_authenticated_user_id)]
 OWNER = Annotated[int, Depends(verify_user_access)]
@@ -54,6 +55,38 @@ def completion_presentation(db, result):
 def create_router(prefix, db_dependency):
     router = APIRouter(prefix=prefix, dependencies=[Depends(db_dependency)])
     DB = Annotated[Session, Depends(db_dependency)]
+
+    @router.post('/subject-chat')
+    async def subject_chat(data: ChatRequest, request: Request, db: DB, uid: UID):
+        from services import subject_tutor as tutor, study_help as help_service
+        from services.reliability import release_read_transaction
+        import anyio
+        from functools import partial
+        from starlette.concurrency import run_in_threadpool
+        help_service.throttle(uid)
+        row, cached = tutor.begin(uid, data)
+        if cached is not None:
+            return cached
+        try:
+            if data.subject == 'biologiya':
+                async with bio_scope(request, db):
+                    context = await run_in_threadpool(tutor.retrieve, db, uid, data, row)
+            else:
+                context = await run_in_threadpool(tutor.retrieve, db, uid, data, row)
+            release_read_transaction(db)
+        except BaseException:
+            # Retrieval still owns this turn until it hands off to respond().
+            # Client cancellation must also release it so the same message can retry.
+            tutor.release(row)
+            raise
+        # The worker releases its conversation lock even if the client times
+        # out. A retry with the same request ID can retrieve its completed turn.
+        try:
+            with anyio.fail_after(EXPLANATION_RESPONSE_DEADLINE_SECONDS):
+                return await anyio.to_thread.run_sync(
+                    partial(tutor.respond, row, data, context), abandon_on_cancel=True)
+        except TimeoutError:
+            raise HTTPException(503, 'tutor_timeout') from None
 
     @router.post('/study-help')
     async def study_help(data: HelpRequest, request: Request, db: DB, uid: UID):

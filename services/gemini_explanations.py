@@ -26,11 +26,80 @@ class GeminiExplanationProvider(NvidiaExplanationProvider):
         "bir xil bo'lishi SHART. Faqat mazmunini qayta aytish yetarli emas. "
         "Avval qisqa izoh, so'ng text ichida aynan iqtibosni yozing. "
         "quotes alohida ro'yxati text ichidagi iqtibosning o'rnini bosmaydi. "
-        "Javobni yuborishdan avval har bir quotes[].text text ichida borligini tekshiring."
+        "Javobni yuborishdan avval har bir quotes[].text text ichida borligini tekshiring. "
+        "EXCEPTION: subject-chat allows {{quote:0}} placeholders explicitly. "
+        "For subject-chat prefer those placeholders instead of duplicating quote text."
     )
     # Gemini 3.1 does not support reasoning_effort=none. No tools/search enabled.
     request_options = dict(reasoning_effort='minimal', max_tokens=2000,
                            stream=False, response_format={'type': 'json_object'})
+
+    def chat(self, context):
+        # The same instance owns admission, quota and circuit state for chat
+        # and explanations. Chat is never a second budget or a key pool.
+        return self.explain(dict(context, mode='subject_chat'))
+
+    def generation_options(self, context):
+        if context.get('mode') == 'subject_chat':
+            # Short conversational turns leave time for a bounded format repair.
+            # Truncated output still fails closed; no deadline is extended.
+            return dict(self.request_options, max_tokens=1200)
+        return super().generation_options(context)
+
+    def prepare_payload(self, context):
+        if context.get('mode') == 'subject_chat':
+            from services.subject_tutor import provider_payload
+            return provider_payload(context)
+        return super().prepare_payload(context)
+
+    def system_prompt(self, context):
+        if context.get('mode') == 'subject_chat':
+            from services.subject_tutor import SYSTEM_PROMPT
+            return SYSTEM_PROMPT + (
+                '\nPrefer explicit {{quote:0}} slots. Each evidence includes exact '
+                'quote_options. Prefer quotes:[{"evidence_id":"e1","quote_id":"q1"}] '
+                'using an option from that SAME evidence instead of copying text. '
+                'The server resolves only known options and validates the entire answer. '
+                'Do not repeat the selected quote after its slot. If no option fits, '
+                'the original exact quotes[].text format remains available.'
+            )
+        return super().system_prompt(context)
+
+    def validate_content(self, raw, context):
+        if context.get('mode') == 'subject_chat':
+            from services.subject_tutor import validate_reply
+            return validate_reply(raw, context)
+        return super().validate_content(raw, context)
+
+    def format_retry_instruction(self, raw, context):
+        if context.get('mode') == 'subject_chat':
+            from services.subject_tutor import grounding_reason
+            reason = grounding_reason(raw, context)
+            if reason in {'quote_typography', 'quote_not_in_source', 'quote_not_in_paragraph'}:
+                return (
+                    '\nQUOTE CORRECTION: Generate a fresh answer. For each paragraph, '
+                    'use a real evidence_id and a quote_id from that same evidence '
+                    'item’s quote_options. Return only those two keys in each quote '
+                    'object. Include the matching {{quote:0}} placeholder in '
+                    'paragraph.text and let the server insert the exact source text. '
+                    'All evidence and numeric validation still applies.'
+                )
+            if reason == 'unsupported_numbers':
+                return (
+                    '\nGROUNDING CORRECTION: Your answer contained a number absent '
+                    'from its cited evidence. Generate a fresh answer using only '
+                    'facts and quantities in the cited evidence. Do not number '
+                    'paragraphs or invent numeric examples. Do not merely remove '
+                    'digits from an unsupported claim. All validation still applies.'
+                )
+        return None
+
+    def content_fields(self, content, context):
+        if context.get('mode') == 'subject_chat':
+            return dict(language='uz', status=content['status'],
+                        grounding='citations_and_quotes_checked_not_semantic_verification',
+                        paragraphs=content['paragraphs'])
+        return super().content_fields(content, context)
 
 
 def from_reviewed_config(data):

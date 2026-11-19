@@ -165,6 +165,14 @@ def main():
         from services.db import engine
         BetaBase.metadata.create_all(engine)
         app=create_app()
+        if args.ai_config_file:
+            # Validate immutable teaching sources before accepting phone traffic.
+            # Otherwise the first chat pays the full cross-subject cold load.
+            # No DB import, content mutation or bypass of per-request checks.
+            from services.reviewed_mobile_release import expected_rows
+            from services.subject_tutor import biology_teaching
+            expected_rows()
+            biology_teaching()
     (path/'setup.log').write_text(captured.getvalue(),encoding='utf8')
     print('Integrated beta ready:',json.dumps(counts),flush=True)
     print('Local test authentication enabled. Google OAuth requires explicit private configuration.',flush=True)

@@ -141,6 +141,42 @@ def test_release_profile_uses_reviewed_authorization_with_preview_flags_off(rele
     assert client.get(physics_preview.router.prefix + '/catalog', params={'grade': 6}).status_code == 404
 
 
+def test_release_subject_chat_uses_reviewed_sources_and_authentication(released, monkeypatch):
+    from services import study_help
+    from services.models import User
+
+    client, factory, account = released
+    with factory() as db:
+        db.get(User, account['user_id']).age = 25
+        db.commit()
+
+    class ReviewedFixtureProvider:
+        requires_adult_profile = True
+
+        def chat(self, context):
+            assert context['subject'] == 'kimyo' and context['grade'] == 7
+            assert context['external_ai_eligible'] is True
+            evidence = context['evidence'][0]
+            return {
+                'status': 'answered',
+                'paragraphs': [{'text': evidence['text'], 'evidence_ids': [evidence['id']]}],
+            }
+
+    payload = {
+        'subject': 'kimyo', 'grade': 7, 'message': 'Modda nima?',
+        'conversation_id': str(uuid4()), 'request_id': str(uuid4()),
+    }
+    monkeypatch.setattr(study_help, '_provider', ReviewedFixtureProvider())
+    response = client.post('/mobile/subject-chat', json=payload)
+    assert response.status_code == 200, response.text
+    assert response.json()['status'] == 'answered'
+    assert response.json()['evidence']
+
+    client.headers.pop('Authorization')
+    assert client.post('/mobile/subject-chat', json=payload).status_code == 401
+    assert client.post('/beta/subject-chat', json=payload).status_code == 404
+
+
 def test_missing_approval_disabled_feature_and_prod_sqlite_fail_closed(
     released, monkeypatch
 ):

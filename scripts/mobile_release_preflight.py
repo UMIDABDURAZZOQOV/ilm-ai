@@ -39,7 +39,7 @@ def origin(value):
     return value.rstrip("/")
 
 
-def check(base, get=requests.get, *, expected_revision=None):
+def check(base, get=requests.get, *, expected_revision=None, require_release_operations=False):
     if expected_revision is not None and not re.fullmatch(
         r"[0-9a-f]{40}", expected_revision
     ):
@@ -158,6 +158,21 @@ def check(base, get=requests.get, *, expected_revision=None):
                 )
             ),
         )
+    if require_release_operations:
+        probe(
+            "database_readiness",
+            "/readyz",
+            lambda data: isinstance(data, dict) and data.get("status") == "ready",
+        )
+        probe(
+            "account_deletion_available",
+            "/account/deletion/config",
+            lambda data: (
+                isinstance(data, dict)
+                and data.get("available") is True
+                and data.get("web_path") == "/account-deletion"
+            ),
+        )
     report["contract_ready"] = all(c["passed"] for c in report["checks"])
     report["decision"] = (
         "FURTHER_ACCEPTANCE_REQUIRED" if report["contract_ready"] else "NO-GO"
@@ -182,9 +197,18 @@ def main():
         "--expected-revision",
         help="Require the exact approved40-character deployed SHA and mobile contract2",
     )
+    parser.add_argument(
+        "--require-release-operations",
+        action="store_true",
+        help="Also require database readiness and public account-deletion availability",
+    )
     args = parser.parse_args()
     try:
-        report = check(args.origin, expected_revision=args.expected_revision)
+        report = check(
+            args.origin,
+            expected_revision=args.expected_revision,
+            require_release_operations=args.require_release_operations,
+        )
     except ValueError as error:
         # Fixed validation messages only; never echo a malformed URL/credential.
         parser.exit(2, str(error) + "\n")

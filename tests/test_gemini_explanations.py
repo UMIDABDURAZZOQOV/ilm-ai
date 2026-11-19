@@ -40,7 +40,9 @@ def test_google_only_minimized_post_answer_request(google_transport, subject, co
     assert request['headers'] == {'Authorization': 'Bearer ' + KEY}
     assert request['json']['reasoning_effort'] == 'minimal'
     assert request['json']['response_format'] == {'type': 'json_object'}
+    assert request['json']['max_tokens'] == 2000
     assert request['timeout'][1] <= 12
+    assert request['timeout'][1] <= 8
     assert 'quotes[].text' in request['json']['messages'][0]['content']
     assert 'tools' not in request['json']
     assert 'PRIVATE-' not in json.dumps(request['json'])
@@ -133,3 +135,38 @@ def test_failure_diagnostics_never_log_provider_body_or_credential(google_transp
         GeminiExplanationProvider(KEY).explain(context())
     assert 'provider=gemini status=403' in caplog.text
     assert KEY not in caplog.text and 'PRIVATE-' not in caplog.text
+
+
+def test_transient_timeout_recovers_once_on_same_key(google_transport):
+    attempts = []
+    def transient():
+        attempts.append(1)
+        google_transport.exception = requests.Timeout('synthetic') if len(attempts) == 1 else None
+    google_transport.observe = transient
+    assert GeminiExplanationProvider(KEY).explain(context())['http_status'] == 200
+    assert len(google_transport.calls) == 2
+    assert all(call[1]['headers']['Authorization'] == 'Bearer ' + KEY for call in google_transport.calls)
+
+
+def test_timeout_does_not_retry_without_remaining_budget(google_transport, monkeypatch):
+    from services import nvidia_explanations
+    clock = [100.0]
+    monkeypatch.setattr(nvidia_explanations.time, 'monotonic', lambda: clock[0])
+    def expired():
+        clock[0] = 114.0
+        google_transport.exception = requests.Timeout('synthetic')
+    google_transport.observe = expired
+    with pytest.raises(SelectorUnavailable):
+        GeminiExplanationProvider(KEY).explain(context())
+    assert len(google_transport.calls) == 1
+
+
+def test_retry_connect_and_read_fit_remaining_deadline(google_transport, monkeypatch):
+    from services import nvidia_explanations
+    clock = [100.0]
+    monkeypatch.setattr(nvidia_explanations.time, 'monotonic', lambda: clock[0])
+    google_transport.statuses = [503, 200]
+    google_transport.observe = lambda: clock.__setitem__(0, 113.0)
+    assert GeminiExplanationProvider(KEY).explain(context())['http_status'] == 200
+    connect, read = google_transport.calls[1][1]['timeout']
+    assert connect > 0 and read > 0 and connect + read <= 3

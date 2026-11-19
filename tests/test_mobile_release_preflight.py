@@ -81,6 +81,25 @@ def test_legacy_biology_only_catalogue_does_not_pass():
     assert check("https://example.test", get)["decision"] == "NO-GO"
 
 
+@pytest.mark.parametrize('ready,deletion_available,expected', [
+    (True, True, True),
+    (False, True, False),
+    (True, False, False),
+])
+def test_release_operations_require_ready_database_and_available_deletion(ready, deletion_available, expected):
+    def get(url, **kwargs):
+        if url.endswith('/readyz'):
+            return response(200 if ready else 503, {'status': 'ready' if ready else 'not_ready'})
+        if url.endswith('/account/deletion/config'):
+            return response(200, {'available': deletion_available, 'web_path': '/account-deletion'})
+        return good_get(url, **kwargs)
+
+    result = check('https://example.test', get, require_release_operations=True)
+    assert len(result['checks']) == 10
+    assert result['contract_ready'] is expected
+    assert result['production_signoff'] is False
+
+
 @pytest.mark.parametrize("revision", ["short", "A" * 40, "private-token", "f" * 41])
 def test_revision_input_is_strict_and_not_reflected(revision):
     with pytest.raises(ValueError) as error:
