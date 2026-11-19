@@ -1,6 +1,6 @@
 """Owned database API integration; provider is synthetic, not live inference."""
-from uuid import uuid4
 import asyncio
+from uuid import uuid4
 import pytest
 from services import study_help, subject_tutor
 from tests.test_integrated_beta import beta_api  # noqa: F401
@@ -79,17 +79,28 @@ def test_slow_chat_retrieval_does_not_block_health(beta_api, monkeypatch):
 
 
 def test_cancelled_retrieval_releases_turn_for_retry(beta_api, monkeypatch):
-    client, _, _, _ = beta_api
+    import anyio
+    from routers.beta_mobile import beta_db, create_router
+
+    client, factory, account, _ = beta_api
     payload = dict(subject='kimyo', grade=7, message='Modda nima?',
                    conversation_id=str(uuid4()), request_id=str(uuid4()))
+    router = create_router('/beta', beta_db)
+    endpoint = next(route.endpoint for route in router.routes
+                    if getattr(route, 'path', None) == '/beta/subject-chat')
 
     def cancelled(*args):
         raise asyncio.CancelledError
 
+    async def cancel_before_provider():
+        # Exercise the handler itself. Starlette's TestClient removes task
+        # cancellation details when the cancelled handler has no HTTP response.
+        with factory() as db, pytest.raises(asyncio.CancelledError):
+            await endpoint(subject_tutor.ChatRequest(**payload), None, db, account['user_id'])
+
     with monkeypatch.context() as patch:
         patch.setattr(subject_tutor, 'retrieve', cancelled)
-        with pytest.raises(asyncio.CancelledError):
-            client.post('/beta/subject-chat', json=payload)
+        anyio.run(cancel_before_provider)
 
     monkeypatch.setattr(study_help, '_provider', None)
     response = client.post('/beta/subject-chat', json=payload)
