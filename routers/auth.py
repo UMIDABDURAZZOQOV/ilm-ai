@@ -15,7 +15,7 @@ from services.users import (
     set_email_verified,
     update_password,
 )
-from services.tokens import create_access_token, create_refresh_token, verify_refresh_token, revoke_refresh_token
+from services.tokens import create_access_token, create_refresh_token, revoke_refresh_token
 from services.google_oauth import get_google_auth_url, handle_google_callback, is_google_oauth_enabled
 from services.monitoring import track_user_signup, track_user_login
 from services.verification import issue_code, check_code
@@ -207,31 +207,6 @@ def resend_code(data: ResendCodeRequest):
             detail=f"Please wait {result.get('retry_after', 30)}s before requesting another code",
         )
     return {"message": "Code sent"}
-
-
-@router.get("/_diag/email")
-def email_diag():
-    """Temporary diagnostic: reports whether an email provider is configured and
-    actually attempts a self-send, returning the real SMTP error if any. Exposes
-    NO secret values — only booleans, lengths, and the error message (SMTP errors
-    never contain the password)."""
-    from services import email as em
-
-    result = {
-        "brevo_key_set": bool(em.BREVO_API_KEY),
-        "brevo_from": em.BREVO_FROM_EMAIL or None,
-        "resend_key_set": bool(em.RESEND_API_KEY),
-        "gmail_address_set": bool(em.GMAIL_ADDRESS),
-        "gmail_password_len": len(em.GMAIL_APP_PASSWORD or ""),
-    }
-    if em.BREVO_API_KEY and em.BREVO_FROM_EMAIL:
-        try:
-            html, text = em._render("000000", "diagnostika", "diagnostika")
-            em._send_via_brevo(em.BREVO_FROM_EMAIL, "Ilm AI — diagnostika", html, text)
-            result["brevo_send"] = "ok"
-        except Exception as e:  # noqa: BLE001
-            result["brevo_send_error"] = str(e)[:400]
-    return result
 
 
 class PasswordResetRequest(BaseModel):

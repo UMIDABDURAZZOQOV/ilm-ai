@@ -1,6 +1,7 @@
 """No real email/network: verification codes and provider failures stay private."""
 
 import pytest
+from routers import auth
 from services import email
 
 
@@ -14,6 +15,10 @@ def no_delivery(monkeypatch):
     ]:
         monkeypatch.setattr(email, key, None)
     monkeypatch.setattr(email, "BREVO_FROM_EMAIL", "")
+
+
+def test_public_auth_router_does_not_expose_email_diagnostics():
+    assert all(route.path != "/auth/_diag/email" for route in auth.router.routes)
 
 
 def test_no_provider_never_prints_code_or_recipient(caplog, capsys):

@@ -76,7 +76,7 @@ def create_app():
         if request.client.host not in {'127.0.0.1','::1'} or any(h in request.headers for h in ['forwarded','x-forwarded-for','x-forwarded-host']):
             return JSONResponse({'detail':'loopback_only'},status_code=403)
         if '/tutor' in request.url.path or request.url.path.startswith(('/qa','/preview')) or request.url.path in {
-            '/auth/signup','/auth/login','/auth/resend-code','/auth/verify-email','/auth/_diag/email',
+            '/auth/signup','/auth/login','/auth/resend-code','/auth/verify-email',
             '/auth/password-reset/request','/auth/password-reset/confirm'}:
             return JSONResponse({'detail':'not_available_in_beta'},status_code=404)
         return await call_next(request)
