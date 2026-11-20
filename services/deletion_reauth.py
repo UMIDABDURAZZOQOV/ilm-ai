@@ -149,19 +149,12 @@ def password_proof(db, email, password, peer, *, uid=None, surface="web"):
     return issue_proof(db, row, user)
 
 
-def begin_google(db, challenge, peer, *, uid=None, surface="web"):
-    ready(db)
+def google_redirect_uri():
+    from urllib.parse import urlsplit
     from services import google_oauth
 
     if not google_oauth.is_google_oauth_enabled():
         raise HTTPException(503, "google_not_configured")
-    if not re.fullmatch(r"[A-Za-z0-9_-]{43}", challenge):
-        raise HTTPException(400, "pkce_s256_required")
-    limit(db, peer, str(uid) if uid else "")
-    if uid:
-        user = active(db, uid)
-        if user.oauth_provider != "google" or not user.oauth_provider_id:
-            raise HTTPException(400, "google_identity_not_linked")
     origin = (
         os.getenv("STAGING_PUBLIC_ORIGIN")
         if os.getenv("DEPLOYMENT_STAGE") == "staging"
@@ -169,19 +162,40 @@ def begin_google(db, challenge, peer, *, uid=None, surface="web"):
     )
     redirect = os.getenv("MOBILE_OAUTH_REDIRECT_URI", "")
     # Reuse the owner's exact already registered HTTPS callback, never a caller URL.
-    from urllib.parse import urlsplit
-
-    uri = urlsplit(redirect)
+    try:
+        uri = urlsplit(redirect)
+        hostname, port = uri.hostname, uri.port
+    except ValueError:
+        raise HTTPException(503, "deletion_callback_not_configured") from None
     if (
         uri.scheme != "https"
+        or not hostname
+        or port == 0
         or uri.path != "/auth/google-callback-mobile"
         or uri.query
         or uri.fragment
-        or uri.username
+        or uri.username is not None
+        or "\\" in redirect
+        or any(char.isspace() for char in redirect)
     ):
         raise HTTPException(503, "deletion_callback_not_configured")
     if origin and redirect != origin.rstrip("/") + "/auth/google-callback-mobile":
         raise HTTPException(503, "deletion_callback_not_configured")
+    return redirect
+
+
+def begin_google(db, challenge, peer, *, uid=None, surface="web"):
+    from services import google_oauth
+
+    ready(db)
+    redirect = google_redirect_uri()
+    if not re.fullmatch(r"[A-Za-z0-9_-]{43}", challenge):
+        raise HTTPException(400, "pkce_s256_required")
+    limit(db, peer, str(uid) if uid else "")
+    if uid:
+        user = active(db, uid)
+        if user.oauth_provider != "google" or not user.oauth_provider_id:
+            raise HTTPException(400, "google_identity_not_linked")
     state, nonce = "del_" + secrets.token_urlsafe(32), secrets.token_urlsafe(32)
     db.add(
         DeletionReauth(

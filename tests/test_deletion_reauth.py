@@ -209,6 +209,45 @@ def test_reauth_binding_expiry_does_not_break_existing_cleanup_worker(owned):
         assert db.get(User, 1).xp_total == 80
 
 
+def test_google_deletion_capabilities_match_redirect_readiness(owned, monkeypatch):
+    client, factory, *_ = owned
+    from services import google_oauth
+
+    monkeypatch.setattr(google_oauth, "GOOGLE_CLIENT_ID", "fixture.apps.googleusercontent.com")
+    monkeypatch.setattr(google_oauth, "GOOGLE_CLIENT_SECRET", "synthetic-only")
+    monkeypatch.setenv("PUBLIC_API_ORIGIN", "https://release.example.test")
+    assert client.get("/account/deletion/reauth/options").json() == {"method": "password"}
+    with factory() as db:
+        user = db.get(User, 1)
+        user.oauth_provider = "google"
+        user.oauth_provider_id = "owned-provider-sub"
+        user.password = None
+        db.commit()
+
+    path = "/auth/google-callback-mobile"
+    for redirect in ("", "https://" + path, "https://[bad" + path,
+                     "https://release.example.test:bad" + path,
+                     "https://wrong.example.test" + path):
+        monkeypatch.setenv("MOBILE_OAUTH_REDIRECT_URI", redirect)
+        config = client.get("/account/deletion/config")
+        assert config.status_code == 200 and config.json()["available"] is True
+        assert config.json()["reauthentication_methods"] == ["password"]
+        options = client.get("/account/deletion/reauth/options")
+        assert options.status_code == 503
+        assert options.json()["detail"] == "deletion_callback_not_configured"
+        start = client.post("/account/deletion/web/google", json={"code_challenge": "a" * 43})
+        assert start.status_code == 503
+    with factory() as db:
+        assert db.query(DeletionReauth).count() == 0
+
+    monkeypatch.setenv("MOBILE_OAUTH_REDIRECT_URI", "https://release.example.test" + path)
+    assert client.get("/account/deletion/config").json()["reauthentication_methods"] == ["google", "password"]
+    assert client.get("/account/deletion/reauth/options").json() == {"method": "google"}
+    monkeypatch.setattr(google_oauth, "GOOGLE_CLIENT_SECRET", None)
+    assert client.get("/account/deletion/config").json()["reauthentication_methods"] == ["password"]
+    assert client.get("/account/deletion/reauth/options").json()["detail"] == "google_not_configured"
+
+
 @pytest.mark.parametrize(
     "subject,expected", [("wrong-provider-sub", 403), ("owned-provider-sub", 200)]
 )

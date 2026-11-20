@@ -24,8 +24,8 @@ def test_unsafe_origin_is_rejected(value):
     assert "secret" not in str(error.value)
 
 
-def response(status, body):
-    return SimpleNamespace(status_code=status, json=lambda: body)
+def response(status, body, headers=None):
+    return SimpleNamespace(status_code=status, json=lambda: body, headers=headers or {})
 
 
 def good_get(url, **kwargs):
@@ -45,6 +45,12 @@ def good_get(url, **kwargs):
         )
     if url.endswith("/grades"):
         return response(200, {"grades": [{"grade": 7, "ready_lessons": 1}]})
+    if url.endswith("/readyz"):
+        return response(200, {"status": "ready"})
+    if url.endswith("/account/deletion/config"):
+        return response(200, {"available": True, "web_path": "/account-deletion"})
+    if url.endswith(("/mobile/subject-chat", "/mobile/study-help")):
+        return response(405, None, {"Allow": "POST"})
     return response(200, [dict(slug=s, grades=[7], available=True) for s in SUBJECTS])
 
 
@@ -95,9 +101,40 @@ def test_release_operations_require_ready_database_and_available_deletion(ready,
         return good_get(url, **kwargs)
 
     result = check('https://example.test', get, require_release_operations=True)
-    assert len(result['checks']) == 10
+    assert len(result['checks']) == 12
     assert result['contract_ready'] is expected
     assert result['production_signoff'] is False
+
+
+@pytest.mark.parametrize("path", ["/mobile/subject-chat", "/mobile/study-help"])
+@pytest.mark.parametrize("status,allow", [(404, ""), (405, ""), (405, "GET"), (200, "POST")])
+def test_release_operations_fail_for_missing_or_wrong_ai_route(path, status, allow):
+    def get(url, **kwargs):
+        if url.endswith(path):
+            return response(status, "PRIVATE-BODY", {"Allow": allow})
+        return good_get(url, **kwargs)
+
+    result = check("https://example.test", get, require_release_operations=True)
+    failed = [item for item in result["checks"] if not item["passed"]]
+    assert [item["path"] for item in failed] == [path]
+    assert result["decision"] == "NO-GO"
+    assert "real_hosted_ai_generation" in result["not_tested"]
+    assert "PRIVATE" not in str(result)
+
+
+@pytest.mark.parametrize("methods,expected", [(["password"], False), ("google", False), (["google", "password"], True)])
+def test_email_free_release_requires_google_deletion_method(methods, expected):
+    def get(url, **kwargs):
+        if url.endswith("/account/deletion/config"):
+            return response(200, {
+                "web_path": "/account-deletion", "available": True,
+                "email_required": False, "reauthentication_methods": methods,
+            })
+        return good_get(url, **kwargs)
+
+    result = check("https://example.test", get, require_release_operations=True)
+    assert result["contract_ready"] is expected
+    assert result["production_signoff"] is False
 
 
 @pytest.mark.parametrize("revision", ["short", "A" * 40, "private-token", "f" * 41])

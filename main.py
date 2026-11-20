@@ -145,8 +145,14 @@ async def _reviewed_mobile_startup():
 
 @app.on_event('startup')
 async def _study_help_startup():
-    from services.study_help import configure_from_environment
-    configure_from_environment()
+    from services.study_help import configure_from_environment, configure_provider
+    try:
+        configure_from_environment()
+    except (ValueError, OSError):
+        # The optional provider remains disabled. Keep reviewed lessons and
+        # verified explanations available, without logging private config data.
+        configure_provider()
+        logging.getLogger(__name__).error('Study help provider configuration rejected')
 
 
 @app.on_event('startup')

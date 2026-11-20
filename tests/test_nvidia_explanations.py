@@ -342,10 +342,11 @@ def test_normal_startup_is_explicit_and_never_discovers_environment_key(tmp_path
     study_help.configure_provider()
 
 
-@pytest.mark.parametrize('reject_sources', [False, True])
-def test_real_startup_prepares_sources_before_AI_and_never_configures_AI_after_source_failure(monkeypatch, reject_sources):
+@pytest.mark.parametrize('reject_sources,reject_ai', [(False, False), (True, False), (False, True)])
+def test_startup_keeps_reviewed_sources_required_and_ai_optional(monkeypatch, caplog, reject_sources, reject_ai):
     import ast
     import asyncio
+    import logging
     import sys
     from pathlib import Path
     from types import SimpleNamespace
@@ -366,13 +367,22 @@ def test_real_startup_prepares_sources_before_AI_and_never_configures_AI_after_s
 
     monkeypatch.setitem(sys.modules, 'services.mobile_source_warmup', SimpleNamespace(prepare_reviewed_mobile=prepare))
     from services import study_help
-    monkeypatch.setattr(study_help, 'configure_from_environment', lambda: calls.append('private_AI_configuration'))
+    previous_provider = object()
+    monkeypatch.setattr(study_help, '_provider', previous_provider)
+
+    def configure():
+        calls.append('private_AI_configuration')
+        if reject_ai:
+            raise ValueError('SYNTHETIC_PRIVATE_CONFIGURATION')
+
+    monkeypatch.setattr(study_help, 'configure_from_environment', configure)
     path = Path(__file__).resolve().parents[1] / 'main.py'
     tree = ast.parse(path.read_text(encoding='utf-8-sig'))
     nodes = [node for node in tree.body if isinstance(node, ast.AsyncFunctionDef)
              and node.name in {'_reviewed_mobile_startup', '_study_help_startup'}]
     assert len(nodes) == 2
-    exec(compile(ast.Module(body=nodes, type_ignores=[]), str(path), 'exec'), {'app': App()})
+    exec(compile(ast.Module(body=nodes, type_ignores=[]), str(path), 'exec'),
+         {'app': App(), 'logging': logging, '__name__': 'test.backend.startup'})
 
     async def startup():
         for hook in hooks:
@@ -385,3 +395,6 @@ def test_real_startup_prepares_sources_before_AI_and_never_configures_AI_after_s
     else:
         asyncio.run(startup())
         assert calls == ['reviewed_sources', 'private_AI_configuration']
+        assert ('Study help provider configuration rejected' in caplog.text) is reject_ai
+        assert 'SYNTHETIC_PRIVATE_CONFIGURATION' not in caplog.text
+        assert study_help._provider is (None if reject_ai else previous_provider)

@@ -1,7 +1,12 @@
 'use strict';
 const el=id=>document.getElementById(id);
-let proof=null, busy=false, available=false;
+let proof=null, busy=false, available=false, googleAvailable=false;
 const status=message=>{el('status').textContent=message;};
+function updateButtons(){
+  document.querySelectorAll('button').forEach(button=>{
+    button.disabled=busy||!available||(button.id==='google-button'&&!googleAvailable);
+  });
+}
 async function api(path,body){
   const controller=new AbortController(), timer=setTimeout(()=>controller.abort(),60000);
   try{
@@ -23,11 +28,11 @@ function acceptProof(data){
 }
 async function perform(action){
   if(busy||!available)return;
-  busy=true;document.querySelectorAll('button').forEach(b=>b.disabled=true);
+  busy=true;updateButtons();
   status('So‘rov bajarilmoqda…');
   try{await action();}catch(error){status(error.name==='AbortError'?
     'Javob kelmadi. O‘chirish natijasi noaniq bo‘lsa, shu oynada qayta urinib ko‘ring.':error.message);}
-  finally{busy=false;document.querySelectorAll('button').forEach(b=>b.disabled=!available);}
+  finally{busy=false;updateButtons();}
 }
 function b64(bytes){return btoa(String.fromCharCode(...bytes)).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');}
 el('google-button').addEventListener('click',()=>perform(async()=>{
@@ -76,12 +81,13 @@ el('manual-form').addEventListener('submit',event=>{
   try{
     const config=await api('/account/deletion/config');
     available=config.available===true&&config.email_required===false;
-    document.querySelectorAll('button').forEach(b=>b.disabled=!available);
+    googleAvailable=Array.isArray(config.reauthentication_methods)&&config.reauthentication_methods.includes('google');
+    updateButtons();
     if(!available){status('O‘chirish xizmati hali tayyor emas. Keyinroq qayta urinib ko‘ring.');return;}
     if(callback.has('state')){
       const saved=JSON.parse(sessionStorage.getItem('ilm-deletion-reauth')||'null');
       sessionStorage.removeItem('ilm-deletion-reauth');
-      if(!saved||Date.now()>saved.expires||callback.getAll('state').length!==1||callback.get('state')!==saved.state||
+      if(!googleAvailable||!saved||Date.now()>saved.expires||callback.getAll('state').length!==1||callback.get('state')!==saved.state||
          callback.has('error')||callback.getAll('code').length!==1||!/^[A-Za-z0-9_-]{43}$/.test(callback.get('code')))
         throw new Error('Google qayta tasdiqlashi bajarilmadi; qayta urinib ko‘ring.');
       await perform(async()=>acceptProof(await api('/account/deletion/reauth/exchange',{code:callback.get('code'),code_verifier:saved.verifier})));

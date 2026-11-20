@@ -77,11 +77,18 @@ def capabilities(db: DB):
                 "web_path": "/account-deletion",
                 "email_required": False,
             }
+        methods = ["password"]
+        try:
+            deletion_reauth.google_redirect_uri()
+        except HTTPException:
+            pass
+        else:
+            methods.insert(0, "google")
         return {
             "available": True,
             "web_path": "/account-deletion",
             "email_required": False,
-            "reauthentication_methods": ["google", "password"],
+            "reauthentication_methods": methods,
             "proof_ttl_seconds": 300,
         }
     try:
@@ -154,12 +161,10 @@ class ManualRequest(BaseModel):
 def reauth_options(db: DB, user_id: UID):
     deletion_reauth.ready(db)
     user = deletion_reauth.active(db, user_id)
-    method = (
-        "google"
-        if user.oauth_provider == "google" and user.oauth_provider_id
-        else "password"
-    )
-    return {"method": method}
+    if user.oauth_provider == "google" and user.oauth_provider_id:
+        deletion_reauth.google_redirect_uri()
+        return {"method": "google"}
+    return {"method": "password"}
 
 
 @router.post("/account/deletion/manual-request")

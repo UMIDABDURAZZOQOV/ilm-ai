@@ -53,12 +53,18 @@ def check(base, get=requests.get, *, expected_revision=None, require_release_ope
         "production_signoff": False,
     }
 
-    def probe(name, path, validator):
+    def probe(name, path, validator=None, *, expect_post_route=False):
         item = dict(name=name, path=path, status=None, passed=False)
         try:
             response = get(base + path, timeout=(5, 15), allow_redirects=False)
             item["status"] = response.status_code
-            if response.status_code == 200:
+            if expect_post_route:
+                # Inspect the router without using credentials or generating AI output.
+                methods = response.headers.get("Allow", "").upper().split(",")
+                item["passed"] = response.status_code == 405 and "POST" in {
+                    method.strip() for method in methods
+                }
+            elif response.status_code == 200:
                 item["passed"] = bool(validator(response.json()))
         except (
             requests.RequestException,
@@ -171,8 +177,17 @@ def check(base, get=requests.get, *, expected_revision=None, require_release_ope
                 isinstance(data, dict)
                 and data.get("available") is True
                 and data.get("web_path") == "/account-deletion"
+                and (
+                    data.get("email_required") is not False
+                    or (
+                        isinstance(data.get("reauthentication_methods"), list)
+                        and "google" in data["reauthentication_methods"]
+                    )
+                )
             ),
         )
+        probe("subject_chat_route", "/mobile/subject-chat", expect_post_route=True)
+        probe("lesson_study_help_route", "/mobile/study-help", expect_post_route=True)
     report["contract_ready"] = all(c["passed"] for c in report["checks"])
     report["decision"] = (
         "FURTHER_ACCEPTANCE_REQUIRED" if report["contract_ready"] else "NO-GO"
@@ -183,6 +198,7 @@ def check(base, get=requests.get, *, expected_revision=None, require_release_ope
         "data_safety",
         "signed_upgrade",
         "user_progress",
+        "real_hosted_ai_generation",
         "provider_audience_approval",
         "device_performance",
     ]
@@ -200,7 +216,7 @@ def main():
     parser.add_argument(
         "--require-release-operations",
         action="store_true",
-        help="Also require database readiness and public account-deletion availability",
+        help="Also require database readiness, account deletion and both mobile AI routes",
     )
     args = parser.parse_args()
     try:
