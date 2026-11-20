@@ -141,6 +141,52 @@ def test_release_profile_uses_reviewed_authorization_with_preview_flags_off(rele
     assert client.get(physics_preview.router.prefix + '/catalog', params={'grade': 6}).status_code == 404
 
 
+def test_ilm_access_key_restores_xp_from_an_actual_reviewed_lesson(released, monkeypatch):
+    from secrets import token_urlsafe
+    from routers.auth import router as auth_router
+    from services.models import StudySession
+
+    prior, factory, existing = released
+    prior.app.include_router(auth_router)
+    monkeypatch.setenv("ILM_INDEPENDENT_AUTH_QA", "true")
+    key = "ilm1_" + token_urlsafe(32)
+    with TestClient(prior.app, base_url="http://127.0.0.1:8930", client=("127.0.0.1", 5001)) as client:
+        registered = client.post("/auth/ilm/access", json={"key": key, "mode": "create"})
+        assert registered.status_code == 200
+        account = registered.json()
+        uid = account["user_id"]
+        client.headers["Authorization"] = "Bearer " + account["access_token"]
+        assert client.post("/auth/complete-onboarding", json={
+            "user_id": uid, "name": "Synthetic learner", "age": 25,
+        }).status_code == 200
+        lessons = client.get("/mobile/v2/kimyo/catalog", params={"grade": 7}).json()["lessons"]
+        started = client.post(f"/mobile/v2/kimyo/lessons/{lessons[0]['key']}/start", json={
+            "assessment_version": 2, "request_id": str(uuid4()),
+        })
+        assert started.status_code == 200
+        attempt = started.json()["attempt_id"]
+        with factory() as db:
+            questions = db.get(StudySession, attempt).questions["assessments"]
+        for question in questions:
+            graded = client.post(f"/mobile/v2/kimyo/attempts/{attempt}/answers", json={
+                "assessment_version": 2, "assessment_key": question["key"],
+                "answer": correct_answer(question),
+            })
+            assert graded.status_code == 200 and graded.json()["is_correct"]
+        completed = client.post(f"/mobile/v2/kimyo/attempts/{attempt}/complete", json={"assessment_version": 2})
+        assert completed.status_code == 200
+        earned = client.get(f"/mobile/skills/{uid}/profile").json()
+        assert earned["xp_total"] > 0 and earned["lessons_completed"] == 1
+        assert client.post("/auth/logout", json={"refresh_token": account["refresh_token"]}).status_code == 200
+        client.headers.pop("Authorization")
+        restored = client.post("/auth/ilm/access", json={"key": key, "mode": "login"}).json()
+        assert restored["user_id"] == uid and restored["needs_onboarding"] is False
+        client.headers["Authorization"] = "Bearer " + restored["access_token"]
+        profile = client.get(f"/mobile/skills/{uid}/profile").json()
+        assert profile["xp_total"] == earned["xp_total"] and profile["lessons_completed"] == 1
+        assert client.get(f"/mobile/skills/{existing['user_id']}/profile").status_code == 403
+
+
 def test_release_subject_chat_uses_reviewed_sources_and_authentication(released, monkeypatch):
     from services import study_help
     from services.models import User
