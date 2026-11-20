@@ -1,10 +1,11 @@
 'use strict';
 const el=id=>document.getElementById(id);
-let proof=null, busy=false, available=false, googleAvailable=false;
+let proof=null, busy=false, available=false, googleAvailable=false, accessKeyAvailable=false;
 const status=message=>{el('status').textContent=message;};
 function updateButtons(){
   document.querySelectorAll('button').forEach(button=>{
-    button.disabled=busy||!available||(button.id==='google-button'&&!googleAvailable);
+    button.disabled=busy||!available||(button.id==='google-button'&&!googleAvailable)||
+      (button.id==='access-key-button'&&!accessKeyAvailable);
   });
 }
 async function api(path,body){
@@ -52,6 +53,14 @@ el('password-form').addEventListener('submit',event=>{
     finally{el('password').value='';}
   });
 });
+el('access-key-form').addEventListener('submit',event=>{
+  event.preventDefault();
+  if(!accessKeyAvailable)return;
+  perform(async()=>{
+    try{acceptProof(await api('/account/deletion/web/access-key',{key:el('access-key').value.trim()}));}
+    finally{el('access-key').value='';}
+  });
+});
 el('confirm-form').addEventListener('submit',event=>{
   event.preventDefault();perform(async()=>{
     if(!proof||el('confirmation').value!=='DELETE')throw new Error('Avval akkauntni qayta tasdiqlang.');
@@ -82,6 +91,8 @@ el('manual-form').addEventListener('submit',event=>{
     const config=await api('/account/deletion/config');
     available=config.available===true&&config.email_required===false;
     googleAvailable=Array.isArray(config.reauthentication_methods)&&config.reauthentication_methods.includes('google');
+    accessKeyAvailable=available&&Array.isArray(config.reauthentication_methods)&&config.reauthentication_methods.includes('access_key');
+    el('access-key-form').hidden=!accessKeyAvailable;
     updateButtons();
     if(!available){status('O‘chirish xizmati hali tayyor emas. Keyinroq qayta urinib ko‘ring.');return;}
     if(callback.has('state')){

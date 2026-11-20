@@ -6,10 +6,10 @@ from typing import Optional
 
 import jwt
 from dotenv import load_dotenv
+from services.security_config import require_production_secret
 
 load_dotenv()
 JWT_SECRET = os.environ.get("JWT_SECRET", "dev_secret")
-from services.security_config import require_production_secret
 require_production_secret("JWT_SECRET", JWT_SECRET, "dev_secret")
 ACCESS_EXPIRE = int(os.environ.get("ACCESS_TOKEN_EXPIRE_MINUTES", "15"))
 REFRESH_EXPIRE_DAYS = int(os.environ.get("REFRESH_TOKEN_EXPIRE_DAYS", "30"))
@@ -53,19 +53,25 @@ def create_access_token(user_id: int) -> str:
     return jwt.encode(payload, JWT_SECRET, algorithm="HS256")
 
 
-def create_refresh_token(user_id: int) -> str:
+def stage_refresh_token(db, user_id: int) -> str:
     token = "ref_" + secrets.token_hex(32)
     exp = int(time.time()) + REFRESH_EXPIRE_DAYS * 24 * 3600
+    db.add(RefreshTokenModel(token=token, user_id=user_id, exp=exp))
+    return token
+
+
+def create_refresh_token(user_id: int) -> str:
     if USE_DB:
         db = SessionLocal()
         try:
-            rt = RefreshTokenModel(token=token, user_id=user_id, exp=exp)
-            db.add(rt)
+            token = stage_refresh_token(db, user_id)
             db.commit()
             return token
         finally:
             db.close()
 
+    token = "ref_" + secrets.token_hex(32)
+    exp = int(time.time()) + REFRESH_EXPIRE_DAYS * 24 * 3600
     data = _load_refresh()
     data[token] = {"user_id": user_id, "exp": exp}
     _save_refresh(data)

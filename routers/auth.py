@@ -7,10 +7,14 @@ from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.responses import RedirectResponse
 from services.auth_deps import verify_user_access, ensure_own_user, get_authenticated_user_id
 from pydantic import BaseModel, field_validator
+from starlette.concurrency import run_in_threadpool
 
+from services import ilm_access
+from services.db import get_db
 from services.users import (
     create_user,
     find_user_by_email,
+    is_ilm_access_alias,
     verify_login,
     set_email_verified,
     update_password,
@@ -51,7 +55,7 @@ class SignupRequest(BaseModel):
     @classmethod
     def email_valid(cls, v: str) -> str:
         v = v.strip().lower()
-        if not EMAIL_PATTERN.match(v):
+        if not EMAIL_PATTERN.match(v) or is_ilm_access_alias(v):
             raise ValueError("Invalid email address")
         return v
 
@@ -318,10 +322,22 @@ def get_profile(user_id: int = Depends(verify_user_access)):
     
     # Remove password from response
     user.pop("password", None)
+    if user.get("oauth_provider") == ilm_access.PROVIDER:
+        user["email"] = ""
     user["user_id"] = user["id"]  # Additive alias used by the mobile DTO.
     # A user must pick a name + age right after Google sign-in; until then age is null.
     user["needs_onboarding"] = user.get("age") is None
     return user
+
+
+@router.post("/ilm/access", include_in_schema=False)
+async def ilm_access_endpoint(request: Request, db=Depends(get_db)):
+    if not ilm_access.qa_allowed(request, db):
+        raise HTTPException(404, "not_found")
+    data = await ilm_access.read_request(request, {"key", "mode"})
+    if data["mode"] not in ("create", "login"):
+        raise HTTPException(400, "invalid_ilm_access_request")
+    return await run_in_threadpool(ilm_access.authenticate, db, data["key"], create=data["mode"] == "create")
 
 
 class OnboardingRequest(BaseModel):

@@ -8,6 +8,7 @@ from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.responses import HTMLResponse, Response, JSONResponse
 from pydantic import BaseModel, ConfigDict, Field
 from sqlalchemy.exc import IntegrityError
+from starlette.concurrency import run_in_threadpool
 
 from services.db import get_db
 from services.auth_deps import get_authenticated_user_id
@@ -67,7 +68,7 @@ def public_styles():
 
 
 @router.get("/account/deletion/config")
-def capabilities(db: DB):
+def capabilities(db: DB, request: Request):
     if os.getenv("EMAIL_FREE_ACCOUNT_DELETION") == "true":
         try:
             deletion_reauth.ready(db)
@@ -84,6 +85,10 @@ def capabilities(db: DB):
             pass
         else:
             methods.insert(0, "google")
+        from services import ilm_access
+
+        if ilm_access.qa_allowed(request, db):
+            methods.append("access_key")
         return {
             "available": True,
             "web_path": "/account-deletion",
@@ -159,11 +164,15 @@ class ManualRequest(BaseModel):
 
 @router.get("/account/deletion/reauth/options")
 def reauth_options(db: DB, user_id: UID):
+    from services import ilm_access
+
     deletion_reauth.ready(db)
     user = deletion_reauth.active(db, user_id)
     if user.oauth_provider == "google" and user.oauth_provider_id:
         deletion_reauth.google_redirect_uri()
         return {"method": "google"}
+    if user.oauth_provider == ilm_access.PROVIDER:
+        return {"method": "access_key"}
     return {"method": "password"}
 
 
@@ -197,6 +206,18 @@ def web_password_reauth(data: WebPasswordReauth, request: Request, db: DB):
         data.email,
         data.password,
         request.client.host if request.client else "unknown",
+    )
+
+
+@router.post("/account/deletion/web/access-key", include_in_schema=False)
+async def web_access_key_reauth(request: Request, db: DB):
+    from services import ilm_access
+
+    if not ilm_access.qa_allowed(request, db):
+        raise HTTPException(404, "not_found")
+    data = await ilm_access.read_request(request, {"key"})
+    return await run_in_threadpool(
+        deletion_reauth.web_access_key_proof, db, data["key"], request.client.host
     )
 
 

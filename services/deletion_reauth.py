@@ -78,9 +78,13 @@ def active(db, uid):
 
 def fingerprint(user):
     # A later password change or identity relink invalidates an unconsumed proof.
+    from services.ilm_access import PROVIDER
+
     identity = (
         user.oauth_provider_id if user.oauth_provider == "google" else user.password
     ) or ""
+    if user.oauth_provider == PROVIDER:
+        identity = user.email
     return digest(f"identity:{user.id}:{user.oauth_provider or 'password'}:{identity}")
 
 
@@ -128,14 +132,35 @@ def password_proof(db, email, password, peer, *, uid=None, surface="web"):
             select(User).where(User.email == email.strip().lower()).with_for_update()
         ).scalar_one_or_none()
     )
+    from services import ilm_access
     from services.users import password_matches
 
-    if (
-        not user
-        or user.oauth_provider not in {None, ""}
-        or not password_matches(password, user.password)
-    ):
+    if user is None:
         raise HTTPException(401, "reauthentication_failed")
+    if user.oauth_provider == ilm_access.PROVIDER:
+        valid = uid is not None and ilm_access.matches(user, password)
+    else:
+        valid = user.oauth_provider in {None, ""} and password_matches(password, user.password)
+    if not valid:
+        raise HTTPException(401, "reauthentication_failed")
+    return _credential_proof(db, user, surface)
+
+
+def web_access_key_proof(db, key, peer):
+    from services import ilm_access
+
+    ready(db)
+    alias = ilm_access.alias_for_key(key)
+    limit(db, peer, alias or "")
+    user = db.scalar(select(User).where(
+        User.email == alias, User.oauth_provider == ilm_access.PROVIDER,
+    ).with_for_update()) if alias else None
+    if user is None:
+        raise HTTPException(401, "reauthentication_failed")
+    return _credential_proof(db, user, "web")
+
+
+def _credential_proof(db, user, surface):
     row = DeletionReauth(
         state_hash=sha(secrets.token_urlsafe(32)),
         user_id=user.id,

@@ -11,6 +11,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 USERS_FILE = "users.json"
+ILM_ACCESS_ALIAS_DOMAIN = "ilm-access.invalid"
+
+
+def is_ilm_access_alias(email: str) -> bool:
+    return email.strip().lower().endswith("@" + ILM_ACCESS_ALIAS_DOMAIN)
 
 
 def hash_password(password: str) -> str:
@@ -105,6 +110,8 @@ def save_users(users: List[Dict[str, Any]]) -> None:
 
 def find_user_by_email(email: str) -> Optional[Dict[str, Any]]:
     email = email.strip().lower()
+    if is_ilm_access_alias(email):
+        return None
     if USE_DB:
         db = SessionLocal()
         try:
@@ -167,6 +174,8 @@ def verify_login(email: str, password: str) -> Optional[Dict[str, Any]]:
 
 def create_user(name: str, email: str, password: str) -> Dict[str, Any]:
     email = email.strip().lower()
+    if is_ilm_access_alias(email):
+        raise ValueError("reserved_account_email_domain")
     if USE_DB:
         db = SessionLocal()
         try:

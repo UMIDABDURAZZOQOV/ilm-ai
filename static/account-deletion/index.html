@@ -7,6 +7,7 @@
 <button id="google-button" type="button" disabled>Google orqali akkauntni tasdiqlash</button>
 <details><summary>Email va parol orqali tasdiqlash</summary>
 <form id="password-form"><label for="email">Akkaunt emailingiz</label><input id="email" type="email" autocomplete="username" maxlength="200" required><label for="password">Joriy parol</label><input id="password" type="password" autocomplete="current-password" maxlength="1024" required><button type="submit" disabled>Parolni tekshirish</button></form></details>
+<form id="access-key-form" hidden><label for="access-key">ILM kirish kaliti</label><input id="access-key" type="password" autocomplete="off" maxlength="48" required><button id="access-key-button" type="submit" disabled>Kalitni tekshirish</button></form>
 <form id="confirm-form" hidden><p>Akkaunt tekshirildi. Tasdiq 5 daqiqa amal qiladi. Bu bosqich hali akkauntni o‘chirmadi.</p><label for="confirmation">Butunlay o‘chirish uchun DELETE deb yozing</label><input id="confirmation" pattern="DELETE" maxlength="6" autocomplete="off" required><button class="danger" type="submit">Akkauntni butunlay o‘chirish</button></form>
 <details><summary>Akkauntga kira olmayapsizmi? Tekshiriladigan o‘chirish so‘rovi</summary>
 <p>Ushbu so‘rov akkauntni o‘chirmaydi. Operator shaxsingiz va akkauntga egalikni alohida tekshiradi. Faqat emailni bilish yetarli emas. Parol, Google kodi yoki maxfiy hujjat yubormang.</p>
