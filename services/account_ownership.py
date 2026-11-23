@@ -7,6 +7,7 @@ Shared textbooks/question seeds and other learners' progress are never erased.
 DELETED_PROVIDER = "__account_deleted__"
 
 DIRECT_OWNERS = {
+    "ai_answer_reports": ("user_id",),
     "assistant_messages": ("user_id",),
     "flashcard_decks": ("user_id",),
     "share_links": ("user_id",),

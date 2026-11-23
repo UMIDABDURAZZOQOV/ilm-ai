@@ -63,6 +63,35 @@ def test_private_config_supports_google_key_types_and_normal_startup(tmp_path, m
     assert not study_help.supports_generation(None)
 
 
+@pytest.mark.parametrize('deployment', [
+    {'ENVIRONMENT': 'production'},
+    {'DEPLOYMENT_STAGE': 'staging'},
+])
+def test_hosted_mixed_audience_disables_gemini_and_keeps_reviewed_feedback(
+    tmp_path, monkeypatch, deployment, google_transport,
+):
+    from services.study_help import HelpRequest
+
+    path = tmp_path / 'gemini.private.json'
+    path.write_text(json.dumps(config()), encoding='utf-8')
+    monkeypatch.setattr(study_help, '_provider', None)
+    with pytest.raises(ValueError, match='gemini_not_available_for_hosted_mixed_audience_app'):
+        study_help.configure_from_environment({**deployment, 'STUDY_HELP_CONFIG_FILE': str(path)})
+
+    assert study_help._provider is None
+    data = HelpRequest(subject='kimyo', grade=7, attempt_id='attempt', question_key='question')
+    evidence = context()['evidence']
+    response = study_help.respond(
+        dict(source_refs=evidence[0]['source_refs'], evidence=evidence, is_correct=True),
+        data,
+        allow_generation=True,
+    )
+    assert response['mode'] == 'reviewed_evidence'
+    assert response['provider_status'] == 'unconfigured'
+    assert response['is_correct'] is True
+    assert not google_transport.calls
+
+
 @pytest.mark.parametrize('change', [
     {'base_url': 'https://untrusted.invalid'}, {'api_keys': [KEY]},
     {'api_key': 'nvapi-not-a-google-key'}, {'model': 'other-model'},

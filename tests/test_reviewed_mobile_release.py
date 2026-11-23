@@ -150,8 +150,11 @@ def test_ilm_access_key_restores_xp_from_an_actual_reviewed_lesson(released, mon
     prior.app.include_router(auth_router)
     monkeypatch.setenv("ILM_INDEPENDENT_AUTH_QA", "true")
     key = "ilm1_" + token_urlsafe(32)
+    backup = "ilmr1_" + token_urlsafe(32)
     with TestClient(prior.app, base_url="http://127.0.0.1:8930", client=("127.0.0.1", 5001)) as client:
-        registered = client.post("/auth/ilm/access", json={"key": key, "mode": "create"})
+        registered = client.post("/auth/ilm/access", json={
+            "key": key, "mode": "create", "recovery_key": backup,
+        })
         assert registered.status_code == 200
         account = registered.json()
         uid = account["user_id"]
@@ -185,6 +188,15 @@ def test_ilm_access_key_restores_xp_from_an_actual_reviewed_lesson(released, mon
         profile = client.get(f"/mobile/skills/{uid}/profile").json()
         assert profile["xp_total"] == earned["xp_total"] and profile["lessons_completed"] == 1
         assert client.get(f"/mobile/skills/{existing['user_id']}/profile").status_code == 403
+        recovered = client.post("/auth/ilm/access", json={
+            "mode": "recover", "key": "ilm1_" + token_urlsafe(32),
+            "recovery_key": backup, "next_recovery_key": "ilmr1_" + token_urlsafe(32),
+        })
+        assert recovered.status_code == 200 and recovered.json()["user_id"] == uid
+        assert client.get(f"/mobile/skills/{uid}/profile").status_code == 401
+        client.headers["Authorization"] = "Bearer " + recovered.json()["access_token"]
+        after = client.get(f"/mobile/skills/{uid}/profile").json()
+        assert after["xp_total"] == earned["xp_total"] and after["lessons_completed"] == 1
 
 
 def test_release_subject_chat_uses_reviewed_sources_and_authentication(released, monkeypatch):

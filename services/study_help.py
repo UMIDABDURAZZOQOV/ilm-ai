@@ -62,7 +62,15 @@ def configure_from_environment(env=None):
             raise ValueError('absolute_private_explanation_config_required')
     configure_provider(filename)
     if filename:
+        from services.gemini_explanations import GeminiExplanationProvider
         from services.nvidia_explanations import NvidiaExplanationProvider
+        # AI Studio's audience restriction applies to the whole client app.
+        # An individual adult profile cannot opt ILM AI's mixed audience in.
+        if isinstance(_provider, GeminiExplanationProvider) and (
+            env.get('ENVIRONMENT') == 'production' or env.get('DEPLOYMENT_STAGE') == 'staging'
+        ):
+            configure_provider()
+            raise ValueError('gemini_not_available_for_hosted_mixed_audience_app')
         if not isinstance(_provider, NvidiaExplanationProvider):
             configure_provider()
             raise ValueError('hosted_explanation_provider_required')

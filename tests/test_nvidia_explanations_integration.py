@@ -46,7 +46,7 @@ def state_snapshot(factory, uid):
 def ask_unchanged(client, factory, uid, body):
     before = state_snapshot(factory, uid)
     result = client.post("/beta/study-help", json=body,
-                         headers={'X-ILM-Study-Help': 'reviewed-text-v2'})
+                         headers={'X-ILM-Study-Help': 'reviewed-text-v2', 'X-ILM-AI-Report': 'v1'})
     assert result.status_code == 200, result.text
     assert state_snapshot(factory, uid) == before
     return result.json()
@@ -97,6 +97,7 @@ def test_actual_five_subject_catalogue_post_answer_generation_and_failure_preser
         assert result["generation"]["is_correct"] is is_correct
         assert result['generation']['provider'] == provider_name
         assert result["generation"]["paragraphs"]
+        assert result['report_receipt']
         assert result["evidence"] and all(e["source_refs"] for e in result["evidence"])
         assert "PRIVATE-" not in json.dumps(explanation_transport.calls[-1][1]["json"])
         assert "external_ai_eligible" not in result

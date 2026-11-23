@@ -39,7 +39,15 @@ def origin(value):
     return value.rstrip("/")
 
 
-def check(base, get=requests.get, *, expected_revision=None, require_release_operations=False):
+def check(
+    base,
+    get=requests.get,
+    *,
+    expected_revision=None,
+    require_release_operations=False,
+    require_google_account_deletion=False,
+    require_ai_reporting=False,
+):
     if expected_revision is not None and not re.fullmatch(
         r"[0-9a-f]{40}", expected_revision
     ):
@@ -164,7 +172,22 @@ def check(base, get=requests.get, *, expected_revision=None, require_release_ope
                 )
             ),
         )
-    if require_release_operations:
+    if require_release_operations or require_google_account_deletion:
+        def deletion_available(data):
+            if (
+                not isinstance(data, dict)
+                or data.get("available") is not True
+                or data.get("web_path") != "/account-deletion"
+            ):
+                return False
+            email_required = data.get("email_required")
+            if require_google_account_deletion and email_required is not False:
+                return False
+            if email_required is False:
+                methods = data.get("reauthentication_methods")
+                return isinstance(methods, list) and "google" in methods
+            return True
+
         probe(
             "database_readiness",
             "/readyz",
@@ -173,21 +196,12 @@ def check(base, get=requests.get, *, expected_revision=None, require_release_ope
         probe(
             "account_deletion_available",
             "/account/deletion/config",
-            lambda data: (
-                isinstance(data, dict)
-                and data.get("available") is True
-                and data.get("web_path") == "/account-deletion"
-                and (
-                    data.get("email_required") is not False
-                    or (
-                        isinstance(data.get("reauthentication_methods"), list)
-                        and "google" in data["reauthentication_methods"]
-                    )
-                )
-            ),
+            deletion_available,
         )
         probe("subject_chat_route", "/mobile/subject-chat", expect_post_route=True)
         probe("lesson_study_help_route", "/mobile/study-help", expect_post_route=True)
+    if require_ai_reporting:
+        probe("ai_answer_report_route", "/mobile/ai-answer-report", expect_post_route=True)
     report["contract_ready"] = all(c["passed"] for c in report["checks"])
     report["decision"] = (
         "FURTHER_ACCEPTANCE_REQUIRED" if report["contract_ready"] else "NO-GO"
@@ -199,6 +213,7 @@ def check(base, get=requests.get, *, expected_revision=None, require_release_ope
         "signed_upgrade",
         "user_progress",
         "real_hosted_ai_generation",
+        "authenticated_ai_answer_reporting",
         "provider_audience_approval",
         "device_performance",
     ]
@@ -218,12 +233,22 @@ def main():
         action="store_true",
         help="Also require database readiness, account deletion and both mobile AI routes",
     )
+    parser.add_argument(
+        "--require-google-account-deletion",
+        action="store_true",
+        help="Require release operations and Google reauthentication without email OTP",
+    )
+    parser.add_argument(
+        "--require-ai-reporting", action="store_true", help="Check the AI answer report route",
+    )
     args = parser.parse_args()
     try:
         report = check(
             args.origin,
             expected_revision=args.expected_revision,
             require_release_operations=args.require_release_operations,
+            require_google_account_deletion=args.require_google_account_deletion,
+            require_ai_reporting=args.require_ai_reporting,
         )
     except ValueError as error:
         # Fixed validation messages only; never echo a malformed URL/credential.

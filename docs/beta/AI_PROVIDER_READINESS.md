@@ -1,5 +1,13 @@
 # AI provider readiness — 2026-11-06
 
+## 23 November candidate — reporting generated answers
+
+The mobile candidate offers an in-app report action on generated subject chat and assessed-question explanations, including the inline tutor opened from MCQ/FRQ results. Reviewed lesson explanations and unavailable replies have no report action. New clients opt into a signed receipt. The API validates the authenticated owner, the receipt lifetime and the displayed answer. A retry keeps the original record. Account deletion removes the associated reports.
+
+Apply migration `0019_ai_answer_reports` in the authorized environment before enabling the report-capable pair of backend and Flutter releases. Run the public preflight with `--require-ai-reporting`, then use an owned test account and an eligible hosted provider to submit a report and confirm its arrival in the private queue. The public preflight checks route registration only. Reviewed lesson feedback remains available during provider failure.
+
+An authorized reviewer can select `id`, `subject`, `surface`, `model`, `paragraphs` and `created_at` from `ai_answer_reports` on the private database. The report stores the AI output with common contact and credential patterns redacted, and excludes the learner prompt and submitted answer. The internal user ID supports account deletion and stays out of the review export. Confirm reviewer access, response ownership, retention and disclosure before hosted activation. [Google Play AI policy](https://support.google.com/googleplay/android-developer/answer/13985936)
+
 ## Latest confirmed model: NVIDIA Muse Glimmer trial
 
 The user corrected the provider again and supplied the NVIDIA-hosted

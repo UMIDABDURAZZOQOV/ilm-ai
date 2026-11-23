@@ -78,6 +78,37 @@ def test_slow_chat_retrieval_does_not_block_health(beta_api, monkeypatch):
     anyio.run(scenario)
 
 
+def test_subject_chat_report_reuses_server_answer_and_authenticates_owner(beta_api, monkeypatch):
+    client, factory, account, _ = beta_api
+    from services.ai_answer_report_models import AiAnswerReport
+    from tests.test_ai_answer_reports import install_report_table
+
+    install_report_table(factory.kw['bind'])
+
+    class Provider:
+        def chat(self, context):
+            return dict(status='answered', model='synthetic-model', http_status=200,
+                        paragraphs=[dict(text=context['evidence'][0]['text'], evidence_ids=['e1'])])
+
+    def retrieve(*_):
+        return dict(subject='kimyo', grade=7, message='PRIVATE synthetic question',
+                    evidence=[{'id': 'e1', 'text': 'Synthetic reply'}], external_ai_eligible=True)
+
+    monkeypatch.setattr(study_help, '_provider', Provider())
+    monkeypatch.setattr(subject_tutor, 'retrieve', retrieve)
+    study_help._requests.clear()
+    body = dict(subject='kimyo', grade=7, message='Modda nima?',
+                conversation_id=str(uuid4()), request_id=str(uuid4()))
+    response = client.post('/beta/subject-chat', json=body, headers={'X-ILM-AI-Report': 'v1'})
+    assert response.status_code == 200
+    data = dict(receipt=response.json()['report_receipt'], paragraphs=['Synthetic reply'])
+    response = client.post('/beta/ai-answer-report', json=data)
+    assert response.status_code == 200 and response.json() == {'reported': True}
+    with factory() as db:
+        report = db.query(AiAnswerReport).filter_by(user_id=account['user_id']).one()
+        assert report.paragraphs == ['Synthetic reply']
+
+
 def test_cancelled_retrieval_releases_turn_for_retry(beta_api, monkeypatch):
     import anyio
     from routers.beta_mobile import beta_db, create_router

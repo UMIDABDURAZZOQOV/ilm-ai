@@ -446,7 +446,7 @@ def test_paid_record_requires_real_retention_review_and_is_not_falsely_deleted(s
 
 
 def test_pinned_ownership_inventory_and_migration_are_consistent():
-    assert migration.OWNERS == DIRECT_OWNERS
+    assert DIRECT_OWNERS == migration.OWNERS | {"ai_answer_reports": ("user_id",)}
 
 
 def test_migration_rejects_unknown_ownership_before_any_new_table():

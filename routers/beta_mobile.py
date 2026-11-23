@@ -17,6 +17,7 @@ from routers import skills, physics_preview, chemistry_preview, world_history_pr
 
 from services.study_help import HelpRequest
 from services.subject_tutor import ChatRequest
+from services.ai_answer_reports import AnswerReport, reportable, save as save_answer_report
 
 UID = Annotated[int, Depends(get_authenticated_user_id)]
 OWNER = Annotated[int, Depends(verify_user_access)]
@@ -56,6 +57,10 @@ def create_router(prefix, db_dependency):
     router = APIRouter(prefix=prefix, dependencies=[Depends(db_dependency)])
     DB = Annotated[Session, Depends(db_dependency)]
 
+    @router.post('/ai-answer-report')
+    def report_ai_answer(data: AnswerReport, db: DB, uid: UID):
+        return save_answer_report(db, uid, data)
+
     @router.post('/subject-chat')
     async def subject_chat(data: ChatRequest, request: Request, db: DB, uid: UID):
         from services import subject_tutor as tutor, study_help as help_service
@@ -64,9 +69,10 @@ def create_router(prefix, db_dependency):
         from functools import partial
         from starlette.concurrency import run_in_threadpool
         help_service.throttle(uid)
+        report_capability = request.headers.get('x-ilm-ai-report') if request else None
         row, cached = tutor.begin(uid, data)
         if cached is not None:
-            return cached
+            return reportable(cached, uid, report_capability)
         try:
             if data.subject == 'biologiya':
                 async with bio_scope(request, db):
@@ -83,8 +89,9 @@ def create_router(prefix, db_dependency):
         # out. A retry with the same request ID can retrieve its completed turn.
         try:
             with anyio.fail_after(EXPLANATION_RESPONSE_DEADLINE_SECONDS):
-                return await anyio.to_thread.run_sync(
+                reply = await anyio.to_thread.run_sync(
                     partial(tutor.respond, row, data, context), abandon_on_cancel=True)
+            return reportable(reply, uid, report_capability)
         except TimeoutError:
             raise HTTPException(503, 'tutor_timeout') from None
 
@@ -113,9 +120,10 @@ def create_router(prefix, db_dependency):
             from functools import partial
             try:
                 with anyio.fail_after(EXPLANATION_RESPONSE_DEADLINE_SECONDS):
-                    return await anyio.to_thread.run_sync(
+                    reply = await anyio.to_thread.run_sync(
                         partial(help_service.respond, context, data, True),
                         abandon_on_cancel=True)
+                return reportable(reply, uid, request.headers.get('x-ilm-ai-report'))
             except TimeoutError:
                 return help_service.reviewed_fallback(context, data)
         return await run_in_threadpool(help_service.respond, context, data)

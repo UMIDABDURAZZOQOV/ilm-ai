@@ -61,6 +61,19 @@ def test_passing_contract_is_not_production_signoff():
     assert result["production_signoff"] is False
 
 
+def test_ai_reporting_option_checks_route_without_submitting_a_report():
+    def get(url, **kwargs):
+        if url.endswith('/ai-answer-report'):
+            return response(405, None, {'Allow': 'POST'})
+        return good_get(url, **kwargs)
+
+    result = check('https://example.test', get, require_ai_reporting=True)
+    assert result['checks'][-1]['name'] == 'ai_answer_report_route'
+    assert result['contract_ready'] and not result['production_signoff']
+    assert 'authenticated_ai_answer_reporting' in result['not_tested']
+    assert not check('https://example.test', good_get, require_ai_reporting=True)['contract_ready']
+
+
 @pytest.mark.parametrize("status", [301, 302, 401, 403, 404, 429, 500])
 def test_missing_or_redirected_contract_fails_closed_without_body(status):
     result = check(
@@ -133,6 +146,31 @@ def test_email_free_release_requires_google_deletion_method(methods, expected):
         return good_get(url, **kwargs)
 
     result = check("https://example.test", get, require_release_operations=True)
+    assert result["contract_ready"] is expected
+    assert result["production_signoff"] is False
+
+
+@pytest.mark.parametrize(
+    "capability, expected",
+    [
+        ({}, False),
+        ({"email_required": True, "reauthentication_methods": ["google"]}, False),
+        ({"email_required": False, "reauthentication_methods": ["password"]}, False),
+        ({"email_required": False, "reauthentication_methods": ["google"]}, True),
+    ],
+)
+def test_google_account_deletion_gate_rejects_legacy_email_only_mode(capability, expected):
+    def get(url, **kwargs):
+        if url.endswith("/account/deletion/config"):
+            return response(200, {
+                "available": True,
+                "web_path": "/account-deletion",
+                **capability,
+            })
+        return good_get(url, **kwargs)
+
+    result = check("https://example.test", get, require_google_account_deletion=True)
+    assert len(result["checks"]) == 12
     assert result["contract_ready"] is expected
     assert result["production_signoff"] is False
 

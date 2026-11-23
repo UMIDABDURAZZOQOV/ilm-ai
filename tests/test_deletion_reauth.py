@@ -3,6 +3,7 @@
 from datetime import timedelta
 import importlib.util
 from pathlib import Path
+from urllib.parse import parse_qs, urlsplit
 
 from alembic.migration import MigrationContext
 from alembic.operations import Operations
@@ -324,3 +325,59 @@ def test_google_subject_pkce_state_one_use_and_no_login_grants(
     with factory() as db:
         assert db.query(User).count() == 2
         assert db.query(DeletionChallenge).count() == 1
+
+
+@pytest.mark.parametrize('surface', ['mobile', 'web'])
+def test_google_deletion_removes_owned_ai_reports_and_keeps_other_progress(owned, monkeypatch, surface):
+    from services import google_oauth
+    from services.ai_answer_report_models import AiAnswerReport
+    from services.ai_answer_reports import AnswerReport, reportable, save
+    from tests.test_ai_answer_reports import install_report_table
+
+    client, factory, _, _, old_access = owned
+    install_report_table(factory.kw['bind'])
+    monkeypatch.setattr(google_oauth, 'GOOGLE_CLIENT_ID', 'fixture.apps.googleusercontent.com')
+    monkeypatch.setattr(google_oauth, 'GOOGLE_CLIENT_SECRET', 'synthetic-only')
+    monkeypatch.setenv('MOBILE_OAUTH_REDIRECT_URI', 'https://staging.example.test/auth/google-callback-mobile')
+    monkeypatch.setattr(service, 'verify_google_identity', lambda *_: 'owned-delete-subject')
+    refresh = tokens.create_refresh_token(1)
+    with factory() as db:
+        first = db.get(User, 1)
+        first.oauth_provider = 'google'
+        first.oauth_provider_id = 'owned-delete-subject'
+        first.password = None
+        db.commit()
+    with factory() as db:
+        for owner in (1, 2):
+            reply = dict(mode='generated_explanation', subject='kimyo',
+                         generation=dict(model='synthetic', request_id='delete-proof', http_status=200,
+                                         paragraphs=[dict(text='Synthetic report.')]))
+            receipt = reportable(reply, owner, 'v1')['report_receipt']
+            assert save(db, owner, AnswerReport(receipt=receipt, paragraphs=['Synthetic report.']))['reported']
+
+    start = '/account/deletion/reauth/google' if surface == 'mobile' else '/account/deletion/web/google'
+    if surface == 'web':
+        client.headers.pop('Authorization')
+    verifier = 'v' * 64
+    response = client.post(start, json={'code_challenge': pkce_challenge(verifier)})
+    assert response.status_code == 200
+    callback = client.get('/auth/google-callback-mobile', follow_redirects=False,
+                          params={'state': response.json()['state'], 'code': 'fixture-code'})
+    assert callback.is_redirect and callback.headers['Cache-Control'] == 'no-store'
+    target = urlsplit(callback.headers['Location'])
+    assert (target.hostname, target.path) == (('deletion', '/callback') if surface == 'mobile'
+                                               else (None, '/account-deletion'))
+    grant = parse_qs(target.query if surface == 'mobile' else target.fragment)['code'][0]
+    exchanged = client.post('/account/deletion/reauth/exchange', json={'code': grant, 'code_verifier': verifier})
+    assert exchanged.status_code == 200
+    proof = {key: exchanged.json()[key] for key in ('request_id', 'proof')}
+    confirmed = client.post('/account/deletion/reauth/confirm', json={**proof, 'confirmation': 'DELETE'})
+    assert confirmed.status_code == 200
+    assert confirmed.json() == {'state': 'deleted', 'account_revoked': True}
+    assert tokens.verify_access_token(old_access) is None
+    assert tokens.verify_refresh_token(refresh) is None
+    with factory() as db:
+        assert db.query(AiAnswerReport).filter_by(user_id=1).count() == 0
+        assert db.query(UserLessonProgress).filter_by(user_id=1).count() == 0
+        assert db.query(AiAnswerReport).filter_by(user_id=2).count() == 1
+        assert db.query(UserLessonProgress).filter_by(user_id=2).one().xp_earned == 160

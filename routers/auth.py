@@ -324,6 +324,7 @@ def get_profile(user_id: int = Depends(verify_user_access)):
     user.pop("password", None)
     if user.get("oauth_provider") == ilm_access.PROVIDER:
         user["email"] = ""
+        user.pop("oauth_provider_id", None)
     user["user_id"] = user["id"]  # Additive alias used by the mobile DTO.
     # A user must pick a name + age right after Google sign-in; until then age is null.
     user["needs_onboarding"] = user.get("age") is None
@@ -334,10 +335,17 @@ def get_profile(user_id: int = Depends(verify_user_access)):
 async def ilm_access_endpoint(request: Request, db=Depends(get_db)):
     if not ilm_access.qa_allowed(request, db):
         raise HTTPException(404, "not_found")
-    data = await ilm_access.read_request(request, {"key", "mode"})
-    if data["mode"] not in ("create", "login"):
+    data = await ilm_access.read_request(request, {"key", "mode"}, {"recovery_key", "next_recovery_key"})
+    if data["mode"] == "recover" and {"recovery_key", "next_recovery_key"} <= data.keys():
+        return await run_in_threadpool(
+            ilm_access.recover, db, data["key"], data["recovery_key"], data["next_recovery_key"]
+        )
+    if data["mode"] not in ("create", "login") or "next_recovery_key" in data:
         raise HTTPException(400, "invalid_ilm_access_request")
-    return await run_in_threadpool(ilm_access.authenticate, db, data["key"], create=data["mode"] == "create")
+    return await run_in_threadpool(
+        ilm_access.authenticate, db, data["key"], create=data["mode"] == "create",
+        recovery_key=data.get("recovery_key"),
+    )
 
 
 class OnboardingRequest(BaseModel):

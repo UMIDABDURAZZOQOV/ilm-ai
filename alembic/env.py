@@ -13,6 +13,7 @@ from services.world_history_models import WorldHistoryBase
 from services.uzbekistan_history_models import HistoryBase
 from services.account_models import AccountBase
 from services.deletion_reauth_models import ReauthBase
+from services.ai_answer_report_models import AnswerReportBase
 
 load_dotenv()
 
@@ -25,7 +26,8 @@ fileConfig(config.config_file_name)
 
 # Provide the metadata for 'autogenerate'
 target_metadata = [Base.metadata, AssessmentBase.metadata, ChemistryBase.metadata,
-                   WorldHistoryBase.metadata, HistoryBase.metadata, AccountBase.metadata, ReauthBase.metadata]
+                   WorldHistoryBase.metadata, HistoryBase.metadata, AccountBase.metadata,
+                   ReauthBase.metadata, AnswerReportBase.metadata]
 
 
 def run_migrations_offline():

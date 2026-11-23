@@ -78,13 +78,15 @@ def active(db, uid):
 
 def fingerprint(user):
     # A later password change or identity relink invalidates an unconsumed proof.
-    from services.ilm_access import PROVIDER
+    from services.ilm_access import PROVIDER, credential_rotated
 
     identity = (
         user.oauth_provider_id if user.oauth_provider == "google" else user.password
     ) or ""
     if user.oauth_provider == PROVIDER:
         identity = user.email
+        if credential_rotated(user.oauth_provider_id):
+            identity += ":" + user.oauth_provider_id.rsplit(":", 1)[1]
     return digest(f"identity:{user.id}:{user.oauth_provider or 'password'}:{identity}")
 
 

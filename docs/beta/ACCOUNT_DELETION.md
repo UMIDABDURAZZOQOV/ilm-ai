@@ -1,5 +1,43 @@
 # Verified account deletion — implementation and deployment gate
 
+## Google reauthentication activation
+
+The production deployment at `e6128d6` advertises account deletion as unavailable.
+Staging passed the strict capability check and completed account deletion with a
+disposable Google profile. The production database already has
+`0018_deletion_reauth` from the approved cutover. Confirm that revision and the
+current production backup before activating deletion.
+
+For the authorized production change, preserve the existing database and OAuth
+identity settings. Record the currently live deploy and the current values of only
+the five deletion variables in the private rollback record.
+
+| Render variable | Value to validate before activation |
+| --- | --- |
+| `ACCOUNT_DELETION_ENABLED` | `true` after the deletion prerequisites pass |
+| `EMAIL_FREE_ACCOUNT_DELETION` | `true` for the Google reauthentication path |
+| `ACCOUNT_DELETION_SECRET` | New private random secret of at least 32 characters |
+| `ACCOUNT_DELETION_POLICY_REFERENCE` | Reference to the approved deletion policy |
+| `ACCOUNT_DELETION_STORAGE_ROOT` | Actual absolute backend working directory with verified cleanup access and storage lifecycle |
+
+Verify that the existing Google client accepts the production HTTPS callback at
+`/auth/google-callback-mobile`. The public readiness check below requires an
+enabled Google reauthentication method and email-free deletion.
+
+```text
+python scripts/mobile_release_preflight.py --origin https://ilm-ai-backend-256x.onrender.com --expected-revision <approved-full-sha> --require-google-account-deletion
+```
+
+With an authorized disposable account, verify Google sign-in, then verify each
+deletion entry on a separate disposable profile. The app and web must reject a
+different Google identity. Record final deletion, invalidation of the prior
+session and clean onboarding after a new sign-in. Capture only sanitized results.
+If activation fails, restore the changed deletion settings and the recorded
+deployment, then recheck readiness. Configuration rollback does not restore a
+deleted account.
+
+## Legacy email verification flow (2026-11-07)
+
 Local implementation, 2026-11-07. **Not enabled on production or the running
 8930 Beta. No real account has been deleted for testing.**
 

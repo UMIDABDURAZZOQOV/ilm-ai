@@ -6,15 +6,16 @@ import hashlib
 import hmac
 import json
 import os
+import secrets
 from pathlib import Path
 from urllib.parse import urlsplit
 
 from fastapi import HTTPException, Request
-from sqlalchemy import select
+from sqlalchemy import delete, or_, select, update
 from sqlalchemy.exc import IntegrityError
 
 from services import tokens, users
-from services.models import User
+from services.models import RefreshToken, User
 
 
 PROVIDER = "ilm_access_key"
@@ -50,7 +51,7 @@ def qa_allowed(request: Request, db) -> bool:
     )
 
 
-async def read_request(request: Request, fields: set[str]):
+async def read_request(request: Request, fields: set[str], optional_fields: set[str] | frozenset[str] = frozenset()):
     if request.headers.get("content-type", "").split(";", 1)[0].strip().lower() != "application/json":
         raise HTTPException(415, "application_json_required")
     raw = bytearray()
@@ -62,23 +63,39 @@ async def read_request(request: Request, fields: set[str]):
         data = json.loads(raw)
     except (ValueError, RecursionError):
         raise HTTPException(400, "invalid_ilm_access_request") from None
-    if not isinstance(data, dict) or set(data) != fields or not isinstance(data["key"], str):
+    if (not isinstance(data, dict) or not fields <= data.keys() <= fields | optional_fields
+            or not all(isinstance(value, str) for value in data.values())):
         raise HTTPException(400, "invalid_ilm_access_request")
     return data
 
 
-def alias_for_key(key: str) -> str | None:
-    if not key.startswith("ilm1_") or len(key) != 48:
+def key_digest(key: str, prefix: str) -> str | None:
+    if not key.startswith(prefix) or len(key) != len(prefix) + 43:
         return None
-    encoded = key[5:]
+    encoded = key[len(prefix):]
     try:
         raw = base64.b64decode(encoded + "=", altchars=b"-_", validate=True)
     except (ValueError, binascii.Error):
         return None
     if len(raw) != 32 or base64.urlsafe_b64encode(raw).decode().rstrip("=") != encoded:
         return None
-    digest = hashlib.sha256(raw).hexdigest()
-    return f"{digest}@{users.ILM_ACCESS_ALIAS_DOMAIN}"
+    return hashlib.sha256(raw).hexdigest()
+
+
+def alias_for_key(key: str) -> str | None:
+    digest = key_digest(key, "ilm1_")
+    return f"{digest}@{users.ILM_ACCESS_ALIAS_DOMAIN}" if digest else None
+
+
+def credential_rotated(owner_marker: str | None) -> bool:
+    return bool(owner_marker and owner_marker.startswith("ilm-rotated:"))
+
+
+def _backup_marker(key: str, alias: str, *, revision: str | None = None) -> str:
+    digest = key_digest(key, "ilmr1_")
+    if digest is None or alias.startswith(digest + "@"):
+        raise HTTPException(400, "invalid_ilm_recovery_key")
+    return "ilm-backup:" + digest if revision is None else f"ilm-rotated:{digest}:{revision}"
 
 
 def matches(user: User, key: str) -> bool:
@@ -89,7 +106,21 @@ def matches(user: User, key: str) -> bool:
     )
 
 
-def authenticate(db, key: str, *, create: bool):
+def _session(db, user_id: int, name: str, age: int | None, alias: str, marker: str | None):
+    binding = tokens.ilm_credential_binding(alias, marker)
+    payload = {
+        "user_id": user_id,
+        "name": name,
+        "email": "",
+        "needs_onboarding": age is None,
+        "access_token": tokens.create_access_token(user_id, ilm_binding=binding),
+        "refresh_token": tokens.stage_refresh_token(db, user_id, ilm_binding=binding),
+    }
+    db.commit()
+    return payload
+
+
+def authenticate(db, key: str, *, create: bool, recovery_key: str | None = None):
     identity = alias_for_key(key)
     if identity is None:
         raise HTTPException(400, "invalid_ilm_access_key")
@@ -109,13 +140,53 @@ def authenticate(db, key: str, *, create: bool):
     if user is None or user.oauth_provider != PROVIDER:
         raise HTTPException(401, "invalid_ilm_access_key")
 
-    payload = {
-        "user_id": user.id,
-        "name": user.name,
-        "email": "",
-        "needs_onboarding": user.age is None,
-        "access_token": tokens.create_access_token(user.id),
-        "refresh_token": tokens.stage_refresh_token(db, user.id),
-    }
-    db.commit()
-    return payload
+    marker = user.oauth_provider_id
+    if recovery_key is not None:
+        revision = marker.rsplit(":", 1)[1] if credential_rotated(marker) else None
+        marker = _backup_marker(recovery_key, identity, revision=revision)
+        if create and user.oauth_provider_id not in (None, marker):
+            raise HTTPException(409, "ilm_backup_already_configured")
+        # SQLite does not enforce SELECT FOR UPDATE. Compare the old marker and
+        # alias in the update so late enrollment cannot overwrite a recovery.
+        configured = db.execute(
+            update(User).where(User.id == user.id, User.oauth_provider == PROVIDER,
+                               User.email == identity, User.oauth_provider_id == user.oauth_provider_id)
+            .values(oauth_provider_id=marker)
+        )
+        if configured.rowcount != 1:
+            raise HTTPException(409, "ilm_credentials_changed")
+    return _session(db, user.id, user.name, user.age, identity, marker)
+
+
+def recover(db, key: str, recovery_key: str, next_recovery_key: str):
+    new_alias = alias_for_key(key)
+    old_digest = key_digest(recovery_key, "ilmr1_")
+    if new_alias is None or old_digest is None or new_alias.startswith(old_digest + "@") or recovery_key == next_recovery_key:
+        raise HTTPException(400, "invalid_ilm_recovery_key")
+    next_marker = _backup_marker(next_recovery_key, new_alias, revision=secrets.token_hex(16))
+    owners = db.execute(
+        select(User.id, User.name, User.age, User.email, User.oauth_provider_id)
+        .where(User.oauth_provider == PROVIDER,
+               or_(User.oauth_provider_id == "ilm-backup:" + old_digest,
+                   User.oauth_provider_id.startswith(f"ilm-rotated:{old_digest}:")))
+        .limit(2)
+    ).all()
+    if len(owners) != 1:
+        raise HTTPException(401, "invalid_ilm_recovery_key")
+    uid, name, age, old_alias, old_marker = owners[0]
+    if (new_alias == old_alias
+            or old_alias.startswith(next_marker.split(":")[1] + "@")):
+        raise HTTPException(400, "invalid_ilm_recovery_key")
+    try:
+        changed = db.execute(
+            update(User).where(User.id == uid, User.oauth_provider == PROVIDER,
+                               User.email == old_alias, User.oauth_provider_id == old_marker)
+            .values(email=new_alias, oauth_provider_id=next_marker)
+        )
+    except IntegrityError:
+        db.rollback()
+        raise HTTPException(409, "ilm_replacement_key_in_use") from None
+    if changed.rowcount != 1:
+        raise HTTPException(401, "invalid_ilm_recovery_key")
+    db.execute(delete(RefreshToken).where(RefreshToken.user_id == uid))
+    return _session(db, uid, name, age, new_alias, next_marker)
