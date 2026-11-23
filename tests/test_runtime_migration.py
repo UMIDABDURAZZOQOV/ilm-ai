@@ -224,7 +224,14 @@ def assert_production_entrypoint_contract(engine, uid):
                 (Path(__file__).parent / "fixtures/production_legacy_routes_20261107.json")
                 .read_text(encoding="utf8")
             )
-            assert set(fixture["method_paths"]) <= actual
+            # The historical inventory includes a temporary operator diagnostic
+            # deliberately retired in 7258bfe. Keep the captured inventory intact.
+            legacy = set(fixture["method_paths"])
+            retired = "GET /auth/_diag/email"
+            assert retired in legacy
+            assert legacy - {retired} <= actual
+            assert retired not in actual
+            assert client.get("/auth/_diag/email").status_code == 404
             health = client.get("/health")
             assert health.status_code == 200
             assert health.json() == dict(status="ok", revision=revision, mobile_contract_version=2)

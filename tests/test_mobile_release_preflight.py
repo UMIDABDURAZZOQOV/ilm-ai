@@ -6,6 +6,40 @@ import requests
 from scripts.mobile_release_preflight import SUBJECTS, check, origin
 
 
+@pytest.mark.parametrize("fault", [
+    None, "missing_lesson", "short_summary", "wrong_grade", "duplicate_grade",
+    "duplicate_subject", "no_availability",
+])
+def test_release_103_checks_the_reviewed_counts_in_both_views(fault):
+    counts = dict(biologiya=406, fizika=316, kimyo=268, jahon_tarixi=219, ozbekiston_tarixi=172)
+
+    def get(url, **kwargs):
+        if url.endswith("/subjects"):
+            rows = [dict(slug=s, available=True, grades=[7, 8], ready_lessons=n)
+                    for s, n in counts.items()]
+            if fault == "duplicate_subject":
+                rows.append(rows[0].copy())
+            if fault == "no_availability":
+                del rows[0]["available"]
+            if fault == "short_summary":
+                rows[0]["ready_lessons"] -= 1
+            return response(200, rows)
+        if url.endswith("/grades"):
+            slug = url.split("/")[-2]
+            grades = [dict(grade=7, ready_lessons=1), dict(grade=8, ready_lessons=counts[slug]-1)]
+            if slug == "biologiya":
+                if fault == "wrong_grade":
+                    grades[1]["grade"] = 9
+                if fault == "duplicate_grade":
+                    grades[1]["grade"] = 7
+                if fault == "missing_lesson":
+                    grades[1]["ready_lessons"] -= 1
+            return response(200, {"grades": grades})
+        return good_get(url, **kwargs)
+
+    assert check("https://example.test", get, require_103_publication=True)["contract_ready"] is (fault is None)
+
+
 @pytest.mark.parametrize(
     "value",
     [

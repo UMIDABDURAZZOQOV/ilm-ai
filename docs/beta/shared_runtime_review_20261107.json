@@ -27,13 +27,12 @@
       "original_baselines": {
         "world_history": "ad85243481330cbd5070d7bda3968f2f4b5c5a578a743b38c64f4cbd602f6332"
       },
-      "current_lf_sha256": "333c912039c4781ad90833a7662c9fd3d91a4c6fd453a9525bcc916697c8a92d",
-      "reviewed_source_commit": "1ae74cb84780411fe66662e18706a8142d5c5b1f",
-      "reason": "Owner-requested optional NVIDIA text explanation integration. Only adds configure_from_environment startup after unchanged mandatory reviewed-source warmup; no network in startup, grading, XP, data schema, provider identity or original subject/source content mutation. Exact existing main bytes are recovered by removing this single hook. Tests preserve source-first/fail-closed order and reject later unknown changes.",
-      "previous_integration_lf_sha256": "9a62617c3130674647acb4ecacf7487ed956155e90cf0da3ac33047ea96f39db",
-      "previous_review_manifest_lf_sha256": "2f88baa8fa73a3eb1d2afc97e86d547c0ae2bdcdf05312b631526ebc8a21a08b",
-      "previous_reviewed_source_commit": "719ef74430dd67fb91fc3cb8ad5a614b9fc45d70",
-      "review_record": "docs/beta/NVIDIA_RUNTIME_REVIEW_20261113.md"
+      "current_lf_sha256": "b55b291472f9ac5f259ab1bfc77bb718f98ac04774ef9df1b38986936f15abe9",
+      "reviewed_source_commit": "edaade728587ea9849487219643203381d55983e",
+      "reason": "Reviewed the complete main.py diff from 1ae74cb. Only the optional provider setup catches ValueError and OSError, resets the provider and logs a fixed diagnostic. Mandatory source validation, routers, lesson grading and XP are unchanged.",
+      "previous_integration_lf_sha256": "333c912039c4781ad90833a7662c9fd3d91a4c6fd453a9525bcc916697c8a92d",
+      "previous_review_manifest_lf_sha256": "cbc17d4bc25d7f21ff2ebc0468ade6ad7d44f2b954c4541d9ec928b4424120af",
+      "previous_reviewed_source_commit": "1ae74cb84780411fe66662e18706a8142d5c5b1f"
     },
     {
       "path": "services/assessment_runtime.py",

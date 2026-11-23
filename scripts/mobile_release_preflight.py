@@ -15,6 +15,11 @@ import requests
 
 
 SUBJECTS = {"biologiya", "fizika", "kimyo", "ozbekiston_tarixi", "jahon_tarixi"}
+# Reviewed 1.0.3 publication, including the legacy Biology curriculum.
+RELEASE_103_LESSONS = {
+    "biologiya": 406, "fizika": 316, "kimyo": 268,
+    "jahon_tarixi": 219, "ozbekiston_tarixi": 172,
+}
 
 
 def origin(value):
@@ -47,6 +52,7 @@ def check(
     require_release_operations=False,
     require_google_account_deletion=False,
     require_ai_reporting=False,
+    require_103_publication=False,
 ):
     if expected_revision is not None and not re.fullmatch(
         r"[0-9a-f]{40}", expected_revision
@@ -135,43 +141,64 @@ def check(
         ),
     )
 
+    listed_grades = {}
+
     def catalogue(data):
         if not isinstance(data, list):
             return False
-        rows = {
-            s["slug"]: s
-            for s in data
-            if isinstance(s, dict) and s.get("slug") in SUBJECTS
-        }
-        return set(rows) == SUBJECTS and all(
-            row.get("available", True) is True
-            and isinstance(row.get("grades"), list)
-            and row["grades"]
-            and all(type(g) is int and 5 <= g <= 11 for g in row["grades"])
-            for row in rows.values()
-        )
+        for row in data:
+            if not isinstance(row, dict) or row.get("slug") not in SUBJECTS:
+                continue
+            slug = row["slug"]
+            grades = row.get("grades")
+            if (slug in listed_grades or row.get("available") is not True
+                    or not isinstance(grades, list) or not grades
+                    or not all(type(g) is int and 5 <= g <= 11 for g in grades)
+                    or len(set(grades)) != len(grades)):
+                return False
+            if require_103_publication and (
+                type(row.get("ready_lessons")) is not int
+                or row["ready_lessons"] != RELEASE_103_LESSONS[slug]
+            ):
+                return False
+            listed_grades[slug] = set(grades)
+        return set(listed_grades) == SUBJECTS
 
     probe("five_subject_mobile_catalogue", "/mobile/skills/subjects", catalogue)
+    observed_counts = {}
+
+    def verify_grades(slug, data):
+        if not isinstance(data, dict):
+            return False
+        grades = data.get("grades")
+        if not isinstance(grades, list) or not grades or not all(
+            isinstance(row, dict)
+            and type(row.get("grade")) is int and 5 <= row["grade"] <= 11
+            and type(row.get("ready_lessons")) is int and row["ready_lessons"] > 0
+            for row in grades
+        ):
+            return False
+        if not require_103_publication:
+            return True
+        total = sum(row["ready_lessons"] for row in grades)
+        observed_counts[slug] = total
+        unique_grades = {row["grade"] for row in grades}
+        return (
+            len(unique_grades) == len(grades)
+            and unique_grades == listed_grades.get(slug)
+            and total == RELEASE_103_LESSONS[slug]
+        )
+
     # Verify read-only grade availability across the full range. Never ask for
     # personal tree/profile/progress endpoints without an owned test identity.
     for slug in sorted(SUBJECTS):
         probe(
             "grades_" + slug,
             "/mobile/skills/subjects/" + slug + "/grades",
-            lambda d: (
-                isinstance(d, dict)
-                and isinstance(d.get("grades"), list)
-                and bool(d["grades"])
-                and all(
-                    isinstance(g, dict)
-                    and type(g.get("grade")) is int
-                    and 5 <= g["grade"] <= 11
-                    and type(g.get("ready_lessons")) is int
-                    and g["ready_lessons"] > 0
-                    for g in d["grades"]
-                )
-            ),
+            lambda data, subject=slug: verify_grades(subject, data),
         )
+    if require_103_publication:
+        report["observed_grade_lesson_counts"] = observed_counts
     if require_release_operations or require_google_account_deletion:
         def deletion_available(data):
             if (
@@ -224,6 +251,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--origin", required=True)
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--require-103-publication", action="store_true",
+                        help="Verify all 1,381 reviewed 1.0.3 lessons in both catalogue views")
     parser.add_argument(
         "--expected-revision",
         help="Require the exact approved40-character deployed SHA and mobile contract2",
@@ -249,6 +278,7 @@ def main():
             require_release_operations=args.require_release_operations,
             require_google_account_deletion=args.require_google_account_deletion,
             require_ai_reporting=args.require_ai_reporting,
+            require_103_publication=args.require_103_publication,
         )
     except ValueError as error:
         # Fixed validation messages only; never echo a malformed URL/credential.
