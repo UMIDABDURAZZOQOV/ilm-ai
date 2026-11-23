@@ -1,6 +1,7 @@
 'use strict';
 const el=id=>document.getElementById(id);
 let proof=null, busy=false, available=false, googleAvailable=false, accessKeyAvailable=false;
+let identityRevision=0;
 const status=message=>{el('status').textContent=message;};
 function updateButtons(){
   document.querySelectorAll('button').forEach(button=>{
@@ -19,7 +20,24 @@ async function api(path,body){
     return await response.json();
   }finally{clearTimeout(timer);}
 }
-function acceptProof(data){
+function clearConfirmation(){
+  identityRevision++;
+  proof=null;
+  el('confirm-form').hidden=true;
+  el('confirmation').value='';
+}
+window.addEventListener('pagehide',clearConfirmation);
+for(const id of ['email','password','access-key']){
+  el(id).addEventListener('input',clearConfirmation);
+}
+async function verifyAccount(path,body){
+  clearConfirmation();
+  const revision=identityRevision;
+  const data=await api(path,body);
+  if(revision!==identityRevision){
+    status('Akkauntni qayta tasdiqlang.');
+    return;
+  }
   if(typeof data.request_id!=='string'||!/^daw_[A-Za-z0-9_-]{39}$/.test(data.request_id)||
      typeof data.proof!=='string'||!/^[A-Za-z0-9_-]{43}$/.test(data.proof)||data.expires_in_seconds!==300)
     throw new Error('Xizmat javobi tasdiqlanmadi.');
@@ -37,6 +55,7 @@ async function perform(action){
 }
 function b64(bytes){return btoa(String.fromCharCode(...bytes)).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');}
 el('google-button').addEventListener('click',()=>perform(async()=>{
+  clearConfirmation();
   const verifier=b64(crypto.getRandomValues(new Uint8Array(48)));
   const challenge=b64(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(verifier))));
   const data=await api('/account/deletion/web/google',{code_challenge:challenge});
@@ -49,7 +68,7 @@ el('google-button').addEventListener('click',()=>perform(async()=>{
 }));
 el('password-form').addEventListener('submit',event=>{
   event.preventDefault();perform(async()=>{
-    try{acceptProof(await api('/account/deletion/web/password',{email:el('email').value.trim(),password:el('password').value}));}
+    try{await verifyAccount('/account/deletion/web/password',{email:el('email').value.trim(),password:el('password').value});}
     finally{el('password').value='';}
   });
 });
@@ -57,7 +76,7 @@ el('access-key-form').addEventListener('submit',event=>{
   event.preventDefault();
   if(!accessKeyAvailable)return;
   perform(async()=>{
-    try{acceptProof(await api('/account/deletion/web/access-key',{key:el('access-key').value.trim()}));}
+    try{await verifyAccount('/account/deletion/web/access-key',{key:el('access-key').value.trim()});}
     finally{el('access-key').value='';}
   });
 });
@@ -68,14 +87,15 @@ el('confirm-form').addEventListener('submit',event=>{
     if(!['deleted','pending_cleanup','retention_review'].includes(result.state)||
         result.account_revoked!==(result.state!=='retention_review'))throw new Error('O‘chirish natijasi tasdiqlanmadi.');
     if(result.state==='deleted'){
-      status('Akkaunt va unga tegishli ma’lumotlar o‘chirildi.');proof=null;
-      el('confirm-form').hidden=true;el('password-form').reset();
+      status('Akkaunt va unga tegishli ma’lumotlar o‘chirildi.');
+      clearConfirmation();el('password-form').reset();
     }else if(result.state==='pending_cleanup')status('Akkaunt yopildi. Fayllarni tozalash hali tugamadi; shu tasdiq bilan qayta tekshirishingiz mumkin.');
     else status('So‘rov moliyaviy saqlash tekshiruviga yuborildi; akkaunt hali o‘chirilmagan.');
   });
 });
 el('manual-form').addEventListener('submit',event=>{
   event.preventDefault();perform(async()=>{
+    clearConfirmation();
     const result=await api('/account/deletion/manual-request',{
       account_email:el('account-email').value.trim(),contact_email:el('contact-email').value.trim(),reason:el('reason').value.trim()});
     if(result.state!=='pending_identity_review'||result.account_deleted!==false||
@@ -101,7 +121,7 @@ el('manual-form').addEventListener('submit',event=>{
       if(!googleAvailable||!saved||Date.now()>saved.expires||callback.getAll('state').length!==1||callback.get('state')!==saved.state||
          callback.has('error')||callback.getAll('code').length!==1||!/^[A-Za-z0-9_-]{43}$/.test(callback.get('code')))
         throw new Error('Google qayta tasdiqlashi bajarilmadi; qayta urinib ko‘ring.');
-      await perform(async()=>acceptProof(await api('/account/deletion/reauth/exchange',{code:callback.get('code'),code_verifier:saved.verifier})));
+      await perform(()=>verifyAccount('/account/deletion/reauth/exchange',{code:callback.get('code'),code_verifier:saved.verifier}));
     }
   }catch(error){status(error.message);}
 })();

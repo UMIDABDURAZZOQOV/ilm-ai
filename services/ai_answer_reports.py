@@ -57,9 +57,12 @@ def reportable(reply, uid, capability):
                                            for value in text):
         return reply
     now = datetime.now(timezone.utc)
+    content_digest = _hash(text)
     receipt = jwt.encode({
         "sub": str(uid), "aud": AUDIENCE, "exp": now + timedelta(hours=24),
-        "jti": _hash([uid, surface, request_id]), "digest": _hash(text),
+        # Transport request IDs can recur in another conversation or after a retry.
+        "jti": _hash([uid, surface, reply["subject"], reply.get("conversation_id"),
+                      request_id, model, content_digest]), "digest": content_digest,
         "subject": reply["subject"], "surface": surface, "model": model,
     }, _key(), algorithm="HS256")
     return {**reply, "report_receipt": receipt}

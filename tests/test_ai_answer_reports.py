@@ -83,6 +83,18 @@ def test_rejects_modified_content_different_account_expiry_and_session_tokens(db
     assert db.query(AiAnswerReport).count() == 0
 
 
+@pytest.mark.parametrize("surface", ["subject_chat", "generated_explanation"])
+def test_two_displayed_answers_with_same_transport_id_can_both_be_reported(db, surface):
+    for text in ["The first answer.", "The revised answer.", "The revised answer."]:
+        answer = reply(surface)
+        answer["generation"]["paragraphs"] = [{"text": text}]
+        issued = reports.reportable(answer, 12, "v1")
+        reports.save(db, 12, reports.AnswerReport(receipt=issued["report_receipt"], paragraphs=[text]))
+    assert sorted(row.paragraphs for row in db.query(AiAnswerReport)) == [
+        ["The first answer."], ["The revised answer."],
+    ]
+
+
 def test_account_purge_removes_only_its_reports_and_contact_data_is_redacted(db):
     answer = reply()
     text = "Generated text with contact student@example.invalid."

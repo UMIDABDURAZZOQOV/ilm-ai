@@ -50,6 +50,8 @@ jobs:
           PY
       - name: Import check
         run: python -m compileall -q routers services
+      - name: Account deletion page state transitions
+        run: node --test tests/deletion_page.test.cjs
       - name: Isolated PostgreSQL reliability faults
         timeout-minutes: 5
         run: python -m pytest -q -ra tests/test_reliability_postgres.py --junitxml=ci-reliability-results.xml
