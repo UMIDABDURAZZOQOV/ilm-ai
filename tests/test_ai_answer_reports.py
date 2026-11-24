@@ -115,6 +115,17 @@ def test_unavailable_reviewed_and_legacy_replies_have_no_report_proof():
     assert "report_receipt" not in reports.reportable(reply(), 12, None)
 
 
+def test_ai_report_does_not_store_ilm_login_or_recovery_key(db):
+    login, recovery = (prefix + 'A' * 43 for prefix in ('ilm1_', 'ilmr1_'))
+    shown = f"Modda nima? {login} / {recovery}"
+    answer = reply()
+    answer["generation"]["paragraphs"][0]["text"] = shown
+    receipt = reports.reportable(answer, 12, "v1")["report_receipt"]
+    assert reports.save(db, 12, reports.AnswerReport(receipt=receipt, paragraphs=[shown])) == {"reported": True}
+    stored = db.query(AiAnswerReport).one().paragraphs
+    assert stored == ["Modda nima? [shaxsiy ma’lumot olib tashlandi] / [shaxsiy ma’lumot olib tashlandi]"]
+
+
 def test_deleted_account_cannot_receive_a_report_even_with_direct_database_write(db):
     from services.account_ownership import DELETED_PROVIDER
 

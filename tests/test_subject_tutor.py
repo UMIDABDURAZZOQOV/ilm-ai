@@ -153,6 +153,21 @@ def test_sensitive_input_redacted():
     assert 'test@example.com' not in result and 'AQ.' not in result and 'modda' in result
 
 
+@pytest.mark.parametrize('prefix', ['ilm1_', 'ilmr1_', 'rnd_', 'napi_'])
+def test_chat_does_not_forward_pasted_keys_in_messages_or_history(prefix):
+    example = prefix + 'A' * 43
+    question = f'Modda nima? ({example})'
+    data = context()
+    data.update(message=question, history=[{'role': 'assistant', 'text': question},
+                                          {'role': 'user', 'text': 'NaCl formulasi to‘g‘rimi?'}])
+    payload = json.loads(tutor.provider_payload(data))
+    assert example not in json.dumps(payload)
+    assert payload['message'] == payload['history'][0]['text'] == 'Modda nima? ([shaxsiy ma’lumot olib tashlandi])'
+    assert payload['history'][1] == data['history'][1]
+    assert payload['evidence'][0]['text'] == data['evidence'][0]['text']
+    assert tutor.sanitized(question) == payload['message']
+
+
 def test_question_context_cannot_change_inside_conversation():
     data=request(attempt_id='owned',question_key='first',checked=True)
     row,_=tutor.begin(1,data)

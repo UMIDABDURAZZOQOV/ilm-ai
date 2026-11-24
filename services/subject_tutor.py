@@ -120,9 +120,9 @@ MAX_CONVERSATIONS = 128
 
 
 def sanitized(message):
-    # Input is actually sent to Gemini; redact obvious credentials/contact data
-    # instead of silently dropping the entire question as the old path did.
+    # Preserve the teaching question around pasted credentials or contact details.
     return re.sub(
+        r'ilmr?1_[A-Za-z0-9_-]{43}|(?:rnd_|napi_)[A-Za-z0-9_-]{12,}|'
         r'(?:AIza|AQ\.|nvapi-|GOCSPX-|Bearer\s+)[A-Za-z0-9_.-]{12,}|'
         r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\b\+?\d[\d -]{8,}\d\b',
         '[shaxsiy ma’lumot olib tashlandi]', message, flags=re.I)
@@ -343,7 +343,10 @@ def quote_options(evidence):
 def provider_payload(context):
     if context.get('external_ai_eligible') is not True:
         raise SelectorUnavailable
-    payload = {k:context[k] for k in ('subject','grade','message','history')}
+    payload = dict(subject=context['subject'], grade=context['grade'],
+                   message=sanitized(context['message']),
+                   history=[dict(role=turn['role'], text=sanitized(turn['text']))
+                            for turn in context['history']])
     if context.get('checked_question'):
         payload['checked_question'] = context['checked_question']
     payload['evidence'] = [dict({k:e[k] for k in ('id','text','title')},
@@ -511,7 +514,7 @@ def respond(row, data, context):
             if status not in {'unavailable','audience_unavailable'}:
                 text = '\n\n'.join(p['text'] for p in reply['paragraphs']) or reply['message']
                 row.history = (row.history + [dict(role='user',text=context['message']),
-                                              dict(role='assistant',text=text)])[-6:]
+                                              dict(role='assistant',text=sanitized(text))])[-6:]
                 row.replies[data.request_id] = (context['message'],reply)
                 while len(row.replies) > 4:
                     row.replies.popitem(last=False)
