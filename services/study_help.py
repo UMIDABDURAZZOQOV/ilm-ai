@@ -68,7 +68,8 @@ def configure_from_environment(env=None):
         # An individual adult profile cannot opt ILM AI's mixed audience in.
         # Subclasses (for example the OpenAI adapter) reuse Gemini's prompt
         # plumbing but not Google's terms; block Google's own endpoint only.
-        if isinstance(_provider, GeminiExplanationProvider) and _provider.provider_name == 'gemini' and (
+        if (isinstance(_provider, GeminiExplanationProvider) and _provider.provider_name == 'gemini'
+                and not getattr(_provider, 'owner_accepted_mixed_audience', False)) and (
             env.get('ENVIRONMENT') == 'production' or env.get('DEPLOYMENT_STAGE') == 'staging'
         ):
             configure_provider()

@@ -199,3 +199,38 @@ def test_retry_connect_and_read_fit_remaining_deadline(google_transport, monkeyp
     assert GeminiExplanationProvider(KEY).explain(context())['http_status'] == 200
     connect, read = google_transport.calls[1][1]['timeout']
     assert connect > 0 and read > 0 and connect + read <= 3
+
+
+def owner_accepted_config():
+    data = dict(config(), audience='owner_accepted_mixed_audience')
+    return data
+
+
+@pytest.mark.parametrize('deployment', [{'ENVIRONMENT': 'production'}, {'DEPLOYMENT_STAGE': 'staging'}])
+def test_owner_accepted_audience_runs_hosted_for_all_recorded_ages(tmp_path, monkeypatch, deployment):
+    path = tmp_path / 'gemini.private.json'
+    path.write_text(json.dumps(owner_accepted_config()), encoding='utf-8')
+    monkeypatch.setattr(study_help, '_provider', None)
+    study_help.configure_from_environment({**deployment, 'STUDY_HELP_CONFIG_FILE': str(path)})
+    assert type(study_help._provider) is GeminiExplanationProvider
+
+    class User:
+        age = 11
+
+    class DB:
+        def get(self, model, uid):
+            return User()
+    ctx = {}
+    study_help.attach_provider_eligibility(DB(), 1, ctx)
+    assert ctx['external_ai_eligible'] is True
+    User.age = None
+    ctx = {}
+    study_help.attach_provider_eligibility(DB(), 1, ctx)
+    assert ctx['external_ai_eligible'] is False
+
+
+def test_owner_accepted_audience_requires_hosted_usage():
+    data = dict(owner_accepted_config(), usage='internal_evaluation')
+    data['trial_review_reference'] = data.pop('hosted_use_review_reference')
+    with pytest.raises(ValueError):
+        from_reviewed_config(data)

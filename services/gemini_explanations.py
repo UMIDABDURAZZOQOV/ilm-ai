@@ -10,6 +10,8 @@ from services.nvidia_explanations import NvidiaExplanationProvider
 
 GEMINI_MODEL = 'gemini-3.1-flash-lite'
 GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions'
+OWNER_ACCEPTED_AUDIENCE = 'owner_accepted_mixed_audience'
+AUDIENCES = frozenset({'adults_only', OWNER_ACCEPTED_AUDIENCE})
 
 
 class GeminiExplanationProvider(NvidiaExplanationProvider):
@@ -112,7 +114,7 @@ def from_reviewed_config(data):
     if (set(data) != fields or data.get('provider') != 'gemini_explanation'
             or data.get('model') != GEMINI_MODEL
             or usage not in {'internal_evaluation', 'authorized_hosted_application'}
-            or data.get('audience') != 'adults_only' or data.get('free_only') is not True
+            or data.get('audience') not in AUDIENCES or data.get('free_only') is not True
             or not isinstance(data.get('api_key'), str)
             # Both standard and authorization keys exist. Syntax is not proof
             # of validity, free-tier eligibility or audience authorization.
@@ -127,4 +129,13 @@ def from_reviewed_config(data):
                 not isinstance(data[name], str) or not data[name].strip()
                 or len(data[name]) > 500):
             raise ValueError('invalid_private_explanation_config')
-    return GeminiExplanationProvider(data['api_key'], usage=usage)
+    provider = GeminiExplanationProvider(data['api_key'], usage=usage)
+    if data['audience'] == OWNER_ACCEPTED_AUDIENCE:
+        if usage != 'authorized_hosted_application':
+            raise ValueError('invalid_private_explanation_config')
+        # The owner explicitly accepted Google's audience terms risk for the
+        # school app (2026-11-25). Any learner with a recorded age may use the
+        # source-bound tutor; grounding, subject scope and quotas are unchanged.
+        provider.minimum_age = 1
+        provider.owner_accepted_mixed_audience = True
+    return provider
