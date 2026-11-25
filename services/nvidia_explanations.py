@@ -227,8 +227,14 @@ class NvidiaExplanationProvider(EvidenceSelector):
     def format_retry_instruction(self, raw, context):
         return None
 
-    def model_matches(self, returned):
-        return returned == self.explanation_model
+    # Optional second model for the existing second attempt after an upstream
+    # 5xx/timeout (e.g. "high demand"). Same key, quota and total deadline.
+    fallback_models = ()
+    # Per-model request differences, e.g. a fallback that must not "think".
+    model_overrides = {}
+
+    def model_matches(self, returned, requested=None):
+        return returned == (requested or self.explanation_model)
 
     def generation_options(self, context):
         return self.request_options
@@ -238,7 +244,13 @@ class NvidiaExplanationProvider(EvidenceSelector):
             {"role": "system", "content": self.system_prompt(context) + self.system_suffix}, {"role": "user", "content": body}],
             **self.generation_options(context)}
         deadline = time.monotonic() + 16
+        fallback = False
         for attempt in range(2):
+            # Only an upstream availability failure switches models; a format
+            # repair retry keeps the model that produced the rejected answer.
+            model = (self.fallback_models[0] if fallback and self.fallback_models
+                     else self.explanation_model)
+            request = dict(payload, model=model, **self.model_overrides.get(model, {}))
             remaining = deadline - time.monotonic()
             if remaining <= 0:
                 raise SelectorUnavailable
@@ -255,7 +267,7 @@ class NvidiaExplanationProvider(EvidenceSelector):
             try:
                 with requests.Session() as session:
                     session.trust_env = False
-                    with session.post(self.explanation_url, json=payload,
+                    with session.post(self.explanation_url, json=request,
                                       headers={"Authorization": "Bearer " + self._keys[0]},
                                       timeout=(connect_timeout, read_timeout),
                                       allow_redirects=False, stream=True) as response:
@@ -263,6 +275,11 @@ class NvidiaExplanationProvider(EvidenceSelector):
                         if status != 200:
                             logger.warning('study_help_provider_response provider=%s status=%d', self.provider_name, status)
                             retry = response.headers.get("Retry-After") or response.headers.get("retry-after")
+                            if attempt == 0 and 500 <= status <= 599 and self.fallback_models:
+                                # A busy primary model ("high demand") is not
+                                # a provider-wide pause; try the fallback model.
+                                fallback = True
+                                continue
                             with self._lock:
                                 if status == 401:
                                     self._disabled.add(0)
@@ -273,6 +290,7 @@ class NvidiaExplanationProvider(EvidenceSelector):
                                     self._paused_until = max(self._paused_until, self._clock() + max(
                                         60, _retry_after(SimpleNamespace(response=response))))
                             if attempt == 0 and 500 <= status <= 599 and not retry:
+                                fallback = True
                                 continue
                             raise SelectorUnavailable
                         chunks, size = [], 0
@@ -285,7 +303,7 @@ class NvidiaExplanationProvider(EvidenceSelector):
                         envelope = _json(b"".join(chunks))
                 stage = 'envelope'
                 if not isinstance(envelope, dict) or envelope.get("error") or (
-                        not self.model_matches(envelope.get("model"))):
+                        not self.model_matches(envelope.get("model"), model)):
                     raise SelectorUnavailable
                 choices = envelope.get("choices")
                 if not isinstance(choices, list) or len(choices) != 1:
@@ -309,7 +327,7 @@ class NvidiaExplanationProvider(EvidenceSelector):
                         payload['messages'][0]['content'] += instruction
                         continue
                     raise
-                return {"provider": self.provider_name, "model": self.explanation_model,
+                return {"provider": self.provider_name, "model": model,
                         "usage": self.usage,
                         "request_id": uuid4().hex, "http_status": 200,
                         "request_sha256": hashlib.sha256(body.encode("utf-8")).hexdigest(),
@@ -320,11 +338,13 @@ class NvidiaExplanationProvider(EvidenceSelector):
                 # A transient timeout can recover on the same key. Use only
                 # the existing second attempt and remaining total budget.
                 if attempt == 0 and deadline - time.monotonic() >= 3:
+                    fallback = True
                     continue
                 raise SelectorUnavailable from None
             except requests.ConnectionError:
                 logger.warning('study_help_provider_failure provider=%s stage=connection', self.provider_name)
                 if attempt == 0:
+                    fallback = True
                     continue
                 raise SelectorUnavailable from None
             except Exception:

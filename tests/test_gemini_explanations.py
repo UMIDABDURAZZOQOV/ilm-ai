@@ -172,6 +172,8 @@ def test_transient_timeout_recovers_once_on_same_key(google_transport):
         attempts.append(1)
         google_transport.exception = requests.Timeout('synthetic') if len(attempts) == 1 else None
     google_transport.observe = transient
+    # The recovered second attempt is served by the fallback model.
+    google_transport.envelope_change = {'model': 'gemini-2.5-flash'}
     assert GeminiExplanationProvider(KEY).explain(context())['http_status'] == 200
     assert len(google_transport.calls) == 2
     assert all(call[1]['headers']['Authorization'] == 'Bearer ' + KEY for call in google_transport.calls)
@@ -196,6 +198,7 @@ def test_retry_connect_and_read_fit_remaining_deadline(google_transport, monkeyp
     monkeypatch.setattr(nvidia_explanations.time, 'monotonic', lambda: clock[0])
     google_transport.statuses = [503, 200]
     google_transport.observe = lambda: clock.__setitem__(0, 113.0)
+    google_transport.envelope_change = {'model': 'gemini-2.5-flash'}
     assert GeminiExplanationProvider(KEY).explain(context())['http_status'] == 200
     connect, read = google_transport.calls[1][1]['timeout']
     assert connect > 0 and read > 0 and connect + read <= 3
@@ -234,3 +237,22 @@ def test_owner_accepted_audience_requires_hosted_usage():
     data['trial_review_reference'] = data.pop('hosted_use_review_reference')
     with pytest.raises(ValueError):
         from_reviewed_config(data)
+
+
+def test_second_attempt_uses_fallback_model_after_high_demand(google_transport):
+    google_transport.statuses = [503, 200]
+    google_transport.envelope_change = {'model': 'gemini-2.5-flash'}
+    result = GeminiExplanationProvider(KEY).explain(dict(context(), subject='kimyo', is_correct=False))
+    assert [call[1]['json']['model'] for call in google_transport.calls] == [GEMINI_MODEL, 'gemini-2.5-flash']
+    assert result['model'] == 'gemini-2.5-flash'
+    assert google_transport.calls[1][1]['json']['reasoning_effort'] == 'none'
+    assert google_transport.calls[0][1]['json']['reasoning_effort'] == 'minimal'
+
+
+def test_busy_primary_with_retry_after_still_tries_fallback(google_transport):
+    google_transport.statuses = [503, 200]
+    google_transport.headers = {'Retry-After': '30'}
+    google_transport.envelope_change = {'model': 'gemini-2.5-flash'}
+    provider = GeminiExplanationProvider(KEY)
+    assert provider.explain(dict(context(), subject='kimyo', is_correct=True))['model'] == 'gemini-2.5-flash'
+    assert provider._paused_until == 0 or provider._paused_until <= provider._clock()

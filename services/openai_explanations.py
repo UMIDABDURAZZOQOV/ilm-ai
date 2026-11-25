@@ -21,6 +21,7 @@ class OpenAIExplanationProvider(GeminiExplanationProvider):
     explanation_url = OPENAI_URL
     requires_adult_profile = True  # keep the age gate on; the age is MINIMUM_AGE
     minimum_age = MINIMUM_AGE
+    fallback_models = ()  # never fall back to a Google model
     read_timeout_seconds = 12
     # store=False: requests are not kept for OpenAI's stored-completions
     # features. No tools, no web search, JSON-only output.
@@ -31,11 +32,12 @@ class OpenAIExplanationProvider(GeminiExplanationProvider):
         self.explanation_model = model
         super().__init__(key, usage=usage, **kwargs)
 
-    def model_matches(self, returned):
+    def model_matches(self, returned, requested=None):
         # OpenAI answers with a dated snapshot, e.g. gpt-4.1-mini-2025-04-14.
+        model = requested or self.explanation_model
         return isinstance(returned, str) and (
-            returned == self.explanation_model
-            or re.fullmatch(re.escape(self.explanation_model) + r'-\d{4}-\d{2}-\d{2}', returned) is not None)
+            returned == model
+            or re.fullmatch(re.escape(model) + r'-\d{4}-\d{2}-\d{2}', returned) is not None)
 
 
 def from_reviewed_config(data):

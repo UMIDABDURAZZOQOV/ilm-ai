@@ -399,6 +399,12 @@ def render_quote_slots(paragraphs, context):
                     re.escape(duplicate) + r'\s+(?=' + re.escape(quote['text']) + ')',
                     '', item['text'])
                 item['text'] = item['text'].replace(marker, quote['text'])
+                # The model may also state the quoted sentence verbatim right
+                # before the «quote». Keep the cited quote, drop the identical
+                # sentence immediately preceding it (exact text only).
+                item['text'] = re.sub(
+                    re.escape(quote['text']) + r'\s*(?=«' + re.escape(quote['text']) + '»)',
+                    '', item['text'])
             if '{{quote:' in item['text']:
                 raise SelectorUnavailable
     return paragraphs

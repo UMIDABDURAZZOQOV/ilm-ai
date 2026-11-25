@@ -19,6 +19,11 @@ class GeminiExplanationProvider(NvidiaExplanationProvider):
 
     provider_name = 'gemini'
     explanation_model = GEMINI_MODEL
+    # gemini-3.1-flash-lite intermittently answers 503 "high demand".
+    fallback_models = ('gemini-2.5-flash',)
+    # 2.5-flash spends tokens on thinking even at "minimal" and then stops
+    # with finish_reason=length; "none" disables thinking for this model.
+    model_overrides = {'gemini-2.5-flash': {'reasoning_effort': 'none'}}
     explanation_url = GEMINI_URL
     capabilities = frozenset({'reviewed-text-v2'})
     read_timeout_seconds = 12

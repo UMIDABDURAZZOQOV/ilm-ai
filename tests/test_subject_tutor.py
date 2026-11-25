@@ -377,3 +377,11 @@ def test_followup_retrieval_uses_prior_turn_without_other_subject(monkeypatch):
     result=tutor.retrieve(None,1,data,row)
     assert calls==['kimyo'] and result['evidence'][0]['lesson_key']=='first'
     assert result['message']==data.message
+
+
+def test_sentence_repeated_right_before_its_quote_is_dropped():
+    value = plan(context())
+    quote = context()['evidence'][0]['text']
+    value['paragraphs'][0]['text'] = quote + ' «{{quote:0}}» Sodda tushuntirish.'
+    reply = tutor.validate_reply(json.dumps(value), context())
+    assert reply['paragraphs'][0]['text'] == '«' + quote + '» Sodda tushuntirish.'
