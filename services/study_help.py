@@ -66,7 +66,9 @@ def configure_from_environment(env=None):
         from services.nvidia_explanations import NvidiaExplanationProvider
         # AI Studio's audience restriction applies to the whole client app.
         # An individual adult profile cannot opt ILM AI's mixed audience in.
-        if isinstance(_provider, GeminiExplanationProvider) and (
+        # Subclasses (for example the OpenAI adapter) reuse Gemini's prompt
+        # plumbing but not Google's terms; block Google's own endpoint only.
+        if isinstance(_provider, GeminiExplanationProvider) and _provider.provider_name == 'gemini' and (
             env.get('ENVIRONMENT') == 'production' or env.get('DEPLOYMENT_STAGE') == 'staging'
         ):
             configure_provider()
@@ -92,7 +94,8 @@ def attach_provider_eligibility(db, uid, context):
         from services.models import User
         user = db.get(User, uid)
         age = user.age if user else None
-        context['external_ai_eligible'] = type(age) is int and 18 <= age <= 120
+        minimum = getattr(_provider, 'minimum_age', 18)
+        context['external_ai_eligible'] = type(age) is int and minimum <= age <= 120
 
 
 def throttle(uid):

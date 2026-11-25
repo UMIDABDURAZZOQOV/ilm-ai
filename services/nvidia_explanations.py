@@ -227,6 +227,9 @@ class NvidiaExplanationProvider(EvidenceSelector):
     def format_retry_instruction(self, raw, context):
         return None
 
+    def model_matches(self, returned):
+        return returned == self.explanation_model
+
     def generation_options(self, context):
         return self.request_options
 
@@ -282,7 +285,7 @@ class NvidiaExplanationProvider(EvidenceSelector):
                         envelope = _json(b"".join(chunks))
                 stage = 'envelope'
                 if not isinstance(envelope, dict) or envelope.get("error") or (
-                        envelope.get("model") != self.explanation_model):
+                        not self.model_matches(envelope.get("model"))):
                     raise SelectorUnavailable
                 choices = envelope.get("choices")
                 if not isinstance(choices, list) or len(choices) != 1:

@@ -46,6 +46,9 @@ def load_provider(filename):
         if provider == "gemini_explanation":
             from services.gemini_explanations import from_reviewed_config
             return from_reviewed_config(data)
+        if provider == "openai_explanation":
+            from services.openai_explanations import from_reviewed_config
+            return from_reviewed_config(data)
         if provider == "nvidia_explanation":
             from services.nvidia_explanations import from_reviewed_config
             return from_reviewed_config(data)
