@@ -256,3 +256,30 @@ def test_busy_primary_with_retry_after_still_tries_fallback(google_transport):
     provider = GeminiExplanationProvider(KEY)
     assert provider.explain(dict(context(), subject='kimyo', is_correct=True))['model'] == 'gemini-2.5-flash'
     assert provider._paused_until == 0 or provider._paused_until <= provider._clock()
+
+
+def _symlink_or_skip(link, target):
+    import os
+    try:
+        os.symlink(target, link)
+    except (OSError, NotImplementedError):
+        pytest.skip('symlinks unavailable on this host')
+
+
+def test_render_secret_mount_links_are_trusted_only_inside_the_mount(tmp_path, monkeypatch):
+    from services import study_help_provider
+    mount = tmp_path / 'secrets'
+    data = mount / '..data'
+    data.mkdir(parents=True)
+    real = data / 'gemini.private.json'
+    real.write_text(json.dumps(owner_accepted_config()), encoding='utf-8')
+    link = mount / 'gemini.private.json'
+    _symlink_or_skip(link, real)
+    monkeypatch.setattr(study_help_provider, 'RENDER_SECRET_MOUNT', mount.as_posix())
+    assert type(load_provider(link)) is GeminiExplanationProvider
+    outside = tmp_path / 'outside.private.json'
+    outside.write_text(json.dumps(owner_accepted_config()), encoding='utf-8')
+    escape = mount / 'escape.private.json'
+    _symlink_or_skip(escape, outside)
+    with pytest.raises(ValueError, match='symlink_forbidden'):
+        load_provider(escape)

@@ -189,9 +189,26 @@ def lexical_terms(text):
     result = set()
     for word in re.findall(r'[^\W_]{3,}', text):
         if word not in stop:
-            stem = re.sub(r'lar(?:ning|ni|ga|da|dan)?$', '', word)
-            result.add(stem if len(stem) >= 3 else word)
+            result.add(uz_stem(word))
     return result
+
+
+# Common Uzbek case/plural/possessive endings, longest first. Stripping them
+# lets "Xorazmda" meet "Xorazmdagi" and "piramidalari" meet "piramida".
+_UZ_SUFFIXES = ('larining', 'laridagi', 'laridan', 'lariga', 'larini', 'larida',
+                'lardagi', 'lardan', 'larga', 'larni', 'larda', 'laring', 'lari',
+                'ning', 'dagi', 'dan', 'lar', 'ga', 'ka', 'qa', 'da', 'ni', 'si')
+
+
+def uz_stem(word):
+    for _ in range(2):
+        for suffix in _UZ_SUFFIXES:
+            if word.endswith(suffix) and len(word) - len(suffix) >= 4:
+                word = word[:-len(suffix)]
+                break
+        else:
+            break
+    return word
 
 
 @lru_cache(maxsize=1)
@@ -288,11 +305,18 @@ def retrieve(db, uid, data, row):
                     (1 if t in body_terms else .25) for t in query & terms)
         score += 2 * sum(math.log(1+len(chunks)/(1+exact_counts[t]))
                          for t in exact_query & lexical_terms(chunk['text']))
+        # A query word in the lesson title is a strong topical signal; count it
+        # once per lesson rather than once per merged card.
+        score += 1.5 * sum(math.log(1+len(chunks)/(1+exact_counts.get(t, 0)))
+                           for t in exact_query & lexical_terms(chunk['title']))
         score += .2 * len(previous & terms)
         if chunk['lesson_key'] == data.lesson_key:
             score += 2
         if score > 0:
-            score += .2 * (chunk['grade'] == data.grade)
+            # Prefer the learner's own grade; later grades are less likely to
+            # have been studied, earlier grades remain fair background.
+            score *= (1.3 if chunk['grade'] == data.grade
+                      else .7 if chunk['grade'] > data.grade else 1.0)
             ranked.append((score, index, chunk))
     ranked.sort(key=lambda x: (-x[0],x[1]))
     # First cover different lessons, then fill remaining capacity. A chapter

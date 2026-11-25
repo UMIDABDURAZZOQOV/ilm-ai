@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 import json
 import math
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 import threading
 import time
 
@@ -19,11 +19,22 @@ class SelectorUnavailable(Exception):
     """Intentionally contains neither upstream errors nor credentials."""
 
 
+RENDER_SECRET_MOUNT = "/etc/secrets"
+
+
 def load_provider(filename):
     path = Path(filename).absolute()
     checkout = Path(__file__).resolve().parents[1]
+    # Render mounts secret files under /etc/secrets through platform-managed
+    # symlinks (Kubernetes-style ..data links). Trust only that mount, and only
+    # when the link stays inside it; every other symlink is still refused.
+    platform_mount = PurePosixPath(RENDER_SECRET_MOUNT)
+    trusted_mount = (
+        PurePosixPath(path.as_posix()).parent == platform_mount
+        and PurePosixPath(path.resolve(strict=True).as_posix()).is_relative_to(platform_mount)
+    )
     # Check the unresolved path, too: resolve() erases symlink evidence.
-    if any(
+    if not trusted_mount and any(
         p.is_symlink() or bool(getattr(p.lstat(), "st_file_attributes", 0) & 0x400)
         for p in (path, *path.parents)
     ):
