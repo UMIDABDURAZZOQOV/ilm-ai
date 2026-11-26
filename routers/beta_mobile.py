@@ -9,6 +9,7 @@ from sqlalchemy.orm import Session
 from services import beta_curriculum as beta
 from services.auth_deps import get_authenticated_user_id, verify_user_access
 from services.db import get_db
+from services.lab_policy import withholding
 from services.mobile_publication import mobile_publication
 from services.models import User, UserStudyPreferences
 from routers import skills, physics_preview, chemistry_preview, world_history_preview, uzbekistan_history_preview
@@ -54,7 +55,9 @@ def completion_presentation(db, result):
 
 
 def create_router(prefix, db_dependency):
-    router = APIRouter(prefix=prefix, dependencies=[Depends(db_dependency)])
+    # The published app withholds laboratory work in every subject.
+    router = APIRouter(prefix=prefix, dependencies=[
+        Depends(db_dependency), Depends(withholding(db_dependency))])
     DB = Annotated[Session, Depends(db_dependency)]
 
     @router.post('/ai-answer-report')

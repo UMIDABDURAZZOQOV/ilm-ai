@@ -81,7 +81,9 @@ def beta_api(request, tmp_path_factory):
 def test_catalogue_counts_and_grade_filter_are_real(beta_api):
     client,_,_,_=beta_api
     data=client.get('/beta/skills/subjects').json()
-    expected={'biologiya':406,'fizika':316,'kimyo':268,'ozbekiston_tarixi':172,'jahon_tarixi':219}
+    # Laboratory and practical work is withheld (services/lab_policy.py):
+    # Biology 51, Physics 36, Chemistry 64.
+    expected={'biologiya':355,'fizika':280,'kimyo':204,'ozbekiston_tarixi':172,'jahon_tarixi':219}
     assert {s['slug']:s['ready_lessons'] for s in data if s['available']}==expected
     assert {s['slug'] for s in data if not s['available']}=={'matematika','ona_tili'}
     by_grade={5:{'biologiya'},6:{'biologiya','fizika','jahon_tarixi'},7:set(expected),11:set(expected)}
@@ -91,7 +93,7 @@ def test_catalogue_counts_and_grade_filter_are_real(beta_api):
         assert {s['slug'] for s in response.json() if s['available']}==subjects
 
 
-def test_all_1381_units_use_normal_path_and_exact_source_order(beta_api):
+def test_all_1230_units_use_normal_path_and_exact_source_order(beta_api):
     client,_,account,_=beta_api
     total=0
     for subject in client.get('/beta/skills/subjects').json():
@@ -107,13 +109,15 @@ def test_all_1381_units_use_normal_path_and_exact_source_order(beta_api):
             assert len(lessons)==grade['ready_lessons']
             total+=len(lessons)
             if slug!='biologiya':
-                assert [l['order_index'] for l in lessons]==list(range(1,len(lessons)+1))
+                # Source order is kept; withheld laboratory sections leave gaps.
+                order=[l['order_index'] for l in lessons]
+                assert order==sorted(set(order)) and order[0]==1
                 assert len({l['assessment_key'] for l in lessons})==len(lessons)
                 assert all(l['source_refs'] and l['assessment_subject']==slug for l in lessons)
                 assert lessons[0]['status']=='unlocked'
                 assert all(l['status']=='locked' for l in lessons[1:])
                 assert all(u['exam']['status']=='none' for u in tree['units'])
-    assert total==1381
+    assert total==1230
     assert client.get(f"/beta/skills/{account['user_id']}/tree",params={'subject':'fizika','grade':5}).status_code==404
     assert client.get('/beta/skills/subjects/matematika/grades').status_code==404
 
@@ -259,3 +263,57 @@ def test_public_attempt_keeps_every_verified_teaching_section(beta_api):
         for section in ('cards','formulas','examples','reflections'):
             assert attempt['content'][section]==snapshot.get(section,[])
         assert 'grading_spec' not in response.text and '"expected"' not in response.text
+
+
+def test_laboratory_work_is_withheld_and_never_blocks_the_path(beta_api):
+    """Owner decision 2026-11-26: no laboratory or practical work in the app."""
+    from datetime import datetime, timezone
+    from services import beta_curriculum as beta
+    from services.lab_policy import FLAG, withheld_topic_ids
+    client,factory,account,_=beta_api
+    uid=account['user_id']
+    ids=withheld_topic_ids()
+    assert len(ids)==151
+    for slug in ('fizika','kimyo'):
+        runtime,model,progress,_=beta.ADAPTERS[slug]
+        with factory() as db:
+            rows=db.query(model).filter_by(subject=slug).order_by(model.grade,model.sequence).all()
+            # Physics interleaves labs with theory; Chemistry lists them at the
+            # end of each grade, so only Physics has a lesson right after a lab.
+            lab,after=next(((r,n) for r,n in zip(rows,rows[1:]) if r.topic_id in ids
+                            and r.sequence>1 and n.grade==r.grade and n.topic_id not in ids),
+                           (next(r for r in rows if r.topic_id in ids),None))
+            before=[r for r in rows if r.grade==lab.grade and r.sequence<lab.sequence]
+            grade,lab_key,after_key=lab.grade,lab.key,(after.key if after else None)
+            labs_in_grade=sum(r.topic_id in ids for r in rows if r.grade==grade)
+            total_in_grade=sum(1 for r in rows if r.grade==grade)
+            lab_keys={r.key for r in rows if r.topic_id in ids}
+            # Every earlier lesson finished (earlier labs too, as in old progress).
+            for r in before:
+                row=db.get(progress,(uid,r.key)) or progress(user_id=uid,lesson_key=r.key,
+                                                             best_score_pct=100,attempts=1,xp_earned=0)
+                row.completed_at=row.completed_at or datetime.now(timezone.utc)
+                db.add(row)
+            db.commit()
+            preview={l['key']:l['state'] for l in runtime.catalog(db,uid,grade)['lessons']}
+            assert lab_key in preview  # authoring preview unchanged
+            if after_key:
+                assert preview[after_key]=='locked'
+            db.info[FLAG]=True
+            published=runtime.catalog(db,uid,grade)
+            db.info.pop(FLAG)
+        states={l['key']:l['state'] for l in published['lessons']}
+        assert lab_key not in states and not ({l['key'] for l in published['lessons']} & lab_keys)
+        if after_key:
+            assert states[after_key]=='available'
+        tree=client.get(f'/beta/skills/{uid}/tree',params={'subject':slug,'grade':grade}).json()
+        keys={l['assessment_key']:l['status'] for u in tree['units'] for l in u['lessons']}
+        assert lab_key not in keys and (after_key is None or keys[after_key]=='unlocked')
+        grades={g['grade']:g['ready_lessons'] for g in client.get(f'/beta/skills/subjects/{slug}/grades').json()['grades']}
+        assert grades[grade]==total_in_grade-labs_in_grade
+        start=client.post(f'/beta/v2/{slug}/lessons/{lab_key}/start',
+                          json={'assessment_version':2,'request_id':str(uuid4())})
+        assert start.status_code==403,start.text
+    outline=client.get(f'/beta/skills/{uid}/curriculum',params={'subject':'biologiya','grade':10}).json()
+    titles=[t['title_uz'] for c in outline['chapters'] for t in c['topics']]
+    assert titles and not any(w in t.lower() for t in titles for w in ('laboratoriya','amaliy mashg'))

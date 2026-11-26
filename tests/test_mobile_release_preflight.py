@@ -11,7 +11,7 @@ from scripts.mobile_release_preflight import SUBJECTS, check, origin
     "duplicate_subject", "no_availability",
 ])
 def test_release_103_checks_the_reviewed_counts_in_both_views(fault):
-    counts = dict(biologiya=406, fizika=316, kimyo=268, jahon_tarixi=219, ozbekiston_tarixi=172)
+    counts = dict(biologiya=355, fizika=280, kimyo=204, jahon_tarixi=219, ozbekiston_tarixi=172)
 
     def get(url, **kwargs):
         if url.endswith("/subjects"):

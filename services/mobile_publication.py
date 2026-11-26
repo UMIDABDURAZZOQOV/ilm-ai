@@ -20,6 +20,7 @@ from services.models import (
     SkillLesson, SkillMistake, SkillQuestion, SkillSubject, SkillUnit,
 )
 from services.curriculum_validation import load_lesson_set
+from services.lab_policy import WITHHELD_KINDS
 
 
 def published_subjects():
@@ -94,6 +95,8 @@ async def mobile_publication(request: Request, db=Depends(get_db)):
         course.c.status == "mapped", course.c.grade.between(5, 11),
         chapter.c.unit_id == unit.c.id, course.c.subject_id == subject.c.id,
         tuple_(source.c.content_key, source.c.content_sha256).in_(reviewed_content()),
+        # Laboratory work is withheld in every subject (services/lab_policy.py).
+        topic.c.kind.not_in(WITHHELD_KINDS),
     )
     try:
         rows = db.execute(statement).all()
@@ -123,7 +126,10 @@ async def mobile_publication(request: Request, db=Depends(get_db)):
         ), include_aliases=True),
         with_loader_criteria(CurriculumCourse, CurriculumCourse.id.in_(course_ids), include_aliases=True),
         with_loader_criteria(CurriculumChapter, CurriculumChapter.id.in_(chapter_ids), include_aliases=True),
-        with_loader_criteria(CurriculumTopic, CurriculumTopic.chapter_id.in_(chapter_ids), include_aliases=True),
+        # Withheld topics leave the outline too, so they are neither a source gap
+        # that locks later lessons nor an unfinished part of a chapter.
+        with_loader_criteria(CurriculumTopic, CurriculumTopic.chapter_id.in_(chapter_ids)
+                             & CurriculumTopic.kind.not_in(WITHHELD_KINDS), include_aliases=True),
         with_loader_criteria(CurriculumLessonSource, CurriculumLessonSource.lesson_id.in_(lesson_ids), include_aliases=True),
     ]
 

@@ -173,7 +173,7 @@ def test_citation_uses_printed_activity_number_and_preserves_catalogue_id(
     assert result["paragraph"] == paragraph
 
 
-def test_complete_grades5_to11_api_once_only_xp(setup, tmp_path):
+def test_complete_grades5_to11_api_once_only_xp(setup, tmp_path, expected_lessons=406):
     client, factory = setup
     catalog, _ = load_documents()
     lessons = load_lesson_set()
@@ -296,7 +296,7 @@ def test_complete_grades5_to11_api_once_only_xp(setup, tmp_path):
                     json.dumps(response.json(), ensure_ascii=False, indent=2) + "\n"
                 )
     assert checkpoints == 47  # 46 textbook chapters plus the grade-8 introduction
-    assert events - checkpoints == 406  # 355 theory lessons and 51 digital activities
+    assert events - checkpoints == expected_lessons  # 355 theory lessons and 51 digital activities
     with factory.begin() as db:
         assert db.get(User, 1).xp_total == xp
         assert db.query(StudyEvent).filter_by(user_id=1).count() == events

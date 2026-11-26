@@ -18,6 +18,7 @@ from uuid import UUID
 
 from fastapi import HTTPException
 from pydantic import BaseModel, ConfigDict, Field, field_validator
+from services.lab_policy import FLAG as LAB_FLAG, WITHHELD_KINDS, is_withheld
 from services import beta_curriculum as beta, study_help
 from services.study_help_provider import SelectorUnavailable
 
@@ -230,7 +231,8 @@ def teaching_chunks(db, subject):
             CurriculumChapter, CurriculumChapter.id == CurriculumTopic.chapter_id).join(
             CurriculumCourse, CurriculumCourse.id == CurriculumChapter.course_id).join(
             SkillSubject, SkillSubject.id == CurriculumCourse.subject_id).filter(
-            SkillSubject.slug == subject, SkillSubject.is_active.is_(True)).all()
+            SkillSubject.slug == subject, SkillSubject.is_active.is_(True),
+            *([CurriculumTopic.kind.not_in(WITHHELD_KINDS)] if db.info.get(LAB_FLAG) else [])).all()
         for lesson, source, course in rows:
             canonical = biology_teaching().get(source.content_key)
             if canonical is None or canonical[1] != source.content_sha256:
@@ -246,6 +248,8 @@ def teaching_chunks(db, subject):
         _, model, _, _ = beta.adapter(db, subject)
         from services.reviewed_mobile_release import validate_object
         for lesson in db.query(model).filter_by(subject=subject).order_by(model.grade, model.sequence):
+            if is_withheld(getattr(lesson, 'topic_id', None), db):
+                continue  # laboratory work is withheld (services/lab_policy.py)
             validate_object(lesson)
             for section in ('cards','formulas','examples','reflections'):
                 for card in lesson.content.get(section, []):

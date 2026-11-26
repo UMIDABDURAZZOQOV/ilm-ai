@@ -133,7 +133,7 @@ def test_old_preferences_are_hidden_in_get_and_post_responses_but_not_erased(mob
         assert old.subject == "math" and old.grade == "1" and old.daily_goal_xp == 30
 
 
-def test_complete_all_406_mobile_lessons_and_47_checkpoints(setup, tmp_path):
+def test_complete_all_355_mobile_lessons_and_47_checkpoints(setup, tmp_path):
     from test_biology_continuation import test_complete_grades5_to11_api_once_only_xp as exercise
     client, factory = setup
     client.app.include_router(router)
@@ -145,4 +145,6 @@ def test_complete_all_406_mobile_lessons_and_47_checkpoints(setup, tmp_path):
         def post(self, path, **kwargs):
             return client.post("/mobile" + path, **kwargs)
 
-    exercise((MobileClient(), factory), tmp_path)
+    # The app withholds the 51 Biology laboratory/practical lessons (services/lab_policy.py);
+    # every chapter checkpoint and grade completion still works without them.
+    exercise((MobileClient(), factory), tmp_path, expected_lessons=355)

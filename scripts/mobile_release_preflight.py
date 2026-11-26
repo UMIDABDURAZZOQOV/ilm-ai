@@ -15,9 +15,10 @@ import requests
 
 
 SUBJECTS = {"biologiya", "fizika", "kimyo", "ozbekiston_tarixi", "jahon_tarixi"}
-# Reviewed 1.0.3 publication, including the legacy Biology curriculum.
+# Reviewed 1.0.3 publication, including the legacy Biology curriculum, with
+# laboratory and practical work withheld (services/lab_policy.py): 51 + 36 + 64.
 RELEASE_103_LESSONS = {
-    "biologiya": 406, "fizika": 316, "kimyo": 268,
+    "biologiya": 355, "fizika": 280, "kimyo": 204,
     "jahon_tarixi": 219, "ozbekiston_tarixi": 172,
 }
 

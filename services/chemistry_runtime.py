@@ -12,6 +12,7 @@ from fastapi import HTTPException
 from sqlalchemy import inspect, update
 from sqlalchemy.exc import IntegrityError
 
+from services.lab_policy import is_withheld
 from services.chemistry_grading import grade_answer, normalized_text
 from services.chemistry_models import (
     ChemistryBase,
@@ -67,9 +68,15 @@ def catalog(db, uid, grade=7):
     }
     ready = True
     result = []
+    imported = []
     for expected, lesson in enumerate(lessons(db, grade), start=1):
         # A missing imported prerequisite must never unlock a later section.
         ready = ready and lesson.sequence == expected
+        imported.append(lesson.sequence)
+        if is_withheld(lesson.topic_id, db):
+            # Laboratory work is withheld (services/lab_policy.py): it is not
+            # listed, cannot be started and never blocks the next lesson.
+            continue
         done = bool(progress.get(lesson.key) and progress[lesson.key].completed_at)
         result.append(
             {
@@ -95,7 +102,7 @@ def catalog(db, uid, grade=7):
         "course_complete": False,
         "source_review_pending": bool(review_issues),
         "source_review_issue_count": len(review_issues),
-        "grade_content_complete": [r["sequence"] for r in result]
+        "grade_content_complete": imported
         == list(range(1, SOURCE_SECTIONS[grade] + 1)) and not review_issues,
         "available_grades": [
             g

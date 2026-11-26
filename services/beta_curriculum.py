@@ -10,7 +10,6 @@ from functools import lru_cache
 from pathlib import Path
 
 from fastapi import HTTPException
-from sqlalchemy import func
 
 from services import assessment_runtime, chemistry_runtime, world_history_runtime, uzbekistan_history_runtime
 from services.assessment_models import CurriculumLessonV2, AssessmentV2Progress
@@ -18,6 +17,7 @@ from services.chemistry_models import ChemistryLesson, ChemistryProgress
 from services.world_history_models import WorldHistoryLesson, WorldHistoryProgress
 from services.uzbekistan_history_models import HistoryLesson, HistoryProgress
 from services.models import User
+from services.lab_policy import is_withheld
 
 ROOT = Path(__file__).resolve().parents[1] / 'scripts/curriculum'
 SUBJECTS = {
@@ -71,9 +71,15 @@ def book(slug, grade):
 
 def grades(db, slug):
     runtime, model, _, _ = adapter(db, slug)
+    # Withheld laboratory work is not a ready lesson (services/lab_policy.py).
+    counts = {}
+    for grade, topic in db.query(model.grade, model.topic_id).filter_by(subject=slug):
+        counts.setdefault(grade, 0)
+        if not is_withheld(topic, db):
+            counts[grade] += 1
     return {'subject': slug, 'grades': [dict(grade=grade, title_uz=book(slug, grade)['title'],
-        status='mapped', ready_lessons=count, language='uz') for grade, count in
-        db.query(model.grade, func.count(model.key)).filter_by(subject=slug).group_by(model.grade).order_by(model.grade)]}
+        status='mapped', ready_lessons=counts[grade], language='uz') for grade in sorted(counts)
+        if counts[grade]]}
 
 
 def chapter_metadata(slug, grade):
@@ -149,10 +155,14 @@ def append_progress(db, uid, profile):
         # Reviewed publication retains its authorization; local previews still
         # have to pass their original runtime gate.
         _, model, progress, _ = adapter(db, slug)
-        total = db.query(model).filter_by(subject=slug).count()
+        # Withheld laboratory work neither adds to the total nor to completions.
+        visible = [key for key, topic in db.query(model.key, model.topic_id).filter_by(subject=slug)
+                   if not is_withheld(topic, db)]
+        total = len(visible)
+        visible = set(visible)
         completed, stars = 0, 0
         for row in db.query(progress).join(model, model.key == progress.lesson_key).filter(progress.user_id == uid, model.subject == slug):
-            if row.completed_at is not None:
+            if row.completed_at is not None and row.lesson_key in visible:
                 completed += 1
                 stars += 3 if row.best_score_pct >= 90 else 2 if row.best_score_pct >= 80 else 1
         subjects.append(dict(metadata(slug), total=total, completed=completed, stars=stars,
