@@ -385,3 +385,27 @@ def test_sentence_repeated_right_before_its_quote_is_dropped():
     value['paragraphs'][0]['text'] = quote + ' «{{quote:0}}» Sodda tushuntirish.'
     reply = tutor.validate_reply(json.dumps(value), context())
     assert reply['paragraphs'][0]['text'] == '«' + quote + '» Sodda tushuntirish.'
+
+
+@pytest.mark.parametrize('where', ['after', 'before'])
+def test_quote_echo_with_other_apostrophe_glyphs_is_shown_once(where):
+    ctx = context()
+    ctx['evidence'][0]['text'] = 'Odamlar tabiatni o‘rganib, o‘z ishlarini yengillashtirgan.'
+    quote = ctx['evidence'][0]['text']
+    # Seen on a phone: the model repeated the cited sentence with ʻ instead of ‘.
+    echo = quote.replace("'", 'ʻ').replace('‘', 'ʻ').replace('’', 'ʼ')
+    value = plan(ctx)
+    value['paragraphs'][0]['text'] = (
+        '«{{quote:0}}» ' + echo + ' Sodda tushuntirish.' if where == 'after'
+        else echo + ' «{{quote:0}}» Sodda tushuntirish.')
+    reply = tutor.validate_reply(json.dumps(value), ctx)
+    text = reply['paragraphs'][0]['text']
+    assert text == '«' + quote + '» Sodda tushuntirish.'
+
+
+def test_echo_pattern_only_relaxes_apostrophes_and_spacing():
+    import re
+    pattern = tutor._echo_pattern("o‘z ishlarini  yengillashtirgan.")
+    assert re.fullmatch(pattern, "oʻz ishlarini yengillashtirgan.")
+    assert re.fullmatch(pattern, "o'z ishlarini yengillashtirgan.")
+    assert not re.fullmatch(pattern, "o‘z ishlarni yengillashtirgan.")

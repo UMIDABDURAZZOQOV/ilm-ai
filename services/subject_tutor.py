@@ -386,6 +386,20 @@ def provider_payload(context):
     return raw
 
 
+_APOSTROPHES = "'ʻʼ‘’`´"
+
+
+def _echo_pattern(text):
+    """Regex for an echo of a quote that may differ only in apostrophe glyphs
+    (o‘z / oʻz / o'z) or spacing. Every other character must match exactly."""
+    apostrophe = '[' + re.escape(_APOSTROPHES) + ']'
+    words = [
+        ''.join(apostrophe if ch in _APOSTROPHES else re.escape(ch) for ch in word)
+        for word in text.split()
+    ]
+    return r'\s+'.join(words)
+
+
 def render_quote_slots(paragraphs, context):
     # Render explicit quote slots, never append missing evidence to prose.
     # A slot can only expand to an exact, bounded, server-provided source quote;
@@ -426,12 +440,17 @@ def render_quote_slots(paragraphs, context):
                 item['text'] = re.sub(
                     re.escape(duplicate) + r'\s+(?=' + re.escape(quote['text']) + ')',
                     '', item['text'])
+                # Same echo with other apostrophe glyphs: keep the exact cited
+                # slot, drop the near-literal copy so the learner reads it once.
+                item['text'] = re.sub(
+                    '(' + re.escape(duplicate) + r')\s+' + _echo_pattern(quote['text']),
+                    r'\1', item['text'])
                 item['text'] = item['text'].replace(marker, quote['text'])
                 # The model may also state the quoted sentence verbatim right
                 # before the «quote». Keep the cited quote, drop the identical
                 # sentence immediately preceding it (exact text only).
                 item['text'] = re.sub(
-                    re.escape(quote['text']) + r'\s*(?=«' + re.escape(quote['text']) + '»)',
+                    _echo_pattern(quote['text']) + r'\s*(?=«' + re.escape(quote['text']) + '»)',
                     '', item['text'])
             if '{{quote:' in item['text']:
                 raise SelectorUnavailable
