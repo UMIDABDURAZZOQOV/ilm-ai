@@ -39,18 +39,18 @@
       "original_baselines": {
         "uzbekistan_history": "dfd48af68135655baa2a43d6af41107c79587fd616a8e70c4f8e4f7fa48cbb08"
       },
-      "current_lf_sha256": "dbde37b4c80b1cb4c898100c2be958799ec838ff31d5f7f14c966ffe19a6edc1",
-      "reviewed_source_commit": "95847462f6c24aabc7c4d469be4940498f17bca5",
-      "reason": "Only import iso_utc and serialize the unchanged 24-hour expiry instant in UTC. No grading/source/content/ID/XP/prerequisite changes; 20 cross-engine timezone cases and real PostgreSQL replay accepted."
+      "current_lf_sha256": "40d818ac9bd736f54a09383c4bddbf5d97a06faedb213e0d1e8b844800d6d9b2",
+      "reviewed_source_commit": "578af20ca5241b4fd3155dbf2f2854892da5d424",
+      "reason": "Withhold laboratory and practical lessons on the published app routes only (services/lab_policy.py, owner decision 2026-11-26): the catalogue skips them when the request session carries the app flag, so they cannot be started and never block the next lesson; grade_content_complete still compares every imported sequence. Without the flag (authoring previews, coverage checks) behaviour and bytes of every other path are unchanged. No grading/source/content/ID/XP changes."
     },
     {
       "path": "services/chemistry_runtime.py",
       "original_baselines": {
         "world_history": "aa450ce09bd1f6ca1fbdb4cdd0b94ed870b8a4d039234d1da67c5cb3178ff572"
       },
-      "current_lf_sha256": "b79a44d2f0c864d9fa879b04338311b5acb0208d5ae49aa65d6476cfcdca0a08",
-      "reviewed_source_commit": "95847462f6c24aabc7c4d469be4940498f17bca5",
-      "reason": "Only import iso_utc and serialize the unchanged 24-hour expiry instant in UTC. Original textbook manifests remain frozen; unknown runtime bytes still fail closed. No grading/source/content/ID/XP/prerequisite changes."
+      "current_lf_sha256": "279fcb7d525ec89364dc9a92cf935a618bc1206e200472a166ef4749b0d9e499",
+      "reviewed_source_commit": "578af20ca5241b4fd3155dbf2f2854892da5d424",
+      "reason": "Withhold laboratory and practical lessons on the published app routes only (services/lab_policy.py, owner decision 2026-11-26): the catalogue skips them when the request session carries the app flag, so they cannot be started and never block the next lesson; grade_content_complete still compares every imported sequence. Without the flag (authoring previews, coverage checks) behaviour and bytes of every other path are unchanged. No grading/source/content/ID/XP changes."
     },
     {
       "path": "services/study.py",

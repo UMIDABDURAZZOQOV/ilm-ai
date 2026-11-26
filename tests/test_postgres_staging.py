@@ -133,7 +133,8 @@ def test_postgres_all_mobile_content_retry_import_and_parallel_completion(postgr
         def post(self, path, **kwargs):
             return client.post("/mobile" + path, **kwargs)
 
-    exercise((MobileClient(), factory), tmp_path)
+    # 51 Biology laboratory/practical lessons are withheld (services/lab_policy.py).
+    exercise((MobileClient(), factory), tmp_path, expected_lessons=355)
     # The full406-lesson walkthrough may outlive the fixture access token on a
     # shared QA host. Start the separate concurrency phase with a fresh owner
     # token; do not change production expiry or hide a non-200 tree response.

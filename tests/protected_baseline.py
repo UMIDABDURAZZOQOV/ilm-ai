@@ -6,7 +6,7 @@ Original manifests are never rewritten. Unknown byte changes fail closed.
 import hashlib
 import json
 
-REVIEW_SHA256 = "d453e2007d38e889fb51e15fb5f25e1dcca4363002ac0ec1771eece1ecef2f0d"
+REVIEW_SHA256 = "8cc6ca6132897e99f29a623b2dd5008a38bc44b9bc168c9effbb91155f85142c"
 REVIEW_PATH = "docs/beta/shared_runtime_review_20261107.json"
 RUNTIME_PATHS = {
     "services/curriculum.py", "services/db.py", "main.py",
