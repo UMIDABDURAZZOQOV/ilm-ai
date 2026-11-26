@@ -358,13 +358,15 @@ def retrieve(db, uid, data, row):
 def quote_options(evidence):
     """Exact bounded source slices, never generated facts or assessment answers."""
     text = evidence['text']
-    options = []
+    slices = []
     for match in re.finditer(r'[^\n.!?]+[.!?]?', text):
         value = match.group().strip()
-        if 3 <= len(value) <= 300 and value not in options:
-            options.append(value)
-        if len(options) == 4:
-            break
+        if 3 <= len(value) <= 300 and value not in slices:
+            slices.append(value)
+    # Offer whole sentences first: a bare heading such as "Nom va kuzatuv"
+    # read as a stray «quote» in the middle of an answer on the phone.
+    sentences = [v for v in slices if v[-1] in '.!?' and len(v.split()) >= 4]
+    options = (sentences or slices)[:4]
     return {f'q{i+1}': value for i, value in enumerate(options)}
 
 

@@ -409,3 +409,15 @@ def test_echo_pattern_only_relaxes_apostrophes_and_spacing():
     assert re.fullmatch(pattern, "oʻz ishlarini yengillashtirgan.")
     assert re.fullmatch(pattern, "o'z ishlarini yengillashtirgan.")
     assert not re.fullmatch(pattern, "o‘z ishlarni yengillashtirgan.")
+
+
+def test_quote_menu_prefers_sentences_over_headings():
+    evidence = dict(id='e1', title='T', text=(
+        'Nom va kuzatuv\n«Fizika» nomi tabiat ma’nosidagi yunoncha so‘z bilan bog‘liq. '
+        'Odamlar tabiatni o‘rganib, usullar izlagan.'))
+    options = list(tutor.quote_options(evidence).values())
+    assert 'Nom va kuzatuv' not in options
+    assert options[0].startswith('«Fizika» nomi') and options[0].endswith('.')
+    # Evidence without any whole sentence still offers its exact slices.
+    bare = dict(id='e2', title='T', text='Bosim birligi\nPaskal')
+    assert list(tutor.quote_options(bare).values()) == ['Bosim birligi', 'Paskal']
