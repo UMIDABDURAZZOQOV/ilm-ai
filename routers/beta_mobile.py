@@ -1,4 +1,8 @@
 """Normal mobile contracts composed over reviewed engines, opt-in staging only."""
+import copy as _copy
+import os as _os
+import threading as _threading
+import time as _time
 from contextlib import asynccontextmanager
 from typing import Annotated
 
@@ -24,6 +28,38 @@ UID = Annotated[int, Depends(get_authenticated_user_id)]
 OWNER = Annotated[int, Depends(verify_user_access)]
 bio_scope = asynccontextmanager(mobile_publication)
 EXPLANATION_RESPONSE_DEADLINE_SECONDS = 18
+
+# The subject catalogue and grade lists are the same for every learner and
+# change only when content is imported, yet each request recomputed them with
+# dozens of cross-region database queries (~2.5 s). CATALOG_CACHE_SECONDS
+# (unset = off, e.g. in tests) keeps a per-process copy for that long.
+_catalog_cache = {}
+_catalog_lock = _threading.Lock()
+
+
+def _catalog_ttl():
+    try:
+        return max(0, int(_os.getenv('CATALOG_CACHE_SECONDS', '0')))
+    except ValueError:
+        return 0
+
+
+def _cache_get(key):
+    if not _catalog_ttl():
+        return None
+    with _catalog_lock:
+        hit = _catalog_cache.get(key)
+        if hit and hit[0] > _time.monotonic():
+            return _copy.deepcopy(hit[1])
+    return None
+
+
+def _cache_put(key, value):
+    ttl = _catalog_ttl()
+    if ttl:
+        with _catalog_lock:
+            _catalog_cache[key] = (_time.monotonic() + ttl, _copy.deepcopy(value))
+    return value
 SCHEMAS = dict(fizika=physics_preview, kimyo=chemistry_preview, jahon_tarixi=world_history_preview, ozbekiston_tarixi=uzbekistan_history_preview)
 
 def beta_db(db: Session = Depends(get_db)):
@@ -143,11 +179,17 @@ def create_router(prefix, db_dependency):
     async def subjects(request: Request, db: DB, grade: int | None = None):
         if grade is not None and grade not in range(5,12):
             raise HTTPException(422, 'grade_out_of_range')
-        async with bio_scope(request, db):
-            bio_grades = skills.list_curriculum_grades('biologiya', db)['grades']
+        key = (prefix, 'grade-rows')
+        grade_rows = _cache_get(key)
+        if grade_rows is None:
+            async with bio_scope(request, db):
+                bio_grades = skills.list_curriculum_grades('biologiya', db)['grades']
+            grade_rows = _cache_put(key, {
+                slug: bio_grades if slug == 'biologiya' else beta.grades(db, slug)['grades']
+                for slug in beta.SUBJECTS})
         result = []
         for slug in beta.SUBJECTS:
-            rows = bio_grades if slug == 'biologiya' else beta.grades(db, slug)['grades']
+            rows = grade_rows[slug]
             available_grades = [g['grade'] for g in rows if g['ready_lessons'] > 0]
             result.append(dict(beta.metadata(slug), grades=available_grades,
                                available=grade is None or grade in available_grades,
@@ -161,10 +203,14 @@ def create_router(prefix, db_dependency):
 
     @router.get('/skills/subjects/{subject_slug}/grades')
     async def grades(subject_slug: str, request: Request, db: DB):
+        key = (prefix, 'grades', subject_slug)
+        cached = _cache_get(key)
+        if cached is not None:
+            return cached
         if subject_slug == 'biologiya':
             async with bio_scope(request, db):
-                return skills.list_curriculum_grades(subject_slug, db)
-        return beta.grades(db, subject_slug)
+                return _cache_put(key, skills.list_curriculum_grades(subject_slug, db))
+        return _cache_put(key, beta.grades(db, subject_slug))
 
 
     @router.get('/skills/{user_id}/tree')
