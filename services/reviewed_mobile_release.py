@@ -8,6 +8,8 @@ The activation reference records operator provenance, not an expert signoff.
 from copy import deepcopy
 from functools import lru_cache
 import os
+import threading
+import time
 
 from fastapi import Depends, HTTPException
 from sqlalchemy import event, inspect
@@ -17,6 +19,10 @@ from services.db import get_db
 
 _AUTHORIZATION = object()
 _SCOPE = "reviewed_mobile_release_authorization"
+
+
+class _CoverageFresh(Exception):
+    """A recent identical coverage check passed; skip the bulk reads."""
 
 
 @lru_cache(maxsize=1)
@@ -147,6 +153,23 @@ def validate_object(instance):
         raise HTTPException(503, "mobile_release_content_not_reviewed")
 
 
+# The whole-catalogue coverage check below reads every lesson hash and every
+# question key (thousands of rows, ~1 s across regions). It ran before EVERY
+# /mobile request, so a launch with 8-10 calls waited seconds for the same
+# answer. PUBLICATION_VERIFY_SECONDS (unset = verify every request, as in
+# tests) remembers a passed check for that long; content only changes on
+# import. Each loaded lesson/question is still validated on use below.
+_coverage_lock = threading.Lock()
+_coverage_verified_until = 0.0
+
+
+def _coverage_ttl():
+    try:
+        return max(0, int(os.getenv("PUBLICATION_VERIFY_SECONDS", "0")))
+    except ValueError:
+        return 0
+
+
 def publication_db(db=Depends(get_db)):
     if os.getenv("MOBILE_REVIEWED_RELEASE") != "true":
         raise HTTPException(404, "reviewed_mobile_release_disabled")
@@ -157,8 +180,13 @@ def publication_db(db=Depends(get_db)):
         and db.get_bind().url.get_backend_name() != "postgresql"
     ):
         raise HTTPException(503, "persistent_release_database_required")
+    global _coverage_verified_until
     try:
         specs, lessons, questions = expected_rows()
+        with _coverage_lock:
+            fresh = _coverage_ttl() and time.monotonic() < _coverage_verified_until
+        if fresh:
+            raise _CoverageFresh
         tables = set(inspect(db.get_bind()).get_table_names())
         if any(not set(spec[0].metadata.tables) <= tables for spec in specs.values()):
             raise HTTPException(503, "mobile_release_schema_not_installed")
@@ -171,6 +199,11 @@ def publication_db(db=Depends(get_db)):
         for model, rows in questions.items():
             if {key for (key,) in db.query(model.key).all()} != set(rows):
                 raise HTTPException(503, "mobile_release_assessments_not_imported")
+        if _coverage_ttl():
+            with _coverage_lock:
+                _coverage_verified_until = time.monotonic() + _coverage_ttl()
+    except _CoverageFresh:
+        pass
     except (OperationalError, ProgrammingError):
         db.rollback()
         raise HTTPException(503, "mobile_release_schema_not_installed") from None

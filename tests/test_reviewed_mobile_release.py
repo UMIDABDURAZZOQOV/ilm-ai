@@ -292,3 +292,22 @@ def test_preview_guard_unchanged_without_release_dependency(beta_api, monkeypatc
         with pytest.raises(HTTPException) as failure:
             beta_curriculum.adapter(db, "fizika")
         assert failure.value.status_code == 404
+
+
+@pytest.mark.parametrize("ttl", [None, "600"])
+def test_coverage_check_is_remembered_only_when_configured(released, monkeypatch, ttl):
+    from services import reviewed_mobile_release as release
+
+    client, _, _ = released
+    if ttl is None:
+        monkeypatch.delenv("PUBLICATION_VERIFY_SECONDS", raising=False)
+    else:
+        monkeypatch.setenv("PUBLICATION_VERIFY_SECONDS", ttl)
+    monkeypatch.setattr(release, "_coverage_verified_until", 0.0)
+    calls = []
+    real = release.inspect
+    monkeypatch.setattr(release, "inspect", lambda bind: calls.append(1) or real(bind))
+    for _ in range(3):
+        assert client.get("/mobile/skills/config").status_code == 200
+    # Unset: every request runs the bulk coverage reads. Set: only the first.
+    assert len(calls) == (3 if ttl is None else 1)
