@@ -236,6 +236,10 @@ class NvidiaExplanationProvider(EvidenceSelector):
     # the second attempt itself needs.
     busy_retry_delay = 0.0
 
+    def fallback_models_for(self, context):
+        """Models a busy primary may hand over to for this request."""
+        return self.fallback_models
+
     def model_matches(self, returned, requested=None):
         return returned == (requested or self.explanation_model)
 
@@ -248,10 +252,11 @@ class NvidiaExplanationProvider(EvidenceSelector):
             **self.generation_options(context)}
         deadline = time.monotonic() + 16
         fallback = False
+        fallbacks = self.fallback_models_for(context)
         for attempt in range(2):
             # Only an upstream availability failure switches models; a format
             # repair retry keeps the model that produced the rejected answer.
-            model = (self.fallback_models[0] if fallback and self.fallback_models
+            model = (fallbacks[0] if fallback and fallbacks
                      else self.explanation_model)
             request = dict(payload, model=model, **self.model_overrides.get(model, {}))
             remaining = deadline - time.monotonic()
@@ -278,12 +283,14 @@ class NvidiaExplanationProvider(EvidenceSelector):
                         if status != 200:
                             logger.warning('study_help_provider_response provider=%s status=%d', self.provider_name, status)
                             retry = response.headers.get("Retry-After") or response.headers.get("retry-after")
-                            if attempt == 0 and 500 <= status <= 599 and self.fallback_models:
+                            if attempt == 0 and 500 <= status <= 599 and fallbacks:
                                 # A busy primary model ("high demand") is not
                                 # a provider-wide pause; try the fallback model.
+                                # Only retrying the same busy model needs a pause.
                                 fallback = True
-                                time.sleep(max(0.0, min(self.busy_retry_delay,
-                                                        deadline - time.monotonic() - 6)))
+                                if fallbacks[0] == self.explanation_model:
+                                    time.sleep(max(0.0, min(self.busy_retry_delay,
+                                                            deadline - time.monotonic() - 6)))
                                 continue
                             with self._lock:
                                 if status == 401:

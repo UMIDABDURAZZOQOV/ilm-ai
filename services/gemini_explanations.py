@@ -25,6 +25,17 @@ class GeminiExplanationProvider(NvidiaExplanationProvider):
     # always shown to learners as "No answer arrived".
     fallback_models = (GEMINI_MODEL,)
     busy_retry_delay = 1.5
+    # App 1.0.4+ sends X-ILM-AI-Models: gemini-any and accepts any Gemini
+    # model, so a busy primary can hand over to a different, less loaded one.
+    # 2.5-flash spends tokens on thinking even at "minimal" and then stops
+    # with finish_reason=length; "none" disables thinking for this model.
+    open_fallback_models = ('gemini-2.5-flash',)
+    model_overrides = {'gemini-2.5-flash': {'reasoning_effort': 'none'}}
+
+    def fallback_models_for(self, context):
+        if context.get('any_gemini_model') is True:
+            return self.open_fallback_models
+        return self.fallback_models
     explanation_url = GEMINI_URL
     capabilities = frozenset({'reviewed-text-v2'})
     read_timeout_seconds = 12

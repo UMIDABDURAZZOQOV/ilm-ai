@@ -284,3 +284,27 @@ def test_render_secret_mount_links_are_trusted_only_inside_the_mount(tmp_path, m
     _symlink_or_skip(escape, outside)
     with pytest.raises(ValueError, match='symlink_forbidden'):
         load_provider(escape)
+
+
+def test_any_gemini_client_gets_a_different_model_when_primary_is_busy(google_transport, monkeypatch):
+    from services import nvidia_explanations
+    pauses = []
+    monkeypatch.setattr(nvidia_explanations.time, 'sleep', pauses.append)
+    google_transport.statuses = [503, 200]
+    google_transport.envelope_change = {'model': 'gemini-2.5-flash'}
+    result = GeminiExplanationProvider(KEY).explain(
+        dict(context(), subject='kimyo', is_correct=False, any_gemini_model=True))
+    assert [call[1]['json']['model'] for call in google_transport.calls] == [GEMINI_MODEL, 'gemini-2.5-flash']
+    assert result['model'] == 'gemini-2.5-flash'
+    assert google_transport.calls[1][1]['json']['reasoning_effort'] == 'none'
+    assert pauses == []  # switching models needs no pause
+
+
+def test_exact_model_client_still_retries_the_same_model(google_transport, monkeypatch):
+    from services import nvidia_explanations
+    monkeypatch.setattr(nvidia_explanations.time, 'sleep', lambda s: None)
+    google_transport.statuses = [503, 200]
+    result = GeminiExplanationProvider(KEY).explain(
+        dict(context(), subject='kimyo', is_correct=False, any_gemini_model=False))
+    assert [call[1]['json']['model'] for call in google_transport.calls] == [GEMINI_MODEL, GEMINI_MODEL]
+    assert result['model'] == GEMINI_MODEL

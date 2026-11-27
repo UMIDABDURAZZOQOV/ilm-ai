@@ -60,6 +60,11 @@ def create_router(prefix, db_dependency):
         Depends(db_dependency), Depends(withholding(db_dependency))])
     DB = Annotated[Session, Depends(db_dependency)]
 
+    def accepts_any_gemini(request):
+        # App 1.0.3 validates one exact model name; 1.0.4+ declares it can
+        # take any Gemini model so a busy model is not a dead end.
+        return (request.headers.get('x-ilm-ai-models') if request else None) == 'gemini-any'
+
     @router.post('/ai-answer-report')
     def report_ai_answer(data: AnswerReport, db: DB, uid: UID):
         return save_answer_report(db, uid, data)
@@ -82,6 +87,7 @@ def create_router(prefix, db_dependency):
                     context = await run_in_threadpool(tutor.retrieve, db, uid, data, row)
             else:
                 context = await run_in_threadpool(tutor.retrieve, db, uid, data, row)
+            context['any_gemini_model'] = accepts_any_gemini(request)
             release_read_transaction(db)
         except BaseException:
             # Retrieval still owns this turn until it hands off to respond().
@@ -109,6 +115,7 @@ def create_router(prefix, db_dependency):
         else:
             context = help_service.evidence_context(db, uid, data)
         help_service.attach_provider_eligibility(db, uid, context)
+        context['any_gemini_model'] = accepts_any_gemini(request)
         # All DB ownership/source checks finish before optional external inference.
         # Return the read-only connection before a slow provider can hold the pool.
         from services.reliability import release_read_transaction
