@@ -232,6 +232,9 @@ class NvidiaExplanationProvider(EvidenceSelector):
     fallback_models = ()
     # Per-model request differences, e.g. a fallback that must not "think".
     model_overrides = {}
+    # Pause before retrying a busy (5xx) model, never eating into the time
+    # the second attempt itself needs.
+    busy_retry_delay = 0.0
 
     def model_matches(self, returned, requested=None):
         return returned == (requested or self.explanation_model)
@@ -279,6 +282,8 @@ class NvidiaExplanationProvider(EvidenceSelector):
                                 # A busy primary model ("high demand") is not
                                 # a provider-wide pause; try the fallback model.
                                 fallback = True
+                                time.sleep(max(0.0, min(self.busy_retry_delay,
+                                                        deadline - time.monotonic() - 6)))
                                 continue
                             with self._lock:
                                 if status == 401:
