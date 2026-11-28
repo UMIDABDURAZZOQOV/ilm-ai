@@ -11,6 +11,7 @@ import os
 
 from fastapi import Depends, HTTPException, Request
 from sqlalchemy import event, select, tuple_
+from starlette.concurrency import run_in_threadpool
 from sqlalchemy.exc import OperationalError, ProgrammingError
 from sqlalchemy.orm import with_loader_criteria
 
@@ -98,10 +99,12 @@ async def mobile_publication(request: Request, db=Depends(get_db)):
         # Laboratory work is withheld in every subject (services/lab_policy.py).
         topic.c.kind.not_in(WITHHELD_KINDS),
     )
+    # These cross-region queries are synchronous. Run them in the threadpool so
+    # one slow scope lookup cannot freeze every other request on the event loop.
     try:
-        rows = db.execute(statement).all()
+        rows = await run_in_threadpool(lambda: db.execute(statement).all())
     except (OperationalError, ProgrammingError):
-        db.rollback()
+        await run_in_threadpool(db.rollback)
         raise HTTPException(503, "mobile_schema_not_ready") from None
     lesson_ids, unit_ids, subject_ids, chapter_ids, course_ids = (
         tuple({r[i] for r in rows}) for i in range(5)
@@ -111,9 +114,9 @@ async def mobile_publication(request: Request, db=Depends(get_db)):
     # Keep every mapped chapter/topic of the visible course, including content
     # gaps. Filtering out empty chapters would falsely mark a partial course
     # completed and bypass its existing prerequisite checks.
-    mapped = db.execute(select(chapter.c.id, chapter.c.unit_id).where(
+    mapped = await run_in_threadpool(lambda: db.execute(select(chapter.c.id, chapter.c.unit_id).where(
         chapter.c.course_id.in_(course_ids)
-    )).all()
+    )).all())
     chapter_ids = tuple(r[0] for r in mapped)
     unit_ids = tuple(r[1] for r in mapped)
     criteria = [

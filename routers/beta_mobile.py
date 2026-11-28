@@ -9,6 +9,7 @@ from typing import Annotated
 from fastapi import APIRouter, Body, Depends, HTTPException, Request
 from pydantic import ConfigDict, ValidationError
 from sqlalchemy.orm import Session
+from starlette.concurrency import run_in_threadpool as _thread
 
 from services import beta_curriculum as beta
 from services.auth_deps import get_authenticated_user_id, verify_user_access
@@ -124,7 +125,7 @@ def create_router(prefix, db_dependency):
             else:
                 context = await run_in_threadpool(tutor.retrieve, db, uid, data, row)
             context['any_gemini_model'] = accepts_any_gemini(request)
-            release_read_transaction(db)
+            await run_in_threadpool(release_read_transaction, db)
         except BaseException:
             # Retrieval still owns this turn until it hands off to respond().
             # Client cancellation must also release it so the same message can retry.
@@ -145,17 +146,18 @@ def create_router(prefix, db_dependency):
         from services import study_help as help_service
         from starlette.concurrency import run_in_threadpool
         help_service.throttle(uid)
+        # Database work is synchronous: keep it off the event loop (see _thread).
         if data.subject == 'biologiya':
             async with bio_scope(request, db):
-                context = help_service.evidence_context(db, uid, data)
+                context = await _thread(help_service.evidence_context, db, uid, data)
         else:
-            context = help_service.evidence_context(db, uid, data)
-        help_service.attach_provider_eligibility(db, uid, context)
+            context = await _thread(help_service.evidence_context, db, uid, data)
+        await _thread(help_service.attach_provider_eligibility, db, uid, context)
         context['any_gemini_model'] = accepts_any_gemini(request)
         # All DB ownership/source checks finish before optional external inference.
         # Return the read-only connection before a slow provider can hold the pool.
         from services.reliability import release_read_transaction
-        release_read_transaction(db)
+        await _thread(release_read_transaction, db)
         allow_generation = help_service.supports_generation(request.headers.get('x-ilm-study-help'))
         if allow_generation:
             # Socket timeouts do not bound every resolver/driver stall. Stop
@@ -183,10 +185,10 @@ def create_router(prefix, db_dependency):
         grade_rows = _cache_get(key)
         if grade_rows is None:
             async with bio_scope(request, db):
-                bio_grades = skills.list_curriculum_grades('biologiya', db)['grades']
-            grade_rows = _cache_put(key, {
+                bio_grades = (await _thread(skills.list_curriculum_grades, 'biologiya', db))['grades']
+            grade_rows = _cache_put(key, await _thread(lambda: {
                 slug: bio_grades if slug == 'biologiya' else beta.grades(db, slug)['grades']
-                for slug in beta.SUBJECTS})
+                for slug in beta.SUBJECTS}))
         result = []
         for slug in beta.SUBJECTS:
             rows = grade_rows[slug]
@@ -209,31 +211,31 @@ def create_router(prefix, db_dependency):
             return cached
         if subject_slug == 'biologiya':
             async with bio_scope(request, db):
-                return _cache_put(key, skills.list_curriculum_grades(subject_slug, db))
-        return _cache_put(key, beta.grades(db, subject_slug))
+                return _cache_put(key, await _thread(skills.list_curriculum_grades, subject_slug, db))
+        return _cache_put(key, await _thread(beta.grades, db, subject_slug))
 
 
     @router.get('/skills/{user_id}/tree')
     async def tree(subject: str, grade: int, request: Request, db: DB, user_id: OWNER):
         if subject == 'biologiya':
             async with bio_scope(request, db):
-                return skills.get_tree(subject, grade, user_id, db)
-        return beta.tree(db, user_id, subject, grade)
+                return await _thread(skills.get_tree, subject, grade, user_id, db)
+        return await _thread(beta.tree, db, user_id, subject, grade)
 
 
     @router.get('/skills/{user_id}/curriculum')
     async def outline(subject: str, grade: int, request: Request, db: DB, user_id: OWNER):
         if subject == 'biologiya':
             async with bio_scope(request, db):
-                return skills.get_curriculum(subject, grade, user_id, db)
-        return beta.outline(db, user_id, subject, grade)
+                return await _thread(skills.get_curriculum, subject, grade, user_id, db)
+        return await _thread(beta.outline, db, user_id, subject, grade)
 
 
     @router.get('/skills/{user_id}/profile')
     async def profile(request: Request, db: DB, user_id: OWNER):
         async with bio_scope(request, db):
-            result = skills.get_profile(user_id, db)
-        return beta.append_progress(db, user_id, result)
+            result = await _thread(skills.get_profile, user_id, db)
+        return await _thread(beta.append_progress, db, user_id, result)
 
 
     @router.get('/skills/{user_id}/preferences')
@@ -244,8 +246,8 @@ def create_router(prefix, db_dependency):
     @router.get('/skills/{user_id}/achievements')
     async def achievements(request: Request, db: DB, user_id: OWNER):
         async with bio_scope(request, db):
-            result = skills.get_achievements(user_id, db)
-        return beta.append_achievements(db, user_id, result)
+            result = await _thread(skills.get_achievements, user_id, db)
+        return await _thread(beta.append_achievements, db, user_id, result)
 
 
     @router.post('/skills/{user_id}/preferences')
